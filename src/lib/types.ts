@@ -26,6 +26,7 @@ export type Feed = {
     purchase: number;
     news: number;
     portals?: number;
+    linkedin?: number;
     newThisCrawl: number;
     withCompany: number;
   };

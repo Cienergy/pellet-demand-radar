@@ -76,6 +76,25 @@ export const GOOGLE_TENDER_QUERIES = [
   },
 ];
 
+/** Public LinkedIn posts / company updates indexed by search engines (no LinkedIn login). */
+export const LINKEDIN_QUERIES = [
+  {
+    label: "LinkedIn · pellet demand",
+    query:
+      'site:linkedin.com ("biomass pellet" OR "agro residue pellet" OR "torrefied pellet" OR "wood pellet") (tender OR procurement OR purchase OR requirement OR offtake OR "looking for" OR supplier) India',
+  },
+  {
+    label: "LinkedIn · utilities",
+    query:
+      'site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR "Tata Power" OR "Adani Power" OR UltraTech OR Dalmia) (pellet OR "biomass co-firing" OR "agro residue") (tender OR buy OR procure OR requirement)',
+  },
+  {
+    label: "LinkedIn · sellers seeking buyers",
+    query:
+      'site:linkedin.com ("biomass pellets" OR "paddy straw pellets") (available OR supply OR "can supply" OR "seeking buyers" OR "invite enquiry") India',
+  },
+];
+
 export const NOISE_PATTERNS = [
   /market size/i,
   /growth report/i,

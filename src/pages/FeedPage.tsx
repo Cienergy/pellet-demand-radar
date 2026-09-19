@@ -8,7 +8,7 @@ export function FeedPage() {
   const [q, setQ] = useState("");
   const [type, setType] = useState<OpportunityType | "all">("tender");
   const [company, setCompany] = useState("");
-  const [channel, setChannel] = useState<"all" | "portal" | "news">("all");
+  const [channel, setChannel] = useState<"all" | "portal" | "news" | "linkedin">("all");
   const [selected, setSelected] = useState<Opportunity | null>(null);
 
   const filtered = useMemo(() => {
@@ -21,8 +21,10 @@ export function FeedPage() {
         item.channel === "portal" ||
         item.source === "ntpc_portal" ||
         item.source === "company_portal";
+      const isLinkedIn = item.channel === "linkedin" || item.source === "linkedin";
       if (channel === "portal" && !isPortal) return false;
-      if (channel === "news" && isPortal) return false;
+      if (channel === "linkedin" && !isLinkedIn) return false;
+      if (channel === "news" && (isPortal || isLinkedIn)) return false;
       if (!qq) return true;
       const blob = `${item.title} ${item.summary} ${(item.companies || []).join(" ")}`.toLowerCase();
       return blob.includes(qq);
@@ -51,8 +53,8 @@ export function FeedPage() {
           <div className="kpi-value">{feed.stats.purchase}</div>
         </div>
         <div className="kpi-card tone-rose">
-          <div className="kpi-label">Portal hits</div>
-          <div className="kpi-value">{feed.stats.portals ?? 0}</div>
+          <div className="kpi-label">LinkedIn</div>
+          <div className="kpi-value">{feed.stats.linkedin ?? 0}</div>
         </div>
       </div>
 
@@ -69,9 +71,13 @@ export function FeedPage() {
           <option value="news">News</option>
           <option value="all">All types</option>
         </select>
-        <select value={channel} onChange={(e) => setChannel(e.target.value as "all" | "portal" | "news")}>
+        <select
+          value={channel}
+          onChange={(e) => setChannel(e.target.value as "all" | "portal" | "news" | "linkedin")}
+        >
           <option value="all">All sources</option>
           <option value="portal">Company / portals</option>
+          <option value="linkedin">LinkedIn</option>
           <option value="news">News wire</option>
         </select>
         <select value={company} onChange={(e) => setCompany(e.target.value)}>

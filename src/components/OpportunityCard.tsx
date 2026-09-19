@@ -36,6 +36,9 @@ export function OpportunityCard({
           item.source === "company_portal") && (
           <span className="portal-dot">Portal</span>
         )}
+        {(item.channel === "linkedin" || item.source === "linkedin") && (
+          <span className="li-dot">LinkedIn</span>
+        )}
         {item.isNew ? <span className="new-dot">New</span> : null}
         <span className="score">{item.score}</span>
       </div>

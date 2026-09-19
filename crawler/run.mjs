@@ -205,6 +205,7 @@ async function main() {
     purchase: items.filter((i) => i.type === "purchase").length,
     news: items.filter((i) => i.type === "news").length,
     portals: items.filter((i) => i.channel === "portal" || i.source === "ntpc_portal" || i.source === "company_portal").length,
+    linkedin: items.filter((i) => i.channel === "linkedin" || i.source === "linkedin").length,
     newThisCrawl: newCount,
     withCompany: items.filter((i) => (i.companies || []).length > 0).length,
   };
@@ -227,7 +228,7 @@ async function main() {
   mkdirSync(dirname(OUT), { recursive: true });
   writeFileSync(OUT, JSON.stringify(feed, null, 2));
   console.log(
-    `Crawl done in ${feed.crawlDurationMs}ms · ${stats.total} items · ${newCount} new · tenders ${stats.tenders} · portals ${stats.portals}`
+    `Crawl done in ${feed.crawlDurationMs}ms · ${stats.total} items · ${newCount} new · tenders ${stats.tenders} · portals ${stats.portals} · linkedin ${stats.linkedin}`
   );
 }
 
