@@ -357,6 +357,8 @@ button, input, select { font: inherit; color: inherit; }
   border-color: transparent;
   color: #fff;
 }
+.btn:disabled { opacity: 0.65; cursor: wait; }
+.toolbar-error { color: var(--weak); font-size: var(--fs-xs); font-weight: 600; }
 
 .scan-hero { margin-bottom: 1rem; }
 .scan-hero h1 {

@@ -4,7 +4,7 @@ import type { Opportunity, OpportunityType } from "../lib/types";
 import { useFeed } from "../lib/useFeed";
 
 export function FeedPage() {
-  const { feed, loading, error, refresh, lastFetch } = useFeed();
+  const { feed, loading, refreshing, error, refresh, lastFetch } = useFeed();
   const [q, setQ] = useState("");
   const [type, setType] = useState<OpportunityType | "all">("tender");
   const [company, setCompany] = useState("");
@@ -86,14 +86,20 @@ export function FeedPage() {
             <option key={c} value={c}>{c}</option>
           ))}
         </select>
-        <button type="button" className="btn primary" onClick={() => void refresh()}>
-          Refresh
+        <button
+          type="button"
+          className="btn primary"
+          disabled={refreshing}
+          onClick={() => void refresh(true)}
+        >
+          {refreshing ? "Refreshing…" : "Refresh"}
         </button>
         <span className="live-pill">
           <span className="pulse" />
-          Updated {relativeTime(feed.updatedAt)}
-          {lastFetch ? ` · synced ${relativeTime(lastFetch)}` : ""}
+          Feed {relativeTime(feed.updatedAt)}
+          {lastFetch ? ` · checked ${relativeTime(lastFetch)}` : ""}
         </span>
+        {error ? <span className="toolbar-error">{error}</span> : null}
       </div>
 
       <div className="feed-layout">

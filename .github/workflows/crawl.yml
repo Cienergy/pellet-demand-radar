@@ -2,19 +2,27 @@ name: Continuous crawl
 
 on:
   schedule:
-    - cron: "0 */3 * * *"
+    # Hourly (GitHub may delay cron slightly under load)
+    - cron: "5 * * * *"
   workflow_dispatch:
 
+# GITHUB_TOKEN pushes do not trigger other workflows, so this job must
+# deploy Pages itself after writing feed.json.
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
-  group: crawl
-  cancel-in-progress: true
+  group: demand-crawl
+  cancel-in-progress: false
 
 jobs:
   crawl:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -34,3 +42,11 @@ jobs:
             git commit -m "chore: refresh pellet demand feed"
             git push
           fi
+      - run: npm run build
+        env:
+          VITE_BASE: /pellet-demand-radar/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deployment
+        uses: actions/deploy-pages@v4

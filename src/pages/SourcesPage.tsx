@@ -14,7 +14,7 @@ export function SourcesPage() {
         <div>
           <h1>Sources</h1>
           <p>
-            Continuous crawler · last run {relativeTime(feed.updatedAt)} ·{" "}
+            Hourly crawler · deploys live feed · last run {relativeTime(feed.updatedAt)} ·{" "}
             {(feed.crawlDurationMs / 1000).toFixed(1)}s
           </p>
         </div>
