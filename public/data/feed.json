@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-09-19T20:24:53.004Z",
-  "crawlDurationMs": 19526,
+  "updatedAt": "2026-09-19T22:50:06.587Z",
+  "crawlDurationMs": 16745,
   "stats": {
-    "total": 311,
-    "tenders": 55,
-    "purchase": 58,
-    "news": 198,
-    "portals": 47,
-    "linkedin": 197,
+    "total": 319,
+    "tenders": 57,
+    "purchase": 59,
+    "news": 203,
+    "portals": 49,
+    "linkedin": 201,
     "newThisCrawl": 8,
-    "withCompany": 75
+    "withCompany": 78
   },
   "sources": [
     {
@@ -69,11 +69,11 @@
       "error": "HTTP 403"
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "NTPC live tenders",
       "query": null,
       "count": 0,
-      "error": "HTTP 404"
+      "error": null
     },
     {
       "ok": true,
@@ -90,18 +90,18 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 54,
+      "count": 52,
       "error": null
     },
     {
@@ -142,7 +142,7 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 64,
+      "count": 62,
       "error": null
     },
     {
@@ -350,6 +350,23 @@
       "discoveredAt": "2026-09-19T15:47:30.438Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "0824dc9919c",
+      "title": "NTPC Invites Bids for Procurement of Biomass Pellets to Co-Fire Thermal Power Plants - energetica-india.net",
+      "summary": "NTPC Invites Bids for Procurement of Biomass Pellets to Co-Fire Thermal Power Plants energetica-india.net",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcjBKSnRXR0NHRU1FOFd6clJyTjhFeG5DM2VndWhPV0phbF94b2Q2TmgxMkgtWFBsQ184T0FTTjN5Unl6M0dtTFBCLVNHUjNILUVLYlhjcHRKZkUtRk9HQWc1UlB2QjBCa19mUWFmOF9VVGx3dkd4RlBFQ3B0MUQ1eEpjdGp3WGJRZ2xLc3VuRmVCdGZKcHM0S3ltd084N1l3dDA0SGM3TkVGWEJtZjgxenlGdnFxR1JDUVNqcW81VQ?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 84,
+      "publishedAt": "2020-09-28T07:00:00.000Z",
+      "discoveredAt": "2026-09-19T22:49:51.646Z",
+      "channel": "portal",
+      "isNew": true
     },
     {
       "id": "01969a9b2ff",
@@ -814,6 +831,24 @@
       "publishedAt": "2020-09-28T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:52:05.694Z",
       "isNew": false
+    },
+    {
+      "id": "da42ccd462b7f2f5",
+      "title": "NTPC Invites Bids for Procurement of Biomass Pellets to Co-Fire Thermal Power Plants - energetica-india.net",
+      "summary": "NTPC Invites Bids for Procurement of Biomass Pellets to Co-Fire Thermal Power Plants energetica-india.net",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcjBKSnRXR0NHRU1FOFd6clJyTjhFeG5DM2VndWhPV0phbF94b2Q2TmgxMkgtWFBsQ184T0FTTjN5Unl6M0dtTFBCLVNHUjNILUVLYlhjcHRKZkUtRk9HQWc1UlB2QjBCa19mUWFmOF9VVGx3dkd4RlBFQ3B0MUQ1eEpjdGp3WGJRZ2xLc3VuRmVCdGZKcHM0S3ltd084N1l3dDA0SGM3TkVGWEJtZjgxenlGdnFxR1JDUVNqcW81VQ?oc=5",
+      "source": "google_news",
+      "sourceLabel": "State utilities",
+      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 91,
+      "publishedAt": "2020-09-28T07:00:00.000Z",
+      "discoveredAt": "2026-09-19T22:49:50.239Z",
+      "channel": "news",
+      "isNew": true
     },
     {
       "id": "e6b86fe3b7e0b14c",
@@ -1684,6 +1719,21 @@
       "isNew": false
     },
     {
+      "id": "56b571cf1d1",
+      "title": "Sunil Rai 🇮🇳 - Bio-Energy (Feedstock)| De-Carbonization|Biomass SCM |Briquette| Pellet| Bio-CNG| Planning| Aggregation| Sustainability| IIM-Lucknow| Ex- RIL | Ex-PRESPL| Effective Sourcing of right kind of (Agri waste)|23 K connections - LinkedIn India",
+      "summary": "Sunil Rai 🇮🇳 - Bio-Energy (Feedstock)| De-Carbonization|Biomass SCM |Briquette| Pellet| Bio-CNG| Planning| Aggregation| Sustainability| IIM-Lucknow| Ex- RIL | Ex-PRESPL| Effective Sourcing of right kind of (Agri waste)|23 K connections LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9vS3RJaTRWd0FpblJLd3B6dWgwY0hrRE9GcGVWVWg1RmNZSjM5VEpYS0djNWhxZ0YzeGdqaXoxZ2pWWWJmQlhKcXBvVjZYMTZuN1dxcHRBdmZkay05akZIcUFtWGR3RUlXZnZ5UUhUaFFRZlRMeGMxSUZn?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2024-10-07T06:16:14.000Z",
+      "discoveredAt": "2026-09-19T22:49:51.683Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "2f37346e183",
       "title": "SANJAY BAIRWA - CC Incharge (Plant Manager) Biomass Supply Chain & Ops Mgt for Bio Energy Business (Feed Stock), Briquette, Pellet, Aggregation and Sourcing of Right Kind of Biomass (Agri Waste). - in.linkedin.com",
       "summary": "SANJAY BAIRWA - CC Incharge (Plant Manager) Biomass Supply Chain & Ops Mgt for Bio Energy Business (Feed Stock), Briquette, Pellet, Aggregation and Sourcing of Right Kind of Biomass (Agri Waste). in.linkedin.com",
@@ -2297,6 +2347,23 @@
       "isNew": false
     },
     {
+      "id": "52ad2fd5284",
+      "title": "NTPC to use biomass to co-fire coal-based power plants, cut emissions - indianexpress.com",
+      "summary": "NTPC to use biomass to co-fire coal-based power plants, cut emissions indianexpress.com",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbmEtd2ZoaVQwMmlSNzFqekZ4X0tpXzBvTUFWT25rNUM5eEZ6QU1aU2ctbVlCWDBsbloxUTc1NnZCNmhTa2Z1VXBRU0VyOFhNT0hOMFdnc1h0ODExeFJ6ZXdaQjA1dS1WNlhxbXJBQkR2cnl2cVJMM05HTW9QTU9wT180d3lXY1l1VF9YVnlTRTg1RldCQUx0TTY0WDB2ZXVJdVRXYkY4bk1JQzlQQ0pWN2NIX01wY0Jo0gG_AUFVX3lxTFBFaFVab0wwMERuX1AtT1FSN1VwMUlianRLTVdpS2V2STU5bWU4STNiUkc2WVVmU24zRVZ5OXJad2lPUS1HXzFSdENHYUFxR1llSEpEMkNtV0RhckNyQmNFNTFVTG1EMHpwSnloZDRCWVlaSG1KNEhLako2ejYyRVpTdHZrbHo0NFBvbWRjWGVZWVl3b1ZnN21sN1dEMGdDWFZxaFE0ajhqbXc2WDM3Ujk4azlFams2cVdiWk1Genln?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "news",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 70,
+      "publishedAt": "2018-10-21T07:00:00.000Z",
+      "discoveredAt": "2026-09-19T22:49:51.647Z",
+      "channel": "portal",
+      "isNew": true
+    },
+    {
       "id": "6c4875c315d",
       "title": "Wood Pellet Heating Systems Market Analysis: Industry Trends and CAGR 4% Growth 2026 to 2033 - LinkedIn",
       "summary": "Wood Pellet Heating Systems Market Analysis: Industry Trends and CAGR 4% Growth 2026 to 2033 LinkedIn",
@@ -2384,7 +2451,7 @@
       "publishedAt": "2026-09-12T14:06:22.000Z",
       "discoveredAt": "2026-09-19T20:24:36.304Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1683027515b",
@@ -2564,7 +2631,7 @@
       "publishedAt": "2026-09-03T07:00:00.000Z",
       "discoveredAt": "2026-09-19T20:24:35.268Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7c6eb35822e",
@@ -2713,6 +2780,21 @@
       "score": 70,
       "publishedAt": "2026-06-22T21:25:44.000Z",
       "discoveredAt": "2026-09-19T20:24:36.306Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "5c545f531ae",
+      "title": "Khushi Jayswal - Plant HR & HRBP |Biofuel/ Biomass Industry &FMCG |End-to-End HR Operations |Recruitment • Payroll • Labor Compliance • Employee Relations |Training & Development |Exhibitions For BusinessGrow |PMS | Industrial Relations - LinkedIn India",
+      "summary": "Khushi Jayswal - Plant HR & HRBP |Biofuel/ Biomass Industry &FMCG |End-to-End HR Operations |Recruitment • Payroll • Labor Compliance • Employee Relations |Training & Development |Exhibitions For BusinessGrow |PMS | Industrial Relations LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE52STFtdG5QZmYzaXVkT1JrcWxxRkVYX2FDQ3lYS2N6WVgySnkwS1l2TTN0bUdfQzdsdTl5WHlzd0RoZXRTN1o5dWp1RUtjMUJEbHdOY0g5SG9WT3BEYklCRA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-06-22T21:25:44.000Z",
+      "discoveredAt": "2026-09-19T22:49:52.636Z",
       "channel": "linkedin",
       "isNew": true
     },
@@ -2991,6 +3073,21 @@
       "isNew": false
     },
     {
+      "id": "18ad5507116",
+      "title": "Ansh Verma - Executive Director @Trio Renewable Engineering || Specialised in Biomass Pelletizing Solutions - LinkedIn India",
+      "summary": "Ansh Verma - Executive Director @Trio Renewable Engineering || Specialised in Biomass Pelletizing Solutions LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE54TktRR2pkOXZ4WkJTczIzNUlTOENUa1NIYS0wa0w3cTYxYUVQQTFqR2d3UjNHT2FLME1UUzhjTVFnUU5TWDktc3JvOHk2Rjg?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-03-26T11:23:47.000Z",
+      "discoveredAt": "2026-09-19T22:49:52.636Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "78a7b1c1250",
       "title": "Building a Sustainable Biomass Pellet & Bio-CNG Business in India The biomass sector in India holds immense potential—not just as a business, but as a mission to create cleaner energy, reduce stubble burning, and strengthen the rural economy. Based on - LinkedIn",
       "summary": "Building a Sustainable Biomass Pellet & Bio-CNG Business in India The biomass sector in India holds immense potential—not just as a business, but as a mission to create cleaner energy, reduce stubble burning, and strengthen the rural economy. Based on LinkedIn",
@@ -3213,7 +3310,7 @@
       "publishedAt": "2025-11-28T15:51:23.000Z",
       "discoveredAt": "2026-09-19T20:24:35.269Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "549d6b20267",
@@ -3513,7 +3610,7 @@
       "publishedAt": "2025-04-01T21:51:26.000Z",
       "discoveredAt": "2026-09-19T20:24:36.306Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "27474f37141",
@@ -4120,6 +4217,21 @@
       "isNew": false
     },
     {
+      "id": "3fbe2b6c10f",
+      "title": "Associate Executive Director @ Wood Pellet Association of Canada | PhD in Chemical Engineering - LinkedIn",
+      "summary": "Associate Executive Director @ Wood Pellet Association of Canada | PhD in Chemical Engineering LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1fbkExMllkTVM5eTNGVkJRc215eHV3NU5kVkZFU2hXcHB5c2x5Y0pOd1o5elgxR1VvamdZMm5zMHhxdkVoRkxTSWJEdnROU0w2SHRSSUJXR2o?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2020-03-31T03:53:13.000Z",
+      "discoveredAt": "2026-09-19T22:49:51.683Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "05ea7fdf15a",
       "title": "Sampad Narayan Sen - Assistant Engineer – Electrical | Power Plant Commissioning | HT/LT Systems | Biomass (Green Coal) Plant | APCPL (NTPC JV) - in.linkedin.com",
       "summary": "Sampad Narayan Sen - Assistant Engineer – Electrical | Power Plant Commissioning | HT/LT Systems | Biomass (Green Coal) Plant | APCPL (NTPC JV) in.linkedin.com",
@@ -4451,7 +4563,7 @@
       "publishedAt": "2015-11-10T04:11:05.000Z",
       "discoveredAt": "2026-09-19T20:24:35.268Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b18ffbcb72c60b91",
@@ -4615,6 +4727,22 @@
       "discoveredAt": "2026-09-19T06:08:27.367Z",
       "channel": "news",
       "isNew": false
+    },
+    {
+      "id": "366248dbc4425d2b",
+      "title": "Ministry of Power Sets Benchmark Price for Biomass Pellets in NCR - energetica-india.net",
+      "summary": "Ministry of Power Sets Benchmark Price for Biomass Pellets in NCR energetica-india.net",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQc1E2ZW5CTzNPYldZUzJldUtCT3o2bXMtLVRYNHkxLXNuY1JfSVVBMXQ3SDE1RWVaYjBQbDV4QkQ5RzNHcDBYTkZDcHJhLVZqdE9idDI5V2t5ZXNsVXo2RVBQUkRDMFFpQmY4SmJOMTM2eXRSdmdDMVhib2l3ZmkybWFKR25fWTliaUFmZmlzc2tWT2RFcVRDbkZkVmVPWW9GUEpHSXZB?oc=5",
+      "source": "google_news",
+      "sourceLabel": "Pellet NITs IN",
+      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
+      "type": "news",
+      "companies": [],
+      "score": 55,
+      "publishedAt": "2024-10-08T07:00:00.000Z",
+      "discoveredAt": "2026-09-19T22:49:50.253Z",
+      "channel": "news",
+      "isNew": true
     },
     {
       "id": "21af6c24efb478e2",
