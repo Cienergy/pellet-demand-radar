@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-09-19T05:08:43.844Z",
-  "crawlDurationMs": 1720,
+  "updatedAt": "2026-09-19T05:52:08.614Z",
+  "crawlDurationMs": 3463,
   "stats": {
-    "total": 50,
-    "tenders": 7,
-    "purchase": 13,
-    "news": 30,
-    "newThisCrawl": 50,
-    "withCompany": 16
+    "total": 59,
+    "tenders": 9,
+    "purchase": 17,
+    "news": 33,
+    "newThisCrawl": 9,
+    "withCompany": 21
   },
   "sources": [
     {
@@ -21,7 +21,7 @@
       "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (pellet OR \"biomass pellet\" OR \"torrefied\") (tender OR procurement OR purchase OR co-firing)",
-      "count": 20,
+      "count": 19,
       "error": null
     },
     {
@@ -63,7 +63,7 @@
       "ok": true,
       "label": "State tenders",
       "query": "(Haryana OR Punjab OR Rajasthan OR Gujarat OR Maharashtra OR \"Uttar Pradesh\") (biomass pellet OR \"paddy straw pellet\") (tender OR procurement)",
-      "count": 11,
+      "count": 10,
       "error": null
     },
     {
@@ -121,6 +121,21 @@
       "score": 55,
       "publishedAt": "2026-08-24T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:43.018Z",
+      "isNew": false
+    },
+    {
+      "id": "1a1b4f144fb1c9a5",
+      "title": "India Biomass Pellets Market Size, Share & Growth Report 2035 | MRFR - marketresearchfuture.com",
+      "summary": "India Biomass Pellets Market Size, Share & Growth Report 2035 | MRFR marketresearchfuture.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOXR3ZW5JYk4zbGJOX1dDbG0xOXlOX0FuZTNaMV84TUZJN3RLTUNRSVRwWl9iN1lRcGhpS1ZFU0lrQUkwSVRoYlBqQnYyOV9QVE5CeGtMRmJqM3h4VVJBTkRDT3J4ZzRHaVlycVdscWhlSDFNSGJmSWVrNmthbUhEWk00NFdtZw?oc=5",
+      "source": "google_news",
+      "sourceLabel": "Torrefied / RDF",
+      "query": "(torrefied OR \"RDF pellet\" OR \"agro waste pellet\") (India) (tender OR purchase OR demand OR requirement)",
+      "type": "news",
+      "companies": [],
+      "score": 55,
+      "publishedAt": "2026-08-24T07:00:00.000Z",
+      "discoveredAt": "2026-09-19T05:52:05.671Z",
       "isNew": true
     },
     {
@@ -151,7 +166,7 @@
       "score": 45,
       "publishedAt": "2026-07-24T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:43.023Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "84fdaf4f24103408",
@@ -166,7 +181,7 @@
       "score": 55,
       "publishedAt": "2025-12-09T08:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:43.024Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "dc094bda957de9ce",
@@ -196,7 +211,7 @@
       "score": 45,
       "publishedAt": "2025-11-25T08:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:42.991Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9797ceb08c26b5d0",
@@ -211,7 +226,7 @@
       "score": 45,
       "publishedAt": "2025-11-24T08:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:43.023Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "edcf47af43b20d90",
@@ -241,6 +256,21 @@
       "score": 53,
       "publishedAt": "2025-10-16T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:43.018Z",
+      "isNew": false
+    },
+    {
+      "id": "457ec4063c6b1bbb",
+      "title": "Demand for Biomass Pellets in EU | Global Market Analysis Report - 2035 - Future Market Insights",
+      "summary": "Demand for Biomass Pellets in EU | Global Market Analysis Report - 2035 Future Market Insights",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb3o2VTJaTC1FY0RUdkNlbEs0OVFNT0pBOEVXYzQ1WnFoNnYxTXJDRlNoX19kVFRLQWdaWUpuNXZYLW5kMVo3dDZJV3NBVkw4Rkk1VHZ1ajFrVU1ydmZvVGliMG5GLVFjR2F5ZVNmOTNJcTdXUG5fWXk0MlNOenZtVkRJRQ?oc=5",
+      "source": "google_news",
+      "sourceLabel": "Torrefied / RDF",
+      "query": "(torrefied OR \"RDF pellet\" OR \"agro waste pellet\") (India) (tender OR purchase OR demand OR requirement)",
+      "type": "purchase",
+      "companies": [],
+      "score": 53,
+      "publishedAt": "2025-10-16T07:00:00.000Z",
+      "discoveredAt": "2026-09-19T05:52:05.673Z",
       "isNew": true
     },
     {
@@ -286,7 +316,7 @@
       "score": 65,
       "publishedAt": "2025-09-20T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:43.019Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6eb7a17e83a70284",
@@ -333,7 +363,7 @@
       "score": 53,
       "publishedAt": "2025-01-15T08:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:42.998Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "105dcacc0d3580e3",
@@ -382,7 +412,7 @@
       "score": 55,
       "publishedAt": "2024-10-30T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:42.988Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "21af6c24efb478e2",
@@ -397,7 +427,7 @@
       "score": 55,
       "publishedAt": "2024-09-15T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:43.020Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d0bf4e0ce04d3ab6",
@@ -444,7 +474,7 @@
       "score": 63,
       "publishedAt": "2024-05-11T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:42.985Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d6fd04a2072eab9f",
@@ -461,7 +491,7 @@
       "score": 63,
       "publishedAt": "2024-05-10T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:42.979Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3ba8a11cab2c30f6",
@@ -478,7 +508,7 @@
       "score": 63,
       "publishedAt": "2024-05-10T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:42.981Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "972c490283bb74bf",
@@ -495,7 +525,7 @@
       "score": 63,
       "publishedAt": "2024-05-10T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:42.988Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7f79887a3ddc0a47",
@@ -512,6 +542,23 @@
       "score": 63,
       "publishedAt": "2024-05-09T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:42.980Z",
+      "isNew": false
+    },
+    {
+      "id": "19ade22948741173",
+      "title": "NTPC successfully demonstrates 20% torrefied biomass co-firing - psuwatch.com",
+      "summary": "NTPC successfully demonstrates 20% torrefied biomass co-firing psuwatch.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUTk1YXE3akNGVlNGSkY2emVpa3EzMEFCUHdIbHNwUks4YUFQLUxKR3hYUklpczJVcUYzVUphdXRpZjFQakdOY3Uydlg0dnRTVE9zSmhtaUo4YjZqb04xRGIyTzFYbHlwQjMyaFcwV1V0RUdtRzlXZmE4NWQycjN2WXB1T1ZfM1h4WVlQeVRFUnM4eWdSdVNwUWZ30gGnAUFVX3lxTE52MVhyT3BfV3lqejE0X0syS2RRVlNsYVFjaWVXUlVMaEhyNmViYzhILWZuSksxWFdZMGZBQnRwaHNzdFB0TEY3Vmw3eUFJRHdIX0xDNktLZEVmTWVxVGtSSXowbmhmYWRiQ0FBTVZ6ZTU2T3paWlFzWVJZNlllUlBBWDhORjI3UXhzeXZ4MmsxTVNVNXA0d3B2c01RM2VTdmtMeVV0d3hR?oc=5",
+      "source": "google_news",
+      "sourceLabel": "Cofiring / NTPC",
+      "query": "NTPC (pellet OR \"biomass pellet\" OR \"torrefied\") (tender OR procurement OR purchase OR co-firing)",
+      "type": "purchase",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 63,
+      "publishedAt": "2024-05-09T07:00:00.000Z",
+      "discoveredAt": "2026-09-19T05:52:05.688Z",
       "isNew": true
     },
     {
@@ -527,7 +574,7 @@
       "score": 63,
       "publishedAt": "2024-02-05T08:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:42.997Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9c3815266f24d64c",
@@ -542,7 +589,7 @@
       "score": 55,
       "publishedAt": "2023-11-24T08:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:43.072Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1e42452104c1113b",
@@ -557,7 +604,7 @@
       "score": 55,
       "publishedAt": "2023-11-13T13:48:22.000Z",
       "discoveredAt": "2026-09-19T05:08:42.997Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0442043ea1d5eba8",
@@ -572,7 +619,7 @@
       "score": 45,
       "publishedAt": "2023-08-11T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:42.998Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "44a0baacb7be3168",
@@ -602,7 +649,7 @@
       "score": 45,
       "publishedAt": "2023-06-27T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:43.019Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b1c9b2d873ef88c7",
@@ -617,6 +664,21 @@
       "score": 53,
       "publishedAt": "2023-04-20T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:43.019Z",
+      "isNew": false
+    },
+    {
+      "id": "787c082fd75ec3e4",
+      "title": "Biomass pellets: CPCB’s revised grants highly inadequate to close demand-supply gap - downtoearth.org.in",
+      "summary": "Biomass pellets: CPCB’s revised grants highly inadequate to close demand-supply gap downtoearth.org.in",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVDVzQ0tiMUc0RXNubnktb0Z1T19VZDBKTjlLOWRBZVdCYWozOFlYZ1BKSzJDV05qSmVoWVp6QWFOWFJPX2tPME1nMHBTMUhQNk5YZjFfWm5EOXlRVHY1TklJN3hTdzZpRUQ0ald0SHFSY2xFN29HYklEZ09WU09JSmp6TzdIUFhOczRna1dBRHkyczRBX3RMUGFqVlBVZWF6aDV5S1l5NF9ZR1RDVFdvNlNvY0ZJRHlyZDFpX2ptWjBEQ1dkR0ZkT9IB1gFBVV95cUxOTjhBUkY2VXhBSE1abUg3THRuUnV3TnVPNHpreVRTWERROGNNekgwejhMMktJNm93cWtXSnRiQTB1YVcxQTgzZ3o3c3htQmpCeE1ZbnhNMmplS011cVgwN0pEU3pYMGN1eWhZSzRKZ0dKLXNmT3FOOWRRRkJ5OU9vUWNNYUdrcV9zcGtTZkVNSzdxOElVY1lUd1VQWDIwQktycFNnZlVmSVV0NHpDZ1ZlVkNwMjNQSDNCLUo3YzA1dUJIekFDR004UmQ4ZkVoOUM4Tm1kZGhB?oc=5",
+      "source": "google_news",
+      "sourceLabel": "Torrefied / RDF",
+      "query": "(torrefied OR \"RDF pellet\" OR \"agro waste pellet\") (India) (tender OR purchase OR demand OR requirement)",
+      "type": "purchase",
+      "companies": [],
+      "score": 53,
+      "publishedAt": "2023-04-20T07:00:00.000Z",
+      "discoveredAt": "2026-09-19T05:52:05.674Z",
       "isNew": true
     },
     {
@@ -647,7 +709,7 @@
       "score": 55,
       "publishedAt": "2022-11-15T08:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:42.992Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e092d4d3e626dd62",
@@ -662,7 +724,7 @@
       "score": 45,
       "publishedAt": "2022-10-13T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:43.018Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ef43cceb878863d9",
@@ -680,6 +742,21 @@
       "isNew": false
     },
     {
+      "id": "7d946329014b2652",
+      "title": "Biomass co-firing: Why India’s target for coal power plants is challenging - downtoearth.org.in",
+      "summary": "Biomass co-firing: Why India’s target for coal power plants is challenging downtoearth.org.in",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMWF3d3NhYkxRSENCcHNFV2R2OEdnbmV1YklyWWktUUdZRWkxWl9KVURGbS1QVEVMbmZSQjctUHlGOFNhV3VuaTktQ2UyMjFGdndKX19USHlJcG02eUpxNTczWl9wbVhuLWlvQTlCdHBRTnk0Z3RhZU5OSFRmSk9RSkpmRWU1VnRDVWZlYzhWTm9jb3o2dTVkV0haaTlUQ1pBTUQ1TWEwdVFGZElNVnJPMlhvQmdLU3hq0gHGAUFVX3lxTFBGdWlFbE1jUm9wbnBOZ3pSbklKaHBIVlVVcmpwaUhnVVVBbjJlMUdsbzZlTEE2VEJZeWRyZEcySTBRX0xxVnRGblJaVmxwcTdMYmRyNHROY29sVUZPLXhlejVyTl9EbFU5VHJmSWM4R09rT1JVZHhzeFpTUmtvUV9wRHg1cjhjVk50MXhpSVI0ek1IQmVPQ0FMTnZoWXYzUGNJeFltQVJnQWRkQXJSNDROLVZYeFlsdUttam41THk4S0NqSVhtQQ?oc=5",
+      "source": "google_news",
+      "sourceLabel": "Company statements",
+      "query": "\"biomass pellet\" (buy OR purchase OR procure OR requirement OR \"invite bids\") India",
+      "type": "news",
+      "companies": [],
+      "score": 38,
+      "publishedAt": "2022-06-13T07:00:00.000Z",
+      "discoveredAt": "2026-09-19T05:52:05.690Z",
+      "isNew": false
+    },
+    {
       "id": "d5d4f9b2c639a9d1",
       "title": "NTPC asks Indian startups to produce torrefied biomass pellets - Construction World",
       "summary": "NTPC asks Indian startups to produce torrefied biomass pellets Construction World",
@@ -694,7 +771,7 @@
       "score": 55,
       "publishedAt": "2022-05-03T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:42.984Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "cabcaf1c7c0a459c",
@@ -711,7 +788,7 @@
       "score": 55,
       "publishedAt": "2022-05-02T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:42.981Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c50c9f1163b709f9",
@@ -728,7 +805,7 @@
       "score": 65,
       "publishedAt": "2022-05-01T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:42.982Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "39f23f4756842c2f",
@@ -745,7 +822,7 @@
       "score": 55,
       "publishedAt": "2022-05-01T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:42.985Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c62b59bffefeb602",
@@ -762,6 +839,23 @@
       "score": 38,
       "publishedAt": "2022-01-25T08:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:43.024Z",
+      "isNew": false
+    },
+    {
+      "id": "850f9a46ba79785e",
+      "title": "Biomass co-firing: NTPC retrofits 13 power stations. Will other companies be able to follow suit? - downtoearth.org.in",
+      "summary": "Biomass co-firing: NTPC retrofits 13 power stations. Will other companies be able to follow suit? downtoearth.org.in",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZjhwU0pZNEJjZUVoRVNvdjJWRFlPbE1OQk1TcjZLcGM5cnNRZHlDbGxseVBWT1M5al9wY3pYZmZWZWJIZVpjdXNXQWdjOGJ2X1dBdlU1S0UzU0Zub2RXY290RjRVZGR3VnMtSnRGdy1FQkRqRlJTYnpEOFYxOWRub3BEbmpLTXVndmRSclZaS3lIU1UtU3JfTVNpakxReE1BaGYtXzZWX3cyS0JheDUxUVpqT0J6SXljNjFOMTRDTXFkQ3hLNDE5djduLU5kd1Vaa0RnYm5pZkhQZ9IB5wFBVV95cUxOSE1fOC1EZ0xpOG1BUm9RcEFjLUtpZjNZZnVOTGVBenZqNE11MVJ0U3FqUnEtamVQYzJ4YVlXX2xxSFhWOXkxcTVwUDFoajZhUWtBcGV5eUYwMUdOcjYzejZKOHZlNm01MndxdUFKeFUySXJFMGh0U19fTlVHc0ZiSk9qS2c2aWplMUhnOWU4YS1zbXQxLVRSMEVpNDA4eFVkbm15eDcxQUQ4TzNyWDFfSWE3bjR1T0E2RnlzczRlRE9Edmx1cjVqUi1oTTI4U2J3QmRZdmFUQTYzaHcyQnlKakhoZUFMRWM?oc=5",
+      "source": "google_news",
+      "sourceLabel": "State tenders",
+      "query": "(Haryana OR Punjab OR Rajasthan OR Gujarat OR Maharashtra OR \"Uttar Pradesh\") (biomass pellet OR \"paddy straw pellet\") (tender OR procurement)",
+      "type": "news",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 38,
+      "publishedAt": "2022-01-25T08:00:00.000Z",
+      "discoveredAt": "2026-09-19T05:52:05.700Z",
       "isNew": true
     },
     {
@@ -777,6 +871,23 @@
       "score": 73,
       "publishedAt": "2022-01-19T08:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:42.997Z",
+      "isNew": false
+    },
+    {
+      "id": "11dbf811e0ddfe30",
+      "title": "NTPC places order for 9.3 lakh tonne biomass pellets for co-firing - Business Standard",
+      "summary": "NTPC places order for 9.3 lakh tonne biomass pellets for co-firing Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTXRTUkJWU3Fpb1Zoc3ZEdnNNa0VpT0NNWFpRMzg2MlllZ0xWNlExRlRYcGRVLV9EbW5VT3B0SHBidVBrb0tfbGdXanFlb2JZSU9ZYU1PT0dPdXFVbnU5Z3RBckJqTkJfckdaUVF6OGtDajJ4OWptc1FIdDhVdkQxbWhfaU45UG5ZZ3I2SXRkcmppYmxZWkdzb05qZUFDMEM1RGI5d1JaWmo1c0ZlU2V5eXV3Q2NFeHF5TVN5NXFlUnAzdjdxMmFySjIxTmZjNWV5WTl6WNIB2gFBVV95cUxPb2tuMXNnT2FJZmQ3c1phXzRJMktCVU5hV3pzSHAxWUhMSlIxMC1NNmJzbm5OcE1wZm55UU9LdEliOXkzTGYxeEVuNWtvRHVQMmtNM3pKRXZIcXEzS0FMaXNMV2dTczViN1NUMk9oZ0JPdkZrTlF0VDI5cHJxRGM2MzZrTzduRmczeTVFdS1ad19CaHhBeWNjbTBjcWxIbHRaOTJMYnhKTHVla3p5bXJYYWJ2QTNfUXluZkFMNUVBaE9jaldEMkRBUzZSQ3ZSYl9Hamp1bzFZV0l2UQ?oc=5",
+      "source": "google_news",
+      "sourceLabel": "Cofiring / NTPC",
+      "query": "NTPC (pellet OR \"biomass pellet\" OR \"torrefied\") (tender OR procurement OR purchase OR co-firing)",
+      "type": "purchase",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 71,
+      "publishedAt": "2021-10-31T07:00:00.000Z",
+      "discoveredAt": "2026-09-19T05:52:05.691Z",
       "isNew": true
     },
     {
@@ -792,7 +903,7 @@
       "score": 45,
       "publishedAt": "2021-01-06T08:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:42.989Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "889dd23a17b84493",
@@ -809,6 +920,40 @@
       "score": 91,
       "publishedAt": "2020-09-28T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:42.989Z",
+      "isNew": false
+    },
+    {
+      "id": "1c2a5843229c2e6d",
+      "title": "NTPC Invites Bids for Procurement of Biomass Pellets to Co-Fire Thermal Power Plants - Energetica India Magazine",
+      "summary": "NTPC Invites Bids for Procurement of Biomass Pellets to Co-Fire Thermal Power Plants Energetica India Magazine",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcjBKSnRXR0NHRU1FOFd6clJyTjhFeG5DM2VndWhPV0phbF94b2Q2TmgxMkgtWFBsQ184T0FTTjN5Unl6M0dtTFBCLVNHUjNILUVLYlhjcHRKZkUtRk9HQWc1UlB2QjBCa19mUWFmOF9VVGx3dkd4RlBFQ3B0MUQ1eEpjdGp3WGJRZ2xLc3VuRmVCdGZKcHM0S3ltd084N1l3dDA0SGM3TkVGWEJtZjgxenlGdnFxR1JDUVNqcW81VQ?oc=5",
+      "source": "google_news",
+      "sourceLabel": "State tenders",
+      "query": "(Haryana OR Punjab OR Rajasthan OR Gujarat OR Maharashtra OR \"Uttar Pradesh\") (biomass pellet OR \"paddy straw pellet\") (tender OR procurement)",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 91,
+      "publishedAt": "2020-09-28T07:00:00.000Z",
+      "discoveredAt": "2026-09-19T05:52:05.692Z",
+      "isNew": false
+    },
+    {
+      "id": "58aae460666a211a",
+      "title": "NTPC invites bids for procurement of biomass pellets to co-fire thermal power plants - psuwatch.com",
+      "summary": "NTPC invites bids for procurement of biomass pellets to co-fire thermal power plants psuwatch.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNemZoLWg1TXB6T0IxTWEzV3NDdlp5eEZQVnpES3BjdmV5bFY2b09oanN1UmlqY1ZJUzc5Z3lqU1lPc0k4WmxRZThGSUpobmtNY3ZzMjRVVFZmaTlYd2FoVXlQWmJlM3VSeU9Db1o3eU12MTlkRm9kSEFzU3ppMlFQa1kwa1NnNUxkekZLOHQ3SHoyUVBaSl94OWtKUDR0MDlQbDZ4MXZqMnFyODA2SHkxYXF3NzVYYmvSAcQBQVVfeXFMTy1HOWVsYmxJSUl1XzFHanVvUkoxY25RVEFCSDIyd2xfQnB6RmY1QUZLSXZfYXRTVEw3LVM4a0M3TWtzMDdjSmxaa0dZTmgtZzJhYVJFUFQ5YUNGaVZYMVFKU1dhMExOTlRxaDROZHJqN2pxb29vSkhfU3BNd0dVRkFrbkJCaDFFUF9Ib1ZCekwzSlVhVE9EU3NyZ1ZZU05tbmFzcHAxV3EwenI0bkUyZ3pkN0ptRDJDZjQwQjNVQ1k2cFExaQ?oc=5",
+      "source": "google_news",
+      "sourceLabel": "State tenders",
+      "query": "(Haryana OR Punjab OR Rajasthan OR Gujarat OR Maharashtra OR \"Uttar Pradesh\") (biomass pellet OR \"paddy straw pellet\") (tender OR procurement)",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 91,
+      "publishedAt": "2020-09-28T07:00:00.000Z",
+      "discoveredAt": "2026-09-19T05:52:05.694Z",
       "isNew": false
     },
     {
@@ -843,7 +988,7 @@
       "score": 63,
       "publishedAt": "2020-01-02T08:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:42.987Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1eba630ed10f36d7",
@@ -858,7 +1003,7 @@
       "score": 45,
       "publishedAt": "2018-10-25T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:42.988Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "536d34b626e5f3d7",
@@ -873,7 +1018,7 @@
       "score": 45,
       "publishedAt": "2017-08-11T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:42.998Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0aa1f2331174a8e9",
@@ -888,7 +1033,7 @@
       "score": 55,
       "publishedAt": "2017-05-19T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:42.998Z",
-      "isNew": true
+      "isNew": false
     }
   ]
 }
