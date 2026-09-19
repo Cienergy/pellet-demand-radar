@@ -5,17 +5,23 @@ on:
     # Hourly (GitHub may delay cron slightly under load)
     - cron: "5 * * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    # Bot feed commits must not re-trigger (avoids a loop).
+    paths-ignore:
+      - "public/data/**"
+      - "**.md"
 
-# GITHUB_TOKEN pushes do not trigger other workflows, so this job must
-# deploy Pages itself after writing feed.json.
+# GITHUB_TOKEN pushes do not trigger other workflows, so this job is the
+# only Pages publisher for live feed.json.
 permissions:
   contents: write
   pages: write
   id-token: write
 
 concurrency:
-  group: demand-crawl
-  cancel-in-progress: false
+  group: demand-pages
+  cancel-in-progress: true
 
 jobs:
   crawl:
