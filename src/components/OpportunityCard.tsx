@@ -31,6 +31,11 @@ export function OpportunityCard({
     >
       <div className="opp-top">
         <span className={`type-pill ${item.type}`}>{typeLabel(item.type)}</span>
+        {(item.channel === "portal" ||
+          item.source === "ntpc_portal" ||
+          item.source === "company_portal") && (
+          <span className="portal-dot">Portal</span>
+        )}
         {item.isNew ? <span className="new-dot">New</span> : null}
         <span className="score">{item.score}</span>
       </div>

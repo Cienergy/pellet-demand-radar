@@ -14,6 +14,7 @@ export type Opportunity = {
   publishedAt: string | null;
   discoveredAt: string;
   isNew?: boolean;
+  channel?: string;
 };
 
 export type Feed = {
@@ -24,6 +25,7 @@ export type Feed = {
     tenders: number;
     purchase: number;
     news: number;
+    portals?: number;
     newThisCrawl: number;
     withCompany: number;
   };

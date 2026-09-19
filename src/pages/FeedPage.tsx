@@ -6,8 +6,9 @@ import { useFeed } from "../lib/useFeed";
 export function FeedPage() {
   const { feed, loading, error, refresh, lastFetch } = useFeed();
   const [q, setQ] = useState("");
-  const [type, setType] = useState<OpportunityType | "all">("all");
+  const [type, setType] = useState<OpportunityType | "all">("tender");
   const [company, setCompany] = useState("");
+  const [channel, setChannel] = useState<"all" | "portal" | "news">("all");
   const [selected, setSelected] = useState<Opportunity | null>(null);
 
   const filtered = useMemo(() => {
@@ -16,11 +17,17 @@ export function FeedPage() {
     return feed.items.filter((item) => {
       if (type !== "all" && item.type !== type) return false;
       if (company && !(item.companies || []).some((c) => c === company)) return false;
+      const isPortal =
+        item.channel === "portal" ||
+        item.source === "ntpc_portal" ||
+        item.source === "company_portal";
+      if (channel === "portal" && !isPortal) return false;
+      if (channel === "news" && isPortal) return false;
       if (!qq) return true;
       const blob = `${item.title} ${item.summary} ${(item.companies || []).join(" ")}`.toLowerCase();
       return blob.includes(qq);
     });
-  }, [feed, q, type, company]);
+  }, [feed, q, type, company, channel]);
 
   if (loading && !feed) return <div className="loading">Loading live feed…</div>;
   if (error && !feed) return <div className="error">{error}</div>;
@@ -44,8 +51,8 @@ export function FeedPage() {
           <div className="kpi-value">{feed.stats.purchase}</div>
         </div>
         <div className="kpi-card tone-rose">
-          <div className="kpi-label">New this crawl</div>
-          <div className="kpi-value">{feed.stats.newThisCrawl}</div>
+          <div className="kpi-label">Portal hits</div>
+          <div className="kpi-value">{feed.stats.portals ?? 0}</div>
         </div>
       </div>
 
@@ -57,10 +64,15 @@ export function FeedPage() {
           placeholder="Search title, company, keywords…"
         />
         <select value={type} onChange={(e) => setType(e.target.value as OpportunityType | "all")}>
-          <option value="all">All types</option>
           <option value="tender">Tenders</option>
           <option value="purchase">Purchase</option>
           <option value="news">News</option>
+          <option value="all">All types</option>
+        </select>
+        <select value={channel} onChange={(e) => setChannel(e.target.value as "all" | "portal" | "news")}>
+          <option value="all">All sources</option>
+          <option value="portal">Company / portals</option>
+          <option value="news">News wire</option>
         </select>
         <select value={company} onChange={(e) => setCompany(e.target.value)}>
           <option value="">All companies</option>

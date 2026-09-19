@@ -73,35 +73,26 @@ export const PURCHASE_HINTS = [
 
 export const QUERIES = [
   {
-    label: "Pellet tenders IN",
-    query: "biomass pellet tender India OR \"wood pellet\" tender OR \"agro residue pellet\" tender",
+    label: "Pellet NITs IN",
+    query:
+      '("biomass pellet" OR "agro residue pellet" OR "torrefied pellet") (tender OR NIT OR "e-tender" OR EOI OR procurement) India -forecast -"market size"',
   },
   {
     label: "Cofiring / NTPC",
-    query: "NTPC (pellet OR \"biomass pellet\" OR \"torrefied\") (tender OR procurement OR purchase OR co-firing)",
+    query: "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
   },
   {
-    label: "Cement buyers",
-    query: "(UltraTech OR Ambuja OR Dalmia OR \"Shree Cement\" OR ACC) (pellet OR biomass) (purchase OR tender OR procure)",
+    label: "State utilities",
+    query:
+      "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
   },
   {
-    label: "Power utilities",
-    query: '("Tata Power" OR "Adani Power" OR "JSW Energy" OR Mahagenco OR PSPCL OR GSECL) (pellet OR biomass) (tender OR purchase OR requirement)',
+    label: "Cement / power buyers",
+    query:
+      '("Tata Power" OR "Adani Power" OR "JSW Energy" OR UltraTech OR Dalmia) (pellet OR biomass) (tender OR purchase OR procure OR requirement)',
   },
   {
-    label: "GeM / eProcure",
-    query: '("GeM" OR eprocure OR "Central Public Procurement") (pellet OR "biomass pellet") (tender OR bid)',
-  },
-  {
-    label: "Torrefied / RDF",
-    query: '(torrefied OR "RDF pellet" OR "agro waste pellet") (India) (tender OR purchase OR demand OR requirement)',
-  },
-  {
-    label: "Company statements",
-    query: '"biomass pellet" (buy OR purchase OR procure OR requirement OR "invite bids") India',
-  },
-  {
-    label: "State tenders",
-    query: '(Haryana OR Punjab OR Rajasthan OR Gujarat OR Maharashtra OR "Uttar Pradesh") (biomass pellet OR "paddy straw pellet") (tender OR procurement)',
+    label: "GeM / eProcure mentions",
+    query: '(GeM OR eprocure OR "Central Public Procurement") ("biomass pellet" OR "agro residue") (bid OR tender)',
   },
 ];
