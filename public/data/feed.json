@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-09-19T17:42:47.659Z",
-  "crawlDurationMs": 19163,
+  "updatedAt": "2026-09-19T20:24:53.004Z",
+  "crawlDurationMs": 19526,
   "stats": {
-    "total": 303,
+    "total": 311,
     "tenders": 55,
-    "purchase": 57,
-    "news": 191,
+    "purchase": 58,
+    "news": 198,
     "portals": 47,
-    "linkedin": 189,
+    "linkedin": 197,
     "newThisCrawl": 8,
     "withCompany": 75
   },
@@ -69,11 +69,11 @@
       "error": "HTTP 403"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "NTPC live tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "HTTP 404"
     },
     {
       "ok": true,
@@ -86,22 +86,22 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 27,
+      "count": 28,
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
       "ok": true,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 50,
+      "count": 54,
       "error": null
     },
     {
@@ -142,7 +142,7 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 61,
+      "count": 64,
       "error": null
     },
     {
@@ -517,7 +517,7 @@
       "publishedAt": "2026-09-15T07:20:23.000Z",
       "discoveredAt": "2026-09-19T17:42:30.626Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "476c7dce22c",
@@ -930,7 +930,7 @@
       "publishedAt": "2021-10-31T07:00:00.000Z",
       "discoveredAt": "2026-09-19T17:42:30.191Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "00c5780c1b5",
@@ -1376,6 +1376,21 @@
       "channel": "news"
     },
     {
+      "id": "2ba4e705236",
+      "title": "India's biomass pellet and briquette industry has a quality problem — and it's bigger than most buyers realize. Industry estimates suggest roughly 85% of production in this space is still unorganized: small, informal units producing without consistent calorific val - LinkedIn",
+      "summary": "India's biomass pellet and briquette industry has a quality problem — and it's bigger than most buyers realize. Industry estimates suggest roughly 85% of production in this space is still unorganized: small, informal units producing without consistent calorific val LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWGgxTl9MYkdLZmRyNjNUYUxmOHdVbGYwTlFfakp5UUotQVk3WHEtYTAwTUplUXA5aGhtaG50Umo4RmpGVkZtSE5tMTBkbjlfYXI3N1k1R0xLT2VGQTh3bzdGYU13UkJZRjBDZTZmZEsteC1hYTRsSGN2RUl2UVc1SzBHTzNoaDNQdlRaOUlxc1JpUkFHS29jYUhqQlBfUi1SVHZpd2h4QzZPRUF1bTVWdVpoUVQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "purchase",
+      "companies": [],
+      "score": 93,
+      "publishedAt": "2026-09-09T09:27:32.000Z",
+      "discoveredAt": "2026-09-19T20:24:35.268Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
       "id": "31964ebc254",
       "title": "Yesterday, 9th January, I had the opportunity to attend a seminar organized by the Samarth Mission and the Ministry of Power, where I was invited as a guest speaker to share insights on co-firing of torrefied biomass and torrefied charcoal derived from MSW. T - LinkedIn",
       "summary": "Yesterday, 9th January, I had the opportunity to attend a seminar organized by the Samarth Mission and the Ministry of Power, where I was invited as a guest speaker to share insights on co-firing of torrefied biomass and torrefied charcoal derived from MSW. T LinkedIn",
@@ -1516,7 +1531,7 @@
       "publishedAt": "2026-08-26T07:00:00.000Z",
       "discoveredAt": "2026-09-19T17:42:30.626Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "399b4a3924b",
@@ -1927,7 +1942,7 @@
       "publishedAt": "2020-01-02T08:00:00.000Z",
       "discoveredAt": "2026-09-19T17:42:28.968Z",
       "channel": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "457ec4063c6b1bbb",
@@ -2228,7 +2243,7 @@
       "publishedAt": "2018-10-25T07:00:00.000Z",
       "discoveredAt": "2026-09-19T17:42:30.191Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "36f3dd57285",
@@ -2357,6 +2372,21 @@
       "isNew": false
     },
     {
+      "id": "336a8c7522d",
+      "title": "The biomass industry is entering a new phase — and so is our vision at Proveg. Across the world, industries are looking for practical ways to decarbonize, utilize agricultural and forestry residues, and convert waste into commercially valuable products. Over th - LinkedIn",
+      "summary": "The biomass industry is entering a new phase — and so is our vision at Proveg. Across the world, industries are looking for practical ways to decarbonize, utilize agricultural and forestry residues, and convert waste into commercially valuable products. Over th LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWWRfbjhuMVdnNGxjUlBnc0dOdWx3TzZSdkRNZ2pDc0REUGlnY1JxTVp1d3pha2hmb0RDcVZqWDJRQ2Z5ekZxcl9MeEl0dFRoR0xCN3VjUTRsVlFfb002RHY5SHlSclREMVYwUG5Gc2dWX1drUzZwYXQ1cnFDQm9aam82MkYzNURyWTNfalNlU2hzZ3F5UmRNcUpoMVRCbFhfWTRzYlNRaFdLbFpmQ0FYVw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-12T14:06:22.000Z",
+      "discoveredAt": "2026-09-19T20:24:36.304Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "1683027515b",
       "title": "Forecast for the Non-forest Biomass Pellets Market from 2026 to 2033 at a rapid growth rate of 11%. - LinkedIn",
       "summary": "Forecast for the Non-forest Biomass Pellets Market from 2026 to 2033 at a rapid growth rate of 11%. LinkedIn",
@@ -2477,6 +2507,21 @@
       "isNew": false
     },
     {
+      "id": "5eea6938236",
+      "title": "🌱 Biomass Pellets vs Coal, LPG & Diesel: Which Fuel Is Better for Industries? Industrial fuel selection directly affects production costs, heating efficiency and environmental performance. While coal, LPG and diesel remain widely used, biomass pellets are emer - LinkedIn",
+      "summary": "🌱 Biomass Pellets vs Coal, LPG & Diesel: Which Fuel Is Better for Industries? Industrial fuel selection directly affects production costs, heating efficiency and environmental performance. While coal, LPG and diesel remain widely used, biomass pellets are emer LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeW16ajZuYjNPNnhMVkZfQ0Y0dEt2dHFSemxZWEV6VzNBbzVVekwxaXhCUm91RDlCMTdEU2VUSTlXRUNiUFRVRGJTaGNqZUZBb3M5cTJSZktIWjNNdlItLTc0djFDZExhY3g3LTNiOHpRTzlkMjlEZVZwYm5CNXpvc3ZKb2M4STdxNFAyVHpERDI4M01ub3NCUnVYTWpaTmI0X1lLNVVaZ2RpakRkdFd0LUxDeGFkY3M?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-07T07:00:00.000Z",
+      "discoveredAt": "2026-09-19T20:24:35.266Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
       "id": "1ffe899f235",
       "title": "Namibia's Biomass Economy The Encroachment Challenge The spread of indigenous woody plants has affected approximately 45 million hectares, constituting over 60% of Namibia's savanna rangelands. While this bush encroachment degrades rangeland p - LinkedIn",
       "summary": "Namibia's Biomass Economy The Encroachment Challenge The spread of indigenous woody plants has affected approximately 45 million hectares, constituting over 60% of Namibia's savanna rangelands. While this bush encroachment degrades rangeland p LinkedIn",
@@ -2505,6 +2550,21 @@
       "discoveredAt": "2026-09-19T15:47:31.356Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "03d5719724c",
+      "title": "TORREFIED vs NON-TORREFIED BIOMASS PELLETS Not all biomass pellets offer the same fuel performance. Non-torrefied pellets are produced from conventional biomass materials, while torrefied pellets undergo controlled thermal treatment to improve th - LinkedIn",
+      "summary": "TORREFIED vs NON-TORREFIED BIOMASS PELLETS Not all biomass pellets offer the same fuel performance. Non-torrefied pellets are produced from conventional biomass materials, while torrefied pellets undergo controlled thermal treatment to improve th LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOclB1bDJlOUJ3V1JSZ1RkQXRUUHZMU2tUdzZ2NHRXdmpGX0V2REZFcXFBanZVRDNDSWx1UXR4aTFnMmQxVHIzUlFLbFVvUFlyVERIdkRMMjFYX0VyNDFlS1ExZk9aRlFuRkkySlYyd0YzclBrUThybzFPbThoaEhIMk5LWTRlOUhFUEluQW1yRTg5WHllX3BNYWh5ZzBtUXVYazhsSW16bGpKdi01Y010M01hX3VPTEt2NlduN3I5elFGUF9rOEdFZmh0TVA3Tk1WckhN?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-03T07:00:00.000Z",
+      "discoveredAt": "2026-09-19T20:24:35.268Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "7c6eb35822e",
@@ -2640,6 +2700,21 @@
       "discoveredAt": "2026-09-19T15:47:31.354Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "591a43081ad",
+      "title": "Khushi Jayswal - Plant HR & HRBP |Biofuel/ Biomass Industry &FMCG |End-to-End HR Operations |Recruitment • Payroll • Labor Compliance • Employee Relations |Training & Development |Exhibitions For BusinessGrow |PMS | China Import/Export - LinkedIn India",
+      "summary": "Khushi Jayswal - Plant HR & HRBP |Biofuel/ Biomass Industry &FMCG |End-to-End HR Operations |Recruitment • Payroll • Labor Compliance • Employee Relations |Training & Development |Exhibitions For BusinessGrow |PMS | China Import/Export LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE52STFtdG5QZmYzaXVkT1JrcWxxRkVYX2FDQ3lYS2N6WVgySnkwS1l2TTN0bUdfQzdsdTl5WHlzd0RoZXRTN1o5dWp1RUtjMUJEbHdOY0g5SG9WT3BEYklCRA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-06-22T21:25:44.000Z",
+      "discoveredAt": "2026-09-19T20:24:36.306Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "16f7c700194",
@@ -2861,7 +2936,7 @@
       "summary": "Biomass Pellets Import in India: Strategic Growth and Future Outlook LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcmFUSGIwZVMxdGU1b3JTNmdROVdqWnZlNEhQakhtaE9wU1JPdUt0RkVyU25nT2xobjhsTEl6d2l6R2staXExd3NQUG5MTDgtQ1N5dXA3ZVl2SXpzN3BVM2U5VkJiZnZwN1JFd2hhQkl6WTJCNHI4SWc5Uk81MnFISjNOdml4akhGVEpOUHVPQ3dXSzg?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -3124,6 +3199,21 @@
       "discoveredAt": "2026-09-19T15:47:31.354Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "2952853513c",
+      "title": "Abhyuday Pol - Assistant Manager | Process & Proposal Engineer | Biomass-Fired Boiler | West Heat Recovery Boiler | Power Plant Boiler | PPSD KED - LinkedIn India",
+      "summary": "Abhyuday Pol - Assistant Manager | Process & Proposal Engineer | Biomass-Fired Boiler | West Heat Recovery Boiler | Power Plant Boiler | PPSD KED LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBpOVdtS25YUUlXNDd0TmJJRzNRLThuR0gwdkQyS1UyUWU5eU9Wa2hVTEJZYWd1WnRGVnZpUDM0RUlETklqLU5DMklOeTdaRGM?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2025-11-28T15:51:23.000Z",
+      "discoveredAt": "2026-09-19T20:24:35.269Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "549d6b20267",
@@ -3409,6 +3499,21 @@
       "discoveredAt": "2026-09-19T06:10:28.816Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "1f797a9012a",
+      "title": "Project Officer | Agri-Writer & Author | M.Sc. Agronomy | Specializing in Biochar, Biomass & Green Economy - LinkedIn India",
+      "summary": "Project Officer | Agri-Writer & Author | M.Sc. Agronomy | Specializing in Biochar, Biomass & Green Economy LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBoQ2FuZ0tmUl9lXzJHSVhLWHBHMDY0bENGem5iNEs4SV8tUWZZTGxRNDRrWXJ1X0JiMGZCYTV6dzNTWlpuY0Z5TkZnR0FQWGxCTk10Yk1pcWY1TWZ4Zl9r?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2025-04-01T21:51:26.000Z",
+      "discoveredAt": "2026-09-19T20:24:36.306Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "27474f37141",
@@ -3930,7 +4035,7 @@
       "summary": "Biogreen Energy - Manufacturer Of Biomass Briquettes and Pellets LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95bXhRUUVZanpfSUZkNFpXNkxxM2NhTFExeUV4ZC1KbFYxM3dLZFhiUDQzN195ZzdacG4yZDEycTRSN0xuYXJKeFJNek14Tm1kYWR6VjFzUkhZanp1elpKQUpB?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -4334,6 +4439,21 @@
       "isNew": false
     },
     {
+      "id": "3cf0ccddfe",
+      "title": "Gordon Murray - Executive Director, Wood Pellet Association of Canada - LinkedIn",
+      "summary": "Gordon Murray - Executive Director, Wood Pellet Association of Canada LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBjeFJZRzdIVE9hdXVnRm8tb0dvX1cxUGRFOFRMUjZNcTF4OERGbHlMSGFOY1JvejhCUHpXMnBoaVlDUVRPaGd0RzNjM3cxV1A2OHJUaXppaUJWVjVjdnc?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2015-11-10T04:11:05.000Z",
+      "discoveredAt": "2026-09-19T20:24:35.268Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "b18ffbcb72c60b91",
       "title": "Haryana launches e-portal for brick kilns, mandates registration to monitor paddy straw pellet use - tribuneindia.com",
       "summary": "Haryana launches e-portal for brick kilns, mandates registration to monitor paddy straw pellet use tribuneindia.com",
@@ -4347,7 +4467,7 @@
       "publishedAt": "2026-07-24T07:00:00.000Z",
       "discoveredAt": "2026-09-19T17:42:28.977Z",
       "channel": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4c700490e5f60014",
@@ -4365,7 +4485,7 @@
       "publishedAt": "2026-07-01T07:00:00.000Z",
       "discoveredAt": "2026-09-19T17:42:28.961Z",
       "channel": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "84fdaf4f24103408",
@@ -4692,7 +4812,7 @@
       "publishedAt": "2025-12-26T08:00:00.000Z",
       "discoveredAt": "2026-09-19T17:42:28.960Z",
       "channel": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c9ba5aeb52e62f16",
