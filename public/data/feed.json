@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-19T06:10:37.533Z",
-  "crawlDurationMs": 11468,
+  "updatedAt": "2026-09-19T10:46:19.980Z",
+  "crawlDurationMs": 20705,
   "stats": {
     "total": 183,
     "tenders": 34,
@@ -8,7 +8,7 @@
     "news": 114,
     "portals": 31,
     "linkedin": 94,
-    "newThisCrawl": 96,
+    "newThisCrawl": 0,
     "withCompany": 50
   },
   "sources": [
@@ -41,11 +41,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "GSECL tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": true,
@@ -55,18 +55,18 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Adani Power tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "HTTP 403"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Adani downloads",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "HTTP 403"
     },
     {
       "ok": true,
@@ -76,24 +76,24 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Google · live NITs",
       "query": "(\"biomass pellet\" OR \"agro residue based pellet\" OR \"torrefied biomass\") (NIT OR \"Notice Inviting Tender\" OR \"e-Tender\" OR \"GeM bid\" OR EOI) India -market -forecast -\"market size\"",
-      "count": 2,
-      "error": null
+      "count": 0,
+      "error": "Status code 503"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 25,
-      "error": null
+      "count": 0,
+      "error": "Status code 503"
     },
     {
       "ok": true,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
-      "count": 1,
+      "count": 0,
       "error": null
     },
     {
@@ -125,60 +125,60 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 50,
-      "error": null
+      "count": 0,
+      "error": "Status code 503"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 18,
-      "error": null
+      "count": 0,
+      "error": "Status code 503"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 62,
-      "error": null
+      "count": 0,
+      "error": "Status code 503"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 9,
-      "error": null
+      "count": 0,
+      "error": "Status code 503"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 6,
-      "error": null
+      "count": 0,
+      "error": "Status code 503"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 6,
-      "error": null
+      "count": 0,
+      "error": "Status code 503"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Cement / power buyers",
       "query": "(\"Tata Power\" OR \"Adani Power\" OR \"JSW Energy\" OR UltraTech OR Dalmia) (pellet OR biomass) (tender OR purchase OR procure OR requirement)",
       "count": 0,
-      "error": null
+      "error": "Status code 503"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "GeM / eProcure mentions",
       "query": "(GeM OR eprocure OR \"Central Public Procurement\") (\"biomass pellet\" OR \"agro residue\") (bid OR tender)",
       "count": 0,
-      "error": null
+      "error": "Status code 503"
     }
   ],
   "watchCompanies": [
@@ -447,7 +447,7 @@
       "publishedAt": "2026-07-02T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.815Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3f2f4abf24c",
@@ -477,7 +477,7 @@
       "publishedAt": "2026-06-11T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:27.214Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "44b88fb2172",
@@ -492,7 +492,7 @@
       "publishedAt": "2026-06-10T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.815Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1a41d76914c",
@@ -507,7 +507,7 @@
       "publishedAt": "2026-03-28T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.814Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5f212944242",
@@ -537,7 +537,7 @@
       "publishedAt": "2025-06-17T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.816Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "889dd23a17b84493",
@@ -621,7 +621,7 @@
       "publishedAt": "2014-10-28T01:05:22.000Z",
       "discoveredAt": "2026-09-19T06:10:28.816Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "763acc5d1c1",
@@ -653,7 +653,7 @@
       "publishedAt": "2026-09-03T06:52:58.000Z",
       "discoveredAt": "2026-09-19T06:10:28.262Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "439c3d25126",
@@ -921,7 +921,7 @@
       "publishedAt": "2026-01-09T08:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:27.217Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "05595e07226",
@@ -936,7 +936,7 @@
       "publishedAt": "2025-11-29T08:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:27.215Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5afe03a4133",
@@ -969,7 +969,7 @@
       "publishedAt": "2025-01-11T08:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.263Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "399b4a3924b",
@@ -1029,7 +1029,7 @@
       "publishedAt": "2025-11-07T08:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.815Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "76265f92265",
@@ -1044,7 +1044,7 @@
       "publishedAt": "2025-07-03T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.816Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2f37346e183",
@@ -1059,7 +1059,7 @@
       "publishedAt": "2023-04-04T20:29:49.000Z",
       "discoveredAt": "2026-09-19T06:10:28.816Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3820ef08170",
@@ -1352,7 +1352,7 @@
       "publishedAt": "2026-07-01T01:25:00.000Z",
       "discoveredAt": "2026-09-19T06:10:26.573Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4787f46e31d",
@@ -1480,7 +1480,7 @@
       "publishedAt": "2021-10-31T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:27.223Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "23f6df59228",
@@ -1527,7 +1527,7 @@
       "publishedAt": "2026-09-14T12:00:27.000Z",
       "discoveredAt": "2026-09-19T06:10:27.217Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0e940edf176",
@@ -1542,7 +1542,7 @@
       "publishedAt": "2026-09-13T07:07:06.000Z",
       "discoveredAt": "2026-09-19T06:10:27.218Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "46e3ca24230",
@@ -1557,7 +1557,7 @@
       "publishedAt": "2026-09-12T17:20:39.000Z",
       "discoveredAt": "2026-09-19T06:10:27.215Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1683027515b",
@@ -1572,7 +1572,7 @@
       "publishedAt": "2026-09-10T06:01:11.000Z",
       "discoveredAt": "2026-09-19T06:10:28.815Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3d388c9c144",
@@ -1587,7 +1587,7 @@
       "publishedAt": "2026-09-09T07:16:50.000Z",
       "discoveredAt": "2026-09-19T06:10:28.815Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1efde75c192",
@@ -1602,7 +1602,7 @@
       "publishedAt": "2026-09-09T07:16:49.000Z",
       "discoveredAt": "2026-09-19T06:10:28.816Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2ecef00c249",
@@ -1617,7 +1617,7 @@
       "publishedAt": "2026-09-09T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.814Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1ffe899f235",
@@ -1632,7 +1632,7 @@
       "publishedAt": "2026-09-05T10:14:55.000Z",
       "discoveredAt": "2026-09-19T06:10:28.816Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7c6eb35822e",
@@ -1647,7 +1647,7 @@
       "publishedAt": "2026-08-17T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.814Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5f7dfaac21d",
@@ -1662,7 +1662,7 @@
       "publishedAt": "2026-08-10T19:30:13.000Z",
       "discoveredAt": "2026-09-19T06:10:28.816Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "535d055722e",
@@ -1677,7 +1677,7 @@
       "publishedAt": "2026-08-07T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.815Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "60aaded820d",
@@ -1692,7 +1692,7 @@
       "publishedAt": "2026-07-23T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.814Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "16f7c700194",
@@ -1722,7 +1722,7 @@
       "publishedAt": "2026-06-11T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:27.215Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "57cee61124c",
@@ -1752,7 +1752,7 @@
       "publishedAt": "2026-06-03T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.814Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6092eb3e254",
@@ -1767,7 +1767,7 @@
       "publishedAt": "2026-06-01T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.813Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "04e789e6184",
@@ -1782,7 +1782,7 @@
       "publishedAt": "2026-06-01T00:22:24.000Z",
       "discoveredAt": "2026-09-19T06:10:28.815Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "725fbd76261",
@@ -1799,7 +1799,7 @@
       "publishedAt": "2026-05-18T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.263Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "424cd52e145",
@@ -1814,7 +1814,7 @@
       "publishedAt": "2026-04-13T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:27.217Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7044c64c229",
@@ -1829,7 +1829,7 @@
       "publishedAt": "2026-04-07T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:27.213Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "78a7b1c1250",
@@ -1844,7 +1844,7 @@
       "publishedAt": "2026-03-21T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:27.217Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "102e0c3a255",
@@ -1874,7 +1874,7 @@
       "publishedAt": "2026-03-08T08:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.815Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6abfef58231",
@@ -1889,7 +1889,7 @@
       "publishedAt": "2026-02-25T08:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:27.217Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "348469dd160",
@@ -1904,7 +1904,7 @@
       "publishedAt": "2026-01-31T17:10:37.000Z",
       "discoveredAt": "2026-09-19T06:10:27.215Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4f300a3e18a",
@@ -1919,7 +1919,7 @@
       "publishedAt": "2026-01-27T08:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:27.213Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "645a640f170",
@@ -1934,7 +1934,7 @@
       "publishedAt": "2026-01-12T08:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.814Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "549d6b20267",
@@ -1979,7 +1979,7 @@
       "publishedAt": "2025-08-29T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.815Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "645b6f63241",
@@ -1994,7 +1994,7 @@
       "publishedAt": "2025-08-27T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.814Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7d6dd927150",
@@ -2024,7 +2024,7 @@
       "publishedAt": "2025-08-06T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.814Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5689e27612b",
@@ -2054,7 +2054,7 @@
       "publishedAt": "2025-06-09T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.816Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "694afd5dd6",
@@ -2069,7 +2069,7 @@
       "publishedAt": "2025-05-15T03:52:51.000Z",
       "discoveredAt": "2026-09-19T06:10:27.217Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5ab1b85f12b",
@@ -2084,7 +2084,7 @@
       "publishedAt": "2025-04-01T21:51:26.000Z",
       "discoveredAt": "2026-09-19T06:10:28.816Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "27474f37141",
@@ -2129,7 +2129,7 @@
       "publishedAt": "2025-03-23T05:55:47.000Z",
       "discoveredAt": "2026-09-19T06:10:27.217Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "64272ffd25d",
@@ -2144,7 +2144,7 @@
       "publishedAt": "2025-03-10T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.814Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "40979d43217",
@@ -2159,7 +2159,7 @@
       "publishedAt": "2025-02-27T08:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.816Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6cb1da8b211",
@@ -2174,7 +2174,7 @@
       "publishedAt": "2025-01-06T08:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:27.217Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "425501e915b",
@@ -2204,7 +2204,7 @@
       "publishedAt": "2024-11-13T10:39:30.000Z",
       "discoveredAt": "2026-09-19T06:10:27.217Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5da303b715f",
@@ -2221,7 +2221,7 @@
       "publishedAt": "2024-09-18T00:39:32.000Z",
       "discoveredAt": "2026-09-19T06:10:28.814Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "57bd4a38104",
@@ -2236,7 +2236,7 @@
       "publishedAt": "2024-09-10T19:24:44.000Z",
       "discoveredAt": "2026-09-19T06:10:28.815Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "732fc86a187",
@@ -2266,7 +2266,7 @@
       "publishedAt": "2024-07-28T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:27.215Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "41a51e76259",
@@ -2281,7 +2281,7 @@
       "publishedAt": "2024-05-16T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:27.217Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "75987f3d192",
@@ -2296,7 +2296,7 @@
       "publishedAt": "2024-05-13T08:39:46.000Z",
       "discoveredAt": "2026-09-19T06:10:27.217Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "136b3b7c13c",
@@ -2311,7 +2311,7 @@
       "publishedAt": "2024-05-13T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.816Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0dd3fda7152",
@@ -2326,7 +2326,7 @@
       "publishedAt": "2024-03-21T05:34:17.000Z",
       "discoveredAt": "2026-09-19T06:10:28.815Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "14222976105",
@@ -2371,7 +2371,7 @@
       "publishedAt": "2020-05-18T21:55:11.000Z",
       "discoveredAt": "2026-09-19T06:10:28.815Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "05ea7fdf15a",
@@ -2388,7 +2388,7 @@
       "publishedAt": "2019-08-09T23:04:22.000Z",
       "discoveredAt": "2026-09-19T06:10:28.264Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "453be405eb",
@@ -2403,7 +2403,7 @@
       "publishedAt": "2019-03-15T12:18:41.000Z",
       "discoveredAt": "2026-09-19T06:10:28.815Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "398c031f12a",
@@ -2418,7 +2418,7 @@
       "publishedAt": "2018-07-12T06:02:12.000Z",
       "discoveredAt": "2026-09-19T06:10:27.216Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "69d565e7137",
@@ -2433,7 +2433,7 @@
       "publishedAt": "2017-06-09T21:47:42.000Z",
       "discoveredAt": "2026-09-19T06:10:28.816Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "77750c3b16b",
@@ -2448,7 +2448,7 @@
       "publishedAt": "2016-12-31T14:56:14.000Z",
       "discoveredAt": "2026-09-19T06:10:27.214Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "06bee5b0124",
@@ -2478,7 +2478,7 @@
       "publishedAt": "2015-11-22T15:19:51.000Z",
       "discoveredAt": "2026-09-19T06:10:27.217Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "31df1d6d1a3",
@@ -2493,7 +2493,7 @@
       "publishedAt": "2015-11-18T19:15:10.000Z",
       "discoveredAt": "2026-09-19T06:10:28.815Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6357c8c7104",
@@ -2508,7 +2508,7 @@
       "publishedAt": "2015-11-18T18:22:56.000Z",
       "discoveredAt": "2026-09-19T06:10:28.816Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7c3b74a110e",
@@ -2523,7 +2523,7 @@
       "publishedAt": "2015-11-15T01:11:42.000Z",
       "discoveredAt": "2026-09-19T06:10:28.816Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "07aba7211a8",
