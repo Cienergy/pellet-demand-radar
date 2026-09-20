@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-09-20T00:54:30.830Z",
-  "crawlDurationMs": 18392,
+  "updatedAt": "2026-09-20T05:03:36.225Z",
+  "crawlDurationMs": 15790,
   "stats": {
-    "total": 336,
-    "tenders": 60,
-    "purchase": 62,
-    "news": 214,
-    "portals": 49,
-    "linkedin": 218,
-    "newThisCrawl": 17,
-    "withCompany": 80
+    "total": 340,
+    "tenders": 62,
+    "purchase": 63,
+    "news": 215,
+    "portals": 51,
+    "linkedin": 219,
+    "newThisCrawl": 4,
+    "withCompany": 82
   },
   "sources": [
     {
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": false,
@@ -128,14 +128,14 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 61,
+      "count": 54,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 22,
+      "count": 23,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 6,
+      "count": 5,
       "error": null
     },
     {
@@ -229,6 +229,23 @@
       "score": 94,
       "publishedAt": "2022-05-01T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:08:39.475Z",
+      "channel": "portal",
+      "isNew": false
+    },
+    {
+      "id": "11c62312155",
+      "title": "NTPC Invites EOI To Produce Torrefied Biomass Pellets From Startups - sarkaritel.com",
+      "summary": "NTPC Invites EOI To Produce Torrefied Biomass Pellets From Startups sarkaritel.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV1FlS3lPU2U2OEVLbXBScmJHcE5VcUJwUmZqN1AzZGVxWFBYQkZwWC1VRGp6OThUajVoWnE2enhXOEZqeVlyb1NVUEpiOUh0ZFh0MXBzMUdHWGpWRUFlbkFVc2JRNW1kV0dSckNDaFRUSVhxOVB6VHBWSXpFVzZGWTlKUzdIQld6dktOYVM4VDM3dHVDRUFsX3Byaw?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 94,
+      "publishedAt": "2022-05-01T07:00:00.000Z",
+      "discoveredAt": "2026-09-20T05:03:21.538Z",
       "channel": "portal",
       "isNew": false
     },
@@ -534,7 +551,7 @@
       "publishedAt": "2026-09-15T11:28:48.000Z",
       "discoveredAt": "2026-09-20T00:54:14.358Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "25f7edca238",
@@ -810,7 +827,7 @@
       "publishedAt": "2025-06-05T07:00:00.000Z",
       "discoveredAt": "2026-09-20T00:54:14.751Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "889dd23a17b84493",
@@ -835,8 +852,8 @@
       "summary": "NTPC Invites Bids for Procurement of Biomass Pellets to Co-Fire Thermal Power Plants Energetica India Magazine",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcjBKSnRXR0NHRU1FOFd6clJyTjhFeG5DM2VndWhPV0phbF94b2Q2TmgxMkgtWFBsQ184T0FTTjN5Unl6M0dtTFBCLVNHUjNILUVLYlhjcHRKZkUtRk9HQWc1UlB2QjBCa19mUWFmOF9VVGx3dkd4RlBFQ3B0MUQ1eEpjdGp3WGJRZ2xLc3VuRmVCdGZKcHM0S3ltd084N1l3dDA0SGM3TkVGWEJtZjgxenlGdnFxR1JDUVNqcW81VQ?oc=5",
       "source": "google_news",
-      "sourceLabel": "State utilities",
-      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
+      "sourceLabel": "Cofiring / NTPC",
+      "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -1014,7 +1031,7 @@
       "publishedAt": "2026-09-14T07:24:35.000Z",
       "discoveredAt": "2026-09-20T00:54:14.358Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "00c5780c1b5",
@@ -1284,6 +1301,21 @@
       "isNew": false
     },
     {
+      "id": "0afc1fb8131",
+      "title": "Co-firing of Biomass in 35 Thermal Power Plants Cuts Carbon Emissions by 100,000 Tons - Mercomindia.com",
+      "summary": "Co-firing of Biomass in 35 Thermal Power Plants Cuts Carbon Emissions by 100,000 Tons Mercomindia.com",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE53UlNMc3Q1bUFWaEV0cW5VOG5qVmdJb2tFXy1reHNNeG02allKYXBKNEh1Y0FaQUg3NllGYm1Ca1Bvc0QzOGpYUFBPMThCUkRGWnlIYjVTWDBpSFp3WVJIR3dNUThQOG4zM3hyUGVyZW1KajQ?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2022-07-27T07:00:00.000Z",
+      "discoveredAt": "2026-09-20T05:03:21.829Z",
+      "channel": "portal",
+      "isNew": true
+    },
+    {
       "id": "77f760e2294",
       "title": "Biomass co-firing: Why India’s target for coal power plants is challenging - downtoearth.org.in",
       "summary": "Biomass co-firing: Why India’s target for coal power plants is challenging downtoearth.org.in",
@@ -1460,6 +1492,24 @@
       "channel": "news"
     },
     {
+      "id": "e7b8bae9e094e0db",
+      "title": "NTPC Invites EOI To Produce Torrefied Biomass Pellets From Startups - sarkaritel.com",
+      "summary": "NTPC Invites EOI To Produce Torrefied Biomass Pellets From Startups sarkaritel.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV1FlS3lPU2U2OEVLbXBScmJHcE5VcUJwUmZqN1AzZGVxWFBYQkZwWC1VRGp6OThUajVoWnE2enhXOEZqeVlyb1NVUEpiOUh0ZFh0MXBzMUdHWGpWRUFlbkFVc2JRNW1kV0dSckNDaFRUSVhxOVB6VHBWSXpFVzZGWTlKUzdIQld6dktOYVM4VDM3dHVDRUFsX3Byaw?oc=5",
+      "source": "google_news",
+      "sourceLabel": "Cofiring / NTPC",
+      "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 65,
+      "publishedAt": "2022-05-01T07:00:00.000Z",
+      "discoveredAt": "2026-09-20T05:03:20.728Z",
+      "channel": "news",
+      "isNew": false
+    },
+    {
       "id": "2ba4e705236",
       "title": "India's biomass pellet and briquette industry has a quality problem — and it's bigger than most buyers realize. Industry estimates suggest roughly 85% of production in this space is still unorganized: small, informal units producing without consistent calorific val - LinkedIn",
       "summary": "India's biomass pellet and briquette industry has a quality problem — and it's bigger than most buyers realize. Industry estimates suggest roughly 85% of production in this space is still unorganized: small, informal units producing without consistent calorific val LinkedIn",
@@ -1613,7 +1663,7 @@
       "publishedAt": "2024-12-23T08:00:00.000Z",
       "discoveredAt": "2026-09-20T00:54:13.748Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "15d1bf72214",
@@ -1645,7 +1695,7 @@
       "publishedAt": "2026-06-04T20:10:00.000Z",
       "discoveredAt": "2026-09-20T00:54:13.747Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "399b4a3924b",
@@ -1863,7 +1913,7 @@
       "summary": "Vaibhav Gill - Biomass Pellet Manufacturer & Supplier | Continuously Supplying to Thermal Power Plants since 2023 | Director – Gill Buildcon Pvt. Ltd. | Scaling to 1,000 MT/Day LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XdDd1TXE2WTdmYy1LQVJMMnZPQTU4YnZpTHVrRjZ0Y2xMaHpRaEVubEI4RTVEREhiS29lZE16U05wc2ttdUR5QkFtdW1lOWFkeG1qUE01NFRvcmEwR0E?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -1900,7 +1950,7 @@
       "publishedAt": "2015-11-21T07:26:04.000Z",
       "discoveredAt": "2026-09-20T00:54:13.748Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11dbf811e0ddfe30",
@@ -2560,7 +2610,7 @@
       "publishedAt": "2026-09-11T05:35:21.000Z",
       "discoveredAt": "2026-09-20T00:54:14.751Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1683027515b",
@@ -2605,7 +2655,7 @@
       "publishedAt": "2026-09-09T12:00:41.000Z",
       "discoveredAt": "2026-09-20T00:54:14.753Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3d388c9c144",
@@ -3055,7 +3105,7 @@
       "publishedAt": "2026-06-08T07:00:00.000Z",
       "discoveredAt": "2026-09-20T00:54:13.747Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2ae891a1264",
@@ -3359,7 +3409,7 @@
       "publishedAt": "2026-03-03T08:00:00.000Z",
       "discoveredAt": "2026-09-20T00:54:14.753Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6abfef58231",
@@ -3569,7 +3619,7 @@
       "publishedAt": "2025-09-25T07:00:00.000Z",
       "discoveredAt": "2026-09-20T00:54:14.753Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6ccb6a3b169",
@@ -4323,7 +4373,7 @@
       "publishedAt": "2023-10-27T07:00:00.000Z",
       "discoveredAt": "2026-09-20T00:54:13.748Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "14222976105",
@@ -4368,7 +4418,7 @@
       "publishedAt": "2021-12-17T02:11:30.000Z",
       "discoveredAt": "2026-09-20T00:54:14.360Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "58e3d00c18c",
@@ -4473,7 +4523,7 @@
       "publishedAt": "2020-03-31T03:53:13.000Z",
       "discoveredAt": "2026-09-20T00:54:13.748Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "05ea7fdf15a",
@@ -4553,6 +4603,21 @@
       "discoveredAt": "2026-09-19T06:10:27.216Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "0508a8ae129",
+      "title": "Decarbonising Industrial Steam | Biomass Pellet & Briquette Manufacturer & Green Steam Solutions Provider - LinkedIn India",
+      "summary": "Decarbonising Industrial Steam | Biomass Pellet & Briquette Manufacturer & Green Steam Solutions Provider LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE92cmUyUHRidXJTQVMzRk5sUGdDT2xjYnRPbm5sRE5yd2ZYZVJoQ0daZWNkQjV6YU56N0ZidlFLRXdvTWFncjZLaEV3bzJaVzlzVzNDRk5pZFhBZXpMM3Vv?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2018-07-12T06:02:12.000Z",
+      "discoveredAt": "2026-09-20T05:03:21.802Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "69d565e7137",
@@ -4822,7 +4887,7 @@
       "publishedAt": "2015-11-10T04:11:05.000Z",
       "discoveredAt": "2026-09-20T00:54:13.748Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b18ffbcb72c60b91",
