@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-09-20T05:03:36.225Z",
-  "crawlDurationMs": 15790,
+  "updatedAt": "2026-09-20T05:05:09.430Z",
+  "crawlDurationMs": 18180,
   "stats": {
-    "total": 340,
-    "tenders": 62,
+    "total": 342,
+    "tenders": 63,
     "purchase": 63,
-    "news": 215,
-    "portals": 51,
+    "news": 216,
+    "portals": 53,
     "linkedin": 219,
-    "newThisCrawl": 4,
-    "withCompany": 82
+    "newThisCrawl": 2,
+    "withCompany": 83
   },
   "sources": [
     {
-      "ok": true,
+      "ok": false,
       "label": "NTPC tender portal",
       "query": null,
-      "count": 1,
-      "error": null
+      "count": 0,
+      "error": "HTTP 404"
     },
     {
       "ok": true,
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 27,
+      "count": 29,
       "error": null
     },
     {
@@ -135,14 +135,14 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 23,
+      "count": 19,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 66,
+      "count": 63,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 5,
+      "count": 6,
       "error": null
     },
     {
@@ -467,6 +467,21 @@
       "discoveredAt": "2026-09-19T06:08:39.896Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "6f65c9b316b",
+      "title": "Is Ex-situ Crop Residue Management a Scalable Solution to Stubble Burning? - ceew.in",
+      "summary": "Is Ex-situ Crop Residue Management a Scalable Solution to Stubble Burning? ceew.in",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORDhzZ0d2STFpeFVoWE5RanJGTmRuSkpCbHVGdjRfTEwzVlJ0Y2F0Q3pQa1ZiclE1QjF6a3hnbkduQ0d0cG5PV3B4cGpCanlVdlFqeE5LYi1OaHJzRzhOamFVR3Q3a05ZTXhsYTNMbXNmdTB6dWpDYXc1SU9nRGpEakJwc1NUcC1WcmoxRGUzWk50aGJlcTBrN3M5N3A3Vm5XbDVzNHFzMFNWczJ5?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "tender",
+      "companies": [],
+      "score": 74,
+      "publishedAt": "2023-04-25T14:17:35.000Z",
+      "discoveredAt": "2026-09-20T05:04:52.825Z",
+      "channel": "portal",
+      "isNew": true
     },
     {
       "id": "39b2569b242",
@@ -852,8 +867,8 @@
       "summary": "NTPC Invites Bids for Procurement of Biomass Pellets to Co-Fire Thermal Power Plants Energetica India Magazine",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcjBKSnRXR0NHRU1FOFd6clJyTjhFeG5DM2VndWhPV0phbF94b2Q2TmgxMkgtWFBsQ184T0FTTjN5Unl6M0dtTFBCLVNHUjNILUVLYlhjcHRKZkUtRk9HQWc1UlB2QjBCa19mUWFmOF9VVGx3dkd4RlBFQ3B0MUQ1eEpjdGp3WGJRZ2xLc3VuRmVCdGZKcHM0S3ltd084N1l3dDA0SGM3TkVGWEJtZjgxenlGdnFxR1JDUVNqcW81VQ?oc=5",
       "source": "google_news",
-      "sourceLabel": "Cofiring / NTPC",
-      "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
+      "sourceLabel": "State utilities",
+      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -1313,7 +1328,7 @@
       "publishedAt": "2022-07-27T07:00:00.000Z",
       "discoveredAt": "2026-09-20T05:03:21.829Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "77f760e2294",
@@ -1913,7 +1928,7 @@
       "summary": "Vaibhav Gill - Biomass Pellet Manufacturer & Supplier | Continuously Supplying to Thermal Power Plants since 2023 | Director – Gill Buildcon Pvt. Ltd. | Scaling to 1,000 MT/Day LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XdDd1TXE2WTdmYy1LQVJMMnZPQTU4YnZpTHVrRjZ0Y2xMaHpRaEVubEI4RTVEREhiS29lZE16U05wc2ttdUR5QkFtdW1lOWFkeG1qUE01NFRvcmEwR0E?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -2410,6 +2425,23 @@
       "isNew": false
     },
     {
+      "id": "2d630cad285",
+      "title": "NTPC, states procuring biomass pellets to contain stubble burning - livemint.com",
+      "summary": "NTPC, states procuring biomass pellets to contain stubble burning livemint.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOd0w0aHZEMGV0S2hNTHNzU1prcDBaWTVCS1BDejBGVEVIa091R20ycDV5dXJBWTVFdHgzNWlsVFM4YWQ5QzZxQlJ4anNkVnJmLXdZdlFJaVhVeHh2djNYYXowTTU3SzFVR0YwOUFETXExZzJVRFQzd2ozbWdzRW9vNTBTUlFyMWJwLUpsbWZXdm8xTGdrOG9qRi1rOHlIMkduUjhIeFlZNm1jY3I5bmF0QTVWbnQ2bGFUR0prQtIBwgFBVV95cUxNZ2REdkVoY1hsWlQ0MzVHdEFGWkVyc2FhbGhHRTdFdl9SLTJfZDRmMm1HdDFNdXRhV25qQUZ2emU0QnpWYkt0akFtU3YtVDdSc24tcEpwTzNIM29GNmh2RnhfRHcyYVBkQ1diRkY0UDlRRjhnRkxmNDNncVk2b2p6TWNiT3dpcS1DdDIwVTBYcVItSXc4WjlIazNNSE5pUXd3b2stZG5uVUptTHllMDhOckhITUxHNUtTbWRHbWFqUlgxdw?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "news",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 70,
+      "publishedAt": "2021-10-31T07:00:00.000Z",
+      "discoveredAt": "2026-09-20T05:04:52.824Z",
+      "channel": "portal",
+      "isNew": true
+    },
+    {
       "id": "23f6df59228",
       "title": "Can biomass pellets reduce emissions in coal plants? - downtoearth.org.in",
       "summary": "Can biomass pellets reduce emissions in coal plants? downtoearth.org.in",
@@ -2753,7 +2785,7 @@
       "summary": "🌱 Biomass Pellets vs Coal, LPG & Diesel: Which Fuel Is Better for Industries? Industrial fuel selection directly affects production costs, heating efficiency and environmental performance. While coal, LPG and diesel remain widely used, biomass pellets are emer LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeW16ajZuYjNPNnhMVkZfQ0Y0dEt2dHFSemxZWEV6VzNBbzVVekwxaXhCUm91RDlCMTdEU2VUSTlXRUNiUFRVRGJTaGNqZUZBb3M5cTJSZktIWjNNdlItLTc0djFDZExhY3g3LTNiOHpRTzlkMjlEZVZwYm5CNXpvc3ZKb2M4STdxNFAyVHpERDI4M01ub3NCUnVYTWpaTmI0X1lLNVVaZ2RpakRkdFd0LUxDeGFkY3M?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -3867,7 +3899,7 @@
       "summary": "Haryana’s Bio-Energy Policy 2018: Key Benefits for Biomass Sector Entrepreneurs LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU0VUUld4RnRnU2luWmZxcHV5OU5WSUs3NHVvSm1KV3pyZHZjdW5XQmE1MFpNMVVNNnFMNWkwdEliQnNFMXNfLUR2YlFoeVdFQlhPdlZjNVBIajZnYmY2dVZGeFpjOVlBWXhVLW8tRWFrc2tTVTFNc3FqZkhIVDJzWUFuZ1UzSHlp?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -4617,7 +4649,7 @@
       "publishedAt": "2018-07-12T06:02:12.000Z",
       "discoveredAt": "2026-09-20T05:03:21.802Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "69d565e7137",
