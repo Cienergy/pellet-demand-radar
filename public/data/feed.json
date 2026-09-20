@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-09-20T09:47:02.399Z",
-  "crawlDurationMs": 18708,
+  "updatedAt": "2026-09-20T14:10:07.261Z",
+  "crawlDurationMs": 18363,
   "stats": {
-    "total": 345,
-    "tenders": 63,
+    "total": 347,
+    "tenders": 65,
     "purchase": 63,
     "news": 219,
     "portals": 53,
-    "linkedin": 222,
-    "newThisCrawl": 3,
-    "withCompany": 83
+    "linkedin": 224,
+    "newThisCrawl": 2,
+    "withCompany": 84
   },
   "sources": [
     {
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 29,
+      "count": 27,
       "error": null
     },
     {
@@ -97,11 +97,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 61,
+      "count": 59,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 21,
+      "count": 22,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 65,
+      "count": 66,
       "error": null
     },
     {
@@ -156,7 +156,7 @@
       "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 5,
+      "count": 6,
       "error": null
     },
     {
@@ -1064,6 +1064,38 @@
       "isNew": false
     },
     {
+      "id": "63ffbd9924a",
+      "title": "Government's Biomass Feedstocks Innovation Programme provided £32 million to support innovation in domestic biomass production, from energy crops and forestry to pellet manufacturing. That's a significant investment in the UK's future biomass supply chai - LinkedIn",
+      "summary": "Government's Biomass Feedstocks Innovation Programme provided £32 million to support innovation in domestic biomass production, from energy crops and forestry to pellet manufacturing. That's a significant investment in the UK's future biomass supply chai LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQXQwTGtwb095MWlnanQ1RnlwX2hnRzM5cm1mbWtPbWlrSXNHbDJhU01XQ0FYX2t3a2daWEVwUnFoRkxiSEFPaHM5ZVpCbDMyMnpWY05FMHo2VUFSZ2YxMmFjTkJnZ3IyX05KaWUxN2U1TkVYQVZMZDJ2TVhta3ZTRmFrQmRMd3cyMVhDd28xSXBxU0NFbE9GdmxQTzdoVVp2ZnhLOGFmZzV3MmJlN2EyME5ObnptZ3k2ZXQxWXBtNlhOclkwbUxRVW9DTQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 74,
+      "publishedAt": "2026-09-02T07:00:00.000Z",
+      "discoveredAt": "2026-09-20T14:09:51.056Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
+      "id": "0350977819e",
+      "title": "Vishal Jadhao - AGM – Bioenergy Projects & O&M @ Jindal Power | IIM Mumbai – Project Management | Thermal Power & Biomass Expert | Project Execution | Plant Commissioning | BOOT Model | Process Optimization | Sustainability - LinkedIn India",
+      "summary": "Vishal Jadhao - AGM – Bioenergy Projects & O&M @ Jindal Power | IIM Mumbai – Project Management | Thermal Power & Biomass Expert | Project Execution | Plant Commissioning | BOOT Model | Process Optimization | Sustainability LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE96TExRWE5rMmpKMVZYdVpjX1cyZGlTNkFKNE5QbG5ILURpYkF6Qno4TElnRkMxdEZHdF85OFpwSU5sOVFXY0lScG9Oc2s3UjVqTzBjUVpiWXBDbEZERUE?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "tender",
+      "companies": [
+        "Jindal"
+      ],
+      "score": 74,
+      "publishedAt": "2025-09-30T05:53:03.000Z",
+      "discoveredAt": "2026-09-20T14:09:50.148Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "439c3d25126",
       "title": "Nabha Power Limited invites Biomass Pellet Tender 2025 - LinkedIn",
       "summary": "Nabha Power Limited invites Biomass Pellet Tender 2025 LinkedIn",
@@ -1928,7 +1960,7 @@
       "summary": "Vaibhav Gill - Biomass Pellet Manufacturer & Supplier | Continuously Supplying to Thermal Power Plants since 2023 | Director – Gill Buildcon Pvt. Ltd. | Scaling to 1,000 MT/Day LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XdDd1TXE2WTdmYy1LQVJMMnZPQTU4YnZpTHVrRjZ0Y2xMaHpRaEVubEI4RTVEREhiS29lZE16U05wc2ttdUR5QkFtdW1lOWFkeG1qUE01NFRvcmEwR0E?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -4420,7 +4452,7 @@
       "publishedAt": "2023-07-29T07:00:00.000Z",
       "discoveredAt": "2026-09-20T09:46:46.328Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "14222976105",
@@ -4443,7 +4475,7 @@
       "summary": "Biogreen Energy - Manufacturer Of Biomass Briquettes and Pellets LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95bXhRUUVZanpfSUZkNFpXNkxxM2NhTFExeUV4ZC1KbFYxM3dLZFhiUDQzN195ZzdacG4yZDEycTRSN0xuYXJKeFJNek14Tm1kYWR6VjFzUkhZanp1elpKQUpB?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -4480,7 +4512,7 @@
       "publishedAt": "2021-08-30T00:36:21.000Z",
       "discoveredAt": "2026-09-20T09:46:45.470Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "58e3d00c18c",
@@ -4784,7 +4816,7 @@
       "publishedAt": "2015-11-26T07:26:57.000Z",
       "discoveredAt": "2026-09-20T09:46:45.468Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2889049412d",
