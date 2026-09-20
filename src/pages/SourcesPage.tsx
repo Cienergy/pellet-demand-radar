@@ -1,4 +1,3 @@
-import { relativeTime } from "../components/OpportunityCard";
 import { formatStamp } from "../lib/time";
 import { useFeed } from "../lib/useFeed";
 
