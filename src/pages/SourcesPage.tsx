@@ -1,4 +1,5 @@
 import { relativeTime } from "../components/OpportunityCard";
+import { formatStamp } from "../lib/time";
 import { useFeed } from "../lib/useFeed";
 
 export function SourcesPage() {
@@ -14,7 +15,8 @@ export function SourcesPage() {
         <div>
           <h1>Sources</h1>
           <p>
-            Hourly crawler · deploys live feed · last run {relativeTime(feed.updatedAt)} ·{" "}
+            Twice-hourly crawler (GitHub Actions may delay) · last crawl{" "}
+            <span title={feed.updatedAt}>{formatStamp(feed.updatedAt)}</span> ·{" "}
             {(feed.crawlDurationMs / 1000).toFixed(1)}s
           </p>
         </div>

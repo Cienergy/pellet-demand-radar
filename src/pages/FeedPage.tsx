@@ -1,15 +1,22 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { OpportunityCard, relativeTime, typeLabel } from "../components/OpportunityCard";
 import type { Opportunity, OpportunityType } from "../lib/types";
+import { formatStamp } from "../lib/time";
 import { useFeed } from "../lib/useFeed";
 
 export function FeedPage() {
   const { feed, loading, refreshing, error, refresh, lastFetch } = useFeed();
+  const [nowMs, setNowMs] = useState(() => Date.now());
   const [q, setQ] = useState("");
   const [type, setType] = useState<OpportunityType | "all">("tender");
   const [company, setCompany] = useState("");
   const [channel, setChannel] = useState<"all" | "portal" | "news" | "linkedin">("all");
   const [selected, setSelected] = useState<Opportunity | null>(null);
+
+  useEffect(() => {
+    const id = window.setInterval(() => setNowMs(Date.now()), 30_000);
+    return () => window.clearInterval(id);
+  }, []);
 
   const filtered = useMemo(() => {
     if (!feed) return [];
@@ -94,10 +101,10 @@ export function FeedPage() {
         >
           {refreshing ? "Refreshing…" : "Refresh"}
         </button>
-        <span className="live-pill">
+        <span className="live-pill" title={feed.updatedAt}>
           <span className="pulse" />
-          Feed {relativeTime(feed.updatedAt)}
-          {lastFetch ? ` · checked ${relativeTime(lastFetch)}` : ""}
+          Crawl {formatStamp(feed.updatedAt, nowMs)}
+          {lastFetch ? ` · checked ${formatStamp(lastFetch, nowMs)}` : ""}
         </span>
         {error ? <span className="toolbar-error">{error}</span> : null}
       </div>
