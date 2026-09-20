@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-09-20T20:45:19.449Z",
-  "crawlDurationMs": 18393,
+  "updatedAt": "2026-09-20T23:11:44.589Z",
+  "crawlDurationMs": 15582,
   "stats": {
-    "total": 363,
-    "tenders": 71,
-    "purchase": 66,
-    "news": 226,
+    "total": 382,
+    "tenders": 75,
+    "purchase": 69,
+    "news": 238,
     "portals": 63,
-    "linkedin": 227,
-    "newThisCrawl": 8,
-    "withCompany": 91
+    "linkedin": 246,
+    "newThisCrawl": 19,
+    "withCompany": 94
   },
   "sources": [
     {
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -97,11 +97,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
       "ok": true,
@@ -135,7 +135,7 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 23,
+      "count": 24,
       "error": null
     },
     {
@@ -281,7 +281,7 @@
       "publishedAt": "2022-05-01T07:00:00.000Z",
       "discoveredAt": "2026-09-20T20:45:02.999Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2e04ae86c0",
@@ -468,7 +468,7 @@
       "publishedAt": "2025-01-28T08:00:00.000Z",
       "discoveredAt": "2026-09-20T20:45:03.000Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "64aabe3718f",
@@ -562,7 +562,7 @@
       "publishedAt": "2017-11-17T08:00:00.000Z",
       "discoveredAt": "2026-09-20T20:45:03.001Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "39b2569b242",
@@ -648,6 +648,23 @@
       "discoveredAt": "2026-09-20T00:54:14.358Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "30f772c523c",
+      "title": "🚨 11.64 Lakh MT Biomass Pellet Opportunity — Are You Ready to Participate? NTPC has invited bids for agro-residue biomass pellets across 7 thermal power stations, with a 2-year contract and an approximate total quantity of 11.64 lakh MT. But before you pl - linkedin.com",
+      "summary": "🚨 11.64 Lakh MT Biomass Pellet Opportunity — Are You Ready to Participate? NTPC has invited bids for agro-residue biomass pellets across 7 thermal power stations, with a 2-year contract and an approximate total quantity of 11.64 lakh MT. But before you pl linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMHVlUGk1LWpoVDBnMjZVcTZxYV9KVTZQYTZTdEZVYktzRWVMQkZLLVVnYVpvUmdYS1dEQ1VQdHVoZ3hxT1lqVTFWNGRqaDlIQWtYcUNYN1FrTEpNLW5ZaERkOU5EV2JhMHh6Rk50UXdJaFNVWWM1V3Y2b0FlQUZnQmF2Q2NuZERzdE82bzlqQUlHVV9sV3dSUV9NVVZQclp4VnZJYTJkbVlhdmNXWTlHdFR0TkhQQjd6NUlCcA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 97,
+      "publishedAt": "2026-09-15T11:28:48.000Z",
+      "discoveredAt": "2026-09-20T23:11:31.365Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "25f7edca238",
@@ -926,6 +943,21 @@
       "isNew": false
     },
     {
+      "id": "008d9f0f241",
+      "title": "\"A skill development program was successfully conducted for the workforce driving biomass pallet production at, M/S AGH Biofuels, Mansa Punjab by Power Sector Skill Council under SAMARTH Mission Biomass Initiative. This training program is funded by P - linkedin.com",
+      "summary": "\"A skill development program was successfully conducted for the workforce driving biomass pallet production at, M/S AGH Biofuels, Mansa Punjab by Power Sector Skill Council under SAMARTH Mission Biomass Initiative. This training program is funded by P linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVzhHYUNHVDNNNl9vVHhvSERqU19pVXdGWktXZWNITjRKdDNKVDlKbXN5c0hoYVVycjMxQzNHWUFiZXExTkRCMGllcjRCZGlCTGZPTjAwelVLR0NzZEhqQnF5SHhuOGxRQ2RGajF4MUUzWU9yOHVLOVVRVmRlOHNvR2s3VTFzVFNmblRsREFkNDludXlzWXI4U3psOWJwUXNSM1IzcEVRYUZDVWZoZ1N6MGtKemdfUFI3M1oxSjNmYUhoQkwy?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 90,
+      "publishedAt": "2025-06-05T07:00:00.000Z",
+      "discoveredAt": "2026-09-20T23:11:31.366Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
       "id": "889dd23a17b84493",
       "title": "NTPC invites bids for procurement of biomass pellets to co-fire thermal power plants - PSU Watch",
       "summary": "NTPC invites bids for procurement of biomass pellets to co-fire thermal power plants PSU Watch",
@@ -1093,7 +1125,7 @@
       "publishedAt": "2021-11-03T07:00:00.000Z",
       "discoveredAt": "2026-09-20T20:45:02.999Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6d551b962cb",
@@ -1147,6 +1179,23 @@
       "isNew": false
     },
     {
+      "id": "01f3f55e1ae",
+      "title": "NTPC Issues Major Tender for Agro-Residue Biomass Pellets Across 7 Thermal Power Stations - linkedin.com",
+      "summary": "NTPC Issues Major Tender for Agro-Residue Biomass Pellets Across 7 Thermal Power Stations linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQnItODhnZjFXeXF0d1NQZjJkaklhMVRUYnA0czAwekNBal9aakJXRjREU1VuMW0xc1hDQldSRXM0WUhFNmZISUZWZnBxUXkwcFVhTmZrbDVacEdvNDI4ZTZxRkxFUFcwMk1tcUNWc3d5OUVzXzh0clIyd2tDVVhFN2hKeGdnc2UtMkl6TmV6NXdlWW1hT3doWEIteTdSTUUtRENuSGx2RFBmeHFtX2dVM0ZhdEpVQVp2Mk9vN25EUmxUc09UN0tac1ZvcXJVamM?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 74,
+      "publishedAt": "2026-09-14T07:24:35.000Z",
+      "discoveredAt": "2026-09-20T23:11:31.365Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "00c5780c1b5",
       "title": "Haryana-First: The New Biomass Tender Creating a Gold Rush for State Agri-Waste Manufacturers - LinkedIn",
       "summary": "Haryana-First: The New Biomass Tender Creating a Gold Rush for State Agri-Waste Manufacturers LinkedIn",
@@ -1175,6 +1224,21 @@
       "discoveredAt": "2026-09-20T14:09:51.056Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "70a0e13a24e",
+      "title": "Government's Biomass Feedstocks Innovation Programme provided £32 million to support innovation in domestic biomass production, from energy crops and forestry to pellet manufacturing. That's a significant investment in the UK's future biomass supply chai - linkedin.com",
+      "summary": "Government's Biomass Feedstocks Innovation Programme provided £32 million to support innovation in domestic biomass production, from energy crops and forestry to pellet manufacturing. That's a significant investment in the UK's future biomass supply chai linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQXQwTGtwb095MWlnanQ1RnlwX2hnRzM5cm1mbWtPbWlrSXNHbDJhU01XQ0FYX2t3a2daWEVwUnFoRkxiSEFPaHM5ZVpCbDMyMnpWY05FMHo2VUFSZ2YxMmFjTkJnZ3IyX05KaWUxN2U1TkVYQVZMZDJ2TVhta3ZTRmFrQmRMd3cyMVhDd28xSXBxU0NFbE9GdmxQTzdoVVp2ZnhLOGFmZzV3MmJlN2EyME5ObnptZ3k2ZXQxWXBtNlhOclkwbUxRVW9DTQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 74,
+      "publishedAt": "2026-09-02T07:00:00.000Z",
+      "discoveredAt": "2026-09-20T23:11:31.804Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "0350977819e",
@@ -1488,7 +1552,7 @@
       "publishedAt": "2022-07-27T07:00:00.000Z",
       "discoveredAt": "2026-09-20T20:45:03.001Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "77f760e2294",
@@ -1700,7 +1764,7 @@
       "publishedAt": "2022-05-01T07:00:00.000Z",
       "discoveredAt": "2026-09-20T20:45:01.439Z",
       "channel": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2ba4e705236",
@@ -1714,6 +1778,21 @@
       "score": 93,
       "publishedAt": "2026-09-09T09:27:32.000Z",
       "discoveredAt": "2026-09-19T20:24:35.268Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "4439b23223a",
+      "title": "India's biomass pellet and briquette industry has a quality problem — and it's bigger than most buyers realize. Industry estimates suggest roughly 85% of production in this space is still unorganized: small, informal units producing without consistent calorific val - linkedin.com",
+      "summary": "India's biomass pellet and briquette industry has a quality problem — and it's bigger than most buyers realize. Industry estimates suggest roughly 85% of production in this space is still unorganized: small, informal units producing without consistent calorific val linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWGgxTl9MYkdLZmRyNjNUYUxmOHdVbGYwTlFfakp5UUotQVk3WHEtYTAwTUplUXA5aGhtaG50Umo4RmpGVkZtSE5tMTBkbjlfYXI3N1k1R0xLT2VGQTh3bzdGYU13UkJZRjBDZTZmZEsteC1hYTRsSGN2RUl2UVc1SzBHTzNoaDNQdlRaOUlxc1JpUkFHS29jYUhqQlBfUi1SVHZpd2h4QzZPRUF1bTVWdVpoUVQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "purchase",
+      "companies": [],
+      "score": 93,
+      "publishedAt": "2026-09-09T09:27:32.000Z",
+      "discoveredAt": "2026-09-20T23:11:30.716Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -1859,6 +1938,21 @@
       "isNew": false
     },
     {
+      "id": "5b9e7985191",
+      "title": "Biomass Pellets Manufacturing Plant Project Report 2024: Industry Analysis, Unit Setup, Cost and Requirements - linkedin.com",
+      "summary": "Biomass Pellets Manufacturing Plant Project Report 2024: Industry Analysis, Unit Setup, Cost and Requirements linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSVBjOWRNYXlMazdrUG9kMGpPNkhKVmV1YjdMSzZWbzB0X3NyVk4tU09jLWNObXVmbHRuSDFpVFR4UXlZdjVHZ1VEcDJHektqVHRMZnJDZEdSeEc1Q1FkZ2FtVTIwMW9aTUM4U2VlSXFNVnVGcG04bmRzaS1yM19rQk1QSmtMOWhwY3pkWnVWOVZqNVBYRzZncU5wRWp3Q3BRUnRqOFZULTFwZw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "purchase",
+      "companies": [],
+      "score": 93,
+      "publishedAt": "2024-12-23T08:00:00.000Z",
+      "discoveredAt": "2026-09-20T23:11:30.716Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "15d1bf72214",
       "title": "Day 342/365 | Turning Farm Residue into Power NTPC Dadri is looking to procure 3.78 lakh MT of agro-residue-based non-torrefied biomass pellets over 270 days. That's roughly 1,400 MT every single day. At the reported benchmark price of ₹8,282.40/MT (in - LinkedIn",
       "summary": "Day 342/365 | Turning Farm Residue into Power NTPC Dadri is looking to procure 3.78 lakh MT of agro-residue-based non-torrefied biomass pellets over 270 days. That's roughly 1,400 MT every single day. At the reported benchmark price of ₹8,282.40/MT (in LinkedIn",
@@ -1872,6 +1966,23 @@
       "score": 73,
       "publishedAt": "2026-08-26T07:00:00.000Z",
       "discoveredAt": "2026-09-19T17:42:30.626Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "7c06e0c5218",
+      "title": "Day 342/365 | Turning Farm Residue into Power NTPC Dadri is looking to procure 3.78 lakh MT of agro-residue-based non-torrefied biomass pellets over 270 days. That's roughly 1,400 MT every single day. At the reported benchmark price of ₹8,282.40/MT (in - linkedin.com",
+      "summary": "Day 342/365 | Turning Farm Residue into Power NTPC Dadri is looking to procure 3.78 lakh MT of agro-residue-based non-torrefied biomass pellets over 270 days. That's roughly 1,400 MT every single day. At the reported benchmark price of ₹8,282.40/MT (in linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRHptSUFmamZiaXg5alUxcW1OYmpIbVJyQ3ZLOFdwZXZfTTdMY1NnVEJVa09DcTBPLWtYRmlhOG9odms2UlMtOVJXUDlWOURsckt4VTdiQTdhR0FOVEk3VmhPQU9UTWZoOUFXUmxMQkdaOGViWkFIRHdpcGdRTlljZC02ZGpiZkJxMThhVGdrd2VQVXpvWGxUS09XVnEyUVhWWm5rOQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "purchase",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 73,
+      "publishedAt": "2026-08-26T07:00:00.000Z",
+      "discoveredAt": "2026-09-20T23:11:30.716Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -2106,7 +2217,7 @@
       "summary": "Vaibhav Gill - Biomass Pellet Manufacturer & Supplier | Continuously Supplying to Thermal Power Plants since 2023 | Director – Gill Buildcon Pvt. Ltd. | Scaling to 1,000 MT/Day LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XdDd1TXE2WTdmYy1LQVJMMnZPQTU4YnZpTHVrRjZ0Y2xMaHpRaEVubEI4RTVEREhiS29lZE16U05wc2ttdUR5QkFtdW1lOWFkeG1qUE01NFRvcmEwR0E?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -2765,6 +2876,21 @@
       "isNew": false
     },
     {
+      "id": "4f57f96a161",
+      "title": "Wood Pellet Heating Systems Market Analysis: Industry Trends and CAGR 4% Growth 2026 to 2033 - linkedin.com",
+      "summary": "Wood Pellet Heating Systems Market Analysis: Industry Trends and CAGR 4% Growth 2026 to 2033 linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdlZuT01SRG1Jd3NaT1N3RTVvbWJLTnRSVzhtUFJUa1JxTjlJV0tUNFhsVHVnVi16dno3M3ZwdjAwZzNCaE1wQ0pDZHlscUZ1eWxWN3Vab1JsQ2xKRnNDa1RuVmxQbjBmdjMtSmJUNVNHV2FFV1hfbXF0MTFEWDh6bHRaTUtSMjd1OG9kc2VtanBaTG8?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-14T12:00:27.000Z",
+      "discoveredAt": "2026-09-20T23:11:30.716Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "0e940edf176",
       "title": "Biomass Pellet Machine Market Forecasted using Market Segmentation and Market Share from 2026 to 2033 Growing at a CAGR of 12.4% - LinkedIn",
       "summary": "Biomass Pellet Machine Market Forecasted using Market Segmentation and Market Share from 2026 to 2033 Growing at a CAGR of 12.4% LinkedIn",
@@ -2840,6 +2966,21 @@
       "isNew": false
     },
     {
+      "id": "0330e05e231",
+      "title": "The biomass industry is entering a new phase — and so is our vision at Proveg. Across the world, industries are looking for practical ways to decarbonize, utilize agricultural and forestry residues, and convert waste into commercially valuable products. Over th - linkedin.com",
+      "summary": "The biomass industry is entering a new phase — and so is our vision at Proveg. Across the world, industries are looking for practical ways to decarbonize, utilize agricultural and forestry residues, and convert waste into commercially valuable products. Over th linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWWRfbjhuMVdnNGxjUlBnc0dOdWx3TzZSdkRNZ2pDc0REUGlnY1JxTVp1d3pha2hmb0RDcVZqWDJRQ2Z5ekZxcl9MeEl0dFRoR0xCN3VjUTRsVlFfb002RHY5SHlSclREMVYwUG5Gc2dWX1drUzZwYXQ1cnFDQm9aam82MkYzNURyWTNfalNlU2hzZ3F5UmRNcUpoMVRCbFhfWTRzYlNRaFdLbFpmQ0FYVw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-12T14:06:22.000Z",
+      "discoveredAt": "2026-09-20T23:11:31.804Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "357c2bd11fa",
       "title": "Biomass Boiler Market Is Anticipated To Expand From $9.04 Billion In 2024 To $16.59 Billion By 2034, 2025–2035 | ANDRITZ | Valmet | Babcock & Wilcox | Hurst Boiler | Thermax - LinkedIn",
       "summary": "Biomass Boiler Market Is Anticipated To Expand From $9.04 Billion In 2024 To $16.59 Billion By 2034, 2025–2035 | ANDRITZ | Valmet | Babcock & Wilcox | Hurst Boiler | Thermax LinkedIn",
@@ -2853,6 +2994,21 @@
       "discoveredAt": "2026-09-20T00:54:14.751Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "5229fa5c1fe",
+      "title": "Biomass Boiler Market Is Anticipated To Expand From $9.04 Billion In 2024 To $16.59 Billion By 2034, 2025–2035 | ANDRITZ | Valmet | Babcock & Wilcox | Hurst Boiler | Thermax - linkedin.com",
+      "summary": "Biomass Boiler Market Is Anticipated To Expand From $9.04 Billion In 2024 To $16.59 Billion By 2034, 2025–2035 | ANDRITZ | Valmet | Babcock & Wilcox | Hurst Boiler | Thermax linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMjhXSWFjb2hYaldKS0h5cmt1U1ZjWUhYeUhkZng4LUlfT3NnRFhYZ1hRWmRKbFpQeFBvMjlDX3BXSHJOazk4dk5RSlhLd0NXZGQyVExOaWZWZV82R0hkblFKeDRLbTY4UUdVZ3l1eERIYnF5bjNVTzh3UVd2bGlYR1kzUlQzdlZGcDdIRy1JOWVyZlp6WE9EZ2xqdHIyT3ZvT0xSRUphc2R6bnVyUl9zQ1FpSTdTVmJtdTZxOWFyM0JCX0t5eE5wamxxS0E?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-11T05:35:21.000Z",
+      "discoveredAt": "2026-09-20T23:11:31.803Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "1683027515b",
@@ -3005,6 +3161,21 @@
       "isNew": false
     },
     {
+      "id": "2e76c87523a",
+      "title": "🌱 Biomass Pellets vs Coal, LPG & Diesel: Which Fuel Is Better for Industries? Industrial fuel selection directly affects production costs, heating efficiency and environmental performance. While coal, LPG and diesel remain widely used, biomass pellets are emer - linkedin.com",
+      "summary": "🌱 Biomass Pellets vs Coal, LPG & Diesel: Which Fuel Is Better for Industries? Industrial fuel selection directly affects production costs, heating efficiency and environmental performance. While coal, LPG and diesel remain widely used, biomass pellets are emer linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeW16ajZuYjNPNnhMVkZfQ0Y0dEt2dHFSemxZWEV6VzNBbzVVekwxaXhCUm91RDlCMTdEU2VUSTlXRUNiUFRVRGJTaGNqZUZBb3M5cTJSZktIWjNNdlItLTc0djFDZExhY3g3LTNiOHpRTzlkMjlEZVZwYm5CNXpvc3ZKb2M4STdxNFAyVHpERDI4M01ub3NCUnVYTWpaTmI0X1lLNVVaZ2RpakRkdFd0LUxDeGFkY3M?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-07T07:00:00.000Z",
+      "discoveredAt": "2026-09-20T23:11:30.715Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
       "id": "70c9b169236",
       "title": "🌱 Biomass Pellets vs Coal, LPG & Diesel: Which Fuel Is Better for Industries? Industrial fuel selection directly affects production costs, heating efficiency and environmental performance. While coal, LPG and diesel remain widely used, biomass pellets are emer - LinkedIn",
       "summary": "🌱 Biomass Pellets vs Coal, LPG & Diesel: Which Fuel Is Better for Industries? Industrial fuel selection directly affects production costs, heating efficiency and environmental performance. While coal, LPG and diesel remain widely used, biomass pellets are emer LinkedIn",
@@ -3065,6 +3236,21 @@
       "isNew": false
     },
     {
+      "id": "251ea3c4250",
+      "title": "TORREFIED vs NON-TORREFIED BIOMASS PELLETS Not all biomass pellets offer the same fuel performance. Non-torrefied pellets are produced from conventional biomass materials, while torrefied pellets undergo controlled thermal treatment to improve th - linkedin.com",
+      "summary": "TORREFIED vs NON-TORREFIED BIOMASS PELLETS Not all biomass pellets offer the same fuel performance. Non-torrefied pellets are produced from conventional biomass materials, while torrefied pellets undergo controlled thermal treatment to improve th linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOclB1bDJlOUJ3V1JSZ1RkQXRUUHZMU2tUdzZ2NHRXdmpGX0V2REZFcXFBanZVRDNDSWx1UXR4aTFnMmQxVHIzUlFLbFVvUFlyVERIdkRMMjFYX0VyNDFlS1ExZk9aRlFuRkkySlYyd0YzclBrUThybzFPbThoaEhIMk5LWTRlOUhFUEluQW1yRTg5WHllX3BNYWh5ZzBtUXVYazhsSW16bGpKdi01Y010M01hX3VPTEt2NlduN3I5elFGUF9rOEdFZmh0TVA3Tk1WckhN?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-03T07:00:00.000Z",
+      "discoveredAt": "2026-09-20T23:11:30.716Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "46e29c47238",
       "title": "Top 10 Biomass Boiler Manufacturers in India: 1. Thermax Ltd. 2. Isgec Heavy Engineering Ltd. 3. Cheema Boilers Ltd. 4. TKIL Industries Pvt. Ltd. 5. Uttamenergy Ltd. 6. Industrial Boilers Ltd. 7. Walchandnagar Industries Ltd. 8. Rakhoh Industries Pvt. Ltd. 9. Sit - LinkedIn",
       "summary": "Top 10 Biomass Boiler Manufacturers in India: 1. Thermax Ltd. 2. Isgec Heavy Engineering Ltd. 3. Cheema Boilers Ltd. 4. TKIL Industries Pvt. Ltd. 5. Uttamenergy Ltd. 6. Industrial Boilers Ltd. 7. Walchandnagar Industries Ltd. 8. Rakhoh Industries Pvt. Ltd. 9. Sit LinkedIn",
@@ -3076,6 +3262,21 @@
       "score": 70,
       "publishedAt": "2026-08-27T07:00:00.000Z",
       "discoveredAt": "2026-09-20T00:54:13.740Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "32fcb4e623c",
+      "title": "Top 10 Biomass Boiler Manufacturers in India: 1. Thermax Ltd. 2. Isgec Heavy Engineering Ltd. 3. Cheema Boilers Ltd. 4. TKIL Industries Pvt. Ltd. 5. Uttamenergy Ltd. 6. Industrial Boilers Ltd. 7. Walchandnagar Industries Ltd. 8. Rakhoh Industries Pvt. Ltd. 9. Sit - linkedin.com",
+      "summary": "Top 10 Biomass Boiler Manufacturers in India: 1. Thermax Ltd. 2. Isgec Heavy Engineering Ltd. 3. Cheema Boilers Ltd. 4. TKIL Industries Pvt. Ltd. 5. Uttamenergy Ltd. 6. Industrial Boilers Ltd. 7. Walchandnagar Industries Ltd. 8. Rakhoh Industries Pvt. Ltd. 9. Sit linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOUlvcFFuRGF2ekVVMkZqOEpzQTUyTUFaQWN5M25zdnE0Ym1tWFpvV3U3UFBLa2tkak1zTm5ueDVYMzRYSm1sbHBtZWJQNDBsLXA0d3ZiMzR0Z20xRm9Ca1VJaDZKT01zY3hzRHlNMFRUUFBpX25VUWpjSlBKcDRGWlh0ck9sOUdGQ0NBUW9FTHM3QXh4dGo2U19uQ1VGTDk2YktJZmpzSEtCekZvQnlQMHZBR3NOdTQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-08-27T07:00:00.000Z",
+      "discoveredAt": "2026-09-20T23:11:30.714Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -3494,7 +3695,7 @@
       "summary": "Biomass Pellets Import in India: Strategic Growth and Future Outlook linkedin.com",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcmFUSGIwZVMxdGU1b3JTNmdROVdqWnZlNEhQakhtaE9wU1JPdUt0RkVyU25nT2xobjhsTEl6d2l6R2staXExd3NQUG5MTDgtQ1N5dXA3ZVl2SXpzN3BVM2U5VkJiZnZwN1JFd2hhQkl6WTJCNHI4SWc5Uk81MnFISjNOdml4akhGVEpOUHVPQ3dXSzg?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -3652,6 +3853,21 @@
       "discoveredAt": "2026-09-20T00:54:14.753Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "278b179f1ef",
+      "title": "Wildfire fuel-reduction biomass for remote energy: Small-scale combined heat and power feasibility and strategic implications for British Columbia's bioeconomy - linkedin.com",
+      "summary": "Wildfire fuel-reduction biomass for remote energy: Small-scale combined heat and power feasibility and strategic implications for British Columbia's bioeconomy linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVmJESzJLd1ViZWYyQkg0T041MVVMWklNM0hOLU1DYXJmVGJUakJJOXp5LVFhMDFMUWZRaWo3QktCTDh6ZnZud3FHMFJKNU5tOUVmU0dhc240UkRITnNEa0ZYSWNUcGNIU2VVLWRkVmVobDFOS0xfZXVGQ1g5WWFBOEU3Q1FGU2s4VWx2SmZUZ1RuMWpiOHRVX1R5b2JkUC1MZDd3QVgwM2tTdm5NdWNpSWdSV0d0N1RLSWJxdmhWWmpjekZjY1dWcHBVcw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-03-03T08:00:00.000Z",
+      "discoveredAt": "2026-09-20T23:11:31.804Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "6abfef58231",
@@ -3890,6 +4106,21 @@
       "score": 70,
       "publishedAt": "2025-09-16T07:00:00.000Z",
       "discoveredAt": "2026-09-20T17:38:50.841Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "651115c3250",
+      "title": "🌱 New BIS Draft Standards on Biomass Pellet Equipment — Feedback Matters The Bureau of Indian Standards (BIS) has released a coordinated set of draft Indian Standards on equipment used in the production of non-torrefied biomass pellets — and invited - linkedin.com",
+      "summary": "🌱 New BIS Draft Standards on Biomass Pellet Equipment — Feedback Matters The Bureau of Indian Standards (BIS) has released a coordinated set of draft Indian Standards on equipment used in the production of non-torrefied biomass pellets — and invited linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNT3NmZm1WbWZseXJmaEYzb0R2S0dUVDRYUVp5aXEyM0FkdkY2Y2FUMFdSLTBpczdQWm9kcFpaZ1NsOHhYckR3OHBjemRQdHpkeHJwOXBEZGxOZ19PbmtPTFlRVS1zcHJ6OUUyazIyV1BJNkQ4UzJCbGhjc2NGbWlONGtxZXJfYzJObUFUZGdCdjNqLVRtU1Z3WnREZjU3dHpzNlgtQ09qX21mTFlQSWFjNHQwd3E1dWhTTTVBS2F0M3Y1ZFZGMzNMenI3Tmx2MnVH?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2025-09-16T07:00:00.000Z",
+      "discoveredAt": "2026-09-20T23:11:30.715Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -4364,7 +4595,7 @@
       "summary": "Deep Energy Enterprises - Biomass pellet plant Manufacturer& Service provider. LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RSzN6Q3RDMzcwMUlCeUZpdktwT2Zmc3czYVlPM3JnVWdWQkVnU01QLUlKLS12a0xmTm5aWXYxWDdBckQzaEQ3TkhJNmpYTjd4UlpYNGxodnk2WXFscktHcmdmbEw2cGkyQnNqWg?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -4618,6 +4849,21 @@
       "isNew": false
     },
     {
+      "id": "649483b2149",
+      "title": "Challenges in Biomass Briquette manufacturing - linkedin.com",
+      "summary": "Challenges in Biomass Briquette manufacturing linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUnZDT2dqd1ViNUJOblB1U3k0QnJvckh6YTYzeGVYa25Gc2RJUzdkZ0VOaV9FSUVQR2t1Um5nUUtqMmVMcmdiQVRKcWdobF9ZN0ZYckduYjZ4NFdmTk10Q3ZsN01NLUlIRnVDUHlVdWUzWVZpY0ttY0FGa3RHV0I3M05YTFE2OTlLcVFrTGpBYzNHRW52b1RkbGlUblZKSlJZOUJ1bQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2024-04-13T07:00:00.000Z",
+      "discoveredAt": "2026-09-20T23:11:30.716Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "0dd3fda7152",
       "title": "Dr. Shraddha Shahane - Founder | GreenCore Fuels | Industrial Fuel Transition | Biomass Pellet Manufacturing | Technical Consultant | Ph.D. IIT Delhi - in.linkedin.com",
       "summary": "Dr. Shraddha Shahane - Founder | GreenCore Fuels | Industrial Fuel Transition | Biomass Pellet Manufacturing | Technical Consultant | Ph.D. IIT Delhi in.linkedin.com",
@@ -4663,6 +4909,21 @@
       "isNew": false
     },
     {
+      "id": "0dfe378c15d",
+      "title": "What is the function of binders in biomass pellet production? - linkedin.com",
+      "summary": "What is the function of binders in biomass pellet production? linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcnBYa1Y2bmJfQlRIbV9tTi1ZTkFhNmhCbGdUdno0cHNJUmtQVnIxLTMxRzBfU0I0RlpVRlZOeThWMUxXSVhFaE9OM2xYM2ozREZGdl83TkthTW9FMUxSdndnR0pWcGZBU0Zhb2xfSS1nU3dxVnhraXRBSHBnWmNHbjZCMFFJVk9rdW9SSHJvVGY2bS13NmJHczZacTl4dEVLNnRfekFMOA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2023-10-27T07:00:00.000Z",
+      "discoveredAt": "2026-09-20T23:11:30.716Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "454b005d25b",
       "title": "Ensure the 𝐌𝐨𝐝𝐞𝐥 𝐂𝐨𝐧𝐭𝐫𝐚𝐜𝐭 𝐒𝐩𝐞𝐜𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 issued by Ministry of Power to make Biomass Pellets 𝐜𝐨𝐦𝐩𝐥𝐢𝐚𝐧𝐭 with 𝐜𝐨-𝐟𝐢𝐫𝐢𝐧𝐠 𝐩𝐫𝐨𝐜𝐞𝐬𝐬 𝐧𝐨𝐫𝐦𝐬 in Thermal Power Plants and 𝐚𝐝𝐝 𝐧𝐞𝐰 𝐚𝐫𝐞𝐧𝐚 to your Portfolio. Follow 𝐒𝐀𝐌𝐀𝐑𝐓\ud835",
       "summary": "Ensure the 𝐌𝐨𝐝𝐞𝐥 𝐂𝐨𝐧𝐭𝐫𝐚𝐜𝐭 𝐒𝐩𝐞𝐜𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 issued by Ministry of Power to make Biomass Pellets 𝐜𝐨𝐦𝐩𝐥𝐢𝐚𝐧𝐭 with 𝐜𝐨-𝐟𝐢𝐫𝐢𝐧𝐠 𝐩𝐫𝐨𝐜𝐞𝐬𝐬 𝐧𝐨𝐫𝐦𝐬 in Thermal Power Plants and 𝐚𝐝𝐝 𝐧𝐞𝐰 𝐚𝐫𝐞𝐧𝐚 to your Portfolio. Follow 𝐒𝐀𝐌𝐀𝐑𝐓𝐇 missi LinkedIn",
@@ -4676,6 +4937,36 @@
       "discoveredAt": "2026-09-20T09:46:46.328Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "7ffca07625f",
+      "title": "Ensure the 𝐌𝐨𝐝𝐞𝐥 𝐂𝐨𝐧𝐭𝐫𝐚𝐜𝐭 𝐒𝐩𝐞𝐜𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 issued by Ministry of Power to make Biomass Pellets 𝐜𝐨𝐦𝐩𝐥𝐢𝐚𝐧𝐭 with 𝐜𝐨-𝐟𝐢𝐫𝐢𝐧𝐠 𝐩𝐫𝐨𝐜𝐞𝐬𝐬 𝐧𝐨𝐫𝐦𝐬 in Thermal Power Plants and 𝐚𝐝𝐝 𝐧𝐞𝐰 𝐚𝐫𝐞𝐧𝐚 to your Portfolio. Follow 𝐒𝐀𝐌𝐀𝐑𝐓\ud835",
+      "summary": "Ensure the 𝐌𝐨𝐝𝐞𝐥 𝐂𝐨𝐧𝐭𝐫𝐚𝐜𝐭 𝐒𝐩𝐞𝐜𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 issued by Ministry of Power to make Biomass Pellets 𝐜𝐨𝐦𝐩𝐥𝐢𝐚𝐧𝐭 with 𝐜𝐨-𝐟𝐢𝐫𝐢𝐧𝐠 𝐩𝐫𝐨𝐜𝐞𝐬𝐬 𝐧𝐨𝐫𝐦𝐬 in Thermal Power Plants and 𝐚𝐝𝐝 𝐧𝐞𝐰 𝐚𝐫𝐞𝐧𝐚 to your Portfolio. Follow 𝐒𝐀𝐌𝐀𝐑𝐓𝐇 missi linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWk9QaERxS1d0bFVkXzZlaEZVdlBGci1mN2F6a0s2WS1EYWx6UjRCYV91aW1CcWgtV2xVdnpjWHBzYkJLdFZZZ3BkYUcyYVZHbndKUHB5QmtMUjFjVWNHYm0weU5abDlCSWo2QS1obnNabHVHNERlb2dqWXpuSTdMOGxKcHBlUm1yZDNDeV93bS0tOFFlbDdjMVQtX01vRTl1bjFRZVkxdXhRSWlzU0x1V2MzVE5nQy1YN1lNLVd5RQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2023-07-29T07:00:00.000Z",
+      "discoveredAt": "2026-09-20T23:11:31.803Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
+      "id": "30509b3fdd",
+      "title": "Manish Garg - Eton Biomass Energy - LinkedIn India",
+      "summary": "Manish Garg - Eton Biomass Energy LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5VWmlZd083c0JMeVEwMktJVDVzNXZGT0hiNDRsRXp1YTNCZmdJWGVGcHR4UDNZbXFndlFHMHJoSzhMZWtibXREMV91eFdrOHJzbkNhcFZhLUNGaGFO?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2023-04-04T08:43:52.000Z",
+      "discoveredAt": "2026-09-20T23:11:31.366Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "14222976105",
@@ -5525,7 +5816,7 @@
       "publishedAt": "2022-05-03T07:00:00.000Z",
       "discoveredAt": "2026-09-20T20:45:01.440Z",
       "channel": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "cabcaf1c7c0a459c",
