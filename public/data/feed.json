@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-09-21T01:35:45.341Z",
-  "crawlDurationMs": 18607,
+  "updatedAt": "2026-09-21T07:55:27.261Z",
+  "crawlDurationMs": 19921,
   "stats": {
-    "total": 382,
+    "total": 384,
     "tenders": 75,
-    "purchase": 69,
-    "news": 238,
+    "purchase": 70,
+    "news": 239,
     "portals": 63,
-    "linkedin": 246,
-    "newThisCrawl": 0,
+    "linkedin": 248,
+    "newThisCrawl": 2,
     "withCompany": 94
   },
   "sources": [
@@ -97,11 +97,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -135,14 +135,14 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 24,
+      "count": 23,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 64,
+      "count": 62,
       "error": null
     },
     {
@@ -2002,6 +2002,21 @@
       "isNew": false
     },
     {
+      "id": "48e4c4c312f",
+      "title": "Doris Cheng - Wood Processing Machinery | Biomass Recycling Solutions | Production Line Supplier to make paper pulp and wood pellet - tr.linkedin.com",
+      "summary": "Doris Cheng - Wood Processing Machinery | Biomass Recycling Solutions | Production Line Supplier to make paper pulp and wood pellet tr.linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aNUgxSXpMeERuaEVCUTZlRTVfWkhuemxGUld4RkZQNlNnbGdscWZlNGhUZVlRWHd5MzgzblZxUmxUZEcyYm9ueDNiQzIwYnM?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2026-06-04T20:10:00.000Z",
+      "discoveredAt": "2026-09-21T07:55:09.388Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "399b4a3924b",
       "title": "Q:Want to start an export business of Biomass Pellets (6 to 10 mm) and Biomass Briquettes (90 mm)?. 1. European Market Demand (2025–26) European demand for biomass fuels remains very strong, driven by: - Heating sector (Germany, Italy, France, Austria - LinkedIn",
       "summary": "Q:Want to start an export business of Biomass Pellets (6 to 10 mm) and Biomass Briquettes (90 mm)?. 1. European Market Demand (2025–26) European demand for biomass fuels remains very strong, driven by: - Heating sector (Germany, Italy, France, Austria LinkedIn",
@@ -2187,7 +2202,7 @@
       "summary": "SANJAY BAIRWA - CC Incharge (Plant Manager) Biomass Supply Chain & Ops Mgt for Bio Energy Business (Feed Stock), Briquette, Pellet, Aggregation and Sourcing of Right Kind of Biomass (Agri Waste). LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE10TnFlNHQwUENPRXZEZzlTVE5xZkpMWC05MEt4TzVhaXhnWFVNUlhJME9Sa1R4NVBqSjFWZlJWaXkteGh3Njk4ZGJJTk52RlJuMkU1YmlFWjA5bE1CTlE?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -2859,6 +2874,21 @@
       "discoveredAt": "2026-09-19T22:49:51.647Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "6c755e46241",
+      "title": "🌱 NAPIER GRASS: FROM FARM TO CLEAN GASEOUS FUEL Efficient CBG production begins with how we prepare the feedstock. At Proveg Engineering, our focus is on connecting farm harvesting with biomass preparation and controlled feeding into the CB - LinkedIn",
+      "summary": "🌱 NAPIER GRASS: FROM FARM TO CLEAN GASEOUS FUEL Efficient CBG production begins with how we prepare the feedstock. At Proveg Engineering, our focus is on connecting farm harvesting with biomass preparation and controlled feeding into the CB LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVFgyZWloZWZ1MFpsTVlrcmotNkxVcVk5dk81UVVMYUw4VTljbnRNaFpYLXA0Z3J2Mk1JLVJ6M3hPa2FCZXdJMUdXanFJNUpWd3E5dk5CWXJhVWxvaGROOERxUVVzX25kQTQybFBRSmRiblBnZExtYktzdWh0OFVfd1VrcFA4ZWxPaVpEOXJqQ1BlOFJFa1dGMnhWQXN5YmxvRG1RVDByUXRGVHE5NnpDcHV0ZFRJRTA0WXNSbVBiREY1aml4RHVGVDlCRmZqdw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-21T03:37:01.000Z",
+      "discoveredAt": "2026-09-21T07:55:09.386Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "6c4875c315d",
