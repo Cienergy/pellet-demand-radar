@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-09-21T07:55:27.261Z",
-  "crawlDurationMs": 19921,
+  "updatedAt": "2026-09-21T15:04:12.102Z",
+  "crawlDurationMs": 20378,
   "stats": {
-    "total": 384,
+    "total": 390,
     "tenders": 75,
     "purchase": 70,
-    "news": 239,
+    "news": 245,
     "portals": 63,
-    "linkedin": 248,
-    "newThisCrawl": 2,
+    "linkedin": 254,
+    "newThisCrawl": 6,
     "withCompany": 94
   },
   "sources": [
@@ -128,28 +128,28 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 58,
+      "count": 60,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 23,
+      "count": 24,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 62,
+      "count": 66,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 9,
+      "count": 8,
       "error": null
     },
     {
@@ -2014,7 +2014,7 @@
       "publishedAt": "2026-06-04T20:10:00.000Z",
       "discoveredAt": "2026-09-21T07:55:09.388Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "399b4a3924b",
@@ -2232,7 +2232,7 @@
       "summary": "Vaibhav Gill - Biomass Pellet Manufacturer & Supplier | Continuously Supplying to Thermal Power Plants since 2023 | Director – Gill Buildcon Pvt. Ltd. | Scaling to 1,000 MT/Day LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XdDd1TXE2WTdmYy1LQVJMMnZPQTU4YnZpTHVrRjZ0Y2xMaHpRaEVubEI4RTVEREhiS29lZE16U05wc2ttdUR5QkFtdW1lOWFkeG1qUE01NFRvcmEwR0E?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -2888,6 +2888,21 @@
       "publishedAt": "2026-09-21T03:37:01.000Z",
       "discoveredAt": "2026-09-21T07:55:09.386Z",
       "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "115ba8f4249",
+      "title": "This machine didn't wait for the crop to come to it. It went to the crop. Most baling infrastructure is built around a fixed point a central facility where biomass has to be transported before it can be processed. That means every farm feeding into it depends on trans - LinkedIn",
+      "summary": "This machine didn't wait for the crop to come to it. It went to the crop. Most baling infrastructure is built around a fixed point a central facility where biomass has to be transported before it can be processed. That means every farm feeding into it depends on trans LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVWY0SGZnTm5DNzVrZng3UmIyUEczckdsSlA1dllKYUxNU0dxdHZBX29iRERkWlVnZnFWYkNXNzVISmI4aVc4SGtSZFc2YTA2NFFCMzdvVE9JMVVyeWlLU2RKbHo2ejEzU0VTb1o2Z2tJUkJGWkhkUlRUeDVSMVZoeElYWmx1T1c4VHVOZEh0dHVoVDhZbGtPbjg4ZTlaaDY1TFZNLTgtSlg3LVV6dHhQUHJPMXo3Ykg1blNDckkzWFE?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-17T06:23:24.000Z",
+      "discoveredAt": "2026-09-21T15:03:54.169Z",
+      "channel": "linkedin",
       "isNew": true
     },
     {
@@ -2919,6 +2934,21 @@
       "discoveredAt": "2026-09-20T23:11:30.716Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "3d17ae9822f",
+      "title": "What stages are typically included in a continuous biomass pyrolysis carbonization production line? A complete continuous biomass carbonization system consists of more than just the carbonization reactor itself. To ensure stable equipment operation, it is usu - LinkedIn",
+      "summary": "What stages are typically included in a continuous biomass pyrolysis carbonization production line? A complete continuous biomass carbonization system consists of more than just the carbonization reactor itself. To ensure stable equipment operation, it is usu LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOLXlOQ3BaeVpVZHlnSmdoU2FvQ2hfeVotLTZlYWdZQ0hZQk9NQXBTLWR4NjducFNrSFVvTzVEZ0g0QnBIcDJVMGRWYXFZSHFDSGdaM0xBOGczY01kS1pOOWZpa3RJYVQ0eTZfejRUQTVqUlNEbXZQRUJ1VmpWRU9kZmxCYlRBNG9IX3lUTjloYXIxMUJBLUlER0h2NVhSZVdyRzFFQ2pUMWRJV1lkcjZfcHgySQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-14T09:35:39.000Z",
+      "discoveredAt": "2026-09-21T15:03:54.170Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "0e940edf176",
@@ -3007,6 +3037,21 @@
       "score": 70,
       "publishedAt": "2026-09-12T14:06:22.000Z",
       "discoveredAt": "2026-09-20T23:11:31.804Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "0352721624e",
+      "title": "A biomass pellet may look simple. Producing it consistently is not. Before biomass fuel reaches an industrial boiler, the raw material has already passed through several stages of preparation, processing and pelletization. This reel captures the journey from loo - LinkedIn",
+      "summary": "A biomass pellet may look simple. Producing it consistently is not. Before biomass fuel reaches an industrial boiler, the raw material has already passed through several stages of preparation, processing and pelletization. This reel captures the journey from loo LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWDNuQXMwUmZIUmdaVi1YZkgzeDVSMUxnd04wYU5XSjhkU0xXTkE2Q1JhUko0QktuYTJ1ZnFHSjJEakNTYmRVNE56UmlpT1JsU3d5ekpMLXR5VVdMbmZwSFhFUTRpYmhjRzl3RjdPT1ZuQUNMdDR6b1UzTWVCdkdqNDRCTGRGRXhnZDI0ZkZDb1lOX1ZibmNxTlBjRWdXTFh0YXM2OWgtZlVFdV9sYVljbmF2LTdHeTNHbzVYTVVxSlZpZlVWb0tkZA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-11T07:00:00.000Z",
+      "discoveredAt": "2026-09-21T15:03:53.145Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -3279,6 +3324,21 @@
       "discoveredAt": "2026-09-20T23:11:30.716Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "0c430b7824c",
+      "title": "Turning biomass into value with Hobersal pyrolysis technology. 🌱🔥 At Hobersal, we design and manufacture tube and retort-type furnaces for biomass pyrolysis and biochar production, providing thermal solutions from laboratory research to pilot plant and ind - LinkedIn",
+      "summary": "Turning biomass into value with Hobersal pyrolysis technology. 🌱🔥 At Hobersal, we design and manufacture tube and retort-type furnaces for biomass pyrolysis and biochar production, providing thermal solutions from laboratory research to pilot plant and ind LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOM3FLQkJaTFhPZFhHM2llNnBoaFNWSGNlNHNGMnlTeUdGb0hYSFh2V1BGdUpZVDVPTmp5dGFmZ3BSajRRY2JlV0RBN05KYlM2Q0tWcFVicFdIeWl0VmppVHd3cHZvOVhsV3lNZEJLYVJqemUybnRzaXUzcjVRT1doUkZuckZLR3hUcW9zVXlvd3p6VTFhLW5QV3IwRi1zUVkwYTZTcFhHdUVZZktvN2RQTXM1Wmh0WlVTWEF0UkFpQnJqb1RDNERoN1lB?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-02T07:00:00.000Z",
+      "discoveredAt": "2026-09-21T15:03:54.169Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "46e29c47238",
@@ -3965,7 +4025,7 @@
       "summary": "Why Biomass Pellet Manufacturers in India Are Shutting Down – Ground Reality & Policy Gaps LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNR1c0ai0wc3dicEFhdGR5T3ZHTlFKZEp3b0ZZSlhhX0JEWWJ6VGNGZGExNGNuOEY3NjVMbFRJNnBEdW91NVBhN3ZzUl9Ib2NoY1o4S2RMbTdqZmJvOFhTcDF5RGVVUzR0cW9wYmtrMG16RDdtNmRwM3ZHNHdzZlM1V1k5UWR3ZU1GY24xWnBGRVpNbzM5V3ItUFNtNURBNzBtbkdpcGhlQTJQNWo2Z0Q2MXI3X3kwQQ?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -5363,6 +5423,21 @@
       "isNew": false
     },
     {
+      "id": "0540dc6bec",
+      "title": "Harsh Awla - Director at Universal biomass energy - LinkedIn India",
+      "summary": "Harsh Awla - Director at Universal biomass energy LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00dFJ2ODg2MDFDUmpmVEo5TTBfUFplWWE2b09DZUM1OS1YY3FkalNvbWpUOThLV2lxaDYxZmg5NkxLQS16cWJhLXJBU0FXVnFjRmhUMzlwc3Z0NUk?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2015-11-23T17:37:34.000Z",
+      "discoveredAt": "2026-09-21T15:03:53.148Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "2889049412d",
       "title": "Co-Founder & Director | Biomass Pellet Manufacturing (60–70 TPD) | Renewable Energy | Plant Operations & Scale-up - in.linkedin.com",
       "summary": "Co-Founder & Director | Biomass Pellet Manufacturing (60–70 TPD) | Renewable Energy | Plant Operations & Scale-up in.linkedin.com",
@@ -5451,6 +5526,21 @@
       "discoveredAt": "2026-09-19T15:47:31.356Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "44beb853128",
+      "title": "Amitabh Tandon - Managing Director Transtech green power & Secretary at Indian Biomass power association - LinkedIn India",
+      "summary": "Amitabh Tandon - Managing Director Transtech green power & Secretary at Indian Biomass power association LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBfSE90QkdNOFRaTDY0RzJRVXVxU2F3eG5TYnpobXhQbk9Fb3pXSU5qTHdxQTNxLWJ0VU1CWlhvZW9WOTlEcVFZSU01LWZMM1VHMDdGLVNFYU9YM0JaNjY4?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2015-11-16T14:57:17.000Z",
+      "discoveredAt": "2026-09-21T15:03:54.169Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "7c3b74a110e",
