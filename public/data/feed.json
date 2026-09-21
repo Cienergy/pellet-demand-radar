@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-20T23:11:44.589Z",
-  "crawlDurationMs": 15582,
+  "updatedAt": "2026-09-21T01:35:45.341Z",
+  "crawlDurationMs": 18607,
   "stats": {
     "total": 382,
     "tenders": 75,
@@ -8,7 +8,7 @@
     "news": 238,
     "portals": 63,
     "linkedin": 246,
-    "newThisCrawl": 19,
+    "newThisCrawl": 0,
     "withCompany": 94
   },
   "sources": [
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 57,
+      "count": 58,
       "error": null
     },
     {
@@ -142,7 +142,7 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 65,
+      "count": 64,
       "error": null
     },
     {
@@ -664,7 +664,7 @@
       "publishedAt": "2026-09-15T11:28:48.000Z",
       "discoveredAt": "2026-09-20T23:11:31.365Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "25f7edca238",
@@ -1193,7 +1193,7 @@
       "publishedAt": "2026-09-14T07:24:35.000Z",
       "discoveredAt": "2026-09-20T23:11:31.365Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "00c5780c1b5",
@@ -1238,7 +1238,7 @@
       "publishedAt": "2026-09-02T07:00:00.000Z",
       "discoveredAt": "2026-09-20T23:11:31.804Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0350977819e",
@@ -1950,7 +1950,7 @@
       "publishedAt": "2024-12-23T08:00:00.000Z",
       "discoveredAt": "2026-09-20T23:11:30.716Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "15d1bf72214",
@@ -2187,7 +2187,7 @@
       "summary": "SANJAY BAIRWA - CC Incharge (Plant Manager) Biomass Supply Chain & Ops Mgt for Bio Energy Business (Feed Stock), Briquette, Pellet, Aggregation and Sourcing of Right Kind of Biomass (Agri Waste). LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE10TnFlNHQwUENPRXZEZzlTVE5xZkpMWC05MEt4TzVhaXhnWFVNUlhJME9Sa1R4NVBqSjFWZlJWaXkteGh3Njk4ZGJJTk52RlJuMkU1YmlFWjA5bE1CTlE?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -2217,7 +2217,7 @@
       "summary": "Vaibhav Gill - Biomass Pellet Manufacturer & Supplier | Continuously Supplying to Thermal Power Plants since 2023 | Director – Gill Buildcon Pvt. Ltd. | Scaling to 1,000 MT/Day LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XdDd1TXE2WTdmYy1LQVJMMnZPQTU4YnZpTHVrRjZ0Y2xMaHpRaEVubEI4RTVEREhiS29lZE16U05wc2ttdUR5QkFtdW1lOWFkeG1qUE01NFRvcmEwR0E?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -2888,7 +2888,7 @@
       "publishedAt": "2026-09-14T12:00:27.000Z",
       "discoveredAt": "2026-09-20T23:11:30.716Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0e940edf176",
@@ -2978,7 +2978,7 @@
       "publishedAt": "2026-09-12T14:06:22.000Z",
       "discoveredAt": "2026-09-20T23:11:31.804Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "357c2bd11fa",
@@ -3008,7 +3008,7 @@
       "publishedAt": "2026-09-11T05:35:21.000Z",
       "discoveredAt": "2026-09-20T23:11:31.803Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1683027515b",
@@ -3248,7 +3248,7 @@
       "publishedAt": "2026-09-03T07:00:00.000Z",
       "discoveredAt": "2026-09-20T23:11:30.716Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "46e29c47238",
@@ -3867,7 +3867,7 @@
       "publishedAt": "2026-03-03T08:00:00.000Z",
       "discoveredAt": "2026-09-20T23:11:31.804Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6abfef58231",
@@ -4861,7 +4861,7 @@
       "publishedAt": "2024-04-13T07:00:00.000Z",
       "discoveredAt": "2026-09-20T23:11:30.716Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0dd3fda7152",
@@ -4921,7 +4921,7 @@
       "publishedAt": "2023-10-27T07:00:00.000Z",
       "discoveredAt": "2026-09-20T23:11:30.716Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "454b005d25b",
@@ -4951,7 +4951,7 @@
       "publishedAt": "2023-07-29T07:00:00.000Z",
       "discoveredAt": "2026-09-20T23:11:31.803Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "30509b3fdd",
@@ -4966,7 +4966,7 @@
       "publishedAt": "2023-04-04T08:43:52.000Z",
       "discoveredAt": "2026-09-20T23:11:31.366Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "14222976105",
