@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-09-21T15:04:12.102Z",
-  "crawlDurationMs": 20378,
+  "updatedAt": "2026-09-21T19:59:08.787Z",
+  "crawlDurationMs": 17874,
   "stats": {
-    "total": 390,
-    "tenders": 75,
+    "total": 395,
+    "tenders": 76,
     "purchase": 70,
-    "news": 245,
-    "portals": 63,
-    "linkedin": 254,
-    "newThisCrawl": 6,
-    "withCompany": 94
+    "news": 249,
+    "portals": 64,
+    "linkedin": 258,
+    "newThisCrawl": 5,
+    "withCompany": 95
   },
   "sources": [
     {
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 28,
+      "count": 29,
       "error": null
     },
     {
@@ -135,14 +135,14 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 24,
+      "count": 25,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 66,
+      "count": 69,
       "error": null
     },
     {
@@ -286,7 +286,7 @@
     {
       "id": "2e04ae86c0",
       "title": "EOI For SETTING UP AND OPERATION OF A BIOMASS PELLET PLANT AT ITWA, DISTRICT SIDDHARTH NAGAR, UTTAR PRADESH ON BUILD-OWN-OPERATE (BOO) BASIS",
-      "summary": "Ref: NVVN/C&M/2026-27/RE-537 · Closes: 22/09/2026 1 day to go · Matched NTPC search “biomass”",
+      "summary": "Ref: NVVN/C&M/2026-27/RE-537 · Closes: 22/09/2026 16 Hours to go · Matched NTPC search “biomass”",
       "url": "https://ntpctender.ntpc.co.in/NITDetails/NITs/30217",
       "source": "ntpc_portal",
       "sourceLabel": "NTPC tender portal",
@@ -716,6 +716,21 @@
       "discoveredAt": "2026-09-19T15:47:30.954Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "20f5eff3173",
+      "title": "India Biomass Market Analysis 2026–2034: Key Growth Drivers, Emerging Opportunities & Outlook - LinkedIn",
+      "summary": "India Biomass Market Analysis 2026–2034: Key Growth Drivers, Emerging Opportunities & Outlook LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMVA0REJxamRpQXp5M0Rvbld0YnVGaU1IamFyY2NRMWJfUF9vM2tHLXRZWHpXVnZLSEJjeVFLYlFHT1E1OGMzLW5wLVE1bHEySDdvQjRkTjJXXzY1bGhjdGJ3SkVpdHdKbHRqb1l6blFHUWJ2d1ZPRWdOWllQYXpMREIwc3lFbWFSYlB6ZEFhUDI2Z05wTGJaSTNUQ0dSRFNXNkhF?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 90,
+      "publishedAt": "2026-08-21T07:00:00.000Z",
+      "discoveredAt": "2026-09-21T19:58:53.445Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "4ce2aa4824f",
@@ -2876,6 +2891,38 @@
       "isNew": false
     },
     {
+      "id": "695007c62c5",
+      "title": "NTPC to use biomass to co-fire coal-based power plants, cut emissions - deccanchronicle.com",
+      "summary": "NTPC to use biomass to co-fire coal-based power plants, cut emissions deccanchronicle.com",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWjMzcjNMaGxSOWQ2S1JNNDczNnJJbERmeXNmU3Z5QVBudFBjeENXcm0yNE1KdFEtTXdoUFVJQ29hZUd3TFJfaXZXZHZNOWhTcEk3c1pSaHNuaThybm9IbE02SEdxREpCVXZDd0x5WVc3dWpMb0FoLUgyaDhqdzMzLURtd1N6bmhWUUQ1d0JvMUxLOGFhUVdndTlhMkpwVUdTYmcxYzl0ZEl6TDNicC1PSC16aFNFN1FxUTNBUGlqLUV1RDNDemZIUkprTXY4TUcy0gHWAUFVX3lxTE1GNkxPNEpQcHZnNHNWYXItVnZSeGpQYUhTSWtkSk9ydFNqZy1MYjRjMUF0bHE1cDNJdkNDNU1ic01tbzBLcUVPQTVkeHljSk9Mb2FmamtHd0xmeExOYl81YzFlVWJ0QUQtUkN3bzBuTXVwYldZT0lyRDZsOGxKT0E5MVdyRHI0amVFSXM4UW1wUF9pb3V2bG5aUWpHRVVrSDJad0hfWjloLS1KLVJ0eC1xQk1SVUJPUC14cF8xWS1ZaHJicExDMHJNdXVFYmgtU0k4UGc2OUE?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "news",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 70,
+      "publishedAt": "2018-10-21T07:00:00.000Z",
+      "discoveredAt": "2026-09-21T19:58:52.337Z",
+      "channel": "portal",
+      "isNew": true
+    },
+    {
+      "id": "6796a4fe172",
+      "title": "Future of the Biomass Pellet Plant Market: Structural Insights and CAGR Projections from 2026 to 2033 - LinkedIn",
+      "summary": "Future of the Biomass Pellet Plant Market: Structural Insights and CAGR Projections from 2026 to 2033 LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTjdpd042TDZmdUlsY0VfRXNWZ2R5d3lGYk4xSG1QQTV5bDI2N2FneG1RdlNacmhsWF80Uy1xN3RheU9JZGs5VTQ5bW5YN0plQ0FBVGRXZ3dZTFgzS2ZkcFQ4VzFfX0Jld0F0eHlOenM1WHRCNHN1aEVEWTNaa2FyYS1CWmg0WVpuUXF4NGxyQ0RNOTdodVpxcW85cng?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-21T07:12:58.000Z",
+      "discoveredAt": "2026-09-21T19:58:52.320Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "6c755e46241",
       "title": "🌱 NAPIER GRASS: FROM FARM TO CLEAN GASEOUS FUEL Efficient CBG production begins with how we prepare the feedstock. At Proveg Engineering, our focus is on connecting farm harvesting with biomass preparation and controlled feeding into the CB - LinkedIn",
       "summary": "🌱 NAPIER GRASS: FROM FARM TO CLEAN GASEOUS FUEL Efficient CBG production begins with how we prepare the feedstock. At Proveg Engineering, our focus is on connecting farm harvesting with biomass preparation and controlled feeding into the CB LinkedIn",
@@ -2903,7 +2950,7 @@
       "publishedAt": "2026-09-17T06:23:24.000Z",
       "discoveredAt": "2026-09-21T15:03:54.169Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6c4875c315d",
@@ -2948,7 +2995,22 @@
       "publishedAt": "2026-09-14T09:35:39.000Z",
       "discoveredAt": "2026-09-21T15:03:54.170Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
+    },
+    {
+      "id": "5351798e243",
+      "title": "🌿 From Fossil Fuel to Pellet-Based Heat — A Practical Energy Shift What if your furnace, kiln, boiler or commercial kitchen could move away from conventional LPG and diesel fuel—without completely redesigning the equipment? That is where ADS Eco-Pellet - LinkedIn",
+      "summary": "🌿 From Fossil Fuel to Pellet-Based Heat — A Practical Energy Shift What if your furnace, kiln, boiler or commercial kitchen could move away from conventional LPG and diesel fuel—without completely redesigning the equipment? That is where ADS Eco-Pellet LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQY0ZvT1ZucHlBbklXTGdrVkx2YTRYM0ZQUXhnWllqbHZENWtsbGhqX3VldVhCMkpuV3pyRzNXaFBkNEdwaTVYczU0WHpMREhteE9MUFBSTjlZaHF1TjJWemZqcGc1Vzg3cVFkRVVpX2lYbHVrTUhyaHY2UmNHdVpaV2tnLVZGYkdGMUQ3MzUxS2IwWnVUQkNScTBmNVRwa0pmMU1UYnp4R19wRFRrRVpoWFpVRkdpdTZmeDM3Z2RJX0NiaWVhUU84?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-14T02:49:10.000Z",
+      "discoveredAt": "2026-09-21T19:58:52.321Z",
+      "channel": "linkedin",
+      "isNew": false
     },
     {
       "id": "0e940edf176",
@@ -3326,6 +3388,21 @@
       "isNew": false
     },
     {
+      "id": "1b62555423e",
+      "title": "Xinli Boiler Knowledge Tips -Why are More Enterprises Choosing Biomass Boilers?Why can It Reduce Costs, Increase Efficiency, Save Energy and Reduce Emissions? 🌿 Low‑carbon & eco‑friendly: Biomass fuels create natural carbon cycles with lower pollut - LinkedIn",
+      "summary": "Xinli Boiler Knowledge Tips -Why are More Enterprises Choosing Biomass Boilers?Why can It Reduce Costs, Increase Efficiency, Save Energy and Reduce Emissions? 🌿 Low‑carbon & eco‑friendly: Biomass fuels create natural carbon cycles with lower pollut LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPN040ZTh1NWJoUEgydXBLZENnM280Z3p4YjRtRG1OdFRrNFBPRWVmQ0k3ZVd4U3N2eWc2cHl5Y1lySmNXZGlEVHQ0SVhMVXRIQk1RbmdPU1dkV19EMTR2b1gtTFlGVXV6enR6U3FUNHFsckZJN0JMbUl6dVB1Y1ZVNjhHdEFmVVdOQjVCVmdWY1JSVTdRb0FrRVhqdmNPVHVKM2JNOXFmZk5GUnd6UXlZdVIwVldtSV9CZzRuMG52MlB4b1YyZHc?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-03T07:00:00.000Z",
+      "discoveredAt": "2026-09-21T19:58:53.445Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "0c430b7824c",
       "title": "Turning biomass into value with Hobersal pyrolysis technology. 🌱🔥 At Hobersal, we design and manufacture tube and retort-type furnaces for biomass pyrolysis and biochar production, providing thermal solutions from laboratory research to pilot plant and ind - LinkedIn",
       "summary": "Turning biomass into value with Hobersal pyrolysis technology. 🌱🔥 At Hobersal, we design and manufacture tube and retort-type furnaces for biomass pyrolysis and biochar production, providing thermal solutions from laboratory research to pilot plant and ind LinkedIn",
@@ -3338,7 +3415,7 @@
       "publishedAt": "2026-09-02T07:00:00.000Z",
       "discoveredAt": "2026-09-21T15:03:54.169Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "46e29c47238",
@@ -5435,7 +5512,7 @@
       "publishedAt": "2015-11-23T17:37:34.000Z",
       "discoveredAt": "2026-09-21T15:03:53.148Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2889049412d",
@@ -5540,7 +5617,7 @@
       "publishedAt": "2015-11-16T14:57:17.000Z",
       "discoveredAt": "2026-09-21T15:03:54.169Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7c3b74a110e",
