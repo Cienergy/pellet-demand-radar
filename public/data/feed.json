@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-09-22T21:14:21.578Z",
-  "crawlDurationMs": 18033,
+  "updatedAt": "2026-09-22T23:47:31.942Z",
+  "crawlDurationMs": 18549,
   "stats": {
-    "total": 407,
+    "total": 408,
     "tenders": 80,
     "purchase": 72,
-    "news": 255,
+    "news": 256,
     "portals": 68,
-    "linkedin": 263,
-    "newThisCrawl": 2,
-    "withCompany": 102
+    "linkedin": 264,
+    "newThisCrawl": 1,
+    "withCompany": 103
   },
   "sources": [
     {
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 30,
+      "count": 29,
       "error": null
     },
     {
@@ -97,11 +97,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 62,
+      "count": 59,
       "error": null
     },
     {
@@ -1563,7 +1563,7 @@
       "publishedAt": "2024-05-09T07:00:00.000Z",
       "discoveredAt": "2026-09-22T21:14:05.293Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "08df2137330",
@@ -3068,7 +3068,7 @@
       "publishedAt": "2026-09-20T14:05:16.000Z",
       "discoveredAt": "2026-09-22T21:14:05.267Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "115ba8f4249",
@@ -3564,6 +3564,23 @@
       "discoveredAt": "2026-09-21T15:03:54.169Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "2ae3deb9224",
+      "title": "#New_on_Conil : Biomass Steam Generation — Gujarat Ambuja Exports This project installs a 30 TPH biomass-based boiler at Gujarat Ambuja Exports' starch manufacturing facility in Sitarganj, Uttarakhand, replacing conventional coal-fired steam generation - LinkedIn",
+      "summary": "#New_on_Conil : Biomass Steam Generation — Gujarat Ambuja Exports This project installs a 30 TPH biomass-based boiler at Gujarat Ambuja Exports' starch manufacturing facility in Sitarganj, Uttarakhand, replacing conventional coal-fired steam generation LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNblcyMXFoN0lYdVBUSlR4UHowWmoza2FjNDIxdk9zd19TTURlY3dWUGsxc2VMSkdVb0N5TTFyc0FucEhaZlVmX3RRanVZdWhaSE02by0yTDBYN0ZRZjAtX0thNnNPbTNpQ1JVdnpleTdfaGZWN1kyYU9SdUhodDFuRUh5RVJQZGltNm93TGs1eks4a2RMOEpHUFRrVGpFcFJqMGxhdS1OWF9JSkI5VUQ0TQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "news",
+      "companies": [
+        "Ambuja"
+      ],
+      "score": 70,
+      "publishedAt": "2026-09-01T07:00:00.000Z",
+      "discoveredAt": "2026-09-22T23:47:15.294Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "46e29c47238",
