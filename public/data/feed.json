@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-09-22T07:40:00.187Z",
-  "crawlDurationMs": 18062,
+  "updatedAt": "2026-09-22T13:22:24.069Z",
+  "crawlDurationMs": 17367,
   "stats": {
-    "total": 401,
+    "total": 402,
     "tenders": 78,
     "purchase": 70,
-    "news": 253,
+    "news": 254,
     "portals": 66,
     "linkedin": 260,
-    "newThisCrawl": 5,
+    "newThisCrawl": 1,
     "withCompany": 99
   },
   "sources": [
@@ -135,7 +135,7 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 26,
+      "count": 25,
       "error": null
     },
     {
@@ -149,7 +149,7 @@
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 8,
+      "count": 9,
       "error": null
     },
     {
@@ -286,7 +286,7 @@
     {
       "id": "2e04ae86c0",
       "title": "EOI For SETTING UP AND OPERATION OF A BIOMASS PELLET PLANT AT ITWA, DISTRICT SIDDHARTH NAGAR, UTTAR PRADESH ON BUILD-OWN-OPERATE (BOO) BASIS",
-      "summary": "Ref: NVVN/C&M/2026-27/RE-537 · Closes: 22/09/2026 4 Hours to go · Matched NTPC search “biomass”",
+      "summary": "Ref: NVVN/C&M/2026-27/RE-537 · Closes: 22/09/2026 (Closed) · Matched NTPC search “biomass”",
       "url": "https://ntpctender.ntpc.co.in/NITDetails/NITs/30217",
       "source": "ntpc_portal",
       "sourceLabel": "NTPC tender portal",
@@ -451,7 +451,7 @@
       "publishedAt": "2018-02-08T08:00:00.000Z",
       "discoveredAt": "2026-09-22T07:39:45.974Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "721ec9ce139",
@@ -1111,7 +1111,7 @@
       "publishedAt": "2018-02-08T08:00:00.000Z",
       "discoveredAt": "2026-09-22T07:39:42.466Z",
       "channel": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0eedce01188",
@@ -2808,7 +2808,7 @@
       "publishedAt": "2022-05-01T07:00:00.000Z",
       "discoveredAt": "2026-09-22T07:39:45.974Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1eb0233a281",
@@ -4551,7 +4551,7 @@
       "publishedAt": "2025-05-18T07:00:00.000Z",
       "discoveredAt": "2026-09-22T07:39:46.730Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "694afd5dd6",
@@ -5874,6 +5874,22 @@
       "isNew": false
     },
     {
+      "id": "6e0e2deb1f6ef1b7",
+      "title": "MNRE Minister Pralhad Joshi Inaugurates 240 TPD Biomass Pellet Plant in Rewari, Haryana - Energetica India Magazine",
+      "summary": "MNRE Minister Pralhad Joshi Inaugurates 240 TPD Biomass Pellet Plant in Rewari, Haryana Energetica India Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY3pBUllMTFFHUVZPemxhSHVTdGRidGVSbDdITm9yd3BzSmFRUXd5NHdaRXRmUC1UQ0tMWTNHeU1vZHdPWEdwdkJtZlNOVVUwSXAyUTVYTVc1TmYxS2VBdzFHMGdLMmFsMG5vb1A1WUtqY2duVjREM09mTEpKc3RTRjVFZkYyU0hwQW9zbUc0RjAweERFVFhCNHE2YnoteU1CZnJFa3A3b0FLYzQyb01MWEpmYm8yb3RaT2c3Nml3eGxhQQ?oc=5",
+      "source": "google_news",
+      "sourceLabel": "Pellet NITs IN",
+      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
+      "type": "news",
+      "companies": [],
+      "score": 55,
+      "publishedAt": "2025-11-25T08:00:00.000Z",
+      "discoveredAt": "2026-09-22T13:22:07.103Z",
+      "channel": "news",
+      "isNew": true
+    },
+    {
       "id": "edcf47af43b20d90",
       "title": "Use of biomass pellets: Punjab power plants fail to meet target - The Times of India",
       "summary": "Use of biomass pellets: Punjab power plants fail to meet target The Times of India",
@@ -6148,7 +6164,7 @@
       "publishedAt": "2022-05-01T07:00:00.000Z",
       "discoveredAt": "2026-09-22T07:39:42.465Z",
       "channel": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "af9d1cb78d3e3243",
