@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-09-22T13:22:24.069Z",
-  "crawlDurationMs": 17367,
+  "updatedAt": "2026-09-22T17:45:17.403Z",
+  "crawlDurationMs": 17157,
   "stats": {
-    "total": 402,
-    "tenders": 78,
-    "purchase": 70,
+    "total": 405,
+    "tenders": 80,
+    "purchase": 71,
     "news": 254,
-    "portals": 66,
-    "linkedin": 260,
-    "newThisCrawl": 1,
-    "withCompany": 99
+    "portals": 67,
+    "linkedin": 262,
+    "newThisCrawl": 3,
+    "withCompany": 101
   },
   "sources": [
     {
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 29,
+      "count": 30,
       "error": null
     },
     {
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 60,
+      "count": 61,
       "error": null
     },
     {
@@ -149,7 +149,7 @@
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 9,
+      "count": 8,
       "error": null
     },
     {
@@ -238,7 +238,7 @@
       "summary": "NTPC Invites EOI To Produce Torrefied Biomass Pellets From Startups sarkaritel.com",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV1FlS3lPU2U2OEVLbXBScmJHcE5VcUJwUmZqN1AzZGVxWFBYQkZwWC1VRGp6OThUajVoWnE2enhXOEZqeVlyb1NVUEpiOUh0ZFh0MXBzMUdHWGpWRUFlbkFVc2JRNW1kV0dSckNDaFRUSVhxOVB6VHBWSXpFVzZGWTlKUzdIQld6dktOYVM4VDM3dHVDRUFsX3Byaw?oc=5",
       "source": "google_tender_news",
-      "sourceLabel": "Google · utility buys",
+      "sourceLabel": "Google · live NITs",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -582,6 +582,23 @@
       "isNew": false
     },
     {
+      "id": "01c24bb4235",
+      "title": "🚨 NTPC Biomass Pellet Tender | 2-Year Opportunity NTPC has invited bids for agro-residue biomass pellets across 7 thermal power stations. ▪️ Contract: 2 Years ▪️ Quantity: Approx. 12.30 Lakh MT ▪️ Eligible: Manufacturers, Future Manufacturers & Traders - LinkedIn",
+      "summary": "🚨 NTPC Biomass Pellet Tender | 2-Year Opportunity NTPC has invited bids for agro-residue biomass pellets across 7 thermal power stations. ▪️ Contract: 2 Years ▪️ Quantity: Approx. 12.30 Lakh MT ▪️ Eligible: Manufacturers, Future Manufacturers & Traders LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSU1IS19FZV9aMUF6ZUxfSmJ3dC1jX2VicUxEaHlya2huUXpUWkhyRDh6ZjI5eXZMQkpERVlZU2wtN2xfRWR4RzBRcHpvRllzdTNrckYtNjY1SG4yN21EVVJiaEhGU0s2RlFZLVN3aDJPZVcyNFdveUR0TGJjTlUyWWJOVjdYT1ROeURnSlM0MFRoRGo0VEs2b1RKSW40V2llMlhic3hQOE5NaE1GQTZ2MXlRNnROQWlhOU9SVA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 100,
+      "publishedAt": "2026-09-21T05:55:49.000Z",
+      "discoveredAt": "2026-09-22T17:45:02.313Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "39b2569b242",
       "title": "🌾 Biomass demand is creating new opportunities across India. NTPC has invited biomass pellet procurement bids across Chhattisgarh, Odisha, Madhya Pradesh, Maharashtra and Jharkhand supporting cleaner energy generation and greater biomass utilizati - LinkedIn",
       "summary": "🌾 Biomass demand is creating new opportunities across India. NTPC has invited biomass pellet procurement bids across Chhattisgarh, Odisha, Madhya Pradesh, Maharashtra and Jharkhand supporting cleaner energy generation and greater biomass utilizati LinkedIn",
@@ -733,6 +750,21 @@
       "discoveredAt": "2026-09-19T15:47:30.954Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "064bf2d7168",
+      "title": "Germany Wood Pellet Stoves Market Outlook: Growth Opportunities and Emerging Trends - LinkedIn",
+      "summary": "Germany Wood Pellet Stoves Market Outlook: Growth Opportunities and Emerging Trends LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSTNSdlg4NW9YOFBha0VITGlldGNuTEx5d0E4WEljaERNMzBJcUVJTXR4U01Ga0UwT3Y5RVAzc3lOWkhaSlY1UWI3bGcyRUllb25idHdfNkFyRFIwUXJKdVV1Nm14Tm1xbk0wN1ZNcmI1emFWeXhfbllxUXotcXB4MVZoMm9KU1VWWTM4OHNkNlRlV292a0J1V09RZFhZUTRtRWc?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "tender",
+      "companies": [],
+      "score": 90,
+      "publishedAt": "2026-09-22T10:33:12.000Z",
+      "discoveredAt": "2026-09-22T17:45:01.725Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "20f5eff3173",
@@ -1500,6 +1532,23 @@
       "isNew": false
     },
     {
+      "id": "6d11c21b178",
+      "title": "NTPC Demonstrates 20 Percent Torrefied Biomass Co-Firing at Tanda Plant - energetica-india.net",
+      "summary": "NTPC Demonstrates 20 Percent Torrefied Biomass Co-Firing at Tanda Plant energetica-india.net",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTWxWbC04QmpEc3pJMW1GLU1sd2tVc3NNQWpSVU9CTXFTSjZ3Y0U0ZE1FWXptTU1pbnVibzFBbHFieWdjMk14QmhSemxUNFBFLVBfblllVXVlcGR4UVg0QkRjZ05kX3p6MGZJU056VGZNMWNqUWQwMkFyYS1hNWlFMWhXUDNGNGdic1VCU0FiYjZWbjNEV0dXbjhEcl84bVowaVF3N1N0YURuMzZTckE?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "purchase",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 73,
+      "publishedAt": "2024-05-09T07:00:00.000Z",
+      "discoveredAt": "2026-09-22T17:45:01.521Z",
+      "channel": "portal",
+      "isNew": true
+    },
+    {
       "id": "08df2137330",
       "title": "Stubble burning crisis: Why thermal power plants in Delhi-NCR have been slow in adopting biomass co-firing - downtoearth.org.in",
       "summary": "Stubble burning crisis: Why thermal power plants in Delhi-NCR have been slow in adopting biomass co-firing downtoearth.org.in",
@@ -1786,8 +1835,8 @@
       "summary": "NTPC Invites EOI To Produce Torrefied Biomass Pellets From Startups sarkaritel.com",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV1FlS3lPU2U2OEVLbXBScmJHcE5VcUJwUmZqN1AzZGVxWFBYQkZwWC1VRGp6OThUajVoWnE2enhXOEZqeVlyb1NVUEpiOUh0ZFh0MXBzMUdHWGpWRUFlbkFVc2JRNW1kV0dSckNDaFRUSVhxOVB6VHBWSXpFVzZGWTlKUzdIQld6dktOYVM4VDM3dHVDRUFsX3Byaw?oc=5",
       "source": "google_news",
-      "sourceLabel": "Cofiring / NTPC",
-      "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
+      "sourceLabel": "Pellet NITs IN",
+      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -5887,7 +5936,7 @@
       "publishedAt": "2025-11-25T08:00:00.000Z",
       "discoveredAt": "2026-09-22T13:22:07.103Z",
       "channel": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "edcf47af43b20d90",
