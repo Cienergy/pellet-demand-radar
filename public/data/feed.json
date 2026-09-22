@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-09-22T01:49:25.975Z",
-  "crawlDurationMs": 17096,
+  "updatedAt": "2026-09-22T07:40:00.187Z",
+  "crawlDurationMs": 18062,
   "stats": {
-    "total": 396,
-    "tenders": 76,
+    "total": 401,
+    "tenders": 78,
     "purchase": 70,
-    "news": 250,
-    "portals": 64,
-    "linkedin": 259,
-    "newThisCrawl": 0,
-    "withCompany": 95
+    "news": 253,
+    "portals": 66,
+    "linkedin": 260,
+    "newThisCrawl": 5,
+    "withCompany": 99
   },
   "sources": [
     {
@@ -128,14 +128,14 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 61,
+      "count": 60,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 25,
+      "count": 26,
       "error": null
     },
     {
@@ -286,7 +286,7 @@
     {
       "id": "2e04ae86c0",
       "title": "EOI For SETTING UP AND OPERATION OF A BIOMASS PELLET PLANT AT ITWA, DISTRICT SIDDHARTH NAGAR, UTTAR PRADESH ON BUILD-OWN-OPERATE (BOO) BASIS",
-      "summary": "Ref: NVVN/C&M/2026-27/RE-537 · Closes: 22/09/2026 10 Hours to go · Matched NTPC search “biomass”",
+      "summary": "Ref: NVVN/C&M/2026-27/RE-537 · Closes: 22/09/2026 4 Hours to go · Matched NTPC search “biomass”",
       "url": "https://ntpctender.ntpc.co.in/NITDetails/NITs/30217",
       "source": "ntpc_portal",
       "sourceLabel": "NTPC tender portal",
@@ -435,6 +435,23 @@
       "discoveredAt": "2026-09-19T06:08:39.897Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "041104c92fe",
+      "title": "NTPC invites bids for procurement of agro residue for its Dadri power plant - economictimes.com",
+      "summary": "NTPC invites bids for procurement of agro residue for its Dadri power plant economictimes.com",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZFpxNDIwYzBCS0hHdmNKSzBYM042amZCX1dCSWlwaVJGNkY0STZtQUVkM21NMzhueFVvRXFxZEpsMzVnV1Q4SUhsd20zRzZEa3Vrc3ZRelJsTHlPVzJYYWdjeHFOeEhjMEJWWUZmVWsxTnhKeHdKTS0zUVJsUlk3ZXdwMG5sVEpkNlVBTnFtZ05xSDRLb2NyMnlFWTk4WWxpMGQxTG95cmVxZ09nSlR6VDE5NmxyU3V2R3JQdzRNWE41a2F3SWltalpPSUtvUk5DS0NiVGtxSm16cFhQSlh3U2QxVFbSAeoBQVVfeXFMT0VPN0NGNVNpQ3dSRmF3amVSTkxiUVRCSE9LZG4ySG1LaWNja1B1T2dRd1FpeGczNHYyeExMQmhkeFFmbU4zeXp4bk9hRXBMTy1DWEY1RklVaXlqck5DbkQ4Q29PN0RVZUtNdTcwNjNsTVlUclQ3czdFeFExNGdtM0NiaWlBWFVIS2FkaW1CVy1iZTdUOUFodm95amdESmRuRm9acU9LNmFQN19kU1Q1eVRETDdkUjlPTjZVZ1Z4M2pJak9LYVlPOE5xcWFYZG9NU2Iza1A5SGU2ZVU5ZF8xTG5PRm41RVhHVFBR?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 84,
+      "publishedAt": "2018-02-08T08:00:00.000Z",
+      "discoveredAt": "2026-09-22T07:39:45.974Z",
+      "channel": "portal",
+      "isNew": true
     },
     {
       "id": "721ec9ce139",
@@ -1077,6 +1094,24 @@
       "discoveredAt": "2026-09-19T15:47:29.128Z",
       "channel": "news",
       "isNew": false
+    },
+    {
+      "id": "240add80ba024e35",
+      "title": "NTPC invites bids for procurement of agro residue for its Dadri power plant - economictimes.com",
+      "summary": "NTPC invites bids for procurement of agro residue for its Dadri power plant economictimes.com",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZFpxNDIwYzBCS0hHdmNKSzBYM042amZCX1dCSWlwaVJGNkY0STZtQUVkM21NMzhueFVvRXFxZEpsMzVnV1Q4SUhsd20zRzZEa3Vrc3ZRelJsTHlPVzJYYWdjeHFOeEhjMEJWWUZmVWsxTnhKeHdKTS0zUVJsUlk3ZXdwMG5sVEpkNlVBTnFtZ05xSDRLb2NyMnlFWTk4WWxpMGQxTG95cmVxZ09nSlR6VDE5NmxyU3V2R3JQdzRNWE41a2F3SWltalpPSUtvUk5DS0NiVGtxSm16cFhQSlh3U2QxVFbSAeoBQVVfeXFMT0VPN0NGNVNpQ3dSRmF3amVSTkxiUVRCSE9LZG4ySG1LaWNja1B1T2dRd1FpeGczNHYyeExMQmhkeFFmbU4zeXp4bk9hRXBMTy1DWEY1RklVaXlqck5DbkQ4Q29PN0RVZUtNdTcwNjNsTVlUclQ3czdFeFExNGdtM0NiaWlBWFVIS2FkaW1CVy1iZTdUOUFodm95amdESmRuRm9acU9LNmFQN19kU1Q1eVRETDdkUjlPTjZVZ1Z4M2pJak9LYVlPOE5xcWFYZG9NU2Iza1A5SGU2ZVU5ZF8xTG5PRm41RVhHVFBR?oc=5",
+      "source": "google_news",
+      "sourceLabel": "Cofiring / NTPC",
+      "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 91,
+      "publishedAt": "2018-02-08T08:00:00.000Z",
+      "discoveredAt": "2026-09-22T07:39:42.466Z",
+      "channel": "news",
+      "isNew": true
     },
     {
       "id": "0eedce01188",
@@ -2757,6 +2792,23 @@
       "discoveredAt": "2026-09-19T06:08:39.894Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "04c811342a1",
+      "title": "NTPC seeks startups to produce torrefied biomass pellets - economictimes.com",
+      "summary": "NTPC seeks startups to produce torrefied biomass pellets economictimes.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbXlQNW83ZDE0M3ZneC1ETEd0XzZYNkVPbWN2b3hfWlJqX1FqR2JIMlQxa1JzUlUwLXJQZGdVZ2hzbzE3TmpzUy1pTTUyVUNfNVpFTVVPUUFoN0szaFlDdnN1bjNpZmRPc0l5SktvVC05WEtRRDdMalZocUhDalNmMHJlWE5tdUNHVVdDS3ZfeUtTQ282MHdmQjZtOEZYVTVaOTV4aGE3VWlYbHpMSjNEbHRhUDA2X0o3TnVRVzFpVVhnMGdRSWFXddIBzgFBVV95cUxQY3MtSzNmY3Z4UktBOHg0aTY3VjNBdWFkM3U3eTlYd0JnaWhSb1IzejlxOGVOay12M2ZoVUFPSUZsMXpvOXluVXJnWDVkNzlWOXU5b0tibUZNMlBvX3lsd2RjX0x6VjRZT3R4V2g1Z2ZfMkhDZDVDWk9zWXF3RXBTMmhwa0pnX01Za2pReHVrMnVfOTZtQjZIUWtMRktGNjd1SkxGajBIa2ZtWUlVbllqTEFDMkF2UUNieWVrQUlELVpjb1BKSGNUMkp0c1ZiUQ?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "news",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 70,
+      "publishedAt": "2022-05-01T07:00:00.000Z",
+      "discoveredAt": "2026-09-22T07:39:45.974Z",
+      "channel": "portal",
+      "isNew": true
     },
     {
       "id": "1eb0233a281",
@@ -4487,6 +4539,21 @@
       "isNew": false
     },
     {
+      "id": "387c6e28269",
+      "title": "Happy to Announce: New 60 TPD Biomass Pellet Project Started! The journey in biomass energy comes with its own set of challenges, but with persistence, dedication, determination, and hard work, we’ve achieved our next milestone—a 60 TPD biomass pell - LinkedIn",
+      "summary": "Happy to Announce: New 60 TPD Biomass Pellet Project Started! The journey in biomass energy comes with its own set of challenges, but with persistence, dedication, determination, and hard work, we’ve achieved our next milestone—a 60 TPD biomass pell LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTXdtOUg4TUQwSHFRenVLMlpjVGVxdnctOUR0M1NQbDVlZVZmMEdkRFVfQ3AweVR2SDZ0LU5WeUZjdVFjWHBZS2dEVzFuV1BFZnVrYmM5MkNVLXhSSUpNRDZNeXQtODVkMGNZTDlrdWJ2X0s0cE1mMjlxNW44cUNySGFjQ2I1b2ppcEVSWW5WaTdQNkpuVm9NdHV0YVRaOE9Da3ZfMS00LTM5UmNvTUduOEstalRvTmlqa1NZRkNSLW4yNUdmcW4wOVBMSmFFZEYtc3JWSVF1R2QzaHAzT2tkemp2eUZLZw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2025-05-18T07:00:00.000Z",
+      "discoveredAt": "2026-09-22T07:39:46.730Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "694afd5dd6",
       "title": "Green Pellets India - in.linkedin.com",
       "summary": "Green Pellets India in.linkedin.com",
@@ -6064,6 +6131,24 @@
       "discoveredAt": "2026-09-19T05:08:42.985Z",
       "isNew": false,
       "channel": "news"
+    },
+    {
+      "id": "8b02e1b650684242",
+      "title": "NTPC seeks startups to produce torrefied biomass pellets - economictimes.com",
+      "summary": "NTPC seeks startups to produce torrefied biomass pellets economictimes.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbXlQNW83ZDE0M3ZneC1ETEd0XzZYNkVPbWN2b3hfWlJqX1FqR2JIMlQxa1JzUlUwLXJQZGdVZ2hzbzE3TmpzUy1pTTUyVUNfNVpFTVVPUUFoN0szaFlDdnN1bjNpZmRPc0l5SktvVC05WEtRRDdMalZocUhDalNmMHJlWE5tdUNHVVdDS3ZfeUtTQ282MHdmQjZtOEZYVTVaOTV4aGE3VWlYbHpMSjNEbHRhUDA2X0o3TnVRVzFpVVhnMGdRSWFXddIBzgFBVV95cUxQY3MtSzNmY3Z4UktBOHg0aTY3VjNBdWFkM3U3eTlYd0JnaWhSb1IzejlxOGVOay12M2ZoVUFPSUZsMXpvOXluVXJnWDVkNzlWOXU5b0tibUZNMlBvX3lsd2RjX0x6VjRZT3R4V2g1Z2ZfMkhDZDVDWk9zWXF3RXBTMmhwa0pnX01Za2pReHVrMnVfOTZtQjZIUWtMRktGNjd1SkxGajBIa2ZtWUlVbllqTEFDMkF2UUNieWVrQUlELVpjb1BKSGNUMkp0c1ZiUQ?oc=5",
+      "source": "google_news",
+      "sourceLabel": "Cofiring / NTPC",
+      "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
+      "type": "news",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 55,
+      "publishedAt": "2022-05-01T07:00:00.000Z",
+      "discoveredAt": "2026-09-22T07:39:42.465Z",
+      "channel": "news",
+      "isNew": true
     },
     {
       "id": "af9d1cb78d3e3243",
