@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-21T23:13:57.195Z",
-  "crawlDurationMs": 19247,
+  "updatedAt": "2026-09-22T01:49:25.975Z",
+  "crawlDurationMs": 17096,
   "stats": {
     "total": 396,
     "tenders": 76,
@@ -8,7 +8,7 @@
     "news": 250,
     "portals": 64,
     "linkedin": 259,
-    "newThisCrawl": 1,
+    "newThisCrawl": 0,
     "withCompany": 95
   },
   "sources": [
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 28,
+      "count": 29,
       "error": null
     },
     {
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 60,
+      "count": 61,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 24,
+      "count": 25,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 67,
+      "count": 68,
       "error": null
     },
     {
@@ -286,7 +286,7 @@
     {
       "id": "2e04ae86c0",
       "title": "EOI For SETTING UP AND OPERATION OF A BIOMASS PELLET PLANT AT ITWA, DISTRICT SIDDHARTH NAGAR, UTTAR PRADESH ON BUILD-OWN-OPERATE (BOO) BASIS",
-      "summary": "Ref: NVVN/C&M/2026-27/RE-537 · Closes: 22/09/2026 13 Hours to go · Matched NTPC search “biomass”",
+      "summary": "Ref: NVVN/C&M/2026-27/RE-537 · Closes: 22/09/2026 10 Hours to go · Matched NTPC search “biomass”",
       "url": "https://ntpctender.ntpc.co.in/NITDetails/NITs/30217",
       "source": "ntpc_portal",
       "sourceLabel": "NTPC tender portal",
@@ -2965,7 +2965,7 @@
       "publishedAt": "2026-09-15T11:03:34.000Z",
       "discoveredAt": "2026-09-21T23:13:41.822Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6c4875c315d",
@@ -3018,7 +3018,7 @@
       "summary": "🌿 From Fossil Fuel to Pellet-Based Heat — A Practical Energy Shift What if your furnace, kiln, boiler or commercial kitchen could move away from conventional LPG and diesel fuel—without completely redesigning the equipment? That is where ADS Eco-Pellet LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQY0ZvT1ZucHlBbklXTGdrVkx2YTRYM0ZQUXhnWllqbHZENWtsbGhqX3VldVhCMkpuV3pyRzNXaFBkNEdwaTVYczU0WHpMREhteE9MUFBSTjlZaHF1TjJWemZqcGc1Vzg3cVFkRVVpX2lYbHVrTUhyaHY2UmNHdVpaV2tnLVZGYkdGMUQ3MzUxS2IwWnVUQkNScTBmNVRwa0pmMU1UYnp4R19wRFRrRVpoWFpVRkdpdTZmeDM3Z2RJX0NiaWVhUU84?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "news",
       "companies": [],
       "score": 70,
