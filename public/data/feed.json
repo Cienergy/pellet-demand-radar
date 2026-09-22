@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-09-22T17:45:17.403Z",
-  "crawlDurationMs": 17157,
+  "updatedAt": "2026-09-22T21:14:21.578Z",
+  "crawlDurationMs": 18033,
   "stats": {
-    "total": 405,
+    "total": 407,
     "tenders": 80,
-    "purchase": 71,
-    "news": 254,
-    "portals": 67,
-    "linkedin": 262,
-    "newThisCrawl": 3,
-    "withCompany": 101
+    "purchase": 72,
+    "news": 255,
+    "portals": 68,
+    "linkedin": 263,
+    "newThisCrawl": 2,
+    "withCompany": 102
   },
   "sources": [
     {
       "ok": true,
       "label": "NTPC tender portal",
       "query": null,
-      "count": 1,
+      "count": 0,
       "error": null
     },
     {
@@ -97,11 +97,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
       "ok": true,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 61,
+      "count": 62,
       "error": null
     },
     {
@@ -142,14 +142,14 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 68,
+      "count": 69,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 8,
+      "count": 9,
       "error": null
     },
     {
@@ -596,7 +596,7 @@
       "publishedAt": "2026-09-21T05:55:49.000Z",
       "discoveredAt": "2026-09-22T17:45:02.313Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "39b2569b242",
@@ -764,7 +764,7 @@
       "publishedAt": "2026-09-22T10:33:12.000Z",
       "discoveredAt": "2026-09-22T17:45:01.725Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "20f5eff3173",
@@ -1545,6 +1545,23 @@
       "score": 73,
       "publishedAt": "2024-05-09T07:00:00.000Z",
       "discoveredAt": "2026-09-22T17:45:01.521Z",
+      "channel": "portal",
+      "isNew": false
+    },
+    {
+      "id": "05ae62ef17d",
+      "title": "NTPC Demonstrates 20 Percent Torrefied Biomass Co-Firing at Tanda Plant - Energetica India Magazine",
+      "summary": "NTPC Demonstrates 20 Percent Torrefied Biomass Co-Firing at Tanda Plant Energetica India Magazine",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTWxWbC04QmpEc3pJMW1GLU1sd2tVc3NNQWpSVU9CTXFTSjZ3Y0U0ZE1FWXptTU1pbnVibzFBbHFieWdjMk14QmhSemxUNFBFLVBfblllVXVlcGR4UVg0QkRjZ05kX3p6MGZJU056VGZNMWNqUWQwMkFyYS1hNWlFMWhXUDNGNGdic1VCU0FiYjZWbjNEV0dXbjhEcl84bVowaVF3N1N0YURuMzZTckE?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "purchase",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 73,
+      "publishedAt": "2024-05-09T07:00:00.000Z",
+      "discoveredAt": "2026-09-22T21:14:05.293Z",
       "channel": "portal",
       "isNew": true
     },
@@ -3037,6 +3054,21 @@
       "discoveredAt": "2026-09-21T07:55:09.386Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "79ca5ab923c",
+      "title": "🌾 From Farm-Stored Paddy Straw Bale to CBG Fuel — The Complete Journey What looks like an agricultural residue in the field can become a valuable renewable gaseous fuel—but paddy straw requires the right preparation before it reaches the anaerobic di - LinkedIn",
+      "summary": "🌾 From Farm-Stored Paddy Straw Bale to CBG Fuel — The Complete Journey What looks like an agricultural residue in the field can become a valuable renewable gaseous fuel—but paddy straw requires the right preparation before it reaches the anaerobic di LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa3VHVGxyZFo4Wm5zR0tQWW5tS1ZJbERReDBBbXFFUU1qTW9LcHBmS3FhdU1XLVRDRmZRS18wMnVDODNLWUYtaWtuRFVQNF95VE5kRGYtOVBnbHVBUXlXZ0gyN2ZtWFRxcVd1cFFZQloxc2tZVWxWQ1NDT3FpTzdRSmZZNHRZNTZDREVET3VVODhjYnc5VzducGhwMnUwNUx3TVdzQkJiYnFkWG02V1kwbzBFV0Y4WXRkWkFDYmJWTTltS0k?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-20T14:05:16.000Z",
+      "discoveredAt": "2026-09-22T21:14:05.267Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "115ba8f4249",
