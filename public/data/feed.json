@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-09-23T09:54:40.310Z",
-  "crawlDurationMs": 17143,
+  "updatedAt": "2026-09-23T14:57:31.163Z",
+  "crawlDurationMs": 19766,
   "stats": {
-    "total": 412,
+    "total": 415,
     "tenders": 80,
-    "purchase": 73,
-    "news": 259,
+    "purchase": 74,
+    "news": 261,
     "portals": 69,
-    "linkedin": 265,
-    "newThisCrawl": 4,
+    "linkedin": 268,
+    "newThisCrawl": 3,
     "withCompany": 105
   },
   "sources": [
     {
-      "ok": true,
+      "ok": false,
       "label": "NTPC tender portal",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "HTTP 404"
     },
     {
       "ok": true,
@@ -48,11 +48,11 @@
       "error": "fetch failed"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Tata Power tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": false,
@@ -97,11 +97,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
       "ok": true,
@@ -128,14 +128,14 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 63,
+      "count": 61,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 26,
+      "count": 27,
       "error": null
     },
     {
@@ -2089,7 +2089,7 @@
       "summary": "Day 342/365 | Turning Farm Residue into Power NTPC Dadri is looking to procure 3.78 lakh MT of agro-residue-based non-torrefied biomass pellets over 270 days. That's roughly 1,400 MT every single day. At the reported benchmark price of ₹8,282.40/MT (in LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRHptSUFmamZiaXg5alUxcW1OYmpIbVJyQ3ZLOFdwZXZfTTdMY1NnVEJVa09DcTBPLWtYRmlhOG9odms2UlMtOVJXUDlWOURsckt4VTdiQTdhR0FOVEk3VmhPQU9UTWZoOUFXUmxMQkdaOGViWkFIRHdpcGdRTlljZC02ZGpiZkJxMThhVGdrd2VQVXpvWGxUS09XVnEyUVhWWm5rOQ?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "purchase",
       "companies": [
         "NTPC"
@@ -2386,6 +2386,21 @@
       "publishedAt": "2024-07-10T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:43.072Z",
       "isNew": false
+    },
+    {
+      "id": "16c1d74e121",
+      "title": "Wood Pellet Supplier at Flambriks-süd GmbH | ENplus® A1 | Wholesale & Bulk Supply| European B2B Sales - LinkedIn",
+      "summary": "Wood Pellet Supplier at Flambriks-süd GmbH | ENplus® A1 | Wholesale & Bulk Supply| European B2B Sales LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ZTjIyUDhyRzN5TFhYSzVTSXkyVVpYQTJVVEgtdXVoVzR5a2tWSldYRkRleXljUFh3R3A3eTkxNk1JUnd3QlZsTlJHUnhXb1BnRURaaE5pN3huanh4WVJfMA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2017-02-25T05:07:15.000Z",
+      "discoveredAt": "2026-09-23T14:57:13.512Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "5a128479148",
@@ -3116,6 +3131,21 @@
       "discoveredAt": "2026-09-21T15:03:54.169Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "5c4f00a1240",
+      "title": "🌱 Napier vs Sugarcane — Two Crops, Different Potential Napier offers high biomass production, repeated harvests, and strong potential for biogas and bioenergy. Sugarcane, on the other hand, is an important crop for sugar, ethanol, and valuable by-products - LinkedIn",
+      "summary": "🌱 Napier vs Sugarcane — Two Crops, Different Potential Napier offers high biomass production, repeated harvests, and strong potential for biogas and bioenergy. Sugarcane, on the other hand, is an important crop for sugar, ethanol, and valuable by-products LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaTZCMDJGUmZQZHRLYmc3Vk9WamxCZ2ZvbFB2LVMzdXZpdXMwSDg5dmhwWi15bGtoVXAyS01saGdfYS1SaEQ2T2VlOVpER1p4b3ZuT09STXVLUEZOMjBZZ3UwelEzcGttZ1ltaGJkY2xnS2xrT3RmdDR4OVI2TFRhaHVvRHZyVThxLUZBLXJpQXUtQ0g4MUx0WnI0RnVMZUE1c2dpUGRIMFVLVnBqNGNxZ095Wk1rSGp4TzVpbzJRWWtEQQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-17T04:12:17.000Z",
+      "discoveredAt": "2026-09-23T14:57:14.454Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "3fcb6b27240",
@@ -5453,6 +5483,21 @@
       "isNew": false
     },
     {
+      "id": "04aa77f0177",
+      "title": "Renewable Energy Use in Existing Thermal Power Plant - A case study of biomass usage in Rihand Thermal Power Plant - LinkedIn",
+      "summary": "Renewable Energy Use in Existing Thermal Power Plant - A case study of biomass usage in Rihand Thermal Power Plant LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTjhoSkwwUTBJX0dUNzZrR3pWaTBwQmphbkNJNUdRNEo2ZXl3ODA2LUhQYUt3dUY1NHRZLUhYMEFxdlVWbWVuVmNzNkZQSlNIS1BHZzVfRk41VjBPQTg1eGY4cG9xcWJ2ZV9BQXlLU3ZrSzI2VDFudDJ1U0wxUWZPdHJXUk8xSnRrQ2hjN0dyZjhuOFFKZXc?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2021-04-09T07:00:00.000Z",
+      "discoveredAt": "2026-09-23T14:57:14.048Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "01314fa814d",
       "title": "Piyush chilbule - Co-​Founder & CMO | Vidarbha Bioenergy Solutions Pvt. Ltd. | Biomass Pellets & Briquettes | Renewable Energy Solutions - in.linkedin.com",
       "summary": "Piyush chilbule - Co-​Founder & CMO | Vidarbha Bioenergy Solutions Pvt. Ltd. | Biomass Pellets & Briquettes | Renewable Energy Solutions in.linkedin.com",
@@ -6033,7 +6078,7 @@
       "publishedAt": "2025-11-25T08:00:00.000Z",
       "discoveredAt": "2026-09-23T09:54:23.565Z",
       "channel": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "edcf47af43b20d90",
@@ -6275,7 +6320,7 @@
       "publishedAt": "2022-05-03T07:00:00.000Z",
       "discoveredAt": "2026-09-23T09:54:23.487Z",
       "channel": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "cabcaf1c7c0a459c",
