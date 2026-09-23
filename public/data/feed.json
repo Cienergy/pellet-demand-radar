@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-09-23T14:57:31.163Z",
-  "crawlDurationMs": 19766,
+  "updatedAt": "2026-09-23T19:00:27.290Z",
+  "crawlDurationMs": 18283,
   "stats": {
-    "total": 415,
-    "tenders": 80,
+    "total": 417,
+    "tenders": 81,
     "purchase": 74,
-    "news": 261,
+    "news": 262,
     "portals": 69,
-    "linkedin": 268,
-    "newThisCrawl": 3,
+    "linkedin": 270,
+    "newThisCrawl": 2,
     "withCompany": 105
   },
   "sources": [
     {
-      "ok": false,
+      "ok": true,
       "label": "NTPC tender portal",
       "query": null,
       "count": 0,
-      "error": "HTTP 404"
+      "error": null
     },
     {
       "ok": true,
@@ -48,11 +48,11 @@
       "error": "fetch failed"
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Tata Power tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -97,11 +97,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 61,
+      "count": 63,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 27,
+      "count": 28,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 70,
+      "count": 71,
       "error": null
     },
     {
@@ -597,6 +597,21 @@
       "discoveredAt": "2026-09-22T17:45:02.313Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "0966103c23f",
+      "title": "📢Biomass Pellet Supply Opportunity Rosa Power Supply Company Limited (RPSCL) invites bids for the long-term supply of 3,10,000 MT of agro-residue-based Non-Torrefied Biomass Pellets for co-firing at Rosa Thermal Power Project, Shahjahanpur, Uttar Pr - LinkedIn",
+      "summary": "📢Biomass Pellet Supply Opportunity Rosa Power Supply Company Limited (RPSCL) invites bids for the long-term supply of 3,10,000 MT of agro-residue-based Non-Torrefied Biomass Pellets for co-firing at Rosa Thermal Power Project, Shahjahanpur, Uttar Pr LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTXZhQjFHSHVrTG9wT2hJaFVsY0M0eVFlWU5pUU1KUWtQcjZjM1NacC1SeWZ3VG9XVDY5LUZYWmVsMl84Z19fZWxYSVduZHI1ZjJ1VzRHWnN3MmJDYWRNbzZtenptYXk3QTJkTnZuaVNGU0V4QUlsOXZYdW5TOE1VZGdWdmxEMEN2SndtelROWGZyb0tOM2VoUkpNcTd5M0c3clBuVm5ycml5d19weFFldWRoREFOTnJFQzV6SElKRUNWZ1VhUmc?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 100,
+      "publishedAt": "2026-08-04T07:00:00.000Z",
+      "discoveredAt": "2026-09-23T19:00:11.398Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "39b2569b242",
@@ -2400,7 +2415,7 @@
       "publishedAt": "2017-02-25T05:07:15.000Z",
       "discoveredAt": "2026-09-23T14:57:13.512Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5a128479148",
@@ -3118,6 +3133,21 @@
       "isNew": false
     },
     {
+      "id": "591635aa234",
+      "title": "On 8 December, as part of the European Biocarbon & Biomass Summit in Amsterdam organized by Hawkins Wright Ltd, CPM and Yilkins will host an exclusive study tour focused on torrefaction and black pellet production. Participants will gain practical insight - LinkedIn",
+      "summary": "On 8 December, as part of the European Biocarbon & Biomass Summit in Amsterdam organized by Hawkins Wright Ltd, CPM and Yilkins will host an exclusive study tour focused on torrefaction and black pellet production. Participants will gain practical insight LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbk9rdmtDa2ZTcDJCZUViMkpBU1RJWmxNUHUzRGduWnFVRWMzRTk1SmdBbThoVm1tUV94OU5adzYwZ0JNRUhxQW1ZcnBEeGxvZzZaY19XdnB4RENMN1dIdl8zNVZQbkdBSVBMLVZVLTVHZ25uYnluRThnV1JRTm1pWWItOEdsdFd3Q1FOaHE3dkc2cVo4dU9pd2xzS1Fqd0k1SFVlOVhhZkJ3VlE2VHlKYkZqV2YzbndpM0E?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-17T07:00:52.000Z",
+      "discoveredAt": "2026-09-23T19:00:11.399Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "115ba8f4249",
       "title": "This machine didn't wait for the crop to come to it. It went to the crop. Most baling infrastructure is built around a fixed point a central facility where biomass has to be transported before it can be processed. That means every farm feeding into it depends on trans - LinkedIn",
       "summary": "This machine didn't wait for the crop to come to it. It went to the crop. Most baling infrastructure is built around a fixed point a central facility where biomass has to be transported before it can be processed. That means every farm feeding into it depends on trans LinkedIn",
@@ -3145,7 +3175,7 @@
       "publishedAt": "2026-09-17T04:12:17.000Z",
       "discoveredAt": "2026-09-23T14:57:14.454Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3fcb6b27240",
@@ -5495,7 +5525,7 @@
       "publishedAt": "2021-04-09T07:00:00.000Z",
       "discoveredAt": "2026-09-23T14:57:14.048Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "01314fa814d",
