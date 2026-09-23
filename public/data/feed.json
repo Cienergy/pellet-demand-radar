@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-22T23:47:31.942Z",
-  "crawlDurationMs": 18549,
+  "updatedAt": "2026-09-23T04:38:49.018Z",
+  "crawlDurationMs": 17971,
   "stats": {
     "total": 408,
     "tenders": 80,
@@ -8,7 +8,7 @@
     "news": 256,
     "portals": 68,
     "linkedin": 264,
-    "newThisCrawl": 1,
+    "newThisCrawl": 0,
     "withCompany": 103
   },
   "sources": [
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": false,
@@ -128,28 +128,28 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 59,
+      "count": 62,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 25,
+      "count": 26,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 69,
+      "count": 70,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 9,
+      "count": 8,
       "error": null
     },
     {
@@ -587,7 +587,7 @@
       "summary": "🚨 NTPC Biomass Pellet Tender | 2-Year Opportunity NTPC has invited bids for agro-residue biomass pellets across 7 thermal power stations. ▪️ Contract: 2 Years ▪️ Quantity: Approx. 12.30 Lakh MT ▪️ Eligible: Manufacturers, Future Manufacturers & Traders LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSU1IS19FZV9aMUF6ZUxfSmJ3dC1jX2VicUxEaHlya2huUXpUWkhyRDh6ZjI5eXZMQkpERVlZU2wtN2xfRWR4RzBRcHpvRllzdTNrckYtNjY1SG4yN21EVVJiaEhGU0s2RlFZLVN3aDJPZVcyNFdveUR0TGJjTlUyWWJOVjdYT1ROeURnSlM0MFRoRGo0VEs2b1RKSW40V2llMlhic3hQOE5NaE1GQTZ2MXlRNnROQWlhOU9SVA?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -3580,7 +3580,7 @@
       "publishedAt": "2026-09-01T07:00:00.000Z",
       "discoveredAt": "2026-09-22T23:47:15.294Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "46e29c47238",
@@ -3813,7 +3813,7 @@
       "summary": "🌱 Madhya Pradesh’s Growing Biomass Pellet Success Story 🏆 Proveg Engineering Successfully Installed 20+ Biomass Pellet Plants Across Madhya Pradesh We are proud to announce that Proveg Engineering & Food Processing Pvt. Ltd. has successfully est LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWkJkQmdwSDNieG10M09QT2Z3ZXd3NktER2ctRGlMM1h0RTZWV2JNMl9GVUhScFU5MVN5TC1FTi1pVlJFamJaUHV2MHR1S2FNd2E4RGlteVR5NC1ONkFWTWEyRmx6eURSYWlNSG9jdHg0ZUNWangyVWxEYVZ3T0hSYm1sUjY3VVlPbDRCMW5ab2VWR3JZWTN5SWZnNjRtcGtLYVZRLUJIeV9EaWhwT1J5UEhWY2diOVVoUHJHdU0wMDdzbzVRaFlpZ3lSVkozWTZoOUdN?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -5850,7 +5850,7 @@
       "summary": "MOHIIT VERRMA. - Biomass Energeons India : Driving Bioenergy Solutions - Waste-to-Energy | Biochar | Black Pellets | Biomass Pellets | Compressed Biogas (CBG) | Green Hydrogen | Municipal Solid Waste (MSW) | Consultant Solution Provider LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZYWkwamZEVmNNdC1QeWlPRFRNa2NoQ3gwbk8zVmtZMElrM0NOUU1WeGRQV0ZUTWNvaGhiV0p6NFY3aFc3RzlTTWdvMGFVcEFfeU9QbXRoMHFMcUk?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "news",
       "companies": [],
       "score": 70,
