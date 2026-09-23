@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-09-23T19:00:27.290Z",
-  "crawlDurationMs": 18283,
+  "updatedAt": "2026-09-23T22:14:53.486Z",
+  "crawlDurationMs": 19518,
   "stats": {
-    "total": 417,
+    "total": 418,
     "tenders": 81,
     "purchase": 74,
-    "news": 262,
+    "news": 263,
     "portals": 69,
-    "linkedin": 270,
-    "newThisCrawl": 2,
+    "linkedin": 271,
+    "newThisCrawl": 1,
     "withCompany": 105
   },
   "sources": [
@@ -90,11 +90,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
       "ok": true,
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 63,
+      "count": 62,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 28,
+      "count": 29,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 71,
+      "count": 72,
       "error": null
     },
     {
@@ -611,7 +611,7 @@
       "publishedAt": "2026-08-04T07:00:00.000Z",
       "discoveredAt": "2026-09-23T19:00:11.398Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "39b2569b242",
@@ -862,7 +862,7 @@
       "summary": "Chhattisgarh: The Next Big Opportunity for the Paddy Straw Baling & Biomass Pellet Industry For the last decade, Punjab and Haryana have emerged as the backbone of India’s paddy straw collection and biomass pellet supply chain. What was once consider LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYmdpeXc3NklNeGZ5d2lPMnBYdE9UTnQ2MmFQSTE2NmZwcllLNml6WVlwU29BQUpGM3R4MlU2b3JxeXdkQ21OdjZyM1VQSTUzY3BjUWoyUTFtNlFWdnIwLVBRWFg1cFlSd3BVRWNhMTN3bDJrc1hzRVRrQ01oSTcwNDhWQllYT3NTLVZEMU9sdld2WlVNa2kzZ2x2bGM1THAxTzBxSzBHZnViZlQ5VXRvV0JaZmEtVzJ5RGNqYzBacXV2RnFN?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -3103,6 +3103,21 @@
       "isNew": false
     },
     {
+      "id": "412cd0a318c",
+      "title": "Navigating the Biomass Pellet Hot Blast Stove Market: Expert Analysis and Market Forecast for period from 2026 to 2033 - LinkedIn",
+      "summary": "Navigating the Biomass Pellet Hot Blast Stove Market: Expert Analysis and Market Forecast for period from 2026 to 2033 LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSmdTNGRMRENpTVFGcEwxbG5sVWdtME5ZejZUV2FZMjVDb0NNNHdQY05VSS1PREhQelZPOVRYZzAtYldseFBJS1FFNGszcUhSZ1pRUVEzckJNT0xwWFdnZHVqLW5vaDNJVVMxWkt4UWlRQ0E4dkY2c1JkUDN4U0VsVmljZ1NuTzY2d2M4TllnemY0RHo1WEplU2tUWFV5VHBFYXBR?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-21T07:02:53.000Z",
+      "discoveredAt": "2026-09-23T22:14:35.771Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "6c755e46241",
       "title": "🌱 NAPIER GRASS: FROM FARM TO CLEAN GASEOUS FUEL Efficient CBG production begins with how we prepare the feedstock. At Proveg Engineering, our focus is on connecting farm harvesting with biomass preparation and controlled feeding into the CB - LinkedIn",
       "summary": "🌱 NAPIER GRASS: FROM FARM TO CLEAN GASEOUS FUEL Efficient CBG production begins with how we prepare the feedstock. At Proveg Engineering, our focus is on connecting farm harvesting with biomass preparation and controlled feeding into the CB LinkedIn",
@@ -3145,7 +3160,7 @@
       "publishedAt": "2026-09-17T07:00:52.000Z",
       "discoveredAt": "2026-09-23T19:00:11.399Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "115ba8f4249",
@@ -4164,7 +4179,7 @@
       "summary": "Ansh Verma - Executive Director @Trio Renewable Engineering || Specialised in Biomass Pelletizing Solutions LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE54TktRR2pkOXZ4WkJTczIzNUlTOENUa1NIYS0wa0w3cTYxYUVQQTFqR2d3UjNHT2FLME1UUzhjTVFnUU5TWDktc3JvOHk2Rjg?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "news",
       "companies": [],
       "score": 70,
