@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-09-23T04:38:49.018Z",
-  "crawlDurationMs": 17971,
+  "updatedAt": "2026-09-23T09:54:40.310Z",
+  "crawlDurationMs": 17143,
   "stats": {
-    "total": 408,
+    "total": 412,
     "tenders": 80,
-    "purchase": 72,
-    "news": 256,
-    "portals": 68,
-    "linkedin": 264,
-    "newThisCrawl": 0,
-    "withCompany": 103
+    "purchase": 73,
+    "news": 259,
+    "portals": 69,
+    "linkedin": 265,
+    "newThisCrawl": 4,
+    "withCompany": 105
   },
   "sources": [
     {
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 62,
+      "count": 63,
       "error": null
     },
     {
@@ -1913,6 +1913,21 @@
       "isNew": false
     },
     {
+      "id": "5432d770240",
+      "title": "A stronger biomass ecosystem means a stronger energy future 🌱⚡ India’s growing demand for biomass pellets is creating new opportunities for manufacturers and entrepreneurs nationwide. Mission SAMARTH is working to connect pellet manufacturers with l - LinkedIn",
+      "summary": "A stronger biomass ecosystem means a stronger energy future 🌱⚡ India’s growing demand for biomass pellets is creating new opportunities for manufacturers and entrepreneurs nationwide. Mission SAMARTH is working to connect pellet manufacturers with l LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRTNZV19nNjEtM1FWbGJ6TVNkbXk3YzcwVURLczVUV2dGTkVOUVFsMERuakE1VjZJOXVHYWYxcUdoUUpTYjlvSGVHdS13SkNMallfMGVOYlF5RU9YRGtLa3Y1TkFQTklCV3dlRzVPQTBFRk5nTW5FZDBkOW1hYjVJMWtmUVZKYTBYSlViT3VTSmg0cjdLRWVRc2VmLWNKZ1Ywc3R6NzJIX0d6R25OSDhNSVU4LW1aTEp4TWI1eDJpdFBTckhXSWZR?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "purchase",
+      "companies": [],
+      "score": 93,
+      "publishedAt": "2026-05-15T07:00:00.000Z",
+      "discoveredAt": "2026-09-23T09:54:24.538Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
       "id": "31964ebc254",
       "title": "Yesterday, 9th January, I had the opportunity to attend a seminar organized by the Samarth Mission and the Ministry of Power, where I was invited as a guest speaker to share insights on co-firing of torrefied biomass and torrefied charcoal derived from MSW. T - LinkedIn",
       "summary": "Yesterday, 9th January, I had the opportunity to attend a seminar organized by the Samarth Mission and the Ministry of Power, where I was invited as a guest speaker to share insights on co-firing of torrefied biomass and torrefied charcoal derived from MSW. T LinkedIn",
@@ -2809,6 +2824,23 @@
       "isNew": false
     },
     {
+      "id": "5d315e9b1bb",
+      "title": "NTPC asks Indian startups to produce torrefied biomass pellets - Construction World India",
+      "summary": "NTPC asks Indian startups to produce torrefied biomass pellets Construction World India",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWnlCcDh2T3ZsRzhpMF9wbGx0SExVQ2dHZnQ1N0ozNkRfSUtWVkZ4dzR5Q3l0cVp4a2hTeVdPd0V6NVV3UEluMWtIUW5kUkF5ZS1ic2VUVVpQd2I4UWdsVXNIYUtpNGUtUlhOQ01hOUtsZUNTdldmR1hDbS1Sb1lXcTBQU1gyemJVREJVZmI1enJ2STZMTXhDSUNyWkVVNXpXU2draGRJbF9JOTNWSjRnRXdiYXlYUmZ1Y1BQTFY2QmlhbUdrUEF5TlBOVm1aUEVCbzBRVGotZmJIcFQ2N051YTBuUDY?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "news",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 70,
+      "publishedAt": "2022-05-03T07:00:00.000Z",
+      "discoveredAt": "2026-09-23T09:54:24.110Z",
+      "channel": "portal",
+      "isNew": false
+    },
+    {
       "id": "58fc3add184",
       "title": "NTPC invites proposals to produce torrefied biomass pellets from Startups - saurenergy.com",
       "summary": "NTPC invites proposals to produce torrefied biomass pellets from Startups saurenergy.com",
@@ -3571,7 +3603,7 @@
       "summary": "#New_on_Conil : Biomass Steam Generation — Gujarat Ambuja Exports This project installs a 30 TPH biomass-based boiler at Gujarat Ambuja Exports' starch manufacturing facility in Sitarganj, Uttarakhand, replacing conventional coal-fired steam generation LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNblcyMXFoN0lYdVBUSlR4UHowWmoza2FjNDIxdk9zd19TTURlY3dWUGsxc2VMSkdVb0N5TTFyc0FucEhaZlVmX3RRanVZdWhaSE02by0yTDBYN0ZRZjAtX0thNnNPbTNpQ1JVdnpleTdfaGZWN1kyYU9SdUhodDFuRUh5RVJQZGltNm93TGs1eks4a2RMOEpHUFRrVGpFcFJqMGxhdS1OWF9JSkI5VUQ0TQ?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "news",
       "companies": [
         "Ambuja"
@@ -5988,6 +6020,22 @@
       "isNew": false
     },
     {
+      "id": "5345c4f5b8434b66",
+      "title": "MNRE Minister Pralhad Joshi Inaugurates 240 TPD Biomass Pellet Plant in Rewari, Haryana - energetica-india.net",
+      "summary": "MNRE Minister Pralhad Joshi Inaugurates 240 TPD Biomass Pellet Plant in Rewari, Haryana energetica-india.net",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY3pBUllMTFFHUVZPemxhSHVTdGRidGVSbDdITm9yd3BzSmFRUXd5NHdaRXRmUC1UQ0tMWTNHeU1vZHdPWEdwdkJtZlNOVVUwSXAyUTVYTVc1TmYxS2VBdzFHMGdLMmFsMG5vb1A1WUtqY2duVjREM09mTEpKc3RTRjVFZkYyU0hwQW9zbUc0RjAweERFVFhCNHE2YnoteU1CZnJFa3A3b0FLYzQyb01MWEpmYm8yb3RaT2c3Nml3eGxhQQ?oc=5",
+      "source": "google_news",
+      "sourceLabel": "Pellet NITs IN",
+      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
+      "type": "news",
+      "companies": [],
+      "score": 55,
+      "publishedAt": "2025-11-25T08:00:00.000Z",
+      "discoveredAt": "2026-09-23T09:54:23.565Z",
+      "channel": "news",
+      "isNew": true
+    },
+    {
       "id": "edcf47af43b20d90",
       "title": "Use of biomass pellets: Punjab power plants fail to meet target - The Times of India",
       "summary": "Use of biomass pellets: Punjab power plants fail to meet target The Times of India",
@@ -6210,6 +6258,24 @@
       "discoveredAt": "2026-09-20T20:45:01.440Z",
       "channel": "news",
       "isNew": false
+    },
+    {
+      "id": "db00e4cf92c95c5f",
+      "title": "NTPC asks Indian startups to produce torrefied biomass pellets - Construction World India",
+      "summary": "NTPC asks Indian startups to produce torrefied biomass pellets Construction World India",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWnlCcDh2T3ZsRzhpMF9wbGx0SExVQ2dHZnQ1N0ozNkRfSUtWVkZ4dzR5Q3l0cVp4a2hTeVdPd0V6NVV3UEluMWtIUW5kUkF5ZS1ic2VUVVpQd2I4UWdsVXNIYUtpNGUtUlhOQ01hOUtsZUNTdldmR1hDbS1Sb1lXcTBQU1gyemJVREJVZmI1enJ2STZMTXhDSUNyWkVVNXpXU2draGRJbF9JOTNWSjRnRXdiYXlYUmZ1Y1BQTFY2QmlhbUdrUEF5TlBOVm1aUEVCbzBRVGotZmJIcFQ2N051YTBuUDY?oc=5",
+      "source": "google_news",
+      "sourceLabel": "Cofiring / NTPC",
+      "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
+      "type": "news",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 55,
+      "publishedAt": "2022-05-03T07:00:00.000Z",
+      "discoveredAt": "2026-09-23T09:54:23.487Z",
+      "channel": "news",
+      "isNew": true
     },
     {
       "id": "cabcaf1c7c0a459c",
