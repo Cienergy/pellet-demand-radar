@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-09-23T22:14:53.486Z",
-  "crawlDurationMs": 19518,
+  "updatedAt": "2026-09-24T00:51:38.635Z",
+  "crawlDurationMs": 18101,
   "stats": {
-    "total": 418,
+    "total": 421,
     "tenders": 81,
-    "purchase": 74,
-    "news": 263,
-    "portals": 69,
-    "linkedin": 271,
-    "newThisCrawl": 1,
-    "withCompany": 105
+    "purchase": 75,
+    "news": 265,
+    "portals": 71,
+    "linkedin": 272,
+    "newThisCrawl": 3,
+    "withCompany": 106
   },
   "sources": [
     {
@@ -86,15 +86,15 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 29,
+      "count": 31,
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -128,14 +128,14 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 62,
+      "count": 63,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 29,
+      "count": 27,
       "error": null
     },
     {
@@ -862,7 +862,7 @@
       "summary": "Chhattisgarh: The Next Big Opportunity for the Paddy Straw Baling & Biomass Pellet Industry For the last decade, Punjab and Haryana have emerged as the backbone of India’s paddy straw collection and biomass pellet supply chain. What was once consider LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYmdpeXc3NklNeGZ5d2lPMnBYdE9UTnQ2MmFQSTE2NmZwcllLNml6WVlwU29BQUpGM3R4MlU2b3JxeXdkQ21OdjZyM1VQSTUzY3BjUWoyUTFtNlFWdnIwLVBRWFg1cFlSd3BVRWNhMTN3bDJrc1hzRVRrQ01oSTcwNDhWQllYT3NTLVZEMU9sdld2WlVNa2kzZ2x2bGM1THAxTzBxSzBHZnViZlQ5VXRvV0JaZmEtVzJ5RGNqYzBacXV2RnFN?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -1515,6 +1515,21 @@
       "discoveredAt": "2026-09-19T15:47:29.127Z",
       "channel": "news",
       "isNew": false
+    },
+    {
+      "id": "2daf859217a",
+      "title": "Clearing the Air: Biomass co-firing could be a solution to the smog crisis - Powerline Magazine",
+      "summary": "Clearing the Air: Biomass co-firing could be a solution to the smog crisis Powerline Magazine",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVGtSRExxLXdJd2VEbVFyM3JJU20tRzVzQVV0OWt5SFNsUFhFMzRRVng2d1puMFpOYnR4NWtJQXZLNnNDY0x3d1BqWGVIM3ZvTGxoWE5fZXA1M05XN3pJXy01UlJZbFFVVzVmMDJ4emFVeUpHUUl6V0FITW4zaXZxVmdzZFFQRVVvN1ozZGVqWjZfemhBYm92Yzg4UmFfUE5hSjl3RHg0dExVVWwtcUZ3?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2024-12-02T08:00:00.000Z",
+      "discoveredAt": "2026-09-24T00:51:22.211Z",
+      "channel": "portal",
+      "isNew": true
     },
     {
       "id": "2b359fe415a",
@@ -3088,6 +3103,23 @@
       "isNew": false
     },
     {
+      "id": "65d01ab42b5",
+      "title": "NTPC to use biomass to co-fire coal-based power plants, cut emissions - ET EnergyWorld",
+      "summary": "NTPC to use biomass to co-fire coal-based power plants, cut emissions ET EnergyWorld",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQ2g2ZWxRVXRRWUJIMjJTTHo0YTB2VXJ3LW40Ylk1MWdBTWZPMDdsSkhnU0dzeGV2MGVVSS1XWWFSREJ4U3Y1M3Q5SlJiZnpoR2kta3ZERzExdUNVWDB3MFpHSjZiQ3ZsZnhJS3k3ZUFhYUNvQWxLRlMtVHp5azBiWG9SVTMtYjM2MWlyQXhOTl9KQktyOHcxajZ4ejJqYzZMdmlJTEpiQ1R4dDAwWVFVNUt0SVVhZTllMmNaU0dya2ZCN1l1alVrZGlmWjjSAdIBQVVfeXFMTUlpajFsY29ENHBIZVRSSzhLVjJsSW9hcEFEX25xUU92ZTUxNUR3NlFNTGFlV04yUVNpTnlQTzZYcDB6UUhLWm9uX01FdTFmMWxxZndGUVZjV29EWk5HN2J0cFRTU09RMzZYM24ySXNVNFJkdEpLWU5kSXBCQnVLZFFRYlozV29UNThBbTQ4V1J3NndCV0p6VmtNaGk4VnBtZjVyTklaR3pvblFnY19PazFQUjFYYU51SWVTU0hxaVFUdE9mSmZlNTZpSnpkdk5iSHhR?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "news",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 70,
+      "publishedAt": "2018-10-21T07:00:00.000Z",
+      "discoveredAt": "2026-09-24T00:51:22.211Z",
+      "channel": "portal",
+      "isNew": true
+    },
+    {
       "id": "6796a4fe172",
       "title": "Future of the Biomass Pellet Plant Market: Structural Insights and CAGR Projections from 2026 to 2033 - LinkedIn",
       "summary": "Future of the Biomass Pellet Plant Market: Structural Insights and CAGR Projections from 2026 to 2033 LinkedIn",
@@ -3115,7 +3147,7 @@
       "publishedAt": "2026-09-21T07:02:53.000Z",
       "discoveredAt": "2026-09-23T22:14:35.771Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6c755e46241",
@@ -4684,6 +4716,21 @@
       "isNew": false
     },
     {
+      "id": "11c355bb26e",
+      "title": "“Celebrating a milestone in sustainability! 🌱 Fabcon Design & Engineering’s groundbreaking step-grate, high-efficiency biomass steam boiler at BAT PTC Jhelum fired up with agricultural biomass today, marking Pakistan’s first clean, green energy leap forwar - LinkedIn",
+      "summary": "“Celebrating a milestone in sustainability! 🌱 Fabcon Design & Engineering’s groundbreaking step-grate, high-efficiency biomass steam boiler at BAT PTC Jhelum fired up with agricultural biomass today, marking Pakistan’s first clean, green energy leap forwar LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQaTcybk41LWQ2RERZd2ZjWkNsekd2TUxEVHNBRnoyV2VtR09nS2JwRjltUlI2WUJDT0YwNnVYY2ZuMDFKS2dwZnFCcTUwMlQ1c29ETTlzZ2VjNnNJVkU4ajdhYWtIOEYzb29PZHgtT0M0V2lrVVcyS0lfRTF2ak1yNmVCOTVDOC1wX2NjV2MxeXVaUVBTcWQ3UjMwLUQyUmJEenFFLTU5a3h1YVhDZ0kyYzQ5cXdvUVV3ZHBrSHVXMXY0MDFPd3hvWi03M3hMRXhuc1dxTk9saVFMR05DTVVmVXoyRjI?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2025-07-09T07:00:00.000Z",
+      "discoveredAt": "2026-09-24T00:51:23.253Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "5689e27612b",
       "title": "MNRE Biomass Briquettes and Pellets Subsidy Process - LinkedIn",
       "summary": "MNRE Biomass Briquettes and Pellets Subsidy Process LinkedIn",
@@ -4854,7 +4901,7 @@
       "summary": "Rashmi 6 Paradigm LTD, a venture of Rashmi Group has joined hands with PRODESA Group to establish two 500 TPD biomass pellet plants in Jharkhand. Read More: https://lnkd.in/gzidb69j #Rashmi6Paradigm #RashmiGroup #PRODESAGroup #BiomassP LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeHpxOTZuWGxjQ1ZfSHc2NVoyWDFObnk1Q1NtY01kbE9tYW1QRFlobl9SOWFiV09ZOTFoZHgtRVFRTTVqNWJVLTl6SzgzQzNNQ2J5YTZsbkdzdTlCYUhwNld4RVY1M2ZiODgyNm5HVVdfcmp0Qy1oNmR3SzJTZ05UdTY1Z0hQTWxXQ2l6U0xBRzA4WVRIcVY5UkhINnlvNjlYWGhFb2NUdV83djlNd19pSUJoTzdsekJnbWdwWmln?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "news",
       "companies": [],
       "score": 70,
