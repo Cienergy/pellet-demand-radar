@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-09-24T17:31:45.088Z",
-  "crawlDurationMs": 17962,
+  "updatedAt": "2026-09-24T20:45:35.649Z",
+  "crawlDurationMs": 20355,
   "stats": {
-    "total": 424,
+    "total": 425,
     "tenders": 81,
     "purchase": 76,
-    "news": 267,
+    "news": 268,
     "portals": 73,
-    "linkedin": 273,
+    "linkedin": 274,
     "newThisCrawl": 1,
     "withCompany": 107
   },
   "sources": [
     {
-      "ok": true,
+      "ok": false,
       "label": "NTPC tender portal",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "HTTP 404"
     },
     {
       "ok": true,
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 63,
+      "count": 64,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 29,
+      "count": 28,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 72,
+      "count": 71,
       "error": null
     },
     {
@@ -156,7 +156,7 @@
       "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 6,
+      "count": 5,
       "error": null
     },
     {
@@ -3152,6 +3152,21 @@
       "isNew": false
     },
     {
+      "id": "4827d619232",
+      "title": "🔥 Biomass to Biochar & Charcoal — Complete Carbonization Technology by Proveg Engineering Group Agricultural and forestry biomass should not be treated simply as waste. With the right carbonization, syngas treatment and briquetting technology, it can b - LinkedIn",
+      "summary": "🔥 Biomass to Biochar & Charcoal — Complete Carbonization Technology by Proveg Engineering Group Agricultural and forestry biomass should not be treated simply as waste. With the right carbonization, syngas treatment and briquetting technology, it can b LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYUxMbmw0RGI0ODA5a1F1d1RMYU1zbTl1Q1E5RDg1ekhzOHlpaUVqUFFzVnE5WUxVdWIxYzhjV3AwM0hEZUUxckpHZl9ycjg5VU5SU0Q1SDV4YWdZTkh6RzBvRW1Wd19XLVgzWHBOOVB6Tk1lekZ3RFdJamRFZ3ozbUpkOUJ6WUIzVkVKUUhyMktqS1ExZ1JSd2t1bG41ZDc1VTJJNzJESDBiR1JtWVlLUTVVVkhWZkxCemc?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-24T03:40:36.000Z",
+      "discoveredAt": "2026-09-24T20:45:16.656Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "6796a4fe172",
       "title": "Future of the Biomass Pellet Plant Market: Structural Insights and CAGR Projections from 2026 to 2033 - LinkedIn",
       "summary": "Future of the Biomass Pellet Plant Market: Structural Insights and CAGR Projections from 2026 to 2033 LinkedIn",
@@ -3224,7 +3239,7 @@
       "publishedAt": "2026-09-17T21:05:31.000Z",
       "discoveredAt": "2026-09-24T17:31:29.961Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "591635aa234",
