@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-09-24T20:45:35.649Z",
-  "crawlDurationMs": 20355,
+  "updatedAt": "2026-09-24T23:51:44.040Z",
+  "crawlDurationMs": 16465,
   "stats": {
-    "total": 425,
-    "tenders": 81,
+    "total": 428,
+    "tenders": 83,
     "purchase": 76,
-    "news": 268,
+    "news": 269,
     "portals": 73,
-    "linkedin": 274,
-    "newThisCrawl": 1,
+    "linkedin": 277,
+    "newThisCrawl": 3,
     "withCompany": 107
   },
   "sources": [
     {
-      "ok": false,
+      "ok": true,
       "label": "NTPC tender portal",
       "query": null,
       "count": 0,
-      "error": "HTTP 404"
+      "error": null
     },
     {
       "ok": true,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 64,
+      "count": 62,
       "error": null
     },
     {
@@ -142,7 +142,7 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 71,
+      "count": 72,
       "error": null
     },
     {
@@ -156,7 +156,7 @@
       "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 5,
+      "count": 6,
       "error": null
     },
     {
@@ -782,6 +782,21 @@
       "isNew": false
     },
     {
+      "id": "08b03fb0247",
+      "title": "From laboratory research to pilot-scale applications, pyrolysis technology is opening new opportunities for biomass valorization and biochar production. HOBERSAL’s tube and retort-type furnace solutions provide a flexible approach for research and process - LinkedIn",
+      "summary": "From laboratory research to pilot-scale applications, pyrolysis technology is opening new opportunities for biomass valorization and biochar production. HOBERSAL’s tube and retort-type furnace solutions provide a flexible approach for research and process LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMDZFMXZDNnVQV09BMFJfZlI1YU5XOVNKWnhFZDljRElIR0I1dlFaVmUtLU9OZ0s1NDBLMk1ueUVhRUFWY1lsU2o0Q1BxZTgxSGQ3S1JrZXBpd1hLQXZFV1JvZEgxMGtyaXdpblBBalFRMnFXVDVMNzJ2c2ZwVzhUYktlU0lFUnhsaGc0c0YweE0xQ01KcHpzU0l5ZGJYb3B3eElUR1QwMEhBZmJIcF93Q3g0VzBzRTRSN0l4d05aUlc5QWFKU2NhTg?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 90,
+      "publishedAt": "2026-09-02T07:00:00.000Z",
+      "discoveredAt": "2026-09-24T23:51:30.081Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "20f5eff3173",
       "title": "India Biomass Market Analysis 2026–2034: Key Growth Drivers, Emerging Opportunities & Outlook - LinkedIn",
       "summary": "India Biomass Market Analysis 2026–2034: Key Growth Drivers, Emerging Opportunities & Outlook LinkedIn",
@@ -1189,6 +1204,21 @@
       "discoveredAt": "2026-09-19T15:47:31.356Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "76af83fa23d",
+      "title": "India’s Thermal Power Secto's Fuel-Management Reset — Biomass Co-Firing Can Be Part of the Solution India’s thermal power sector is facing a critical fuel-management dilemma. https://lnkd.in/giGVHY_2 Recent data highlighted by The Hindu shows that the - LinkedIn",
+      "summary": "India’s Thermal Power Secto's Fuel-Management Reset — Biomass Co-Firing Can Be Part of the Solution India’s thermal power sector is facing a critical fuel-management dilemma. https://lnkd.in/giGVHY_2 Recent data highlighted by The Hindu shows that the LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOV2Fucl9laWdYbXNqS3RoaU1Jd01CMHY1UlJrSlhvZUZaazBrbkpFVEZaVzY2MlBVM1I3eDZYRkswZUxLcGNoeXN5VFk1NEVGWG1DX0xlZTIwVkhfWkVPN1Z3MFRFSFZfV01teFJZR2tYZk41X2pTdnExYTFXSmFXaEQxVHVlXzhaaEdBTjBDTGRROG9Jem00Si1UaG9BTEl2MklQUlJxMklrV1JmRUNmYnA4MXNkVFpVaTZrVW1NdkdadjBl?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 77,
+      "publishedAt": "2026-09-05T07:00:00.000Z",
+      "discoveredAt": "2026-09-24T23:51:30.082Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "763acc5d1c1",
@@ -1933,7 +1963,7 @@
       "summary": "India's biomass pellet and briquette industry has a quality problem — and it's bigger than most buyers realize. Industry estimates suggest roughly 85% of production in this space is still unorganized: small, informal units producing without consistent calorific val LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWGgxTl9MYkdLZmRyNjNUYUxmOHdVbGYwTlFfakp5UUotQVk3WHEtYTAwTUplUXA5aGhtaG50Umo4RmpGVkZtSE5tMTBkbjlfYXI3N1k1R0xLT2VGQTh3bzdGYU13UkJZRjBDZTZmZEsteC1hYTRsSGN2RUl2UVc1SzBHTzNoaDNQdlRaOUlxc1JpUkFHS29jYUhqQlBfUi1SVHZpd2h4QzZPRUF1bTVWdVpoUVQ?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "purchase",
       "companies": [],
       "score": 93,
@@ -3164,7 +3194,7 @@
       "publishedAt": "2026-09-24T03:40:36.000Z",
       "discoveredAt": "2026-09-24T20:45:16.656Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6796a4fe172",
@@ -4273,7 +4303,7 @@
       "summary": "Ansh Verma - Executive Director @Trio Renewable Engineering || Specialised in Biomass Pelletizing Solutions LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE54TktRR2pkOXZ4WkJTczIzNUlTOENUa1NIYS0wa0w3cTYxYUVQQTFqR2d3UjNHT2FLME1UUzhjTVFnUU5TWDktc3JvOHk2Rjg?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -4603,12 +4633,27 @@
       "summary": "Govil Biomass Pellet Consultant LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9YUGFQajk4WVA1S2dwdVg3Rnk5SVVoQTZMc2VDTExsSVNGOXBJWWJBdW9xY3RXX2lsc3BBbVdTZk9YeGN5WGs2LWxCZkhVS05iM3dHVTdJM0w1MnE5SmMxWDB4UFhiUHRRTzh4VVRXbkFLWFRSOTdJ?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "news",
       "companies": [],
       "score": 70,
       "publishedAt": "2025-11-08T01:02:06.000Z",
       "discoveredAt": "2026-09-19T15:47:30.427Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "3d6417f9120",
+      "title": "Govil Biomass Pellet Consultant - Govil Rohit Bio Energy Pvt Ltd - LinkedIn India",
+      "summary": "Govil Biomass Pellet Consultant - Govil Rohit Bio Energy Pvt Ltd LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9YUGFQajk4WVA1S2dwdVg3Rnk5SVVoQTZMc2VDTExsSVNGOXBJWWJBdW9xY3RXX2lsc3BBbVdTZk9YeGN5WGs2LWxCZkhVS05iM3dHVTdJM0w1MnE5SmMxWDB4UFhiUHRRTzh4VVRXbkFLWFRSOTdJ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2025-11-08T01:02:06.000Z",
+      "discoveredAt": "2026-09-24T23:51:29.699Z",
       "channel": "linkedin",
       "isNew": false
     },
