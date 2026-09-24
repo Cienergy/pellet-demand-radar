@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-09-24T12:09:54.263Z",
-  "crawlDurationMs": 18282,
+  "updatedAt": "2026-09-24T17:31:45.088Z",
+  "crawlDurationMs": 17962,
   "stats": {
-    "total": 423,
+    "total": 424,
     "tenders": 81,
     "purchase": 76,
-    "news": 266,
+    "news": 267,
     "portals": 73,
-    "linkedin": 272,
-    "newThisCrawl": 2,
+    "linkedin": 273,
+    "newThisCrawl": 1,
     "withCompany": 107
   },
   "sources": [
@@ -90,11 +90,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -1544,7 +1544,7 @@
       "publishedAt": "2024-12-02T08:00:00.000Z",
       "discoveredAt": "2026-09-24T12:09:37.831Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2b359fe415a",
@@ -1933,7 +1933,7 @@
       "summary": "India's biomass pellet and briquette industry has a quality problem — and it's bigger than most buyers realize. Industry estimates suggest roughly 85% of production in this space is still unorganized: small, informal units producing without consistent calorific val LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWGgxTl9MYkdLZmRyNjNUYUxmOHdVbGYwTlFfakp5UUotQVk3WHEtYTAwTUplUXA5aGhtaG50Umo4RmpGVkZtSE5tMTBkbjlfYXI3N1k1R0xLT2VGQTh3bzdGYU13UkJZRjBDZTZmZEsteC1hYTRsSGN2RUl2UVc1SzBHTzNoaDNQdlRaOUlxc1JpUkFHS29jYUhqQlBfUi1SVHZpd2h4QzZPRUF1bTVWdVpoUVQ?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "purchase",
       "companies": [],
       "score": 93,
@@ -3149,7 +3149,7 @@
       "publishedAt": "2018-10-21T07:00:00.000Z",
       "discoveredAt": "2026-09-24T12:09:37.831Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6796a4fe172",
@@ -3210,6 +3210,21 @@
       "discoveredAt": "2026-09-22T21:14:05.267Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "4d9f3162241",
+      "title": "🌱 How Are Biomass Briquettes Produced? Biomass Briquettes are made by converting renewable agricultural and wood-based residues into a dense, efficient industrial fuel. 🔹 Key Raw Materials • Sawdust & Wood Waste • Rice Husk • Rice Straw • Jute Stick - LinkedIn",
+      "summary": "🌱 How Are Biomass Briquettes Produced? Biomass Briquettes are made by converting renewable agricultural and wood-based residues into a dense, efficient industrial fuel. 🔹 Key Raw Materials • Sawdust & Wood Waste • Rice Husk • Rice Straw • Jute Stick LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNENwRExpcVItRUJyaTRDVWhiU01WcUZkYW0tSEdDVU5VSE5CLVF2Z3hpNEFtbXdEdXRKekpWUmsyTHEyQWxiNVg0ZVZ6T3BRNHpLdXd0cGJNUWNWdzVIb1FEV3I5MEl3SnJlNHBscEd0MnYyR1plRmlobTBDTnNHOEJra3B2Z29QaEVaVjR5Y0N2VXV5bTFvWXRwcFlnbUw2ajExcGJ0bFNWNjA0dmxESENFUVFRZHZuUnljbl8ya05rZmVyMS0w?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-17T21:05:31.000Z",
+      "discoveredAt": "2026-09-24T17:31:29.961Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "591635aa234",
