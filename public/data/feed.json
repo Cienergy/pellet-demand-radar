@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-24T00:51:38.635Z",
-  "crawlDurationMs": 18101,
+  "updatedAt": "2026-09-24T06:06:40.283Z",
+  "crawlDurationMs": 18236,
   "stats": {
     "total": 421,
     "tenders": 81,
@@ -8,7 +8,7 @@
     "news": 265,
     "portals": 71,
     "linkedin": 272,
-    "newThisCrawl": 3,
+    "newThisCrawl": 0,
     "withCompany": 106
   },
   "sources": [
@@ -128,14 +128,14 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 63,
+      "count": 0,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 27,
+      "count": 29,
       "error": null
     },
     {
@@ -156,14 +156,14 @@
       "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 5,
+      "count": 6,
       "error": null
     },
     {
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 6,
+      "count": 0,
       "error": null
     },
     {
@@ -862,7 +862,7 @@
       "summary": "Chhattisgarh: The Next Big Opportunity for the Paddy Straw Baling & Biomass Pellet Industry For the last decade, Punjab and Haryana have emerged as the backbone of India’s paddy straw collection and biomass pellet supply chain. What was once consider LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYmdpeXc3NklNeGZ5d2lPMnBYdE9UTnQ2MmFQSTE2NmZwcllLNml6WVlwU29BQUpGM3R4MlU2b3JxeXdkQ21OdjZyM1VQSTUzY3BjUWoyUTFtNlFWdnIwLVBRWFg1cFlSd3BVRWNhMTN3bDJrc1hzRVRrQ01oSTcwNDhWQllYT3NTLVZEMU9sdld2WlVNa2kzZ2x2bGM1THAxTzBxSzBHZnViZlQ5VXRvV0JaZmEtVzJ5RGNqYzBacXV2RnFN?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -1059,8 +1059,8 @@
       "summary": "NTPC Invites Bids for Procurement of Biomass Pellets to Co-Fire Thermal Power Plants Energetica India Magazine",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcjBKSnRXR0NHRU1FOFd6clJyTjhFeG5DM2VndWhPV0phbF94b2Q2TmgxMkgtWFBsQ184T0FTTjN5Unl6M0dtTFBCLVNHUjNILUVLYlhjcHRKZkUtRk9HQWc1UlB2QjBCa19mUWFmOF9VVGx3dkd4RlBFQ3B0MUQ1eEpjdGp3WGJRZ2xLc3VuRmVCdGZKcHM0S3ltd084N1l3dDA0SGM3TkVGWEJtZjgxenlGdnFxR1JDUVNqcW81VQ?oc=5",
       "source": "google_news",
-      "sourceLabel": "State utilities",
-      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
+      "sourceLabel": "Cofiring / NTPC",
+      "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -1529,7 +1529,7 @@
       "publishedAt": "2024-12-02T08:00:00.000Z",
       "discoveredAt": "2026-09-24T00:51:22.211Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2b359fe415a",
@@ -3117,7 +3117,7 @@
       "publishedAt": "2018-10-21T07:00:00.000Z",
       "discoveredAt": "2026-09-24T00:51:22.211Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6796a4fe172",
@@ -4728,7 +4728,7 @@
       "publishedAt": "2025-07-09T07:00:00.000Z",
       "discoveredAt": "2026-09-24T00:51:23.253Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5689e27612b",
@@ -6114,8 +6114,8 @@
       "summary": "Pralhad Joshi Launches 240 TPD Biomass Pellet Facility in Haryana Mercomindia.com",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNVVlcm01ajJzdWZ0S1BVaUdVb1BtS09mSlYwNk1BN3hVQnBaampaT3paRXd3NS0wb2hLVlh5bU9ldHJTTUhtbWNPX19PREdNVVlBVi12dTNXY25uZ3pHYnVPaTdLaHk4RmpsMnp4cnloZ1JzWW1pNWZ2bzMwbzdoekhfRTVwd29KYnBMZ3hwc0JtaWc?oc=5",
       "source": "google_news",
-      "sourceLabel": "State utilities",
-      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
+      "sourceLabel": "Pellet NITs IN",
+      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
       "type": "news",
       "companies": [],
       "score": 55,
