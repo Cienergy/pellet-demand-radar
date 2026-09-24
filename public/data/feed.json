@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-09-24T06:06:40.283Z",
-  "crawlDurationMs": 18236,
+  "updatedAt": "2026-09-24T12:09:54.263Z",
+  "crawlDurationMs": 18282,
   "stats": {
-    "total": 421,
+    "total": 423,
     "tenders": 81,
-    "purchase": 75,
-    "news": 265,
-    "portals": 71,
+    "purchase": 76,
+    "news": 266,
+    "portals": 73,
     "linkedin": 272,
-    "newThisCrawl": 0,
-    "withCompany": 106
+    "newThisCrawl": 2,
+    "withCompany": 107
   },
   "sources": [
     {
@@ -86,15 +86,15 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 31,
+      "count": 30,
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
       "ok": true,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 0,
+      "count": 63,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 0,
+      "count": 6,
       "error": null
     },
     {
@@ -1059,8 +1059,8 @@
       "summary": "NTPC Invites Bids for Procurement of Biomass Pellets to Co-Fire Thermal Power Plants Energetica India Magazine",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcjBKSnRXR0NHRU1FOFd6clJyTjhFeG5DM2VndWhPV0phbF94b2Q2TmgxMkgtWFBsQ184T0FTTjN5Unl6M0dtTFBCLVNHUjNILUVLYlhjcHRKZkUtRk9HQWc1UlB2QjBCa19mUWFmOF9VVGx3dkd4RlBFQ3B0MUQ1eEpjdGp3WGJRZ2xLc3VuRmVCdGZKcHM0S3ltd084N1l3dDA0SGM3TkVGWEJtZjgxenlGdnFxR1JDUVNqcW81VQ?oc=5",
       "source": "google_news",
-      "sourceLabel": "Cofiring / NTPC",
-      "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
+      "sourceLabel": "State utilities",
+      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -1532,6 +1532,21 @@
       "isNew": false
     },
     {
+      "id": "218299be178",
+      "title": "Clearing the Air: Biomass co-firing could be a solution to the smog crisis - powerline.net.in",
+      "summary": "Clearing the Air: Biomass co-firing could be a solution to the smog crisis powerline.net.in",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVGtSRExxLXdJd2VEbVFyM3JJU20tRzVzQVV0OWt5SFNsUFhFMzRRVng2d1puMFpOYnR4NWtJQXZLNnNDY0x3d1BqWGVIM3ZvTGxoWE5fZXA1M05XN3pJXy01UlJZbFFVVzVmMDJ4emFVeUpHUUl6V0FITW4zaXZxVmdzZFFQRVVvN1ozZGVqWjZfemhBYm92Yzg4UmFfUE5hSjl3RHg0dExVVWwtcUZ3?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2024-12-02T08:00:00.000Z",
+      "discoveredAt": "2026-09-24T12:09:37.831Z",
+      "channel": "portal",
+      "isNew": true
+    },
+    {
       "id": "2b359fe415a",
       "title": "Punjab’s state-run power plants will continue to buy biomass pellets - bioenergytimes.com",
       "summary": "Punjab’s state-run power plants will continue to buy biomass pellets bioenergytimes.com",
@@ -1918,7 +1933,7 @@
       "summary": "India's biomass pellet and briquette industry has a quality problem — and it's bigger than most buyers realize. Industry estimates suggest roughly 85% of production in this space is still unorganized: small, informal units producing without consistent calorific val LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWGgxTl9MYkdLZmRyNjNUYUxmOHdVbGYwTlFfakp5UUotQVk3WHEtYTAwTUplUXA5aGhtaG50Umo4RmpGVkZtSE5tMTBkbjlfYXI3N1k1R0xLT2VGQTh3bzdGYU13UkJZRjBDZTZmZEsteC1hYTRsSGN2RUl2UVc1SzBHTzNoaDNQdlRaOUlxc1JpUkFHS29jYUhqQlBfUi1SVHZpd2h4QzZPRUF1bTVWdVpoUVQ?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "purchase",
       "companies": [],
       "score": 93,
@@ -3118,6 +3133,23 @@
       "discoveredAt": "2026-09-24T00:51:22.211Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "540a574e2ca",
+      "title": "NTPC to use biomass to co-fire coal-based power plants, cut emissions - energy.economictimes.indiatimes.com",
+      "summary": "NTPC to use biomass to co-fire coal-based power plants, cut emissions energy.economictimes.indiatimes.com",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQ2g2ZWxRVXRRWUJIMjJTTHo0YTB2VXJ3LW40Ylk1MWdBTWZPMDdsSkhnU0dzeGV2MGVVSS1XWWFSREJ4U3Y1M3Q5SlJiZnpoR2kta3ZERzExdUNVWDB3MFpHSjZiQ3ZsZnhJS3k3ZUFhYUNvQWxLRlMtVHp5azBiWG9SVTMtYjM2MWlyQXhOTl9KQktyOHcxajZ4ejJqYzZMdmlJTEpiQ1R4dDAwWVFVNUt0SVVhZTllMmNaU0dya2ZCN1l1alVrZGlmWjjSAdIBQVVfeXFMTUlpajFsY29ENHBIZVRSSzhLVjJsSW9hcEFEX25xUU92ZTUxNUR3NlFNTGFlV04yUVNpTnlQTzZYcDB6UUhLWm9uX01FdTFmMWxxZndGUVZjV29EWk5HN2J0cFRTU09RMzZYM24ySXNVNFJkdEpLWU5kSXBCQnVLZFFRYlozV29UNThBbTQ4V1J3NndCV0p6VmtNaGk4VnBtZjVyTklaR3pvblFnY19PazFQUjFYYU51SWVTU0hxaVFUdE9mSmZlNTZpSnpkdk5iSHhR?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "news",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 70,
+      "publishedAt": "2018-10-21T07:00:00.000Z",
+      "discoveredAt": "2026-09-24T12:09:37.831Z",
+      "channel": "portal",
+      "isNew": true
     },
     {
       "id": "6796a4fe172",
@@ -6114,8 +6146,8 @@
       "summary": "Pralhad Joshi Launches 240 TPD Biomass Pellet Facility in Haryana Mercomindia.com",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNVVlcm01ajJzdWZ0S1BVaUdVb1BtS09mSlYwNk1BN3hVQnBaampaT3paRXd3NS0wb2hLVlh5bU9ldHJTTUhtbWNPX19PREdNVVlBVi12dTNXY25uZ3pHYnVPaTdLaHk4RmpsMnp4cnloZ1JzWW1pNWZ2bzMwbzdoekhfRTVwd29KYnBMZ3hwc0JtaWc?oc=5",
       "source": "google_news",
-      "sourceLabel": "Pellet NITs IN",
-      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
+      "sourceLabel": "State utilities",
+      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
       "type": "news",
       "companies": [],
       "score": 55,
