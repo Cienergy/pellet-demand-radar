@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-09-25T04:48:50.095Z",
-  "crawlDurationMs": 19218,
+  "updatedAt": "2026-09-25T10:09:07.820Z",
+  "crawlDurationMs": 17292,
   "stats": {
-    "total": 432,
+    "total": 436,
     "tenders": 86,
     "purchase": 76,
-    "news": 270,
+    "news": 274,
     "portals": 74,
-    "linkedin": 279,
+    "linkedin": 283,
     "newThisCrawl": 4,
     "withCompany": 109
   },
@@ -128,28 +128,28 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 61,
+      "count": 62,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 30,
+      "count": 29,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 73,
+      "count": 74,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 9,
+      "count": 8,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 7,
+      "count": 6,
       "error": null
     },
     {
@@ -566,7 +566,7 @@
       "publishedAt": "2020-09-27T07:00:00.000Z",
       "discoveredAt": "2026-09-25T04:48:32.503Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "50d27c3a2a2",
@@ -1397,7 +1397,7 @@
       "publishedAt": "2017-01-28T19:05:48.000Z",
       "discoveredAt": "2026-09-25T04:48:33.075Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0350977819e",
@@ -3247,6 +3247,21 @@
       "isNew": false
     },
     {
+      "id": "107b6bf5145",
+      "title": "How to Choose the Right Biomass Pellet Machine Manufacturer in India - LinkedIn",
+      "summary": "How to Choose the Right Biomass Pellet Machine Manufacturer in India LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNzFva2todUY0SHYyWERoaGw4bnowUDNtZk12WW1tT1NZZ2xyMGpCekhPR29BT2FQc21LSlNERWVaQmxCa0ZGd3VYWUxjVW1jSHhKczM0M09mMnZFQVJfdUgwWkRFTWlVcXcyaF9tX2xIbTFfcmZ6VGRuUkJsdmpFcDJneTZjbkJPX2NuOVBOVy1nTU0?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-23T09:37:55.000Z",
+      "discoveredAt": "2026-09-25T10:08:52.050Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "6796a4fe172",
       "title": "Future of the Biomass Pellet Plant Market: Structural Insights and CAGR Projections from 2026 to 2033 - LinkedIn",
       "summary": "Future of the Biomass Pellet Plant Market: Structural Insights and CAGR Projections from 2026 to 2033 LinkedIn",
@@ -3305,6 +3320,21 @@
       "discoveredAt": "2026-09-22T21:14:05.267Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "441d2e0e241",
+      "title": "Xinli Boiler Knowledge Tips -There are Many Types of Biomass Boilers, Why Choose Circulating Fluidized Bed Boilers Sometimes? Biomass boilers have a wide range of categories and applications, among which biomass fluidized bed boilers have become t - LinkedIn",
+      "summary": "Xinli Boiler Knowledge Tips -There are Many Types of Biomass Boilers, Why Choose Circulating Fluidized Bed Boilers Sometimes? Biomass boilers have a wide range of categories and applications, among which biomass fluidized bed boilers have become t LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPN3d4U01CajdTYnhWalAwNHVFY29ocUFhUi0zYnE2alBPc1RmR0YyRmYxSHhmcTFqU3BXSWZZNVJmYjNjSG5sZ090LW5yM0tUbi1qdnRZZnItRzRDZHVnLTlrTlNjaDYxMWJ0SGJQVExlWjd3NUxQbG1hbDRmcEM1ZnlIcTY0c0Z6dy0ta3BLSllWSGo1bm5CSzc0MmJsUHI3T2xhd2tBaWJ5eHQwQnUxZGVLaTExMF9vQkVVZEV3cURUWkt6LW14cnhn?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-20T02:41:59.000Z",
+      "discoveredAt": "2026-09-25T10:08:52.930Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "4d9f3162241",
@@ -4630,7 +4660,7 @@
       "publishedAt": "2026-01-09T08:00:00.000Z",
       "discoveredAt": "2026-09-25T04:48:33.075Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2952853513c",
@@ -5447,6 +5477,21 @@
       "isNew": false
     },
     {
+      "id": "166e253a181",
+      "title": "Yogesh Masuria - Contact: 9427210484, Director at: Servoday Plants & Equipments Limited, BIOMASS PELLET PLANT, RING DIE PELLET MILL, HAMMER MILL, BOILER FUEL FEEDING SYSTEM, DRUM CHIPPER, HYDRAULIC MOVING FLOOR, CPM REF - LinkedIn India",
+      "summary": "Yogesh Masuria - Contact: 9427210484, Director at: Servoday Plants & Equipments Limited, BIOMASS PELLET PLANT, RING DIE PELLET MILL, HAMMER MILL, BOILER FUEL FEEDING SYSTEM, DRUM CHIPPER, HYDRAULIC MOVING FLOOR, CPM REF LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAtcjRUV0I3M3U1dXlYQ2xnVzVOUnY2bUdUZVJUSzVYLWVOLXdRbzJjY3ZoODd5YklIM1dvNzFPNEg2N1VBQXdzZTZ3WQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2024-05-13T12:01:20.000Z",
+      "discoveredAt": "2026-09-25T10:08:52.060Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "75987f3d192",
       "title": "Sanjay Masuria - CONTACT +919427210483 Director -International Marketing for Servoday Pellet Plants, Biomass Napier Grass Pellet Plants, Torrefaction Plants, Material Handling Equipment, Radio Grab, attachment, Electric Excavator. - in.linkedin.com",
       "summary": "Sanjay Masuria - CONTACT +919427210483 Director -International Marketing for Servoday Pellet Plants, Biomass Napier Grass Pellet Plants, Torrefaction Plants, Material Handling Equipment, Radio Grab, attachment, Electric Excavator. in.linkedin.com",
@@ -5912,6 +5957,21 @@
       "score": 70,
       "publishedAt": "2018-07-12T06:02:12.000Z",
       "discoveredAt": "2026-09-20T05:03:21.802Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "1c8fe517154",
+      "title": "Pandurang Dhande - Agricultural Research & Biomass Expert | 42 Years Experience in Public & Private Sectors | Sustainable Development Advocate - LinkedIn India",
+      "summary": "Pandurang Dhande - Agricultural Research & Biomass Expert | 42 Years Experience in Public & Private Sectors | Sustainable Development Advocate LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5qUnEyUlV2aDIyT3QwSEN3am9FNjlPa3R2N3RoV25qaW9hdFZCQWNEb20yZTlWdXAzSm9lSW1kOWRSTzV6M1M1QXgxeDRmZGJJd3lrVHNLMjB5bmVqVGtvMWRwWQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2017-07-20T18:37:27.000Z",
+      "discoveredAt": "2026-09-25T10:08:52.523Z",
       "channel": "linkedin",
       "isNew": false
     },
