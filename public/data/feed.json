@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-09-25T15:31:59.345Z",
-  "crawlDurationMs": 20412,
+  "updatedAt": "2026-09-25T19:32:15.700Z",
+  "crawlDurationMs": 41350,
   "stats": {
-    "total": 437,
-    "tenders": 86,
+    "total": 438,
+    "tenders": 87,
     "purchase": 76,
     "news": 275,
     "portals": 75,
-    "linkedin": 283,
+    "linkedin": 284,
     "newThisCrawl": 1,
-    "withCompany": 109
+    "withCompany": 110
   },
   "sources": [
     {
@@ -97,11 +97,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
       "ok": true,
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 63,
+      "count": 65,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 29,
+      "count": 31,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 73,
+      "count": 74,
       "error": null
     },
     {
@@ -1396,6 +1396,23 @@
       "score": 77,
       "publishedAt": "2017-01-28T19:05:48.000Z",
       "discoveredAt": "2026-09-25T04:48:33.075Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "4c74b3f8149",
+      "title": "KPCL Invites Tender for 3.6 Lakh MT Biomass Pellet Supply for Thermal Power Stations - LinkedIn",
+      "summary": "KPCL Invites Tender for 3.6 Lakh MT Biomass Pellet Supply for Thermal Power Stations LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUHg0eVMzcUxQd1lhQkdNNmJVVlFxRHdIOXg4X2c0U3hTWHdpYTdMckllQklyY0tBUkRnQko2a3BpbGxOaVJLS1U3U2Z0bHBPb0dheVRnMnRVbnowaVVyaEozYmtYUk9aVW41WGdRUnhmdlVNVEw1YnFrZV8tLUZpb1Z3WG1zLURCUkE?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [
+        "KPCL"
+      ],
+      "score": 74,
+      "publishedAt": "2026-07-13T07:00:00.000Z",
+      "discoveredAt": "2026-09-25T19:31:35.939Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -2912,7 +2929,7 @@
       "publishedAt": "2022-11-04T07:00:00.000Z",
       "discoveredAt": "2026-09-25T15:31:40.366Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5962bf23275",
