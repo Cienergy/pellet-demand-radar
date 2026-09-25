@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-09-25T10:09:07.820Z",
-  "crawlDurationMs": 17292,
+  "updatedAt": "2026-09-25T15:31:59.345Z",
+  "crawlDurationMs": 20412,
   "stats": {
-    "total": 436,
+    "total": 437,
     "tenders": 86,
     "purchase": 76,
-    "news": 274,
-    "portals": 74,
+    "news": 275,
+    "portals": 75,
     "linkedin": 283,
-    "newThisCrawl": 4,
+    "newThisCrawl": 1,
     "withCompany": 109
   },
   "sources": [
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 30,
+      "count": 31,
       "error": null
     },
     {
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 62,
+      "count": 63,
       "error": null
     },
     {
@@ -142,7 +142,7 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 74,
+      "count": 73,
       "error": null
     },
     {
@@ -2900,6 +2900,21 @@
       "isNew": false
     },
     {
+      "id": "0f30d095139",
+      "title": "That Time of the Year: Policy steps to utilise biomass for power generation and reduce stubble burning - Powerline Magazine",
+      "summary": "That Time of the Year: Policy steps to utilise biomass for power generation and reduce stubble burning Powerline Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8yVUJpTVBWWGg0OURrVXVETFNDZElTVW1tYi1abmdKaWE3bkpaYTE2clpVdV8zLTJBQXVXV1hmYjF4NzdybWNyaDRHRnFLc082RnpaN3QwNnRpaHB4ZHY5ZU5XRExFb3Vyanc?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2022-11-04T07:00:00.000Z",
+      "discoveredAt": "2026-09-25T15:31:40.366Z",
+      "channel": "portal",
+      "isNew": true
+    },
+    {
       "id": "5962bf23275",
       "title": "Punjab thermal power plants to start utilising biomass - ET EnergyWorld",
       "summary": "Punjab thermal power plants to start utilising biomass ET EnergyWorld",
@@ -3259,7 +3274,7 @@
       "publishedAt": "2026-09-23T09:37:55.000Z",
       "discoveredAt": "2026-09-25T10:08:52.050Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6796a4fe172",
@@ -3334,7 +3349,7 @@
       "publishedAt": "2026-09-20T02:41:59.000Z",
       "discoveredAt": "2026-09-25T10:08:52.930Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4d9f3162241",
@@ -5489,7 +5504,7 @@
       "publishedAt": "2024-05-13T12:01:20.000Z",
       "discoveredAt": "2026-09-25T10:08:52.060Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "75987f3d192",
