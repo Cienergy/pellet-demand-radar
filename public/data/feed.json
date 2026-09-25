@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-09-24T23:51:44.040Z",
-  "crawlDurationMs": 16465,
+  "updatedAt": "2026-09-25T04:48:50.095Z",
+  "crawlDurationMs": 19218,
   "stats": {
-    "total": 428,
-    "tenders": 83,
+    "total": 432,
+    "tenders": 86,
     "purchase": 76,
-    "news": 269,
-    "portals": 73,
-    "linkedin": 277,
-    "newThisCrawl": 3,
-    "withCompany": 107
+    "news": 270,
+    "portals": 74,
+    "linkedin": 279,
+    "newThisCrawl": 4,
+    "withCompany": 109
   },
   "sources": [
     {
@@ -128,28 +128,28 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 62,
+      "count": 61,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 28,
+      "count": 30,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 72,
+      "count": 73,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 8,
+      "count": 9,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
@@ -552,6 +552,23 @@
       "isNew": false
     },
     {
+      "id": "0c1d3c392ad",
+      "title": "As crop stubble burning season begins, NTPC invites biomass pellet bids - Livemint",
+      "summary": "As crop stubble burning season begins, NTPC invites biomass pellet bids Livemint",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWklWdkZtMmg2eGRvbU9oT0J6emtaVTZreDdzWF83bjB4cDJFTUNRSnVFRWV5RTZjRGljQ252SlhnNTRmVWZHVVlOZjJXTGRKWV9rTlFuSUw3RVVRZ1EyRzVKTGJkNkpuMGxtY1JEUFFqckVJUXBnNTM2S3RRQXd2RnhsN0JLT2pkNFBGck5xa1hUUzBYMExHR2JGM3NtQldYSURjTndzWVlZRk1ySnUzWVFTZTBuajZOSk5GMnlOcUYtb3hYeDgwUU5BVdIB0AFBVV95cUxQT3ZRWDkxc09IRnZfQTVONmpoeUNsbTljT2pzWnVDSS1FTndiVWxVUHJFVDVFWXN0RGN2QmxZbGhUeVhSV3c3SFRnalJXSEFBZ0JQVzF4a0I1SDVxUDVFX2IxUFM0RUNSc0lJOEdhRnN3aUVES21VZzR4cjBManJtZ1VxRTdRNzlqajFhekN5NlB5bTBvT25nMXZhZF9scVd0OE9FcXBpQVVpZjdad3JwdE9KVlJIU0dzejZ5cWZxT2loVElFbF9paHV6Y2EzNnpk?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 74,
+      "publishedAt": "2020-09-27T07:00:00.000Z",
+      "discoveredAt": "2026-09-25T04:48:32.503Z",
+      "channel": "portal",
+      "isNew": true
+    },
+    {
       "id": "50d27c3a2a2",
       "title": "Govt weighs use of hay pellets in power plants in bid to stop stubble burning - livemint.com",
       "summary": "Govt weighs use of hay pellets in power plants in bid to stop stubble burning livemint.com",
@@ -794,7 +811,7 @@
       "publishedAt": "2026-09-02T07:00:00.000Z",
       "discoveredAt": "2026-09-24T23:51:30.081Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "20f5eff3173",
@@ -1218,7 +1235,7 @@
       "publishedAt": "2026-09-05T07:00:00.000Z",
       "discoveredAt": "2026-09-24T23:51:30.082Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "763acc5d1c1",
@@ -1366,6 +1383,21 @@
       "discoveredAt": "2026-09-20T23:11:31.804Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "71d145e8190",
+      "title": "Dharmesh Kumar kewat - Energy Transition and Sustainability| Power Utilities | Public & Climate Policy| Biofuels & Biomass Markets |Biomass Cofiring | ESG | Industrial Decarbonization | Stakeholder Engagement | Government Advisory - LinkedIn India",
+      "summary": "Dharmesh Kumar kewat - Energy Transition and Sustainability| Power Utilities | Public & Climate Policy| Biofuels & Biomass Markets |Biomass Cofiring | ESG | Industrial Decarbonization | Stakeholder Engagement | Government Advisory LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5VWVVoMHl5V3I5dkJIN3J0UDZ5SWlxU2ZGTkRIektoS1hRWDNQVkZQNHlkd0xjMHlfLUJIUzhfWFBHSmd4UHRleEpoampuZw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "tender",
+      "companies": [],
+      "score": 77,
+      "publishedAt": "2017-01-28T19:05:48.000Z",
+      "discoveredAt": "2026-09-25T04:48:33.075Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "0350977819e",
@@ -1954,6 +1986,24 @@
       "score": 65,
       "publishedAt": "2022-05-01T07:00:00.000Z",
       "discoveredAt": "2026-09-20T20:45:01.439Z",
+      "channel": "news",
+      "isNew": false
+    },
+    {
+      "id": "9bf1ea5b117093bf",
+      "title": "As crop stubble burning season begins, NTPC invites biomass pellet bids - Livemint",
+      "summary": "As crop stubble burning season begins, NTPC invites biomass pellet bids Livemint",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWklWdkZtMmg2eGRvbU9oT0J6emtaVTZreDdzWF83bjB4cDJFTUNRSnVFRWV5RTZjRGljQ252SlhnNTRmVWZHVVlOZjJXTGRKWV9rTlFuSUw3RVVRZ1EyRzVKTGJkNkpuMGxtY1JEUFFqckVJUXBnNTM2S3RRQXd2RnhsN0JLT2pkNFBGck5xa1hUUzBYMExHR2JGM3NtQldYSURjTndzWVlZRk1ySnUzWVFTZTBuajZOSk5GMnlOcUYtb3hYeDgwUU5BVdIB0AFBVV95cUxQT3ZRWDkxc09IRnZfQTVONmpoeUNsbTljT2pzWnVDSS1FTndiVWxVUHJFVDVFWXN0RGN2QmxZbGhUeVhSV3c3SFRnalJXSEFBZ0JQVzF4a0I1SDVxUDVFX2IxUFM0RUNSc0lJOEdhRnN3aUVES21VZzR4cjBManJtZ1VxRTdRNzlqajFhekN5NlB5bTBvT25nMXZhZF9scVd0OE9FcXBpQVVpZjdad3JwdE9KVlJIU0dzejZ5cWZxT2loVElFbF9paHV6Y2EzNnpk?oc=5",
+      "source": "google_news",
+      "sourceLabel": "State utilities",
+      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 65,
+      "publishedAt": "2020-09-27T07:00:00.000Z",
+      "discoveredAt": "2026-09-25T04:48:31.239Z",
       "channel": "news",
       "isNew": false
     },
@@ -4566,6 +4616,21 @@
       "discoveredAt": "2026-09-19T15:47:31.354Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "18c61b64265",
+      "title": "𝐊𝐨𝐧𝐬𝐚𝐫𝐢 𝐡𝐨𝐮𝐬𝐞𝐬 𝐈𝐧𝐝𝐢𝐚’𝐬 𝐥𝐚𝐫𝐠𝐞𝐬𝐭 𝐬𝐢𝐧𝐠𝐥𝐞-𝐜𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧 𝐩𝐞𝐥𝐥𝐞𝐭 𝐩𝐥𝐚𝐧𝐭 𝐚 𝟒.𝟎 𝐌𝐓𝐏𝐀 𝐟𝐚𝐜𝐢𝐥𝐢𝐭𝐲 designed for scale, consistency, and integration. Located in 𝐆𝐚𝐝𝐜𝐡𝐢𝐫𝐨𝐥𝐢, 𝐌𝐚𝐡𝐚𝐫𝐚𝐬𝐡𝐭𝐫𝐚, the Konsari pelle",
+      "summary": "𝐊𝐨𝐧𝐬𝐚𝐫𝐢 𝐡𝐨𝐮𝐬𝐞𝐬 𝐈𝐧𝐝𝐢𝐚’𝐬 𝐥𝐚𝐫𝐠𝐞𝐬𝐭 𝐬𝐢𝐧𝐠𝐥𝐞-𝐜𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧 𝐩𝐞𝐥𝐥𝐞𝐭 𝐩𝐥𝐚𝐧𝐭 𝐚 𝟒.𝟎 𝐌𝐓𝐏𝐀 𝐟𝐚𝐜𝐢𝐥𝐢𝐭𝐲 designed for scale, consistency, and integration. Located in 𝐆𝐚𝐝𝐜𝐡𝐢𝐫𝐨𝐥𝐢, 𝐌𝐚𝐡𝐚𝐫𝐚𝐬𝐡𝐭𝐫𝐚, the Konsari pellet plant operates as LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMi1ESGJmYmRXQVpwVDdSTUVubXNMODZaMlpnQzRlOFVrWEh0akZHUl9YWGg4Z3FOZDRDdkY3ZWlaRElfdGJ2b0ZrV3FUaW1GT0ZjM3dlbVhuQTVnZXBOMkwwMWZncmxia1B3clU0UXhrWDFnSlNjLTF0dmxVUThTT1Y0LWpqNjFfdXhkMVZlNm5RVDdYUGhhTDlEX1drd2Nyb0V5aVlka1dVZGpPLVA4S01BYXl5Rm51ekRkakNn?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-01-09T08:00:00.000Z",
+      "discoveredAt": "2026-09-25T04:48:33.075Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "2952853513c",
