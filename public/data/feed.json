@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-09-26T16:18:04.640Z",
-  "crawlDurationMs": 17680,
+  "updatedAt": "2026-09-26T19:21:32.474Z",
+  "crawlDurationMs": 18179,
   "stats": {
-    "total": 449,
+    "total": 450,
     "tenders": 93,
     "purchase": 76,
-    "news": 280,
+    "news": 281,
     "portals": 77,
-    "linkedin": 290,
-    "newThisCrawl": 0,
+    "linkedin": 291,
+    "newThisCrawl": 1,
     "withCompany": 116
   },
   "sources": [
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 64,
+      "count": 65,
       "error": null
     },
     {
@@ -156,7 +156,7 @@
       "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
@@ -3927,7 +3927,7 @@
       "summary": "🌱 Biomass Pellets vs Coal, LPG & Diesel: Which Fuel Is Better for Industries? Industrial fuel selection directly affects production costs, heating efficiency and environmental performance. While coal, LPG and diesel remain widely used, biomass pellets are emer LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeW16ajZuYjNPNnhMVkZfQ0Y0dEt2dHFSemxZWEV6VzNBbzVVekwxaXhCUm91RDlCMTdEU2VUSTlXRUNiUFRVRGJTaGNqZUZBb3M5cTJSZktIWjNNdlItLTc0djFDZExhY3g3LTNiOHpRTzlkMjlEZVZwYm5CNXpvc3ZKb2M4STdxNFAyVHpERDI4M01ub3NCUnVYTWpaTmI0X1lLNVVaZ2RpakRkdFd0LUxDeGFkY3M?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -3957,7 +3957,7 @@
       "summary": "🌱 Biomass Pellets vs Coal, LPG & Diesel: Which Fuel Is Better for Industries? Industrial fuel selection directly affects production costs, heating efficiency and environmental performance. While coal, LPG and diesel remain widely used, biomass pellets are emer LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUnotV2dXOTlqdy1UR1VPbFJ3QmZmVy1CTVZCOVdrOWhNTllPZXdJYzZIZFNZNUlCSlZvYmpHRjBvN0ExYnRHSTVhSERHckJEb1dnWklsbzhVM3UtQlJVZ01ITFBVS3R6a0NPYV9jVC1EWGhXUkUwOUpJV0o4Z0ZxaURFWktYV01uaTFoLUhFZi1fcnhGYjJEdU12anJmSmpWZy1KRXpRZU1TOHhBblk0TU5tV3JWcG8?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -5128,6 +5128,21 @@
       "discoveredAt": "2026-09-19T15:47:31.355Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "1eeab9b0111",
+      "title": "Nandkummar D. Kadu - Associate Vice Precident– Biomass Feedstock Operations - LinkedIn India",
+      "summary": "Nandkummar D. Kadu - Associate Vice Precident– Biomass Feedstock Operations LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1lVmllbkEzTmxhaEtmRVE3MUlVRzNYM3d5NVNjY1Z3REw1U2diWEpOd09RLTNobzk1RE5ZMVJwTmVjeHJvYzVTN005azVCeGdpZDdZWTVlc3IxX20xcTBBRGZENA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2025-08-01T10:54:20.000Z",
+      "discoveredAt": "2026-09-26T19:21:16.740Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "11c355bb26e",
