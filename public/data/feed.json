@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-25T22:47:32.214Z",
-  "crawlDurationMs": 20417,
+  "updatedAt": "2026-09-26T01:29:30.397Z",
+  "crawlDurationMs": 23626,
   "stats": {
     "total": 442,
     "tenders": 90,
@@ -8,7 +8,7 @@
     "news": 276,
     "portals": 76,
     "linkedin": 285,
-    "newThisCrawl": 4,
+    "newThisCrawl": 0,
     "withCompany": 113
   },
   "sources": [
@@ -76,18 +76,18 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Google · live NITs",
       "query": "(\"biomass pellet\" OR \"agro residue based pellet\" OR \"torrefied biomass\") (NIT OR \"Notice Inviting Tender\" OR \"e-Tender\" OR \"GeM bid\" OR EOI) India -market -forecast -\"market size\"",
-      "count": 2,
-      "error": null
+      "count": 0,
+      "error": "Status code 503"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 31,
-      "error": null
+      "count": 0,
+      "error": "Status code 503"
     },
     {
       "ok": true,
@@ -125,60 +125,60 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 66,
-      "error": null
+      "count": 0,
+      "error": "Status code 503"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 33,
-      "error": null
+      "count": 0,
+      "error": "Status code 503"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 74,
-      "error": null
+      "count": 0,
+      "error": "Status code 503"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 8,
-      "error": null
+      "count": 0,
+      "error": "Status code 503"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 6,
-      "error": null
+      "count": 0,
+      "error": "Status code 503"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 6,
-      "error": null
+      "count": 0,
+      "error": "Status code 503"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Cement / power buyers",
       "query": "(\"Tata Power\" OR \"Adani Power\" OR \"JSW Energy\" OR UltraTech OR Dalmia) (pellet OR biomass) (tender OR purchase OR procure OR requirement)",
       "count": 0,
-      "error": null
+      "error": "Status code 503"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "GeM / eProcure mentions",
       "query": "(GeM OR eprocure OR \"Central Public Procurement\") (\"biomass pellet\" OR \"agro residue\") (bid OR tender)",
       "count": 0,
-      "error": null
+      "error": "Status code 503"
     }
   ],
   "watchCompanies": [
@@ -583,7 +583,7 @@
       "publishedAt": "2020-09-27T07:00:00.000Z",
       "discoveredAt": "2026-09-25T22:47:13.327Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "50d27c3a2a2",
@@ -2039,7 +2039,7 @@
       "publishedAt": "2022-05-01T07:00:00.000Z",
       "discoveredAt": "2026-09-25T22:47:12.175Z",
       "channel": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9bf1ea5b117093bf",
