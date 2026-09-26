@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-26T11:47:20.490Z",
-  "crawlDurationMs": 18363,
+  "updatedAt": "2026-09-26T16:18:04.640Z",
+  "crawlDurationMs": 17680,
   "stats": {
     "total": 449,
     "tenders": 93,
@@ -8,7 +8,7 @@
     "news": 280,
     "portals": 77,
     "linkedin": 290,
-    "newThisCrawl": 3,
+    "newThisCrawl": 0,
     "withCompany": 116
   },
   "sources": [
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 66,
+      "count": 64,
       "error": null
     },
     {
@@ -149,7 +149,7 @@
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 9,
+      "count": 8,
       "error": null
     },
     {
@@ -434,7 +434,7 @@
       "publishedAt": "2020-09-27T07:00:00.000Z",
       "discoveredAt": "2026-09-26T11:47:04.572Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "01969a9b2ff",
@@ -3409,7 +3409,7 @@
       "publishedAt": "2026-09-21T15:38:03.000Z",
       "discoveredAt": "2026-09-26T11:47:04.392Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6796a4fe172",
