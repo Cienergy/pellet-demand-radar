@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-09-26T06:35:30.313Z",
-  "crawlDurationMs": 19388,
+  "updatedAt": "2026-09-26T11:47:20.490Z",
+  "crawlDurationMs": 18363,
   "stats": {
-    "total": 446,
-    "tenders": 91,
+    "total": 449,
+    "tenders": 93,
     "purchase": 76,
-    "news": 279,
-    "portals": 76,
-    "linkedin": 289,
-    "newThisCrawl": 4,
-    "withCompany": 114
+    "news": 280,
+    "portals": 77,
+    "linkedin": 290,
+    "newThisCrawl": 3,
+    "withCompany": 116
   },
   "sources": [
     {
@@ -135,7 +135,7 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 31,
+      "count": 32,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 7,
+      "count": 8,
       "error": null
     },
     {
@@ -418,6 +418,23 @@
       "discoveredAt": "2026-09-19T22:49:51.646Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "1376e8c01ad",
+      "title": "NTPC invites bids for biomass pellet procurement for thermal plants - The Economic Times",
+      "summary": "NTPC invites bids for biomass pellet procurement for thermal plants The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNU3ZKMXRJbTVNVVc5VkdLc3VlQk5PcU5IX0JXREVMU1VKeWt2NUc5OUZ3OGpnUmNNU2NlSFU0T0J1ZE1zYXRxZmNEMWhENjRCS1dTT3ZybHZnRGFyMlRRVVdfOVFBSVE2SmluMnJnLTJEcmpQZjJIV2M0bTlFc1JiRkdaMHd5MTU5c0JJT3pRSkg2RkVvRWpfaFFWSjM2UTFrLVlNLWVHN2k5ajRGMXd3R3J4elhZQy1BYlFTdWV1V1pDZmxxTVdpNjYwcW9vNjg5ZGVpQmxmSUMwUQ?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 84,
+      "publishedAt": "2020-09-27T07:00:00.000Z",
+      "discoveredAt": "2026-09-26T11:47:04.572Z",
+      "channel": "portal",
+      "isNew": true
     },
     {
       "id": "01969a9b2ff",
@@ -978,7 +995,7 @@
       "publishedAt": "2026-04-15T07:00:00.000Z",
       "discoveredAt": "2026-09-26T06:35:12.770Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1a41d76914c",
@@ -1167,6 +1184,24 @@
       "score": 91,
       "publishedAt": "2020-09-28T07:00:00.000Z",
       "discoveredAt": "2026-09-19T22:49:50.239Z",
+      "channel": "news",
+      "isNew": false
+    },
+    {
+      "id": "b05ddeaa6d031e48",
+      "title": "NTPC invites bids for biomass pellet procurement for thermal plants - The Economic Times",
+      "summary": "NTPC invites bids for biomass pellet procurement for thermal plants The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNU3ZKMXRJbTVNVVc5VkdLc3VlQk5PcU5IX0JXREVMU1VKeWt2NUc5OUZ3OGpnUmNNU2NlSFU0T0J1ZE1zYXRxZmNEMWhENjRCS1dTT3ZybHZnRGFyMlRRVVdfOVFBSVE2SmluMnJnLTJEcmpQZjJIV2M0bTlFc1JiRkdaMHd5MTU5c0JJT3pRSkg2RkVvRWpfaFFWSjM2UTFrLVlNLWVHN2k5ajRGMXd3R3J4elhZQy1BYlFTdWV1V1pDZmxxTVdpNjYwcW9vNjg5ZGVpQmxmSUMwUQ?oc=5",
+      "source": "google_news",
+      "sourceLabel": "State utilities",
+      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 91,
+      "publishedAt": "2020-09-27T07:00:00.000Z",
+      "discoveredAt": "2026-09-26T11:47:02.456Z",
       "channel": "news",
       "isNew": false
     },
@@ -3362,6 +3397,21 @@
       "isNew": false
     },
     {
+      "id": "607b1eb0232",
+      "title": "From FID to Startup | September 21, 2026 Three U.S. industrial developments worth reading this week, covering plant modernization, woody biomass and landfill gas. 1. Paper packaging: Supremex expands capabilities across three U.S. plants Supremex ann - LinkedIn",
+      "summary": "From FID to Startup | September 21, 2026 Three U.S. industrial developments worth reading this week, covering plant modernization, woody biomass and landfill gas. 1. Paper packaging: Supremex expands capabilities across three U.S. plants Supremex ann LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcm5peG9kb0gzNFlGNHpPX3NVZjY5dE9HcGJRazhDSktYdy1JOUt0RFI0Q0FGcTBWQnFSZDF1Rm5Ld2RzMnZRQnE4LXc2bk1lUU9TRmpKNmR6Zk5LM2tVZjN5a1NpR0JXaWRtY09sS3JDVld3UDg1azZmdXlweWgwRVFhLVdkX2RFMEpnZDZuVXFOOUx6UzZlcjdrYzgxMW5qcTJlcFI3ZktoQ19qSTJGdnRWY1FGc2NwbHJqZg?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-21T15:38:03.000Z",
+      "discoveredAt": "2026-09-26T11:47:04.392Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "6796a4fe172",
       "title": "Future of the Biomass Pellet Plant Market: Structural Insights and CAGR Projections from 2026 to 2033 - LinkedIn",
       "summary": "Future of the Biomass Pellet Plant Market: Structural Insights and CAGR Projections from 2026 to 2033 LinkedIn",
@@ -3404,7 +3454,7 @@
       "publishedAt": "2026-09-21T04:58:38.000Z",
       "discoveredAt": "2026-09-26T06:35:13.639Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6c755e46241",
@@ -3524,7 +3574,7 @@
       "publishedAt": "2026-09-16T07:00:00.000Z",
       "discoveredAt": "2026-09-26T06:35:12.771Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3fcb6b27240",
@@ -4597,7 +4647,7 @@
       "publishedAt": "2026-03-12T20:37:20.000Z",
       "discoveredAt": "2026-09-26T06:35:13.253Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4bce4f7925f",
