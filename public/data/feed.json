@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-09-26T01:29:30.397Z",
-  "crawlDurationMs": 23626,
+  "updatedAt": "2026-09-26T06:35:30.313Z",
+  "crawlDurationMs": 19388,
   "stats": {
-    "total": 442,
-    "tenders": 90,
+    "total": 446,
+    "tenders": 91,
     "purchase": 76,
-    "news": 276,
+    "news": 279,
     "portals": 76,
-    "linkedin": 285,
-    "newThisCrawl": 0,
-    "withCompany": 113
+    "linkedin": 289,
+    "newThisCrawl": 4,
+    "withCompany": 114
   },
   "sources": [
     {
@@ -76,18 +76,18 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Google · live NITs",
       "query": "(\"biomass pellet\" OR \"agro residue based pellet\" OR \"torrefied biomass\") (NIT OR \"Notice Inviting Tender\" OR \"e-Tender\" OR \"GeM bid\" OR EOI) India -market -forecast -\"market size\"",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 2,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 29,
+      "error": null
     },
     {
       "ok": true,
@@ -125,60 +125,60 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 66,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 31,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 74,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 9,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 6,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 7,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Cement / power buyers",
       "query": "(\"Tata Power\" OR \"Adani Power\" OR \"JSW Energy\" OR UltraTech OR Dalmia) (pellet OR biomass) (tender OR purchase OR procure OR requirement)",
       "count": 0,
-      "error": "Status code 503"
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "GeM / eProcure mentions",
       "query": "(GeM OR eprocure OR \"Central Public Procurement\") (\"biomass pellet\" OR \"agro residue\") (bid OR tender)",
       "count": 0,
-      "error": "Status code 503"
+      "error": null
     }
   ],
   "watchCompanies": [
@@ -964,6 +964,21 @@
       "discoveredAt": "2026-09-19T15:47:31.355Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "42dc1a7723e",
+      "title": "Sometimes, quiet work gets noticed… and it means a lot 🌱 We’re grateful to see Quality Bioenergy LLP featured by Kompass India among the Top 10 Biomass Pellet Manufacturers in India. What makes this special for us is not just the recognition — but the jour - LinkedIn",
+      "summary": "Sometimes, quiet work gets noticed… and it means a lot 🌱 We’re grateful to see Quality Bioenergy LLP featured by Kompass India among the Top 10 Biomass Pellet Manufacturers in India. What makes this special for us is not just the recognition — but the jour LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTFo3ZUF6ZkhnMkVxNHIxZnJPd3lTdXJjVjA2TTlDUmNmaXFFZUZtM3JWT3h4NXRIZWJuczEya2VFclhGMzkwY0dza1AxMmJ3ajIxSmNFdm5TUTVGcG5naGJQdjRkR3RWaU0taHhDM3A2bUNpVWxzVG10R2MzMzJaVzA4S3U0VHNiai15eHdyOUhSVkVkbHVGZ1BxN2lnb1h6RVVxdDNjYURiRkpjb0hUa25fdjJQdHpJVW41U2M1akw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "tender",
+      "companies": [],
+      "score": 90,
+      "publishedAt": "2026-04-15T07:00:00.000Z",
+      "discoveredAt": "2026-09-26T06:35:12.770Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "1a41d76914c",
@@ -3377,6 +3392,21 @@
       "isNew": false
     },
     {
+      "id": "790a987524d",
+      "title": "🌊🔥 HYDROTHERMAL LIQUEFACTION (HTL) | ADVANCED THERMOCHEMICAL CONVERSION OF WET BIOMASS Converting Wet Biomass & Organic Waste into Renewable Biocrude Hydrothermal Liquefaction (HTL) is an advanced thermochemical conve - LinkedIn",
+      "summary": "🌊🔥 HYDROTHERMAL LIQUEFACTION (HTL) | ADVANCED THERMOCHEMICAL CONVERSION OF WET BIOMASS Converting Wet Biomass & Organic Waste into Renewable Biocrude Hydrothermal Liquefaction (HTL) is an advanced thermochemical conve LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPbG1Uc0w1czFVRjJ4ZS1iNHdYU21tdHh3bjAzQzRSZ3pPQndBZ3d3MG52TW9rb2RKWEd6ZDBSWjNTWVZtYlF5SzlhMHh4REtMUkNRWXlRUEk1NlZNT0VvM1E2c2pfWHFxMDdzdm5rWjB1WnN2WWs1T21DU090RXRCNm1RTlNEUFpsNUtMU0ZCdTUwWTRFNHh3SzR4aDl1U0pWVzBjbzRSMjNSM3lXX1BIVFY1WFd3bXJSbHJlZjN1aTBrSXc1SjFELUpLUk9YdTRyV1JlWkZhZldtcTFldDJwdklOV21XMFdj?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-21T04:58:38.000Z",
+      "discoveredAt": "2026-09-26T06:35:13.639Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "6c755e46241",
       "title": "🌱 NAPIER GRASS: FROM FARM TO CLEAN GASEOUS FUEL Efficient CBG production begins with how we prepare the feedstock. At Proveg Engineering, our focus is on connecting farm harvesting with biomass preparation and controlled feeding into the CB - LinkedIn",
       "summary": "🌱 NAPIER GRASS: FROM FARM TO CLEAN GASEOUS FUEL Efficient CBG production begins with how we prepare the feedstock. At Proveg Engineering, our focus is on connecting farm harvesting with biomass preparation and controlled feeding into the CB LinkedIn",
@@ -3480,6 +3510,21 @@
       "discoveredAt": "2026-09-23T14:57:14.454Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "0ad00aa41a4",
+      "title": "Why Biomass Pellet Plants Fail: Common Technical and Operational Reasons - LinkedIn",
+      "summary": "Why Biomass Pellet Plants Fail: Common Technical and Operational Reasons LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZTN5WU9keVJwUkszOUZaNV9URnBZQVpnTnlUdGFnS2l3VlpKTUFVNktDSlNCMDBiSC0zeDMzTlBBOTdLN3VvMkEzRThHT0ZEOTNxMEdPY0NuT1U4UkpYa1k5X3p5cEhMMGxvUmozN1lsZkxKN0xwbkNRa2JUZkNvZmYwY2RzV0ZCR3dxZlpHdjRPM3p0WGRnR2RUQnhpaXBtVEs0bWRrbUJMVWN5Q0hMbHdnRWhSTTNQZ2xGUGZoTEk2M1dkTGM0QkRjRWRJY2Q0S05kSVB3QQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-16T07:00:00.000Z",
+      "discoveredAt": "2026-09-26T06:35:12.771Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "3fcb6b27240",
@@ -4536,6 +4581,23 @@
       "discoveredAt": "2026-09-19T15:47:30.430Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "68ccac98fa",
+      "title": "Ashish Pareek - Head Logistics Agro-Residue and Bio-Mass at Reliance Industries Ltd - LinkedIn India",
+      "summary": "Ashish Pareek - Head Logistics Agro-Residue and Bio-Mass at Reliance Industries Ltd LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB5cjI2akNiYTcyeko2cjFqeFlDaVJlYXFYOFlkNlNXMXhXclBYd1FXcXJMZmpWZzlXR29BSzIxYVRiR19mZmRpSEg5YVY?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "news",
+      "companies": [
+        "Reliance"
+      ],
+      "score": 70,
+      "publishedAt": "2026-03-12T20:37:20.000Z",
+      "discoveredAt": "2026-09-26T06:35:13.253Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "4bce4f7925f",
