@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-09-27T17:15:33.181Z",
-  "crawlDurationMs": 18091,
+  "updatedAt": "2026-09-27T20:22:15.898Z",
+  "crawlDurationMs": 18830,
   "stats": {
-    "total": 466,
+    "total": 469,
     "tenders": 94,
     "purchase": 77,
-    "news": 295,
+    "news": 298,
     "portals": 77,
-    "linkedin": 307,
-    "newThisCrawl": 0,
+    "linkedin": 310,
+    "newThisCrawl": 3,
     "withCompany": 117
   },
   "sources": [
@@ -3397,6 +3397,21 @@
       "isNew": false
     },
     {
+      "id": "2aee27e8219",
+      "title": "🌍 PROVEG ENGINEERING — ENCYCLOPEDIA OF BIOMASS PELLET PLANT MACHINERIES 🏆 AN UNBREAKABLE MILESTONE — 300+ BIOMASS PELLET PLANTS INSTALLED & SERVING From raw biomass to finished pellets, Proveg Engineering Grou - LinkedIn",
+      "summary": "🌍 PROVEG ENGINEERING — ENCYCLOPEDIA OF BIOMASS PELLET PLANT MACHINERIES 🏆 AN UNBREAKABLE MILESTONE — 300+ BIOMASS PELLET PLANTS INSTALLED & SERVING From raw biomass to finished pellets, Proveg Engineering Grou LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM1lIVnBleUgxVV9BNFNTM3p2ekc3bDlWejl1VzVNb2U5M083d05FaFNjMjdtUkEzN1RHVDdKWloyRnl6Njl3dG1fNC0xejFZYURUc3gxSFdzQkQxZE1qdjBVcmRLVzFGRjh3UHF6RkZBV3N2VjJ5RFNFMHZKcXNIbVd0aGw3QUNHblo1c09BWHUySHU2Z3YzLXg2SWFsWGtNUllDNm1vRjJpaTVleGVNbE5ZbTN3SVVHX0VVd09QbVpxVzNldFdN?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-26T01:58:14.000Z",
+      "discoveredAt": "2026-09-27T20:21:58.555Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "4827d619232",
       "title": "🔥 Biomass to Biochar & Charcoal — Complete Carbonization Technology by Proveg Engineering Group Agricultural and forestry biomass should not be treated simply as waste. With the right carbonization, syngas treatment and briquetting technology, it can b - LinkedIn",
       "summary": "🔥 Biomass to Biochar & Charcoal — Complete Carbonization Technology by Proveg Engineering Group Agricultural and forestry biomass should not be treated simply as waste. With the right carbonization, syngas treatment and briquetting technology, it can b LinkedIn",
@@ -3530,6 +3545,21 @@
       "discoveredAt": "2026-09-22T21:14:05.267Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "234d40ea193",
+      "title": "Difference Between Front-Fire and Vertical Biomass Pellet Burners - LinkedIn",
+      "summary": "Difference Between Front-Fire and Vertical Biomass Pellet Burners LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVkppOWRTajF1MjBMR051N1daVVNFRS0wN3A4Y2VxWVh1YWdVemFFaGhfR2tmT2hfVWtXbXJVeUhJUlY1bll5RlcxUWN3OUR2MFNrc0NlMTNvaHBKOTdOS1F3OFNKcU8xRXBnU19BU1V6NUVweG9POWMwUktRR1VTNm9oaU9neVNrcE9GdVl0QjVlekQ5TzkweHJESjBEdFQ3ZldYZG96TEktR2c5OW5nNjd4NUhfOWtCbXRPdnktaEE4UFRMNnRIeVdFLUd6WGRl?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-20T10:05:34.000Z",
+      "discoveredAt": "2026-09-27T20:21:59.658Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "441d2e0e241",
@@ -6758,6 +6788,21 @@
       "discoveredAt": "2026-09-20T00:54:13.748Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "4c57a2a61a4",
+      "title": "Bipin Kumar - Heading Project of Green Energy Production -Bio Mass Pellet Plant,Bio Char Production Plant, Carbon Credit Business, Bio Fertilizer Business as well as Domestic Coal Supply Segment to our Power-Cement- Brick Kiln Indus. - LinkedIn India",
+      "summary": "Bipin Kumar - Heading Project of Green Energy Production -Bio Mass Pellet Plant,Bio Char Production Plant, Carbon Credit Business, Bio Fertilizer Business as well as Domestic Coal Supply Segment to our Power-Cement- Brick Kiln Indus. LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hY09YY0NHeVVNZXdyQmZZMDJRQW8xdUR1Y09nRTJlbzhQWm9KbDRFUlRtUUhfQ2w5Y3NnNTREOFh2SktHM1ZXZW9IREdhaG00emlkdkVmajJQckU?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2015-11-09T15:49:38.000Z",
+      "discoveredAt": "2026-09-27T20:21:58.557Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "b18ffbcb72c60b91",
