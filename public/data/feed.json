@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-09-27T00:56:43.216Z",
-  "crawlDurationMs": 17890,
+  "updatedAt": "2026-09-27T06:33:27.454Z",
+  "crawlDurationMs": 17178,
   "stats": {
-    "total": 464,
+    "total": 466,
     "tenders": 94,
     "purchase": 77,
-    "news": 293,
+    "news": 295,
     "portals": 77,
-    "linkedin": 305,
-    "newThisCrawl": 0,
+    "linkedin": 307,
+    "newThisCrawl": 2,
     "withCompany": 117
   },
   "sources": [
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": false,
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 29,
+      "count": 28,
       "error": null
     },
     {
@@ -128,28 +128,28 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 64,
+      "count": 63,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 34,
+      "count": 32,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 74,
+      "count": 75,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 8,
+      "count": 9,
       "error": null
     },
     {
@@ -2578,7 +2578,7 @@
       "summary": "Sunil Rai 🇮🇳 - Bio-Energy (Feedstock)| De-Carbonization|Biomass SCM |Briquette| Pellet| Bio-CNG| Planning| Aggregation| Sustainability| IIM-Lucknow| Ex- RIL | Ex-PRESPL| Effective Sourcing of right kind of (Agri waste)|23 K connections in.linkedin.com",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9vS3RJaTRWd0FpblJLd3B6dWgwY0hrRE9GcGVWVWg1RmNZSjM5VEpYS0djNWhxZ0YzeGdqaXoxZ2pWWWJmQlhKcXBvVjZYMTZuN1dxcHRBdmZkay05akZIcUFtWGR3RUlXZnZ5UUhUaFFRZlRMeGMxSUZn?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -3472,6 +3472,21 @@
       "isNew": false
     },
     {
+      "id": "0164d86d251",
+      "title": "🌊🔥 HYDROTHERMAL LIQUEFACTION (HTL) | ADVANCED THERMOCHEMICAL CONVERSION OF WET BIOMASS Converting Wet Biomass & Organic Waste into Renewable Biocrude Hydrothermal Liquefaction (HTL) is an advanced thermochemical conve - LinkedIn",
+      "summary": "🌊🔥 HYDROTHERMAL LIQUEFACTION (HTL) | ADVANCED THERMOCHEMICAL CONVERSION OF WET BIOMASS Converting Wet Biomass & Organic Waste into Renewable Biocrude Hydrothermal Liquefaction (HTL) is an advanced thermochemical conve LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdHZPRE9DcmgzUENVWTNwZEVzWTlpV3U2dl9YN1A4OWlicktkQlloZEsyMFBOZkxDVlQ0LUREYnU5R0RlTjIxUElmQi1FUHotMzd5WkxFNk93SEFRdkpqZ1ZjOVl0YnkzY2FNVVhaaTRqQ3JlaTZWSXJXb3Nnb05xM2E0S2dRaTZtUGRJLW1SdkdBNWlOZ0l4YThLenU2LW1lUXlmTTJjX1pNUDNiUk9rSmM3bF9TdzQ4MTBjQ1RnTldCaTYxemtTYTJUb0ZjVjRUSnhVQTRHcEJISEItdE5sOFI1T0owdHRQOWtZ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-21T05:11:54.000Z",
+      "discoveredAt": "2026-09-27T06:33:12.437Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "790a987524d",
       "title": "🌊🔥 HYDROTHERMAL LIQUEFACTION (HTL) | ADVANCED THERMOCHEMICAL CONVERSION OF WET BIOMASS Converting Wet Biomass & Organic Waste into Renewable Biocrude Hydrothermal Liquefaction (HTL) is an advanced thermochemical conve - LinkedIn",
       "summary": "🌊🔥 HYDROTHERMAL LIQUEFACTION (HTL) | ADVANCED THERMOCHEMICAL CONVERSION OF WET BIOMASS Converting Wet Biomass & Organic Waste into Renewable Biocrude Hydrothermal Liquefaction (HTL) is an advanced thermochemical conve LinkedIn",
@@ -3987,7 +4002,7 @@
       "summary": "🌱 Biomass Pellets vs Coal, LPG & Diesel: Which Fuel Is Better for Industries? Industrial fuel selection directly affects production costs, heating efficiency and environmental performance. While coal, LPG and diesel remain widely used, biomass pellets are emer LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUnotV2dXOTlqdy1UR1VPbFJ3QmZmVy1CTVZCOVdrOWhNTllPZXdJYzZIZFNZNUlCSlZvYmpHRjBvN0ExYnRHSTVhSERHckJEb1dnWklsbzhVM3UtQlJVZ01ITFBVS3R6a0NPYV9jVC1EWGhXUkUwOUpJV0o4Z0ZxaURFWktYV01uaTFoLUhFZi1fcnhGYjJEdU12anJmSmpWZy1KRXpRZU1TOHhBblk0TU5tV3JWcG8?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -4417,6 +4432,21 @@
       "discoveredAt": "2026-09-20T00:54:13.747Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "7024d27b18e",
+      "title": "Biomass Wood Pellets, Briquettes & Pellet Burners | Rohit Exergy India - LinkedIn",
+      "summary": "Biomass Wood Pellets, Briquettes & Pellet Burners | Rohit Exergy India LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQR1Y0c3RJX2FZQjF6QzRTaTJlYlFmejN3TFNWdkRSdUszZHlaMVhtVXc0eEpKWm9KRjBNT0o1YlZwN2JFcWVOc2JvRGxrY3NSZi1GeldEaHZ4XzdoNDBrWlk4eVRKZndOZHMxa3hma2F2ekdCdFJ3bk56SnJjVWRfUnl6cjdwLWRIVVhYV0Z4V0RwSHZETC1VVzJWblN5QmU2SUdGa3NNSDB5ZFhabTYtOUhJMEJFSTJHX1ZNUE1iY2VGZjdlUHVEdA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-06-06T07:00:00.000Z",
+      "discoveredAt": "2026-09-27T06:33:12.437Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "2ae891a1264",
