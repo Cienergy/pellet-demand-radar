@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-26T22:11:07.453Z",
-  "crawlDurationMs": 18286,
+  "updatedAt": "2026-09-27T00:56:43.216Z",
+  "crawlDurationMs": 17890,
   "stats": {
     "total": 464,
     "tenders": 94,
@@ -8,7 +8,7 @@
     "news": 293,
     "portals": 77,
     "linkedin": 305,
-    "newThisCrawl": 14,
+    "newThisCrawl": 0,
     "withCompany": 117
   },
   "sources": [
@@ -97,11 +97,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -149,7 +149,7 @@
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 9,
+      "count": 8,
       "error": null
     },
     {
@@ -1479,7 +1479,7 @@
       "publishedAt": "2017-01-28T19:05:48.000Z",
       "discoveredAt": "2026-09-26T22:10:51.401Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4c74b3f8149",
@@ -2585,7 +2585,7 @@
       "publishedAt": "2024-10-07T06:16:14.000Z",
       "discoveredAt": "2026-09-26T22:10:50.883Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2f37346e183",
@@ -4630,7 +4630,7 @@
       "publishedAt": "2026-03-26T11:23:47.000Z",
       "discoveredAt": "2026-09-26T22:10:51.816Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "78a7b1c1250",
@@ -4724,7 +4724,7 @@
       "publishedAt": "2026-03-12T20:37:20.000Z",
       "discoveredAt": "2026-09-26T22:10:51.401Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4bce4f7925f",
@@ -5249,7 +5249,7 @@
       "publishedAt": "2025-08-01T10:54:20.000Z",
       "discoveredAt": "2026-09-26T22:10:51.816Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11c355bb26e",
@@ -5763,7 +5763,7 @@
       "publishedAt": "2024-08-21T19:05:42.000Z",
       "discoveredAt": "2026-09-26T22:10:50.882Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0115a569171",
@@ -5853,7 +5853,7 @@
       "publishedAt": "2024-05-13T12:01:20.000Z",
       "discoveredAt": "2026-09-26T22:10:50.882Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "75987f3d192",
@@ -6063,7 +6063,7 @@
       "publishedAt": "2023-04-04T08:43:52.000Z",
       "discoveredAt": "2026-09-26T22:10:51.401Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "14222976105",
@@ -6123,7 +6123,7 @@
       "publishedAt": "2021-12-17T02:11:30.000Z",
       "discoveredAt": "2026-09-26T22:10:51.401Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "08230f55148",
@@ -6517,7 +6517,7 @@
       "publishedAt": "2015-11-23T17:37:34.000Z",
       "discoveredAt": "2026-09-26T22:10:50.883Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2889049412d",
@@ -6637,7 +6637,7 @@
       "publishedAt": "2015-11-16T14:57:17.000Z",
       "discoveredAt": "2026-09-26T22:10:51.816Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7c3b74a110e",
