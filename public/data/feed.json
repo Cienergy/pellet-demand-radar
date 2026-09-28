@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-09-28T17:37:07.933Z",
-  "crawlDurationMs": 17560,
+  "updatedAt": "2026-09-28T23:12:53.052Z",
+  "crawlDurationMs": 19679,
   "stats": {
-    "total": 472,
-    "tenders": 94,
+    "total": 474,
+    "tenders": 96,
     "purchase": 77,
     "news": 301,
-    "portals": 77,
+    "portals": 78,
     "linkedin": 313,
-    "newThisCrawl": 0,
-    "withCompany": 117
+    "newThisCrawl": 2,
+    "withCompany": 119
   },
   "sources": [
     {
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 32,
+      "count": 29,
       "error": null
     },
     {
@@ -142,21 +142,21 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 74,
+      "count": 75,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 9,
+      "count": 10,
       "error": null
     },
     {
       "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
@@ -221,7 +221,7 @@
       "summary": "NTPC Invites EOI To Produce Torrefied Biomass Pellets From Startups Sarkaritel.com",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV1FlS3lPU2U2OEVLbXBScmJHcE5VcUJwUmZqN1AzZGVxWFBYQkZwWC1VRGp6OThUajVoWnE2enhXOEZqeVlyb1NVUEpiOUh0ZFh0MXBzMUdHWGpWRUFlbkFVc2JRNW1kV0dSckNDaFRUSVhxOVB6VHBWSXpFVzZGWTlKUzdIQld6dktOYVM4VDM3dHVDRUFsX3Byaw?oc=5",
       "source": "google_tender_news",
-      "sourceLabel": "Google · live NITs",
+      "sourceLabel": "Google · utility buys",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -435,6 +435,23 @@
       "discoveredAt": "2026-09-26T11:47:04.572Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "66962b8e1ac",
+      "title": "NTPC invites bids for biomass pellet procurement for thermal plants - economictimes.com",
+      "summary": "NTPC invites bids for biomass pellet procurement for thermal plants economictimes.com",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNU3ZKMXRJbTVNVVc5VkdLc3VlQk5PcU5IX0JXREVMU1VKeWt2NUc5OUZ3OGpnUmNNU2NlSFU0T0J1ZE1zYXRxZmNEMWhENjRCS1dTT3ZybHZnRGFyMlRRVVdfOVFBSVE2SmluMnJnLTJEcmpQZjJIV2M0bTlFc1JiRkdaMHd5MTU5c0JJT3pRSkg2RkVvRWpfaFFWSjM2UTFrLVlNLWVHN2k5ajRGMXd3R3J4elhZQy1BYlFTdWV1V1pDZmxxTVdpNjYwcW9vNjg5ZGVpQmxmSUMwUQ?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 84,
+      "publishedAt": "2020-09-27T07:00:00.000Z",
+      "discoveredAt": "2026-09-28T23:12:34.722Z",
+      "channel": "portal",
+      "isNew": true
     },
     {
       "id": "01969a9b2ff",
@@ -1202,6 +1219,24 @@
       "score": 91,
       "publishedAt": "2020-09-27T07:00:00.000Z",
       "discoveredAt": "2026-09-26T11:47:02.456Z",
+      "channel": "news",
+      "isNew": false
+    },
+    {
+      "id": "28ce375ea6b35031",
+      "title": "NTPC invites bids for biomass pellet procurement for thermal plants - economictimes.com",
+      "summary": "NTPC invites bids for biomass pellet procurement for thermal plants economictimes.com",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNU3ZKMXRJbTVNVVc5VkdLc3VlQk5PcU5IX0JXREVMU1VKeWt2NUc5OUZ3OGpnUmNNU2NlSFU0T0J1ZE1zYXRxZmNEMWhENjRCS1dTT3ZybHZnRGFyMlRRVVdfOVFBSVE2SmluMnJnLTJEcmpQZjJIV2M0bTlFc1JiRkdaMHd5MTU5c0JJT3pRSkg2RkVvRWpfaFFWSjM2UTFrLVlNLWVHN2k5ajRGMXd3R3J4elhZQy1BYlFTdWV1V1pDZmxxTVdpNjYwcW9vNjg5ZGVpQmxmSUMwUQ?oc=5",
+      "source": "google_news",
+      "sourceLabel": "State utilities",
+      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 91,
+      "publishedAt": "2020-09-27T07:00:00.000Z",
+      "discoveredAt": "2026-09-28T23:12:33.715Z",
       "channel": "news",
       "isNew": false
     },
@@ -2040,8 +2075,8 @@
       "summary": "NTPC Invites EOI To Produce Torrefied Biomass Pellets From Startups Sarkaritel.com",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV1FlS3lPU2U2OEVLbXBScmJHcE5VcUJwUmZqN1AzZGVxWFBYQkZwWC1VRGp6OThUajVoWnE2enhXOEZqeVlyb1NVUEpiOUh0ZFh0MXBzMUdHWGpWRUFlbkFVc2JRNW1kV0dSckNDaFRUSVhxOVB6VHBWSXpFVzZGWTlKUzdIQld6dktOYVM4VDM3dHVDRUFsX3Byaw?oc=5",
       "source": "google_news",
-      "sourceLabel": "Pellet NITs IN",
-      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
+      "sourceLabel": "Cofiring / NTPC",
+      "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
       "type": "tender",
       "companies": [
         "NTPC"
