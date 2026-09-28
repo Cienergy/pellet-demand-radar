@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-28T08:38:14.667Z",
-  "crawlDurationMs": 17850,
+  "updatedAt": "2026-09-28T17:37:07.933Z",
+  "crawlDurationMs": 17560,
   "stats": {
     "total": 472,
     "tenders": 94,
@@ -8,7 +8,7 @@
     "news": 301,
     "portals": 77,
     "linkedin": 313,
-    "newThisCrawl": 2,
+    "newThisCrawl": 0,
     "withCompany": 117
   },
   "sources": [
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -90,11 +90,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 60,
+      "count": 62,
       "error": null
     },
     {
@@ -3447,7 +3447,7 @@
       "summary": "How to Choose the Right Biomass Pellet Machine Manufacturer in India LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNzFva2todUY0SHYyWERoaGw4bnowUDNtZk12WW1tT1NZZ2xyMGpCekhPR29BT2FQc21LSlNERWVaQmxCa0ZGd3VYWUxjVW1jSHhKczM0M09mMnZFQVJfdUgwWkRFTWlVcXcyaF9tX2xIbTFfcmZ6VGRuUkJsdmpFcDJneTZjbkJPX2NuOVBOVy1nTU0?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -3589,7 +3589,7 @@
       "publishedAt": "2026-09-20T09:08:43.000Z",
       "discoveredAt": "2026-09-28T08:37:58.382Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "441d2e0e241",
@@ -3619,7 +3619,7 @@
       "publishedAt": "2026-09-19T07:00:00.000Z",
       "discoveredAt": "2026-09-28T08:37:59.249Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4d9f3162241",
