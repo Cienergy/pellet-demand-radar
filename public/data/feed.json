@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-09-28T01:57:42.853Z",
-  "crawlDurationMs": 17129,
+  "updatedAt": "2026-09-28T08:38:14.667Z",
+  "crawlDurationMs": 17850,
   "stats": {
-    "total": 470,
+    "total": 472,
     "tenders": 94,
     "purchase": 77,
-    "news": 299,
+    "news": 301,
     "portals": 77,
-    "linkedin": 311,
-    "newThisCrawl": 1,
+    "linkedin": 313,
+    "newThisCrawl": 2,
     "withCompany": 117
   },
   "sources": [
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": false,
@@ -86,15 +86,15 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 28,
+      "count": 32,
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
       "ok": true,
@@ -3439,7 +3439,7 @@
       "publishedAt": "2026-09-23T10:31:46.000Z",
       "discoveredAt": "2026-09-28T01:57:27.263Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107b6bf5145",
@@ -3577,6 +3577,21 @@
       "isNew": false
     },
     {
+      "id": "180a5b08246",
+      "title": "Standardization of CBG plant process is much necessary like Biomass Pellet plant . Each EPC proposes its own experience design for Plant Some proposes Single Pretreatment pit some proposes two Some are proposing agitators quality less or more The pip - LinkedIn",
+      "summary": "Standardization of CBG plant process is much necessary like Biomass Pellet plant . Each EPC proposes its own experience design for Plant Some proposes Single Pretreatment pit some proposes two Some are proposing agitators quality less or more The pip LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORDJfMEZORFllMVBaM2Y1eTcxQnZUS2M1VEl6cmJZZGpGTnFHdGtiTDFpXy1iOW5NXzVJVl9IdkNVOWl5aHdGZVJmbW0yQ25ZdG1TcTRQY0x3SkhsSlgyaF9LZ2w5TzJGM09LYlhxZGdORHJySUR1UVNOLTJsRkkxTkdlTXBFMmVPbnBzV2IxNXQzUXpER1lqVTVLSzVyTEFPZzJzWDFXSUdHWGIyMmN1ZmU0SEtfb2dIUEJUaGZELWRIcW1wSmhJNTNrYw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-20T09:08:43.000Z",
+      "discoveredAt": "2026-09-28T08:37:58.382Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "441d2e0e241",
       "title": "Xinli Boiler Knowledge Tips -There are Many Types of Biomass Boilers, Why Choose Circulating Fluidized Bed Boilers Sometimes? Biomass boilers have a wide range of categories and applications, among which biomass fluidized bed boilers have become t - LinkedIn",
       "summary": "Xinli Boiler Knowledge Tips -There are Many Types of Biomass Boilers, Why Choose Circulating Fluidized Bed Boilers Sometimes? Biomass boilers have a wide range of categories and applications, among which biomass fluidized bed boilers have become t LinkedIn",
@@ -3590,6 +3605,21 @@
       "discoveredAt": "2026-09-25T10:08:52.930Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "7b99dd9323e",
+      "title": "🔥 Biomass Pellet Production | Process Engineering. Biomass pellets and briquettes convert agricultural residues, sawdust, and forestry waste into dense, transportable solid biofuels. ⚙️ Key Process Stages: 1️⃣ Raw Material Collection & Cleaning 2️⃣ Size - LinkedIn",
+      "summary": "🔥 Biomass Pellet Production | Process Engineering. Biomass pellets and briquettes convert agricultural residues, sawdust, and forestry waste into dense, transportable solid biofuels. ⚙️ Key Process Stages: 1️⃣ Raw Material Collection & Cleaning 2️⃣ Size LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZXdjUEx3SnZpbWFCVVJGV3VucE5BaFpnT2EtNDNDTmtiYVZWSFhEejZxZ0ZHQ2dXWlMtWGJwSENkRWtCOXhmZk5lTk5JX01VeVFSaUFRTGhJckx2N3FxZlJlTW9DMHFPakNnZ0dhU2xzanlTQUV4d01yU3F6Vkg3d1BiMkxrbENvdGw5ekdEYkdPYWpWSmQwWW92Zy04LXhnb1B1N3J3aGFrTEl6aEZoaENTQnVVMVNlTXlpdGE0aFJ5QQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-19T07:00:00.000Z",
+      "discoveredAt": "2026-09-28T08:37:59.249Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "4d9f3162241",
