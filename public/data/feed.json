@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-09-28T23:12:53.052Z",
-  "crawlDurationMs": 19679,
+  "updatedAt": "2026-09-29T02:42:50.980Z",
+  "crawlDurationMs": 17464,
   "stats": {
-    "total": 474,
-    "tenders": 96,
+    "total": 476,
+    "tenders": 98,
     "purchase": 77,
     "news": 301,
-    "portals": 78,
-    "linkedin": 313,
+    "portals": 79,
+    "linkedin": 314,
     "newThisCrawl": 2,
-    "withCompany": 119
+    "withCompany": 121
   },
   "sources": [
     {
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 29,
+      "count": 31,
       "error": null
     },
     {
@@ -135,28 +135,28 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 32,
+      "count": 33,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 75,
+      "count": 73,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 10,
+      "count": 9,
       "error": null
     },
     {
       "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 7,
+      "count": 6,
       "error": null
     },
     {
@@ -221,7 +221,7 @@
       "summary": "NTPC Invites EOI To Produce Torrefied Biomass Pellets From Startups Sarkaritel.com",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV1FlS3lPU2U2OEVLbXBScmJHcE5VcUJwUmZqN1AzZGVxWFBYQkZwWC1VRGp6OThUajVoWnE2enhXOEZqeVlyb1NVUEpiOUh0ZFh0MXBzMUdHWGpWRUFlbkFVc2JRNW1kV0dSckNDaFRUSVhxOVB6VHBWSXpFVzZGWTlKUzdIQld6dktOYVM4VDM3dHVDRUFsX3Byaw?oc=5",
       "source": "google_tender_news",
-      "sourceLabel": "Google · utility buys",
+      "sourceLabel": "Google · live NITs",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -451,7 +451,7 @@
       "publishedAt": "2020-09-27T07:00:00.000Z",
       "discoveredAt": "2026-09-28T23:12:34.722Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "01969a9b2ff",
@@ -556,6 +556,23 @@
       "isNew": false
     },
     {
+      "id": "53ac7e9c20a",
+      "title": "NTPC invites bids to procure agro residue based fuel - India.com",
+      "summary": "NTPC invites bids to procure agro residue based fuel India.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWkpEWVhYb1VMNXVZeW4zZnlOTmxOam80VWg2ckV4bHlIZm4yYmpTU0pzeDZ6LXF4ZnNkaGhxdW40MTQ5SEJSeG54eDlIX0JJLVJZWVZ0alI3MTRwSTY0aWI2Z1Y0RWYtREd3R2NtWnVNUll4Q1lZeUlrN1pfX3d4WFp2cVJPaUdjbUlJM3ZnS1VTX2FNMW9V0gGXAUFVX3lxTE5aSkRZWFhvVUw1dVl5bjNmeU5ObE5qbzRVaDZyRXhseUhmbjJialNTSnN4NnotcXhmc2RoaHF1bjQxNDlIQlJ4bnh4OUhfQkktUllZVnRqUjcxNHBJNjRpYjZnVjRFZi1ER3dHY21adU1SWXhDWVl5SWs3Wl9fd3hYWnZxUk9pR2NtSUkzdmdLVVNfYU0xb1U?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 77,
+      "publishedAt": "2018-02-08T08:00:00.000Z",
+      "discoveredAt": "2026-09-29T02:42:34.829Z",
+      "channel": "portal",
+      "isNew": true
+    },
+    {
       "id": "52a4a23a168",
       "title": "Is Ex-situ Crop Residue Management a Scalable Solution to Stubble Burning? - CEEW",
       "summary": "Is Ex-situ Crop Residue Management a Scalable Solution to Stubble Burning? CEEW",
@@ -648,6 +665,23 @@
       "discoveredAt": "2026-09-20T20:45:03.001Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "5ffd83111b2",
+      "title": "NTPC’s 2-Year Biomass Pellet Tender: A Major Procurement Opportunity for Manufacturers & Traders - LinkedIn",
+      "summary": "NTPC’s 2-Year Biomass Pellet Tender: A Major Procurement Opportunity for Manufacturers & Traders LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObjI0MThQUE8tandCZXdHOWFMRTJHSlVfa2hBekphMThoblgyTXVHa0E3NXlxU082d29FUEZsR3o4SnpGV0hrelcxNFRhcDF2NDhyaHNvSnJTSzFCc1VRYTRWMmJ5NFI1eTZuVFNkOGpTeUltZEZJOFItcWNnR3RfaTM5TVJmVHJBV2gxc3pPcHc4bjNKY1F1MUhMWW1qaGJzblhVUzJRaUlVZUZZRVpCNWQ0dDFMcEt5WS00VnlOb0hZQjBxWlVDSGhPMnBtZHpG?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 100,
+      "publishedAt": "2026-09-28T07:02:29.000Z",
+      "discoveredAt": "2026-09-29T02:42:35.274Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "01c24bb4235",
@@ -2075,8 +2109,8 @@
       "summary": "NTPC Invites EOI To Produce Torrefied Biomass Pellets From Startups Sarkaritel.com",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV1FlS3lPU2U2OEVLbXBScmJHcE5VcUJwUmZqN1AzZGVxWFBYQkZwWC1VRGp6OThUajVoWnE2enhXOEZqeVlyb1NVUEpiOUh0ZFh0MXBzMUdHWGpWRUFlbkFVc2JRNW1kV0dSckNDaFRUSVhxOVB6VHBWSXpFVzZGWTlKUzdIQld6dktOYVM4VDM3dHVDRUFsX3Byaw?oc=5",
       "source": "google_news",
-      "sourceLabel": "Cofiring / NTPC",
-      "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
+      "sourceLabel": "Pellet NITs IN",
+      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -2598,7 +2632,7 @@
       "summary": "Sunil Rai 🇮🇳 - Bio-Energy (Feedstock)| De-Carbonization|Biomass SCM |Briquette| Pellet| Bio-CNG| Planning| Aggregation| Sustainability| IIM-Lucknow| Ex- RIL | Ex-PRESPL| Effective Sourcing of right kind of (Agri waste)|23 K connections LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9vS3RJaTRWd0FpblJLd3B6dWgwY0hrRE9GcGVWVWg1RmNZSjM5VEpYS0djNWhxZ0YzeGdqaXoxZ2pWWWJmQlhKcXBvVjZYMTZuN1dxcHRBdmZkay05akZIcUFtWGR3RUlXZnZ5UUhUaFFRZlRMeGMxSUZn?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -2673,7 +2707,7 @@
       "summary": "Vaibhav Gill - Biomass Pellet Manufacturer & Supplier | Continuously Supplying to Thermal Power Plants since 2023 | Director – Gill Buildcon Pvt. Ltd. | Scaling to 1,000 MT/Day LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XdDd1TXE2WTdmYy1LQVJMMnZPQTU4YnZpTHVrRjZ0Y2xMaHpRaEVubEI4RTVEREhiS29lZE16U05wc2ttdUR5QkFtdW1lOWFkeG1qUE01NFRvcmEwR0E?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "purchase",
       "companies": [],
       "score": 73,
