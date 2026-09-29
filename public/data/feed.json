@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-09-29T09:44:16.190Z",
-  "crawlDurationMs": 19236,
+  "updatedAt": "2026-09-29T16:29:05.014Z",
+  "crawlDurationMs": 18098,
   "stats": {
-    "total": 478,
-    "tenders": 98,
-    "purchase": 78,
-    "news": 302,
+    "total": 500,
+    "tenders": 105,
+    "purchase": 80,
+    "news": 315,
     "portals": 79,
-    "linkedin": 316,
-    "newThisCrawl": 2,
-    "withCompany": 121
+    "linkedin": 347,
+    "newThisCrawl": 31,
+    "withCompany": 122
   },
   "sources": [
     {
@@ -90,11 +90,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
       "ok": true,
@@ -128,14 +128,14 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 61,
+      "count": 63,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 33,
+      "count": 32,
       "error": null
     },
     {
@@ -149,7 +149,7 @@
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 10,
+      "count": 9,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 7,
+      "count": 6,
       "error": null
     },
     {
@@ -684,6 +684,23 @@
       "isNew": false
     },
     {
+      "id": "238d683e1b6",
+      "title": "NTPC’s 2-Year Biomass Pellet Tender: A Major Procurement Opportunity for Manufacturers & Traders - linkedin.com",
+      "summary": "NTPC’s 2-Year Biomass Pellet Tender: A Major Procurement Opportunity for Manufacturers & Traders linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObjI0MThQUE8tandCZXdHOWFMRTJHSlVfa2hBekphMThoblgyTXVHa0E3NXlxU082d29FUEZsR3o4SnpGV0hrelcxNFRhcDF2NDhyaHNvSnJTSzFCc1VRYTRWMmJ5NFI1eTZuVFNkOGpTeUltZEZJOFItcWNnR3RfaTM5TVJmVHJBV2gxc3pPcHc4bjNKY1F1MUhMWW1qaGJzblhVUzJRaUlVZUZZRVpCNWQ0dDFMcEt5WS00VnlOb0hZQjBxWlVDSGhPMnBtZHpG?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 100,
+      "publishedAt": "2026-09-28T07:02:29.000Z",
+      "discoveredAt": "2026-09-29T16:28:49.174Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "01c24bb4235",
       "title": "🚨 NTPC Biomass Pellet Tender | 2-Year Opportunity NTPC has invited bids for agro-residue biomass pellets across 7 thermal power stations. ▪️ Contract: 2 Years ▪️ Quantity: Approx. 12.30 Lakh MT ▪️ Eligible: Manufacturers, Future Manufacturers & Traders - LinkedIn",
       "summary": "🚨 NTPC Biomass Pellet Tender | 2-Year Opportunity NTPC has invited bids for agro-residue biomass pellets across 7 thermal power stations. ▪️ Contract: 2 Years ▪️ Quantity: Approx. 12.30 Lakh MT ▪️ Eligible: Manufacturers, Future Manufacturers & Traders LinkedIn",
@@ -701,6 +718,23 @@
       "isNew": false
     },
     {
+      "id": "578c83f9239",
+      "title": "🚨 NTPC Biomass Pellet Tender | 2-Year Opportunity NTPC has invited bids for agro-residue biomass pellets across 7 thermal power stations. ▪️ Contract: 2 Years ▪️ Quantity: Approx. 12.30 Lakh MT ▪️ Eligible: Manufacturers, Future Manufacturers & Traders - linkedin.com",
+      "summary": "🚨 NTPC Biomass Pellet Tender | 2-Year Opportunity NTPC has invited bids for agro-residue biomass pellets across 7 thermal power stations. ▪️ Contract: 2 Years ▪️ Quantity: Approx. 12.30 Lakh MT ▪️ Eligible: Manufacturers, Future Manufacturers & Traders linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSU1IS19FZV9aMUF6ZUxfSmJ3dC1jX2VicUxEaHlya2huUXpUWkhyRDh6ZjI5eXZMQkpERVlZU2wtN2xfRWR4RzBRcHpvRllzdTNrckYtNjY1SG4yN21EVVJiaEhGU0s2RlFZLVN3aDJPZVcyNFdveUR0TGJjTlUyWWJOVjdYT1ROeURnSlM0MFRoRGo0VEs2b1RKSW40V2llMlhic3hQOE5NaE1GQTZ2MXlRNnROQWlhOU9SVA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 100,
+      "publishedAt": "2026-09-21T05:55:49.000Z",
+      "discoveredAt": "2026-09-29T16:28:49.174Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
       "id": "0966103c23f",
       "title": "📢Biomass Pellet Supply Opportunity Rosa Power Supply Company Limited (RPSCL) invites bids for the long-term supply of 3,10,000 MT of agro-residue-based Non-Torrefied Biomass Pellets for co-firing at Rosa Thermal Power Project, Shahjahanpur, Uttar Pr - LinkedIn",
       "summary": "📢Biomass Pellet Supply Opportunity Rosa Power Supply Company Limited (RPSCL) invites bids for the long-term supply of 3,10,000 MT of agro-residue-based Non-Torrefied Biomass Pellets for co-firing at Rosa Thermal Power Project, Shahjahanpur, Uttar Pr LinkedIn",
@@ -712,6 +746,21 @@
       "score": 100,
       "publishedAt": "2026-08-04T07:00:00.000Z",
       "discoveredAt": "2026-09-23T19:00:11.398Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "61ba9817243",
+      "title": "📢Biomass Pellet Supply Opportunity Rosa Power Supply Company Limited (RPSCL) invites bids for the long-term supply of 3,10,000 MT of agro-residue-based Non-Torrefied Biomass Pellets for co-firing at Rosa Thermal Power Project, Shahjahanpur, Uttar Pr - linkedin.com",
+      "summary": "📢Biomass Pellet Supply Opportunity Rosa Power Supply Company Limited (RPSCL) invites bids for the long-term supply of 3,10,000 MT of agro-residue-based Non-Torrefied Biomass Pellets for co-firing at Rosa Thermal Power Project, Shahjahanpur, Uttar Pr linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTXZhQjFHSHVrTG9wT2hJaFVsY0M0eVFlWU5pUU1KUWtQcjZjM1NacC1SeWZ3VG9XVDY5LUZYWmVsMl84Z19fZWxYSVduZHI1ZjJ1VzRHWnN3MmJDYWRNbzZtenptYXk3QTJkTnZuaVNGU0V4QUlsOXZYdW5TOE1VZGdWdmxEMEN2SndtelROWGZyb0tOM2VoUkpNcTd5M0c3clBuVm5ycml5d19weFFldWRoREFOTnJFQzV6SElKRUNWZ1VhUmc?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 100,
+      "publishedAt": "2026-08-04T07:00:00.000Z",
+      "discoveredAt": "2026-09-29T16:28:49.175Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -914,6 +963,21 @@
       "isNew": false
     },
     {
+      "id": "00ace8c6177",
+      "title": "India Biomass Market Analysis 2026–2034: Key Growth Drivers, Emerging Opportunities & Outlook - linkedin.com",
+      "summary": "India Biomass Market Analysis 2026–2034: Key Growth Drivers, Emerging Opportunities & Outlook linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMVA0REJxamRpQXp5M0Rvbld0YnVGaU1IamFyY2NRMWJfUF9vM2tHLXRZWHpXVnZLSEJjeVFLYlFHT1E1OGMzLW5wLVE1bHEySDdvQjRkTjJXXzY1bGhjdGJ3SkVpdHdKbHRqb1l6blFHUWJ2d1ZPRWdOWllQYXpMREIwc3lFbWFSYlB6ZEFhUDI2Z05wTGJaSTNUQ0dSRFNXNkhF?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 90,
+      "publishedAt": "2026-08-21T07:00:00.000Z",
+      "discoveredAt": "2026-09-29T16:28:48.685Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
       "id": "4ce2aa4824f",
       "title": "🌱 A Historic Boost for India's Bio-CBG Mission: India & Japan Target 1,000 Biogas Plants by 2030 🇮🇳🇯🇵 The launch of the Japan-India Compressed Biogas (CBG) Initiative marks a new chapter in transforming cattle dung and agricultural biomass into clean, r - LinkedIn",
       "summary": "🌱 A Historic Boost for India's Bio-CBG Mission: India & Japan Target 1,000 Biogas Plants by 2030 🇮🇳🇯🇵 The launch of the Japan-India Compressed Biogas (CBG) Initiative marks a new chapter in transforming cattle dung and agricultural biomass into clean, r LinkedIn",
@@ -994,7 +1058,7 @@
       "summary": "Chhattisgarh: The Next Big Opportunity for the Paddy Straw Baling & Biomass Pellet Industry For the last decade, Punjab and Haryana have emerged as the backbone of India’s paddy straw collection and biomass pellet supply chain. What was once consider linkedin.com",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYmdpeXc3NklNeGZ5d2lPMnBYdE9UTnQ2MmFQSTE2NmZwcllLNml6WVlwU29BQUpGM3R4MlU2b3JxeXdkQ21OdjZyM1VQSTUzY3BjUWoyUTFtNlFWdnIwLVBRWFg1cFlSd3BVRWNhMTN3bDJrc1hzRVRrQ01oSTcwNDhWQllYT3NTLVZEMU9sdld2WlVNa2kzZ2x2bGM1THAxTzBxSzBHZnViZlQ5VXRvV0JaZmEtVzJ5RGNqYzBacXV2RnFN?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -1047,6 +1111,21 @@
       "discoveredAt": "2026-09-26T06:35:12.770Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "16b2314a242",
+      "title": "Sometimes, quiet work gets noticed… and it means a lot 🌱 We’re grateful to see Quality Bioenergy LLP featured by Kompass India among the Top 10 Biomass Pellet Manufacturers in India. What makes this special for us is not just the recognition — but the jour - linkedin.com",
+      "summary": "Sometimes, quiet work gets noticed… and it means a lot 🌱 We’re grateful to see Quality Bioenergy LLP featured by Kompass India among the Top 10 Biomass Pellet Manufacturers in India. What makes this special for us is not just the recognition — but the jour linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTFo3ZUF6ZkhnMkVxNHIxZnJPd3lTdXJjVjA2TTlDUmNmaXFFZUZtM3JWT3h4NXRIZWJuczEya2VFclhGMzkwY0dza1AxMmJ3ajIxSmNFdm5TUTVGcG5naGJQdjRkR3RWaU0taHhDM3A2bUNpVWxzVG10R2MzMzJaVzA4S3U0VHNiai15eHdyOUhSVkVkbHVGZ1BxN2lnb1h6RVVxdDNjYURiRkpjb0hUa25fdjJQdHpJVW41U2M1akw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "tender",
+      "companies": [],
+      "score": 90,
+      "publishedAt": "2026-04-15T07:00:00.000Z",
+      "discoveredAt": "2026-09-29T16:28:48.683Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "1a41d76914c",
@@ -1374,6 +1453,21 @@
       "isNew": false
     },
     {
+      "id": "61ed3359241",
+      "title": "India’s Thermal Power Secto's Fuel-Management Reset — Biomass Co-Firing Can Be Part of the Solution India’s thermal power sector is facing a critical fuel-management dilemma. https://lnkd.in/giGVHY_2 Recent data highlighted by The Hindu shows that the - linkedin.com",
+      "summary": "India’s Thermal Power Secto's Fuel-Management Reset — Biomass Co-Firing Can Be Part of the Solution India’s thermal power sector is facing a critical fuel-management dilemma. https://lnkd.in/giGVHY_2 Recent data highlighted by The Hindu shows that the linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOV2Fucl9laWdYbXNqS3RoaU1Jd01CMHY1UlJrSlhvZUZaazBrbkpFVEZaVzY2MlBVM1I3eDZYRkswZUxLcGNoeXN5VFk1NEVGWG1DX0xlZTIwVkhfWkVPN1Z3MFRFSFZfV01teFJZR2tYZk41X2pTdnExYTFXSmFXaEQxVHVlXzhaaEdBTjBDTGRROG9Jem00Si1UaG9BTEl2MklQUlJxMklrV1JmRUNmYnA4MXNkVFpVaTZrVW1NdkdadjBl?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 77,
+      "publishedAt": "2026-09-05T07:00:00.000Z",
+      "discoveredAt": "2026-09-29T16:28:49.653Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "763acc5d1c1",
       "title": "NTPC places order for 9.3 lakh tonne biomass pellets for co-firing in power plants - Construction Week India",
       "summary": "NTPC places order for 9.3 lakh tonne biomass pellets for co-firing in power plants Construction Week India",
@@ -1564,6 +1658,23 @@
       "score": 74,
       "publishedAt": "2026-07-13T07:00:00.000Z",
       "discoveredAt": "2026-09-25T19:31:35.939Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "0770224b14d",
+      "title": "KPCL Invites Tender for 3.6 Lakh MT Biomass Pellet Supply for Thermal Power Stations - linkedin.com",
+      "summary": "KPCL Invites Tender for 3.6 Lakh MT Biomass Pellet Supply for Thermal Power Stations linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUHg0eVMzcUxQd1lhQkdNNmJVVlFxRHdIOXg4X2c0U3hTWHdpYTdMckllQklyY0tBUkRnQko2a3BpbGxOaVJLS1U3U2Z0bHBPb0dheVRnMnRVbnowaVVyaEozYmtYUk9aVW41WGdRUnhmdlVNVEw1YnFrZV8tLUZpb1Z3WG1zLURCUkE?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [
+        "KPCL"
+      ],
+      "score": 74,
+      "publishedAt": "2026-07-13T07:00:00.000Z",
+      "discoveredAt": "2026-09-29T16:28:48.682Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -2257,6 +2368,21 @@
       "isNew": false
     },
     {
+      "id": "65cc8ae3244",
+      "title": "A stronger biomass ecosystem means a stronger energy future 🌱⚡ India’s growing demand for biomass pellets is creating new opportunities for manufacturers and entrepreneurs nationwide. Mission SAMARTH is working to connect pellet manufacturers with l - linkedin.com",
+      "summary": "A stronger biomass ecosystem means a stronger energy future 🌱⚡ India’s growing demand for biomass pellets is creating new opportunities for manufacturers and entrepreneurs nationwide. Mission SAMARTH is working to connect pellet manufacturers with l linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRTNZV19nNjEtM1FWbGJ6TVNkbXk3YzcwVURLczVUV2dGTkVOUVFsMERuakE1VjZJOXVHYWYxcUdoUUpTYjlvSGVHdS13SkNMallfMGVOYlF5RU9YRGtLa3Y1TkFQTklCV3dlRzVPQTBFRk5nTW5FZDBkOW1hYjVJMWtmUVZKYTBYSlViT3VTSmg0cjdLRWVRc2VmLWNKZ1Ywc3R6NzJIX0d6R25OSDhNSVU4LW1aTEp4TWI1eDJpdFBTckhXSWZR?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "purchase",
+      "companies": [],
+      "score": 93,
+      "publishedAt": "2026-05-15T07:00:00.000Z",
+      "discoveredAt": "2026-09-29T16:28:48.682Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
       "id": "31964ebc254",
       "title": "Yesterday, 9th January, I had the opportunity to attend a seminar organized by the Samarth Mission and the Ministry of Power, where I was invited as a guest speaker to share insights on co-firing of torrefied biomass and torrefied charcoal derived from MSW. T - LinkedIn",
       "summary": "Yesterday, 9th January, I had the opportunity to attend a seminar organized by the Samarth Mission and the Ministry of Power, where I was invited as a guest speaker to share insights on co-firing of torrefied biomass and torrefied charcoal derived from MSW. T LinkedIn",
@@ -2747,6 +2873,21 @@
       "isNew": false
     },
     {
+      "id": "7b6355fb125",
+      "title": "Wood Pellet Supplier at Flambriks-süd GmbH | ENplus® A1 | Wholesale & Bulk Supply| European B2B Sales - linkedin.com",
+      "summary": "Wood Pellet Supplier at Flambriks-süd GmbH | ENplus® A1 | Wholesale & Bulk Supply| European B2B Sales linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ZTjIyUDhyRzN5TFhYSzVTSXkyVVpYQTJVVEgtdXVoVzR5a2tWSldYRkRleXljUFh3R3A3eTkxNk1JUnd3QlZsTlJHUnhXb1BnRURaaE5pN3huanh4WVJfMA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2017-02-25T05:07:15.000Z",
+      "discoveredAt": "2026-09-29T16:28:48.683Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "5a128479148",
       "title": "Agus Nasirudin - PT. ITOCHU Indonesia | Renewable Energy | Biomass | Sales | Green Energy | Palm Kernel Shell | Wood Pellet | Purchasing Buyer - LinkedIn",
       "summary": "Agus Nasirudin - PT. ITOCHU Indonesia | Renewable Energy | Biomass | Sales | Green Energy | Palm Kernel Shell | Wood Pellet | Purchasing Buyer LinkedIn",
@@ -2774,7 +2915,7 @@
       "publishedAt": "2015-11-21T07:26:04.000Z",
       "discoveredAt": "2026-09-29T09:43:58.269Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11dbf811e0ddfe30",
@@ -3496,6 +3637,21 @@
       "isNew": false
     },
     {
+      "id": "632e1e3b21d",
+      "title": "🌍 PROVEG ENGINEERING — ENCYCLOPEDIA OF BIOMASS PELLET PLANT MACHINERIES 🏆 AN UNBREAKABLE MILESTONE — 300+ BIOMASS PELLET PLANTS INSTALLED & SERVING From raw biomass to finished pellets, Proveg Engineering Grou - linkedin.com",
+      "summary": "🌍 PROVEG ENGINEERING — ENCYCLOPEDIA OF BIOMASS PELLET PLANT MACHINERIES 🏆 AN UNBREAKABLE MILESTONE — 300+ BIOMASS PELLET PLANTS INSTALLED & SERVING From raw biomass to finished pellets, Proveg Engineering Grou linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM1lIVnBleUgxVV9BNFNTM3p2ekc3bDlWejl1VzVNb2U5M083d05FaFNjMjdtUkEzN1RHVDdKWloyRnl6Njl3dG1fNC0xejFZYURUc3gxSFdzQkQxZE1qdjBVcmRLVzFGRjh3UHF6RkZBV3N2VjJ5RFNFMHZKcXNIbVd0aGw3QUNHblo1c09BWHUySHU2Z3YzLXg2SWFsWGtNUllDNm1vRjJpaTVleGVNbE5ZbTN3SVVHX0VVd09QbVpxVzNldFdN?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-26T01:58:14.000Z",
+      "discoveredAt": "2026-09-29T16:28:48.682Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "4827d619232",
       "title": "🔥 Biomass to Biochar & Charcoal — Complete Carbonization Technology by Proveg Engineering Group Agricultural and forestry biomass should not be treated simply as waste. With the right carbonization, syngas treatment and briquetting technology, it can b - LinkedIn",
       "summary": "🔥 Biomass to Biochar & Charcoal — Complete Carbonization Technology by Proveg Engineering Group Agricultural and forestry biomass should not be treated simply as waste. With the right carbonization, syngas treatment and briquetting technology, it can b LinkedIn",
@@ -3526,6 +3682,21 @@
       "isNew": false
     },
     {
+      "id": "32dcd1b0264",
+      "title": "Industrial heat starts with the fuel but biomass pellet performance doesn’t stop at calorific value. Two biomass pellet supplies can look similar on paper and still behave differently during actual boiler operation. Moisture, ash characteristics, pellet size, density, h - linkedi",
+      "summary": "Industrial heat starts with the fuel but biomass pellet performance doesn’t stop at calorific value. Two biomass pellet supplies can look similar on paper and still behave differently during actual boiler operation. Moisture, ash characteristics, pellet size, density, h linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTzJSVWp5QS1hczFMRUpBdGFvWmpLTzBqSVFEMGRtNk9fWm1jV0llN2hWLXQ4MGFsbEhVdklDUVVPQWZVVFhJWmlSeFR3RTFVamowOXNYWGVmVWZpQUpsdDdiYXYxRmprNU41Q2w5aGlUVnNzdnF6WnlYdDVhLXpoSUN4Xy11VGVOQkpSTlgxa29KMFZoeElmNDFvQmhJZ0xyMDExUTV4X0FOLU54U0tjS3pMbHBvRjN3REpEVVp0QkNEbElQekFfc1Y5bzJlU09p?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-23T10:31:46.000Z",
+      "discoveredAt": "2026-09-29T16:28:48.681Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "107b6bf5145",
       "title": "How to Choose the Right Biomass Pellet Machine Manufacturer in India - LinkedIn",
       "summary": "How to Choose the Right Biomass Pellet Machine Manufacturer in India LinkedIn",
@@ -3537,6 +3708,21 @@
       "score": 70,
       "publishedAt": "2026-09-23T09:37:55.000Z",
       "discoveredAt": "2026-09-25T10:08:52.050Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "793093c8149",
+      "title": "How to Choose the Right Biomass Pellet Machine Manufacturer in India - linkedin.com",
+      "summary": "How to Choose the Right Biomass Pellet Machine Manufacturer in India linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNzFva2todUY0SHYyWERoaGw4bnowUDNtZk12WW1tT1NZZ2xyMGpCekhPR29BT2FQc21LSlNERWVaQmxCa0ZGd3VYWUxjVW1jSHhKczM0M09mMnZFQVJfdUgwWkRFTWlVcXcyaF9tX2xIbTFfcmZ6VGRuUkJsdmpFcDJneTZjbkJPX2NuOVBOVy1nTU0?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-23T09:37:55.000Z",
+      "discoveredAt": "2026-09-29T16:28:48.681Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -3556,6 +3742,21 @@
       "isNew": false
     },
     {
+      "id": "77ad8efd236",
+      "title": "From FID to Startup | September 21, 2026 Three U.S. industrial developments worth reading this week, covering plant modernization, woody biomass and landfill gas. 1. Paper packaging: Supremex expands capabilities across three U.S. plants Supremex ann - linkedin.com",
+      "summary": "From FID to Startup | September 21, 2026 Three U.S. industrial developments worth reading this week, covering plant modernization, woody biomass and landfill gas. 1. Paper packaging: Supremex expands capabilities across three U.S. plants Supremex ann linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcm5peG9kb0gzNFlGNHpPX3NVZjY5dE9HcGJRazhDSktYdy1JOUt0RFI0Q0FGcTBWQnFSZDF1Rm5Ld2RzMnZRQnE4LXc2bk1lUU9TRmpKNmR6Zk5LM2tVZjN5a1NpR0JXaWRtY09sS3JDVld3UDg1azZmdXlweWgwRVFhLVdkX2RFMEpnZDZuVXFOOUx6UzZlcjdrYzgxMW5qcTJlcFI3ZktoQ19qSTJGdnRWY1FGc2NwbHJqZg?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-21T15:38:03.000Z",
+      "discoveredAt": "2026-09-29T16:28:49.175Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "6796a4fe172",
       "title": "Future of the Biomass Pellet Plant Market: Structural Insights and CAGR Projections from 2026 to 2033 - LinkedIn",
       "summary": "Future of the Biomass Pellet Plant Market: Structural Insights and CAGR Projections from 2026 to 2033 LinkedIn",
@@ -3569,6 +3770,21 @@
       "discoveredAt": "2026-09-21T19:58:52.320Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "6b463455176",
+      "title": "Future of the Biomass Pellet Plant Market: Structural Insights and CAGR Projections from 2026 to 2033 - linkedin.com",
+      "summary": "Future of the Biomass Pellet Plant Market: Structural Insights and CAGR Projections from 2026 to 2033 linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTjdpd042TDZmdUlsY0VfRXNWZ2R5d3lGYk4xSG1QQTV5bDI2N2FneG1RdlNacmhsWF80Uy1xN3RheU9JZGs5VTQ5bW5YN0plQ0FBVGRXZ3dZTFgzS2ZkcFQ4VzFfX0Jld0F0eHlOenM1WHRCNHN1aEVEWTNaa2FyYS1CWmg0WVpuUXF4NGxyQ0RNOTdodVpxcW85cng?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-21T07:12:58.000Z",
+      "discoveredAt": "2026-09-29T16:28:48.684Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "412cd0a318c",
@@ -3599,6 +3815,21 @@
       "discoveredAt": "2026-09-27T06:33:12.437Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "39e0fbc0255",
+      "title": "🌊🔥 HYDROTHERMAL LIQUEFACTION (HTL) | ADVANCED THERMOCHEMICAL CONVERSION OF WET BIOMASS Converting Wet Biomass & Organic Waste into Renewable Biocrude Hydrothermal Liquefaction (HTL) is an advanced thermochemical conve - linkedin.com",
+      "summary": "🌊🔥 HYDROTHERMAL LIQUEFACTION (HTL) | ADVANCED THERMOCHEMICAL CONVERSION OF WET BIOMASS Converting Wet Biomass & Organic Waste into Renewable Biocrude Hydrothermal Liquefaction (HTL) is an advanced thermochemical conve linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdHZPRE9DcmgzUENVWTNwZEVzWTlpV3U2dl9YN1A4OWlicktkQlloZEsyMFBOZkxDVlQ0LUREYnU5R0RlTjIxUElmQi1FUHotMzd5WkxFNk93SEFRdkpqZ1ZjOVl0YnkzY2FNVVhaaTRqQ3JlaTZWSXJXb3Nnb05xM2E0S2dRaTZtUGRJLW1SdkdBNWlOZ0l4YThLenU2LW1lUXlmTTJjX1pNUDNiUk9rSmM3bF9TdzQ4MTBjQ1RnTldCaTYxemtTYTJUb0ZjVjRUSnhVQTRHcEJISEItdE5sOFI1T0owdHRQOWtZ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-21T05:11:54.000Z",
+      "discoveredAt": "2026-09-29T16:28:49.653Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "790a987524d",
@@ -3661,6 +3892,21 @@
       "isNew": false
     },
     {
+      "id": "7474e63d197",
+      "title": "Difference Between Front-Fire and Vertical Biomass Pellet Burners - linkedin.com",
+      "summary": "Difference Between Front-Fire and Vertical Biomass Pellet Burners linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVkppOWRTajF1MjBMR051N1daVVNFRS0wN3A4Y2VxWVh1YWdVemFFaGhfR2tmT2hfVWtXbXJVeUhJUlY1bll5RlcxUWN3OUR2MFNrc0NlMTNvaHBKOTdOS1F3OFNKcU8xRXBnU19BU1V6NUVweG9POWMwUktRR1VTNm9oaU9neVNrcE9GdVl0QjVlekQ5TzkweHJESjBEdFQ3ZldYZG96TEktR2c5OW5nNjd4NUhfOWtCbXRPdnktaEE4UFRMNnRIeVdFLUd6WGRl?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-20T10:05:34.000Z",
+      "discoveredAt": "2026-09-29T16:28:49.654Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "180a5b08246",
       "title": "Standardization of CBG plant process is much necessary like Biomass Pellet plant . Each EPC proposes its own experience design for Plant Some proposes Single Pretreatment pit some proposes two Some are proposing agitators quality less or more The pip - LinkedIn",
       "summary": "Standardization of CBG plant process is much necessary like Biomass Pellet plant . Each EPC proposes its own experience design for Plant Some proposes Single Pretreatment pit some proposes two Some are proposing agitators quality less or more The pip LinkedIn",
@@ -3674,6 +3920,21 @@
       "discoveredAt": "2026-09-28T08:37:58.382Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "2710934b24a",
+      "title": "Standardization of CBG plant process is much necessary like Biomass Pellet plant . Each EPC proposes its own experience design for Plant Some proposes Single Pretreatment pit some proposes two Some are proposing agitators quality less or more The pip - linkedin.com",
+      "summary": "Standardization of CBG plant process is much necessary like Biomass Pellet plant . Each EPC proposes its own experience design for Plant Some proposes Single Pretreatment pit some proposes two Some are proposing agitators quality less or more The pip linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORDJfMEZORFllMVBaM2Y1eTcxQnZUS2M1VEl6cmJZZGpGTnFHdGtiTDFpXy1iOW5NXzVJVl9IdkNVOWl5aHdGZVJmbW0yQ25ZdG1TcTRQY0x3SkhsSlgyaF9LZ2w5TzJGM09LYlhxZGdORHJySUR1UVNOLTJsRkkxTkdlTXBFMmVPbnBzV2IxNXQzUXpER1lqVTVLSzVyTEFPZzJzWDFXSUdHWGIyMmN1ZmU0SEtfb2dIUEJUaGZELWRIcW1wSmhJNTNrYw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-20T09:08:43.000Z",
+      "discoveredAt": "2026-09-29T16:28:48.682Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "441d2e0e241",
@@ -3721,6 +3982,21 @@
       "isNew": false
     },
     {
+      "id": "0ee279f1245",
+      "title": "🌱 How Are Biomass Briquettes Produced? Biomass Briquettes are made by converting renewable agricultural and wood-based residues into a dense, efficient industrial fuel. 🔹 Key Raw Materials • Sawdust & Wood Waste • Rice Husk • Rice Straw • Jute Stick - linkedin.com",
+      "summary": "🌱 How Are Biomass Briquettes Produced? Biomass Briquettes are made by converting renewable agricultural and wood-based residues into a dense, efficient industrial fuel. 🔹 Key Raw Materials • Sawdust & Wood Waste • Rice Husk • Rice Straw • Jute Stick linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNENwRExpcVItRUJyaTRDVWhiU01WcUZkYW0tSEdDVU5VSE5CLVF2Z3hpNEFtbXdEdXRKekpWUmsyTHEyQWxiNVg0ZVZ6T3BRNHpLdXd0cGJNUWNWdzVIb1FEV3I5MEl3SnJlNHBscEd0MnYyR1plRmlobTBDTnNHOEJra3B2Z29QaEVaVjR5Y0N2VXV5bTFvWXRwcFlnbUw2ajExcGJ0bFNWNjA0dmxESENFUVFRZHZuUnljbl8ya05rZmVyMS0w?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-17T21:05:31.000Z",
+      "discoveredAt": "2026-09-29T16:28:49.652Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "591635aa234",
       "title": "On 8 December, as part of the European Biocarbon & Biomass Summit in Amsterdam organized by Hawkins Wright Ltd, CPM and Yilkins will host an exclusive study tour focused on torrefaction and black pellet production. Participants will gain practical insight - LinkedIn",
       "summary": "On 8 December, as part of the European Biocarbon & Biomass Summit in Amsterdam organized by Hawkins Wright Ltd, CPM and Yilkins will host an exclusive study tour focused on torrefaction and black pellet production. Participants will gain practical insight LinkedIn",
@@ -3734,6 +4010,21 @@
       "discoveredAt": "2026-09-23T19:00:11.399Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "5a96d9a9238",
+      "title": "On 8 December, as part of the European Biocarbon & Biomass Summit in Amsterdam organized by Hawkins Wright Ltd, CPM and Yilkins will host an exclusive study tour focused on torrefaction and black pellet production. Participants will gain practical insight - linkedin.com",
+      "summary": "On 8 December, as part of the European Biocarbon & Biomass Summit in Amsterdam organized by Hawkins Wright Ltd, CPM and Yilkins will host an exclusive study tour focused on torrefaction and black pellet production. Participants will gain practical insight linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbk9rdmtDa2ZTcDJCZUViMkpBU1RJWmxNUHUzRGduWnFVRWMzRTk1SmdBbThoVm1tUV94OU5adzYwZ0JNRUhxQW1ZcnBEeGxvZzZaY19XdnB4RENMN1dIdl8zNVZQbkdBSVBMLVZVLTVHZ25uYnluRThnV1JRTm1pWWItOEdsdFd3Q1FOaHE3dkc2cVo4dU9pd2xzS1Fqd0k1SFVlOVhhZkJ3VlE2VHlKYkZqV2YzbndpM0E?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-17T07:00:52.000Z",
+      "discoveredAt": "2026-09-29T16:28:49.653Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "115ba8f4249",
@@ -3751,6 +4042,21 @@
       "isNew": false
     },
     {
+      "id": "659c394724d",
+      "title": "This machine didn't wait for the crop to come to it. It went to the crop. Most baling infrastructure is built around a fixed point a central facility where biomass has to be transported before it can be processed. That means every farm feeding into it depends on trans - linkedin.",
+      "summary": "This machine didn't wait for the crop to come to it. It went to the crop. Most baling infrastructure is built around a fixed point a central facility where biomass has to be transported before it can be processed. That means every farm feeding into it depends on trans linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVWY0SGZnTm5DNzVrZng3UmIyUEczckdsSlA1dllKYUxNU0dxdHZBX29iRERkWlVnZnFWYkNXNzVISmI4aVc4SGtSZFc2YTA2NFFCMzdvVE9JMVVyeWlLU2RKbHo2ejEzU0VTb1o2Z2tJUkJGWkhkUlRUeDVSMVZoeElYWmx1T1c4VHVOZEh0dHVoVDhZbGtPbjg4ZTlaaDY1TFZNLTgtSlg3LVV6dHhQUHJPMXo3Ykg1blNDckkzWFE?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-17T06:23:24.000Z",
+      "discoveredAt": "2026-09-29T16:28:49.653Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "5c4f00a1240",
       "title": "🌱 Napier vs Sugarcane — Two Crops, Different Potential Napier offers high biomass production, repeated harvests, and strong potential for biogas and bioenergy. Sugarcane, on the other hand, is an important crop for sugar, ethanol, and valuable by-products - LinkedIn",
       "summary": "🌱 Napier vs Sugarcane — Two Crops, Different Potential Napier offers high biomass production, repeated harvests, and strong potential for biogas and bioenergy. Sugarcane, on the other hand, is an important crop for sugar, ethanol, and valuable by-products LinkedIn",
@@ -3766,6 +4072,21 @@
       "isNew": false
     },
     {
+      "id": "2d6e0d8c244",
+      "title": "🌱 Napier vs Sugarcane — Two Crops, Different Potential Napier offers high biomass production, repeated harvests, and strong potential for biogas and bioenergy. Sugarcane, on the other hand, is an important crop for sugar, ethanol, and valuable by-products - linkedin.com",
+      "summary": "🌱 Napier vs Sugarcane — Two Crops, Different Potential Napier offers high biomass production, repeated harvests, and strong potential for biogas and bioenergy. Sugarcane, on the other hand, is an important crop for sugar, ethanol, and valuable by-products linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaTZCMDJGUmZQZHRLYmc3Vk9WamxCZ2ZvbFB2LVMzdXZpdXMwSDg5dmhwWi15bGtoVXAyS01saGdfYS1SaEQ2T2VlOVpER1p4b3ZuT09STXVLUEZOMjBZZ3UwelEzcGttZ1ltaGJkY2xnS2xrT3RmdDR4OVI2TFRhaHVvRHZyVThxLUZBLXJpQXUtQ0g4MUx0WnI0RnVMZUE1c2dpUGRIMFVLVnBqNGNxZ095Wk1rSGp4TzVpbzJRWWtEQQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-17T04:12:17.000Z",
+      "discoveredAt": "2026-09-29T16:28:49.652Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "0ad00aa41a4",
       "title": "Why Biomass Pellet Plants Fail: Common Technical and Operational Reasons - LinkedIn",
       "summary": "Why Biomass Pellet Plants Fail: Common Technical and Operational Reasons LinkedIn",
@@ -3779,6 +4100,21 @@
       "discoveredAt": "2026-09-26T06:35:12.771Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "1a57bd091a8",
+      "title": "Why Biomass Pellet Plants Fail: Common Technical and Operational Reasons - linkedin.com",
+      "summary": "Why Biomass Pellet Plants Fail: Common Technical and Operational Reasons linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZTN5WU9keVJwUkszOUZaNV9URnBZQVpnTnlUdGFnS2l3VlpKTUFVNktDSlNCMDBiSC0zeDMzTlBBOTdLN3VvMkEzRThHT0ZEOTNxMEdPY0NuT1U4UkpYa1k5X3p5cEhMMGxvUmozN1lsZkxKN0xwbkNRa2JUZkNvZmYwY2RzV0ZCR3dxZlpHdjRPM3p0WGRnR2RUQnhpaXBtVEs0bWRrbUJMVWN5Q0hMbHdnRWhSTTNQZ2xGUGZoTEk2M1dkTGM0QkRjRWRJY2Q0S05kSVB3QQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-16T07:00:00.000Z",
+      "discoveredAt": "2026-09-29T16:28:48.683Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "3fcb6b27240",
@@ -3841,6 +4177,21 @@
       "isNew": false
     },
     {
+      "id": "5d2b3315233",
+      "title": "What stages are typically included in a continuous biomass pyrolysis carbonization production line? A complete continuous biomass carbonization system consists of more than just the carbonization reactor itself. To ensure stable equipment operation, it is usu - linkedin.com",
+      "summary": "What stages are typically included in a continuous biomass pyrolysis carbonization production line? A complete continuous biomass carbonization system consists of more than just the carbonization reactor itself. To ensure stable equipment operation, it is usu linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOLXlOQ3BaeVpVZHlnSmdoU2FvQ2hfeVotLTZlYWdZQ0hZQk9NQXBTLWR4NjducFNrSFVvTzVEZ0g0QnBIcDJVMGRWYXFZSHFDSGdaM0xBOGczY01kS1pOOWZpa3RJYVQ0eTZfejRUQTVqUlNEbXZQRUJ1VmpWRU9kZmxCYlRBNG9IX3lUTjloYXIxMUJBLUlER0h2NVhSZVdyRzFFQ2pUMWRJV1lkcjZfcHgySQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-14T09:35:39.000Z",
+      "discoveredAt": "2026-09-29T16:28:49.654Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "5351798e243",
       "title": "🌿 From Fossil Fuel to Pellet-Based Heat — A Practical Energy Shift What if your furnace, kiln, boiler or commercial kitchen could move away from conventional LPG and diesel fuel—without completely redesigning the equipment? That is where ADS Eco-Pellet - LinkedIn",
       "summary": "🌿 From Fossil Fuel to Pellet-Based Heat — A Practical Energy Shift What if your furnace, kiln, boiler or commercial kitchen could move away from conventional LPG and diesel fuel—without completely redesigning the equipment? That is where ADS Eco-Pellet LinkedIn",
@@ -3852,6 +4203,21 @@
       "score": 70,
       "publishedAt": "2026-09-14T02:49:10.000Z",
       "discoveredAt": "2026-09-21T19:58:52.321Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "20a42ce1247",
+      "title": "🌿 From Fossil Fuel to Pellet-Based Heat — A Practical Energy Shift What if your furnace, kiln, boiler or commercial kitchen could move away from conventional LPG and diesel fuel—without completely redesigning the equipment? That is where ADS Eco-Pellet - linkedin.com",
+      "summary": "🌿 From Fossil Fuel to Pellet-Based Heat — A Practical Energy Shift What if your furnace, kiln, boiler or commercial kitchen could move away from conventional LPG and diesel fuel—without completely redesigning the equipment? That is where ADS Eco-Pellet linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQY0ZvT1ZucHlBbklXTGdrVkx2YTRYM0ZQUXhnWllqbHZENWtsbGhqX3VldVhCMkpuV3pyRzNXaFBkNEdwaTVYczU0WHpMREhteE9MUFBSTjlZaHF1TjJWemZqcGc1Vzg3cVFkRVVpX2lYbHVrTUhyaHY2UmNHdVpaV2tnLVZGYkdGMUQ3MzUxS2IwWnVUQkNScTBmNVRwa0pmMU1UYnp4R19wRFRrRVpoWFpVRkdpdTZmeDM3Z2RJX0NiaWVhUU84?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-14T02:49:10.000Z",
+      "discoveredAt": "2026-09-29T16:28:48.685Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -4261,6 +4627,21 @@
       "isNew": false
     },
     {
+      "id": "58859adb250",
+      "title": "Turning biomass into value with Hobersal pyrolysis technology. 🌱🔥 At Hobersal, we design and manufacture tube and retort-type furnaces for biomass pyrolysis and biochar production, providing thermal solutions from laboratory research to pilot plant and ind - linkedin.com",
+      "summary": "Turning biomass into value with Hobersal pyrolysis technology. 🌱🔥 At Hobersal, we design and manufacture tube and retort-type furnaces for biomass pyrolysis and biochar production, providing thermal solutions from laboratory research to pilot plant and ind linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOM3FLQkJaTFhPZFhHM2llNnBoaFNWSGNlNHNGMnlTeUdGb0hYSFh2V1BGdUpZVDVPTmp5dGFmZ3BSajRRY2JlV0RBN05KYlM2Q0tWcFVicFdIeWl0VmppVHd3cHZvOVhsV3lNZEJLYVJqemUybnRzaXUzcjVRT1doUkZuckZLR3hUcW9zVXlvd3p6VTFhLW5QV3IwRi1zUVkwYTZTcFhHdUVZZktvN2RQTXM1Wmh0WlVTWEF0UkFpQnJqb1RDNERoN1lB?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-02T07:00:00.000Z",
+      "discoveredAt": "2026-09-29T16:28:49.653Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "2ae3deb9224",
       "title": "#New_on_Conil : Biomass Steam Generation — Gujarat Ambuja Exports This project installs a 30 TPH biomass-based boiler at Gujarat Ambuja Exports' starch manufacturing facility in Sitarganj, Uttarakhand, replacing conventional coal-fired steam generation - LinkedIn",
       "summary": "#New_on_Conil : Biomass Steam Generation — Gujarat Ambuja Exports This project installs a 30 TPH biomass-based boiler at Gujarat Ambuja Exports' starch manufacturing facility in Sitarganj, Uttarakhand, replacing conventional coal-fired steam generation LinkedIn",
@@ -4538,7 +4919,7 @@
       "summary": "🌱 Madhya Pradesh’s Growing Biomass Pellet Success Story 🏆 Proveg Engineering Successfully Installed 20+ Biomass Pellet Plants Across Madhya Pradesh We are proud to announce that Proveg Engineering & Food Processing Pvt. Ltd. has successfully est linkedin.com",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWkJkQmdwSDNieG10M09QT2Z3ZXd3NktER2ctRGlMM1h0RTZWV2JNMl9GVUhScFU5MVN5TC1FTi1pVlJFamJaUHV2MHR1S2FNd2E4RGlteVR5NC1ONkFWTWEyRmx6eURSYWlNSG9jdHg0ZUNWangyVWxEYVZ3T0hSYm1sUjY3VVlPbDRCMW5ab2VWR3JZWTN5SWZnNjRtcGtLYVZRLUJIeV9EaWhwT1J5UEhWY2diOVVoUHJHdU0wMDdzbzVRaFlpZ3lSVkozWTZoOUdN?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -4606,6 +4987,21 @@
       "discoveredAt": "2026-09-27T06:33:12.437Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "7ee8b8b2192",
+      "title": "Biomass Wood Pellets, Briquettes & Pellet Burners | Rohit Exergy India - linkedin.com",
+      "summary": "Biomass Wood Pellets, Briquettes & Pellet Burners | Rohit Exergy India linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQR1Y0c3RJX2FZQjF6QzRTaTJlYlFmejN3TFNWdkRSdUszZHlaMVhtVXc0eEpKWm9KRjBNT0o1YlZwN2JFcWVOc2JvRGxrY3NSZi1GeldEaHZ4XzdoNDBrWlk4eVRKZndOZHMxa3hma2F2ekdCdFJ3bk56SnJjVWRfUnl6cjdwLWRIVVhYV0Z4V0RwSHZETC1VVzJWblN5QmU2SUdGa3NNSDB5ZFhabTYtOUhJMEJFSTJHX1ZNUE1iY2VGZjdlUHVEdA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-06-06T07:00:00.000Z",
+      "discoveredAt": "2026-09-29T16:28:49.654Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "2ae891a1264",
@@ -4961,6 +5357,21 @@
       "isNew": false
     },
     {
+      "id": "6c62aca8267",
+      "title": "🚀 120 TPD Biomass Pellet Project – Progress Update 🌱 At BioSteam, we remain strongly committed to supporting India’s Net Zero goals by transforming agricultural residues into clean, sustainable energy. Our vision goes beyond energy production. We are e - linkedin.com",
+      "summary": "🚀 120 TPD Biomass Pellet Project – Progress Update 🌱 At BioSteam, we remain strongly committed to supporting India’s Net Zero goals by transforming agricultural residues into clean, sustainable energy. Our vision goes beyond energy production. We are e linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWXQzeU1SUjh6VnNoRTE2c0QzX2lSbVZqbzd5cVcwZ2E4dGtsS2lJajhpTWJUand2X0FYSXdMMlI5MF9ublFlcG0yeUFDVkxUdXR2ZTNteDIyaUlTQUtJX19mYlRkUXFkRlM4NldLdEFicWNTRHZlMTZFbVJvRzRveUJhX2EtMF9HdDdRNnI5RUFzcUlaenpRbHNIUHF3U0JJN0RILUFkQWtUUXBQZVl1dTBiU0w3VllNUEJoMkY5MW9WNTlmel9WUUhRdEgwelV6VEFDaTFsYmk4UTFqWHc?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-03-08T08:00:00.000Z",
+      "discoveredAt": "2026-09-29T16:28:48.681Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
       "id": "0bcbf50e1eb",
       "title": "Wildfire fuel-reduction biomass for remote energy: Small-scale combined heat and power feasibility and strategic implications for British Columbia's bioeconomy - LinkedIn",
       "summary": "Wildfire fuel-reduction biomass for remote energy: Small-scale combined heat and power feasibility and strategic implications for British Columbia's bioeconomy LinkedIn",
@@ -5071,7 +5482,7 @@
       "summary": "Why Biomass Pellet Manufacturers in India Are Shutting Down – Ground Reality & Policy Gaps linkedin.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNR1c0ai0wc3dicEFhdGR5T3ZHTlFKZEp3b0ZZSlhhX0JEWWJ6VGNGZGExNGNuOEY3NjVMbFRJNnBEdW91NVBhN3ZzUl9Ib2NoY1o4S2RMbTdqZmJvOFhTcDF5RGVVUzR0cW9wYmtrMG16RDdtNmRwM3ZHNHdzZlM1V1k5UWR3ZU1GY24xWnBGRVpNbzM5V3ItUFNtNURBNzBtbkdpcGhlQTJQNWo2Z0Q2MXI3X3kwQQ?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -5139,6 +5550,21 @@
       "discoveredAt": "2026-09-25T04:48:33.075Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "0b580c49269",
+      "title": "𝐊𝐨𝐧𝐬𝐚𝐫𝐢 𝐡𝐨𝐮𝐬𝐞𝐬 𝐈𝐧𝐝𝐢𝐚’𝐬 𝐥𝐚𝐫𝐠𝐞𝐬𝐭 𝐬𝐢𝐧𝐠𝐥𝐞-𝐜𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧 𝐩𝐞𝐥𝐥𝐞𝐭 𝐩𝐥𝐚𝐧𝐭 𝐚 𝟒.𝟎 𝐌𝐓𝐏𝐀 𝐟𝐚𝐜𝐢𝐥𝐢𝐭𝐲 designed for scale, consistency, and integration. Located in 𝐆𝐚𝐝𝐜𝐡𝐢𝐫𝐨𝐥𝐢, 𝐌𝐚𝐡𝐚𝐫𝐚𝐬𝐡𝐭𝐫𝐚, the Konsari pelle",
+      "summary": "𝐊𝐨𝐧𝐬𝐚𝐫𝐢 𝐡𝐨𝐮𝐬𝐞𝐬 𝐈𝐧𝐝𝐢𝐚’𝐬 𝐥𝐚𝐫𝐠𝐞𝐬𝐭 𝐬𝐢𝐧𝐠𝐥𝐞-𝐜𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧 𝐩𝐞𝐥𝐥𝐞𝐭 𝐩𝐥𝐚𝐧𝐭 𝐚 𝟒.𝟎 𝐌𝐓𝐏𝐀 𝐟𝐚𝐜𝐢𝐥𝐢𝐭𝐲 designed for scale, consistency, and integration. Located in 𝐆𝐚𝐝𝐜𝐡𝐢𝐫𝐨𝐥𝐢, 𝐌𝐚𝐡𝐚𝐫𝐚𝐬𝐡𝐭𝐫𝐚, the Konsari pellet plant operates as linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMi1ESGJmYmRXQVpwVDdSTUVubXNMODZaMlpnQzRlOFVrWEh0akZHUl9YWGg4Z3FOZDRDdkY3ZWlaRElfdGJ2b0ZrV3FUaW1GT0ZjM3dlbVhuQTVnZXBOMkwwMWZncmxia1B3clU0UXhrWDFnSlNjLTF0dmxVUThTT1Y0LWpqNjFfdXhkMVZlNm5RVDdYUGhhTDlEX1drd2Nyb0V5aVlka1dVZGpPLVA4S01BYXl5Rm51ekRkakNn?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-01-09T08:00:00.000Z",
+      "discoveredAt": "2026-09-29T16:28:49.175Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "2952853513c",
@@ -5456,6 +5882,21 @@
       "isNew": false
     },
     {
+      "id": "5d422a8e272",
+      "title": "“Celebrating a milestone in sustainability! 🌱 Fabcon Design & Engineering’s groundbreaking step-grate, high-efficiency biomass steam boiler at BAT PTC Jhelum fired up with agricultural biomass today, marking Pakistan’s first clean, green energy leap forwar - linkedin.com",
+      "summary": "“Celebrating a milestone in sustainability! 🌱 Fabcon Design & Engineering’s groundbreaking step-grate, high-efficiency biomass steam boiler at BAT PTC Jhelum fired up with agricultural biomass today, marking Pakistan’s first clean, green energy leap forwar linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQaTcybk41LWQ2RERZd2ZjWkNsekd2TUxEVHNBRnoyV2VtR09nS2JwRjltUlI2WUJDT0YwNnVYY2ZuMDFKS2dwZnFCcTUwMlQ1c29ETTlzZ2VjNnNJVkU4ajdhYWtIOEYzb29PZHgtT0M0V2lrVVcyS0lfRTF2ak1yNmVCOTVDOC1wX2NjV2MxeXVaUVBTcWQ3UjMwLUQyUmJEenFFLTU5a3h1YVhDZ0kyYzQ5cXdvUVV3ZHBrSHVXMXY0MDFPd3hvWi03M3hMRXhuc1dxTk9saVFMR05DTVVmVXoyRjI?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2025-07-09T07:00:00.000Z",
+      "discoveredAt": "2026-09-29T16:28:49.653Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "5689e27612b",
       "title": "MNRE Biomass Briquettes and Pellets Subsidy Process - LinkedIn",
       "summary": "MNRE Biomass Briquettes and Pellets Subsidy Process LinkedIn",
@@ -5529,6 +5970,21 @@
       "discoveredAt": "2026-09-22T07:39:46.730Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "7de2efd526d",
+      "title": "Happy to Announce: New 60 TPD Biomass Pellet Project Started! The journey in biomass energy comes with its own set of challenges, but with persistence, dedication, determination, and hard work, we’ve achieved our next milestone—a 60 TPD biomass pell - linkedin.com",
+      "summary": "Happy to Announce: New 60 TPD Biomass Pellet Project Started! The journey in biomass energy comes with its own set of challenges, but with persistence, dedication, determination, and hard work, we’ve achieved our next milestone—a 60 TPD biomass pell linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTXdtOUg4TUQwSHFRenVLMlpjVGVxdnctOUR0M1NQbDVlZVZmMEdkRFVfQ3AweVR2SDZ0LU5WeUZjdVFjWHBZS2dEVzFuV1BFZnVrYmM5MkNVLXhSSUpNRDZNeXQtODVkMGNZTDlrdWJ2X0s0cE1mMjlxNW44cUNySGFjQ2I1b2ppcEVSWW5WaTdQNkpuVm9NdHV0YVRaOE9Da3ZfMS00LTM5UmNvTUduOEstalRvTmlqa1NZRkNSLW4yNUdmcW4wOVBMSmFFZEYtc3JWSVF1R2QzaHAzT2tkemp2eUZLZw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2025-05-18T07:00:00.000Z",
+      "discoveredAt": "2026-09-29T16:28:49.651Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "694afd5dd6",
@@ -6342,7 +6798,7 @@
       "publishedAt": "2021-08-30T00:36:21.000Z",
       "discoveredAt": "2026-09-29T09:43:58.269Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "58e3d00c18c",
@@ -6403,6 +6859,21 @@
       "discoveredAt": "2026-09-23T14:57:14.048Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "0ce6d59d17b",
+      "title": "Renewable Energy Use in Existing Thermal Power Plant - A case study of biomass usage in Rihand Thermal Power Plant - linkedin.com",
+      "summary": "Renewable Energy Use in Existing Thermal Power Plant - A case study of biomass usage in Rihand Thermal Power Plant linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTjhoSkwwUTBJX0dUNzZrR3pWaTBwQmphbkNJNUdRNEo2ZXl3ODA2LUhQYUt3dUY1NHRZLUhYMEFxdlVWbWVuVmNzNkZQSlNIS1BHZzVfRk41VjBPQTg1eGY4cG9xcWJ2ZV9BQXlLU3ZrSzI2VDFudDJ1U0wxUWZPdHJXUk8xSnRrQ2hjN0dyZjhuOFFKZXc?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2021-04-09T07:00:00.000Z",
+      "discoveredAt": "2026-09-29T16:28:49.175Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "01314fa814d",
@@ -7532,147 +8003,6 @@
       "score": 45,
       "publishedAt": "2022-10-13T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:43.018Z",
-      "isNew": false
-    },
-    {
-      "id": "dbf3888c26cec915",
-      "title": "A Promising Solution: Electricity generation from bio-pellets could help put agricultural waste to good use - Power Line Magazine",
-      "summary": "A Promising Solution: Electricity generation from bio-pellets could help put agricultural waste to good use Power Line Magazine",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB4SzNobnN4ZWRNQWVXWjRMZVkxRDhValM3TzdJVzlFOE5kSEh3Nk5RNERFYU4yV2VIcHZhRTZyUVF6alBEVTR6TnFId1E3eHNwVTVvdlg1Z3UwRF9Oc05oTnh5ckhFXzRW?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Cofiring / NTPC",
-      "query": "NTPC (pellet OR \"biomass pellet\" OR \"torrefied\") (tender OR procurement OR purchase OR co-firing)",
-      "type": "news",
-      "companies": [],
-      "score": 45,
-      "publishedAt": "2021-01-06T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:08:42.989Z",
-      "isNew": false
-    },
-    {
-      "id": "1eba630ed10f36d7",
-      "title": "Can biomass pellets reduce emissions in coal plants? - Down To Earth",
-      "summary": "Can biomass pellets reduce emissions in coal plants? Down To Earth",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOEVCMVBGb1FwMnNxdTdzcE9qNjJjUFJpY3hpN09zT0k1V19MMzlhUkdGaGZ2VXBlNzI3cFc3LWhUa1ZEdGc2dlVXVG1yZjJkV25JbW5IdUdwMlZyendmQzkzRVE2bTlOaUhzYlJLVGVkYnVMaXgzazNhdEVrX1dSVFRINDRYWk5RdGpmMEdCRHVZUU1CQlZZRtIBpgFBVV95cUxNSmdTRUt6TEZheXI1RDhiUzhKMzFHajgyekRTU09wdDBVMVpQR1N2Wmdidnd6dWN0NmJUUWxwNDZSTnRKRVYtX1JHbEdTY2xlVnVLdXdXTjJHN05mN0swcXd5d0hIYzZISndLS0NtdXFJZkZTTFBHelh3Q0t0anZGeUlUOE5ONkxYRVgtTkIyQXVOWjRzVFhkSmNpRFBtT3p6Q0JlS2Nn?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Pellet NITs IN",
-      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "type": "news",
-      "companies": [],
-      "score": 45,
-      "publishedAt": "2018-10-25T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:08:42.988Z",
-      "isNew": false,
-      "channel": "news"
-    },
-    {
-      "id": "2f85f69a39ce00bd",
-      "title": "Can biomass pellets reduce emissions in coal plants? - downtoearth.org.in",
-      "summary": "Can biomass pellets reduce emissions in coal plants? downtoearth.org.in",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOEVCMVBGb1FwMnNxdTdzcE9qNjJjUFJpY3hpN09zT0k1V19MMzlhUkdGaGZ2VXBlNzI3cFc3LWhUa1ZEdGc2dlVXVG1yZjJkV25JbW5IdUdwMlZyendmQzkzRVE2bTlOaUhzYlJLVGVkYnVMaXgzazNhdEVrX1dSVFRINDRYWk5RdGpmMEdCRHVZUU1CQlZZRtIBpgFBVV95cUxNSmdTRUt6TEZheXI1RDhiUzhKMzFHajgyekRTU09wdDBVMVpQR1N2Wmdidnd6dWN0NmJUUWxwNDZSTnRKRVYtX1JHbEdTY2xlVnVLdXdXTjJHN05mN0swcXd5d0hIYzZISndLS0NtdXFJZkZTTFBHelh3Q0t0anZGeUlUOE5ONkxYRVgtTkIyQXVOWjRzVFhkSmNpRFBtT3p6Q0JlS2Nn?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Pellet NITs IN",
-      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "type": "news",
-      "companies": [],
-      "score": 45,
-      "publishedAt": "2018-10-25T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:08:27.367Z",
-      "channel": "news",
-      "isNew": false
-    },
-    {
-      "id": "8eadf9043aee2657",
-      "title": "Important Biomass Utilisation and Co-firing Initiatives in India - GK Today",
-      "summary": "Important Biomass Utilisation and Co-firing Initiatives in India GK Today",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeExEOUpSY2VTajZkU1FFejdOSEtMVFJPbDQ3N1l5ODZFVnVFYXZobzMwX1hvSS1ZOXhZdnN2alB6cVlfWlNxM0cyaEJ1WVR1ZngwdnZZZmVWUW8yMWJHcDBYeDZfWHpYSGlETU1rR0w4cFZqZ1lzaXRYRGQyaGtnUFZPNVB6eUlDbmg0VHlQaGNBdw?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Torrefied / RDF",
-      "query": "(torrefied OR \"RDF pellet\" OR \"agro waste pellet\") (India) (tender OR purchase OR demand OR requirement)",
-      "type": "news",
-      "companies": [],
-      "score": 38,
-      "publishedAt": "2026-08-11T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:08:42.986Z",
-      "isNew": false
-    },
-    {
-      "id": "054207cf236291e7",
-      "title": "Thermal plants fall short of paddy straw co-firing goal - The Times of India",
-      "summary": "Thermal plants fall short of paddy straw co-firing goal The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQLTRXWklkcE9KZFlwSjZTc3lGcmp4eEQ4UG1NcTBtc1JtbkZ1WERBTUJ4RGlWMHFveDM5YlpxS203YWVodE5aeXA1SXJJOW5wRXFTVVc2eTBzaDBaRG10WFU2aHgzLVg2bHhNWDdfYzNwLWVVYzhMNV9tY21uTU5WbXNCWHlEWjMyMEwyUThoQjNuTHdIRkVIckgweGhCQmdjcGEtOXlXT0djLWFtMkhMZEdBWmRSLXRfeWpJNWUwczNXdnJMZDNZelRKemVVd9IB0wFBVV95cUxOUFlHRXNIY05TbGlwUTFUdGVrdk55YW5WY1ZZVm5lRUVQMjMyYlZlSTN1My01MGxpUDl1aWJIVHdiQlNVSHZ0anlaZG0wc1NDcWJVQ0tweHN1QnVSU3dkNmYzaktmSkhJbFo4UGo2OW5ZSDBxLTJaU3RFSlNBb1hGX3JFRERKU3hzU092Smp1eGM4T0xlWVJ0Q3liOEQ0U0hkeXM4LUxPZXRHRTZPZVhtcFdoak1raXdyazBibWRTTlo2MkhFaURoS21Td2o5WnR2UlNF?oc=5",
-      "source": "google_news",
-      "sourceLabel": "State tenders",
-      "query": "(Haryana OR Punjab OR Rajasthan OR Gujarat OR Maharashtra OR \"Uttar Pradesh\") (biomass pellet OR \"paddy straw pellet\") (tender OR procurement)",
-      "type": "news",
-      "companies": [],
-      "score": 38,
-      "publishedAt": "2025-10-13T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:08:42.995Z",
-      "isNew": false
-    },
-    {
-      "id": "ef43cceb878863d9",
-      "title": "Biomass co-firing: Why India’s target for coal power plants is challenging - Down To Earth",
-      "summary": "Biomass co-firing: Why India’s target for coal power plants is challenging Down To Earth",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMWF3d3NhYkxRSENCcHNFV2R2OEdnbmV1YklyWWktUUdZRWkxWl9KVURGbS1QVEVMbmZSQjctUHlGOFNhV3VuaTktQ2UyMjFGdndKX19USHlJcG02eUpxNTczWl9wbVhuLWlvQTlCdHBRTnk0Z3RhZU5OSFRmSk9RSkpmRWU1VnRDVWZlYzhWTm9jb3o2dTVkV0haaTlUQ1pBTUQ1TWEwdVFGZElNVnJPMlhvQmdLU3hq0gHGAUFVX3lxTFBGdWlFbE1jUm9wbnBOZ3pSbklKaHBIVlVVcmpwaUhnVVVBbjJlMUdsbzZlTEE2VEJZeWRyZEcySTBRX0xxVnRGblJaVmxwcTdMYmRyNHROY29sVUZPLXhlejVyTl9EbFU5VHJmSWM4R09rT1JVZHhzeFpTUmtvUV9wRHg1cjhjVk50MXhpSVI0ek1IQmVPQ0FMTnZoWXYzUGNJeFltQVJnQWRkQXJSNDROLVZYeFlsdUttam41THk4S0NqSVhtQQ?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Company statements",
-      "query": "\"biomass pellet\" (buy OR purchase OR procure OR requirement OR \"invite bids\") India",
-      "type": "news",
-      "companies": [],
-      "score": 38,
-      "publishedAt": "2022-06-13T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:08:42.982Z",
-      "isNew": false
-    },
-    {
-      "id": "7d946329014b2652",
-      "title": "Biomass co-firing: Why India’s target for coal power plants is challenging - downtoearth.org.in",
-      "summary": "Biomass co-firing: Why India’s target for coal power plants is challenging downtoearth.org.in",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMWF3d3NhYkxRSENCcHNFV2R2OEdnbmV1YklyWWktUUdZRWkxWl9KVURGbS1QVEVMbmZSQjctUHlGOFNhV3VuaTktQ2UyMjFGdndKX19USHlJcG02eUpxNTczWl9wbVhuLWlvQTlCdHBRTnk0Z3RhZU5OSFRmSk9RSkpmRWU1VnRDVWZlYzhWTm9jb3o2dTVkV0haaTlUQ1pBTUQ1TWEwdVFGZElNVnJPMlhvQmdLU3hq0gHGAUFVX3lxTFBGdWlFbE1jUm9wbnBOZ3pSbklKaHBIVlVVcmpwaUhnVVVBbjJlMUdsbzZlTEE2VEJZeWRyZEcySTBRX0xxVnRGblJaVmxwcTdMYmRyNHROY29sVUZPLXhlejVyTl9EbFU5VHJmSWM4R09rT1JVZHhzeFpTUmtvUV9wRHg1cjhjVk50MXhpSVI0ek1IQmVPQ0FMTnZoWXYzUGNJeFltQVJnQWRkQXJSNDROLVZYeFlsdUttam41THk4S0NqSVhtQQ?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Company statements",
-      "query": "\"biomass pellet\" (buy OR purchase OR procure OR requirement OR \"invite bids\") India",
-      "type": "news",
-      "companies": [],
-      "score": 38,
-      "publishedAt": "2022-06-13T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:52:05.690Z",
-      "isNew": false
-    },
-    {
-      "id": "c62b59bffefeb602",
-      "title": "Biomass co-firing: NTPC retrofits 13 power stations. Will other companies be able to follow suit? - Down To Earth",
-      "summary": "Biomass co-firing: NTPC retrofits 13 power stations. Will other companies be able to follow suit? Down To Earth",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZjhwU0pZNEJjZUVoRVNvdjJWRFlPbE1OQk1TcjZLcGM5cnNRZHlDbGxseVBWT1M5al9wY3pYZmZWZWJIZVpjdXNXQWdjOGJ2X1dBdlU1S0UzU0Zub2RXY290RjRVZGR3VnMtSnRGdy1FQkRqRlJTYnpEOFYxOWRub3BEbmpLTXVndmRSclZaS3lIU1UtU3JfTVNpakxReE1BaGYtXzZWX3cyS0JheDUxUVpqT0J6SXljNjFOMTRDTXFkQ3hLNDE5djduLU5kd1Vaa0RnYm5pZkhQZ9IB5wFBVV95cUxOSE1fOC1EZ0xpOG1BUm9RcEFjLUtpZjNZZnVOTGVBenZqNE11MVJ0U3FqUnEtamVQYzJ4YVlXX2xxSFhWOXkxcTVwUDFoajZhUWtBcGV5eUYwMUdOcjYzejZKOHZlNm01MndxdUFKeFUySXJFMGh0U19fTlVHc0ZiSk9qS2c2aWplMUhnOWU4YS1zbXQxLVRSMEVpNDA4eFVkbm15eDcxQUQ4TzNyWDFfSWE3bjR1T0E2RnlzczRlRE9Edmx1cjVqUi1oTTI4U2J3QmRZdmFUQTYzaHcyQnlKakhoZUFMRWM?oc=5",
-      "source": "google_news",
-      "sourceLabel": "State tenders",
-      "query": "(Haryana OR Punjab OR Rajasthan OR Gujarat OR Maharashtra OR \"Uttar Pradesh\") (biomass pellet OR \"paddy straw pellet\") (tender OR procurement)",
-      "type": "news",
-      "companies": [
-        "NTPC"
-      ],
-      "score": 38,
-      "publishedAt": "2022-01-25T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:08:43.024Z",
-      "isNew": false
-    },
-    {
-      "id": "850f9a46ba79785e",
-      "title": "Biomass co-firing: NTPC retrofits 13 power stations. Will other companies be able to follow suit? - downtoearth.org.in",
-      "summary": "Biomass co-firing: NTPC retrofits 13 power stations. Will other companies be able to follow suit? downtoearth.org.in",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZjhwU0pZNEJjZUVoRVNvdjJWRFlPbE1OQk1TcjZLcGM5cnNRZHlDbGxseVBWT1M5al9wY3pYZmZWZWJIZVpjdXNXQWdjOGJ2X1dBdlU1S0UzU0Zub2RXY290RjRVZGR3VnMtSnRGdy1FQkRqRlJTYnpEOFYxOWRub3BEbmpLTXVndmRSclZaS3lIU1UtU3JfTVNpakxReE1BaGYtXzZWX3cyS0JheDUxUVpqT0J6SXljNjFOMTRDTXFkQ3hLNDE5djduLU5kd1Vaa0RnYm5pZkhQZ9IB5wFBVV95cUxOSE1fOC1EZ0xpOG1BUm9RcEFjLUtpZjNZZnVOTGVBenZqNE11MVJ0U3FqUnEtamVQYzJ4YVlXX2xxSFhWOXkxcTVwUDFoajZhUWtBcGV5eUYwMUdOcjYzejZKOHZlNm01MndxdUFKeFUySXJFMGh0U19fTlVHc0ZiSk9qS2c2aWplMUhnOWU4YS1zbXQxLVRSMEVpNDA4eFVkbm15eDcxQUQ4TzNyWDFfSWE3bjR1T0E2RnlzczRlRE9Edmx1cjVqUi1oTTI4U2J3QmRZdmFUQTYzaHcyQnlKakhoZUFMRWM?oc=5",
-      "source": "google_news",
-      "sourceLabel": "State tenders",
-      "query": "(Haryana OR Punjab OR Rajasthan OR Gujarat OR Maharashtra OR \"Uttar Pradesh\") (biomass pellet OR \"paddy straw pellet\") (tender OR procurement)",
-      "type": "news",
-      "companies": [
-        "NTPC"
-      ],
-      "score": 38,
-      "publishedAt": "2022-01-25T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:52:05.700Z",
       "isNew": false
     }
   ]
