@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-09-29T16:29:05.014Z",
-  "crawlDurationMs": 18098,
+  "updatedAt": "2026-09-29T21:01:25.497Z",
+  "crawlDurationMs": 18007,
   "stats": {
     "total": 500,
     "tenders": 105,
     "purchase": 80,
     "news": 315,
     "portals": 79,
-    "linkedin": 347,
-    "newThisCrawl": 31,
+    "linkedin": 349,
+    "newThisCrawl": 3,
     "withCompany": 122
   },
   "sources": [
@@ -90,11 +90,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 63,
+      "count": 62,
       "error": null
     },
     {
@@ -142,7 +142,7 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 72,
+      "count": 73,
       "error": null
     },
     {
@@ -698,7 +698,7 @@
       "publishedAt": "2026-09-28T07:02:29.000Z",
       "discoveredAt": "2026-09-29T16:28:49.174Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "01c24bb4235",
@@ -1125,7 +1125,7 @@
       "publishedAt": "2026-04-15T07:00:00.000Z",
       "discoveredAt": "2026-09-29T16:28:48.683Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1a41d76914c",
@@ -1465,7 +1465,7 @@
       "publishedAt": "2026-09-05T07:00:00.000Z",
       "discoveredAt": "2026-09-29T16:28:49.653Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "763acc5d1c1",
@@ -2885,7 +2885,7 @@
       "publishedAt": "2017-02-25T05:07:15.000Z",
       "discoveredAt": "2026-09-29T16:28:48.683Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5a128479148",
@@ -3622,6 +3622,21 @@
       "isNew": false
     },
     {
+      "id": "127c60f715d",
+      "title": "Europe Needs More Wood Pellets. Brazil Is Already Supplying Them - LinkedIn",
+      "summary": "Europe Needs More Wood Pellets. Brazil Is Already Supplying Them LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTEJraE1xQS0wTVBITlBSNDRuNFpsZmo0M1I2TjhpbHRpN1l0RVlLNTA4MWdSeTViU05ncHFwRDJRUk5VbFc5TjNST2FQd0FqcVlJa3FCNGMydFJBV0hmSVZIb3h1aTNyMEFXQUpqc2NHR2tLSV9TeDItNzZhUVR3SGpwLWoxV00xOGs2TVRPMFphaEdZc3Awd1NucnVBMHhOTFBPTjNhQmY?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-28T13:19:43.000Z",
+      "discoveredAt": "2026-09-29T21:01:08.637Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "2aee27e8219",
       "title": "🌍 PROVEG ENGINEERING — ENCYCLOPEDIA OF BIOMASS PELLET PLANT MACHINERIES 🏆 AN UNBREAKABLE MILESTONE — 300+ BIOMASS PELLET PLANTS INSTALLED & SERVING From raw biomass to finished pellets, Proveg Engineering Grou - LinkedIn",
       "summary": "🌍 PROVEG ENGINEERING — ENCYCLOPEDIA OF BIOMASS PELLET PLANT MACHINERIES 🏆 AN UNBREAKABLE MILESTONE — 300+ BIOMASS PELLET PLANTS INSTALLED & SERVING From raw biomass to finished pellets, Proveg Engineering Grou LinkedIn",
@@ -3649,7 +3664,7 @@
       "publishedAt": "2026-09-26T01:58:14.000Z",
       "discoveredAt": "2026-09-29T16:28:48.682Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4827d619232",
@@ -3694,7 +3709,7 @@
       "publishedAt": "2026-09-23T10:31:46.000Z",
       "discoveredAt": "2026-09-29T16:28:48.681Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "107b6bf5145",
@@ -3754,7 +3769,7 @@
       "publishedAt": "2026-09-21T15:38:03.000Z",
       "discoveredAt": "2026-09-29T16:28:49.175Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6796a4fe172",
@@ -3784,7 +3799,7 @@
       "publishedAt": "2026-09-21T07:12:58.000Z",
       "discoveredAt": "2026-09-29T16:28:48.684Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "412cd0a318c",
@@ -3829,7 +3844,7 @@
       "publishedAt": "2026-09-21T05:11:54.000Z",
       "discoveredAt": "2026-09-29T16:28:49.653Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "790a987524d",
@@ -3904,7 +3919,7 @@
       "publishedAt": "2026-09-20T10:05:34.000Z",
       "discoveredAt": "2026-09-29T16:28:49.654Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "180a5b08246",
@@ -3934,7 +3949,7 @@
       "publishedAt": "2026-09-20T09:08:43.000Z",
       "discoveredAt": "2026-09-29T16:28:48.682Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "441d2e0e241",
@@ -3994,7 +4009,7 @@
       "publishedAt": "2026-09-17T21:05:31.000Z",
       "discoveredAt": "2026-09-29T16:28:49.652Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "591635aa234",
@@ -4024,7 +4039,7 @@
       "publishedAt": "2026-09-17T07:00:52.000Z",
       "discoveredAt": "2026-09-29T16:28:49.653Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "115ba8f4249",
@@ -4054,7 +4069,7 @@
       "publishedAt": "2026-09-17T06:23:24.000Z",
       "discoveredAt": "2026-09-29T16:28:49.653Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5c4f00a1240",
@@ -4084,7 +4099,7 @@
       "publishedAt": "2026-09-17T04:12:17.000Z",
       "discoveredAt": "2026-09-29T16:28:49.652Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0ad00aa41a4",
@@ -4114,7 +4129,7 @@
       "publishedAt": "2026-09-16T07:00:00.000Z",
       "discoveredAt": "2026-09-29T16:28:48.683Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3fcb6b27240",
@@ -4189,7 +4204,7 @@
       "publishedAt": "2026-09-14T09:35:39.000Z",
       "discoveredAt": "2026-09-29T16:28:49.654Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5351798e243",
@@ -4639,7 +4654,7 @@
       "publishedAt": "2026-09-02T07:00:00.000Z",
       "discoveredAt": "2026-09-29T16:28:49.653Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2ae3deb9224",
@@ -4824,6 +4839,21 @@
       "isNew": false
     },
     {
+      "id": "1848b5d5249",
+      "title": "Biomass and biofuel marketplace BiofuelCircle has raised Rs 35 crore in a funding round led by Pooja Unichem LLP, with participation from Varanium Venture, Rajeev Kumar, Karma Capital Advisors Private Limited and other investors. Founded in 2020, the c - LinkedIn",
+      "summary": "Biomass and biofuel marketplace BiofuelCircle has raised Rs 35 crore in a funding round led by Pooja Unichem LLP, with participation from Varanium Venture, Rajeev Kumar, Karma Capital Advisors Private Limited and other investors. Founded in 2020, the c LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUjdaaGxLbC0tQXp0TTdJOUJaczlsajg1dWtPYlNLVzZLbmtvS2NETjByMm5HcTE4dkFFT2lSQ3ZGQUxyVHhDMF9XcGxtUV9xOTR5US1vVnI0MENNVWJrdloxeXBVcVQyUlctMXN2WW1nbFZHZE9lVWl2TEo4R01aZGpyNXZPYTJBeUdfLXQ1ZWwyUE9mejdsRWE4N1E1STVyZ1pkT2ZwOEQ1YlNLOTN6ODVVRG5RUXVsNk9HdlJmT2NGenFRNFU4dXV3Vnk?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-07-11T07:00:00.000Z",
+      "discoveredAt": "2026-09-29T21:01:09.643Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "591a43081ad",
       "title": "Khushi Jayswal - Plant HR & HRBP |Biofuel/ Biomass Industry &FMCG |End-to-End HR Operations |Recruitment • Payroll • Labor Compliance • Employee Relations |Training & Development |Exhibitions For BusinessGrow |PMS | China Import/Export - LinkedIn India",
       "summary": "Khushi Jayswal - Plant HR & HRBP |Biofuel/ Biomass Industry &FMCG |End-to-End HR Operations |Recruitment • Payroll • Labor Compliance • Employee Relations |Training & Development |Exhibitions For BusinessGrow |PMS | China Import/Export LinkedIn India",
@@ -5001,7 +5031,7 @@
       "publishedAt": "2026-06-06T07:00:00.000Z",
       "discoveredAt": "2026-09-29T16:28:49.654Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2ae891a1264",
@@ -5564,7 +5594,7 @@
       "publishedAt": "2026-01-09T08:00:00.000Z",
       "discoveredAt": "2026-09-29T16:28:49.175Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2952853513c",
@@ -5894,7 +5924,7 @@
       "publishedAt": "2025-07-09T07:00:00.000Z",
       "discoveredAt": "2026-09-29T16:28:49.653Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5689e27612b",
@@ -5984,7 +6014,7 @@
       "publishedAt": "2025-05-18T07:00:00.000Z",
       "discoveredAt": "2026-09-29T16:28:49.651Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "694afd5dd6",
@@ -6873,7 +6903,7 @@
       "publishedAt": "2021-04-09T07:00:00.000Z",
       "discoveredAt": "2026-09-29T16:28:49.175Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "01314fa814d",
@@ -7972,37 +8002,6 @@
       "score": 45,
       "publishedAt": "2023-06-27T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:43.019Z",
-      "isNew": false
-    },
-    {
-      "id": "0190ff4b2af4c3d7",
-      "title": "Drone manufacturing, portable petrol pumps, biomass pellet manufacturing to be included under NIC code - financialexpress.com",
-      "summary": "Drone manufacturing, portable petrol pumps, biomass pellet manufacturing to be included under NIC code financialexpress.com",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNWjgtelVBcDFpc0hqNjVldHZTRmluMnJzVXZBZmFPQlJLdFVRYy0zbzlBR09JWFpsZDF1cGN3aGJtWVhOb2JQNDM5NUZ5VFNXOW1VVmhEOHkzeGFGYXd3U011aDZNLWEzNXBIMm1PSnZVOTNjd1pGbHVKYXphYVI2Wnd5dVg1TjFoY1BJaTZCdVk2bnpKX3JKTzB2ZS1pR1JsanY3akZYQ19aXzc4enFwckF0cXA1MTYwb0lEcDh3ZktobmFELXJnQWNIbkZhRUo5RHR4cTMxMUlTN2N1WW5wMHoyTXlyVlBDMFh4VzBsQi14b0Y4SFRrddIB_wFBVV95cUxObVNkQ0JKNWQzRFFra2VWdDFXTkdCRUZpcFlDNDZVbzJfQTBPTlF1OFRpenljV3c4RVZidFVBbUwxSWFmY2xvTlprWkROMXFITTVpQUVWZ3JreFlpaEM1UVNMX0ZJRGtIN01yVldWbkxaRDV1TVl4MDh5TnRxZEFVczA3bnc3Xy1QUWdvMk9CTEtZLWN3SzFEZ1ZHcG92aVB0T0VuQUJjV0x2M3JUd3V0NHZiRnZhOUhLT05lY2NBdkJNTWpqeEdXdzI4dFBvREctdkxJczFFUjlRR2Y2UEhzejVxWFZqbWhfbUQ3TVV1SDJ6YnBNLXFIeHozOFA0dVk?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Pellet NITs IN",
-      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "type": "news",
-      "companies": [],
-      "score": 45,
-      "publishedAt": "2022-11-21T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:08:27.368Z",
-      "channel": "news",
-      "isNew": false
-    },
-    {
-      "id": "e092d4d3e626dd62",
-      "title": "Union Minister of Environment, Forest & Climate Change releases guidelines for grant of financial support for establishment of paddy straw pelletisation and torrefaction plants - PIB",
-      "summary": "Union Minister of Environment, Forest & Climate Change releases guidelines for grant of financial support for establishment of paddy straw pelletisation and torrefaction plants PIB",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBNOXpGamZTcTdVQVl3eXdNc3RPZ3dFeG03d3ByU3JBYS1JNVhVOTlHQWNnWEhlMS1CMGVtZlYxTURIY2h2RXdPRTZocDU3SENKNkJaQUNac2tDUGVTTERKS2NVUElQdV9o?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Torrefied / RDF",
-      "query": "(torrefied OR \"RDF pellet\" OR \"agro waste pellet\") (India) (tender OR purchase OR demand OR requirement)",
-      "type": "news",
-      "companies": [],
-      "score": 45,
-      "publishedAt": "2022-10-13T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:08:43.018Z",
       "isNew": false
     }
   ]
