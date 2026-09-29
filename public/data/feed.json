@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-09-29T02:42:50.980Z",
-  "crawlDurationMs": 17464,
+  "updatedAt": "2026-09-29T09:44:16.190Z",
+  "crawlDurationMs": 19236,
   "stats": {
-    "total": 476,
+    "total": 478,
     "tenders": 98,
-    "purchase": 77,
-    "news": 301,
+    "purchase": 78,
+    "news": 302,
     "portals": 79,
-    "linkedin": 314,
+    "linkedin": 316,
     "newThisCrawl": 2,
     "withCompany": 121
   },
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 31,
+      "count": 29,
       "error": null
     },
     {
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 62,
+      "count": 61,
       "error": null
     },
     {
@@ -142,21 +142,21 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 73,
+      "count": 72,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 9,
+      "count": 10,
       "error": null
     },
     {
       "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
@@ -221,7 +221,7 @@
       "summary": "NTPC Invites EOI To Produce Torrefied Biomass Pellets From Startups Sarkaritel.com",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV1FlS3lPU2U2OEVLbXBScmJHcE5VcUJwUmZqN1AzZGVxWFBYQkZwWC1VRGp6OThUajVoWnE2enhXOEZqeVlyb1NVUEpiOUh0ZFh0MXBzMUdHWGpWRUFlbkFVc2JRNW1kV0dSckNDaFRUSVhxOVB6VHBWSXpFVzZGWTlKUzdIQld6dktOYVM4VDM3dHVDRUFsX3Byaw?oc=5",
       "source": "google_tender_news",
-      "sourceLabel": "Google · live NITs",
+      "sourceLabel": "Google · utility buys",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -570,7 +570,7 @@
       "publishedAt": "2018-02-08T08:00:00.000Z",
       "discoveredAt": "2026-09-29T02:42:34.829Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "52a4a23a168",
@@ -681,7 +681,7 @@
       "publishedAt": "2026-09-28T07:02:29.000Z",
       "discoveredAt": "2026-09-29T02:42:35.274Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "01c24bb4235",
@@ -2109,8 +2109,8 @@
       "summary": "NTPC Invites EOI To Produce Torrefied Biomass Pellets From Startups Sarkaritel.com",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV1FlS3lPU2U2OEVLbXBScmJHcE5VcUJwUmZqN1AzZGVxWFBYQkZwWC1VRGp6OThUajVoWnE2enhXOEZqeVlyb1NVUEpiOUh0ZFh0MXBzMUdHWGpWRUFlbkFVc2JRNW1kV0dSckNDaFRUSVhxOVB6VHBWSXpFVzZGWTlKUzdIQld6dktOYVM4VDM3dHVDRUFsX3Byaw?oc=5",
       "source": "google_news",
-      "sourceLabel": "Pellet NITs IN",
-      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
+      "sourceLabel": "Cofiring / NTPC",
+      "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -2760,6 +2760,21 @@
       "discoveredAt": "2026-09-20T00:54:13.748Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "4aeb2fe514f",
+      "title": "Agus Nasirudin - PT. ITOCHU Indonesia | Renewable Energy | Biomass | Sales | Green Energy | Palm Kernel Shell | Wood Pellet | Purchasing Buyer - id.linkedin.com",
+      "summary": "Agus Nasirudin - PT. ITOCHU Indonesia | Renewable Energy | Biomass | Sales | Green Energy | Palm Kernel Shell | Wood Pellet | Purchasing Buyer id.linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB0VFF0OWhjZUl4TmJNTFRvc2FkYzh2ajduV09WcjRFTkFUWklzUjhvaFBhalRPOUJ5TVZKMHRKemJXVmRSMngwQ1hWS3lYejROdERmZ25aMVNYMXM1VmIw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2015-11-21T07:26:04.000Z",
+      "discoveredAt": "2026-09-29T09:43:58.269Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "11dbf811e0ddfe30",
@@ -6313,6 +6328,21 @@
       "discoveredAt": "2026-09-20T09:46:45.470Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "4135f88d14f",
+      "title": "Leo Obed Dwikyra Sibarani - Engineering & Maintenance Development - Java Wood Pellet | Project Engineer Supervisor | Mechanical Maintenance | Six Sigma Yellow Belt - id.linkedin.com",
+      "summary": "Leo Obed Dwikyra Sibarani - Engineering & Maintenance Development - Java Wood Pellet | Project Engineer Supervisor | Mechanical Maintenance | Six Sigma Yellow Belt id.linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1GT3VPa1FOcFpzay0xRHRQcGtOdHlaX3NsLTBNQ3FvZVQ2d2pEVnBWUUFFZnlFY1FGaVZOLUNhYXQ4N0ZNS3l3WlUyRHhDS3M?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2021-08-30T00:36:21.000Z",
+      "discoveredAt": "2026-09-29T09:43:58.269Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "58e3d00c18c",
