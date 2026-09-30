@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-09-30T12:27:25.913Z",
-  "crawlDurationMs": 19573,
+  "updatedAt": "2026-09-30T18:07:08.708Z",
+  "crawlDurationMs": 17039,
   "stats": {
     "total": 500,
-    "tenders": 107,
+    "tenders": 110,
     "purchase": 80,
-    "news": 313,
-    "portals": 81,
-    "linkedin": 349,
-    "newThisCrawl": 3,
-    "withCompany": 124
+    "news": 310,
+    "portals": 82,
+    "linkedin": 350,
+    "newThisCrawl": 5,
+    "withCompany": 125
   },
   "sources": [
     {
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 61,
+      "count": 60,
       "error": null
     },
     {
@@ -142,14 +142,14 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 71,
+      "count": 72,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 10,
+      "count": 9,
       "error": null
     },
     {
@@ -231,6 +231,23 @@
       "discoveredAt": "2026-09-30T05:55:34.032Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "3629170416c",
+      "title": "NTPC Invites EoI to Produce Torrefied Biomass Pellets from Startups - energetica-india.net",
+      "summary": "NTPC Invites EoI to Produce Torrefied Biomass Pellets from Startups energetica-india.net",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbC0wbWZwaHVHZV9DZnlKTHZVYXlqdFNaLTR3V0t0Z0FhZUpiTTJkVnFVQ2d0MEpuY09JNFRlb2tiaTFKWG1yRTlCeHAzNU4zUXBhRlphRWFPNGxIaWxMN1R0eUN2WlpVMkFJMjRUTi1DazF2eVdWWTNKWUdldU8tS0oyZ0dSdXk0eWlnYWtUUUtFZ1pxY1F1UlF1dTV1M2FPUkx0S2MtTjM?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 94,
+      "publishedAt": "2022-05-02T07:00:00.000Z",
+      "discoveredAt": "2026-09-30T18:06:53.179Z",
+      "channel": "portal",
+      "isNew": true
     },
     {
       "id": "4d7f56f2155",
@@ -948,6 +965,21 @@
       "discoveredAt": "2026-09-22T17:45:01.725Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "4e70af6e225",
+      "title": "♻️🇮🇳 India’s Biogas Opportunity Is Really a Feedstock-Engineering Challenge India has enormous quantities of agricultural and food-chain residues. The challenge is converting heterogeneous, seasonal and geographically dispersed biomass into reliable i - LinkedIn",
+      "summary": "♻️🇮🇳 India’s Biogas Opportunity Is Really a Feedstock-Engineering Challenge India has enormous quantities of agricultural and food-chain residues. The challenge is converting heterogeneous, seasonal and geographically dispersed biomass into reliable i LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWmZuRFJIaGVNZnFGYXVlWmV0MWFodFN0ZEhnVnBubnR2NldFMDNYanJmTnpXTjEwaFJPVVFrNkstNldleXpLdDUxeHBnWktTNkZMbmV4OG4zazZyOVVRY0xDWldTcENud0VadG4yZ2w1N0s5UVI1Qk9mNXpPWUJrc21fV241Y0ozN0hGX2RJTFV2ZzJfWC1FRktpbHBpa0M4V2s5Xy1pUVZCMndrSkRnWA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 90,
+      "publishedAt": "2026-09-19T07:00:00.000Z",
+      "discoveredAt": "2026-09-30T18:06:54.307Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "08b03fb0247",
@@ -2246,6 +2278,24 @@
       "score": 65,
       "publishedAt": "2022-05-02T07:00:00.000Z",
       "discoveredAt": "2026-09-30T05:55:33.079Z",
+      "channel": "news",
+      "isNew": false
+    },
+    {
+      "id": "315d26ab33d09a93",
+      "title": "NTPC Invites EoI to Produce Torrefied Biomass Pellets from Startups - energetica-india.net",
+      "summary": "NTPC Invites EoI to Produce Torrefied Biomass Pellets from Startups energetica-india.net",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbC0wbWZwaHVHZV9DZnlKTHZVYXlqdFNaLTR3V0t0Z0FhZUpiTTJkVnFVQ2d0MEpuY09JNFRlb2tiaTFKWG1yRTlCeHAzNU4zUXBhRlphRWFPNGxIaWxMN1R0eUN2WlpVMkFJMjRUTi1DazF2eVdWWTNKWUdldU8tS0oyZ0dSdXk0eWlnYWtUUUtFZ1pxY1F1UlF1dTV1M2FPUkx0S2MtTjM?oc=5",
+      "source": "google_news",
+      "sourceLabel": "Cofiring / NTPC",
+      "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 65,
+      "publishedAt": "2022-05-02T07:00:00.000Z",
+      "discoveredAt": "2026-09-30T18:06:52.067Z",
       "channel": "news",
       "isNew": false
     },
@@ -7958,54 +8008,6 @@
       "publishedAt": "2025-12-26T08:00:00.000Z",
       "discoveredAt": "2026-09-19T06:08:27.367Z",
       "channel": "news",
-      "isNew": false
-    },
-    {
-      "id": "f3fe746fb9287237",
-      "title": "Biomass pellet scarcity hampers DVC’s green power genertion driive - thestatesman.com",
-      "summary": "Biomass pellet scarcity hampers DVC’s green power genertion driive thestatesman.com",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUjA2TVJYdlhuX25wOVVoRkhIZ09aWE9LRTFabjdaaHowbWRhSE5haTAtWkxocDI2TzZVMnIxUkN4X0ZsM25HOFU1VDQxQ05xcUNLb3BKbDhWa1NwaUFxTkt5YjV6aER3RXF0X0w2S29MMk9LRWZEMDNjRDVjcVRKcHc4c3BXa0RBNURNNlN2N2lpYkNiS3doXzVWbmRpVDhXUURZSlhpemprdlY0TnNxbFg0OTlBaHZC0gG-AUFVX3lxTE1sUzZVREdyTEhOUUlUOW51VFNEdlA3aE8tUXdodTdOUlo3bS1La2YweUtJZGNIRU5QN1ZYSjROWURtU2lpcGxoR2VVTVV2OW5HX25FWW1vZl8taVNmSnRvMG9jVzJCcTRfejFkZHVNSHB1SmZPRFRDNnRYVDhNeU1qandWWXB2Y01nY044akpIS0VZQzBobm9mc0xCVGFDdFk2VzN6amtNZFFuX1gzaUVibFh6WXhUeVZhYm1BV3c?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Pellet NITs IN",
-      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "type": "news",
-      "companies": [
-        "DVC"
-      ],
-      "score": 45,
-      "publishedAt": "2025-12-26T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T17:42:28.960Z",
-      "channel": "news",
-      "isNew": false
-    },
-    {
-      "id": "c9ba5aeb52e62f16",
-      "title": "Haryana opens biomass pellet plant - Bioenergy Insight Magazine",
-      "summary": "Haryana opens biomass pellet plant Bioenergy Insight Magazine",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9Pb3kzTC1oTzJ1R2JpYUVGdV9NVWoyVTF2QTFTNTNrdUk0T2VBNzZfcktYTHVaZTBUTi1zbjdKcVJIamxTaGVQRlphbF9mVzBhbVR2YlUtMlR4c180TnlJR1VMY1YyY0NVTC14TGV5dDBKZzlUNTlkb1pGVQ?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Company statements",
-      "query": "\"biomass pellet\" (buy OR purchase OR procure OR requirement OR \"invite bids\") India",
-      "type": "news",
-      "companies": [],
-      "score": 45,
-      "publishedAt": "2025-11-25T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:08:42.991Z",
-      "isNew": false
-    },
-    {
-      "id": "9797ceb08c26b5d0",
-      "title": "Pralhad Joshi inaugurates Pellet Plant, lays foundation for Bio-Ethanol plant in Haryana - News On AIR",
-      "summary": "Pralhad Joshi inaugurates Pellet Plant, lays foundation for Bio-Ethanol plant in Haryana News On AIR",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcXQ5OHFmRGs4ZFNIODJ4S1dCMVZMV1ZQWUt5VTQ2Rnhkd2FnMVpUZ2JYTENiMmhGRG5VcGp6VFA1eVlRcXVOMzM5RzViMmFGVlhhcmNMOTVyVGxIdDFFRlNUYTNfNnlwTUxsNlJfYndnc1B1b2xvN1p5NUZhY3dmMl91SGtKMS1EOW05ODZHRFZIV0ZKWmZpMUYxTndCMk1kUm5HQkdmZ1dCbWYxdW81VnZDRQ?oc=5",
-      "source": "google_news",
-      "sourceLabel": "State tenders",
-      "query": "(Haryana OR Punjab OR Rajasthan OR Gujarat OR Maharashtra OR \"Uttar Pradesh\") (biomass pellet OR \"paddy straw pellet\") (tender OR procurement)",
-      "type": "news",
-      "companies": [],
-      "score": 45,
-      "publishedAt": "2025-11-24T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:08:43.023Z",
       "isNew": false
     }
   ]
