@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-30T05:55:52.160Z",
-  "crawlDurationMs": 19428,
+  "updatedAt": "2026-09-30T12:27:25.913Z",
+  "crawlDurationMs": 19573,
   "stats": {
     "total": 500,
     "tenders": 107,
@@ -8,7 +8,7 @@
     "news": 313,
     "portals": 81,
     "linkedin": 349,
-    "newThisCrawl": 5,
+    "newThisCrawl": 3,
     "withCompany": 124
   },
   "sources": [
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": false,
@@ -142,7 +142,7 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 72,
+      "count": 71,
       "error": null
     },
     {
@@ -230,7 +230,7 @@
       "publishedAt": "2022-05-02T07:00:00.000Z",
       "discoveredAt": "2026-09-30T05:55:34.032Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4d7f56f2155",
@@ -3337,7 +3337,7 @@
       "publishedAt": "2022-11-04T07:00:00.000Z",
       "discoveredAt": "2026-09-30T05:55:34.033Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5962bf23275",
