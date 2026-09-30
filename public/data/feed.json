@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-09-30T00:21:52.549Z",
-  "crawlDurationMs": 18606,
+  "updatedAt": "2026-09-30T05:55:52.160Z",
+  "crawlDurationMs": 19428,
   "stats": {
     "total": 500,
-    "tenders": 105,
+    "tenders": 107,
     "purchase": 80,
-    "news": 315,
-    "portals": 79,
+    "news": 313,
+    "portals": 81,
     "linkedin": 349,
-    "newThisCrawl": 1,
-    "withCompany": 122
+    "newThisCrawl": 5,
+    "withCompany": 124
   },
   "sources": [
     {
@@ -135,21 +135,21 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 31,
+      "count": 30,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 70,
+      "count": 72,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 8,
+      "count": 10,
       "error": null
     },
     {
@@ -215,6 +215,23 @@
     "HPCL"
   ],
   "items": [
+    {
+      "id": "342360ae171",
+      "title": "NTPC Invites EoI to Produce Torrefied Biomass Pellets from Startups - Energetica India Magazine",
+      "summary": "NTPC Invites EoI to Produce Torrefied Biomass Pellets from Startups Energetica India Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbC0wbWZwaHVHZV9DZnlKTHZVYXlqdFNaLTR3V0t0Z0FhZUpiTTJkVnFVQ2d0MEpuY09JNFRlb2tiaTFKWG1yRTlCeHAzNU4zUXBhRlphRWFPNGxIaWxMN1R0eUN2WlpVMkFJMjRUTi1DazF2eVdWWTNKWUdldU8tS0oyZ0dSdXk0eWlnYWtUUUtFZ1pxY1F1UlF1dTV1M2FPUkx0S2MtTjM?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 94,
+      "publishedAt": "2022-05-02T07:00:00.000Z",
+      "discoveredAt": "2026-09-30T05:55:34.032Z",
+      "channel": "portal",
+      "isNew": true
+    },
     {
       "id": "4d7f56f2155",
       "title": "NTPC Invites EOI To Produce Torrefied Biomass Pellets From Startups - Sarkaritel.com",
@@ -2215,6 +2232,24 @@
       "isNew": false
     },
     {
+      "id": "cdf4fe2b772d05f6",
+      "title": "NTPC Invites EoI to Produce Torrefied Biomass Pellets from Startups - Energetica India Magazine",
+      "summary": "NTPC Invites EoI to Produce Torrefied Biomass Pellets from Startups Energetica India Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbC0wbWZwaHVHZV9DZnlKTHZVYXlqdFNaLTR3V0t0Z0FhZUpiTTJkVnFVQ2d0MEpuY09JNFRlb2tiaTFKWG1yRTlCeHAzNU4zUXBhRlphRWFPNGxIaWxMN1R0eUN2WlpVMkFJMjRUTi1DazF2eVdWWTNKWUdldU8tS0oyZ0dSdXk0eWlnYWtUUUtFZ1pxY1F1UlF1dTV1M2FPUkx0S2MtTjM?oc=5",
+      "source": "google_news",
+      "sourceLabel": "Cofiring / NTPC",
+      "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 65,
+      "publishedAt": "2022-05-02T07:00:00.000Z",
+      "discoveredAt": "2026-09-30T05:55:33.079Z",
+      "channel": "news",
+      "isNew": false
+    },
+    {
       "id": "c50c9f1163b709f9",
       "title": "NTPC Invites EOI To Produce Torrefied Biomass Pellets From Startups - Sarkaritel.com",
       "summary": "NTPC Invites EOI To Produce Torrefied Biomass Pellets From Startups Sarkaritel.com",
@@ -3288,6 +3323,21 @@
       "discoveredAt": "2026-09-25T15:31:40.366Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "38ffb25b137",
+      "title": "That Time of the Year: Policy steps to utilise biomass for power generation and reduce stubble burning - powerline.net.in",
+      "summary": "That Time of the Year: Policy steps to utilise biomass for power generation and reduce stubble burning powerline.net.in",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8yVUJpTVBWWGg0OURrVXVETFNDZElTVW1tYi1abmdKaWE3bkpaYTE2clpVdV8zLTJBQXVXV1hmYjF4NzdybWNyaDRHRnFLc082RnpaN3QwNnRpaHB4ZHY5ZU5XRExFb3Vyanc?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2022-11-04T07:00:00.000Z",
+      "discoveredAt": "2026-09-30T05:55:34.033Z",
+      "channel": "portal",
+      "isNew": true
     },
     {
       "id": "5962bf23275",
@@ -7956,52 +8006,6 @@
       "score": 45,
       "publishedAt": "2025-11-24T08:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:43.023Z",
-      "isNew": false
-    },
-    {
-      "id": "6eb7a17e83a70284",
-      "title": "MSPGCL scouting for partner to get biomass pellets for Koradi Thermal Power Station - thehitavada.com",
-      "summary": "MSPGCL scouting for partner to get biomass pellets for Koradi Thermal Power Station thehitavada.com",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZkRSRVI5ck1ULW1WeS1GVFhLakZpUUlpandtUDRLMVo5dzhaV09WVEk5ZHpWOTNJQjBsSmh1UG5UWEdTZTNxZGRlNy1GWUNfZXRUdUlfMW1PU2tORHJRVzI0RGNVSnNjaFEySHp3Uk1UdEFkNlhSZndLSzNvdXJtVVU1RTNiYXdFNUd3TXpHRGd0MG1aSWFORkdWMDN5WjVMdWNyWm5fWUZLY2g3VmZ2MkRJVjgzSnBJVVlLVmlLWXpIeEU4MXFtVWoxTGXSAdIBQVVfeXFMT3lSV2ZQN3pVYm0tXzY2OGxrMndRcUtrckV2Mk02ak1YdWFEOHZDdm51SHhnaTVGaENTUlFjWUlQaEludWNnYWZHblRWb1dFY21zeFZVcktSMy1qTExrNjNmRU1FMUE0Vnc0SDgwQmFweVdYY2c1VUdqODdIdW9MRUhjdDVmSUtPek9WVV9Ua3k0a0xCekxkN0ttODd6U3h3WDBTTlUyTUVZNFc0ZEJJSG1QYlliSjd0UGVCenI3akN5ME1GZjRrR0RXZHlNNGFXbmxR?oc=5",
-      "source": "google_news",
-      "sourceLabel": "State utilities",
-      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "type": "news",
-      "companies": [],
-      "score": 45,
-      "publishedAt": "2025-05-26T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:08:43.071Z",
-      "isNew": false,
-      "channel": "news"
-    },
-    {
-      "id": "0442043ea1d5eba8",
-      "title": "Indika kicks off wood pellet factory construction - Petromindo",
-      "summary": "Indika kicks off wood pellet factory construction Petromindo",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSW1ua0RfU1lkY2NyUlV4TnZhMVdpQmgzRnlSMDc0Qk53RjlsVlJPT0xSMEo0Q1JhcnRNcVFmY2VBTUFlSjR2bVlicTNoUnlpV2x6Q2ZmZHlIMlNWVldDYm1IWE1Rc3pkX2dNc0tDNHdmbmZaOC10c2dmN3NQaldXcE1TSDExYnQwdlFuSk9xM1piYVE?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Pellet tenders IN",
-      "query": "biomass pellet tender India OR \"wood pellet\" tender OR \"agro residue pellet\" tender",
-      "type": "news",
-      "companies": [],
-      "score": 45,
-      "publishedAt": "2023-08-11T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:08:42.998Z",
-      "isNew": false
-    },
-    {
-      "id": "a2cf09a362dbffa1",
-      "title": "Govt to benchmark prices of biomass pellets, forms committee under CEA - Moneycontrol.com",
-      "summary": "Govt to benchmark prices of biomass pellets, forms committee under CEA Moneycontrol.com",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRGJjRzFQbmVRUXptYk0tRXNINlVBc3VSSmh3ZEpSeEoxUEJEbWt2YmttRVpEZ3k0X3hQZnVRSWEzdWdsUzI4SnhDVGpOS0UxX01zZzN5bklJM1RyUHZSc2hRM29ycFVYMlVqcDRValBxcWEydDVYR3NRSkI3ZFFiWG5lMGprWklJekFpZ2NpUGRBWkhvR1FqVmQ3enZOQk9XX3JYZkFGYW9ZUmNnUE5oNDA3MTR2Z2VPMk9EbU9rdktxa2kz0gHKAUFVX3lxTE1hZ01PVUlrTVlCYnNIWlI3bVFRdWNCZlhWU0M4T3Y2QXZ6bE1OcmVqR2U0ME9Wbzk3NENMQlkzWW1XSGRNN0FfZkF5Tm1FdUxWd0NycGVwbHItOXlqUDRkdnBtYXlBSm1iQUFwc0J4X3lCcVNtVThuek9JU1RkeHU0NUFJdEdlcjJWU0tQbjBITG1sU0NOSHRjVm5VcHp6WllWLUhaTzRCZDVOc2ZNZ1QtZU9aaUhoTURJdktUZ0RhbDBBbTVHalo0b1E?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Torrefied / RDF",
-      "query": "(torrefied OR \"RDF pellet\" OR \"agro waste pellet\") (India) (tender OR purchase OR demand OR requirement)",
-      "type": "news",
-      "companies": [],
-      "score": 45,
-      "publishedAt": "2023-06-27T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:08:43.019Z",
       "isNew": false
     }
   ]
