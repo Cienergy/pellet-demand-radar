@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-09-30T18:07:08.708Z",
-  "crawlDurationMs": 17039,
+  "updatedAt": "2026-09-30T22:34:43.449Z",
+  "crawlDurationMs": 19233,
   "stats": {
     "total": 500,
     "tenders": 110,
     "purchase": 80,
     "news": 310,
     "portals": 82,
-    "linkedin": 350,
-    "newThisCrawl": 5,
-    "withCompany": 125
+    "linkedin": 352,
+    "newThisCrawl": 4,
+    "withCompany": 124
   },
   "sources": [
     {
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 60,
+      "count": 63,
       "error": null
     },
     {
@@ -142,14 +142,14 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 72,
+      "count": 73,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 9,
+      "count": 8,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 6,
+      "count": 5,
       "error": null
     },
     {
@@ -247,7 +247,7 @@
       "publishedAt": "2022-05-02T07:00:00.000Z",
       "discoveredAt": "2026-09-30T18:06:53.179Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4d7f56f2155",
@@ -979,7 +979,7 @@
       "publishedAt": "2026-09-19T07:00:00.000Z",
       "discoveredAt": "2026-09-30T18:06:54.307Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "08b03fb0247",
@@ -3737,6 +3737,21 @@
       "isNew": false
     },
     {
+      "id": "5babb23b240",
+      "title": "From residue to resource. From resource to energy. Agricultural residue can be processed into biomass pellets and utilised alongside coal in thermal power generation. Mission SAMARTH continues to support the development of a stronger biomass ecosyste - LinkedIn",
+      "summary": "From residue to resource. From resource to energy. Agricultural residue can be processed into biomass pellets and utilised alongside coal in thermal power generation. Mission SAMARTH continues to support the development of a stronger biomass ecosyste LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYzFFajhfSG8tdGFDUW5mOHBrWTY5OExlRTIyTUZXMXphb212WTZzaVQtYk12RzFScTk4cHdnbEVhbWdNNmZ4RFVTN25zUUg3MXY3UkZIVmZiTkNJVEV1aXctSDJnWEs2U3B2eUJEd1BTemtZMVhVbU85Zm82VjlESGRYM3hkQ2NYTDFOaURNUmtrVklyby1aXzhTVkN1WnNUWkQzT3k4TW1lLUsyMFRGY0xIZERjX1pVa05hT0Ffa2w1WnBQYlBj?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-26T08:35:20.000Z",
+      "discoveredAt": "2026-09-30T22:34:26.500Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "2aee27e8219",
       "title": "🌍 PROVEG ENGINEERING — ENCYCLOPEDIA OF BIOMASS PELLET PLANT MACHINERIES 🏆 AN UNBREAKABLE MILESTONE — 300+ BIOMASS PELLET PLANTS INSTALLED & SERVING From raw biomass to finished pellets, Proveg Engineering Grou - LinkedIn",
       "summary": "🌍 PROVEG ENGINEERING — ENCYCLOPEDIA OF BIOMASS PELLET PLANT MACHINERIES 🏆 AN UNBREAKABLE MILESTONE — 300+ BIOMASS PELLET PLANTS INSTALLED & SERVING From raw biomass to finished pellets, Proveg Engineering Grou LinkedIn",
@@ -5762,7 +5777,7 @@
       "summary": "Govil Biomass Pellet Consultant LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9YUGFQajk4WVA1S2dwdVg3Rnk5SVVoQTZMc2VDTExsSVNGOXBJWWJBdW9xY3RXX2lsc3BBbVdTZk9YeGN5WGs2LWxCZkhVS05iM3dHVTdJM0w1MnE5SmMxWDB4UFhiUHRRTzh4VVRXbkFLWFRSOTdJ?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -7475,6 +7490,24 @@
       "isNew": false
     },
     {
+      "id": "4bd82f25162",
+      "title": "Amit Dutta - Assistant Manager | Biomass Pellet Marketing | Thermal Power Projects (WBPDCL | DVC | NTPC) | Government Liaison | Supply Chain & Logistics | Rashmi Group. - LinkedIn India",
+      "summary": "Amit Dutta - Assistant Manager | Biomass Pellet Marketing | Thermal Power Projects (WBPDCL | DVC | NTPC) | Government Liaison | Supply Chain & Logistics | Rashmi Group. LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9CU1RRUEQ5cUZmZkVLZ1RUN0x3cXhUUlZQbkZ0a1VIVmtUc0U1Qnpzdnk1dmdMYjlkeFBNVng4czNPR19mQUpjTEtGOWczU2xYWVlMSk4zQUcwZw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [
+        "NTPC",
+        "DVC"
+      ],
+      "score": 70,
+      "publishedAt": "2015-11-14T10:59:21.000Z",
+      "discoveredAt": "2026-09-30T22:34:25.542Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
       "id": "07aba7211a8",
       "title": "MOHIIT VERRMA. - Biomass Energeons India : Driving Bioenergy Solutions - Waste-to-Energy | Biochar | Black Pellets | Biomass Pellets | Compressed Biogas (CBG) | Green Hydrogen | Municipal Solid Waste (MSW) | Consultant Solution Provider - in.linkedin.com",
       "summary": "MOHIIT VERRMA. - Biomass Energeons India : Driving Bioenergy Solutions - Waste-to-Energy | Biochar | Black Pellets | Biomass Pellets | Compressed Biogas (CBG) | Green Hydrogen | Municipal Solid Waste (MSW) | Consultant Solution Provider in.linkedin.com",
@@ -7973,42 +8006,6 @@
       "discoveredAt": "2026-09-19T05:08:43.023Z",
       "isNew": false,
       "channel": "news"
-    },
-    {
-      "id": "40d002065ecc53cc",
-      "title": "HOMRE Limited Accelerates Growth with Strong FY 2025-26 Performance and Launch of Biomass Pellet Plant in Bharatpur - The Tribune",
-      "summary": "HOMRE Limited Accelerates Growth with Strong FY 2025-26 Performance and Launch of Biomass Pellet Plant in Bharatpur The Tribune",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPNVU3M2FrRlpXaE5qM0RMMGdWanMzb2lla1BYOS1vQzN6NHJiY3B3OVg2bUw0aHNEOEhwWC12encxQ2hvZHZZbVZLbDR1a2M1aEdQS0xYSlRiR1d3UFBDSmswZVVTOFBXXzE0NTFsN3hZZzBxS3JpSF8xSFR1eDhiYm1xQXpBQ1ZILWd1NmhBSjhMV3lyUmNmWHFsTnRhUkJGSDNUNjkzY3d1bm5BS2JfM3A1ODljRHNtN01PRGFYYlNCLWVqLVhhYkxkUTgwbnZtUUk2UE4yT3doVnBxVUxpSzByVXVRbTdhMXYtQVBQRFHSAfQBQVVfeXFMUE1WNGpHSW1xeF93cERjMkN6OFpNX3BqRThqN1E5Ujk2SnJld0FGbDF5bGNYUEdlbFF5OTZJUjgxQzAtcG5xVGRiQ2hRZWE4MEMzMWxVcXYySERiNmkxYUNhM3RubzN0MzR2OEdIaWZMMnhmeEgyQkRXX2hhSjRlWTZ5WVA5clU0MnYwdDc2YXVnV3JTSHdyc2lZY010QURxTDB3Uk1yWnJWTE4tRmRESFdCSEJLNTJvUjBXemo3NGtudDdoazRqaFUway0wa0VjbTRPMjN0Y1A0bVlkZ1FCTG05bF9iTHI5Wm12N3ZsY2s1R2hsbA?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Pellet NITs IN",
-      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "type": "news",
-      "companies": [
-        "ACC"
-      ],
-      "score": 45,
-      "publishedAt": "2026-07-01T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:08:27.367Z",
-      "channel": "news",
-      "isNew": false
-    },
-    {
-      "id": "ee890b3969c33c54",
-      "title": "Biomass pellet scarcity hampers DVC’s green power genertion driive - The Statesman",
-      "summary": "Biomass pellet scarcity hampers DVC’s green power genertion driive The Statesman",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUjA2TVJYdlhuX25wOVVoRkhIZ09aWE9LRTFabjdaaHowbWRhSE5haTAtWkxocDI2TzZVMnIxUkN4X0ZsM25HOFU1VDQxQ05xcUNLb3BKbDhWa1NwaUFxTkt5YjV6aER3RXF0X0w2S29MMk9LRWZEMDNjRDVjcVRKcHc4c3BXa0RBNURNNlN2N2lpYkNiS3doXzVWbmRpVDhXUURZSlhpemprdlY0TnNxbFg0OTlBaHZC0gG-AUFVX3lxTE1sUzZVREdyTEhOUUlUOW51VFNEdlA3aE8tUXdodTdOUlo3bS1La2YweUtJZGNIRU5QN1ZYSjROWURtU2lpcGxoR2VVTVV2OW5HX25FWW1vZl8taVNmSnRvMG9jVzJCcTRfejFkZHVNSHB1SmZPRFRDNnRYVDhNeU1qandWWXB2Y01nY044akpIS0VZQzBobm9mc0xCVGFDdFk2VzN6amtNZFFuX1gzaUVibFh6WXhUeVZhYm1BV3c?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Pellet NITs IN",
-      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "type": "news",
-      "companies": [
-        "DVC"
-      ],
-      "score": 45,
-      "publishedAt": "2025-12-26T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:08:27.367Z",
-      "channel": "news",
-      "isNew": false
     }
   ]
 }
