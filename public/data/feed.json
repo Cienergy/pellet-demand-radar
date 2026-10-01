@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-01T07:47:42.105Z",
-  "crawlDurationMs": 20805,
+  "updatedAt": "2026-10-01T15:24:29.988Z",
+  "crawlDurationMs": 17713,
   "stats": {
     "total": 500,
-    "tenders": 112,
-    "purchase": 82,
-    "news": 306,
-    "portals": 83,
-    "linkedin": 356,
-    "newThisCrawl": 9,
+    "tenders": 114,
+    "purchase": 83,
+    "news": 303,
+    "portals": 84,
+    "linkedin": 358,
+    "newThisCrawl": 8,
     "withCompany": 121
   },
   "sources": [
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 29,
+      "count": 28,
       "error": null
     },
     {
@@ -97,11 +97,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -128,14 +128,14 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 60,
+      "count": 63,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 30,
+      "count": 32,
       "error": null
     },
     {
@@ -149,7 +149,7 @@
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 9,
+      "count": 8,
       "error": null
     },
     {
@@ -502,7 +502,7 @@
       "publishedAt": "2020-09-27T07:00:00.000Z",
       "discoveredAt": "2026-10-01T07:47:23.139Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "01969a9b2ff",
@@ -622,6 +622,23 @@
       "discoveredAt": "2026-09-29T02:42:34.829Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "23c5a14420a",
+      "title": "NTPC invites bids to procure agro residue based fuel - india.com",
+      "summary": "NTPC invites bids to procure agro residue based fuel india.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWkpEWVhYb1VMNXVZeW4zZnlOTmxOam80VWg2ckV4bHlIZm4yYmpTU0pzeDZ6LXF4ZnNkaGhxdW40MTQ5SEJSeG54eDlIX0JJLVJZWVZ0alI3MTRwSTY0aWI2Z1Y0RWYtREd3R2NtWnVNUll4Q1lZeUlrN1pfX3d4WFp2cVJPaUdjbUlJM3ZnS1VTX2FNMW9V0gGXAUFVX3lxTE5aSkRZWFhvVUw1dVl5bjNmeU5ObE5qbzRVaDZyRXhseUhmbjJialNTSnN4NnotcXhmc2RoaHF1bjQxNDlIQlJ4bnh4OUhfQkktUllZVnRqUjcxNHBJNjRpYjZnVjRFZi1ER3dHY21adU1SWXhDWVl5SWs3Wl9fd3hYWnZxUk9pR2NtSUkzdmdLVVNfYU0xb1U?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 77,
+      "publishedAt": "2018-02-08T08:00:00.000Z",
+      "discoveredAt": "2026-10-01T15:24:13.543Z",
+      "channel": "portal",
+      "isNew": true
     },
     {
       "id": "52a4a23a168",
@@ -965,6 +982,21 @@
       "score": 91,
       "publishedAt": "2025-11-12T08:00:00.000Z",
       "discoveredAt": "2026-09-19T15:47:30.954Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "0de7ee4f220",
+      "title": "🇨🇳 🤝 🇮🇳 🤝 🇮🇩 GLOBAL TECHNOLOGY. STRONG PARTNERSHIPS. GROWING BIOMASS OPPORTUNITIES. Proud to see our technology partner Shandong Yulong Machine Co., Ltd. representing biomass processing and pelletization solutions at IFMAC W - LinkedIn",
+      "summary": "🇨🇳 🤝 🇮🇳 🤝 🇮🇩 GLOBAL TECHNOLOGY. STRONG PARTNERSHIPS. GROWING BIOMASS OPPORTUNITIES. Proud to see our technology partner Shandong Yulong Machine Co., Ltd. representing biomass processing and pelletization solutions at IFMAC W LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLUo5Y2pNODVJR1lDZ3ZuTldRQkpnaFlST1NjUW5VcF80VFprT095WDNyR2NDbF9qcWNRUENvVFV0WEZoeFhWQkFIbEgwckhxbXlpQlUyYzJ6OVZQYmxHMnZsV1RPLWo4bjZfSzNtMnU5ZElMQndMbS1BYVk4U0JhRG12QjlJX3FqNUxncnRxNGQzVVliNmdQWUhObl8zVVFTUGhjbm9lMF9iVy1fVHpDbUZoWEUzV3h0MUFOeQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 90,
+      "publishedAt": "2026-09-23T14:08:17.000Z",
+      "discoveredAt": "2026-10-01T15:24:13.566Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -2671,7 +2703,7 @@
       "publishedAt": "2026-09-26T20:36:15.000Z",
       "discoveredAt": "2026-10-01T07:47:23.029Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "15d1bf72214",
@@ -2809,6 +2841,21 @@
       "score": 73,
       "publishedAt": "2026-02-09T08:00:00.000Z",
       "discoveredAt": "2026-09-19T15:47:30.429Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "2bcdd31123d",
+      "title": "Want to Start a Biomass Pellet Plant in India? Here's What You Need to Know. The government just issued ₹61.85 crore in penalties to power plants for missing co-firing targets. With mandatory 7% co-firing and a 12+ million tonne supply gap, biomass pellet m - LinkedIn",
+      "summary": "Want to Start a Biomass Pellet Plant in India? Here's What You Need to Know. The government just issued ₹61.85 crore in penalties to power plants for missing co-firing targets. With mandatory 7% co-firing and a 12+ million tonne supply gap, biomass pellet m LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTXdfbU8yMnhZYmV1U21md1hycXFSbWtidEhrVVk3NVREMU4weFRGOUl0YXh4dnpGLXVrdEJ6T2JaVlVvSF9kT213Z0hBSUxxVFFMWFNYMGJ2aHZra21tVlFvcW40Tk9Da1JzeFE3YjlVR2lxV0p1c1VsWnJKTHlJNkNGZ1BkS1JRUjNCa1ptNGNZZG9zUFFOaXdhQ0I0bTJHSTZwLXZpN2ZHTnMxbXlleWY2dUlLQWpjNkdzOXJicw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2026-01-07T08:00:00.000Z",
+      "discoveredAt": "2026-10-01T15:24:13.566Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -3897,7 +3944,7 @@
       "summary": "How to Choose the Right Biomass Pellet Machine Manufacturer in India LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNzFva2todUY0SHYyWERoaGw4bnowUDNtZk12WW1tT1NZZ2xyMGpCekhPR29BT2FQc21LSlNERWVaQmxCa0ZGd3VYWUxjVW1jSHhKczM0M09mMnZFQVJfdUgwWkRFTWlVcXcyaF9tX2xIbTFfcmZ6VGRuUkJsdmpFcDJneTZjbkJPX2NuOVBOVy1nTU0?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -6813,7 +6860,7 @@
       "publishedAt": "2024-04-08T07:00:00.000Z",
       "discoveredAt": "2026-10-01T07:47:23.030Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0dd3fda7152",
@@ -7675,7 +7722,7 @@
       "publishedAt": "2015-07-22T02:18:29.000Z",
       "discoveredAt": "2026-10-01T07:47:23.030Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b18ffbcb72c60b91",
@@ -7948,54 +7995,6 @@
       "publishedAt": "2023-11-24T08:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:43.072Z",
       "isNew": false
-    },
-    {
-      "id": "1e42452104c1113b",
-      "title": "Ministry Sets Price Benchmarks for Biomass Pellets in Western and Northern Regions - Mercomindia.com",
-      "summary": "Ministry Sets Price Benchmarks for Biomass Pellets in Western and Northern Regions Mercomindia.com",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTzc0NlZjcXRoNkZFM1ZLdnJLMEJ4bHFmbERzV19TUXNfUXphQUxDaXRQcEhndXRPRm81WUpmOXB4d01TVTF5T0dITHl2dE92Y0NLVnZ0dVBBc21vZUwwRXdJZzFNUkg3NDMwWFM5WkMzbmJ1ZTR1QVhLVjhTS2lqM21SaVVoOEVOeFdn?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Pellet tenders IN",
-      "query": "biomass pellet tender India OR \"wood pellet\" tender OR \"agro residue pellet\" tender",
-      "type": "news",
-      "companies": [],
-      "score": 55,
-      "publishedAt": "2023-11-13T13:48:22.000Z",
-      "discoveredAt": "2026-09-19T05:08:42.997Z",
-      "isNew": false
-    },
-    {
-      "id": "1cec8205e951b3a8",
-      "title": "Control biomass pellet prices: Brick kiln owners - The Times of India",
-      "summary": "Control biomass pellet prices: Brick kiln owners The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaEZxR1ViNmwyUklFempMSGg2d0hZN09lalpBRl9QZXY4TFpaeEt4VkFjWHFyRlRhQWxaRjhlamo4SXZVN25JY1VqLXRrUGtQV1N6dTBERmgyT1lLenZ3UEY3cUN6NnVZYUpqbkhIMEp1TE5qZ2ZLSy1GM3RZRW9pQ1ZlR2ZMZnBYX2RFSmxqVTE0NUpjdUJIRnlYU3d3bTdobGNmUnNuekhJVDMxSzdqY3Jid3lkb2RGOHBRSzZ5SW9RQdIBxwFBVV95cUxQSmZXbGR2cVlzN3lWZWhRQ3UyYnh3QnpUQkF0RkwyU1ZQZkRHQXBtbGwyQTMtbnF4UWlUbzVweW5qTVNoMDNXR2NzbWVIVmZoWkZOSlJPS2xHbkxRLWNPa2piTnBmMTZQMTd1bHE0M052RF80S3IxMmNzVElzRE1DZy1xSEZJd2tiUHFKeGNCeG5MNXFlbmtHdk9rYkpObk16azdEd0xiQXZUZDcyN0lNSWtqbXZuSDA1ZFg3dTk1eExNVFB4SzdN?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Company statements",
-      "query": "\"biomass pellet\" (buy OR purchase OR procure OR requirement OR \"invite bids\") India",
-      "type": "news",
-      "companies": [],
-      "score": 55,
-      "publishedAt": "2022-11-15T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:08:42.992Z",
-      "isNew": false
-    },
-    {
-      "id": "d5d4f9b2c639a9d1",
-      "title": "NTPC asks Indian startups to produce torrefied biomass pellets - Construction World",
-      "summary": "NTPC asks Indian startups to produce torrefied biomass pellets Construction World",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWnlCcDh2T3ZsRzhpMF9wbGx0SExVQ2dHZnQ1N0ozNkRfSUtWVkZ4dzR5Q3l0cVp4a2hTeVdPd0V6NVV3UEluMWtIUW5kUkF5ZS1ic2VUVVpQd2I4UWdsVXNIYUtpNGUtUlhOQ01hOUtsZUNTdldmR1hDbS1Sb1lXcTBQU1gyemJVREJVZmI1enJ2STZMTXhDSUNyWkVVNXpXU2draGRJbF9JOTNWSjRnRXdiYXlYUmZ1Y1BQTFY2QmlhbUdrUEF5TlBOVm1aUEVCbzBRVGotZmJIcFQ2N051YTBuUDY?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Cofiring / NTPC",
-      "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "type": "news",
-      "companies": [
-        "NTPC"
-      ],
-      "score": 55,
-      "publishedAt": "2022-05-03T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:08:42.984Z",
-      "isNew": false,
-      "channel": "news"
     }
   ]
 }
