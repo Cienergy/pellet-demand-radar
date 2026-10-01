@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-01T15:24:29.988Z",
-  "crawlDurationMs": 17713,
+  "updatedAt": "2026-10-01T20:29:12.055Z",
+  "crawlDurationMs": 17964,
   "stats": {
     "total": 500,
     "tenders": 114,
     "purchase": 83,
     "news": 303,
     "portals": 84,
-    "linkedin": 358,
-    "newThisCrawl": 8,
+    "linkedin": 359,
+    "newThisCrawl": 6,
     "withCompany": 121
   },
   "sources": [
@@ -48,11 +48,11 @@
       "error": "fetch failed"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Tata Power tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "HTTP 502"
     },
     {
       "ok": false,
@@ -86,15 +86,15 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 28,
+      "count": 30,
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
       "ok": true,
@@ -142,28 +142,28 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 73,
+      "count": 75,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 8,
+      "count": 9,
       "error": null
     },
     {
       "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 7,
+      "count": 8,
       "error": null
     },
     {
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
@@ -638,7 +638,7 @@
       "publishedAt": "2018-02-08T08:00:00.000Z",
       "discoveredAt": "2026-10-01T15:24:13.543Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "52a4a23a168",
@@ -3849,6 +3849,21 @@
       "isNew": false
     },
     {
+      "id": "48adf223196",
+      "title": "Punjab set to double number of paddy straw pellet plants - Bioenergy Insight Magazine - LinkedIn",
+      "summary": "Punjab set to double number of paddy straw pellet plants - Bioenergy Insight Magazine LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbkpkTkxYQWl3THlVampiUUxreDdMcjNuVTdEVEFOQ3BGX3Bpc3FXQ1llZVozWVBzak9ab2RjRGhCNUhJWEg2cE5rdFF1Q2VIM2xPaDMyVUp5UVBCWXdLYlBSMFVqRTBpSTB1VTQ3OWxJSE84UFdTZWpWLVF1bk9rWjM2UEtSVVRSUEo4cFJyMFVJZ3VZWUNQVTBwUFF2SUd5ckt3Si15S3dFSWw2bS1naWRVRENDdG9HZzF0MTdVQWZlbHc?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-28T06:55:55.000Z",
+      "discoveredAt": "2026-10-01T20:28:56.708Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "5babb23b240",
       "title": "From residue to resource. From resource to energy. Agricultural residue can be processed into biomass pellets and utilised alongside coal in thermal power generation. Mission SAMARTH continues to support the development of a stronger biomass ecosyste - LinkedIn",
       "summary": "From residue to resource. From resource to energy. Agricultural residue can be processed into biomass pellets and utilised alongside coal in thermal power generation. Mission SAMARTH continues to support the development of a stronger biomass ecosyste LinkedIn",
@@ -3944,7 +3959,7 @@
       "summary": "How to Choose the Right Biomass Pellet Machine Manufacturer in India LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNzFva2todUY0SHYyWERoaGw4bnowUDNtZk12WW1tT1NZZ2xyMGpCekhPR29BT2FQc21LSlNERWVaQmxCa0ZGd3VYWUxjVW1jSHhKczM0M09mMnZFQVJfdUgwWkRFTWlVcXcyaF9tX2xIbTFfcmZ6VGRuUkJsdmpFcDJneTZjbkJPX2NuOVBOVy1nTU0?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -7979,21 +7994,6 @@
       "score": 55,
       "publishedAt": "2024-07-23T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:43.019Z",
-      "isNew": false
-    },
-    {
-      "id": "9c3815266f24d64c",
-      "title": "Power plants start purchasing pellets for blending purposes - The Times of India",
-      "summary": "Power plants start purchasing pellets for blending purposes The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSjFhZlFqMXZsZXozY3pmbXBKRTBSVmNQclNNZGRrd1ZZZkRrQXFDeG1kT2J2a2pSem5QRDNKbEVpT0hoeFhNN3VSbHA0cFBNcHZ1YWRpVnI1azJ1Ykx4ME5GMGtfOG1QUklOYkd0cXlKN3l0WmE5UndLa1l2X3RyeE40QTl3VWpTT2Z1T3IyNTZadExrRXVCWkxSYWhYSXhma1lGZG9va25mektPREt5Q0kzMjkweVc2dUxJZWdkbEpXLUpmQkZhczRLTF96Y0Fqbzdv0gHYAUFVX3lxTFBodlA3dkRNTUJZUWRQS29nM19vekN1eHQ5NE5GUWs1VkxMRVF5c0h3RElrNlEtWWhuRmpJZmpPZll0a3UwUVVnS0VVNkQwZTVfRjQtM3lxZ2JGdFdTbEtsU0JUbmhhS0RtUWRzZTZVTDlVZm1wX0JLYzRsTkt4c1BDTTdpbzlKQzdtaHl4bFc1UERsdHloTmNCN2dYNVgxQUhFTkN3ajJGT1pyb0RUTkg5aHJIOVpjcG90ZmR6RXR1aXJidHdhRkpfNER1cmYxLVd5clFHcm05ag?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Power utilities",
-      "query": "(\"Tata Power\" OR \"Adani Power\" OR \"JSW Energy\" OR Mahagenco OR PSPCL OR GSECL) (pellet OR biomass) (tender OR purchase OR requirement)",
-      "type": "news",
-      "companies": [],
-      "score": 55,
-      "publishedAt": "2023-11-24T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:08:43.072Z",
       "isNew": false
     }
   ]
