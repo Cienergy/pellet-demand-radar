@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-01T20:29:12.055Z",
-  "crawlDurationMs": 17964,
+  "updatedAt": "2026-10-02T00:09:46.998Z",
+  "crawlDurationMs": 18638,
   "stats": {
     "total": 500,
     "tenders": 114,
-    "purchase": 83,
-    "news": 303,
+    "purchase": 84,
+    "news": 302,
     "portals": 84,
-    "linkedin": 359,
-    "newThisCrawl": 6,
-    "withCompany": 121
+    "linkedin": 361,
+    "newThisCrawl": 7,
+    "withCompany": 122
   },
   "sources": [
     {
@@ -48,11 +48,11 @@
       "error": "fetch failed"
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Tata Power tenders",
       "query": null,
       "count": 0,
-      "error": "HTTP 502"
+      "error": null
     },
     {
       "ok": false,
@@ -90,18 +90,18 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
       "ok": true,
@@ -135,14 +135,14 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 32,
+      "count": 33,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 75,
+      "count": 74,
       "error": null
     },
     {
@@ -2706,6 +2706,21 @@
       "isNew": false
     },
     {
+      "id": "67f98cca126",
+      "title": "Wood Pellet Supplier at Flambriks-süd GmbH | ENplus® A1 | Wholesale & Bulk Supply| European B2B Sales - de.linkedin.com",
+      "summary": "Wood Pellet Supplier at Flambriks-süd GmbH | ENplus® A1 | Wholesale & Bulk Supply| European B2B Sales de.linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41WGlnNFo1VkJCa29qb2x2T2NEeXBMWDd1WnV3Qi1xWlVIMzhzNlE0TWhqOXN2NW4zdlNhVktlSjB5Nk93SGVEdHdveXh3Wnp3ZU5ZNEVYVVA1TnI4ZXg4?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2026-09-26T20:36:15.000Z",
+      "discoveredAt": "2026-10-02T00:09:30.089Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "15d1bf72214",
       "title": "Day 342/365 | Turning Farm Residue into Power NTPC Dadri is looking to procure 3.78 lakh MT of agro-residue-based non-torrefied biomass pellets over 270 days. That's roughly 1,400 MT every single day. At the reported benchmark price of ₹8,282.40/MT (in - LinkedIn",
       "summary": "Day 342/365 | Turning Farm Residue into Power NTPC Dadri is looking to procure 3.78 lakh MT of agro-residue-based non-torrefied biomass pellets over 270 days. That's roughly 1,400 MT every single day. At the reported benchmark price of ₹8,282.40/MT (in LinkedIn",
@@ -3861,7 +3876,7 @@
       "publishedAt": "2026-09-28T06:55:55.000Z",
       "discoveredAt": "2026-10-01T20:28:56.708Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5babb23b240",
@@ -6968,6 +6983,23 @@
       "isNew": false
     },
     {
+      "id": "2fe68b6212c",
+      "title": "Working as Senior Manager in 1.2 MTPA straight grate Pellet Operation at SJSPL Jagannath steel pvt Limited - LinkedIn India",
+      "summary": "Working as Senior Manager in 1.2 MTPA straight grate Pellet Operation at SJSPL Jagannath steel pvt Limited LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFByVUZRZFcxSktyZ29kYXZreFoxM2xFREFYVFpiXzlibFdka3o1VXFWdUExZFMxekpRRlQ0OFRMTEpkdWtTcEU3b3M3Qi1NM3IyMjdSWXpWTmNUd1dLQ2NyRQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "news",
+      "companies": [
+        "JSPL"
+      ],
+      "score": 70,
+      "publishedAt": "2023-05-04T17:26:49.000Z",
+      "discoveredAt": "2026-10-02T00:09:30.675Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "30509b3fdd",
       "title": "Manish Garg - Eton Biomass Energy - LinkedIn India",
       "summary": "Manish Garg - Eton Biomass Energy LinkedIn India",
@@ -7964,36 +7996,6 @@
       "publishedAt": "2024-10-08T07:00:00.000Z",
       "discoveredAt": "2026-09-19T22:49:50.253Z",
       "channel": "news",
-      "isNew": false
-    },
-    {
-      "id": "21af6c24efb478e2",
-      "title": "Pb availed 12.3cr subsidy for pellet-making units - The Times of India",
-      "summary": "Pb availed 12.3cr subsidy for pellet-making units The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOcjRJV3FPb3ZuN0VCR3J3YjdUYlFmOEVuWnRfMzhRT1hiQW1jb2ZfUHhvZ0ZKbV81cjI4UmVkOUNMUVFfTWJLU1loTnRPWFFzdzdKZnpCQ2F0dlhqWEFDOVZVQ1p3R19RMUZLSGJGaGM3eXFkZWdjckRkbjgwNkxEV1dEU0R4emV1V19fX0J6WGFwQUpsMzRhQi1faXhIUlBpWE5TcWpyaUJ2NnBoX0tkMmZUWlVqRGoyYk9YTlB1V1NvUTdDUHJkT3dYa3dDSTZFcDV6X3huR1p3SGYyYnfSAeMBQVVfeXFMTkJOdFlNQk5qdHJjX1BQNE1ldkZ5dDNCelgtLUZnd3h6alhWQmZQekZpWmZXT2pocG92X0NwdkpRMXoycmJJTUtGVFVMV3FtQUlwRG0xMi1xajJsdk81dEIzNGJfVW1HdFZjUVI3UUhDdkxFSzFicUhYSzRaNWVDZDBYdkZWbDZ1UkR1Y2t5ZS1NbUxhbnN2WU9fcUpNNENTVHpTWkJOSnhhNFFad19kVnhDSDJ1Z2FIS2Z4LVRUQ196RlVrY19RVkY0U3lONDlLYjNlbFRqOU93MkwxZjlsTEJUZ1E?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Torrefied / RDF",
-      "query": "(torrefied OR \"RDF pellet\" OR \"agro waste pellet\") (India) (tender OR purchase OR demand OR requirement)",
-      "type": "news",
-      "companies": [],
-      "score": 55,
-      "publishedAt": "2024-09-15T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:08:43.020Z",
-      "isNew": false
-    },
-    {
-      "id": "d0bf4e0ce04d3ab6",
-      "title": "India increases financial assistance for biomass pellet manufacturing - Asian Power",
-      "summary": "India increases financial assistance for biomass pellet manufacturing Asian Power",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQU1Q5cTNGTGRmdTFLZkdRQ2FlVmFUd0JfMzAyT09qNjU4ZjhOSUwxQ3hPczk4S2R1VERTTXcwdzZzOXZNbkVYTDVTM1JEM2xGMFZ4Q1pYd3pxejUzLWtmelVCaUFwdi16czNubU9BZVZGc3FPLUJLZVRYTVJveW4yQ3pmd3NyY2tqTVhJSmIwZGE3dWM3MkhnUUhB?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Company statements",
-      "query": "\"biomass pellet\" (buy OR purchase OR procure OR requirement OR \"invite bids\") India",
-      "type": "news",
-      "companies": [],
-      "score": 55,
-      "publishedAt": "2024-07-23T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:08:43.019Z",
       "isNew": false
     }
   ]
