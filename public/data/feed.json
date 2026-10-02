@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-02T18:40:36.166Z",
-  "crawlDurationMs": 18615,
+  "updatedAt": "2026-10-02T22:56:40.522Z",
+  "crawlDurationMs": 18466,
   "stats": {
     "total": 500,
     "tenders": 120,
@@ -8,7 +8,7 @@
     "news": 293,
     "portals": 84,
     "linkedin": 375,
-    "newThisCrawl": 11,
+    "newThisCrawl": 10,
     "withCompany": 120
   },
   "sources": [
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -135,14 +135,14 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 31,
+      "count": 32,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 69,
+      "count": 71,
       "error": null
     },
     {
@@ -957,7 +957,7 @@
       "summary": "NTPC Dadri Biomass Pellet Tender 2026: A 3.78 Lakh MT Business Opportunity for Biomass Manufacturers and Traders LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONVF1YklqaVB4bVZZQVlnLXBqNXZHSVROUmFndmhtLUJxSW94ZDRRMjdJQXhhSzMzek8za08tOEZ6ZEdwUFF3QjM2ZkYwNndHTWx1ckZ2M0hvNm5FRUtDRUVjd055QXFuSzJOSXZPdGR4UVVyZ1l6R2RydzZYUGcwWk1EX2w?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -1135,7 +1135,7 @@
       "publishedAt": "2026-07-26T23:41:33.000Z",
       "discoveredAt": "2026-10-02T18:40:19.254Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4ce2aa4824f",
@@ -2027,7 +2027,7 @@
       "publishedAt": "2022-05-24T00:29:05.000Z",
       "discoveredAt": "2026-10-02T18:40:19.255Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "fb8953cad72bd18c",
@@ -7407,6 +7407,21 @@
       "isNew": false
     },
     {
+      "id": "4ff011f11bb",
+      "title": "Rajeev Pratap Singh - GM – International Sales & Expansion | EU • SEA | Green Energy - CBG-GOBARdhan, Biomass SCM, Wood Pellet, Biochar, Bio-Oil | Steel - Pig Iron, Seamless | Carbon Credit • Net-Zero • CBG • Bio-Oil | Combat Veteran – Army - LinkedIn India",
+      "summary": "Rajeev Pratap Singh - GM – International Sales & Expansion | EU • SEA | Green Energy - CBG-GOBARdhan, Biomass SCM, Wood Pellet, Biochar, Bio-Oil | Steel - Pig Iron, Seamless | Carbon Credit • Net-Zero • CBG • Bio-Oil | Combat Veteran – Army LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NR0lQV091Y0x2ZDVZNmRYZ0MwbFlrMm1TQ19YUnFiUF8yODd6c2tyRTF3Y2dPMU9lRkFPV3RfbGZoS0d5b0dTSW91b1pPMmJFa1UyUGtVLTNkUTZ1TEhnSGQ5M3dOTmM?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2021-06-29T10:13:02.000Z",
+      "discoveredAt": "2026-10-02T22:56:25.853Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "04aa77f0177",
       "title": "Renewable Energy Use in Existing Thermal Power Plant - A case study of biomass usage in Rihand Thermal Power Plant - LinkedIn",
       "summary": "Renewable Energy Use in Existing Thermal Power Plant - A case study of biomass usage in Rihand Thermal Power Plant LinkedIn",
@@ -7965,21 +7980,6 @@
       "score": 70,
       "publishedAt": "2015-11-10T04:11:05.000Z",
       "discoveredAt": "2026-09-19T20:24:35.268Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "28cb97a2105",
-      "title": "Gordon Murray - Executive Director, Wood Pellet Association of Canada - ca.linkedin.com",
-      "summary": "Gordon Murray - Executive Director, Wood Pellet Association of Canada ca.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBjeFJZRzdIVE9hdXVnRm8tb0dvX1cxUGRFOFRMUjZNcTF4OERGbHlMSGFOY1JvejhCUHpXMnBoaVlDUVRPaGd0RzNjM3cxV1A2OHJUaXppaUJWVjVjdnc?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2015-11-10T04:11:05.000Z",
-      "discoveredAt": "2026-09-20T00:54:13.748Z",
       "channel": "linkedin",
       "isNew": false
     }
