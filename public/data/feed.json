@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-02T06:08:08.348Z",
-  "crawlDurationMs": 18701,
+  "updatedAt": "2026-10-02T13:07:10.167Z",
+  "crawlDurationMs": 19400,
   "stats": {
     "total": 500,
-    "tenders": 117,
-    "purchase": 86,
-    "news": 297,
+    "tenders": 118,
+    "purchase": 87,
+    "news": 295,
     "portals": 84,
-    "linkedin": 372,
-    "newThisCrawl": 17,
+    "linkedin": 375,
+    "newThisCrawl": 11,
     "withCompany": 120
   },
   "sources": [
@@ -86,15 +86,15 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 28,
+      "count": 27,
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
       "ok": true,
@@ -135,21 +135,21 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 33,
+      "count": 31,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 72,
+      "count": 71,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 9,
+      "count": 8,
       "error": null
     },
     {
@@ -952,6 +952,23 @@
       "isNew": false
     },
     {
+      "id": "1665cc6315d",
+      "title": "NTPC Dadri Biomass Pellet Tender 2026: A 3.78 Lakh MT Business Opportunity for Biomass Manufacturers and Traders - LinkedIn",
+      "summary": "NTPC Dadri Biomass Pellet Tender 2026: A 3.78 Lakh MT Business Opportunity for Biomass Manufacturers and Traders LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONVF1YklqaVB4bVZZQVlnLXBqNXZHSVROUmFndmhtLUJxSW94ZDRRMjdJQXhhSzMzek8za08tOEZ6ZEdwUFF3QjM2ZkYwNndHTWx1ckZ2M0hvNm5FRUtDRUVjd055QXFuSzJOSXZPdGR4UVVyZ1l6R2RydzZYUGcwWk1EX2w?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 94,
+      "publishedAt": "2026-08-03T07:00:00.000Z",
+      "discoveredAt": "2026-10-02T13:06:53.203Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "476c7dce22c",
       "title": "🔔 Tender Notification – NTPC Dadri 🔔 🌿 Procurement of Non-Torrefied Biomass Pellets (V2) NTPC Limited, under the aegis of the Ministry of Power, invites online bids through GeM for the supply, loading, transport, and delivery of Agro-Residue-Based Bioma - LinkedIn",
       "summary": "🔔 Tender Notification – NTPC Dadri 🔔 🌿 Procurement of Non-Torrefied Biomass Pellets (V2) NTPC Limited, under the aegis of the Ministry of Power, invites online bids through GeM for the supply, loading, transport, and delivery of Agro-Residue-Based Bioma LinkedIn",
@@ -1058,7 +1075,7 @@
       "publishedAt": "2026-09-19T07:00:00.000Z",
       "discoveredAt": "2026-10-02T06:07:51.640Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "08b03fb0247",
@@ -1980,7 +1997,7 @@
       "publishedAt": "2022-05-24T00:29:05.000Z",
       "discoveredAt": "2026-10-02T06:07:50.776Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "fb8953cad72bd18c",
@@ -2734,6 +2751,21 @@
       "discoveredAt": "2026-09-20T23:11:30.716Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "29ac074d22a",
+      "title": "Cleaner Power, Lower Emissions, Stronger Rural economy. 🌾⚡ Biomass co-firing delivers benefits for the environment, farmers and India’s energy future. #biomasscofiring #cleanenergy #SAMARTHMission #nationalbiomassmission - LinkedIn",
+      "summary": "Cleaner Power, Lower Emissions, Stronger Rural economy. 🌾⚡ Biomass co-firing delivers benefits for the environment, farmers and India’s energy future. #biomasscofiring #cleanenergy #SAMARTHMission #nationalbiomassmission LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPd0oxRnQtVkhlT2RWS3VEOTF0emFpSWp4T3NxaHRNdF9fZHlrb1VyRzdLekVvcDhPekp5MDJMRFNvc0NMdDhROExhVEdXZmtlYV9zUXE1b0U1eGRVdXg4eDVwVFVGQVU5S3NEejBEc25ELUlkUzR0emtyTjZYcm91bGp4VV9CblVHV2lQajhVc1U4UXF3SEY1OFlrVzRyczVOYk4xdVh2c3d6M003NFlucjNUSk9hWGdRUEpSaUd2eHF6VzhJeW4xV1lIY2Y?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "purchase",
+      "companies": [],
+      "score": 76,
+      "publishedAt": "2025-12-18T08:00:00.000Z",
+      "discoveredAt": "2026-10-02T13:06:53.205Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "1940bad211f",
@@ -3951,7 +3983,7 @@
       "publishedAt": "2026-09-28T13:19:43.000Z",
       "discoveredAt": "2026-10-02T06:07:50.775Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "48adf223196",
@@ -3981,7 +4013,7 @@
       "publishedAt": "2026-09-28T06:55:55.000Z",
       "discoveredAt": "2026-10-02T06:07:51.639Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5babb23b240",
@@ -4011,7 +4043,7 @@
       "publishedAt": "2026-09-26T08:35:20.000Z",
       "discoveredAt": "2026-10-02T06:07:51.639Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2aee27e8219",
@@ -4055,6 +4087,21 @@
       "score": 70,
       "publishedAt": "2026-09-25T07:50:24.000Z",
       "discoveredAt": "2026-10-02T06:07:51.640Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "282e20d9233",
+      "title": "From biomass waste to high-value charcoal. Agro residues, forestry biomass and horticulture prunings can be transformed into a useful carbon-rich fuel through torrefaction. At Verda EnviroTech, our waste-to-charcoal solutions are designed to support resourc - LinkedIn",
+      "summary": "From biomass waste to high-value charcoal. Agro residues, forestry biomass and horticulture prunings can be transformed into a useful carbon-rich fuel through torrefaction. At Verda EnviroTech, our waste-to-charcoal solutions are designed to support resourc LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbmFYUG9wTVFobVdQTzdXUlVSemZMS0M2RFNNLVljQXVsS01Sa3BOeXBDSUd4TjlfT3gta014ZURTa05nMXJpS2xrWkl1Vnc5Z0k3c3pqaVVXckJLaW94VGdCeVUwdWFDc1cwdjk2YjVJLTBjMGJudzliQWtPVHE4U0VuUElhUGZqZzJGb2RmX1hnN0JweU9sY294VVNVcWEySDRFWlpSWGZLYnFramR5TzlySS11VFot?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-25T07:50:24.000Z",
+      "discoveredAt": "2026-10-02T13:06:53.204Z",
       "channel": "linkedin",
       "isNew": true
     },
@@ -5258,7 +5305,7 @@
       "publishedAt": "2026-07-11T07:00:00.000Z",
       "discoveredAt": "2026-10-02T06:07:51.640Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "591a43081ad",
@@ -6136,7 +6183,7 @@
       "publishedAt": "2025-09-25T07:00:00.000Z",
       "discoveredAt": "2026-10-02T06:07:51.641Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7f6944ea24c",
@@ -7935,56 +7982,6 @@
       "discoveredAt": "2026-10-01T07:47:23.030Z",
       "channel": "linkedin",
       "isNew": false
-    },
-    {
-      "id": "b18ffbcb72c60b91",
-      "title": "Haryana launches e-portal for brick kilns, mandates registration to monitor paddy straw pellet use - tribuneindia.com",
-      "summary": "Haryana launches e-portal for brick kilns, mandates registration to monitor paddy straw pellet use tribuneindia.com",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQXzczMkVsclYtblVnRFp1OFhlN2hwWFNZLWV3dFdOSktkaEtVTjFPbVpUaXR1NW9qZUM5RmRVVnR1N0NfV3p6WXRkZnl1WEc3al9VSXJ4ZHdmZ2VnSEhacFprMlJHa0h3TjdTLW8zbFBlUWhXcEYyRUlVdzBtbFhYN1RPM24xeW9NN0hpci1DWklYekR0a2IyeW45cGJ2WHpRNFhhR2pseGpWTnlkRENYalE5V0E5OUJpVFFvY1IySmZseE9wV3cxQVNyX0NUcXNqZ2RYMTdmQdIB2wFBVV95cUxPYjQ3VmNlMzZpTDRibVlFeTJwQko5RGgwRzhWdXVYZ3ZSQmVDM2d1dUtDdE1Bb183bXdFRDFoSmJLaFFTRmE4SGUtSTk0S1VITzk0NU8zQk9YNkFOeVIydm1wXzUwOTJrWE0yb0lFcl80WHRhdGRlQnRQSWpqSEp2VmJsX00ta0VDei1mMlVydWNBR25Bam9WSXdKamRROUhnRElXb0hVcFlRS21La2N4WXNodGQwQTIwWWhlcHQxaXpKQmYydjQtdlVEYnVHeUtsdmR6T01ZMU5Bbms?oc=5",
-      "source": "google_news",
-      "sourceLabel": "State utilities",
-      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "type": "news",
-      "companies": [],
-      "score": 55,
-      "publishedAt": "2026-07-24T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T17:42:28.977Z",
-      "channel": "news",
-      "isNew": false
-    },
-    {
-      "id": "4c700490e5f60014",
-      "title": "HOMRE Limited Accelerates Growth with Strong FY 2025-26 Performance and Launch of Biomass Pellet Plant in Bharatpur - tribuneindia.com",
-      "summary": "HOMRE Limited Accelerates Growth with Strong FY 2025-26 Performance and Launch of Biomass Pellet Plant in Bharatpur tribuneindia.com",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPNVU3M2FrRlpXaE5qM0RMMGdWanMzb2lla1BYOS1vQzN6NHJiY3B3OVg2bUw0aHNEOEhwWC12encxQ2hvZHZZbVZLbDR1a2M1aEdQS0xYSlRiR1d3UFBDSmswZVVTOFBXXzE0NTFsN3hZZzBxS3JpSF8xSFR1eDhiYm1xQXpBQ1ZILWd1NmhBSjhMV3lyUmNmWHFsTnRhUkJGSDNUNjkzY3d1bm5BS2JfM3A1ODljRHNtN01PRGFYYlNCLWVqLVhhYkxkUTgwbnZtUUk2UE4yT3doVnBxVUxpSzByVXVRbTdhMXYtQVBQRFHSAfQBQVVfeXFMUE1WNGpHSW1xeF93cERjMkN6OFpNX3BqRThqN1E5Ujk2SnJld0FGbDF5bGNYUEdlbFF5OTZJUjgxQzAtcG5xVGRiQ2hRZWE4MEMzMWxVcXYySERiNmkxYUNhM3RubzN0MzR2OEdIaWZMMnhmeEgyQkRXX2hhSjRlWTZ5WVA5clU0MnYwdDc2YXVnV3JTSHdyc2lZY010QURxTDB3Uk1yWnJWTE4tRmRESFdCSEJLNTJvUjBXemo3NGtudDdoazRqaFUway0wa0VjbTRPMjN0Y1A0bVlkZ1FCTG05bF9iTHI5Wm12N3ZsY2s1R2hsbA?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Pellet NITs IN",
-      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "type": "news",
-      "companies": [
-        "ACC"
-      ],
-      "score": 55,
-      "publishedAt": "2026-07-01T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T17:42:28.961Z",
-      "channel": "news",
-      "isNew": false
-    },
-    {
-      "id": "84fdaf4f24103408",
-      "title": "Stubble to power: Pellet use soars 2,392 times in 3 years in Punjab; rises by 59 times in Haryana - The Times of India",
-      "summary": "Stubble to power: Pellet use soars 2,392 times in 3 years in Punjab; rises by 59 times in Haryana The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPUU5fYU4wb1RIMGx4d3dBTFUxVDdFZFF4YUhaanVkMVF3aUhuQ1dqNFJaZENhZ2JlaWZ1NEFqZW1fUjNPemxtN191WW5ucXVEQXdybHRGQnpzY283djE0U3dyVFZQTVA5QjRlOVRhVUlmOWsyNUNrVXVNSHRabkJsbUhMd3BndmUxOEtTcVBaV1NuUGNlMklMU0RMbHh4T1VjeTJoMWNqRW5WODNVT3BLdjR4MkxiMkhjZWoyblFyUUNWN2xPTEgxWmpCajFrc093SVRiaTloRkFjOTVtaktob2VMcFVMV0NfLWt2MjNEZUxKU3g5emVMV3BWU09kZ1lpSVHSAYcCQVVfeXFMT2FOT0Zvb0EwdElVMkhfYXhvSXVCRVZ4YnpObFVKSDVCckh3Mzh0NmY1T3FDWVJPZWRzcEZZclVNVzNWUWJiVFRROFRrbDRmT09FU2Q5b0puSFV0bXhCZFAxQXg4b3RyM2ZmQ3R1a0JaTWxkaVZJUkVhOENDVTd2b1gwN1hRZ3lsWVBlcEtlcDBSTWVKd3lBbXhXUFNxam9TQ2R1ZDVEVFZqZi1rVFZreFZQdVdrVkhlME5tblBKNjNYRUZ0QUxDamIxNUZSUXMyOWpwcmhVM3JDZERvaEp1TjNvRHZHdkdLbzBEMU5UdE5hUDJLWFlud20zMV94TWNaZ2xlbGlYcVk?oc=5",
-      "source": "google_news",
-      "sourceLabel": "State utilities",
-      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "type": "news",
-      "companies": [],
-      "score": 55,
-      "publishedAt": "2025-12-09T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:08:43.024Z",
-      "isNew": false,
-      "channel": "news"
     }
   ]
 }
