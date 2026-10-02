@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-02T13:07:10.167Z",
-  "crawlDurationMs": 19400,
+  "updatedAt": "2026-10-02T18:40:36.166Z",
+  "crawlDurationMs": 18615,
   "stats": {
     "total": 500,
-    "tenders": 118,
+    "tenders": 120,
     "purchase": 87,
-    "news": 295,
+    "news": 293,
     "portals": 84,
     "linkedin": 375,
     "newThisCrawl": 11,
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": false,
@@ -90,11 +90,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -142,7 +142,7 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 71,
+      "count": 69,
       "error": null
     },
     {
@@ -957,7 +957,7 @@
       "summary": "NTPC Dadri Biomass Pellet Tender 2026: A 3.78 Lakh MT Business Opportunity for Biomass Manufacturers and Traders LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONVF1YklqaVB4bVZZQVlnLXBqNXZHSVROUmFndmhtLUJxSW94ZDRRMjdJQXhhSzMzek8za08tOEZ6ZEdwUFF3QjM2ZkYwNndHTWx1ckZ2M0hvNm5FRUtDRUVjd055QXFuSzJOSXZPdGR4UVVyZ1l6R2RydzZYUGcwWk1EX2w?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -966,7 +966,7 @@
       "publishedAt": "2026-08-03T07:00:00.000Z",
       "discoveredAt": "2026-10-02T13:06:53.203Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "476c7dce22c",
@@ -1121,6 +1121,21 @@
       "discoveredAt": "2026-09-29T16:28:48.685Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "549c4ab7105",
+      "title": "Nitish Jain - Owner @ Vishesh Industries | Manufacturer of Biomass Pellet - LinkedIn India",
+      "summary": "Nitish Jain - Owner @ Vishesh Industries | Manufacturer of Biomass Pellet LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBnR1JJZ05ublV4VW9GOTB3dEtYbFZ3enNkV0pidnBLWExWZkZVcjhsd0V1LWFuaEEzQnMwY0ktdmdrd18zUEtIQXBZMTdGdTFPX0xoYVFtSWxFYWU4?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "tender",
+      "companies": [],
+      "score": 90,
+      "publishedAt": "2026-07-26T23:41:33.000Z",
+      "discoveredAt": "2026-10-02T18:40:19.254Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "4ce2aa4824f",
@@ -2000,6 +2015,21 @@
       "isNew": false
     },
     {
+      "id": "5e134be4193",
+      "title": "Faizan Hussain - - Plant Lead (Biomass Pellet) | Admin Lead | Masters Economics | Building & Facility Management | Gate Operations | Events Management | UAE-LMV License holder | E-Commerce & Digital Marketing - LinkedIn Pakistan",
+      "summary": "Faizan Hussain - - Plant Lead (Biomass Pellet) | Admin Lead | Masters Economics | Building & Facility Management | Gate Operations | Events Management | UAE-LMV License holder | E-Commerce & Digital Marketing LinkedIn Pakistan",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkeS1GZ0EyNTBHQUQ2UG5UQzBJTVhkY1JycHhLbDFXaGJzaGdhVVU3aS04NHVXeGx2Rk9weXRpa3laaGkwVndySTZ3Qm8wal84ZEFZb2N5am5RY0NtWEU0?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "tender",
+      "companies": [],
+      "score": 74,
+      "publishedAt": "2022-05-24T00:29:05.000Z",
+      "discoveredAt": "2026-10-02T18:40:19.255Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "fb8953cad72bd18c",
       "title": "NTPC Invites Bids to Procure 219,000 Tons of Biomass Pellets - Mercomindia.com",
       "summary": "NTPC Invites Bids to Procure 219,000 Tons of Biomass Pellets Mercomindia.com",
@@ -2765,7 +2795,7 @@
       "publishedAt": "2025-12-18T08:00:00.000Z",
       "discoveredAt": "2026-10-02T13:06:53.205Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1940bad211f",
@@ -4103,7 +4133,7 @@
       "publishedAt": "2026-09-25T07:50:24.000Z",
       "discoveredAt": "2026-10-02T13:06:53.204Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4827d619232",
@@ -7950,36 +7980,6 @@
       "score": 70,
       "publishedAt": "2015-11-10T04:11:05.000Z",
       "discoveredAt": "2026-09-20T00:54:13.748Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "4c57a2a61a4",
-      "title": "Bipin Kumar - Heading Project of Green Energy Production -Bio Mass Pellet Plant,Bio Char Production Plant, Carbon Credit Business, Bio Fertilizer Business as well as Domestic Coal Supply Segment to our Power-Cement- Brick Kiln Indus. - LinkedIn India",
-      "summary": "Bipin Kumar - Heading Project of Green Energy Production -Bio Mass Pellet Plant,Bio Char Production Plant, Carbon Credit Business, Bio Fertilizer Business as well as Domestic Coal Supply Segment to our Power-Cement- Brick Kiln Indus. LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hY09YY0NHeVVNZXdyQmZZMDJRQW8xdUR1Y09nRTJlbzhQWm9KbDRFUlRtUUhfQ2w5Y3NnNTREOFh2SktHM1ZXZW9IREdhaG00emlkdkVmajJQckU?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2015-11-09T15:49:38.000Z",
-      "discoveredAt": "2026-09-27T20:21:58.557Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "65ceedcc146",
-      "title": "Ramesh Kumar N. - ASHDEN AWARD winner.. three decades of experience in biomass technologies-Pellet/Briquette, Cook Stoves/Burners, Continuous Biochar Pyrolyser. - LinkedIn India",
-      "summary": "Ramesh Kumar N. - ASHDEN AWARD winner.. three decades of experience in biomass technologies-Pellet/Briquette, Cook Stoves/Burners, Continuous Biochar Pyrolyser. LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE03R3lUdGlGTU1va0ZyeEd2NnlSYXBsOGc1alhzN2pSWHFsN1VhT3F3cHp2WnlOS05SeXVLVzR5WmJhcVpNUU1FSlVqYw?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2015-07-22T02:18:29.000Z",
-      "discoveredAt": "2026-10-01T07:47:23.030Z",
       "channel": "linkedin",
       "isNew": false
     }
