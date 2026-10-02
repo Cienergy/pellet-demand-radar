@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-02T00:09:46.998Z",
-  "crawlDurationMs": 18638,
+  "updatedAt": "2026-10-02T06:08:08.348Z",
+  "crawlDurationMs": 18701,
   "stats": {
     "total": 500,
-    "tenders": 114,
-    "purchase": 84,
-    "news": 302,
+    "tenders": 117,
+    "purchase": 86,
+    "news": 297,
     "portals": 84,
-    "linkedin": 361,
-    "newThisCrawl": 7,
-    "withCompany": 122
+    "linkedin": 372,
+    "newThisCrawl": 17,
+    "withCompany": 120
   },
   "sources": [
     {
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 30,
+      "count": 28,
       "error": null
     },
     {
@@ -97,11 +97,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -142,7 +142,7 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 74,
+      "count": 72,
       "error": null
     },
     {
@@ -156,7 +156,7 @@
       "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 8,
+      "count": 7,
       "error": null
     },
     {
@@ -1001,6 +1001,21 @@
       "isNew": false
     },
     {
+      "id": "4c4bfb84224",
+      "title": "🇨🇳 🤝 🇮🇳 🤝 🇮🇩 GLOBAL TECHNOLOGY. STRONG PARTNERSHIPS. GROWING BIOMASS OPPORTUNITIES. Proud to see our technology partner Shandong Yulong Machine Co., Ltd. representing biomass processing and pelletization solutions at IFMAC W - linkedin.com",
+      "summary": "🇨🇳 🤝 🇮🇳 🤝 🇮🇩 GLOBAL TECHNOLOGY. STRONG PARTNERSHIPS. GROWING BIOMASS OPPORTUNITIES. Proud to see our technology partner Shandong Yulong Machine Co., Ltd. representing biomass processing and pelletization solutions at IFMAC W linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLUo5Y2pNODVJR1lDZ3ZuTldRQkpnaFlST1NjUW5VcF80VFprT095WDNyR2NDbF9qcWNRUENvVFV0WEZoeFhWQkFIbEgwckhxbXlpQlUyYzJ6OVZQYmxHMnZsV1RPLWo4bjZfSzNtMnU5ZElMQndMbS1BYVk4U0JhRG12QjlJX3FqNUxncnRxNGQzVVliNmdQWUhObl8zVVFTUGhjbm9lMF9iVy1fVHpDbUZoWEUzV3h0MUFOeQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 90,
+      "publishedAt": "2026-09-23T14:08:17.000Z",
+      "discoveredAt": "2026-10-02T06:07:50.775Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
       "id": "064bf2d7168",
       "title": "Germany Wood Pellet Stoves Market Outlook: Growth Opportunities and Emerging Trends - LinkedIn",
       "summary": "Germany Wood Pellet Stoves Market Outlook: Growth Opportunities and Emerging Trends LinkedIn",
@@ -1029,6 +1044,21 @@
       "discoveredAt": "2026-09-30T18:06:54.307Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "11a91e1b229",
+      "title": "♻️🇮🇳 India’s Biogas Opportunity Is Really a Feedstock-Engineering Challenge India has enormous quantities of agricultural and food-chain residues. The challenge is converting heterogeneous, seasonal and geographically dispersed biomass into reliable i - linkedin.com",
+      "summary": "♻️🇮🇳 India’s Biogas Opportunity Is Really a Feedstock-Engineering Challenge India has enormous quantities of agricultural and food-chain residues. The challenge is converting heterogeneous, seasonal and geographically dispersed biomass into reliable i linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWmZuRFJIaGVNZnFGYXVlWmV0MWFodFN0ZEhnVnBubnR2NldFMDNYanJmTnpXTjEwaFJPVVFrNkstNldleXpLdDUxeHBnWktTNkZMbmV4OG4zazZyOVVRY0xDWldTcENud0VadG4yZ2w1N0s5UVI1Qk9mNXpPWUJrc21fV241Y0ozN0hGX2RJTFV2ZzJfWC1FRktpbHBpa0M4V2s5Xy1pUVZCMndrSkRnWA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 90,
+      "publishedAt": "2026-09-19T07:00:00.000Z",
+      "discoveredAt": "2026-10-02T06:07:51.640Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "08b03fb0247",
@@ -1938,6 +1968,21 @@
       "isNew": false
     },
     {
+      "id": "62140661191",
+      "title": "Faizan Hussain - - Plant Lead (Biomass Pellet) | Admin Lead | Masters Economics | Building & Facility Management | Gate Operations | Events Management | UAE-LMV License holder | E-Commerce & Digital Marketing - pk.linkedin.com",
+      "summary": "Faizan Hussain - - Plant Lead (Biomass Pellet) | Admin Lead | Masters Economics | Building & Facility Management | Gate Operations | Events Management | UAE-LMV License holder | E-Commerce & Digital Marketing pk.linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkeS1GZ0EyNTBHQUQ2UG5UQzBJTVhkY1JycHhLbDFXaGJzaGdhVVU3aS04NHVXeGx2Rk9weXRpa3laaGkwVndySTZ3Qm8wal84ZEFZb2N5am5RY0NtWEU0?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "tender",
+      "companies": [],
+      "score": 74,
+      "publishedAt": "2022-05-24T00:29:05.000Z",
+      "discoveredAt": "2026-10-02T06:07:50.776Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "fb8953cad72bd18c",
       "title": "NTPC Invites Bids to Procure 219,000 Tons of Biomass Pellets - Mercomindia.com",
       "summary": "NTPC Invites Bids to Procure 219,000 Tons of Biomass Pellets Mercomindia.com",
@@ -2718,7 +2763,7 @@
       "publishedAt": "2026-09-26T20:36:15.000Z",
       "discoveredAt": "2026-10-02T00:09:30.089Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "15d1bf72214",
@@ -2766,6 +2811,21 @@
       "score": 73,
       "publishedAt": "2026-07-19T07:00:00.000Z",
       "discoveredAt": "2026-10-01T01:33:27.297Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "2777e8aa248",
+      "title": "There is a fuel business in India where mandated demand is thirteen times the industry's entire capacity. Coal power plants must co-fire 5 to 7 percent biomass pellets. Full compliance needs roughly 95,000 tonnes of pellets every day. The whole country can m - linkedin.com",
+      "summary": "There is a fuel business in India where mandated demand is thirteen times the industry's entire capacity. Coal power plants must co-fire 5 to 7 percent biomass pellets. Full compliance needs roughly 95,000 tonnes of pellets every day. The whole country can m linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNTdYb0lseTBmdmxvU0R2SlNOLXpOaWNzWDNpOVMtU2N4akcwV3Jac1RORklZUTlKcHpSa0YyNnBOUm1ONnJpX05oMWlhQTJlU0ptM3o3dUhYTFk3ZzF0MFV3T1dnOU1JUXY3UDV3cVplTGg3YnJicW92bzhVSHowUkN5eFIyZFFXa3dYVTFlXzJiQmV3cTVvcFoxOWhqbWxDSGZMNDYtdVpJTnBYc2ZSeGZ4RERqbkRiNEttUk1UQWRUbXpH?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2026-07-19T07:00:00.000Z",
+      "discoveredAt": "2026-10-02T06:07:50.775Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -2871,6 +2931,21 @@
       "score": 73,
       "publishedAt": "2026-01-07T08:00:00.000Z",
       "discoveredAt": "2026-10-01T15:24:13.566Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "114a47c2241",
+      "title": "Want to Start a Biomass Pellet Plant in India? Here's What You Need to Know. The government just issued ₹61.85 crore in penalties to power plants for missing co-firing targets. With mandatory 7% co-firing and a 12+ million tonne supply gap, biomass pellet m - linkedin.com",
+      "summary": "Want to Start a Biomass Pellet Plant in India? Here's What You Need to Know. The government just issued ₹61.85 crore in penalties to power plants for missing co-firing targets. With mandatory 7% co-firing and a 12+ million tonne supply gap, biomass pellet m linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTXdfbU8yMnhZYmV1U21md1hycXFSbWtidEhrVVk3NVREMU4weFRGOUl0YXh4dnpGLXVrdEJ6T2JaVlVvSF9kT213Z0hBSUxxVFFMWFNYMGJ2aHZra21tVlFvcW40Tk9Da1JzeFE3YjlVR2lxV0p1c1VsWnJKTHlJNkNGZ1BkS1JRUjNCa1ptNGNZZG9zUFFOaXdhQ0I0bTJHSTZwLXZpN2ZHTnMxbXlleWY2dUlLQWpjNkdzOXJicw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2026-01-07T08:00:00.000Z",
+      "discoveredAt": "2026-10-02T06:07:50.774Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -3864,6 +3939,21 @@
       "isNew": false
     },
     {
+      "id": "0834c836161",
+      "title": "Europe Needs More Wood Pellets. Brazil Is Already Supplying Them - linkedin.com",
+      "summary": "Europe Needs More Wood Pellets. Brazil Is Already Supplying Them linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTEJraE1xQS0wTVBITlBSNDRuNFpsZmo0M1I2TjhpbHRpN1l0RVlLNTA4MWdSeTViU05ncHFwRDJRUk5VbFc5TjNST2FQd0FqcVlJa3FCNGMydFJBV0hmSVZIb3h1aTNyMEFXQUpqc2NHR2tLSV9TeDItNzZhUVR3SGpwLWoxV00xOGs2TVRPMFphaEdZc3Awd1NucnVBMHhOTFBPTjNhQmY?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-28T13:19:43.000Z",
+      "discoveredAt": "2026-10-02T06:07:50.775Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "48adf223196",
       "title": "Punjab set to double number of paddy straw pellet plants - Bioenergy Insight Magazine - LinkedIn",
       "summary": "Punjab set to double number of paddy straw pellet plants - Bioenergy Insight Magazine LinkedIn",
@@ -3879,6 +3969,21 @@
       "isNew": false
     },
     {
+      "id": "516bfe5019a",
+      "title": "Punjab set to double number of paddy straw pellet plants - Bioenergy Insight Magazine - linkedin.com",
+      "summary": "Punjab set to double number of paddy straw pellet plants - Bioenergy Insight Magazine linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbkpkTkxYQWl3THlVampiUUxreDdMcjNuVTdEVEFOQ3BGX3Bpc3FXQ1llZVozWVBzak9ab2RjRGhCNUhJWEg2cE5rdFF1Q2VIM2xPaDMyVUp5UVBCWXdLYlBSMFVqRTBpSTB1VTQ3OWxJSE84UFdTZWpWLVF1bk9rWjM2UEtSVVRSUEo4cFJyMFVJZ3VZWUNQVTBwUFF2SUd5ckt3Si15S3dFSWw2bS1naWRVRENDdG9HZzF0MTdVQWZlbHc?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-28T06:55:55.000Z",
+      "discoveredAt": "2026-10-02T06:07:51.639Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "5babb23b240",
       "title": "From residue to resource. From resource to energy. Agricultural residue can be processed into biomass pellets and utilised alongside coal in thermal power generation. Mission SAMARTH continues to support the development of a stronger biomass ecosyste - LinkedIn",
       "summary": "From residue to resource. From resource to energy. Agricultural residue can be processed into biomass pellets and utilised alongside coal in thermal power generation. Mission SAMARTH continues to support the development of a stronger biomass ecosyste LinkedIn",
@@ -3892,6 +3997,21 @@
       "discoveredAt": "2026-09-30T22:34:26.500Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "30dbf268244",
+      "title": "From residue to resource. From resource to energy. Agricultural residue can be processed into biomass pellets and utilised alongside coal in thermal power generation. Mission SAMARTH continues to support the development of a stronger biomass ecosyste - linkedin.com",
+      "summary": "From residue to resource. From resource to energy. Agricultural residue can be processed into biomass pellets and utilised alongside coal in thermal power generation. Mission SAMARTH continues to support the development of a stronger biomass ecosyste linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYzFFajhfSG8tdGFDUW5mOHBrWTY5OExlRTIyTUZXMXphb212WTZzaVQtYk12RzFScTk4cHdnbEVhbWdNNmZ4RFVTN25zUUg3MXY3UkZIVmZiTkNJVEV1aXctSDJnWEs2U3B2eUJEd1BTemtZMVhVbU85Zm82VjlESGRYM3hkQ2NYTDFOaURNUmtrVklyby1aXzhTVkN1WnNUWkQzT3k4TW1lLUsyMFRGY0xIZERjX1pVa05hT0Ffa2w1WnBQYlBj?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-26T08:35:20.000Z",
+      "discoveredAt": "2026-10-02T06:07:51.639Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "2aee27e8219",
@@ -3922,6 +4042,21 @@
       "discoveredAt": "2026-09-29T16:28:48.682Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "5cf636ac237",
+      "title": "From biomass waste to high-value charcoal. Agro residues, forestry biomass and horticulture prunings can be transformed into a useful carbon-rich fuel through torrefaction. At Verda EnviroTech, our waste-to-charcoal solutions are designed to support resourc - linkedin.com",
+      "summary": "From biomass waste to high-value charcoal. Agro residues, forestry biomass and horticulture prunings can be transformed into a useful carbon-rich fuel through torrefaction. At Verda EnviroTech, our waste-to-charcoal solutions are designed to support resourc linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbmFYUG9wTVFobVdQTzdXUlVSemZMS0M2RFNNLVljQXVsS01Sa3BOeXBDSUd4TjlfT3gta014ZURTa05nMXJpS2xrWkl1Vnc5Z0k3c3pqaVVXckJLaW94VGdCeVUwdWFDc1cwdjk2YjVJLTBjMGJudzliQWtPVHE4U0VuUElhUGZqZzJGb2RmX1hnN0JweU9sY294VVNVcWEySDRFWlpSWGZLYnFramR5TzlySS11VFot?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-25T07:50:24.000Z",
+      "discoveredAt": "2026-10-02T06:07:51.640Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "4827d619232",
@@ -5111,6 +5246,21 @@
       "isNew": false
     },
     {
+      "id": "764666fe24d",
+      "title": "Biomass and biofuel marketplace BiofuelCircle has raised Rs 35 crore in a funding round led by Pooja Unichem LLP, with participation from Varanium Venture, Rajeev Kumar, Karma Capital Advisors Private Limited and other investors. Founded in 2020, the c - linkedin.com",
+      "summary": "Biomass and biofuel marketplace BiofuelCircle has raised Rs 35 crore in a funding round led by Pooja Unichem LLP, with participation from Varanium Venture, Rajeev Kumar, Karma Capital Advisors Private Limited and other investors. Founded in 2020, the c linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUjdaaGxLbC0tQXp0TTdJOUJaczlsajg1dWtPYlNLVzZLbmtvS2NETjByMm5HcTE4dkFFT2lSQ3ZGQUxyVHhDMF9XcGxtUV9xOTR5US1vVnI0MENNVWJrdloxeXBVcVQyUlctMXN2WW1nbFZHZE9lVWl2TEo4R01aZGpyNXZPYTJBeUdfLXQ1ZWwyUE9mejdsRWE4N1E1STVyZ1pkT2ZwOEQ1YlNLOTN6ODVVRG5RUXVsNk9HdlJmT2NGenFRNFU4dXV3Vnk?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-07-11T07:00:00.000Z",
+      "discoveredAt": "2026-10-02T06:07:51.640Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "591a43081ad",
       "title": "Khushi Jayswal - Plant HR & HRBP |Biofuel/ Biomass Industry &FMCG |End-to-End HR Operations |Recruitment • Payroll • Labor Compliance • Employee Relations |Training & Development |Exhibitions For BusinessGrow |PMS | China Import/Export - LinkedIn India",
       "summary": "Khushi Jayswal - Plant HR & HRBP |Biofuel/ Biomass Industry &FMCG |End-to-End HR Operations |Recruitment • Payroll • Labor Compliance • Employee Relations |Training & Development |Exhibitions For BusinessGrow |PMS | China Import/Export LinkedIn India",
@@ -5972,6 +6122,21 @@
       "discoveredAt": "2026-09-20T00:54:14.753Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "46c55b2217d",
+      "title": "Biomass Power Plant Project Report 2025: Business Plan, Capital Investment & Profit Analysis - linkedin.com",
+      "summary": "Biomass Power Plant Project Report 2025: Business Plan, Capital Investment & Profit Analysis linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWmJJeE92NUxxTlFraVpfVHdVUEtaTnl1Y1piZ0laYVF3VGsxN1lyTlIxd2YtbmhNRHF2UW1vQnEtWkVsMzdRZWxJNWlqd0ZPR3QzQzlvaEQxRGlIRk1YbmFZXzFSTUx4dU9JYzRpbktqTHJoTlM5Uk5ja2xVcE9wQV9uOVBiV3BjNkFDb2dLYlJwQjlkZTdhN0FORUlvS1NIVmllWHRrZEE?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2025-09-25T07:00:00.000Z",
+      "discoveredAt": "2026-10-02T06:07:51.641Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "7f6944ea24c",
@@ -6997,7 +7162,7 @@
       "publishedAt": "2023-05-04T17:26:49.000Z",
       "discoveredAt": "2026-10-02T00:09:30.675Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "30509b3fdd",
@@ -7820,183 +7985,6 @@
       "discoveredAt": "2026-09-19T05:08:43.024Z",
       "isNew": false,
       "channel": "news"
-    },
-    {
-      "id": "dc094bda957de9ce",
-      "title": "Pralhad Joshi Launches 240 TPD Biomass Pellet Facility in Haryana - Mercomindia.com",
-      "summary": "Pralhad Joshi Launches 240 TPD Biomass Pellet Facility in Haryana Mercomindia.com",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNVVlcm01ajJzdWZ0S1BVaUdVb1BtS09mSlYwNk1BN3hVQnBaampaT3paRXd3NS0wb2hLVlh5bU9ldHJTTUhtbWNPX19PREdNVVlBVi12dTNXY25uZ3pHYnVPaTdLaHk4RmpsMnp4cnloZ1JzWW1pNWZ2bzMwbzdoekhfRTVwd29KYnBMZ3hwc0JtaWc?oc=5",
-      "source": "google_news",
-      "sourceLabel": "State utilities",
-      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "type": "news",
-      "companies": [],
-      "score": 55,
-      "publishedAt": "2025-11-25T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:08:42.995Z",
-      "isNew": false,
-      "channel": "news"
-    },
-    {
-      "id": "39d3e727979a9807",
-      "title": "Pralhad Joshi Launches 240 TPD Biomass Pellet Facility in Haryana - mercomindia.com",
-      "summary": "Pralhad Joshi Launches 240 TPD Biomass Pellet Facility in Haryana mercomindia.com",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNVVlcm01ajJzdWZ0S1BVaUdVb1BtS09mSlYwNk1BN3hVQnBaampaT3paRXd3NS0wb2hLVlh5bU9ldHJTTUhtbWNPX19PREdNVVlBVi12dTNXY25uZ3pHYnVPaTdLaHk4RmpsMnp4cnloZ1JzWW1pNWZ2bzMwbzdoekhfRTVwd29KYnBMZ3hwc0JtaWc?oc=5",
-      "source": "google_news",
-      "sourceLabel": "State utilities",
-      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "type": "news",
-      "companies": [],
-      "score": 55,
-      "publishedAt": "2025-11-25T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:29.247Z",
-      "channel": "news",
-      "isNew": false
-    },
-    {
-      "id": "6e0e2deb1f6ef1b7",
-      "title": "MNRE Minister Pralhad Joshi Inaugurates 240 TPD Biomass Pellet Plant in Rewari, Haryana - Energetica India Magazine",
-      "summary": "MNRE Minister Pralhad Joshi Inaugurates 240 TPD Biomass Pellet Plant in Rewari, Haryana Energetica India Magazine",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY3pBUllMTFFHUVZPemxhSHVTdGRidGVSbDdITm9yd3BzSmFRUXd5NHdaRXRmUC1UQ0tMWTNHeU1vZHdPWEdwdkJtZlNOVVUwSXAyUTVYTVc1TmYxS2VBdzFHMGdLMmFsMG5vb1A1WUtqY2duVjREM09mTEpKc3RTRjVFZkYyU0hwQW9zbUc0RjAweERFVFhCNHE2YnoteU1CZnJFa3A3b0FLYzQyb01MWEpmYm8yb3RaT2c3Nml3eGxhQQ?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Pellet NITs IN",
-      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "type": "news",
-      "companies": [],
-      "score": 55,
-      "publishedAt": "2025-11-25T08:00:00.000Z",
-      "discoveredAt": "2026-09-22T13:22:07.103Z",
-      "channel": "news",
-      "isNew": false
-    },
-    {
-      "id": "5345c4f5b8434b66",
-      "title": "MNRE Minister Pralhad Joshi Inaugurates 240 TPD Biomass Pellet Plant in Rewari, Haryana - energetica-india.net",
-      "summary": "MNRE Minister Pralhad Joshi Inaugurates 240 TPD Biomass Pellet Plant in Rewari, Haryana energetica-india.net",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY3pBUllMTFFHUVZPemxhSHVTdGRidGVSbDdITm9yd3BzSmFRUXd5NHdaRXRmUC1UQ0tMWTNHeU1vZHdPWEdwdkJtZlNOVVUwSXAyUTVYTVc1TmYxS2VBdzFHMGdLMmFsMG5vb1A1WUtqY2duVjREM09mTEpKc3RTRjVFZkYyU0hwQW9zbUc0RjAweERFVFhCNHE2YnoteU1CZnJFa3A3b0FLYzQyb01MWEpmYm8yb3RaT2c3Nml3eGxhQQ?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Pellet NITs IN",
-      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "type": "news",
-      "companies": [],
-      "score": 55,
-      "publishedAt": "2025-11-25T08:00:00.000Z",
-      "discoveredAt": "2026-09-23T09:54:23.565Z",
-      "channel": "news",
-      "isNew": false
-    },
-    {
-      "id": "edcf47af43b20d90",
-      "title": "Use of biomass pellets: Punjab power plants fail to meet target - The Times of India",
-      "summary": "Use of biomass pellets: Punjab power plants fail to meet target The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQkMyNFh1ME5OajVjQlhMVE43R2NPTWxqN2k5XzF1aUlIWDBMNE5FTWRjbUhyX2ttcXFkeU9yempJMEYtZUk1dW9nYXhnaF9WNmgwWDRJWEZpRHlqYWxxV3RILVI0Z2tLdjFwdExOXy1sMHdTeG9ZZDEzQmhqMVB6aHR0Z3g4QVhCMXhHcFRIR2tjRW05NktBYnlGU1BMLW44dnJELWlWcGNDSXIwd2Item41NDZxM1U2RmtlVlJ5MlFSVGNjWDd5V1c1SGJXd3c5Ym56ckxuNNIB3AFBVV95cUxNbWFXTGthNlhZZVRpOG5kSFItN08wT2JVSDVISnM2WTJwcXlNa2JyR2Z6eF9WdUN0dGZVeFZ5bkZwa0tfNzQ2dExURzhvdmpseVpQN3ZnVGstRG5oZC03MFhLTkxyUGcwOG5EaUVXcUtmVUJrbG1YMnBYdWJXc2Vsazc3enJyUmIzdktDek1FQnBLWjZiRXNyUkw1Z1MwX3JuZmJiT1oyQW9ILWZpZ0pZN0RoWk03dTItWHV3cHpIcU9VN3cwUWlIOC1tRWxwbGp5QjZUdjhXeGFpRmNH?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Torrefied / RDF",
-      "query": "(torrefied OR \"RDF pellet\" OR \"agro waste pellet\") (India) (tender OR purchase OR demand OR requirement)",
-      "type": "news",
-      "companies": [],
-      "score": 55,
-      "publishedAt": "2025-11-08T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:08:43.071Z",
-      "isNew": false
-    },
-    {
-      "id": "105dcacc0d3580e3",
-      "title": "Blending pellets unviable? PSPCL urges centre for 100% VGF for biomass power projects - The Times of India",
-      "summary": "Blending pellets unviable? PSPCL urges centre for 100% VGF for biomass power projects The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPQ19LaE94OWxHT2NQdXdUemh6d0ZOWl9vSU9ud0FjdVh3QVN5MVlPN3psU3ktODB6NnJldnFyemVWSDdfVTU0TnhQLWFNVnUtNk1uY2FTaVNLcC1BMWlWSUplOHlLc1VONjd0dklzNkhualJfU05xX0VVUjAwY0hnY21sUnhSREliMjJBcTd5UVdYM0YzRG14QUpyeTVMZHRIZmh1Y1BiZEN6N0tLd3ZrQ3lVSFR2UExYdXZvS3QyQldOYUpHVnpBYkxHYkQ5WEpLMVhPeGMyR3E5dlI5VVJnY3NzcWh4Mmwwbmd0YUVQdHZXQXfSAfgBQVVfeXFMTkVrVkNqQ1A3SlJfeXpkUnRRZ2gzMk5sUHUwMmo2LVNkd21YVG1oUmFpTFRFb0w5RmY4TEMyel95OTdPalZqb25nY1l1SmlEcm5sdWFCUlNwckpmM2d2VnY5SG8wbFVpeDZGdG54ZXFkVUtqS1lack1XUHRYT3dmX3RSN0taNTZZVWRMei1sLXllWjFSVkF5NUI4SG1KXzBabHpkQ3lXZ2NkT0xGYmNRcXlVdTBCU180Rmx6TzFKVGo2QXNra21GeE1SaVU4RnJPUkk2NG5MR0pmaUU2WUNiY1ozSWdFa3FJUWd3amVKM2M5Z09Ta3pKV1Q?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Torrefied / RDF",
-      "query": "(torrefied OR \"RDF pellet\" OR \"agro waste pellet\") (India) (tender OR purchase OR demand OR requirement)",
-      "type": "news",
-      "companies": [
-        "PSPCL"
-      ],
-      "score": 55,
-      "publishedAt": "2024-12-30T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:08:43.072Z",
-      "isNew": false
-    },
-    {
-      "id": "08906a28e8e5e6bb",
-      "title": "Power plants struggle to meet pellet blending target - The Times of India",
-      "summary": "Power plants struggle to meet pellet blending target The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaXJuUmxjMjVhZ1lMbmdzOE82eTdEaGFFT2t6dmE5Z1FXMEVPdHM3bjBVd2VzTEI3ZHRjLVNSU3VGVnM1c0lYdjBHelRTMlJJUjBCajV1cDB5czFsTGdNVlhfY3Bld2ZjTDJ0aVkzcldHOFI1dGxiWGlYZXBvTjRYQlZGd3hYbWowUzBLUUh1UXVjdU9PekNXbGF6R09UWDNVb0lLZEtlYmlWZG1mN3R0MXhGLXlveWRpRGp6Vmk4NTJHUWdPbUh6RnhB0gHPAUFVX3lxTE5sLU9RNkJ4Y0M5SVdxeFNvalhSY0ZLcFVJYk5ES1FiWXZUT282QmdOUW94QjlRaFZBVXpUa1dRY1k4RnhHeUxlcWlUdlJDYkVJZ0RqSlRjZ2hmNkttT0hiNFFfdl9QVVczMmFxWUFtWFZpYldZTk9oRlp0YnItazM2d0dEUXpJeEp4VEM0ZjhUckd0aFFrMnlsZmFFOFZtM1ZydUQ2dDFaajBWSGZSZjRYUkZhYTJSb2FJUDZPYzNaZmMtNzNTaDlkeEtwZ2hCWQ?oc=5",
-      "source": "google_news",
-      "sourceLabel": "State utilities",
-      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "type": "news",
-      "companies": [],
-      "score": 55,
-      "publishedAt": "2024-12-29T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:08:42.997Z",
-      "isNew": false,
-      "channel": "news"
-    },
-    {
-      "id": "ad4e46646223471a",
-      "title": "Power plants struggle to meet pellet blending target - timesofindia.indiatimes.com",
-      "summary": "Power plants struggle to meet pellet blending target timesofindia.indiatimes.com",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaXJuUmxjMjVhZ1lMbmdzOE82eTdEaGFFT2t6dmE5Z1FXMEVPdHM3bjBVd2VzTEI3ZHRjLVNSU3VGVnM1c0lYdjBHelRTMlJJUjBCajV1cDB5czFsTGdNVlhfY3Bld2ZjTDJ0aVkzcldHOFI1dGxiWGlYZXBvTjRYQlZGd3hYbWowUzBLUUh1UXVjdU9PekNXbGF6R09UWDNVb0lLZEtlYmlWZG1mN3R0MXhGLXlveWRpRGp6Vmk4NTJHUWdPbUh6RnhB0gHPAUFVX3lxTE5sLU9RNkJ4Y0M5SVdxeFNvalhSY0ZLcFVJYk5ES1FiWXZUT282QmdOUW94QjlRaFZBVXpUa1dRY1k4RnhHeUxlcWlUdlJDYkVJZ0RqSlRjZ2hmNkttT0hiNFFfdl9QVVczMmFxWUFtWFZpYldZTk9oRlp0YnItazM2d0dEUXpJeEp4VEM0ZjhUckd0aFFrMnlsZmFFOFZtM1ZydUQ2dDFaajBWSGZSZjRYUkZhYTJSb2FJUDZPYzNaZmMtNzNTaDlkeEtwZ2hCWQ?oc=5",
-      "source": "google_news",
-      "sourceLabel": "State utilities",
-      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "type": "news",
-      "companies": [],
-      "score": 55,
-      "publishedAt": "2024-12-29T08:00:00.000Z",
-      "discoveredAt": "2026-09-20T17:38:49.595Z",
-      "channel": "news",
-      "isNew": false
-    },
-    {
-      "id": "8cb04cf4674779e3",
-      "title": "NTPC Ltdsets up Agri-waste based 10 TPD Integrated Torrefaction and Pelletization Plant at NETRA - Sarkaritel.com",
-      "summary": "NTPC Ltdsets up Agri-waste based 10 TPD Integrated Torrefaction and Pelletization Plant at NETRA Sarkaritel.com",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdk1QcW1iSnlOSU45NV8yY0ZXTnU3eDl2cjlmUk1XUU5nLUF3aHRtN3E0eUJXZjZRVjhDOWxnUk45UUNfY09pWEdlc0Q2ekRfMXRkWTBPbnNmbDRmNDhxUmdrbk5nUjFKSEtoM3BSQ01tcmhsOVo3ZU9fRUlwWnVvTnR0N1pQb2l1T1JVakphNnRIRnFhVVVJaThZcF9JV0tFaXQzNnR2ZGpoMmlNQm9IVE56SW04ck93cjJyemtUYkM0Zw?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Cofiring / NTPC",
-      "query": "NTPC (pellet OR \"biomass pellet\" OR \"torrefied\") (tender OR procurement OR purchase OR co-firing)",
-      "type": "news",
-      "companies": [
-        "NTPC"
-      ],
-      "score": 55,
-      "publishedAt": "2024-10-30T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T05:08:42.988Z",
-      "isNew": false
-    },
-    {
-      "id": "a562f8e587a562f6",
-      "title": "Ministry of Power Sets Benchmark Price for Biomass Pellets in NCR - Energetica India Magazine",
-      "summary": "Ministry of Power Sets Benchmark Price for Biomass Pellets in NCR Energetica India Magazine",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQc1E2ZW5CTzNPYldZUzJldUtCT3o2bXMtLVRYNHkxLXNuY1JfSVVBMXQ3SDE1RWVaYjBQbDV4QkQ5RzNHcDBYTkZDcHJhLVZqdE9idDI5V2t5ZXNsVXo2RVBQUkRDMFFpQmY4SmJOMTM2eXRSdmdDMVhib2l3ZmkybWFKR25fWTliaUFmZmlzc2tWT2RFcVRDbkZkVmVPWW9GUEpHSXZB?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Pellet NITs IN",
-      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "type": "news",
-      "companies": [],
-      "score": 55,
-      "publishedAt": "2024-10-08T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:08:27.367Z",
-      "channel": "news",
-      "isNew": false
-    },
-    {
-      "id": "366248dbc4425d2b",
-      "title": "Ministry of Power Sets Benchmark Price for Biomass Pellets in NCR - energetica-india.net",
-      "summary": "Ministry of Power Sets Benchmark Price for Biomass Pellets in NCR energetica-india.net",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQc1E2ZW5CTzNPYldZUzJldUtCT3o2bXMtLVRYNHkxLXNuY1JfSVVBMXQ3SDE1RWVaYjBQbDV4QkQ5RzNHcDBYTkZDcHJhLVZqdE9idDI5V2t5ZXNsVXo2RVBQUkRDMFFpQmY4SmJOMTM2eXRSdmdDMVhib2l3ZmkybWFKR25fWTliaUFmZmlzc2tWT2RFcVRDbkZkVmVPWW9GUEpHSXZB?oc=5",
-      "source": "google_news",
-      "sourceLabel": "Pellet NITs IN",
-      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "type": "news",
-      "companies": [],
-      "score": 55,
-      "publishedAt": "2024-10-08T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T22:49:50.253Z",
-      "channel": "news",
-      "isNew": false
     }
   ]
 }
