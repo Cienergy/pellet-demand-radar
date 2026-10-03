@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-03T13:20:07.119Z",
-  "crawlDurationMs": 18697,
+  "updatedAt": "2026-10-03T17:35:52.717Z",
+  "crawlDurationMs": 20620,
   "stats": {
     "total": 500,
     "tenders": 120,
@@ -8,8 +8,8 @@
     "news": 292,
     "portals": 84,
     "linkedin": 375,
-    "newThisCrawl": 11,
-    "withCompany": 120
+    "newThisCrawl": 13,
+    "withCompany": 119
   },
   "sources": [
     {
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 26,
+      "count": 27,
       "error": null
     },
     {
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 61,
+      "count": 58,
       "error": null
     },
     {
@@ -142,7 +142,7 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 66,
+      "count": 64,
       "error": null
     },
     {
@@ -156,7 +156,7 @@
       "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
@@ -5717,6 +5717,21 @@
       "isNew": false
     },
     {
+      "id": "49cb5d1817e",
+      "title": "PSERC revises Malwa Power biomass tariff, extends operations - LinkedIn",
+      "summary": "PSERC revises Malwa Power biomass tariff, extends operations LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcmFXZ2RVMTk4b19LdUtEWjNxcFZmVHNYUkFjNllvUF9PaG1zbGtDU0ZScFNpa0NoM3BMRGQ4MnV1V2NULTB3MHN4NTFWNjV5M3VoYS1GOExEbFhiakdVa1hNc1czNThLaFNvQ0NMRjBXV1dWVEpKYkJOSl9NMUxuUjNaVWJrN1o5QnNrUExxN1dBWFk3TVpYZzRHNlVUQUxjM0NuZnM0SHQ2WWlEanByQVNzc0xhNC02a2NxZERhVkFObXpQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-04-02T07:00:00.000Z",
+      "discoveredAt": "2026-10-03T17:35:34.028Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "18ad5507116",
       "title": "Ansh Verma - Executive Director @Trio Renewable Engineering || Specialised in Biomass Pelletizing Solutions - LinkedIn India",
       "summary": "Ansh Verma - Executive Director @Trio Renewable Engineering || Specialised in Biomass Pelletizing Solutions LinkedIn India",
@@ -6199,6 +6214,21 @@
       "discoveredAt": "2026-09-26T22:10:50.878Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "448b0f6d215",
+      "title": "The ICVCM has approved six engineered carbon removal methods (like direct air capture and biomass storage) along with updated forestry protocols. Together, these could generate over 12 million high-quality credits annually. This matters because engineer - LinkedIn",
+      "summary": "The ICVCM has approved six engineered carbon removal methods (like direct air capture and biomass storage) along with updated forestry protocols. Together, these could generate over 12 million high-quality credits annually. This matters because engineer LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMXJlUndyek5KWW1jaFhfeHl6NDRVb29sOW1TdEZxLWR1LUg4RFRZeER2Y1pjLXdvUk5DOVlmUDJoR3FCNXRfd184dzFjLVdZVlFHckNsZGMzaUJrdVVtWnZOM2ZoSl81a1ltTHRGRVFyYXk0d2k2OEpyMV95QmQxd2x1emJMTmxiMElkd0xrZGZWVkx6MEhZNzNFX05xXzVrQzloVw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2025-10-03T07:00:00.000Z",
+      "discoveredAt": "2026-10-03T17:35:35.026Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "6cca87f5179",
@@ -7947,39 +7977,6 @@
       "score": 70,
       "publishedAt": "2015-11-15T01:11:42.000Z",
       "discoveredAt": "2026-09-19T15:47:31.356Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "4bd82f25162",
-      "title": "Amit Dutta - Assistant Manager | Biomass Pellet Marketing | Thermal Power Projects (WBPDCL | DVC | NTPC) | Government Liaison | Supply Chain & Logistics | Rashmi Group. - LinkedIn India",
-      "summary": "Amit Dutta - Assistant Manager | Biomass Pellet Marketing | Thermal Power Projects (WBPDCL | DVC | NTPC) | Government Liaison | Supply Chain & Logistics | Rashmi Group. LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9CU1RRUEQ5cUZmZkVLZ1RUN0x3cXhUUlZQbkZ0a1VIVmtUc0U1Qnpzdnk1dmdMYjlkeFBNVng4czNPR19mQUpjTEtGOWczU2xYWVlMSk4zQUcwZw?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [
-        "NTPC",
-        "DVC"
-      ],
-      "score": 70,
-      "publishedAt": "2015-11-14T10:59:21.000Z",
-      "discoveredAt": "2026-09-30T22:34:25.542Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "07aba7211a8",
-      "title": "MOHIIT VERRMA. - Biomass Energeons India : Driving Bioenergy Solutions - Waste-to-Energy | Biochar | Black Pellets | Biomass Pellets | Compressed Biogas (CBG) | Green Hydrogen | Municipal Solid Waste (MSW) | Consultant Solution Provider - in.linkedin.com",
-      "summary": "MOHIIT VERRMA. - Biomass Energeons India : Driving Bioenergy Solutions - Waste-to-Energy | Biochar | Black Pellets | Biomass Pellets | Compressed Biogas (CBG) | Green Hydrogen | Municipal Solid Waste (MSW) | Consultant Solution Provider in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZYWkwamZEVmNNdC1QeWlPRFRNa2NoQ3gwbk8zVmtZMElrM0NOUU1WeGRQV0ZUTWNvaGhiV0p6NFY3aFc3RzlTTWdvMGFVcEFfeU9QbXRoMHFMcUk?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2015-11-11T17:30:52.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.217Z",
       "channel": "linkedin",
       "isNew": false
     }
