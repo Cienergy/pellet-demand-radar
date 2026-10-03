@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-03T17:35:52.717Z",
-  "crawlDurationMs": 20620,
+  "updatedAt": "2026-10-03T20:12:11.297Z",
+  "crawlDurationMs": 21021,
   "stats": {
     "total": 500,
     "tenders": 120,
@@ -128,14 +128,14 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 58,
+      "count": 60,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 28,
+      "count": 27,
       "error": null
     },
     {
@@ -5729,7 +5729,7 @@
       "publishedAt": "2026-04-02T07:00:00.000Z",
       "discoveredAt": "2026-10-03T17:35:34.028Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "18ad5507116",
@@ -6228,7 +6228,7 @@
       "publishedAt": "2025-10-03T07:00:00.000Z",
       "discoveredAt": "2026-10-03T17:35:35.026Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6cca87f5179",
