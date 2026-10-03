@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-03T08:00:31.438Z",
-  "crawlDurationMs": 18845,
+  "updatedAt": "2026-10-03T13:20:07.119Z",
+  "crawlDurationMs": 18697,
   "stats": {
     "total": 500,
     "tenders": 120,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 59,
+      "count": 61,
       "error": null
     },
     {
@@ -156,7 +156,7 @@
       "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 7,
+      "count": 6,
       "error": null
     },
     {
@@ -7299,7 +7299,7 @@
       "publishedAt": "2022-10-21T16:15:37.000Z",
       "discoveredAt": "2026-10-03T08:00:15.012Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "14222976105",
