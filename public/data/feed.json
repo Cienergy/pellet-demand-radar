@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-03T20:12:11.297Z",
-  "crawlDurationMs": 21021,
+  "updatedAt": "2026-10-03T23:19:00.396Z",
+  "crawlDurationMs": 19150,
   "stats": {
     "total": 500,
     "tenders": 120,
@@ -8,7 +8,7 @@
     "news": 292,
     "portals": 84,
     "linkedin": 375,
-    "newThisCrawl": 13,
+    "newThisCrawl": 17,
     "withCompany": 119
   },
   "sources": [
@@ -135,21 +135,21 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 27,
+      "count": 28,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 64,
+      "count": 66,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 7,
+      "count": 8,
       "error": null
     },
     {
@@ -5293,6 +5293,21 @@
       "isNew": false
     },
     {
+      "id": "1f596fdb188",
+      "title": "Smart Napier Grass Dewatering Machine: Cut Dryer Fuel Cost, Increase Pellet Output and Power the Bio-CNG Revolution - LinkedIn",
+      "summary": "Smart Napier Grass Dewatering Machine: Cut Dryer Fuel Cost, Increase Pellet Output and Power the Bio-CNG Revolution LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTUhGYjhDMVpFTkZPS3Y0am1zN0IzZGNPR2RFRVB1c2lDUGhNbkFNQmQyNUJyM19MaHVYdjRGME14QVNsUktadjFXZlpUYXprZG54QjdrWXd6cGlUckgzVEFmVkx6eHhMQm1PMWIyRXREWnh0UVp5djlpby1wOHUyTDJtLWZoT0lESzFRTUNSaWFLWHJaN3E0QnJJVWhVbG9IOHc?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-07-26T07:00:00.000Z",
+      "discoveredAt": "2026-10-03T23:18:43.973Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "60aaded820d",
       "title": "FarmWatt Innovations Pvt. Limited has raised ₹32.5 Cr to expand its biomass collection network for clean energy production 👇 Delhi NCR-based biotech startup Farm Watt Innovations has raised ₹32.5 Cr in a funding round co-led by IAN Alpha Fund and Rain - LinkedIn",
       "summary": "FarmWatt Innovations Pvt. Limited has raised ₹32.5 Cr to expand its biomass collection network for clean energy production 👇 Delhi NCR-based biotech startup Farm Watt Innovations has raised ₹32.5 Cr in a funding round co-led by IAN Alpha Fund and Rain LinkedIn",
@@ -5916,6 +5931,21 @@
       "isNew": false
     },
     {
+      "id": "44d9c7f21b9",
+      "title": "US biomass facilities in line for technology-neutral tax credits under IRA - Bioenergy Insight Magazine - LinkedIn",
+      "summary": "US biomass facilities in line for technology-neutral tax credits under IRA - Bioenergy Insight Magazine LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWldPLVZaR041ZlRkeHRIMHVrcm1jQVpQdHpTdGQ0elRnV0RxazJuMTJZZ256VHVYbjlBZG8wdUpmYVZQNEJ5X1p4YXBKcUloVmhQZ2FMejRvV1BXdnBBZVFoNGJxOWdrV1V4X1plUUhwdTc3X3NhVVdjTm8wQWxhMDFDZ1lnS1ZBYkw5UzFGZGowRWVsVVd4bEZBVHhyMXVoQzlNOHczemRCU3NyVm9wZmFhYWdZd2p0ZWxKejljN2x4aUxKV0hTeGp0aklFYmp2?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-03-04T08:00:00.000Z",
+      "discoveredAt": "2026-10-03T23:18:43.973Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "0bcbf50e1eb",
       "title": "Wildfire fuel-reduction biomass for remote energy: Small-scale combined heat and power feasibility and strategic implications for British Columbia's bioeconomy - LinkedIn",
       "summary": "Wildfire fuel-reduction biomass for remote energy: Small-scale combined heat and power feasibility and strategic implications for British Columbia's bioeconomy LinkedIn",
@@ -6439,6 +6469,21 @@
       "discoveredAt": "2026-09-26T22:10:51.816Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "3afb4ca01b6",
+      "title": "Nandkummar D. Kadu - Associate Vice Precident– Biomass. A bioenergy and agricultural-feedstock specialist with extensive experience building large-scale biomass supply ecosystems connecting farmers, agricultural residues, energy plantations - LinkedIn India",
+      "summary": "Nandkummar D. Kadu - Associate Vice Precident– Biomass. A bioenergy and agricultural-feedstock specialist with extensive experience building large-scale biomass supply ecosystems connecting farmers, agricultural residues, energy plantations LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1lVmllbkEzTmxhaEtmRVE3MUlVRzNYM3d5NVNjY1Z3REw1U2diWEpOd09RLTNobzk1RE5ZMVJwTmVjeHJvYzVTN005azVCeGdpZDdZWTVlc3IxX20xcTBBRGZENA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2025-08-01T10:54:20.000Z",
+      "discoveredAt": "2026-10-03T23:18:43.972Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "11c355bb26e",
@@ -7932,51 +7977,6 @@
       "score": 70,
       "publishedAt": "2015-11-16T14:57:17.000Z",
       "discoveredAt": "2026-09-21T15:03:54.169Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "7d7fe1dc129",
-      "title": "Amitabh Tandon - Managing Director Transtech green power & Secretary at Indian Biomass power association - in.linkedin.com",
-      "summary": "Amitabh Tandon - Managing Director Transtech green power & Secretary at Indian Biomass power association in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBfSE90QkdNOFRaTDY0RzJRVXVxU2F3eG5TYnpobXhQbk9Fb3pXSU5qTHdxQTNxLWJ0VU1CWlhvZW9WOTlEcVFZSU01LWZMM1VHMDdGLVNFYU9YM0JaNjY4?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2015-11-16T14:57:17.000Z",
-      "discoveredAt": "2026-09-26T22:10:51.816Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "7c3b74a110e",
-      "title": "Rajesh Mundra - Director Biomass Energy Componies . MAMLESHWAR BIOFUEL PVT LTD - in.linkedin.com",
-      "summary": "Rajesh Mundra - Director Biomass Energy Componies . MAMLESHWAR BIOFUEL PVT LTD in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA3RXFDdEp3NEFsSjFlTWVxQ0V4Z21TamR5dnNTWTlQS0JuZHhXT1pfcVJVdXVDcHJUY0dxWnpxd1JlZngzZUZrN2hFUmpWMHNzblhLek1Xcm9HVXdqS0E?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2015-11-15T01:11:42.000Z",
-      "discoveredAt": "2026-09-19T06:10:28.816Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "3f6cc71210d",
-      "title": "Rajesh Mundra - Director Biomass Energy Componies . MAMLESHWAR BIOFUEL PVT LTD - LinkedIn India",
-      "summary": "Rajesh Mundra - Director Biomass Energy Componies . MAMLESHWAR BIOFUEL PVT LTD LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA3RXFDdEp3NEFsSjFlTWVxQ0V4Z21TamR5dnNTWTlQS0JuZHhXT1pfcVJVdXVDcHJUY0dxWnpxd1JlZngzZUZrN2hFUmpWMHNzblhLek1Xcm9HVXdqS0E?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2015-11-15T01:11:42.000Z",
-      "discoveredAt": "2026-09-19T15:47:31.356Z",
       "channel": "linkedin",
       "isNew": false
     }
