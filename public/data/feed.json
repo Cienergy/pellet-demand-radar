@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-03T01:53:15.580Z",
-  "crawlDurationMs": 20886,
+  "updatedAt": "2026-10-03T08:00:31.438Z",
+  "crawlDurationMs": 18845,
   "stats": {
     "total": 500,
     "tenders": 120,
@@ -86,22 +86,22 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 27,
+      "count": 26,
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -128,28 +128,28 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 61,
+      "count": 59,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 29,
+      "count": 28,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 67,
+      "count": 66,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 8,
+      "count": 7,
       "error": null
     },
     {
@@ -2874,7 +2874,7 @@
       "publishedAt": "2026-07-27T07:00:00.000Z",
       "discoveredAt": "2026-10-03T01:52:57.377Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "191b7e29244",
@@ -7287,6 +7287,21 @@
       "isNew": false
     },
     {
+      "id": "5789c32a12c",
+      "title": "Virendra Singh Shekhawat - A dynamic professional rich experience in Biomass Industries. - LinkedIn India",
+      "summary": "Virendra Singh Shekhawat - A dynamic professional rich experience in Biomass Industries. LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9xbEh0WkVzaFFuTkRqQ3o1a2dsRWRTd2trUnhRdFc1Q2hGdXMtdEozVVpDa3J1eXJkQkRnUVpxSjgyMzJ3U3JXekJSTUFTWHpYdkJjeHI0QWYyV0drM2gwT1FQQjFkdlpqYk93VWpR?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2022-10-21T16:15:37.000Z",
+      "discoveredAt": "2026-10-03T08:00:15.012Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "14222976105",
       "title": "Biogreen Energy - Manufacturer Of Biomass Briquettes and Pellets - in.linkedin.com",
       "summary": "Biogreen Energy - Manufacturer Of Biomass Briquettes and Pellets in.linkedin.com",
@@ -7965,21 +7980,6 @@
       "score": 70,
       "publishedAt": "2015-11-11T17:30:52.000Z",
       "discoveredAt": "2026-09-19T06:10:27.217Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "54322b101a7",
-      "title": "MOHIIT VERRMA. - Biomass Energeons India : Driving Bioenergy Solutions - Waste-to-Energy | Biochar | Black Pellets | Biomass Pellets | Compressed Biogas (CBG) | Green Hydrogen | Municipal Solid Waste (MSW) | Consultant Solution Provider - LinkedIn India",
-      "summary": "MOHIIT VERRMA. - Biomass Energeons India : Driving Bioenergy Solutions - Waste-to-Energy | Biochar | Black Pellets | Biomass Pellets | Compressed Biogas (CBG) | Green Hydrogen | Municipal Solid Waste (MSW) | Consultant Solution Provider LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZYWkwamZEVmNNdC1QeWlPRFRNa2NoQ3gwbk8zVmtZMElrM0NOUU1WeGRQV0ZUTWNvaGhiV0p6NFY3aFc3RzlTTWdvMGFVcEFfeU9QbXRoMHFMcUk?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2015-11-11T17:30:52.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.430Z",
       "channel": "linkedin",
       "isNew": false
     }
