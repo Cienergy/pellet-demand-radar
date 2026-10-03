@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-02T22:56:40.522Z",
-  "crawlDurationMs": 18466,
+  "updatedAt": "2026-10-03T01:53:15.580Z",
+  "crawlDurationMs": 20886,
   "stats": {
     "total": 500,
     "tenders": 120,
-    "purchase": 87,
-    "news": 293,
+    "purchase": 88,
+    "news": 292,
     "portals": 84,
     "linkedin": 375,
-    "newThisCrawl": 10,
+    "newThisCrawl": 11,
     "withCompany": 120
   },
   "sources": [
@@ -90,18 +90,18 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
       "ok": true,
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 63,
+      "count": 61,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 32,
+      "count": 29,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 71,
+      "count": 67,
       "error": null
     },
     {
@@ -2020,7 +2020,7 @@
       "summary": "Faizan Hussain - - Plant Lead (Biomass Pellet) | Admin Lead | Masters Economics | Building & Facility Management | Gate Operations | Events Management | UAE-LMV License holder | E-Commerce & Digital Marketing LinkedIn Pakistan",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkeS1GZ0EyNTBHQUQ2UG5UQzBJTVhkY1JycHhLbDFXaGJzaGdhVVU3aS04NHVXeGx2Rk9weXRpa3laaGkwVndySTZ3Qm8wal84ZEFZb2N5am5RY0NtWEU0?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 74,
@@ -2860,6 +2860,21 @@
       "discoveredAt": "2026-09-20T23:11:30.716Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "00e1a38123e",
+      "title": "Napier Grass: A Sustainable Feedstock for the CBG Industry. Napier grass is emerging as one of the most promising feedstocks for Compressed Biogas (CBG) production. Its high biomass yield, multiple harvests throughout the year, low input requirements, an - LinkedIn",
+      "summary": "Napier Grass: A Sustainable Feedstock for the CBG Industry. Napier grass is emerging as one of the most promising feedstocks for Compressed Biogas (CBG) production. Its high biomass yield, multiple harvests throughout the year, low input requirements, an LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQR21Wd1dLbldpTFNIX2J1aElTN2xVUS1DUmNkMk5SNlZiV2NIM0R3YmlHSWdQb0ZUNl82aVdjVU9UbFNFSlZQUWdHRnp1THIzb0VwRU9vT3BnNU5lbHNmaTlOUFVPd0xON3hPOE5MRmJfMmdXcnE5ZThPTk5tbTNSN2JRaXNuN3gzVlA0aXRsMmpmalhqMnVOTmJGeGFEZUdxR3FjNnN0ZHZFR1BWV1FOYlZhOFZGWm9KTmtjZ1Biell1UQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2026-07-27T07:00:00.000Z",
+      "discoveredAt": "2026-10-03T01:52:57.377Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "191b7e29244",
@@ -7419,7 +7434,7 @@
       "publishedAt": "2021-06-29T10:13:02.000Z",
       "discoveredAt": "2026-10-02T22:56:25.853Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "04aa77f0177",
@@ -7965,21 +7980,6 @@
       "score": 70,
       "publishedAt": "2015-11-11T17:30:52.000Z",
       "discoveredAt": "2026-09-19T15:47:30.430Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "3cf0ccddfe",
-      "title": "Gordon Murray - Executive Director, Wood Pellet Association of Canada - LinkedIn",
-      "summary": "Gordon Murray - Executive Director, Wood Pellet Association of Canada LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBjeFJZRzdIVE9hdXVnRm8tb0dvX1cxUGRFOFRMUjZNcTF4OERGbHlMSGFOY1JvejhCUHpXMnBoaVlDUVRPaGd0RzNjM3cxV1A2OHJUaXppaUJWVjVjdnc?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2015-11-10T04:11:05.000Z",
-      "discoveredAt": "2026-09-19T20:24:35.268Z",
       "channel": "linkedin",
       "isNew": false
     }
