@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-04T15:19:07.153Z",
-  "crawlDurationMs": 18535,
+  "updatedAt": "2026-10-04T18:46:34.074Z",
+  "crawlDurationMs": 18808,
   "stats": {
     "total": 500,
-    "tenders": 122,
+    "tenders": 124,
     "purchase": 88,
-    "news": 290,
-    "portals": 84,
-    "linkedin": 375,
-    "newThisCrawl": 16,
-    "withCompany": 121
+    "news": 288,
+    "portals": 85,
+    "linkedin": 373,
+    "newThisCrawl": 18,
+    "withCompany": 123
   },
   "sources": [
     {
@@ -142,28 +142,28 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 65,
+      "count": 63,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
       "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
@@ -639,6 +639,23 @@
       "discoveredAt": "2026-10-01T15:24:13.543Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "4661e39019d",
+      "title": "NTPC Issues Tender for 219,000 Tons of Biomass Pellets - Construction World",
+      "summary": "NTPC Issues Tender for 219,000 Tons of Biomass Pellets Construction World",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZUpEU0J1VzUyN21QSkdyY05iZW41cHZQdXRkdm1neVp0M0xha05LdHRaUkE1N3hYVTJVWlFKT3NJTXN3N0JZd25Ia1NpOTA3R3d1TVZaR3JnV3htZ2NNaTZuMDJiU1J5VG11anEzUTNxYWtib3VkbThvWWNwaHgxRHJ2TEpQWUNLSFQ0Wkp1c0xoX0pLQzQ3Um52S3ExT1dqMVc5VmdjQjNFd3RQRjFheVhFbk1LZUpKTXZjczlIc2NvdURjV0xYZWhYSFNkOHp1c0o3b0hMNXc?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 74,
+      "publishedAt": "2025-01-16T08:00:00.000Z",
+      "discoveredAt": "2026-10-04T18:46:17.181Z",
+      "channel": "portal",
+      "isNew": true
     },
     {
       "id": "52a4a23a168",
@@ -2052,7 +2069,7 @@
       "summary": "Faizan Hussain - - Plant Lead (Biomass Pellet) | Admin Lead | Masters Economics | Building & Facility Management | Gate Operations | Events Management | UAE-LMV License holder | E-Commerce & Digital Marketing LinkedIn Pakistan",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkeS1GZ0EyNTBHQUQ2UG5UQzBJTVhkY1JycHhLbDFXaGJzaGdhVVU3aS04NHVXeGx2Rk9weXRpa3laaGkwVndySTZ3Qm8wal84ZEFZb2N5am5RY0NtWEU0?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 74,
@@ -2430,7 +2447,7 @@
       "summary": "Satish Upadhyay - Director General, Centre of Sustainability for Pure Earth | Chairperson, Biomass Global Associates Forum IFGE | Hydro Energy | Thermal Power | Bioenergy | Fuel management | Quality Assurance & Audits |Project Management LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE94NzJQNlVhNTROOG1EUmplUld1c3JTZHk2aC12cDAtYm5NVEZHQ0JnRjZVckVDb1JQUG5pMXZVNmFLNUxPaTNvMVRycjdpMnc?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [],
       "score": 74,
@@ -2453,6 +2470,24 @@
       "publishedAt": "2025-09-20T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:43.019Z",
       "isNew": false
+    },
+    {
+      "id": "4450a56d0a72db0b",
+      "title": "NTPC Issues Tender for 219,000 Tons of Biomass Pellets - Construction World",
+      "summary": "NTPC Issues Tender for 219,000 Tons of Biomass Pellets Construction World",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZUpEU0J1VzUyN21QSkdyY05iZW41cHZQdXRkdm1neVp0M0xha05LdHRaUkE1N3hYVTJVWlFKT3NJTXN3N0JZd25Ia1NpOTA3R3d1TVZaR3JnV3htZ2NNaTZuMDJiU1J5VG11anEzUTNxYWtib3VkbThvWWNwaHgxRHJ2TEpQWUNLSFQ0Wkp1c0xoX0pLQzQ3Um52S3ExT1dqMVc5VmdjQjNFd3RQRjFheVhFbk1LZUpKTXZjczlIc2NvdURjV0xYZWhYSFNkOHp1c0o3b0hMNXc?oc=5",
+      "source": "google_news",
+      "sourceLabel": "Cofiring / NTPC",
+      "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 65,
+      "publishedAt": "2025-01-16T08:00:00.000Z",
+      "discoveredAt": "2026-10-04T18:46:15.712Z",
+      "channel": "news",
+      "isNew": true
     },
     {
       "id": "cdf4fe2b772d05f6",
@@ -4045,7 +4080,7 @@
       "publishedAt": "2026-10-03T03:00:34.000Z",
       "discoveredAt": "2026-10-04T15:18:49.724Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127c60f715d",
@@ -5739,7 +5774,7 @@
       "summary": "Biomass Pellets Import in India: Strategic Growth and Future Outlook LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcmFUSGIwZVMxdGU1b3JTNmdROVdqWnZlNEhQakhtaE9wU1JPdUt0RkVyU25nT2xobjhsTEl6d2l6R2staXExd3NQUG5MTDgtQ1N5dXA3ZVl2SXpzN3BVM2U5VkJiZnZwN1JFd2hhQkl6WTJCNHI4SWc5Uk81MnFISjNOdml4akhGVEpOUHVPQ3dXSzg?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -7951,36 +7986,6 @@
       "score": 70,
       "publishedAt": "2016-07-20T16:21:09.000Z",
       "discoveredAt": "2026-09-19T15:47:30.429Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "6f0e4ab3f4",
-      "title": "Denny Tomodok - Wood Pellet Trader | Nexa Biomass Indonesia - LinkedIn",
-      "summary": "Denny Tomodok - Wood Pellet Trader | Nexa Biomass Indonesia LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9oUDhNVXhQWEUtOUo4Z3V6UlBNSEs4TGNFaEd1UlNGNEo1d1ZIZ0w1eEM2MEZjZVNaWjJZRDdUSkFEdkxJaHU1VERVbGhfX3EyQjlNNmJCZ1N2Rmx4Q3c?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2015-11-26T07:26:57.000Z",
-      "discoveredAt": "2026-09-20T09:46:45.468Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "0540dc6bec",
-      "title": "Harsh Awla - Director at Universal biomass energy - LinkedIn India",
-      "summary": "Harsh Awla - Director at Universal biomass energy LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00dFJ2ODg2MDFDUmpmVEo5TTBfUFplWWE2b09DZUM1OS1YY3FkalNvbWpUOThLV2lxaDYxZmg5NkxLQS16cWJhLXJBU0FXVnFjRmhUMzlwc3Z0NUk?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2015-11-23T17:37:34.000Z",
-      "discoveredAt": "2026-09-21T15:03:53.148Z",
       "channel": "linkedin",
       "isNew": false
     }
