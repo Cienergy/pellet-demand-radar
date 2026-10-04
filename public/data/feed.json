@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-04T09:38:41.286Z",
-  "crawlDurationMs": 20104,
+  "updatedAt": "2026-10-04T15:19:07.153Z",
+  "crawlDurationMs": 18535,
   "stats": {
     "total": 500,
     "tenders": 122,
@@ -8,7 +8,7 @@
     "news": 290,
     "portals": 84,
     "linkedin": 375,
-    "newThisCrawl": 21,
+    "newThisCrawl": 16,
     "withCompany": 121
   },
   "sources": [
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 59,
+      "count": 60,
       "error": null
     },
     {
@@ -142,14 +142,14 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 66,
+      "count": 65,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 7,
+      "count": 6,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 7,
+      "count": 6,
       "error": null
     },
     {
@@ -1167,7 +1167,7 @@
       "publishedAt": "2026-07-26T23:41:33.000Z",
       "discoveredAt": "2026-10-04T09:38:22.914Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4ce2aa4824f",
@@ -2052,7 +2052,7 @@
       "summary": "Faizan Hussain - - Plant Lead (Biomass Pellet) | Admin Lead | Masters Economics | Building & Facility Management | Gate Operations | Events Management | UAE-LMV License holder | E-Commerce & Digital Marketing LinkedIn Pakistan",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkeS1GZ0EyNTBHQUQ2UG5UQzBJTVhkY1JycHhLbDFXaGJzaGdhVVU3aS04NHVXeGx2Rk9weXRpa3laaGkwVndySTZ3Qm8wal84ZEFZb2N5am5RY0NtWEU0?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [],
       "score": 74,
@@ -3154,7 +3154,7 @@
       "summary": "Sunil Rai 🇮🇳 - Bio-Energy (Feedstock)| De-Carbonization|Biomass SCM |Briquette| Pellet| Bio-CNG| Planning| Aggregation| Sustainability| IIM-Lucknow| Ex- RIL | Ex-PRESPL| Effective Sourcing of right kind of (Agri waste)|23 K connections LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9vS3RJaTRWd0FpblJLd3B6dWgwY0hrRE9GcGVWVWg1RmNZSjM5VEpYS0djNWhxZ0YzeGdqaXoxZ2pWWWJmQlhKcXBvVjZYMTZuN1dxcHRBdmZkay05akZIcUFtWGR3RUlXZnZ5UUhUaFFRZlRMeGMxSUZn?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -4031,6 +4031,21 @@
       "discoveredAt": "2026-09-24T12:09:37.831Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "5e35f017223",
+      "title": "🌍 FROM INDIAN BIOMASS TO GLOBAL CLEAN ENERGY — PROVEG IS ENGINEERING THE TRANSFORMATION. What others see as agricultural residue, we see as an industrial energy resource waiting to be engineered. 🌾 Paddy Straw 🌾 Rice Husk 🌿 Mu - LinkedIn",
+      "summary": "🌍 FROM INDIAN BIOMASS TO GLOBAL CLEAN ENERGY — PROVEG IS ENGINEERING THE TRANSFORMATION. What others see as agricultural residue, we see as an industrial energy resource waiting to be engineered. 🌾 Paddy Straw 🌾 Rice Husk 🌿 Mu LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRmRWaEFzOEZFaVNScjFpeE5LRjR0eHRBZE02X0dLZWV5OEJaYXhBZkllVDNBc3hlSl85SGRlWmtKYXYwcFNfU09EYmxFZTFxMzZ5NEVUdmFCanFWRXcwZlRSWU5VWTVwU2FiWDh5aHZWUm5rOVFQbkxNcUt4LXZuWV9hN2VqZ2dodVZUUkNfcWVUam1CRHZoMnlQbWxmdGRLWlkzaGVYQTEzUmZTQVhfWUxXakNmNTNZUGFSS2t4dmI?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-03T03:00:34.000Z",
+      "discoveredAt": "2026-10-04T15:18:49.724Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "127c60f715d",
@@ -5277,7 +5292,7 @@
       "publishedAt": "2026-08-13T07:00:00.000Z",
       "discoveredAt": "2026-10-04T09:38:23.343Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5f7dfaac21d",
@@ -6545,7 +6560,7 @@
       "publishedAt": "2025-08-01T10:54:20.000Z",
       "discoveredAt": "2026-10-04T09:38:23.706Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11c355bb26e",
@@ -7408,7 +7423,7 @@
       "publishedAt": "2023-05-04T17:26:49.000Z",
       "discoveredAt": "2026-10-04T09:38:23.343Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "30509b3fdd",
@@ -7468,7 +7483,7 @@
       "publishedAt": "2022-10-21T16:15:37.000Z",
       "discoveredAt": "2026-10-04T09:38:23.707Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "14222976105",
@@ -7633,7 +7648,7 @@
       "publishedAt": "2021-06-29T10:13:02.000Z",
       "discoveredAt": "2026-10-04T09:38:22.917Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "04aa77f0177",
@@ -7966,21 +7981,6 @@
       "score": 70,
       "publishedAt": "2015-11-23T17:37:34.000Z",
       "discoveredAt": "2026-09-21T15:03:53.148Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "32bdbf3ced",
-      "title": "Harsh Awla - Director at Universal biomass energy - in.linkedin.com",
-      "summary": "Harsh Awla - Director at Universal biomass energy in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00dFJ2ODg2MDFDUmpmVEo5TTBfUFplWWE2b09DZUM1OS1YY3FkalNvbWpUOThLV2lxaDYxZmg5NkxLQS16cWJhLXJBU0FXVnFjRmhUMzlwc3Z0NUk?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2015-11-23T17:37:34.000Z",
-      "discoveredAt": "2026-09-26T22:10:50.883Z",
       "channel": "linkedin",
       "isNew": false
     }
