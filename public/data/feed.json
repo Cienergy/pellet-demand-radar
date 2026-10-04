@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-04T02:50:59.800Z",
-  "crawlDurationMs": 19030,
+  "updatedAt": "2026-10-04T09:38:41.286Z",
+  "crawlDurationMs": 20104,
   "stats": {
     "total": 500,
-    "tenders": 120,
+    "tenders": 122,
     "purchase": 88,
-    "news": 292,
+    "news": 290,
     "portals": 84,
     "linkedin": 375,
-    "newThisCrawl": 0,
-    "withCompany": 119
+    "newThisCrawl": 21,
+    "withCompany": 121
   },
   "sources": [
     {
@@ -69,25 +69,25 @@
       "error": "HTTP 403"
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "NTPC live tenders",
       "query": null,
       "count": 0,
-      "error": "HTTP 404"
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Google · live NITs",
       "query": "(\"biomass pellet\" OR \"agro residue based pellet\" OR \"torrefied biomass\") (NIT OR \"Notice Inviting Tender\" OR \"e-Tender\" OR \"GeM bid\" OR EOI) India -market -forecast -\"market size\"",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 1,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 27,
+      "error": null
     },
     {
       "ok": true,
@@ -125,60 +125,60 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 59,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 30,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 66,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 7,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 6,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 7,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Cement / power buyers",
       "query": "(\"Tata Power\" OR \"Adani Power\" OR \"JSW Energy\" OR UltraTech OR Dalmia) (pellet OR biomass) (tender OR purchase OR procure OR requirement)",
       "count": 0,
-      "error": "Status code 503"
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "GeM / eProcure mentions",
       "query": "(GeM OR eprocure OR \"Central Public Procurement\") (\"biomass pellet\" OR \"agro residue\") (bid OR tender)",
       "count": 0,
-      "error": "Status code 503"
+      "error": null
     }
   ],
   "watchCompanies": [
@@ -833,6 +833,23 @@
       "isNew": false
     },
     {
+      "id": "270470ef23c",
+      "title": "Upcoming Big Opportunity for the Biomass Pellet Industry 🌱🔥 The biomass pellet sector in India is entering an important growth phase. Large biomass pellet procurement tenders are expected from NTPC and various State Power Plants, creating significant op - LinkedIn",
+      "summary": "Upcoming Big Opportunity for the Biomass Pellet Industry 🌱🔥 The biomass pellet sector in India is entering an important growth phase. Large biomass pellet procurement tenders are expected from NTPC and various State Power Plants, creating significant op LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTEdqc25DeHNYYUVSaHY4eDdSY245bFlUUXdOVjhKamQ5M1V2ZXFia01sTWhQNE9fZU9vcUo3TkF0MS1PRXlaaVdUR1h3OXE4WjVhV1VHOEdGYjZ1OHcwRGZHM0pfRnBJS1ZBY1dfc3JHblgxcUlJOU1hcVpHS0Z1cUlqcVVxY3doaERYMWN3cGUyWFZac0paYzlTZURIbzdVN3RlY1Z0UU90dTVvb1oyMXRmUUxLOVZ2RjBTNXRLTzg?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 100,
+      "publishedAt": "2026-07-10T07:00:00.000Z",
+      "discoveredAt": "2026-10-04T09:38:22.913Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
       "id": "39b2569b242",
       "title": "🌾 Biomass demand is creating new opportunities across India. NTPC has invited biomass pellet procurement bids across Chhattisgarh, Odisha, Madhya Pradesh, Maharashtra and Jharkhand supporting cleaner energy generation and greater biomass utilizati - LinkedIn",
       "summary": "🌾 Biomass demand is creating new opportunities across India. NTPC has invited biomass pellet procurement bids across Chhattisgarh, Odisha, Madhya Pradesh, Maharashtra and Jharkhand supporting cleaner energy generation and greater biomass utilizati LinkedIn",
@@ -1136,6 +1153,21 @@
       "discoveredAt": "2026-10-02T18:40:19.254Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "69549bf8106",
+      "title": "Nitish Jain - Owner @ Vishesh Industries | Manufacturer of Biomass Pellet - in.linkedin.com",
+      "summary": "Nitish Jain - Owner @ Vishesh Industries | Manufacturer of Biomass Pellet in.linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBnR1JJZ05ublV4VW9GOTB3dEtYbFZ3enNkV0pidnBLWExWZkZVcjhsd0V1LWFuaEEzQnMwY0ktdmdrd18zUEtIQXBZMTdGdTFPX0xoYVFtSWxFYWU4?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "tender",
+      "companies": [],
+      "score": 90,
+      "publishedAt": "2026-07-26T23:41:33.000Z",
+      "discoveredAt": "2026-10-04T09:38:22.914Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "4ce2aa4824f",
@@ -3137,7 +3169,7 @@
       "summary": "Sunil Rai 🇮🇳 - Bio-Energy (Feedstock)| De-Carbonization|Biomass SCM |Briquette| Pellet| Bio-CNG| Planning| Aggregation| Sustainability| IIM-Lucknow| Ex- RIL | Ex-PRESPL| Effective Sourcing of right kind of (Agri waste)|23 K connections in.linkedin.com",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9vS3RJaTRWd0FpblJLd3B6dWgwY0hrRE9GcGVWVWg1RmNZSjM5VEpYS0djNWhxZ0YzeGdqaXoxZ2pWWWJmQlhKcXBvVjZYMTZuN1dxcHRBdmZkay05akZIcUFtWGR3RUlXZnZ5UUhUaFFRZlRMeGMxSUZn?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -3182,7 +3214,7 @@
       "summary": "Vaibhav Gill - Biomass Pellet Manufacturer & Supplier | Continuously Supplying to Thermal Power Plants since 2023 | Director – Gill Buildcon Pvt. Ltd. | Scaling to 1,000 MT/Day in.linkedin.com",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XdDd1TXE2WTdmYy1LQVJMMnZPQTU4YnZpTHVrRjZ0Y2xMaHpRaEVubEI4RTVEREhiS29lZE16U05wc2ttdUR5QkFtdW1lOWFkeG1qUE01NFRvcmEwR0E?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -5233,6 +5265,21 @@
       "isNew": false
     },
     {
+      "id": "62cc962f1b7",
+      "title": "IIT Guwahati Develops Two-Stage Cultivation Process To Improve Carbon Capture, Microalgal Biomass Production And Bioenergy Generation - LinkedIn",
+      "summary": "IIT Guwahati Develops Two-Stage Cultivation Process To Improve Carbon Capture, Microalgal Biomass Production And Bioenergy Generation LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRUNYaFhtTG1KQ2hPR0hSVmQyWHU4MEwyZTdWZTVaZDk1NTBscWVMUE9HaXpoWFRYbVZBdjZaLV9OLUhuR0dPbjJpdEtNdkRJQmE4QjNkVS1WcV81S25QNVNtRGNIbVBqTGlSbFJfU2ZZVFFWbDRrRlViYTlKN2I3MmZYWVUteVlKNTV3RFVYZm5KeG9sWU5JZ3drajVsRWVtd1FtdW9NeUREaFZmSlFrZGVQRTlHckEt?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-08-13T07:00:00.000Z",
+      "discoveredAt": "2026-10-04T09:38:23.343Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "5f7dfaac21d",
       "title": "I’m pleased to share that our paper （collaborated with Dr. Truong Nguyen at Umeå University) on heat, electricity, and biochar polygeneration has now been published in Biomass and Bioenergy. The key question behind this work was: Can existing biomass di - LinkedIn",
       "summary": "I’m pleased to share that our paper （collaborated with Dr. Truong Nguyen at Umeå University) on heat, electricity, and biochar polygeneration has now been published in Biomass and Bioenergy. The key question behind this work was: Can existing biomass di LinkedIn",
@@ -6191,7 +6238,7 @@
       "summary": "Govil Biomass Pellet Consultant in.linkedin.com",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9YUGFQajk4WVA1S2dwdVg3Rnk5SVVoQTZMc2VDTExsSVNGOXBJWWJBdW9xY3RXX2lsc3BBbVdTZk9YeGN5WGs2LWxCZkhVS05iM3dHVTdJM0w1MnE5SmMxWDB4UFhiUHRRTzh4VVRXbkFLWFRSOTdJ?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -6484,6 +6531,21 @@
       "discoveredAt": "2026-10-03T23:18:43.972Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "05f9486f1b7",
+      "title": "Nandkummar D. Kadu - Associate Vice Precident– Biomass. A bioenergy and agricultural-feedstock specialist with extensive experience building large-scale biomass supply ecosystems connecting farmers, agricultural residues, energy plantations - in.linkedin.com",
+      "summary": "Nandkummar D. Kadu - Associate Vice Precident– Biomass. A bioenergy and agricultural-feedstock specialist with extensive experience building large-scale biomass supply ecosystems connecting farmers, agricultural residues, energy plantations in.linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1lVmllbkEzTmxhaEtmRVE3MUlVRzNYM3d5NVNjY1Z3REw1U2diWEpOd09RLTNobzk1RE5ZMVJwTmVjeHJvYzVTN005azVCeGdpZDdZWTVlc3IxX20xcTBBRGZENA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2025-08-01T10:54:20.000Z",
+      "discoveredAt": "2026-10-04T09:38:23.706Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "11c355bb26e",
@@ -7332,6 +7394,23 @@
       "isNew": false
     },
     {
+      "id": "5d7caef112d",
+      "title": "Working as Senior Manager in 1.2 MTPA straight grate Pellet Operation at SJSPL Jagannath steel pvt Limited - in.linkedin.com",
+      "summary": "Working as Senior Manager in 1.2 MTPA straight grate Pellet Operation at SJSPL Jagannath steel pvt Limited in.linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFByVUZRZFcxSktyZ29kYXZreFoxM2xFREFYVFpiXzlibFdka3o1VXFWdUExZFMxekpRRlQ0OFRMTEpkdWtTcEU3b3M3Qi1NM3IyMjdSWXpWTmNUd1dLQ2NyRQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "news",
+      "companies": [
+        "JSPL"
+      ],
+      "score": 70,
+      "publishedAt": "2023-05-04T17:26:49.000Z",
+      "discoveredAt": "2026-10-04T09:38:23.343Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "30509b3fdd",
       "title": "Manish Garg - Eton Biomass Energy - LinkedIn India",
       "summary": "Manish Garg - Eton Biomass Energy LinkedIn India",
@@ -7375,6 +7454,21 @@
       "discoveredAt": "2026-10-03T08:00:15.012Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "6f47124712d",
+      "title": "Virendra Singh Shekhawat - A dynamic professional rich experience in Biomass Industries. - in.linkedin.com",
+      "summary": "Virendra Singh Shekhawat - A dynamic professional rich experience in Biomass Industries. in.linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9xbEh0WkVzaFFuTkRqQ3o1a2dsRWRTd2trUnhRdFc1Q2hGdXMtdEozVVpDa3J1eXJkQkRnUVpxSjgyMzJ3U3JXekJSTUFTWHpYdkJjeHI0QWYyV0drM2gwT1FQQjFkdlpqYk93VWpR?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2022-10-21T16:15:37.000Z",
+      "discoveredAt": "2026-10-04T09:38:23.707Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "14222976105",
@@ -7525,6 +7619,21 @@
       "discoveredAt": "2026-10-02T22:56:25.853Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "7c5563a01bc",
+      "title": "Rajeev Pratap Singh - GM – International Sales & Expansion | EU • SEA | Green Energy - CBG-GOBARdhan, Biomass SCM, Wood Pellet, Biochar, Bio-Oil | Steel - Pig Iron, Seamless | Carbon Credit • Net-Zero • CBG • Bio-Oil | Combat Veteran – Army - in.linkedin.com",
+      "summary": "Rajeev Pratap Singh - GM – International Sales & Expansion | EU • SEA | Green Energy - CBG-GOBARdhan, Biomass SCM, Wood Pellet, Biochar, Bio-Oil | Steel - Pig Iron, Seamless | Carbon Credit • Net-Zero • CBG • Bio-Oil | Combat Veteran – Army in.linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NR0lQV091Y0x2ZDVZNmRYZ0MwbFlrMm1TQ19YUnFiUF8yODd6c2tyRTF3Y2dPMU9lRkFPV3RfbGZoS0d5b0dTSW91b1pPMmJFa1UyUGtVLTNkUTZ1TEhnSGQ5M3dOTmM?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2021-06-29T10:13:02.000Z",
+      "discoveredAt": "2026-10-04T09:38:22.917Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "04aa77f0177",
@@ -7872,111 +7981,6 @@
       "score": 70,
       "publishedAt": "2015-11-23T17:37:34.000Z",
       "discoveredAt": "2026-09-26T22:10:50.883Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "2889049412d",
-      "title": "Co-Founder & Director | Biomass Pellet Manufacturing (60–70 TPD) | Renewable Energy | Plant Operations & Scale-up - in.linkedin.com",
-      "summary": "Co-Founder & Director | Biomass Pellet Manufacturing (60–70 TPD) | Renewable Energy | Plant Operations & Scale-up in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zd3RBSWQ4M1BSU2VLRm52RnpveExoWW84Vm1xVmVESktjVVdzY1E5UG1lNG5DdlJua2Fkd2N6cFFybUlJVzlEcmU2S1UweWs5WERWVFdIZ3BNeWM?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2015-11-22T15:19:51.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.217Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "18d5a16512c",
-      "title": "Co-Founder & Director | Biomass Pellet Manufacturing (60–70 TPD) | Renewable Energy | Plant Operations & Scale-up - LinkedIn India",
-      "summary": "Co-Founder & Director | Biomass Pellet Manufacturing (60–70 TPD) | Renewable Energy | Plant Operations & Scale-up LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zd3RBSWQ4M1BSU2VLRm52RnpveExoWW84Vm1xVmVESktjVVdzY1E5UG1lNG5DdlJua2Fkd2N6cFFybUlJVzlEcmU2S1UweWs5WERWVFdIZ3BNeWM?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2015-11-22T15:19:51.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.430Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "31df1d6d1a3",
-      "title": "Vaibhav Bode - Utility/Facility Projects, O&M | Legal Enviro/PESO/PCB compliance |UPW/WTP | ETP/STP ZLD l Biomass Boiler IBR Competent Person| Power Plant |Boiler SME | EMS/TPM/5S Coordinator | Certified ISO Sustainability Auditor - in.linkedin.com",
-      "summary": "Vaibhav Bode - Utility/Facility Projects, O&M | Legal Enviro/PESO/PCB compliance |UPW/WTP | ETP/STP ZLD l Biomass Boiler IBR Competent Person| Power Plant |Boiler SME | EMS/TPM/5S Coordinator | Certified ISO Sustainability Auditor in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9HdlNPYUJiajRETFI4UzM2cm55MW54R01lYzBmZVBQQjgzbmwxNzNmTFFIc3hWRjJEdVg1aFZpdnJYbHNNLW9rRHBva25naFlDeUdwYzR2NVRKNnRL?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2015-11-18T19:15:10.000Z",
-      "discoveredAt": "2026-09-19T06:10:28.815Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "5dd0bb441a2",
-      "title": "Vaibhav Bode - Utility/Facility Projects, O&M | Legal Enviro/PESO/PCB compliance |UPW/WTP | ETP/STP ZLD l Biomass Boiler IBR Competent Person| Power Plant |Boiler SME | EMS/TPM/5S Coordinator | Certified ISO Sustainability Auditor - LinkedIn India",
-      "summary": "Vaibhav Bode - Utility/Facility Projects, O&M | Legal Enviro/PESO/PCB compliance |UPW/WTP | ETP/STP ZLD l Biomass Boiler IBR Competent Person| Power Plant |Boiler SME | EMS/TPM/5S Coordinator | Certified ISO Sustainability Auditor LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9HdlNPYUJiajRETFI4UzM2cm55MW54R01lYzBmZVBQQjgzbmwxNzNmTFFIc3hWRjJEdVg1aFZpdnJYbHNNLW9rRHBva25naFlDeUdwYzR2NVRKNnRL?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2015-11-18T19:15:10.000Z",
-      "discoveredAt": "2026-09-19T15:47:31.355Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "6357c8c7104",
-      "title": "Mukesh Solanki - P&C | BIOMASS | RENEWABLE | SCM | COMMERCIAL | MIS - in.linkedin.com",
-      "summary": "Mukesh Solanki - P&C | BIOMASS | RENEWABLE | SCM | COMMERCIAL | MIS in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8tcW5kdzlhT0VrQVl3ZTZMT2txUFhjQ1duYk13TmtRTlhHQ3FyUkpxVWFZTUZfVmJjaVlCN1ZDWDJOcUNXaENJQ2hyN3VVRzBncW5MZUVHSG9LVU1iM3Bz?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2015-11-18T18:22:56.000Z",
-      "discoveredAt": "2026-09-19T06:10:28.816Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "24b7c356103",
-      "title": "Mukesh Solanki - P&C | BIOMASS | RENEWABLE | SCM | COMMERCIAL | MIS - LinkedIn India",
-      "summary": "Mukesh Solanki - P&C | BIOMASS | RENEWABLE | SCM | COMMERCIAL | MIS LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8tcW5kdzlhT0VrQVl3ZTZMT2txUFhjQ1duYk13TmtRTlhHQ3FyUkpxVWFZTUZfVmJjaVlCN1ZDWDJOcUNXaENJQ2hyN3VVRzBncW5MZUVHSG9LVU1iM3Bz?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2015-11-18T18:22:56.000Z",
-      "discoveredAt": "2026-09-19T15:47:31.356Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "44beb853128",
-      "title": "Amitabh Tandon - Managing Director Transtech green power & Secretary at Indian Biomass power association - LinkedIn India",
-      "summary": "Amitabh Tandon - Managing Director Transtech green power & Secretary at Indian Biomass power association LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBfSE90QkdNOFRaTDY0RzJRVXVxU2F3eG5TYnpobXhQbk9Fb3pXSU5qTHdxQTNxLWJ0VU1CWlhvZW9WOTlEcVFZSU01LWZMM1VHMDdGLVNFYU9YM0JaNjY4?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2015-11-16T14:57:17.000Z",
-      "discoveredAt": "2026-09-21T15:03:54.169Z",
       "channel": "linkedin",
       "isNew": false
     }
