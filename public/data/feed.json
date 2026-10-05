@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-05T01:14:51.018Z",
-  "crawlDurationMs": 18003,
+  "updatedAt": "2026-10-05T07:39:32.616Z",
+  "crawlDurationMs": 19277,
   "stats": {
     "total": 500,
-    "tenders": 124,
-    "purchase": 88,
-    "news": 288,
+    "tenders": 126,
+    "purchase": 90,
+    "news": 284,
     "portals": 85,
     "linkedin": 373,
-    "newThisCrawl": 15,
-    "withCompany": 123
+    "newThisCrawl": 26,
+    "withCompany": 125
   },
   "sources": [
     {
@@ -48,11 +48,11 @@
       "error": "fetch failed"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Tata Power tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": false,
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 57,
+      "count": 59,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 29,
+      "count": 31,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 63,
+      "count": 62,
       "error": null
     },
     {
@@ -867,6 +867,23 @@
       "isNew": false
     },
     {
+      "id": "695a8bc2240",
+      "title": "Upcoming Big Opportunity for the Biomass Pellet Industry 🌱🔥 The biomass pellet sector in India is entering an important growth phase. Large biomass pellet procurement tenders are expected from NTPC and various State Power Plants, creating significant op - linkedin.com",
+      "summary": "Upcoming Big Opportunity for the Biomass Pellet Industry 🌱🔥 The biomass pellet sector in India is entering an important growth phase. Large biomass pellet procurement tenders are expected from NTPC and various State Power Plants, creating significant op linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTEdqc25DeHNYYUVSaHY4eDdSY245bFlUUXdOVjhKamQ5M1V2ZXFia01sTWhQNE9fZU9vcUo3TkF0MS1PRXlaaVdUR1h3OXE4WjVhV1VHOEdGYjZ1OHcwRGZHM0pfRnBJS1ZBY1dfc3JHblgxcUlJOU1hcVpHS0Z1cUlqcVVxY3doaERYMWN3cGUyWFZac0paYzlTZURIbzdVN3RlY1Z0UU90dTVvb1oyMXRmUUxLOVZ2RjBTNXRLTzg?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 100,
+      "publishedAt": "2026-07-10T07:00:00.000Z",
+      "discoveredAt": "2026-10-05T07:39:14.945Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
       "id": "39b2569b242",
       "title": "🌾 Biomass demand is creating new opportunities across India. NTPC has invited biomass pellet procurement bids across Chhattisgarh, Odisha, Madhya Pradesh, Maharashtra and Jharkhand supporting cleaner energy generation and greater biomass utilizati - LinkedIn",
       "summary": "🌾 Biomass demand is creating new opportunities across India. NTPC has invited biomass pellet procurement bids across Chhattisgarh, Odisha, Madhya Pradesh, Maharashtra and Jharkhand supporting cleaner energy generation and greater biomass utilizati LinkedIn",
@@ -999,6 +1016,23 @@
       "score": 94,
       "publishedAt": "2026-08-03T07:00:00.000Z",
       "discoveredAt": "2026-10-02T13:06:53.203Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "6f2cb890161",
+      "title": "NTPC Dadri Biomass Pellet Tender 2026: A 3.78 Lakh MT Business Opportunity for Biomass Manufacturers and Traders - linkedin.com",
+      "summary": "NTPC Dadri Biomass Pellet Tender 2026: A 3.78 Lakh MT Business Opportunity for Biomass Manufacturers and Traders linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONVF1YklqaVB4bVZZQVlnLXBqNXZHSVROUmFndmhtLUJxSW94ZDRRMjdJQXhhSzMzek8za08tOEZ6ZEdwUFF3QjM2ZkYwNndHTWx1ckZ2M0hvNm5FRUtDRUVjd055QXFuSzJOSXZPdGR4UVVyZ1l6R2RydzZYUGcwWk1EX2w?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 94,
+      "publishedAt": "2026-08-03T07:00:00.000Z",
+      "discoveredAt": "2026-10-05T07:39:14.946Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -2054,7 +2088,7 @@
       "summary": "Faizan Hussain - - Plant Lead (Biomass Pellet) | Admin Lead | Masters Economics | Building & Facility Management | Gate Operations | Events Management | UAE-LMV License holder | E-Commerce & Digital Marketing pk.linkedin.com",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkeS1GZ0EyNTBHQUQ2UG5UQzBJTVhkY1JycHhLbDFXaGJzaGdhVVU3aS04NHVXeGx2Rk9weXRpa3laaGkwVndySTZ3Qm8wal84ZEFZb2N5am5RY0NtWEU0?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [],
       "score": 74,
@@ -2865,6 +2899,21 @@
       "isNew": false
     },
     {
+      "id": "0773c32022e",
+      "title": "Cleaner Power, Lower Emissions, Stronger Rural economy. 🌾⚡ Biomass co-firing delivers benefits for the environment, farmers and India’s energy future. #biomasscofiring #cleanenergy #SAMARTHMission #nationalbiomassmission - linkedin.com",
+      "summary": "Cleaner Power, Lower Emissions, Stronger Rural economy. 🌾⚡ Biomass co-firing delivers benefits for the environment, farmers and India’s energy future. #biomasscofiring #cleanenergy #SAMARTHMission #nationalbiomassmission linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPd0oxRnQtVkhlT2RWS3VEOTF0emFpSWp4T3NxaHRNdF9fZHlrb1VyRzdLekVvcDhPekp5MDJMRFNvc0NMdDhROExhVEdXZmtlYV9zUXE1b0U1eGRVdXg4eDVwVFVGQVU5S3NEejBEc25ELUlkUzR0emtyTjZYcm91bGp4VV9CblVHV2lQajhVc1U4UXF3SEY1OFlrVzRyczVOYk4xdVh2c3d6M003NFlucjNUSk9hWGdRUEpSaUd2eHF6VzhJeW4xV1lIY2Y?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "purchase",
+      "companies": [],
+      "score": 76,
+      "publishedAt": "2025-12-18T08:00:00.000Z",
+      "discoveredAt": "2026-10-05T07:39:15.758Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "1940bad211f",
       "title": "Wood Pellet Supplier at Flambriks-süd GmbH | ENplus® A1 | Wholesale & Bulk Supply| European B2B Sales - LinkedIn",
       "summary": "Wood Pellet Supplier at Flambriks-süd GmbH | ENplus® A1 | Wholesale & Bulk Supply| European B2B Sales LinkedIn",
@@ -2942,6 +2991,21 @@
       "discoveredAt": "2026-10-03T01:52:57.377Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "7b8bd0ae242",
+      "title": "Napier Grass: A Sustainable Feedstock for the CBG Industry. Napier grass is emerging as one of the most promising feedstocks for Compressed Biogas (CBG) production. Its high biomass yield, multiple harvests throughout the year, low input requirements, an - linkedin.com",
+      "summary": "Napier Grass: A Sustainable Feedstock for the CBG Industry. Napier grass is emerging as one of the most promising feedstocks for Compressed Biogas (CBG) production. Its high biomass yield, multiple harvests throughout the year, low input requirements, an linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQR21Wd1dLbldpTFNIX2J1aElTN2xVUS1DUmNkMk5SNlZiV2NIM0R3YmlHSWdQb0ZUNl82aVdjVU9UbFNFSlZQUWdHRnp1THIzb0VwRU9vT3BnNU5lbHNmaTlOUFVPd0xON3hPOE5MRmJfMmdXcnE5ZThPTk5tbTNSN2JRaXNuN3gzVlA0aXRsMmpmalhqMnVOTmJGeGFEZUdxR3FjNnN0ZHZFR1BWV1FOYlZhOFZGWm9KTmtjZ1Biell1UQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2026-07-27T07:00:00.000Z",
+      "discoveredAt": "2026-10-05T07:39:15.759Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "191b7e29244",
@@ -4081,6 +4145,21 @@
       "discoveredAt": "2026-10-04T15:18:49.724Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "461be244227",
+      "title": "🌍 FROM INDIAN BIOMASS TO GLOBAL CLEAN ENERGY — PROVEG IS ENGINEERING THE TRANSFORMATION. What others see as agricultural residue, we see as an industrial energy resource waiting to be engineered. 🌾 Paddy Straw 🌾 Rice Husk 🌿 Mu - linkedin.com",
+      "summary": "🌍 FROM INDIAN BIOMASS TO GLOBAL CLEAN ENERGY — PROVEG IS ENGINEERING THE TRANSFORMATION. What others see as agricultural residue, we see as an industrial energy resource waiting to be engineered. 🌾 Paddy Straw 🌾 Rice Husk 🌿 Mu linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRmRWaEFzOEZFaVNScjFpeE5LRjR0eHRBZE02X0dLZWV5OEJaYXhBZkllVDNBc3hlSl85SGRlWmtKYXYwcFNfU09EYmxFZTFxMzZ5NEVUdmFCanFWRXcwZlRSWU5VWTVwU2FiWDh5aHZWUm5rOVFQbkxNcUt4LXZuWV9hN2VqZ2dodVZUUkNfcWVUam1CRHZoMnlQbWxmdGRLWlkzaGVYQTEzUmZTQVhfWUxXakNmNTNZUGFSS2t4dmI?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-03T03:00:34.000Z",
+      "discoveredAt": "2026-10-05T07:39:14.947Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "127c60f715d",
@@ -5330,6 +5409,21 @@
       "isNew": false
     },
     {
+      "id": "71f1eefe1bb",
+      "title": "IIT Guwahati Develops Two-Stage Cultivation Process To Improve Carbon Capture, Microalgal Biomass Production And Bioenergy Generation - linkedin.com",
+      "summary": "IIT Guwahati Develops Two-Stage Cultivation Process To Improve Carbon Capture, Microalgal Biomass Production And Bioenergy Generation linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRUNYaFhtTG1KQ2hPR0hSVmQyWHU4MEwyZTdWZTVaZDk1NTBscWVMUE9HaXpoWFRYbVZBdjZaLV9OLUhuR0dPbjJpdEtNdkRJQmE4QjNkVS1WcV81S25QNVNtRGNIbVBqTGlSbFJfU2ZZVFFWbDRrRlViYTlKN2I3MmZYWVUteVlKNTV3RFVYZm5KeG9sWU5JZ3drajVsRWVtd1FtdW9NeUREaFZmSlFrZGVQRTlHckEt?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-08-13T07:00:00.000Z",
+      "discoveredAt": "2026-10-05T07:39:15.395Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "5f7dfaac21d",
       "title": "I’m pleased to share that our paper （collaborated with Dr. Truong Nguyen at Umeå University) on heat, electricity, and biochar polygeneration has now been published in Biomass and Bioenergy. The key question behind this work was: Can existing biomass di - LinkedIn",
       "summary": "I’m pleased to share that our paper （collaborated with Dr. Truong Nguyen at Umeå University) on heat, electricity, and biochar polygeneration has now been published in Biomass and Bioenergy. The key question behind this work was: Can existing biomass di LinkedIn",
@@ -5403,6 +5497,21 @@
       "discoveredAt": "2026-10-03T23:18:43.973Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "39ce1ff818c",
+      "title": "Smart Napier Grass Dewatering Machine: Cut Dryer Fuel Cost, Increase Pellet Output and Power the Bio-CNG Revolution - linkedin.com",
+      "summary": "Smart Napier Grass Dewatering Machine: Cut Dryer Fuel Cost, Increase Pellet Output and Power the Bio-CNG Revolution linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTUhGYjhDMVpFTkZPS3Y0am1zN0IzZGNPR2RFRVB1c2lDUGhNbkFNQmQyNUJyM19MaHVYdjRGME14QVNsUktadjFXZlpUYXprZG54QjdrWXd6cGlUckgzVEFmVkx6eHhMQm1PMWIyRXREWnh0UVp5djlpby1wOHUyTDJtLWZoT0lESzFRTUNSaWFLWHJaN3E0QnJJVWhVbG9IOHc?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-07-26T07:00:00.000Z",
+      "discoveredAt": "2026-10-05T07:39:15.759Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "60aaded820d",
@@ -5645,6 +5754,21 @@
       "isNew": false
     },
     {
+      "id": "3d320853251",
+      "title": "🌱 A New Journey Begins Today, we are proud to introduce ECOGRO ENERGIA PVT LTD. India generates millions of tonnes of agricultural biomass every year. Much of it remains underutilized, while industries continue to seek sustainable alternatives to conv - linkedin.com",
+      "summary": "🌱 A New Journey Begins Today, we are proud to introduce ECOGRO ENERGIA PVT LTD. India generates millions of tonnes of agricultural biomass every year. Much of it remains underutilized, while industries continue to seek sustainable alternatives to conv linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVEdpdk9EQVE3SXB6VkN5XzRENE5qaTdxVTBOOXhZOG80bzE1aDZvVlFOUTRpb3ROcllnWDFINjFMZm9uNENZTndEQTVPWTM3TkE4Vkh6eDAyanM4SmtaN0dKQW91dzlIcFNzQXVLQkkwSFBnaVV1TDVlVkJpUG1Wd2lTV19Mby1uMENMMEFDZ3AwT05ndHpVYVdXdmFuOFdoQUNqQ3liSDFYX0dfc3JQdUl1LTJsb09DSGszN0FUNHNSUGhHV21IZTNuOWZ5dDA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-06-04T07:00:00.000Z",
+      "discoveredAt": "2026-10-05T07:39:14.946Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
       "id": "2ae891a1264",
       "title": "Meet Dr. Vikas Kikan – “The Pellet Man of India” at Biofuel Expo 2026 I am delighted to share that Dr. Vikas Kikan, CEO of Beyond Drilling & Exploration Pvt. Ltd., will be available at the TRIO Renewable Energy Stall No. 31 during Biofuel Expo 2026 at India Ex - LinkedIn",
       "summary": "Meet Dr. Vikas Kikan – “The Pellet Man of India” at Biofuel Expo 2026 I am delighted to share that Dr. Vikas Kikan, CEO of Beyond Drilling & Exploration Pvt. Ltd., will be available at the TRIO Renewable Energy Stall No. 31 during Biofuel Expo 2026 at India Ex LinkedIn",
@@ -5789,7 +5913,7 @@
       "summary": "Biomass Pellets Import in India: Strategic Growth and Future Outlook linkedin.com",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcmFUSGIwZVMxdGU1b3JTNmdROVdqWnZlNEhQakhtaE9wU1JPdUt0RkVyU25nT2xobjhsTEl6d2l6R2staXExd3NQUG5MTDgtQ1N5dXA3ZVl2SXpzN3BVM2U5VkJiZnZwN1JFd2hhQkl6WTJCNHI4SWc5Uk81MnFISjNOdml4akhGVEpOUHVPQ3dXSzg?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -5842,6 +5966,21 @@
       "discoveredAt": "2026-10-03T17:35:34.028Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "5f40e6c5182",
+      "title": "PSERC revises Malwa Power biomass tariff, extends operations - linkedin.com",
+      "summary": "PSERC revises Malwa Power biomass tariff, extends operations linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcmFXZ2RVMTk4b19LdUtEWjNxcFZmVHNYUkFjNllvUF9PaG1zbGtDU0ZScFNpa0NoM3BMRGQ4MnV1V2NULTB3MHN4NTFWNjV5M3VoYS1GOExEbFhiakdVa1hNc1czNThLaFNvQ0NMRjBXV1dWVEpKYkJOSl9NMUxuUjNaVWJrN1o5QnNrUExxN1dBWFk3TVpYZzRHNlVUQUxjM0NuZnM0SHQ2WWlEanByQVNzc0xhNC02a2NxZERhVkFObXpQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-04-02T07:00:00.000Z",
+      "discoveredAt": "2026-10-05T07:39:14.949Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "18ad5507116",
@@ -6041,6 +6180,21 @@
       "discoveredAt": "2026-10-03T23:18:43.973Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "050a549f1bd",
+      "title": "US biomass facilities in line for technology-neutral tax credits under IRA - Bioenergy Insight Magazine - linkedin.com",
+      "summary": "US biomass facilities in line for technology-neutral tax credits under IRA - Bioenergy Insight Magazine linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWldPLVZaR041ZlRkeHRIMHVrcm1jQVpQdHpTdGQ0elRnV0RxazJuMTJZZ256VHVYbjlBZG8wdUpmYVZQNEJ5X1p4YXBKcUloVmhQZ2FMejRvV1BXdnBBZVFoNGJxOWdrV1V4X1plUUhwdTc3X3NhVVdjTm8wQWxhMDFDZ1lnS1ZBYkw5UzFGZGowRWVsVVd4bEZBVHhyMXVoQzlNOHczemRCU3NyVm9wZmFhYWdZd2p0ZWxKejljN2x4aUxKV0hTeGp0aklFYmp2?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-03-04T08:00:00.000Z",
+      "discoveredAt": "2026-10-05T07:39:15.759Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "0bcbf50e1eb",
@@ -7337,6 +7491,21 @@
       "isNew": false
     },
     {
+      "id": "47d98248145",
+      "title": "Biomass Briquettes Advantages and Challenges - linkedin.com",
+      "summary": "Biomass Briquettes Advantages and Challenges linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUjFGSk1oM0JUaGh2cUNtMVNoUE9URXdPcW1Ja2NxYl9iUDc4Yk1SWUVZSU5rWmpMT1djbkszakFvWE9DS21QNzZnLXpXT1h4Y192b0EydkR1ZTJXRmx5ZjBQWTdZQkhRTlNzdlZlaEVRamhSSkNIbzN4QUh1X2RMUnVnX3hJYVRmcjVsdFBDSk41NFhFNFgyNWpHOWh5STFKNXc?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2024-04-08T07:00:00.000Z",
+      "discoveredAt": "2026-10-05T07:39:14.949Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "0dd3fda7152",
       "title": "Dr. Shraddha Shahane - Founder | GreenCore Fuels | Industrial Fuel Transition | Biomass Pellet Manufacturing | Technical Consultant | Ph.D. IIT Delhi - in.linkedin.com",
       "summary": "Dr. Shraddha Shahane - Founder | GreenCore Fuels | Industrial Fuel Transition | Biomass Pellet Manufacturing | Technical Consultant | Ph.D. IIT Delhi in.linkedin.com",
@@ -7821,171 +7990,6 @@
       "score": 70,
       "publishedAt": "2019-03-15T12:18:41.000Z",
       "discoveredAt": "2026-09-19T06:10:28.815Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "6ef4c1acea",
-      "title": "Sanjay Swain - Biomass pellets manufacturer - LinkedIn India",
-      "summary": "Sanjay Swain - Biomass pellets manufacturer LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0MTNlTWU3M25jUFVZZjdBREZsNFFOZEJHYTZRNEJSOVZoekl0STJMdHppZkFzVFZpOG94NE5HQmt0LVhVZHFnT28wWkV5NktEQ0RzVmRLY1lnMnB6eHc?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2019-03-15T12:18:41.000Z",
-      "discoveredAt": "2026-09-19T15:47:31.355Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "398c031f12a",
-      "title": "Decarbonising Industrial Steam | Biomass Pellet & Briquette Manufacturer & Green Steam Solutions Provider - in.linkedin.com",
-      "summary": "Decarbonising Industrial Steam | Biomass Pellet & Briquette Manufacturer & Green Steam Solutions Provider in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE92cmUyUHRidXJTQVMzRk5sUGdDT2xjYnRPbm5sRE5yd2ZYZVJoQ0daZWNkQjV6YU56N0ZidlFLRXdvTWFncjZLaEV3bzJaVzlzVzNDRk5pZFhBZXpMM3Vv?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2018-07-12T06:02:12.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.216Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "0508a8ae129",
-      "title": "Decarbonising Industrial Steam | Biomass Pellet & Briquette Manufacturer & Green Steam Solutions Provider - LinkedIn India",
-      "summary": "Decarbonising Industrial Steam | Biomass Pellet & Briquette Manufacturer & Green Steam Solutions Provider LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE92cmUyUHRidXJTQVMzRk5sUGdDT2xjYnRPbm5sRE5yd2ZYZVJoQ0daZWNkQjV6YU56N0ZidlFLRXdvTWFncjZLaEV3bzJaVzlzVzNDRk5pZFhBZXpMM3Vv?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2018-07-12T06:02:12.000Z",
-      "discoveredAt": "2026-09-20T05:03:21.802Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "1c8fe517154",
-      "title": "Pandurang Dhande - Agricultural Research & Biomass Expert | 42 Years Experience in Public & Private Sectors | Sustainable Development Advocate - LinkedIn India",
-      "summary": "Pandurang Dhande - Agricultural Research & Biomass Expert | 42 Years Experience in Public & Private Sectors | Sustainable Development Advocate LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5qUnEyUlV2aDIyT3QwSEN3am9FNjlPa3R2N3RoV25qaW9hdFZCQWNEb20yZTlWdXAzSm9lSW1kOWRSTzV6M1M1QXgxeDRmZGJJd3lrVHNLMjB5bmVqVGtvMWRwWQ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2017-07-20T18:37:27.000Z",
-      "discoveredAt": "2026-09-25T10:08:52.523Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "602bb268155",
-      "title": "Pandurang Dhande - Agricultural Research & Biomass Expert | 42 Years Experience in Public & Private Sectors | Sustainable Development Advocate - in.linkedin.com",
-      "summary": "Pandurang Dhande - Agricultural Research & Biomass Expert | 42 Years Experience in Public & Private Sectors | Sustainable Development Advocate in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5qUnEyUlV2aDIyT3QwSEN3am9FNjlPa3R2N3RoV25qaW9hdFZCQWNEb20yZTlWdXAzSm9lSW1kOWRSTzV6M1M1QXgxeDRmZGJJd3lrVHNLMjB5bmVqVGtvMWRwWQ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2017-07-20T18:37:27.000Z",
-      "discoveredAt": "2026-09-26T22:10:51.401Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "69d565e7137",
-      "title": "General Manager @ Orril Biomass Granules, manufacturers of biomass briquettes & pellets from agrowaste residuals - in.linkedin.com",
-      "summary": "General Manager @ Orril Biomass Granules, manufacturers of biomass briquettes & pellets from agrowaste residuals in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE12d0FlaVAwNDZqejZRNmE0S2hxWE8wdGEteW1GaFlOUmU0WGZBVk5naXAxQUtSMFFEZUNRNDZKTzB5S2pDTkxldWZuZzJoUEk2TWVuTnpDeVRvMmRLVjZVWXMtaw?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2017-06-09T21:47:42.000Z",
-      "discoveredAt": "2026-09-19T06:10:28.816Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "2e127b8a136",
-      "title": "General Manager @ Orril Biomass Granules, manufacturers of biomass briquettes & pellets from agrowaste residuals - LinkedIn India",
-      "summary": "General Manager @ Orril Biomass Granules, manufacturers of biomass briquettes & pellets from agrowaste residuals LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE12d0FlaVAwNDZqejZRNmE0S2hxWE8wdGEteW1GaFlOUmU0WGZBVk5naXAxQUtSMFFEZUNRNDZKTzB5S2pDTkxldWZuZzJoUEk2TWVuTnpDeVRvMmRLVjZVWXMtaw?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2017-06-09T21:47:42.000Z",
-      "discoveredAt": "2026-09-19T15:47:31.356Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "77750c3b16b",
-      "title": "Dinesh Pansare - Biomass Briquette/Biomass Pellet Manufacturing & supply all over INDIA Indonesian & Indian Coal supply Industrial use furnace Oil supply Industrial use - in.linkedin.com",
-      "summary": "Dinesh Pansare - Biomass Briquette/Biomass Pellet Manufacturing & supply all over INDIA Indonesian & Indian Coal supply Industrial use furnace Oil supply Industrial use in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA5b0JlT0JIU1hFYy1LczkwWkpEaFhyallzSTlZQ0dxbDZsV0hlV29TWjRnb3V6VW5CaWRXWVByYVBDQ0VZSEFFNDV3VUMzVGFGQTAtZEhVMFJETXB2NHlZcw?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2016-12-31T14:56:14.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.214Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "7e5b461416a",
-      "title": "Dinesh Pansare - Biomass Briquette/Biomass Pellet Manufacturing & supply all over INDIA Indonesian & Indian Coal supply Industrial use furnace Oil supply Industrial use - LinkedIn India",
-      "summary": "Dinesh Pansare - Biomass Briquette/Biomass Pellet Manufacturing & supply all over INDIA Indonesian & Indian Coal supply Industrial use furnace Oil supply Industrial use LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA5b0JlT0JIU1hFYy1LczkwWkpEaFhyallzSTlZQ0dxbDZsV0hlV29TWjRnb3V6VW5CaWRXWVByYVBDQ0VZSEFFNDV3VUMzVGFGQTAtZEhVMFJETXB2NHlZcw?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2016-12-31T14:56:14.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.427Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "06bee5b0124",
-      "title": "Shriram Vaidya - Managing Director at ECOGRO ENERGIA PVT LTD | Biomass Pellets | Renewable Energy - in.linkedin.com",
-      "summary": "Shriram Vaidya - Managing Director at ECOGRO ENERGIA PVT LTD | Biomass Pellets | Renewable Energy in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0wTXBObWY1ZmZNbldIY28wR1pjckJNa2o0ZTU4eTFZUjlQRTlLbGdGeGFMd3c0MlpJclhaOVZVeTdXZ2lqMkFDbTdyTkp5b3pZOEJ2MUhDOUIzSEJQT29nbg?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2016-07-20T16:21:09.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.216Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "407aa15f123",
-      "title": "Shriram Vaidya - Managing Director at ECOGRO ENERGIA PVT LTD | Biomass Pellets | Renewable Energy - LinkedIn India",
-      "summary": "Shriram Vaidya - Managing Director at ECOGRO ENERGIA PVT LTD | Biomass Pellets | Renewable Energy LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0wTXBObWY1ZmZNbldIY28wR1pjckJNa2o0ZTU4eTFZUjlQRTlLbGdGeGFMd3c0MlpJclhaOVZVeTdXZ2lqMkFDbTdyTkp5b3pZOEJ2MUhDOUIzSEJQT29nbg?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2016-07-20T16:21:09.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.429Z",
       "channel": "linkedin",
       "isNew": false
     }
