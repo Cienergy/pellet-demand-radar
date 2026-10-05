@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-05T17:06:07.152Z",
-  "crawlDurationMs": 22254,
+  "updatedAt": "2026-10-05T23:21:06.698Z",
+  "crawlDurationMs": 19786,
   "stats": {
     "total": 500,
     "tenders": 126,
@@ -90,18 +90,18 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 59,
+      "count": 61,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 33,
+      "count": 32,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 63,
+      "count": 64,
       "error": null
     },
     {
@@ -3103,7 +3103,7 @@
       "summary": "India’s biomass pellet exports are still small — but the potential is real. Despite approx. 2.5 million tonnes of annual production capacity, most biomass pellets are currently absorbed by domestic co-firing mandates. Exports remain limited (~100–200k tonnes/ye LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbmdoOHYyei1pd1VOQjZfOFUyWmlEM2U4RFd3aV9tbzlUTzI0YjdYVHRHR2JqdHlnME55WHFkZXd1VHU3U3dwMVhNU2YwUU1aVE41LU84V1NldHM1aERhaVJneHFBUkxZaG1RVHZFdi0yQVV4UU1PZnptTnpuUGZlZ203c2R5MENwQWlLeENIVUowNW5kS05GX2RDVy00Vzk1cXNuRnIya1NNTWowWVM4TVRDUV9KcFJneDdMdGdod2tuQ0t2UnR3elp3?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -7972,7 +7972,7 @@
       "publishedAt": "2020-01-13T15:29:54.000Z",
       "discoveredAt": "2026-10-05T17:05:47.094Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "05ea7fdf15a",
