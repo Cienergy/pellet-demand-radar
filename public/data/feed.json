@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-04T22:18:46.168Z",
-  "crawlDurationMs": 17805,
+  "updatedAt": "2026-10-05T01:14:51.018Z",
+  "crawlDurationMs": 18003,
   "stats": {
     "total": 500,
     "tenders": 124,
@@ -8,7 +8,7 @@
     "news": 288,
     "portals": 85,
     "linkedin": 373,
-    "newThisCrawl": 16,
+    "newThisCrawl": 15,
     "withCompany": 123
   },
   "sources": [
@@ -90,11 +90,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -128,28 +128,28 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 58,
+      "count": 57,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 30,
+      "count": 29,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 62,
+      "count": 63,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 7,
+      "count": 6,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 7,
+      "count": 6,
       "error": null
     },
     {
@@ -2054,7 +2054,7 @@
       "summary": "Faizan Hussain - - Plant Lead (Biomass Pellet) | Admin Lead | Masters Economics | Building & Facility Management | Gate Operations | Events Management | UAE-LMV License holder | E-Commerce & Digital Marketing pk.linkedin.com",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkeS1GZ0EyNTBHQUQ2UG5UQzBJTVhkY1JycHhLbDFXaGJzaGdhVVU3aS04NHVXeGx2Rk9weXRpa3laaGkwVndySTZ3Qm8wal84ZEFZb2N5am5RY0NtWEU0?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 74,
