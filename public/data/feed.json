@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-05T07:39:32.616Z",
-  "crawlDurationMs": 19277,
+  "updatedAt": "2026-10-05T17:06:07.152Z",
+  "crawlDurationMs": 22254,
   "stats": {
     "total": 500,
     "tenders": 126,
@@ -8,8 +8,8 @@
     "news": 284,
     "portals": 85,
     "linkedin": 373,
-    "newThisCrawl": 26,
-    "withCompany": 125
+    "newThisCrawl": 19,
+    "withCompany": 124
   },
   "sources": [
     {
@@ -48,11 +48,11 @@
       "error": "fetch failed"
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Tata Power tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -86,22 +86,22 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 27,
+      "count": 26,
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
       "ok": true,
@@ -135,21 +135,21 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 31,
+      "count": 33,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 62,
+      "count": 63,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 6,
+      "count": 5,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 6,
+      "count": 5,
       "error": null
     },
     {
@@ -2103,7 +2103,7 @@
       "summary": "Faizan Hussain - - Plant Lead (Biomass Pellet) | Admin Lead | Masters Economics | Building & Facility Management | Gate Operations | Events Management | UAE-LMV License holder | E-Commerce & Digital Marketing LinkedIn Pakistan",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkeS1GZ0EyNTBHQUQ2UG5UQzBJTVhkY1JycHhLbDFXaGJzaGdhVVU3aS04NHVXeGx2Rk9weXRpa3laaGkwVndySTZ3Qm8wal84ZEFZb2N5am5RY0NtWEU0?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [],
       "score": 74,
@@ -2911,7 +2911,7 @@
       "publishedAt": "2025-12-18T08:00:00.000Z",
       "discoveredAt": "2026-10-05T07:39:15.758Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1940bad211f",
@@ -3005,7 +3005,7 @@
       "publishedAt": "2026-07-27T07:00:00.000Z",
       "discoveredAt": "2026-10-05T07:39:15.759Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "191b7e29244",
@@ -3103,7 +3103,7 @@
       "summary": "India’s biomass pellet exports are still small — but the potential is real. Despite approx. 2.5 million tonnes of annual production capacity, most biomass pellets are currently absorbed by domestic co-firing mandates. Exports remain limited (~100–200k tonnes/ye LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbmdoOHYyei1pd1VOQjZfOFUyWmlEM2U4RFd3aV9tbzlUTzI0YjdYVHRHR2JqdHlnME55WHFkZXd1VHU3U3dwMVhNU2YwUU1aVE41LU84V1NldHM1aERhaVJneHFBUkxZaG1RVHZFdi0yQVV4UU1PZnptTnpuUGZlZ203c2R5MENwQWlLeENIVUowNW5kS05GX2RDVy00Vzk1cXNuRnIya1NNTWowWVM4TVRDUV9KcFJneDdMdGdod2tuQ0t2UnR3elp3?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -4159,7 +4159,7 @@
       "publishedAt": "2026-10-03T03:00:34.000Z",
       "discoveredAt": "2026-10-05T07:39:14.947Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "127c60f715d",
@@ -5421,7 +5421,7 @@
       "publishedAt": "2026-08-13T07:00:00.000Z",
       "discoveredAt": "2026-10-05T07:39:15.395Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5f7dfaac21d",
@@ -5511,7 +5511,7 @@
       "publishedAt": "2026-07-26T07:00:00.000Z",
       "discoveredAt": "2026-10-05T07:39:15.759Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "60aaded820d",
@@ -5769,6 +5769,21 @@
       "isNew": false
     },
     {
+      "id": "5c488a5a24d",
+      "title": "🌱 A New Journey Begins Today, we are proud to introduce ECOGRO ENERGIA PVT LTD. India generates millions of tonnes of agricultural biomass every year. Much of it remains underutilized, while industries continue to seek sustainable alternatives to conv - LinkedIn",
+      "summary": "🌱 A New Journey Begins Today, we are proud to introduce ECOGRO ENERGIA PVT LTD. India generates millions of tonnes of agricultural biomass every year. Much of it remains underutilized, while industries continue to seek sustainable alternatives to conv LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVEdpdk9EQVE3SXB6VkN5XzRENE5qaTdxVTBOOXhZOG80bzE1aDZvVlFOUTRpb3ROcllnWDFINjFMZm9uNENZTndEQTVPWTM3TkE4Vkh6eDAyanM4SmtaN0dKQW91dzlIcFNzQXVLQkkwSFBnaVV1TDVlVkJpUG1Wd2lTV19Mby1uMENMMEFDZ3AwT05ndHpVYVdXdmFuOFdoQUNqQ3liSDFYX0dfc3JQdUl1LTJsb09DSGszN0FUNHNSUGhHV21IZTNuOWZ5dDA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-06-04T07:00:00.000Z",
+      "discoveredAt": "2026-10-05T17:05:46.558Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
       "id": "2ae891a1264",
       "title": "Meet Dr. Vikas Kikan – “The Pellet Man of India” at Biofuel Expo 2026 I am delighted to share that Dr. Vikas Kikan, CEO of Beyond Drilling & Exploration Pvt. Ltd., will be available at the TRIO Renewable Energy Stall No. 31 during Biofuel Expo 2026 at India Ex - LinkedIn",
       "summary": "Meet Dr. Vikas Kikan – “The Pellet Man of India” at Biofuel Expo 2026 I am delighted to share that Dr. Vikas Kikan, CEO of Beyond Drilling & Exploration Pvt. Ltd., will be available at the TRIO Renewable Energy Stall No. 31 during Biofuel Expo 2026 at India Ex LinkedIn",
@@ -5980,7 +5995,7 @@
       "publishedAt": "2026-04-02T07:00:00.000Z",
       "discoveredAt": "2026-10-05T07:39:14.949Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "18ad5507116",
@@ -6194,7 +6209,7 @@
       "publishedAt": "2026-03-04T08:00:00.000Z",
       "discoveredAt": "2026-10-05T07:39:15.759Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0bcbf50e1eb",
@@ -7503,7 +7518,7 @@
       "publishedAt": "2024-04-08T07:00:00.000Z",
       "discoveredAt": "2026-10-05T07:39:14.949Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0dd3fda7152",
@@ -7945,6 +7960,21 @@
       "isNew": false
     },
     {
+      "id": "48ab62da124",
+      "title": "Raseswari Mishra - AM/NS India | Electrical maintenance and planning | Pellet plant operations - LinkedIn India",
+      "summary": "Raseswari Mishra - AM/NS India | Electrical maintenance and planning | Pellet plant operations LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9iUFlmOXFCS0N1TU12NEozQ0wwY00xeWo0VWUxSkV3Ym45QjFGQzh0ZXlOdEgxMWo2ejd0MFJBN0stTmNReUJEMmVHUlNDTnJTWEdkeEpKc0dMRHVBR2s2ZUd3bw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2020-01-13T15:29:54.000Z",
+      "discoveredAt": "2026-10-05T17:05:47.094Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "05ea7fdf15a",
       "title": "Sampad Narayan Sen - Assistant Engineer – Electrical | Power Plant Commissioning | HT/LT Systems | Biomass (Green Coal) Plant | APCPL (NTPC JV) - in.linkedin.com",
       "summary": "Sampad Narayan Sen - Assistant Engineer – Electrical | Power Plant Commissioning | HT/LT Systems | Biomass (Green Coal) Plant | APCPL (NTPC JV) in.linkedin.com",
@@ -7958,38 +7988,6 @@
       "score": 70,
       "publishedAt": "2019-08-09T23:04:22.000Z",
       "discoveredAt": "2026-09-19T06:10:28.264Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "0f56cdf0159",
-      "title": "Sampad Narayan Sen - Assistant Engineer – Electrical | Power Plant Commissioning | HT/LT Systems | Biomass (Green Coal) Plant | APCPL (NTPC JV) - LinkedIn India",
-      "summary": "Sampad Narayan Sen - Assistant Engineer – Electrical | Power Plant Commissioning | HT/LT Systems | Biomass (Green Coal) Plant | APCPL (NTPC JV) LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAyZDJzR0VZckhwaU9KOEYyNGlKWC1ZVE1FSXdLRUNIcFJ5WkFRUlNBeE02bkw1ZW5FS2p5NDNRc244MTlGNVJKQ1VDYzZuY3RLOTlmRklWRUMtUVZleUpZeUNPaFlNUQ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
-      "type": "news",
-      "companies": [
-        "NTPC"
-      ],
-      "score": 70,
-      "publishedAt": "2019-08-09T23:04:22.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.955Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "453be405eb",
-      "title": "Sanjay Swain - Biomass pellets manufacturer - in.linkedin.com",
-      "summary": "Sanjay Swain - Biomass pellets manufacturer in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0MTNlTWU3M25jUFVZZjdBREZsNFFOZEJHYTZRNEJSOVZoekl0STJMdHppZkFzVFZpOG94NE5HQmt0LVhVZHFnT28wWkV5NktEQ0RzVmRLY1lnMnB6eHc?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2019-03-15T12:18:41.000Z",
-      "discoveredAt": "2026-09-19T06:10:28.815Z",
       "channel": "linkedin",
       "isNew": false
     }
