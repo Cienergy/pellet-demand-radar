@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-06T17:09:20.308Z",
-  "crawlDurationMs": 17737,
+  "updatedAt": "2026-10-06T21:52:49.229Z",
+  "crawlDurationMs": 18532,
   "stats": {
     "total": 500,
     "tenders": 126,
@@ -90,11 +90,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
       "ok": true,
@@ -135,7 +135,7 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 31,
+      "count": 32,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 5,
+      "count": 6,
       "error": null
     },
     {
@@ -3786,7 +3786,7 @@
       "publishedAt": "2025-05-26T07:00:00.000Z",
       "discoveredAt": "2026-10-06T17:09:03.947Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "734a85de2a2",
@@ -4193,7 +4193,7 @@
       "publishedAt": "2026-10-06T13:01:34.000Z",
       "discoveredAt": "2026-10-06T17:09:04.803Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5e35f017223",
