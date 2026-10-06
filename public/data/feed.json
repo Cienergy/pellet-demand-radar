@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-06T10:45:13.368Z",
-  "crawlDurationMs": 20577,
+  "updatedAt": "2026-10-06T17:09:20.308Z",
+  "crawlDurationMs": 17737,
   "stats": {
     "total": 500,
     "tenders": 126,
     "purchase": 92,
     "news": 282,
-    "portals": 85,
-    "linkedin": 373,
-    "newThisCrawl": 23,
+    "portals": 86,
+    "linkedin": 372,
+    "newThisCrawl": 24,
     "withCompany": 125
   },
   "sources": [
@@ -128,14 +128,14 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 58,
+      "count": 60,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 33,
+      "count": 31,
       "error": null
     },
     {
@@ -149,7 +149,7 @@
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 6,
+      "count": 5,
       "error": null
     },
     {
@@ -2915,7 +2915,7 @@
       "publishedAt": "2026-10-05T08:49:23.000Z",
       "discoveredAt": "2026-10-06T10:44:54.806Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "29ac074d22a",
@@ -3774,6 +3774,21 @@
       "isNew": false
     },
     {
+      "id": "528c837b2bd",
+      "title": "MSPGCL scouting for partner to get biomass pellets for Koradi Thermal Power Station - RightNow",
+      "summary": "MSPGCL scouting for partner to get biomass pellets for Koradi Thermal Power Station RightNow",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZkRSRVI5ck1ULW1WeS1GVFhLakZpUUlpandtUDRLMVo5dzhaV09WVEk5ZHpWOTNJQjBsSmh1UG5UWEdTZTNxZGRlNy1GWUNfZXRUdUlfMW1PU2tORHJRVzI0RGNVSnNjaFEySHp3Uk1UdEFkNlhSZndLSzNvdXJtVVU1RTNiYXdFNUd3TXpHRGd0MG1aSWFORkdWMDN5WjVMdWNyWm5fWUZLY2g3VmZ2MkRJVjgzSnBJVVlLVmlLWXpIeEU4MXFtVWoxTGXSAdIBQVVfeXFMT3lSV2ZQN3pVYm0tXzY2OGxrMndRcUtrckV2Mk02ak1YdWFEOHZDdm51SHhnaTVGaENTUlFjWUlQaEludWNnYWZHblRWb1dFY21zeFZVcktSMy1qTExrNjNmRU1FMUE0Vnc0SDgwQmFweVdYY2c1VUdqODdIdW9MRUhjdDVmSUtPek9WVV9Ua3k0a0xCekxkN0ttODd6U3h3WDBTTlUyTUVZNFc0ZEJJSG1QYlliSjd0UGVCenI3akN5ME1GZjRrR0RXZHlNNGFXbmxR?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2025-05-26T07:00:00.000Z",
+      "discoveredAt": "2026-10-06T17:09:03.947Z",
+      "channel": "portal",
+      "isNew": true
+    },
+    {
       "id": "734a85de2a2",
       "title": "Power plants struggle to meet pellet blending target - The Times of India",
       "summary": "Power plants struggle to meet pellet blending target The Times of India",
@@ -4164,6 +4179,21 @@
       "discoveredAt": "2026-09-24T12:09:37.831Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "5e577c781a3",
+      "title": "Japan Biomass Pellets Market - A Global and Regional Analysis: Focus on Region, Country-Level Analysis, and Competitive Landscape - Analysis and Forec - LinkedIn",
+      "summary": "Japan Biomass Pellets Market - A Global and Regional Analysis: Focus on Region, Country-Level Analysis, and Competitive Landscape - Analysis and Forec LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT1NsUEY4NXA1Q0xQX1V5eVdrYVBWNTE4QlFXMkVwNW01X2wtNU0wSTdrM0pLZFRkREdGZ3NCcUNVQTAxdXJId0xJb3JwUXZaLV9KeU5TRXN0aFhfZkdYYmtmNkpKcUJEbWF2MzA3QklCcjhxcEdYYkQxVXcwZUxrYWRaQlh5Z29CdGFRdTNfTFRPT3BOdE5TZlhaaWs?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-06T13:01:34.000Z",
+      "discoveredAt": "2026-10-06T17:09:04.803Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "5e35f017223",
@@ -5770,7 +5800,7 @@
       "publishedAt": "2026-06-08T07:00:00.000Z",
       "discoveredAt": "2026-10-06T10:44:54.320Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7024d27b18e",
@@ -7960,36 +7990,6 @@
       "score": 70,
       "publishedAt": "2020-05-18T21:55:11.000Z",
       "discoveredAt": "2026-09-19T06:10:28.815Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "175e2a5714c",
-      "title": "Piyush chilbule - Co-​Founder & CMO | Vidarbha Bioenergy Solutions Pvt. Ltd. | Biomass Pellets & Briquettes | Renewable Energy Solutions - LinkedIn India",
-      "summary": "Piyush chilbule - Co-​Founder & CMO | Vidarbha Bioenergy Solutions Pvt. Ltd. | Biomass Pellets & Briquettes | Renewable Energy Solutions LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBSZlFvMUI0NmhxU1lSN2RZLWpWR1VUM3hYRHZIdXVBaFlYVWh0ZXJPRzBRWVNneUI2OWliVVZyTVJ0S1ZoV1h6ZllTUXRMTGdncGV0RVZoYTBBQzRIYlc0UUxR?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2020-05-18T21:55:11.000Z",
-      "discoveredAt": "2026-09-19T15:47:31.355Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "3fbe2b6c10f",
-      "title": "Associate Executive Director @ Wood Pellet Association of Canada | PhD in Chemical Engineering - LinkedIn",
-      "summary": "Associate Executive Director @ Wood Pellet Association of Canada | PhD in Chemical Engineering LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1fbkExMllkTVM5eTNGVkJRc215eHV3NU5kVkZFU2hXcHB5c2x5Y0pOd1o5elgxR1VvamdZMm5zMHhxdkVoRkxTSWJEdnROU0w2SHRSSUJXR2o?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2020-03-31T03:53:13.000Z",
-      "discoveredAt": "2026-09-19T22:49:51.683Z",
       "channel": "linkedin",
       "isNew": false
     }
