@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-06T03:18:48.041Z",
-  "crawlDurationMs": 17970,
+  "updatedAt": "2026-10-06T10:45:13.368Z",
+  "crawlDurationMs": 20577,
   "stats": {
     "total": 500,
     "tenders": 126,
-    "purchase": 91,
-    "news": 283,
+    "purchase": 92,
+    "news": 282,
     "portals": 85,
     "linkedin": 373,
-    "newThisCrawl": 20,
-    "withCompany": 124
+    "newThisCrawl": 23,
+    "withCompany": 125
   },
   "sources": [
     {
@@ -149,21 +149,21 @@
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 5,
+      "count": 6,
       "error": null
     },
     {
       "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 5,
+      "count": 6,
       "error": null
     },
     {
@@ -2898,6 +2898,23 @@
       "publishedAt": "2026-10-05T08:49:23.000Z",
       "discoveredAt": "2026-10-06T03:18:32.067Z",
       "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "2a52479d21a",
+      "title": "India has created a market for biomass. The harder problem is making that supply reliable. Policy has steadily created demand for biomass co-firing in thermal power. NTPC Limited alone used more than 700,000 tons of biomass in FY2024-25, and by June, 7 - linkedin.com",
+      "summary": "India has created a market for biomass. The harder problem is making that supply reliable. Policy has steadily created demand for biomass co-firing in thermal power. NTPC Limited alone used more than 700,000 tons of biomass in FY2024-25, and by June, 7 linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObURuZ0FrU2lCTTdZOHVxNnZRZkF6cUZmbzZmUTZhQ19FeGFOZ3JEMjVuYlRhZWE5cjFLM2pLUkdWR3FYY2VYcVFqN2RicV9WUndUWXp1YzVXR3ItXy15WkJ4QzhMLTZqTDNTN09hTlFwYUhWbDFvN2hnd05mRXdVU01fNk1NMS1KM2RyczhQVjY4cFVlaGV5OWJZM2xKVkFTX2dpN3RB?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "purchase",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 76,
+      "publishedAt": "2026-10-05T08:49:23.000Z",
+      "discoveredAt": "2026-10-06T10:44:54.806Z",
+      "channel": "linkedin",
       "isNew": true
     },
     {
@@ -3135,7 +3152,7 @@
       "summary": "India’s biomass pellet exports are still small — but the potential is real. Despite approx. 2.5 million tonnes of annual production capacity, most biomass pellets are currently absorbed by domestic co-firing mandates. Exports remain limited (~100–200k tonnes/ye linkedin.com",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbmdoOHYyei1pd1VOQjZfOFUyWmlEM2U4RFd3aV9tbzlUTzI0YjdYVHRHR2JqdHlnME55WHFkZXd1VHU3U3dwMVhNU2YwUU1aVE41LU84V1NldHM1aERhaVJneHFBUkxZaG1RVHZFdi0yQVV4UU1PZnptTnpuUGZlZ203c2R5MENwQWlLeENIVUowNW5kS05GX2RDVy00Vzk1cXNuRnIya1NNTWowWVM4TVRDUV9KcFJneDdMdGdod2tuQ0t2UnR3elp3?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -5741,6 +5758,21 @@
       "isNew": false
     },
     {
+      "id": "37edcd68107",
+      "title": "Biomass Feedstock Reality - linkedin.com",
+      "summary": "Biomass Feedstock Reality linkedin.com",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOURwcGJhbjlNWEJ6SGl2eFp3SVBManNHY21sZHN4cVBJVzFsVEZkQWVZV2ZtX0hZRE9ld01hTklUcnU2SVZyMDMteWdyRm5mcUFwcFU4b2VCYkVLNHIxXzFLQzFkaGNIdlVHaFhKaXFIRGdhRTMwWlhHWlZ5SE9hak1n?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-06-08T07:00:00.000Z",
+      "discoveredAt": "2026-10-06T10:44:54.320Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "7024d27b18e",
       "title": "Biomass Wood Pellets, Briquettes & Pellet Burners | Rohit Exergy India - LinkedIn",
       "summary": "Biomass Wood Pellets, Briquettes & Pellet Burners | Rohit Exergy India LinkedIn",
@@ -7958,36 +7990,6 @@
       "score": 70,
       "publishedAt": "2020-03-31T03:53:13.000Z",
       "discoveredAt": "2026-09-19T22:49:51.683Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "755f75cd116",
-      "title": "Associate Executive Director @ Wood Pellet Association of Canada | PhD in Chemical Engineering - ca.linkedin.com",
-      "summary": "Associate Executive Director @ Wood Pellet Association of Canada | PhD in Chemical Engineering ca.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1fbkExMllkTVM5eTNGVkJRc215eHV3NU5kVkZFU2hXcHB5c2x5Y0pOd1o5elgxR1VvamdZMm5zMHhxdkVoRkxTSWJEdnROU0w2SHRSSUJXR2o?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2020-03-31T03:53:13.000Z",
-      "discoveredAt": "2026-09-20T00:54:13.748Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "48ab62da124",
-      "title": "Raseswari Mishra - AM/NS India | Electrical maintenance and planning | Pellet plant operations - LinkedIn India",
-      "summary": "Raseswari Mishra - AM/NS India | Electrical maintenance and planning | Pellet plant operations LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9iUFlmOXFCS0N1TU12NEozQ0wwY00xeWo0VWUxSkV3Ym45QjFGQzh0ZXlOdEgxMWo2ejd0MFJBN0stTmNReUJEMmVHUlNDTnJTWEdkeEpKc0dMRHVBR2s2ZUd3bw?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2020-01-13T15:29:54.000Z",
-      "discoveredAt": "2026-10-05T17:05:47.094Z",
       "channel": "linkedin",
       "isNew": false
     }
