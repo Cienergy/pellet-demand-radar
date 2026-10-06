@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-05T23:21:06.698Z",
-  "crawlDurationMs": 19786,
+  "updatedAt": "2026-10-06T03:18:48.041Z",
+  "crawlDurationMs": 17970,
   "stats": {
     "total": 500,
     "tenders": 126,
-    "purchase": 90,
-    "news": 284,
+    "purchase": 91,
+    "news": 283,
     "portals": 85,
     "linkedin": 373,
-    "newThisCrawl": 19,
+    "newThisCrawl": 20,
     "withCompany": 124
   },
   "sources": [
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 61,
+      "count": 58,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 32,
+      "count": 33,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 64,
+      "count": 63,
       "error": null
     },
     {
@@ -156,7 +156,7 @@
       "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 7,
+      "count": 6,
       "error": null
     },
     {
@@ -2884,6 +2884,23 @@
       "isNew": false
     },
     {
+      "id": "2ed2524a216",
+      "title": "India has created a market for biomass. The harder problem is making that supply reliable. Policy has steadily created demand for biomass co-firing in thermal power. NTPC Limited alone used more than 700,000 tons of biomass in FY2024-25, and by June, 7 - LinkedIn",
+      "summary": "India has created a market for biomass. The harder problem is making that supply reliable. Policy has steadily created demand for biomass co-firing in thermal power. NTPC Limited alone used more than 700,000 tons of biomass in FY2024-25, and by June, 7 LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObURuZ0FrU2lCTTdZOHVxNnZRZkF6cUZmbzZmUTZhQ19FeGFOZ3JEMjVuYlRhZWE5cjFLM2pLUkdWR3FYY2VYcVFqN2RicV9WUndUWXp1YzVXR3ItXy15WkJ4QzhMLTZqTDNTN09hTlFwYUhWbDFvN2hnd05mRXdVU01fNk1NMS1KM2RyczhQVjY4cFVlaGV5OWJZM2xKVkFTX2dpN3RB?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "purchase",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 76,
+      "publishedAt": "2026-10-05T08:49:23.000Z",
+      "discoveredAt": "2026-10-06T03:18:32.067Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "29ac074d22a",
       "title": "Cleaner Power, Lower Emissions, Stronger Rural economy. 🌾⚡ Biomass co-firing delivers benefits for the environment, farmers and India’s energy future. #biomasscofiring #cleanenergy #SAMARTHMission #nationalbiomassmission - LinkedIn",
       "summary": "Cleaner Power, Lower Emissions, Stronger Rural economy. 🌾⚡ Biomass co-firing delivers benefits for the environment, farmers and India’s energy future. #biomasscofiring #cleanenergy #SAMARTHMission #nationalbiomassmission LinkedIn",
@@ -3103,7 +3120,7 @@
       "summary": "India’s biomass pellet exports are still small — but the potential is real. Despite approx. 2.5 million tonnes of annual production capacity, most biomass pellets are currently absorbed by domestic co-firing mandates. Exports remain limited (~100–200k tonnes/ye LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbmdoOHYyei1pd1VOQjZfOFUyWmlEM2U4RFd3aV9tbzlUTzI0YjdYVHRHR2JqdHlnME55WHFkZXd1VHU3U3dwMVhNU2YwUU1aVE41LU84V1NldHM1aERhaVJneHFBUkxZaG1RVHZFdi0yQVV4UU1PZnptTnpuUGZlZ203c2R5MENwQWlLeENIVUowNW5kS05GX2RDVy00Vzk1cXNuRnIya1NNTWowWVM4TVRDUV9KcFJneDdMdGdod2tuQ0t2UnR3elp3?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -7971,23 +7988,6 @@
       "score": 70,
       "publishedAt": "2020-01-13T15:29:54.000Z",
       "discoveredAt": "2026-10-05T17:05:47.094Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "05ea7fdf15a",
-      "title": "Sampad Narayan Sen - Assistant Engineer – Electrical | Power Plant Commissioning | HT/LT Systems | Biomass (Green Coal) Plant | APCPL (NTPC JV) - in.linkedin.com",
-      "summary": "Sampad Narayan Sen - Assistant Engineer – Electrical | Power Plant Commissioning | HT/LT Systems | Biomass (Green Coal) Plant | APCPL (NTPC JV) in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAyZDJzR0VZckhwaU9KOEYyNGlKWC1ZVE1FSXdLRUNIcFJ5WkFRUlNBeE02bkw1ZW5FS2p5NDNRc244MTlGNVJKQ1VDYzZuY3RLOTlmRklWRUMtUVZleUpZeUNPaFlNUQ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
-      "type": "news",
-      "companies": [
-        "NTPC"
-      ],
-      "score": 70,
-      "publishedAt": "2019-08-09T23:04:22.000Z",
-      "discoveredAt": "2026-09-19T06:10:28.264Z",
       "channel": "linkedin",
       "isNew": false
     }
