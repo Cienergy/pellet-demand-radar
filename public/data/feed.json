@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-06T21:52:49.229Z",
-  "crawlDurationMs": 18532,
+  "updatedAt": "2026-10-07T01:28:35.137Z",
+  "crawlDurationMs": 17302,
   "stats": {
     "total": 500,
-    "tenders": 126,
+    "tenders": 127,
     "purchase": 92,
-    "news": 282,
+    "news": 281,
     "portals": 86,
     "linkedin": 372,
-    "newThisCrawl": 24,
+    "newThisCrawl": 25,
     "withCompany": 125
   },
   "sources": [
@@ -86,15 +86,15 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 26,
+      "count": 27,
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -135,7 +135,7 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 32,
+      "count": 31,
       "error": null
     },
     {
@@ -149,7 +149,7 @@
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 7,
+      "count": 8,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
@@ -1001,6 +1001,21 @@
       "discoveredAt": "2026-09-19T17:42:30.626Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "6c71352c1b6",
+      "title": "Bajaj Energy’s 30,000 MT Biomass Pellet Tender: A Major Opportunity for India's Biomass Industry - LinkedIn",
+      "summary": "Bajaj Energy’s 30,000 MT Biomass Pellet Tender: A Major Opportunity for India's Biomass Industry LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcEtNeE5PY2sydlFfdmJXZXZ6T0U4Tzc5dVd3TjI2OHpZX3pZVVNqQm9icXdid2hHazJjbUdxZFNNQmZuNHBkcUtCZi1XemozT3o0Z3B3UjZTd0w5enFVdnVTejJ5blpXOXh4ZldyZmhtbnFzWDlIOVlwT1YxZmVOel9rMmJIeFFXLTF5STJ2OFNWeUg0MjRRalVPaE5TWUMyc04wWF9YbnFGVnFsWkFMWGRxZEVXWWV4bW8wSGdISXpjal9FV2lpaWc5WXF2YTFuX2Nv?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "tender",
+      "companies": [],
+      "score": 94,
+      "publishedAt": "2026-10-06T06:50:22.000Z",
+      "discoveredAt": "2026-10-07T01:28:19.253Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "1665cc6315d",
@@ -7975,21 +7990,6 @@
       "score": 70,
       "publishedAt": "2021-04-09T07:00:00.000Z",
       "discoveredAt": "2026-09-29T16:28:49.175Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "01314fa814d",
-      "title": "Piyush chilbule - Co-​Founder & CMO | Vidarbha Bioenergy Solutions Pvt. Ltd. | Biomass Pellets & Briquettes | Renewable Energy Solutions - in.linkedin.com",
-      "summary": "Piyush chilbule - Co-​Founder & CMO | Vidarbha Bioenergy Solutions Pvt. Ltd. | Biomass Pellets & Briquettes | Renewable Energy Solutions in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBSZlFvMUI0NmhxU1lSN2RZLWpWR1VUM3hYRHZIdXVBaFlYVWh0ZXJPRzBRWVNneUI2OWliVVZyTVJ0S1ZoV1h6ZllTUXRMTGdncGV0RVZoYTBBQzRIYlc0UUxR?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2020-05-18T21:55:11.000Z",
-      "discoveredAt": "2026-09-19T06:10:28.815Z",
       "channel": "linkedin",
       "isNew": false
     }
