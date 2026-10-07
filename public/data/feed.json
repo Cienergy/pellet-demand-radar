@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-07T15:30:57.917Z",
-  "crawlDurationMs": 19019,
+  "updatedAt": "2026-10-07T20:46:06.204Z",
+  "crawlDurationMs": 18013,
   "stats": {
     "total": 500,
     "tenders": 129,
@@ -48,11 +48,11 @@
       "error": "fetch failed"
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Tata Power tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -79,7 +79,7 @@
       "ok": true,
       "label": "Google · live NITs",
       "query": "(\"biomass pellet\" OR \"agro residue based pellet\" OR \"torrefied biomass\") (NIT OR \"Notice Inviting Tender\" OR \"e-Tender\" OR \"GeM bid\" OR EOI) India -market -forecast -\"market size\"",
-      "count": 1,
+      "count": 2,
       "error": null
     },
     {
@@ -90,18 +90,18 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": "Feed not recognized as RSS 1 or 2."
+      "error": null
     },
     {
       "ok": true,
@@ -553,7 +553,7 @@
       "publishedAt": "2026-08-27T07:00:00.000Z",
       "discoveredAt": "2026-10-07T15:30:40.673Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "721ec9ce139",
@@ -1776,7 +1776,7 @@
       "publishedAt": "2026-08-27T07:00:00.000Z",
       "discoveredAt": "2026-10-07T15:30:39.299Z",
       "channel": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "763acc5d1c1",
@@ -3040,7 +3040,7 @@
       "publishedAt": "2026-09-19T07:00:00.000Z",
       "discoveredAt": "2026-10-07T15:30:41.678Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "15d1bf72214",
@@ -4333,7 +4333,7 @@
       "publishedAt": "2026-09-28T07:00:00.000Z",
       "discoveredAt": "2026-10-07T15:30:41.676Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "48adf223196",
@@ -7500,6 +7500,21 @@
       "isNew": false
     },
     {
+      "id": "3d0c8c6a181",
+      "title": "SAMARTH (National Biomass Mission) | WhatsApp Channel - LinkedIn",
+      "summary": "SAMARTH (National Biomass Mission) | WhatsApp Channel LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNi1weDlVMmFJYV9EVFlObmJuOS1icVlmSFdhSHVUR0tYTVp5b21hWENvQ2ZjQ2lFLXpRa1dLaWtVN0p5ekItNmhSRExDc1dubjNSRXN6bUo0Y3VRUEdmVGg4bkJaVEJxaGVIemRrOENPNWk0UnlmVkxTRVdTcFY3aXIzQnJGU09ONG1nemU4dEJ5c0IwanZwQU5idk1ULWtQb0R6MmdNeE9hMkdoQkJhcU5KLW1UWjB6VW1ReDI5QlhTSWttbXA5b2VXNA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2024-07-28T07:00:00.000Z",
+      "discoveredAt": "2026-10-07T20:45:49.615Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "41a51e76259",
       "title": "Rashmi 6 Paradigm Limited is India's largest manufacturer of Biomass Pellets and Bamboo Charcoal. We practice their own bamboo farming, which is highly beneficial for farmers and the environment. In the coming times, the industry that will grow its own feed - LinkedIn",
       "summary": "Rashmi 6 Paradigm Limited is India's largest manufacturer of Biomass Pellets and Bamboo Charcoal. We practice their own bamboo farming, which is highly beneficial for farmers and the environment. In the coming times, the industry that will grow its own feed LinkedIn",
@@ -7980,21 +7995,6 @@
       "score": 70,
       "publishedAt": "2021-08-08T03:06:23.000Z",
       "discoveredAt": "2026-09-19T15:47:30.428Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "583d0ae81ba",
-      "title": "Rajeev Pratap Singh - GM – International Sales & Expansion | EU • SEA | Green Energy - CBG-GOBARdhan, Biomass SCM, Wood Pellet, Biochar, Bio-Oil | Steel - Pig Iron, Seamless | Carbon Credit • Net-Zero • CBG • Bio-Oil | Combat Veteran – Arm - LinkedIn India",
-      "summary": "Rajeev Pratap Singh - GM – International Sales & Expansion | EU • SEA | Green Energy - CBG-GOBARdhan, Biomass SCM, Wood Pellet, Biochar, Bio-Oil | Steel - Pig Iron, Seamless | Carbon Credit • Net-Zero • CBG • Bio-Oil | Combat Veteran – Arm LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NR0lQV091Y0x2ZDVZNmRYZ0MwbFlrMm1TQ19YUnFiUF8yODd6c2tyRTF3Y2dPMU9lRkFPV3RfbGZoS0d5b0dTSW91b1pPMmJFa1UyUGtVLTNkUTZ1TEhnSGQ5M3dOTmM?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2021-06-29T10:13:02.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.431Z",
       "channel": "linkedin",
       "isNew": false
     }
