@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-07T01:28:35.137Z",
-  "crawlDurationMs": 17302,
+  "updatedAt": "2026-10-07T07:42:07.094Z",
+  "crawlDurationMs": 19736,
   "stats": {
     "total": 500,
     "tenders": 127,
@@ -8,7 +8,7 @@
     "news": 281,
     "portals": 86,
     "linkedin": 372,
-    "newThisCrawl": 25,
+    "newThisCrawl": 22,
     "withCompany": 125
   },
   "sources": [
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 60,
+      "count": 58,
       "error": null
     },
     {
@@ -1008,14 +1008,14 @@
       "summary": "Bajaj Energy’s 30,000 MT Biomass Pellet Tender: A Major Opportunity for India's Biomass Industry LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcEtNeE5PY2sydlFfdmJXZXZ6T0U4Tzc5dVd3TjI2OHpZX3pZVVNqQm9icXdid2hHazJjbUdxZFNNQmZuNHBkcUtCZi1XemozT3o0Z3B3UjZTd0w5enFVdnVTejJ5blpXOXh4ZldyZmhtbnFzWDlIOVlwT1YxZmVOel9rMmJIeFFXLTF5STJ2OFNWeUg0MjRRalVPaE5TWUMyc04wWF9YbnFGVnFsWkFMWGRxZEVXWWV4bW8wSGdISXpjal9FV2lpaWc5WXF2YTFuX2Nv?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 94,
       "publishedAt": "2026-10-06T06:50:22.000Z",
       "discoveredAt": "2026-10-07T01:28:19.253Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1665cc6315d",
@@ -7046,7 +7046,7 @@
       "summary": "Haryana’s Bio-Energy Policy 2018: Key Benefits for Biomass Sector Entrepreneurs LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU0VUUld4RnRnU2luWmZxcHV5OU5WSUs3NHVvSm1KV3pyZHZjdW5XQmE1MFpNMVVNNnFMNWkwdEliQnNFMXNfLUR2YlFoeVdFQlhPdlZjNVBIajZnYmY2dVZGeFpjOVlBWXhVLW8tRWFrc2tTVTFNc3FqZkhIVDJzWUFuZ1UzSHlp?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "news",
       "companies": [],
       "score": 70,
