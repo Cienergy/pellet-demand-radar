@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-07T07:42:07.094Z",
-  "crawlDurationMs": 19736,
+  "updatedAt": "2026-10-07T15:30:57.917Z",
+  "crawlDurationMs": 19019,
   "stats": {
     "total": 500,
-    "tenders": 127,
-    "purchase": 92,
-    "news": 281,
-    "portals": 86,
-    "linkedin": 372,
-    "newThisCrawl": 22,
-    "withCompany": 125
+    "tenders": 129,
+    "purchase": 93,
+    "news": 278,
+    "portals": 87,
+    "linkedin": 370,
+    "newThisCrawl": 26,
+    "withCompany": 127
   },
   "sources": [
     {
@@ -48,11 +48,11 @@
       "error": "fetch failed"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Tata Power tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": false,
@@ -86,22 +86,22 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 27,
+      "count": 28,
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": null
+      "error": "Feed not recognized as RSS 1 or 2."
     },
     {
       "ok": true,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 58,
+      "count": 57,
       "error": null
     },
     {
@@ -537,6 +537,23 @@
       "discoveredAt": "2026-09-22T07:39:45.974Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "282aae86203",
+      "title": "NTPC Vidyut invites bids for Setting, Operating 100 TPD Biomass Pellet Plant and Supply of Biomass Pellets for 15 years at GHTP - PSU Connect",
+      "summary": "NTPC Vidyut invites bids for Setting, Operating 100 TPD Biomass Pellet Plant and Supply of Biomass Pellets for 15 years at GHTP PSU Connect",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPdjlBWVRIVHJVUWtOV1c0UGdzd2xKcHpXMjdmdVo4eGdzUHpWbEgzMnZZTUVXelFTdmhiWnZxb3RydFUyb0NubUZoMmJXM095NEZMQy1hbEdwa0Q1ZzNDTFo2MlNrc09MSEl0cEVsbkxDTXIxQ0FFYzBfQU4zdU1oSTl6YndtcFBPMnRHTDJBZUdoZUdUUWFmcWtLSHFGbGxqQzVCQVBZc2JpTElKcjBrQkUwcHhTdzZhQkwyYWN3M0tTWUZOeDRwMGFpWG9ObDJVemhpZFRqZnRxSkFwOGV1Z0MwSG1HNEpDYm94Qm5xNjJseW8?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 78,
+      "publishedAt": "2026-08-27T07:00:00.000Z",
+      "discoveredAt": "2026-10-07T15:30:40.673Z",
+      "channel": "portal",
+      "isNew": true
     },
     {
       "id": "721ec9ce139",
@@ -1742,6 +1759,24 @@
       "discoveredAt": "2026-09-29T16:28:49.653Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "3a264e7dd7cbffa5",
+      "title": "NTPC Vidyut invites bids for Setting, Operating 100 TPD Biomass Pellet Plant and Supply of Biomass Pellets for 15 years at GHTP - PSU Connect",
+      "summary": "NTPC Vidyut invites bids for Setting, Operating 100 TPD Biomass Pellet Plant and Supply of Biomass Pellets for 15 years at GHTP PSU Connect",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPdjlBWVRIVHJVUWtOV1c0UGdzd2xKcHpXMjdmdVo4eGdzUHpWbEgzMnZZTUVXelFTdmhiWnZxb3RydFUyb0NubUZoMmJXM095NEZMQy1hbEdwa0Q1ZzNDTFo2MlNrc09MSEl0cEVsbkxDTXIxQ0FFYzBfQU4zdU1oSTl6YndtcFBPMnRHTDJBZUdoZUdUUWFmcWtLSHFGbGxqQzVCQVBZc2JpTElKcjBrQkUwcHhTdzZhQkwyYWN3M0tTWUZOeDRwMGFpWG9ObDJVemhpZFRqZnRxSkFwOGV1Z0MwSG1HNEpDYm94Qm5xNjJseW8?oc=5",
+      "source": "google_news",
+      "sourceLabel": "Pellet NITs IN",
+      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 75,
+      "publishedAt": "2026-08-27T07:00:00.000Z",
+      "discoveredAt": "2026-10-07T15:30:39.299Z",
+      "channel": "news",
+      "isNew": true
     },
     {
       "id": "763acc5d1c1",
@@ -2991,6 +3026,21 @@
       "discoveredAt": "2026-10-02T00:09:30.089Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "09555d7e148",
+      "title": "Biomass Burning Pellets Market Emerging Applications and Demand Outlook - LinkedIn",
+      "summary": "Biomass Burning Pellets Market Emerging Applications and Demand Outlook LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVlFQLVBST1JSQVo5d1VnVW5RV1FWUlFCazJFU0k2TVlhb2VPMGdrOWEyMW1GUF9DcW1UQ1UxUGRHcFF0b3hhWWUyUW9PLVMzdERENFJLdWJndlFWaHlwWm1wcWNobkxKSFFHdHBlcDZSTElid0tCYkVabjU2anlWanE2TkRHN0puNXFON3c2YnFIQ2c?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2026-09-19T07:00:00.000Z",
+      "discoveredAt": "2026-10-07T15:30:41.678Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "15d1bf72214",
@@ -4269,6 +4319,21 @@
       "discoveredAt": "2026-10-02T06:07:50.775Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "30b9c07f23e",
+      "title": "Agricultural residues don’t always have to be treated as waste. With the right processing, materials such as crop residues, rice husk and other biomass can be converted into reliable fuels for industrial heat applications. At Biomass Energy, we’re focused on cre - LinkedIn",
+      "summary": "Agricultural residues don’t always have to be treated as waste. With the right processing, materials such as crop residues, rice husk and other biomass can be converted into reliable fuels for industrial heat applications. At Biomass Energy, we’re focused on cre LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOR2pzNGFrcWZSMzcwSDFTcG1XR3RQdXRpamFGWkNjMkJGSDV6R2otcmpBdzJRc29EaWlBd2FQZF8xUG1oVHFCc0U0RzYzLXJCanRaY1dxMUZFY2FocHFMckd0QjdCVGN0b3FpZGZvbWc4bHpvR2dFMHU0b1BOZlRBenlseG9vQTRfU21nenAzcHVHWWtYeHJWRVRHMS1yS0prR1VKa181VzFnNmdOaFIwYjJ0NU5iZzhUZkszWg?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-28T07:00:00.000Z",
+      "discoveredAt": "2026-10-07T15:30:41.676Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "48adf223196",
@@ -7930,66 +7995,6 @@
       "score": 70,
       "publishedAt": "2021-06-29T10:13:02.000Z",
       "discoveredAt": "2026-09-19T15:47:30.431Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "4ff011f11bb",
-      "title": "Rajeev Pratap Singh - GM – International Sales & Expansion | EU • SEA | Green Energy - CBG-GOBARdhan, Biomass SCM, Wood Pellet, Biochar, Bio-Oil | Steel - Pig Iron, Seamless | Carbon Credit • Net-Zero • CBG • Bio-Oil | Combat Veteran – Army - LinkedIn India",
-      "summary": "Rajeev Pratap Singh - GM – International Sales & Expansion | EU • SEA | Green Energy - CBG-GOBARdhan, Biomass SCM, Wood Pellet, Biochar, Bio-Oil | Steel - Pig Iron, Seamless | Carbon Credit • Net-Zero • CBG • Bio-Oil | Combat Veteran – Army LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NR0lQV091Y0x2ZDVZNmRYZ0MwbFlrMm1TQ19YUnFiUF8yODd6c2tyRTF3Y2dPMU9lRkFPV3RfbGZoS0d5b0dTSW91b1pPMmJFa1UyUGtVLTNkUTZ1TEhnSGQ5M3dOTmM?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2021-06-29T10:13:02.000Z",
-      "discoveredAt": "2026-10-02T22:56:25.853Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "7c5563a01bc",
-      "title": "Rajeev Pratap Singh - GM – International Sales & Expansion | EU • SEA | Green Energy - CBG-GOBARdhan, Biomass SCM, Wood Pellet, Biochar, Bio-Oil | Steel - Pig Iron, Seamless | Carbon Credit • Net-Zero • CBG • Bio-Oil | Combat Veteran – Army - in.linkedin.com",
-      "summary": "Rajeev Pratap Singh - GM – International Sales & Expansion | EU • SEA | Green Energy - CBG-GOBARdhan, Biomass SCM, Wood Pellet, Biochar, Bio-Oil | Steel - Pig Iron, Seamless | Carbon Credit • Net-Zero • CBG • Bio-Oil | Combat Veteran – Army in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NR0lQV091Y0x2ZDVZNmRYZ0MwbFlrMm1TQ19YUnFiUF8yODd6c2tyRTF3Y2dPMU9lRkFPV3RfbGZoS0d5b0dTSW91b1pPMmJFa1UyUGtVLTNkUTZ1TEhnSGQ5M3dOTmM?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2021-06-29T10:13:02.000Z",
-      "discoveredAt": "2026-10-04T09:38:22.917Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "04aa77f0177",
-      "title": "Renewable Energy Use in Existing Thermal Power Plant - A case study of biomass usage in Rihand Thermal Power Plant - LinkedIn",
-      "summary": "Renewable Energy Use in Existing Thermal Power Plant - A case study of biomass usage in Rihand Thermal Power Plant LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTjhoSkwwUTBJX0dUNzZrR3pWaTBwQmphbkNJNUdRNEo2ZXl3ODA2LUhQYUt3dUY1NHRZLUhYMEFxdlVWbWVuVmNzNkZQSlNIS1BHZzVfRk41VjBPQTg1eGY4cG9xcWJ2ZV9BQXlLU3ZrSzI2VDFudDJ1U0wxUWZPdHJXUk8xSnRrQ2hjN0dyZjhuOFFKZXc?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2021-04-09T07:00:00.000Z",
-      "discoveredAt": "2026-09-23T14:57:14.048Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "0ce6d59d17b",
-      "title": "Renewable Energy Use in Existing Thermal Power Plant - A case study of biomass usage in Rihand Thermal Power Plant - linkedin.com",
-      "summary": "Renewable Energy Use in Existing Thermal Power Plant - A case study of biomass usage in Rihand Thermal Power Plant linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTjhoSkwwUTBJX0dUNzZrR3pWaTBwQmphbkNJNUdRNEo2ZXl3ODA2LUhQYUt3dUY1NHRZLUhYMEFxdlVWbWVuVmNzNkZQSlNIS1BHZzVfRk41VjBPQTg1eGY4cG9xcWJ2ZV9BQXlLU3ZrSzI2VDFudDJ1U0wxUWZPdHJXUk8xSnRrQ2hjN0dyZjhuOFFKZXc?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2021-04-09T07:00:00.000Z",
-      "discoveredAt": "2026-09-29T16:28:49.175Z",
       "channel": "linkedin",
       "isNew": false
     }
