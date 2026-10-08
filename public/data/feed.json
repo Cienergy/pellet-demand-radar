@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-07T20:46:06.204Z",
-  "crawlDurationMs": 18013,
+  "updatedAt": "2026-10-08T00:56:50.308Z",
+  "crawlDurationMs": 19216,
   "stats": {
     "total": 500,
-    "tenders": 129,
+    "tenders": 130,
     "purchase": 93,
-    "news": 278,
+    "news": 277,
     "portals": 87,
     "linkedin": 370,
-    "newThisCrawl": 26,
+    "newThisCrawl": 25,
     "withCompany": 127
   },
   "sources": [
@@ -79,7 +79,7 @@
       "ok": true,
       "label": "Google · live NITs",
       "query": "(\"biomass pellet\" OR \"agro residue based pellet\" OR \"torrefied biomass\") (NIT OR \"Notice Inviting Tender\" OR \"e-Tender\" OR \"GeM bid\" OR EOI) India -market -forecast -\"market size\"",
-      "count": 2,
+      "count": 1,
       "error": null
     },
     {
@@ -1844,6 +1844,21 @@
       "publishedAt": "2021-10-31T07:00:00.000Z",
       "discoveredAt": "2026-09-19T17:42:30.191Z",
       "channel": "portal",
+      "isNew": false
+    },
+    {
+      "id": "4c7ef2231ae",
+      "title": "1 Lakh MT Biomass Pellet Tender in Chhattisgarh — Are You Eligible to Participate? - LinkedIn",
+      "summary": "1 Lakh MT Biomass Pellet Tender in Chhattisgarh — Are You Eligible to Participate? LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQemhYX2pLNkhiRjBiNDFkX25zWnR5cEFMY2VPYnJ1U0NmbS11elV6R0N4VGw4Z1dFbm5ZUVhXbGVHVVlQUG1Gek9GR3daRTVwMTlHWldQSWxZNjNrQzZNVkZxZnZ2a0lFd1VnMjNyRzdEcWlkcXd0OUNoeEZ0U1UzMkdRSHgxWVlnLU4xTklsT2pwYzlkS05kZEhCdzJHUVFra3RCOHp5b2ZETW9XeFhZbEVLbGdsSWF0VzVQa0Q2UDR2WUx2bDl0eExyX0ZoUFJaZlJMYWlrbw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "tender",
+      "companies": [],
+      "score": 74,
+      "publishedAt": "2026-10-07T10:36:13.000Z",
+      "discoveredAt": "2026-10-08T00:56:32.787Z",
+      "channel": "linkedin",
       "isNew": false
     },
     {
@@ -7512,7 +7527,7 @@
       "publishedAt": "2024-07-28T07:00:00.000Z",
       "discoveredAt": "2026-10-07T20:45:49.615Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "41a51e76259",
@@ -7980,21 +7995,6 @@
       "score": 70,
       "publishedAt": "2021-08-08T03:06:23.000Z",
       "discoveredAt": "2026-09-19T06:10:27.214Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "3dd4473b18b",
-      "title": "Anshul Jain - Managing Director | Proveg Engineering | Biomass Pellet Plants | Biochar & Charcoal Plants | Carbonization Technology | Biofertilizer Plants | Waste-to-Energy Solutions | Yulong Partner – India - LinkedIn India",
-      "summary": "Anshul Jain - Managing Director | Proveg Engineering | Biomass Pellet Plants | Biochar & Charcoal Plants | Carbonization Technology | Biofertilizer Plants | Waste-to-Energy Solutions | Yulong Partner – India LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5mWTZxbHhUMFJqWl91S3owbjhGdXlpalFuVzRuMWZBZE9fWTRWU2szTkhCWG9KRWxINUNTVVB6UDNrVTBCM1N0dWxYeDZYZDRHQ1hvVzBJRDc4REMz?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2021-08-08T03:06:23.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.428Z",
       "channel": "linkedin",
       "isNew": false
     }
