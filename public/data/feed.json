@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-08T00:56:50.308Z",
-  "crawlDurationMs": 19216,
+  "updatedAt": "2026-10-08T07:17:14.836Z",
+  "crawlDurationMs": 20453,
   "stats": {
     "total": 500,
     "tenders": 130,
-    "purchase": 93,
-    "news": 277,
+    "purchase": 94,
+    "news": 276,
     "portals": 87,
-    "linkedin": 370,
-    "newThisCrawl": 25,
-    "withCompany": 127
+    "linkedin": 369,
+    "newThisCrawl": 26,
+    "withCompany": 128
   },
   "sources": [
     {
@@ -79,14 +79,14 @@
       "ok": true,
       "label": "Google · live NITs",
       "query": "(\"biomass pellet\" OR \"agro residue based pellet\" OR \"torrefied biomass\") (NIT OR \"Notice Inviting Tender\" OR \"e-Tender\" OR \"GeM bid\" OR EOI) India -market -forecast -\"market size\"",
-      "count": 1,
+      "count": 2,
       "error": null
     },
     {
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 28,
+      "count": 27,
       "error": null
     },
     {
@@ -142,14 +142,14 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 63,
+      "count": 64,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 8,
+      "count": 9,
       "error": null
     },
     {
@@ -3442,7 +3442,7 @@
       "summary": "Vaibhav Gill - Biomass Pellet Manufacturer & Supplier | Continuously Supplying to Thermal Power Plants since 2023 | Director – Gill Buildcon Pvt. Ltd. | Scaling to 1,000 MT/Day LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XdDd1TXE2WTdmYy1LQVJMMnZPQTU4YnZpTHVrRjZ0Y2xMaHpRaEVubEI4RTVEREhiS29lZE16U05wc2ttdUR5QkFtdW1lOWFkeG1qUE01NFRvcmEwR0E?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -3711,6 +3711,24 @@
       "discoveredAt": "2026-09-19T17:42:28.968Z",
       "channel": "news",
       "isNew": false
+    },
+    {
+      "id": "a248a518a403efce",
+      "title": "Biomass pellet shortage hinders DVC’s co-firing plans - BioEnergy Times",
+      "summary": "Biomass pellet shortage hinders DVC’s co-firing plans BioEnergy Times",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNmFZOXJOdjJPbnhUY3F3R1V3bl9nWU9lR2V0TUpuWjJybC04VkZFdkhCMHlxREhtLWdPYlk3SlJPMmZxLWZyaEYxM1lXOWItaWEyVXAxWW0xVTZ4Z3p4eFB2eUZIYkhpMFZPc0FKdFJNMG1ERkdWSWQya2F2M3BhQnQzckE4b1k?oc=5",
+      "source": "google_news",
+      "sourceLabel": "Pellet NITs IN",
+      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
+      "type": "purchase",
+      "companies": [
+        "DVC"
+      ],
+      "score": 53,
+      "publishedAt": "2025-12-26T08:00:00.000Z",
+      "discoveredAt": "2026-10-08T07:16:54.716Z",
+      "channel": "news",
+      "isNew": true
     },
     {
       "id": "457ec4063c6b1bbb",
@@ -7980,21 +7998,6 @@
       "score": 70,
       "publishedAt": "2021-08-30T00:36:21.000Z",
       "discoveredAt": "2026-09-29T09:43:58.269Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "58e3d00c18c",
-      "title": "Anshul Jain - Managing Director | Proveg Engineering | Biomass Pellet Plants | Biochar & Charcoal Plants | Carbonization Technology | Biofertilizer Plants | Waste-to-Energy Solutions | Yulong Partner – India - in.linkedin.com",
-      "summary": "Anshul Jain - Managing Director | Proveg Engineering | Biomass Pellet Plants | Biochar & Charcoal Plants | Carbonization Technology | Biofertilizer Plants | Waste-to-Energy Solutions | Yulong Partner – India in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5mWTZxbHhUMFJqWl91S3owbjhGdXlpalFuVzRuMWZBZE9fWTRWU2szTkhCWG9KRWxINUNTVVB6UDNrVTBCM1N0dWxYeDZYZDRHQ1hvVzBJRDc4REMz?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2021-08-08T03:06:23.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.214Z",
       "channel": "linkedin",
       "isNew": false
     }
