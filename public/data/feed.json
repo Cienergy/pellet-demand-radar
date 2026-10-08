@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-08T07:17:14.836Z",
-  "crawlDurationMs": 20453,
+  "updatedAt": "2026-10-08T14:53:53.196Z",
+  "crawlDurationMs": 18995,
   "stats": {
     "total": 500,
-    "tenders": 130,
+    "tenders": 131,
     "purchase": 94,
-    "news": 276,
+    "news": 275,
     "portals": 87,
     "linkedin": 369,
-    "newThisCrawl": 26,
+    "newThisCrawl": 27,
     "withCompany": 128
   },
   "sources": [
@@ -97,11 +97,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
       "ok": true,
@@ -135,7 +135,7 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 31,
+      "count": 30,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 7,
+      "count": 6,
       "error": null
     },
     {
@@ -1844,6 +1844,21 @@
       "publishedAt": "2021-10-31T07:00:00.000Z",
       "discoveredAt": "2026-09-19T17:42:30.191Z",
       "channel": "portal",
+      "isNew": false
+    },
+    {
+      "id": "1973cc0d144",
+      "title": "1 Lakh MT Biomass Pellet Tender in Chhattisgarh — Are You Eligible to Participate? - LinkedIn",
+      "summary": "1 Lakh MT Biomass Pellet Tender in Chhattisgarh — Are You Eligible to Participate? LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNzNJZXRUN3lYYU9QNFNfVzREZjN6bmpBMlpwR0dNSDZTWXdOa2hoZUZTWmdIaUZZX1k3cEJRMGlUbDN2Z2NnUW1rUmVpLXNpeEVZS3B1MzdZOFUySU1XM0tFWTdjR2hDMXVObDRmeGJQLXFQbERweFNDTExtWkFoSjJLQi1SbzlW?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 74,
+      "publishedAt": "2026-10-07T10:36:14.000Z",
+      "discoveredAt": "2026-10-08T14:53:36.026Z",
+      "channel": "linkedin",
       "isNew": false
     },
     {
@@ -3728,7 +3743,7 @@
       "publishedAt": "2025-12-26T08:00:00.000Z",
       "discoveredAt": "2026-10-08T07:16:54.716Z",
       "channel": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "457ec4063c6b1bbb",
@@ -7983,21 +7998,6 @@
       "score": 70,
       "publishedAt": "2021-08-30T00:36:21.000Z",
       "discoveredAt": "2026-09-20T09:46:45.470Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "4135f88d14f",
-      "title": "Leo Obed Dwikyra Sibarani - Engineering & Maintenance Development - Java Wood Pellet | Project Engineer Supervisor | Mechanical Maintenance | Six Sigma Yellow Belt - id.linkedin.com",
-      "summary": "Leo Obed Dwikyra Sibarani - Engineering & Maintenance Development - Java Wood Pellet | Project Engineer Supervisor | Mechanical Maintenance | Six Sigma Yellow Belt id.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1GT3VPa1FOcFpzay0xRHRQcGtOdHlaX3NsLTBNQ3FvZVQ2d2pEVnBWUUFFZnlFY1FGaVZOLUNhYXQ4N0ZNS3l3WlUyRHhDS3M?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2021-08-30T00:36:21.000Z",
-      "discoveredAt": "2026-09-29T09:43:58.269Z",
       "channel": "linkedin",
       "isNew": false
     }
