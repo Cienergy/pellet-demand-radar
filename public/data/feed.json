@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-08T20:40:33.287Z",
-  "crawlDurationMs": 20175,
+  "updatedAt": "2026-10-09T01:10:50.808Z",
+  "crawlDurationMs": 18365,
   "stats": {
     "total": 500,
     "tenders": 131,
@@ -8,7 +8,7 @@
     "news": 275,
     "portals": 87,
     "linkedin": 369,
-    "newThisCrawl": 26,
+    "newThisCrawl": 28,
     "withCompany": 128
   },
   "sources": [
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 57,
+      "count": 58,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 32,
+      "count": 30,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 65,
+      "count": 63,
       "error": null
     },
     {
@@ -6734,6 +6734,21 @@
       "isNew": false
     },
     {
+      "id": "130f3173245",
+      "title": "🌱 Biomass Pellet Making Business: A New Idea – A Long Lasting Idea 🌱 At Proveg Engineering, we believe in transforming agricultural waste into wealth. Biomass pellet making is not just a business—it’s a movement towards green energy, carbon reduction, - LinkedIn",
+      "summary": "🌱 Biomass Pellet Making Business: A New Idea – A Long Lasting Idea 🌱 At Proveg Engineering, we believe in transforming agricultural waste into wealth. Biomass pellet making is not just a business—it’s a movement towards green energy, carbon reduction, LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNR2hDcnU0RDNYOV96YldJQlBiMFJwM1pQOXlpMVBTNEtvcFlabG5WQWsxNXJUakhXQ0N0aHVROGhZYVhsR3pUSUY5aXFVY2JiMk9BWWQ3cF9oTFl0RUt3dUxkN0lFUjdIX3VSbnBzbldHS0ZRaHRYOG1xZnlMQ09TNm9ZVkpDMjJ5YXotUkNwVUl6enl5Y1ZtVGZlVmZYWS1ERFpWbFU4NUlMb1ZZbjkwVW9uNXFiTXI3QnlFaXE1RmJSQnc5cVcxcQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2025-10-01T07:00:00.000Z",
+      "discoveredAt": "2026-10-09T01:10:33.881Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
       "id": "6cca87f5179",
       "title": "Biomass Power Plant Project Report 2025: Business Plan, Capital Investment & Profit Analysis - LinkedIn",
       "summary": "Biomass Power Plant Project Report 2025: Business Plan, Capital Investment & Profit Analysis LinkedIn",
@@ -7983,21 +7998,6 @@
       "score": 70,
       "publishedAt": "2021-12-17T02:11:30.000Z",
       "discoveredAt": "2026-09-26T22:10:51.401Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "08230f55148",
-      "title": "Leo Obed Dwikyra Sibarani - Engineering & Maintenance Development - Java Wood Pellet | Project Engineer Supervisor | Mechanical Maintenance | Six Sigma Yellow Belt - LinkedIn",
-      "summary": "Leo Obed Dwikyra Sibarani - Engineering & Maintenance Development - Java Wood Pellet | Project Engineer Supervisor | Mechanical Maintenance | Six Sigma Yellow Belt LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1GT3VPa1FOcFpzay0xRHRQcGtOdHlaX3NsLTBNQ3FvZVQ2d2pEVnBWUUFFZnlFY1FGaVZOLUNhYXQ4N0ZNS3l3WlUyRHhDS3M?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2021-08-30T00:36:21.000Z",
-      "discoveredAt": "2026-09-20T09:46:45.470Z",
       "channel": "linkedin",
       "isNew": false
     }
