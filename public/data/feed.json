@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-09T07:58:38.521Z",
-  "crawlDurationMs": 16763,
+  "updatedAt": "2026-10-09T15:14:40.228Z",
+  "crawlDurationMs": 18035,
   "stats": {
     "total": 500,
-    "tenders": 131,
+    "tenders": 132,
     "purchase": 94,
-    "news": 275,
+    "news": 274,
     "portals": 87,
     "linkedin": 369,
-    "newThisCrawl": 27,
+    "newThisCrawl": 29,
     "withCompany": 128
   },
   "sources": [
@@ -97,11 +97,11 @@
       "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": null
+      "error": "Feed not recognized as RSS 1 or 2."
     },
     {
       "ok": true,
@@ -135,7 +135,7 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 30,
+      "count": 32,
       "error": null
     },
     {
@@ -1699,6 +1699,21 @@
       "discoveredAt": "2026-09-22T07:39:42.466Z",
       "channel": "news",
       "isNew": false
+    },
+    {
+      "id": "20c9b54b13a",
+      "title": "Sameer Bhagat - Biomass Procurement & Supply Chain | Pan-India Sourcing | Pellets & Briquettes | Vendor Development | Renewable Energy - LinkedIn India",
+      "summary": "Sameer Bhagat - Biomass Procurement & Supply Chain | Pan-India Sourcing | Pellets & Briquettes | Vendor Development | Renewable Energy LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9nM1dvNV9reHR6Zjhsc3NLcGxCMVlMSnRlalpmLVFSZ0NHblFYS2VucklzUy1ZNC1KSjlxR2FCYU50WWRZaWo0ck5jZGNMOGtxemR1a1R3?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "tender",
+      "companies": [],
+      "score": 84,
+      "publishedAt": "2025-01-30T19:43:59.000Z",
+      "discoveredAt": "2026-10-09T15:14:24.139Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "0eedce01188",
@@ -7972,34 +7987,19 @@
       "isNew": false
     },
     {
-      "id": "0027aec411f",
-      "title": "SUSANTA SHIT - Maintenance Electrical Engineer for Pellet Plant at Amalgam Steel & Power Pvt Ltd - LinkedIn India",
-      "summary": "SUSANTA SHIT - Maintenance Electrical Engineer for Pellet Plant at Amalgam Steel & Power Pvt Ltd LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA4akgzRnIxODN6UV9na0g1Z3dZRlpsUXl5YU5SN0g3VDJoaFIyV0dhREk1YVBIVXAtTGFHdFVieGZqNXVodzZBMnEtQ0N0ZS1jczVJcy1BUWFuZzc4M3c?oc=5",
+      "id": "6c36da5310a",
+      "title": "Bimlesh Singh - Vice President-Pellet Project at Suryadev Alloys and Power - LinkedIn India",
+      "summary": "Bimlesh Singh - Vice President-Pellet Project at Suryadev Alloys and Power LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8weGNEamdzMzFPY2JJVXV4LVdUQW9wdTVOcGJBWGFsSDRFNWlZbEtES0tLUUQ4VnplRmExbzd0WkNZRUFTSlltejJEQzdkdm1kOW1MUVViZnl4VzRLU193?oc=5",
       "source": "linkedin",
       "sourceLabel": "LinkedIn news · utilities",
       "type": "news",
       "companies": [],
       "score": 70,
-      "publishedAt": "2021-12-17T02:11:30.000Z",
-      "discoveredAt": "2026-09-20T00:54:14.360Z",
+      "publishedAt": "2022-03-27T07:58:34.000Z",
+      "discoveredAt": "2026-10-09T15:14:24.669Z",
       "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "2f35b98b120",
-      "title": "SUSANTA SHIT - Maintenance Electrical Engineer for Pellet Plant at Amalgam Steel & Power Pvt Ltd - in.linkedin.com",
-      "summary": "SUSANTA SHIT - Maintenance Electrical Engineer for Pellet Plant at Amalgam Steel & Power Pvt Ltd in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA4akgzRnIxODN6UV9na0g1Z3dZRlpsUXl5YU5SN0g3VDJoaFIyV0dhREk1YVBIVXAtTGFHdFVieGZqNXVodzZBMnEtQ0N0ZS1jczVJcy1BUWFuZzc4M3c?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2021-12-17T02:11:30.000Z",
-      "discoveredAt": "2026-09-26T22:10:51.401Z",
-      "channel": "linkedin",
-      "isNew": false
+      "isNew": true
     }
   ]
 }
