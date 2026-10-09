@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-09T15:14:40.228Z",
-  "crawlDurationMs": 18035,
+  "updatedAt": "2026-10-09T20:19:02.967Z",
+  "crawlDurationMs": 21782,
   "stats": {
     "total": 500,
     "tenders": 132,
@@ -8,7 +8,7 @@
     "news": 274,
     "portals": 87,
     "linkedin": 369,
-    "newThisCrawl": 29,
+    "newThisCrawl": 0,
     "withCompany": 128
   },
   "sources": [
@@ -76,32 +76,32 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Google · live NITs",
       "query": "(\"biomass pellet\" OR \"agro residue based pellet\" OR \"torrefied biomass\") (NIT OR \"Notice Inviting Tender\" OR \"e-Tender\" OR \"GeM bid\" OR EOI) India -market -forecast -\"market size\"",
-      "count": 2,
-      "error": null
-    },
-    {
-      "ok": true,
-      "label": "Google · utility buys",
-      "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 26,
-      "error": null
+      "count": 0,
+      "error": "Status code 503"
     },
     {
       "ok": false,
+      "label": "Google · utility buys",
+      "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
+      "count": 0,
+      "error": "Status code 503"
+    },
+    {
+      "ok": true,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": "Feed not recognized as RSS 1 or 2."
+      "error": null
     },
     {
       "ok": true,
@@ -125,60 +125,60 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 57,
-      "error": null
+      "count": 0,
+      "error": "Status code 503"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 32,
-      "error": null
+      "count": 0,
+      "error": "Status code 503"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 65,
-      "error": null
+      "count": 0,
+      "error": "Status code 503"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 9,
-      "error": null
+      "count": 0,
+      "error": "Status code 503"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 7,
-      "error": null
+      "count": 0,
+      "error": "Status code 503"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 6,
-      "error": null
+      "count": 0,
+      "error": "Status code 503"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Cement / power buyers",
       "query": "(\"Tata Power\" OR \"Adani Power\" OR \"JSW Energy\" OR UltraTech OR Dalmia) (pellet OR biomass) (tender OR purchase OR procure OR requirement)",
       "count": 0,
-      "error": null
+      "error": "Status code 503"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "GeM / eProcure mentions",
       "query": "(GeM OR eprocure OR \"Central Public Procurement\") (\"biomass pellet\" OR \"agro residue\") (bid OR tender)",
       "count": 0,
-      "error": null
+      "error": "Status code 503"
     }
   ],
   "watchCompanies": [
@@ -1713,7 +1713,7 @@
       "publishedAt": "2025-01-30T19:43:59.000Z",
       "discoveredAt": "2026-10-09T15:14:24.139Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0eedce01188",
@@ -7999,7 +7999,7 @@
       "publishedAt": "2022-03-27T07:58:34.000Z",
       "discoveredAt": "2026-10-09T15:14:24.669Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     }
   ]
 }
