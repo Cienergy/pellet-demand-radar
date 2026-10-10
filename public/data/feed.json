@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-09T20:19:02.967Z",
-  "crawlDurationMs": 21782,
+  "updatedAt": "2026-10-10T00:18:04.705Z",
+  "crawlDurationMs": 21008,
   "stats": {
     "total": 500,
     "tenders": 132,
@@ -8,7 +8,7 @@
     "news": 274,
     "portals": 87,
     "linkedin": 369,
-    "newThisCrawl": 0,
+    "newThisCrawl": 28,
     "withCompany": 128
   },
   "sources": [
@@ -76,18 +76,18 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Google · live NITs",
       "query": "(\"biomass pellet\" OR \"agro residue based pellet\" OR \"torrefied biomass\") (NIT OR \"Notice Inviting Tender\" OR \"e-Tender\" OR \"GeM bid\" OR EOI) India -market -forecast -\"market size\"",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 2,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 26,
+      "error": null
     },
     {
       "ok": true,
@@ -125,60 +125,60 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 56,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 31,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 65,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 9,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 7,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 6,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Cement / power buyers",
       "query": "(\"Tata Power\" OR \"Adani Power\" OR \"JSW Energy\" OR UltraTech OR Dalmia) (pellet OR biomass) (tender OR purchase OR procure OR requirement)",
       "count": 0,
-      "error": "Status code 503"
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "GeM / eProcure mentions",
       "query": "(GeM OR eprocure OR \"Central Public Procurement\") (\"biomass pellet\" OR \"agro residue\") (bid OR tender)",
       "count": 0,
-      "error": "Status code 503"
+      "error": null
     }
   ],
   "watchCompanies": [
@@ -4309,6 +4309,21 @@
       "isNew": false
     },
     {
+      "id": "667cb344182",
+      "title": "Analyzing Taiwan Biomass Pellet Plant Market Growth and Revenue Trends with a Forecasted 12.7% CAGR from 2026 to 2033 - LinkedIn",
+      "summary": "Analyzing Taiwan Biomass Pellet Plant Market Growth and Revenue Trends with a Forecasted 12.7% CAGR from 2026 to 2033 LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcUdQRGlwanROaVpZQ0IxbVNaemVLekpmNy1TRkJHdnhVOVRNT2YzWmRFV0hVQzFGRXBXNzlfZlNuOHV6NlltN3dWZmUzUDdtSkN4ZHczekJ1aEJBLUhIV2VXaUhmbW5YeC1vM3pKeEtmUFRDQ3lVSkxTRXE0SDVEdmN4MWJNM2FKM3FxVHNtQlB4emlTUFhJZF9RemE?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-09T07:00:40.000Z",
+      "discoveredAt": "2026-10-10T00:17:46.550Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "5e577c781a3",
       "title": "Japan Biomass Pellets Market - A Global and Regional Analysis: Focus on Region, Country-Level Analysis, and Competitive Landscape - Analysis and Forec - LinkedIn",
       "summary": "Japan Biomass Pellets Market - A Global and Regional Analysis: Focus on Region, Country-Level Analysis, and Competitive Landscape - Analysis and Forec LinkedIn",
@@ -7983,21 +7998,6 @@
       "score": 70,
       "publishedAt": "2022-06-12T15:14:43.000Z",
       "discoveredAt": "2026-09-19T15:47:30.430Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "6c36da5310a",
-      "title": "Bimlesh Singh - Vice President-Pellet Project at Suryadev Alloys and Power - LinkedIn India",
-      "summary": "Bimlesh Singh - Vice President-Pellet Project at Suryadev Alloys and Power LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8weGNEamdzMzFPY2JJVXV4LVdUQW9wdTVOcGJBWGFsSDRFNWlZbEtES0tLUUQ4VnplRmExbzd0WkNZRUFTSlltejJEQzdkdm1kOW1MUVViZnl4VzRLU193?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2022-03-27T07:58:34.000Z",
-      "discoveredAt": "2026-10-09T15:14:24.669Z",
       "channel": "linkedin",
       "isNew": false
     }
