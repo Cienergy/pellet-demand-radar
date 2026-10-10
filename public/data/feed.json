@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-10T17:48:28.472Z",
-  "crawlDurationMs": 18792,
+  "updatedAt": "2026-10-10T21:35:27.576Z",
+  "crawlDurationMs": 19822,
   "stats": {
     "total": 500,
     "tenders": 133,
@@ -8,7 +8,7 @@
     "news": 271,
     "portals": 88,
     "linkedin": 368,
-    "newThisCrawl": 27,
+    "newThisCrawl": 28,
     "withCompany": 129
   },
   "sources": [
@@ -69,11 +69,11 @@
       "error": "HTTP 403"
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "NTPC live tenders",
       "query": null,
       "count": 0,
-      "error": "HTTP 404"
+      "error": null
     },
     {
       "ok": true,
@@ -97,11 +97,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 8,
+      "count": 9,
       "error": null
     },
     {
