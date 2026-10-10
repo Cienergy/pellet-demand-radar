@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-10T06:20:44.100Z",
-  "crawlDurationMs": 18418,
+  "updatedAt": "2026-10-10T13:00:35.804Z",
+  "crawlDurationMs": 19663,
   "stats": {
     "total": 500,
-    "tenders": 132,
-    "purchase": 94,
-    "news": 274,
-    "portals": 87,
-    "linkedin": 369,
-    "newThisCrawl": 28,
-    "withCompany": 128
+    "tenders": 133,
+    "purchase": 96,
+    "news": 271,
+    "portals": 88,
+    "linkedin": 368,
+    "newThisCrawl": 29,
+    "withCompany": 129
   },
   "sources": [
     {
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 26,
+      "count": 28,
       "error": null
     },
     {
@@ -135,7 +135,7 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 30,
+      "count": 31,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
@@ -1862,6 +1862,23 @@
       "isNew": false
     },
     {
+      "id": "55d36c862d5",
+      "title": "𝗦𝘁𝗿𝗮𝘁𝗲𝗴𝘆: Pay for delivery, not for the lowest bid. 𝗦𝗼𝗹𝘂𝘁𝗶𝗼𝗻: Benchmark pricing, capacity-matched allocation, and accountable supply, which lifted biomass at power plants roughly from 2.6 to 30 lakh tonnes in two years. 𝗣𝗲𝗿𝗶𝗼𝗱𝗶𝗰 𝗽𝗿𝗼𝗰𝘂𝗿𝗲𝗺𝗲𝗻𝘁 - Li",
+      "summary": "𝗦𝘁𝗿𝗮𝘁𝗲𝗴𝘆: Pay for delivery, not for the lowest bid. 𝗦𝗼𝗹𝘂𝘁𝗶𝗼𝗻: Benchmark pricing, capacity-matched allocation, and accountable supply, which lifted biomass at power plants roughly from 2.6 to 30 lakh tonnes in two years. 𝗣𝗲𝗿𝗶𝗼𝗱𝗶𝗰 𝗽𝗿𝗼𝗰𝘂𝗿𝗲𝗺𝗲𝗻𝘁 LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQWDBqSTlJeDkteXFmbHBRQVdWalVXQ0FzbXRYcHR4WDJONS1XdzFTcm90ZjRLekYxSXhlOUE2S2U1VWFRbGVfOG94TnFqNnRPeV8tWGxpMzVST3JuLU1ISzJrNDZtNXJwWVd2T1I1ekd3Vm5adFJXNmdLR3J6MG9CVWRaMzNOcmEwVjNJTDl2NERwZW9iVUFnUUd5X3ZKTUxkWkYzTFRfSzVWaXlNRGt3M1YtZWRtMzNKeWFNd0ozNENIVWJYT25vRUNmWGRqbExEdzJCZnRYYjVsaWRLM2Jxbi11OEROVDYxOHJhaDk0Y3ZMdElBUmU5bk9vbWdwaXRscl9mUXZnNTZLNlFXNElKbVNISG5iMUpWQ0lPZGlUbmdOaU1h?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "tender",
+      "companies": [
+        "ACC"
+      ],
+      "score": 74,
+      "publishedAt": "2026-10-07T10:52:43.000Z",
+      "discoveredAt": "2026-10-10T13:00:17.706Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "1973cc0d144",
       "title": "1 Lakh MT Biomass Pellet Tender in Chhattisgarh — Are You Eligible to Participate? - LinkedIn",
       "summary": "1 Lakh MT Biomass Pellet Tender in Chhattisgarh — Are You Eligible to Participate? LinkedIn",
@@ -2522,6 +2539,21 @@
       "isNew": false
     },
     {
+      "id": "5cd7fc1a323",
+      "title": "Thermal Power Plants To Procure Over Two Million Tonnes Of Biomass Pellets To Decrease Stubble Burning By Farmers - Swarajya",
+      "summary": "Thermal Power Plants To Procure Over Two Million Tonnes Of Biomass Pellets To Decrease Stubble Burning By Farmers Swarajya",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOWlRJQmVBTlVWakZnVG8welJCUkpjYk5iS0lsVW5nWm5DaUkzOHAzZnloR2NxQjZ5ZEhOX2ljYVViQXpkMTV2Q1M1NXVqUU9WQVV0UmdfYTRkTWdWWHUzczVwT3lCNVFzcG5DUnNlR3BuQ0RjZVlyNkoxZ2M1SXlsN0g5d1RsRzFmWkdFUWRJMU1hNDg3enJ4ZGtRZ1lzWmxEd0c1LWw1bHVJQWZldXZGMmtCSDRTaXNjTWpRTk9QNldSaWR0ZmpWWFEwUng5X21OazdmdDZkZXpsUUxZY0xYWS1R0gHyAUFVX3lxTE1SejFoNnpCRXJudFg3ZjFVZ2dlcmJXV3QxcUp1c3NlNVRDS0pWc0NocWdjSFVlcm85YkhFUGxxaHhRM1h1OUU5ZGZFNDR0MTR6ZFFkSkVSQ0pydEJDQTRGYVdmbjRaSmo2djExSHhHdUdHWTNBOWVlVW5GV2RsZVJWUTZ3bGIxWFRRX3lzei02emNzMVMwcFRiWGRaZ2ZaWEdpVE41eDB0cG85MWVtaFpoMFlOb09RcS1FbnhtSFRHZk5fbUF0YUgwQjFTR1pZWm9wSlh1WjZTRVQzWUtJWDBlQlc1T2ZtUWRtZUhibG5naEpR?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2021-11-01T07:00:00.000Z",
+      "discoveredAt": "2026-10-10T13:00:17.590Z",
+      "channel": "portal",
+      "isNew": true
+    },
+    {
       "id": "69f5d83e2ff",
       "title": "NTPC to procure 6 million tonnes agro residue-based pellets worth Rs 4,200 cr in 2020 - ET EnergyWorld",
       "summary": "NTPC to procure 6 million tonnes agro residue-based pellets worth Rs 4,200 cr in 2020 ET EnergyWorld",
@@ -2576,7 +2608,7 @@
       "summary": "Satish Upadhyay - Director General, Centre of Sustainability for Pure Earth | Chairperson, Biomass Global Associates Forum IFGE | Hydro Energy | Thermal Power | Bioenergy | Fuel management | Quality Assurance & Audits |Project Management LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE94NzJQNlVhNTROOG1EUmplUld1c3JTZHk2aC12cDAtYm5NVEZHQ0JnRjZVckVDb1JQUG5pMXZVNmFLNUxPaTNvMVRycjdpMnc?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [],
       "score": 74,
@@ -3041,6 +3073,21 @@
       "discoveredAt": "2026-10-05T07:39:15.758Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "5f046cec18b",
+      "title": "Sandeep Verma - Founder, Agro Aura Associates | Biomass Pellets & Briquettes Fuel Sourcing | Luxury Real Estate Specialist in Hisar | Investment, Sale, Purchase & Lease | Partner Consultant at Cyberstanc - LinkedIn India",
+      "summary": "Sandeep Verma - Founder, Agro Aura Associates | Biomass Pellets & Briquettes Fuel Sourcing | Luxury Real Estate Specialist in Hisar | Investment, Sale, Purchase & Lease | Partner Consultant at Cyberstanc LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE04MzRfVXA0V21jTUVwSVk5ZEZGT2dxckRmYV95LU9wbDF3dlU2eXZQdE1lY2o3cF9nLTdTdEN6c2FndHZEdEhyd043X0JVekJCdkgtZk1Zd0dnM3k3OVJZ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "purchase",
+      "companies": [],
+      "score": 76,
+      "publishedAt": "2020-01-06T13:30:49.000Z",
+      "discoveredAt": "2026-10-10T13:00:18.600Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "1940bad211f",
@@ -7953,51 +8000,6 @@
       "score": 70,
       "publishedAt": "2022-10-21T16:15:37.000Z",
       "discoveredAt": "2026-10-03T08:00:15.012Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "6f47124712d",
-      "title": "Virendra Singh Shekhawat - A dynamic professional rich experience in Biomass Industries. - in.linkedin.com",
-      "summary": "Virendra Singh Shekhawat - A dynamic professional rich experience in Biomass Industries. in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9xbEh0WkVzaFFuTkRqQ3o1a2dsRWRTd2trUnhRdFc1Q2hGdXMtdEozVVpDa3J1eXJkQkRnUVpxSjgyMzJ3U3JXekJSTUFTWHpYdkJjeHI0QWYyV0drM2gwT1FQQjFkdlpqYk93VWpR?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2022-10-21T16:15:37.000Z",
-      "discoveredAt": "2026-10-04T09:38:23.707Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "14222976105",
-      "title": "Biogreen Energy - Manufacturer Of Biomass Briquettes and Pellets - in.linkedin.com",
-      "summary": "Biogreen Energy - Manufacturer Of Biomass Briquettes and Pellets in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95bXhRUUVZanpfSUZkNFpXNkxxM2NhTFExeUV4ZC1KbFYxM3dLZFhiUDQzN195ZzdacG4yZDEycTRSN0xuYXJKeFJNek14Tm1kYWR6VjFzUkhZanp1elpKQUpB?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2022-06-12T15:14:43.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.216Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "00b7ea87104",
-      "title": "Biogreen Energy - Manufacturer Of Biomass Briquettes and Pellets - LinkedIn India",
-      "summary": "Biogreen Energy - Manufacturer Of Biomass Briquettes and Pellets LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95bXhRUUVZanpfSUZkNFpXNkxxM2NhTFExeUV4ZC1KbFYxM3dLZFhiUDQzN195ZzdacG4yZDEycTRSN0xuYXJKeFJNek14Tm1kYWR6VjFzUkhZanp1elpKQUpB?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2022-06-12T15:14:43.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.430Z",
       "channel": "linkedin",
       "isNew": false
     }
