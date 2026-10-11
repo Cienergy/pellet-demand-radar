@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-11T00:29:22.641Z",
-  "crawlDurationMs": 16314,
+  "updatedAt": "2026-10-11T06:23:43.283Z",
+  "crawlDurationMs": 19694,
   "stats": {
     "total": 500,
     "tenders": 133,
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 28,
+      "count": 27,
       "error": null
     },
     {
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 56,
+      "count": 55,
       "error": null
     },
     {
@@ -142,7 +142,7 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 65,
+      "count": 64,
       "error": null
     },
     {
