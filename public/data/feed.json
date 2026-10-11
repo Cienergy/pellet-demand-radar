@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-11T06:23:43.283Z",
-  "crawlDurationMs": 19694,
+  "updatedAt": "2026-10-11T13:28:03.756Z",
+  "crawlDurationMs": 18721,
   "stats": {
     "total": 500,
     "tenders": 133,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 55,
+      "count": 56,
       "error": null
     },
     {
