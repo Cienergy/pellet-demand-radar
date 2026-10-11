@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-11T18:26:10.704Z",
-  "crawlDurationMs": 19505,
+  "updatedAt": "2026-10-11T22:25:25.794Z",
+  "crawlDurationMs": 19254,
   "stats": {
     "total": 500,
     "tenders": 133,
-    "purchase": 96,
-    "news": 271,
-    "portals": 88,
-    "linkedin": 368,
-    "newThisCrawl": 29,
+    "purchase": 97,
+    "news": 270,
+    "portals": 89,
+    "linkedin": 367,
+    "newThisCrawl": 30,
     "withCompany": 129
   },
   "sources": [
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 27,
+      "count": 28,
       "error": null
     },
     {
@@ -97,11 +97,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
       "ok": true,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 57,
+      "count": 58,
       "error": null
     },
     {
@@ -142,7 +142,7 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 64,
+      "count": 66,
       "error": null
     },
     {
@@ -1706,7 +1706,7 @@
       "summary": "Sameer Bhagat - Biomass Procurement & Supply Chain | Pan-India Sourcing | Pellets & Briquettes | Vendor Development | Renewable Energy LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9nM1dvNV9reHR6Zjhsc3NLcGxCMVlMSnRlalpmLVFSZ0NHblFYS2VucklzUy1ZNC1KSjlxR2FCYU50WWRZaWo0ck5jZGNMOGtxemR1a1R3?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 84,
@@ -2428,6 +2428,21 @@
       "discoveredAt": "2026-09-19T15:47:30.438Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "09dacc552df",
+      "title": "Lack of biomass pellets forces Bengal power plants to fail in co-firing mandate - The Times of India",
+      "summary": "Lack of biomass pellets forces Bengal power plants to fail in co-firing mandate The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPY2N0VV93S1JaSnhwNEROVjNWb0JxVElnNllfZzl2YUhaU3dIb25WbU81NzhhUkNkajJRbHBYVVJmNFZTd0ZHVVhLU1lMM3dPSnlsa3M2aUpiRnZoelktUU90d1JmTGhnSHJXLWREbzVfVmhJNWZ5Rm1IM3dLLUZwaTVad0IzekUzLVlzYzJldDl3Z0pNRDNCTS12bkNYakgzVm90SllnaTNubWxtVDh4Ynhmd09WRDdmMDlqRWdLcDI3ZFE4dnRkTGlwSTFSNk9Tekw4dDdNONIB3AFBVV95cUxPeUtyRGM5bThWTzNqMWdQZnZKT0UyZ1JFY2JHQmRyQ2VYZVpIQWp2ckN3YlZjQmpuZndmZ3hublFfS3hZU2VqVmdDczBzMzh5SjdkUm5uSEs1ZjNPdDNtckFwZ0R5cmt2SmtlUk81UXk5WV9wZkhaN3BRN1o1Z0RlQVdadENnWHhJQk83TkdZYkRpR3Z5YzI4bHJkVXlxVkVhTW16bEdkRExBS25oYkR0dV9YX2szX1Njd2MxcTNtVWZaTFozS0k2NlBObTdWd1lXVzFrdy1RT2hBOWZz?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2022-12-20T08:00:00.000Z",
+      "discoveredAt": "2026-10-11T22:25:08.113Z",
+      "channel": "portal",
+      "isNew": true
     },
     {
       "id": "0afc1fb8131",
@@ -4593,7 +4608,22 @@
       "publishedAt": "2026-09-25T07:00:00.000Z",
       "discoveredAt": "2026-10-11T18:25:52.477Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
+    },
+    {
+      "id": "678faa12235",
+      "title": "🌍 PROVEG MULTIPURPOSE BIOMASS ROTARY DRYER Engineered in India | Designed for Global Biomass Processing Proveg Engineering Group presents its Multipurpose Biomass Rotary Dryer Series — a heavy-duty industrial drying solution designed fo - LinkedIn",
+      "summary": "🌍 PROVEG MULTIPURPOSE BIOMASS ROTARY DRYER Engineered in India | Designed for Global Biomass Processing Proveg Engineering Group presents its Multipurpose Biomass Rotary Dryer Series — a heavy-duty industrial drying solution designed fo LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdF90MFN4VHhTcjdXMVV6WTBnamJnbzJiWDliWjh3eWpMYWFid20tMHI4Rm8tYmJkT0RmM3VmbTQxbUEwYmNKQnlGZFJOR0ljZVhPU0RuN2Z5U2hlaEF0Tkl2LWluQnFiZ1V3RHZvOGFKNkVrM0RxbGkyaUhZZEFUdEJzTXVMX3I5eXpZdXdDSkpXLWxfTllmUjUyVXM2SlZZNmtFQUpUZkRfVjdBVzRtX0xmZDYxc005VmRyb1ptRWc3d2F6REtfdQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-24T07:00:00.000Z",
+      "discoveredAt": "2026-10-11T22:25:08.148Z",
+      "channel": "linkedin",
+      "isNew": false
     },
     {
       "id": "4827d619232",
@@ -7970,36 +8000,6 @@
       "score": 70,
       "publishedAt": "2023-05-04T17:26:49.000Z",
       "discoveredAt": "2026-10-04T09:38:23.343Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "30509b3fdd",
-      "title": "Manish Garg - Eton Biomass Energy - LinkedIn India",
-      "summary": "Manish Garg - Eton Biomass Energy LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5VWmlZd083c0JMeVEwMktJVDVzNXZGT0hiNDRsRXp1YTNCZmdJWGVGcHR4UDNZbXFndlFHMHJoSzhMZWtibXREMV91eFdrOHJzbkNhcFZhLUNGaGFO?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2023-04-04T08:43:52.000Z",
-      "discoveredAt": "2026-09-20T23:11:31.366Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "50a4c32ede",
-      "title": "Manish Garg - Eton Biomass Energy - in.linkedin.com",
-      "summary": "Manish Garg - Eton Biomass Energy in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5VWmlZd083c0JMeVEwMktJVDVzNXZGT0hiNDRsRXp1YTNCZmdJWGVGcHR4UDNZbXFndlFHMHJoSzhMZWtibXREMV91eFdrOHJzbkNhcFZhLUNGaGFO?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2023-04-04T08:43:52.000Z",
-      "discoveredAt": "2026-09-26T22:10:51.401Z",
       "channel": "linkedin",
       "isNew": false
     }
