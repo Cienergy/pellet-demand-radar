@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-11T13:28:03.756Z",
-  "crawlDurationMs": 18721,
+  "updatedAt": "2026-10-11T18:26:10.704Z",
+  "crawlDurationMs": 19505,
   "stats": {
     "total": 500,
     "tenders": 133,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 56,
+      "count": 57,
       "error": null
     },
     {
@@ -4581,6 +4581,21 @@
       "isNew": false
     },
     {
+      "id": "77ac31cf260",
+      "title": "𝗦𝗮𝗻𝗰𝘁𝗶𝗼𝗻𝘀 𝗪𝗶𝗽𝗲𝗱 𝗢𝘂𝘁 𝗥𝘂𝘀𝘀𝗶𝗮'𝘀 𝗪𝗼𝗼𝗱 𝗣𝗲𝗹𝗹𝗲𝘁 𝗦𝘂𝗽𝗽𝗹𝘆 — 𝗮𝗻𝗱 𝗘𝘂𝗿𝗼𝗽𝗲 𝗜𝘀 𝗦𝘁𝗶𝗹𝗹 𝗣𝗮𝘆𝗶𝗻𝗴 𝗙𝗼𝗿 𝗜𝘁 The global wood pellet market is still adjusting to a supply shock that began years ago, and in 2026 its effects are showing up c",
+      "summary": "𝗦𝗮𝗻𝗰𝘁𝗶𝗼𝗻𝘀 𝗪𝗶𝗽𝗲𝗱 𝗢𝘂𝘁 𝗥𝘂𝘀𝘀𝗶𝗮'𝘀 𝗪𝗼𝗼𝗱 𝗣𝗲𝗹𝗹𝗲𝘁 𝗦𝘂𝗽𝗽𝗹𝘆 — 𝗮𝗻𝗱 𝗘𝘂𝗿𝗼𝗽𝗲 𝗜𝘀 𝗦𝘁𝗶𝗹𝗹 𝗣𝗮𝘆𝗶𝗻𝗴 𝗙𝗼𝗿 𝗜𝘁 The global wood pellet market is still adjusting to a supply shock that began years ago, and in 2026 its effects are showing up clearly in b LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaTNUNjlodGhtcl9hMXVLSUZOd1ZSOXNFcVR1Z0haWmsxay1nZ245bXdFMF9ONldOS0Q1c2F4c1N4ZGp4ZlJialNmQmhTNlg2SENtdTgycl9aQXNxbnRDNGJBWXlsWXU3QzR1ZXNOVEJwLUVXdTJjeVBSNHJLSG9RUGNTSVJ2c2FkMjBKRFhIcFhuY1dwWlBkalV5cXltZ0FUT1VYOVI5M19KTmd2ZEI0cEhZNFhBMGM3Y3dBQnZ0UlQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-25T07:00:00.000Z",
+      "discoveredAt": "2026-10-11T18:25:52.477Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "4827d619232",
       "title": "🔥 Biomass to Biochar & Charcoal — Complete Carbonization Technology by Proveg Engineering Group Agricultural and forestry biomass should not be treated simply as waste. With the right carbonization, syngas treatment and briquetting technology, it can b - LinkedIn",
       "summary": "🔥 Biomass to Biochar & Charcoal — Complete Carbonization Technology by Proveg Engineering Group Agricultural and forestry biomass should not be treated simply as waste. With the right carbonization, syngas treatment and briquetting technology, it can b LinkedIn",
@@ -7985,21 +8000,6 @@
       "score": 70,
       "publishedAt": "2023-04-04T08:43:52.000Z",
       "discoveredAt": "2026-09-26T22:10:51.401Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "5789c32a12c",
-      "title": "Virendra Singh Shekhawat - A dynamic professional rich experience in Biomass Industries. - LinkedIn India",
-      "summary": "Virendra Singh Shekhawat - A dynamic professional rich experience in Biomass Industries. LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9xbEh0WkVzaFFuTkRqQ3o1a2dsRWRTd2trUnhRdFc1Q2hGdXMtdEozVVpDa3J1eXJkQkRnUVpxSjgyMzJ3U3JXekJSTUFTWHpYdkJjeHI0QWYyV0drM2gwT1FQQjFkdlpqYk93VWpR?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2022-10-21T16:15:37.000Z",
-      "discoveredAt": "2026-10-03T08:00:15.012Z",
       "channel": "linkedin",
       "isNew": false
     }
