@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-12T09:05:48.454Z",
-  "crawlDurationMs": 19618,
+  "updatedAt": "2026-10-12T19:17:29.634Z",
+  "crawlDurationMs": 16581,
   "stats": {
     "total": 500,
     "tenders": 133,
-    "purchase": 97,
-    "news": 270,
+    "purchase": 98,
+    "news": 269,
     "portals": 89,
     "linkedin": 367,
-    "newThisCrawl": 29,
-    "withCompany": 128
+    "newThisCrawl": 32,
+    "withCompany": 127
   },
   "sources": [
     {
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 26,
+      "count": 24,
       "error": null
     },
     {
@@ -97,11 +97,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
       "ok": true,
@@ -135,14 +135,14 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 31,
+      "count": 30,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 67,
+      "count": 65,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 9,
+      "count": 8,
       "error": null
     },
     {
@@ -3619,6 +3619,21 @@
       "isNew": false
     },
     {
+      "id": "4ea2698b109",
+      "title": "Dundappa Pattanshetti - Manager Biomass Fuel Sourcing - India - LinkedIn India",
+      "summary": "Dundappa Pattanshetti - Manager Biomass Fuel Sourcing - India LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE03aVN0VGFSV3lmZjIzNWVVZUVzcFAxbUJvXzhyQnhCNGl4aEhKSGdPOG42OGZycmtOMkNUZ1FubzlydDhfVlA3bW93SVJjc3BtQy1fQ1JtM0hCYTNURDFnNmN1T3ZuZ2xU?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2015-11-16T11:10:41.000Z",
+      "discoveredAt": "2026-10-12T19:17:14.972Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "11dbf811e0ddfe30",
       "title": "NTPC places order for 9.3 lakh tonne biomass pellets for co-firing - Business Standard",
       "summary": "NTPC places order for 9.3 lakh tonne biomass pellets for co-firing Business Standard",
@@ -4369,6 +4384,21 @@
       "discoveredAt": "2026-09-24T12:09:37.831Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "11f37eb51a2",
+      "title": "Strategic Market Outlook for North America Biomass Pellet Plant: Key Drivers, Growth Trends, and Revenue Forecast through 2033 with 4.4% CAGR - LinkedIn",
+      "summary": "Strategic Market Outlook for North America Biomass Pellet Plant: Key Drivers, Growth Trends, and Revenue Forecast through 2033 with 4.4% CAGR LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUlQ4VzU5RTBaWWt3cHNDMjVZQl9BdDhuVjRqNnF6TTYtSmJkQXlnQlJ1YlY1Nld5UHUzSTBlYXBEbHlRcG56OWNFZGZxblU0WmotTnVUVlhzVkdnODNZYkxQa2ZHXzNNWmpMeU1TNjkwaHJqenFqZVJIdDByOVlHNWNtNzZ4d0lMTkV3Z0RqNHlzZllVZGdUQm5COTdwM1lUSWc?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-12T07:07:07.000Z",
+      "discoveredAt": "2026-10-12T19:17:14.971Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "667cb344182",
@@ -6369,7 +6399,7 @@
       "publishedAt": "2026-03-24T07:00:00.000Z",
       "discoveredAt": "2026-10-12T09:05:31.696Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "78a7b1c1250",
@@ -7966,38 +7996,6 @@
       "score": 70,
       "publishedAt": "2023-07-29T07:00:00.000Z",
       "discoveredAt": "2026-09-20T09:46:46.328Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "7ffca07625f",
-      "title": "Ensure the 𝐌𝐨𝐝𝐞𝐥 𝐂𝐨𝐧𝐭𝐫𝐚𝐜𝐭 𝐒𝐩𝐞𝐜𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 issued by Ministry of Power to make Biomass Pellets 𝐜𝐨𝐦𝐩𝐥𝐢𝐚𝐧𝐭 with 𝐜𝐨-𝐟𝐢𝐫𝐢𝐧𝐠 𝐩𝐫𝐨𝐜𝐞𝐬𝐬 𝐧𝐨𝐫𝐦𝐬 in Thermal Power Plants and 𝐚𝐝𝐝 𝐧𝐞𝐰 𝐚𝐫𝐞𝐧𝐚 to your Portfolio. Follow 𝐒𝐀𝐌𝐀𝐑𝐓\ud835",
-      "summary": "Ensure the 𝐌𝐨𝐝𝐞𝐥 𝐂𝐨𝐧𝐭𝐫𝐚𝐜𝐭 𝐒𝐩𝐞𝐜𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 issued by Ministry of Power to make Biomass Pellets 𝐜𝐨𝐦𝐩𝐥𝐢𝐚𝐧𝐭 with 𝐜𝐨-𝐟𝐢𝐫𝐢𝐧𝐠 𝐩𝐫𝐨𝐜𝐞𝐬𝐬 𝐧𝐨𝐫𝐦𝐬 in Thermal Power Plants and 𝐚𝐝𝐝 𝐧𝐞𝐰 𝐚𝐫𝐞𝐧𝐚 to your Portfolio. Follow 𝐒𝐀𝐌𝐀𝐑𝐓𝐇 missi linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWk9QaERxS1d0bFVkXzZlaEZVdlBGci1mN2F6a0s2WS1EYWx6UjRCYV91aW1CcWgtV2xVdnpjWHBzYkJLdFZZZ3BkYUcyYVZHbndKUHB5QmtMUjFjVWNHYm0weU5abDlCSWo2QS1obnNabHVHNERlb2dqWXpuSTdMOGxKcHBlUm1yZDNDeV93bS0tOFFlbDdjMVQtX01vRTl1bjFRZVkxdXhRSWlzU0x1V2MzVE5nQy1YN1lNLVd5RQ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2023-07-29T07:00:00.000Z",
-      "discoveredAt": "2026-09-20T23:11:31.803Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "2fe68b6212c",
-      "title": "Working as Senior Manager in 1.2 MTPA straight grate Pellet Operation at SJSPL Jagannath steel pvt Limited - LinkedIn India",
-      "summary": "Working as Senior Manager in 1.2 MTPA straight grate Pellet Operation at SJSPL Jagannath steel pvt Limited LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFByVUZRZFcxSktyZ29kYXZreFoxM2xFREFYVFpiXzlibFdka3o1VXFWdUExZFMxekpRRlQ0OFRMTEpkdWtTcEU3b3M3Qi1NM3IyMjdSWXpWTmNUd1dLQ2NyRQ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
-      "type": "news",
-      "companies": [
-        "JSPL"
-      ],
-      "score": 70,
-      "publishedAt": "2023-05-04T17:26:49.000Z",
-      "discoveredAt": "2026-10-02T00:09:30.675Z",
       "channel": "linkedin",
       "isNew": false
     }
