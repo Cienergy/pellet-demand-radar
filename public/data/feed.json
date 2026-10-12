@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-11T22:25:25.794Z",
-  "crawlDurationMs": 19254,
+  "updatedAt": "2026-10-12T01:43:35.184Z",
+  "crawlDurationMs": 10538,
   "stats": {
     "total": 500,
     "tenders": 133,
@@ -8,7 +8,7 @@
     "news": 270,
     "portals": 89,
     "linkedin": 367,
-    "newThisCrawl": 30,
+    "newThisCrawl": 28,
     "withCompany": 129
   },
   "sources": [
@@ -20,11 +20,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "PSPCL tenders",
       "query": null,
-      "count": 3,
-      "error": null
+      "count": 0,
+      "error": "fetch failed"
     },
     {
       "ok": true,
@@ -97,11 +97,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -2442,7 +2442,7 @@
       "publishedAt": "2022-12-20T08:00:00.000Z",
       "discoveredAt": "2026-10-11T22:25:08.113Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0afc1fb8131",
