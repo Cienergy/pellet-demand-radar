@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-12T01:43:35.184Z",
-  "crawlDurationMs": 10538,
+  "updatedAt": "2026-10-12T09:05:48.454Z",
+  "crawlDurationMs": 19618,
   "stats": {
     "total": 500,
     "tenders": 133,
@@ -8,8 +8,8 @@
     "news": 270,
     "portals": 89,
     "linkedin": 367,
-    "newThisCrawl": 28,
-    "withCompany": 129
+    "newThisCrawl": 29,
+    "withCompany": 128
   },
   "sources": [
     {
@@ -20,11 +20,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "PSPCL tenders",
       "query": null,
-      "count": 0,
-      "error": "fetch failed"
+      "count": 3,
+      "error": null
     },
     {
       "ok": true,
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 28,
+      "count": 26,
       "error": null
     },
     {
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 58,
+      "count": 57,
       "error": null
     },
     {
@@ -142,7 +142,7 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 66,
+      "count": 67,
       "error": null
     },
     {
@@ -6357,6 +6357,21 @@
       "isNew": false
     },
     {
+      "id": "76754a2c172",
+      "title": "Cost of Setting Up a Biomass Pellets Manufacturing Plant 2026: CapEx/OpEx, ROI and Raw Materials - LinkedIn",
+      "summary": "Cost of Setting Up a Biomass Pellets Manufacturing Plant 2026: CapEx/OpEx, ROI and Raw Materials LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYlBzTFhGeEdoRFp2ekptUkFRcGw0MjVzeUliOWlucGpHX1dVWnpjWWs5Z04xcGdOV1VXcEtoa25lcGFGWWpiOWNndW16VTdVRlZxZTdnY3FEM2NIYjBaOGFReXFRdTJVc1Nyeno1V01SYWE4dDc5YjhONDIxQXZmX2trUzVIeEEzOU9LN2JCT3c4ZGhQa0Y5ZGsyanlRWG1P?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-03-24T07:00:00.000Z",
+      "discoveredAt": "2026-10-12T09:05:31.696Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "78a7b1c1250",
       "title": "Building a Sustainable Biomass Pellet & Bio-CNG Business in India The biomass sector in India holds immense potential—not just as a business, but as a mission to create cleaner energy, reduce stubble burning, and strengthen the rural economy. Based on - LinkedIn",
       "summary": "Building a Sustainable Biomass Pellet & Bio-CNG Business in India The biomass sector in India holds immense potential—not just as a business, but as a mission to create cleaner energy, reduce stubble burning, and strengthen the rural economy. Based on LinkedIn",
@@ -7983,23 +7998,6 @@
       "score": 70,
       "publishedAt": "2023-05-04T17:26:49.000Z",
       "discoveredAt": "2026-10-02T00:09:30.675Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "5d7caef112d",
-      "title": "Working as Senior Manager in 1.2 MTPA straight grate Pellet Operation at SJSPL Jagannath steel pvt Limited - in.linkedin.com",
-      "summary": "Working as Senior Manager in 1.2 MTPA straight grate Pellet Operation at SJSPL Jagannath steel pvt Limited in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFByVUZRZFcxSktyZ29kYXZreFoxM2xFREFYVFpiXzlibFdka3o1VXFWdUExZFMxekpRRlQ0OFRMTEpkdWtTcEU3b3M3Qi1NM3IyMjdSWXpWTmNUd1dLQ2NyRQ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
-      "type": "news",
-      "companies": [
-        "JSPL"
-      ],
-      "score": 70,
-      "publishedAt": "2023-05-04T17:26:49.000Z",
-      "discoveredAt": "2026-10-04T09:38:23.343Z",
       "channel": "linkedin",
       "isNew": false
     }
