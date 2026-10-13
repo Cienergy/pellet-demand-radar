@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-10-13T17:07:09.125Z",
-  "crawlDurationMs": 19773,
+  "updatedAt": "2026-10-13T21:57:08.702Z",
+  "crawlDurationMs": 17863,
   "stats": {
     "total": 500,
-    "tenders": 133,
-    "purchase": 98,
-    "news": 269,
-    "portals": 89,
-    "linkedin": 367,
-    "newThisCrawl": 32,
-    "withCompany": 127
+    "tenders": 134,
+    "purchase": 99,
+    "news": 267,
+    "portals": 90,
+    "linkedin": 366,
+    "newThisCrawl": 33,
+    "withCompany": 128
   },
   "sources": [
     {
-      "ok": false,
+      "ok": true,
       "label": "NTPC tender portal",
       "query": null,
       "count": 0,
-      "error": "HTTP 404"
+      "error": null
     },
     {
       "ok": true,
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 25,
+      "count": 26,
       "error": null
     },
     {
@@ -128,14 +128,14 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 57,
+      "count": 58,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 31,
+      "count": 32,
       "error": null
     },
     {
@@ -1746,6 +1746,21 @@
       "isNew": false
     },
     {
+      "id": "1053af7c1da",
+      "title": "Big News for the Biomass Sector! 🌱 The Karnataka Co-operative Milk Producers' Federation (KMF) has just released a massive tender for the supply of - LinkedIn",
+      "summary": "Big News for the Biomass Sector! 🌱 The Karnataka Co-operative Milk Producers' Federation (KMF) has just released a massive tender for the supply of LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV1ZqY2hpY2JocEV3eXZjQWhGTFlPaHE2bFowMjJQWHpDS2ZuOFM1WDgzalpsb05mcXdWYThCU25LTjRZY2ZXT3lxTTdlWWttSk92RXVhZzNiUVBTNkNreGw1ZU1vbDFrR2xHWWRPbTcyenMzVDZZdjFfVl81aF9ieDQzZ3A0c2Z3SHMxcXRhTEctaGs4eG1lU0FSaDZWekNxa3VQa3MydTNaSU5vOVFnbnRfNU5aWmh0elZsREExT0RIOTJ0U0pF?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "tender",
+      "companies": [],
+      "score": 78,
+      "publishedAt": "2026-03-17T07:00:00.000Z",
+      "discoveredAt": "2026-10-13T21:56:52.228Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "76af83fa23d",
       "title": "India’s Thermal Power Secto's Fuel-Management Reset — Biomass Co-Firing Can Be Part of the Solution India’s thermal power sector is facing a critical fuel-management dilemma. https://lnkd.in/giGVHY_2 Recent data highlighted by The Hindu shows that the - LinkedIn",
       "summary": "India’s Thermal Power Secto's Fuel-Management Reset — Biomass Co-Firing Can Be Part of the Solution India’s thermal power sector is facing a critical fuel-management dilemma. https://lnkd.in/giGVHY_2 Recent data highlighted by The Hindu shows that the LinkedIn",
@@ -2567,6 +2582,23 @@
       "discoveredAt": "2026-10-10T13:00:17.590Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "74f3cea7198",
+      "title": "Ntpc Places Order For 93 Lakh Tonne Biomass Pellets For Co Firing In Power - PT Pulse - Projects Today",
+      "summary": "Ntpc Places Order For 93 Lakh Tonne Biomass Pellets For Co Firing In Power - PT Pulse Projects Today",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMmFkYUtrcUlBdm1nWThvT0RnNElmWGpHMVNaaW5LT0diU29mMllqUmY2WlVEcFJDTE1LMnpJSm96TEpmc1RVLWhHQXlvVnozLVN1MVB3WXFNVjlmQkc2TmxoTHJDb1lXYXdZYzd5ZzlITDVpelVaZW92X0NEN2hpRGs4dVZGbHdtSWJlbTkweEpNRVh4bi1NLWFLTkIxN3dsa2pYZVJsUVRxLVVfNTdnZEVBbnJvZmllT2RNZkdtaU0?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "purchase",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 73,
+      "publishedAt": "2021-11-01T07:00:00.000Z",
+      "discoveredAt": "2026-10-13T21:56:52.138Z",
+      "channel": "portal",
+      "isNew": true
     },
     {
       "id": "69f5d83e2ff",
@@ -6928,7 +6960,7 @@
       "publishedAt": "2025-11-07T04:44:48.000Z",
       "discoveredAt": "2026-10-13T17:06:51.160Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "448b0f6d215",
@@ -7966,36 +7998,6 @@
       "score": 70,
       "publishedAt": "2024-04-08T07:00:00.000Z",
       "discoveredAt": "2026-10-05T07:39:14.949Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "0dd3fda7152",
-      "title": "Dr. Shraddha Shahane - Founder | GreenCore Fuels | Industrial Fuel Transition | Biomass Pellet Manufacturing | Technical Consultant | Ph.D. IIT Delhi - in.linkedin.com",
-      "summary": "Dr. Shraddha Shahane - Founder | GreenCore Fuels | Industrial Fuel Transition | Biomass Pellet Manufacturing | Technical Consultant | Ph.D. IIT Delhi in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5mVzA0LWkzNW9KX2lTSTYwVnNyV1VrbTQ0c3gydnlldlJ1UmhkelNNNDlTeFdKMUQyaTd6N3VwMUdBNHlyQzRfQU1kZFUzNkdMZEFiTW5HdjZTMkp4?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2024-03-21T05:34:17.000Z",
-      "discoveredAt": "2026-09-19T06:10:28.815Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "37fe1436151",
-      "title": "Dr. Shraddha Shahane - Founder | GreenCore Fuels | Industrial Fuel Transition | Biomass Pellet Manufacturing | Technical Consultant | Ph.D. IIT Delhi - LinkedIn India",
-      "summary": "Dr. Shraddha Shahane - Founder | GreenCore Fuels | Industrial Fuel Transition | Biomass Pellet Manufacturing | Technical Consultant | Ph.D. IIT Delhi LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5mVzA0LWkzNW9KX2lTSTYwVnNyV1VrbTQ0c3gydnlldlJ1UmhkelNNNDlTeFdKMUQyaTd6N3VwMUdBNHlyQzRfQU1kZFUzNkdMZEFiTW5HdjZTMkp4?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2024-03-21T05:34:17.000Z",
-      "discoveredAt": "2026-09-19T15:47:31.355Z",
       "channel": "linkedin",
       "isNew": false
     }
