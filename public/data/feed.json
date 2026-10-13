@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-13T09:20:09.921Z",
-  "crawlDurationMs": 18815,
+  "updatedAt": "2026-10-13T17:07:09.125Z",
+  "crawlDurationMs": 19773,
   "stats": {
     "total": 500,
     "tenders": 133,
@@ -8,16 +8,16 @@
     "news": 269,
     "portals": 89,
     "linkedin": 367,
-    "newThisCrawl": 30,
+    "newThisCrawl": 32,
     "withCompany": 127
   },
   "sources": [
     {
-      "ok": true,
+      "ok": false,
       "label": "NTPC tender portal",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "HTTP 404"
     },
     {
       "ok": true,
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 26,
+      "count": 25,
       "error": null
     },
     {
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 56,
+      "count": 57,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 30,
+      "count": 31,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 65,
+      "count": 67,
       "error": null
     },
     {
@@ -4431,6 +4431,21 @@
       "isNew": false
     },
     {
+      "id": "00fb67bf229",
+      "title": "🌍 THE FUTURE OF BIOMASS IS NOT JUST ABOUT MAKING PELLETS. IT IS ABOUT ENGINEERING THE RIGHT PLANT. At PROVEG ENGINEERING, we believe a world-class biomass pellet plant should deliver more than capacity. It should deliver VERSAT - LinkedIn",
+      "summary": "🌍 THE FUTURE OF BIOMASS IS NOT JUST ABOUT MAKING PELLETS. IT IS ABOUT ENGINEERING THE RIGHT PLANT. At PROVEG ENGINEERING, we believe a world-class biomass pellet plant should deliver more than capacity. It should deliver VERSAT LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRXVZX3liUDM4Q2c0QmtoUXpuaGZzbk9iRkVwSlVlNl9sa2lOb05FaWh3X0s0TVhKZ0ZZMTlKWjN3Nkl2MFpycTExRTgzaG1mWWtTWGp3RlVVdXF2RkNacVNyV2RoOGdZMWNiTmZWb0J2X19qM2ZTWGRXZHl2Ujl0bnozMERseDRZZGZuNGZXZkZDcU5hcjlwaU1oQ0RvZmRwaFo2NkFXMHZaZExhN1NxTFJtZDJ6cFdBMHJKS0hmXzRhX1I1bmc?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-04T07:00:00.000Z",
+      "discoveredAt": "2026-10-13T17:06:51.157Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
       "id": "5e35f017223",
       "title": "🌍 FROM INDIAN BIOMASS TO GLOBAL CLEAN ENERGY — PROVEG IS ENGINEERING THE TRANSFORMATION. What others see as agricultural residue, we see as an industrial energy resource waiting to be engineered. 🌾 Paddy Straw 🌾 Rice Husk 🌿 Mu - LinkedIn",
       "summary": "🌍 FROM INDIAN BIOMASS TO GLOBAL CLEAN ENERGY — PROVEG IS ENGINEERING THE TRANSFORMATION. What others see as agricultural residue, we see as an industrial energy resource waiting to be engineered. 🌾 Paddy Straw 🌾 Rice Husk 🌿 Mu LinkedIn",
@@ -5133,7 +5148,7 @@
       "publishedAt": "2026-09-16T07:00:00.000Z",
       "discoveredAt": "2026-10-13T09:19:53.532Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3fcb6b27240",
@@ -6901,6 +6916,21 @@
       "isNew": false
     },
     {
+      "id": "499fbe06ef",
+      "title": "Kapil Agarwal - Director at Green Pellets India - LinkedIn India",
+      "summary": "Kapil Agarwal - Director at Green Pellets India LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NQnJjVlUzQzI3ZUhTalVodEJKUml2VzVBWWp2ZDVtaGlvM0FTUE9SRnFYYlc0WmxMcXFOakh6UkJIZ0t6WnVzX1lad1Y5dDk5dVNUZ1l4R2tncmx5UnhZ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2025-11-07T04:44:48.000Z",
+      "discoveredAt": "2026-10-13T17:06:51.160Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "448b0f6d215",
       "title": "The ICVCM has approved six engineered carbon removal methods (like direct air capture and biomass storage) along with updated forestry protocols. Together, these could generate over 12 million high-quality credits annually. This matters because engineer - LinkedIn",
       "summary": "The ICVCM has approved six engineered carbon removal methods (like direct air capture and biomass storage) along with updated forestry protocols. Together, these could generate over 12 million high-quality credits annually. This matters because engineer LinkedIn",
@@ -7966,36 +7996,6 @@
       "score": 70,
       "publishedAt": "2024-03-21T05:34:17.000Z",
       "discoveredAt": "2026-09-19T15:47:31.355Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "2919d6a1159",
-      "title": "What is the function of binders in biomass pellet production? - LinkedIn",
-      "summary": "What is the function of binders in biomass pellet production? LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcnBYa1Y2bmJfQlRIbV9tTi1ZTkFhNmhCbGdUdno0cHNJUmtQVnIxLTMxRzBfU0I0RlpVRlZOeThWMUxXSVhFaE9OM2xYM2ozREZGdl83TkthTW9FMUxSdndnR0pWcGZBU0Zhb2xfSS1nU3dxVnhraXRBSHBnWmNHbjZCMFFJVk9rdW9SSHJvVGY2bS13NmJHczZacTl4dEVLNnRfekFMOA?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2023-10-27T07:00:00.000Z",
-      "discoveredAt": "2026-09-20T00:54:13.748Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "0dfe378c15d",
-      "title": "What is the function of binders in biomass pellet production? - linkedin.com",
-      "summary": "What is the function of binders in biomass pellet production? linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcnBYa1Y2bmJfQlRIbV9tTi1ZTkFhNmhCbGdUdno0cHNJUmtQVnIxLTMxRzBfU0I0RlpVRlZOeThWMUxXSVhFaE9OM2xYM2ozREZGdl83TkthTW9FMUxSdndnR0pWcGZBU0Zhb2xfSS1nU3dxVnhraXRBSHBnWmNHbjZCMFFJVk9rdW9SSHJvVGY2bS13NmJHczZacTl4dEVLNnRfekFMOA?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2023-10-27T07:00:00.000Z",
-      "discoveredAt": "2026-09-20T23:11:30.716Z",
       "channel": "linkedin",
       "isNew": false
     }
