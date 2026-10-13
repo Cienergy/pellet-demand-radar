@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-12T19:17:29.634Z",
-  "crawlDurationMs": 16581,
+  "updatedAt": "2026-10-13T01:36:23.652Z",
+  "crawlDurationMs": 17781,
   "stats": {
     "total": 500,
     "tenders": 133,
@@ -8,7 +8,7 @@
     "news": 269,
     "portals": 89,
     "linkedin": 367,
-    "newThisCrawl": 32,
+    "newThisCrawl": 29,
     "withCompany": 127
   },
   "sources": [
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 24,
+      "count": 25,
       "error": null
     },
     {
@@ -97,11 +97,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 57,
+      "count": 56,
       "error": null
     },
     {
@@ -149,7 +149,7 @@
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 9,
+      "count": 10,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 8,
+      "count": 9,
       "error": null
     },
     {
@@ -3631,7 +3631,7 @@
       "publishedAt": "2015-11-16T11:10:41.000Z",
       "discoveredAt": "2026-10-12T19:17:14.972Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11dbf811e0ddfe30",
@@ -4398,7 +4398,7 @@
       "publishedAt": "2026-10-12T07:07:07.000Z",
       "discoveredAt": "2026-10-12T19:17:14.971Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "667cb344182",
