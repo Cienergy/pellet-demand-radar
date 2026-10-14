@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-13T21:57:08.702Z",
-  "crawlDurationMs": 17863,
+  "updatedAt": "2026-10-14T01:10:19.564Z",
+  "crawlDurationMs": 18613,
   "stats": {
     "total": 500,
     "tenders": 134,
@@ -8,7 +8,7 @@
     "news": 267,
     "portals": 90,
     "linkedin": 366,
-    "newThisCrawl": 33,
+    "newThisCrawl": 32,
     "withCompany": 128
   },
   "sources": [
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 26,
+      "count": 25,
       "error": null
     },
     {
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 58,
+      "count": 59,
       "error": null
     },
     {
@@ -142,7 +142,7 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 67,
+      "count": 68,
       "error": null
     },
     {
@@ -156,7 +156,7 @@
       "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 7,
+      "count": 6,
       "error": null
     },
     {
@@ -1758,7 +1758,7 @@
       "publishedAt": "2026-03-17T07:00:00.000Z",
       "discoveredAt": "2026-10-13T21:56:52.228Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "76af83fa23d",
@@ -2598,7 +2598,7 @@
       "publishedAt": "2021-11-01T07:00:00.000Z",
       "discoveredAt": "2026-10-13T21:56:52.138Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "69f5d83e2ff",
