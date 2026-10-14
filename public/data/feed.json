@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-14T17:58:04.794Z",
-  "crawlDurationMs": 19434,
+  "updatedAt": "2026-10-14T21:36:44.945Z",
+  "crawlDurationMs": 19094,
   "stats": {
     "total": 500,
-    "tenders": 135,
+    "tenders": 136,
     "purchase": 100,
-    "news": 265,
+    "news": 264,
     "portals": 90,
     "linkedin": 366,
-    "newThisCrawl": 33,
-    "withCompany": 128
+    "newThisCrawl": 31,
+    "withCompany": 129
   },
   "sources": [
     {
@@ -48,11 +48,11 @@
       "error": "fetch failed"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Tata Power tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": false,
@@ -149,7 +149,7 @@
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 9,
+      "count": 8,
       "error": null
     },
     {
@@ -1046,6 +1046,23 @@
       "score": 94,
       "publishedAt": "2026-10-06T06:50:22.000Z",
       "discoveredAt": "2026-10-07T01:28:19.253Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "7c8ec99b15d",
+      "title": "NTPC Dadri Biomass Pellet Tender 2026: A 3.78 Lakh MT Business Opportunity for Biomass Manufacturers and Traders - LinkedIn",
+      "summary": "NTPC Dadri Biomass Pellet Tender 2026: A 3.78 Lakh MT Business Opportunity for Biomass Manufacturers and Traders LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSUkwZXdtclhVeTNSU2NKRWxyNEtFYnc5cWZlTW9IaHhTdG5Tb0tGQTdpOTJ3RWRNc1IyTFdrZlRIeXp1U0F0YU5rTHJTVEltZnE3dnZoX1BiZWs2WmVISkczci04MVQtNHlwamUxWG1Fb01wblI3bHNUaW9MQVhuUzJQNXU?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 94,
+      "publishedAt": "2026-08-21T07:00:00.000Z",
+      "discoveredAt": "2026-10-14T21:36:28.041Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -7983,21 +8000,6 @@
       "score": 70,
       "publishedAt": "2024-05-13T07:00:00.000Z",
       "discoveredAt": "2026-09-19T15:47:31.356Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "21247885145",
-      "title": "Challenges in Biomass Briquette manufacturing - LinkedIn",
-      "summary": "Challenges in Biomass Briquette manufacturing LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUnZDT2dqd1ViNUJOblB1U3k0QnJvckh6YTYzeGVYa25Gc2RJUzdkZ0VOaV9FSUVQR2t1Um5nUUtqMmVMcmdiQVRKcWdobF9ZN0ZYckduYjZ4NFdmTk10Q3ZsN01NLUlIRnVDUHlVdWUzWVZpY0ttY0FGa3RHV0I3M05YTFE2OTlLcVFrTGpBYzNHRW52b1RkbGlUblZKSlJZOUJ1bQ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2024-04-13T07:00:00.000Z",
-      "discoveredAt": "2026-09-20T17:38:50.843Z",
       "channel": "linkedin",
       "isNew": false
     }
