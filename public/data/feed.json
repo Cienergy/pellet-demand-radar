@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-14T01:10:19.564Z",
-  "crawlDurationMs": 18613,
+  "updatedAt": "2026-10-14T06:40:07.262Z",
+  "crawlDurationMs": 18559,
   "stats": {
     "total": 500,
-    "tenders": 134,
+    "tenders": 135,
     "purchase": 99,
-    "news": 267,
+    "news": 266,
     "portals": 90,
     "linkedin": 366,
-    "newThisCrawl": 32,
+    "newThisCrawl": 34,
     "withCompany": 128
   },
   "sources": [
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": false,
@@ -135,14 +135,14 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 32,
+      "count": 33,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 68,
+      "count": 70,
       "error": null
     },
     {
@@ -1018,6 +1018,21 @@
       "discoveredAt": "2026-09-19T17:42:30.626Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "5a0dca0b19b",
+      "title": "WBPDCL Biomass Pellet Tender 2026: 28,080 MT Supply Opportunity in West Bengal - LinkedIn",
+      "summary": "WBPDCL Biomass Pellet Tender 2026: 28,080 MT Supply Opportunity in West Bengal LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQ1ZSeDk3OUM3Z01VREhtR2F2dWhBS3huT1AxUkpneEdjeUROY05MTVNTYW5jSDJLUjlDY2w0TExOeHNzcVQtRU1ja2gyLUJid1owZ3pQZFYwZGN4YXlYYmJMaU1zdUZ0ZnMwdjJzZ3NGSGpjamtpN0pwUWxYSW9mSzVja0N1T1hSRzBjb2kxdGQtSGFHWHZLUE53czFBajhxQUpFZEZXcjR2aFlpM29lVFJlcGRjZEZFaFlIS0VCV1RXRmJiSEpTR2EyOUM?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 94,
+      "publishedAt": "2026-10-13T07:02:12.000Z",
+      "discoveredAt": "2026-10-14T06:39:50.956Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "6c71352c1b6",
@@ -6708,6 +6723,21 @@
       "isNew": false
     },
     {
+      "id": "1b29ffaa251",
+      "title": "🌱𝐑𝐚𝐤𝐡𝐨𝐡 𝐁𝐨𝐢𝐥𝐞𝐫𝐬 𝐏𝐯𝐭. 𝐋𝐭𝐝. is an Indian Industrial 𝐁𝐨𝐢𝐥𝐞𝐫 𝐌𝐚𝐧𝐮𝐟𝐚𝐜𝐭𝐮𝐫𝐞𝐫 with over Four decades of experience in supplying Biomass and Multi-fuel steam Boilers across various industries. Their Boiler technology and Product portfolio are desi - L",
+      "summary": "🌱𝐑𝐚𝐤𝐡𝐨𝐡 𝐁𝐨𝐢𝐥𝐞𝐫𝐬 𝐏𝐯𝐭. 𝐋𝐭𝐝. is an Indian Industrial 𝐁𝐨𝐢𝐥𝐞𝐫 𝐌𝐚𝐧𝐮𝐟𝐚𝐜𝐭𝐮𝐫𝐞𝐫 with over Four decades of experience in supplying Biomass and Multi-fuel steam Boilers across various industries. Their Boiler technology and Product portfolio are desi LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNlFNdUtINjU2c05nM1JTRnhIYjlNNjRabFhkUjRPVC04MXMzRDc0X1JmQmdBNmpRZUpkb2Jjb2NVTHpTSGR1bzMzbVYzczAyclk0QTRyQ2hVdDkzR3dyZUFQaWFyem9pREV6cmxySmRFUENiNWNRYTJvVjhCVkxsMDNKVWF6cWo5eFhpMDNqbWFyMG5palprRDlxeThDZENVQi1zb19ZY19HbWpUOXdkeWUwWTdCNW92d3NhZUNZcmk?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-02-25T08:00:00.000Z",
+      "discoveredAt": "2026-10-14T06:39:50.955Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "348469dd160",
       "title": "Rinwa Bio Energy hiring Biomass Pellet Plant Opreator in Fazilka, Punjab, India - in.linkedin.com",
       "summary": "Rinwa Bio Energy hiring Biomass Pellet Plant Opreator in Fazilka, Punjab, India in.linkedin.com",
@@ -7968,36 +7998,6 @@
       "score": 70,
       "publishedAt": "2024-04-13T07:00:00.000Z",
       "discoveredAt": "2026-09-20T23:11:30.716Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "1753cde5141",
-      "title": "Biomass Briquettes Advantages and Challenges - LinkedIn",
-      "summary": "Biomass Briquettes Advantages and Challenges LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUjFGSk1oM0JUaGh2cUNtMVNoUE9URXdPcW1Ja2NxYl9iUDc4Yk1SWUVZSU5rWmpMT1djbkszakFvWE9DS21QNzZnLXpXT1h4Y192b0EydkR1ZTJXRmx5ZjBQWTdZQkhRTlNzdlZlaEVRamhSSkNIbzN4QUh1X2RMUnVnX3hJYVRmcjVsdFBDSk41NFhFNFgyNWpHOWh5STFKNXc?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2024-04-08T07:00:00.000Z",
-      "discoveredAt": "2026-10-01T07:47:23.030Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "47d98248145",
-      "title": "Biomass Briquettes Advantages and Challenges - linkedin.com",
-      "summary": "Biomass Briquettes Advantages and Challenges linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUjFGSk1oM0JUaGh2cUNtMVNoUE9URXdPcW1Ja2NxYl9iUDc4Yk1SWUVZSU5rWmpMT1djbkszakFvWE9DS21QNzZnLXpXT1h4Y192b0EydkR1ZTJXRmx5ZjBQWTdZQkhRTlNzdlZlaEVRamhSSkNIbzN4QUh1X2RMUnVnX3hJYVRmcjVsdFBDSk41NFhFNFgyNWpHOWh5STFKNXc?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2024-04-08T07:00:00.000Z",
-      "discoveredAt": "2026-10-05T07:39:14.949Z",
       "channel": "linkedin",
       "isNew": false
     }
