@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-15T15:19:17.228Z",
-  "crawlDurationMs": 18108,
+  "updatedAt": "2026-10-15T19:21:57.436Z",
+  "crawlDurationMs": 17192,
   "stats": {
     "total": 500,
     "tenders": 136,
-    "purchase": 100,
-    "news": 264,
+    "purchase": 101,
+    "news": 263,
     "portals": 90,
     "linkedin": 366,
-    "newThisCrawl": 32,
+    "newThisCrawl": 33,
     "withCompany": 129
   },
   "sources": [
@@ -48,11 +48,11 @@
       "error": "fetch failed"
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Tata Power tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -69,11 +69,11 @@
       "error": "HTTP 403"
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "NTPC live tenders",
       "query": null,
       "count": 0,
-      "error": "HTTP 404"
+      "error": null
     },
     {
       "ok": true,
@@ -135,7 +135,7 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 33,
+      "count": 34,
       "error": null
     },
     {
@@ -2104,7 +2104,7 @@
       "summary": "Vishal Jadhao - AGM – Bioenergy Projects & O&M @ Jindal Power | IIM Mumbai – Project Management | Thermal Power & Biomass Expert | Project Execution | Plant Commissioning | BOOT Model | Process Optimization | Sustainability LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE96TExRWE5rMmpKMVZYdVpjX1cyZGlTNkFKNE5QbG5ILURpYkF6Qno4TElnRkMxdEZHdF85OFpwSU5sOVFXY0lScG9Oc2s3UjVqTzBjUVpiWXBDbEZERUE?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [
         "Jindal"
@@ -3180,6 +3180,21 @@
       "score": 73,
       "publishedAt": "2026-10-13T06:50:38.000Z",
       "discoveredAt": "2026-10-14T12:50:01.416Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "7a5ac643244",
+      "title": "Turn Agricultural Waste into Green Fuel! 🌾➡️🔋 With the massive push toward renewable energy, the demand for biomass pellets in industrial boilers and power plants is skyrocketing. However, running a plant profitably requires the right strategy across: • Mac - LinkedIn",
+      "summary": "Turn Agricultural Waste into Green Fuel! 🌾➡️🔋 With the massive push toward renewable energy, the demand for biomass pellets in industrial boilers and power plants is skyrocketing. However, running a plant profitably requires the right strategy across: • Mac LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX1J6Ympub1VzdzBDTTI5d0k4N2tpTmVhTmlidWlESkQwZG9TeDlqT1ZnazZGREoyU1JBSjJzNk4tdDBIWl9PX0Vxd1NyODE2VWk3eGg3a1VnQTNZZmtGaXhuNWdlV3ByRHpfbWVPOUYzbHg5R285bkRkaEc2X3p4NGhhWURCX2xpZUhHWXlqWkNPOXJwSFR1UmQzclBZSmlqOTJIX1pLMTNfRWp2MXl0bm0tRGNGNl9QbHBKMUpVN3BXc2c?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2026-10-07T11:07:36.000Z",
+      "discoveredAt": "2026-10-15T19:21:41.564Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -7985,21 +8000,6 @@
       "score": 70,
       "publishedAt": "2024-05-13T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.816Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "26f0b831140",
-      "title": "BIOMASS ENERGY - PART 5: APPLICATIONS OF BIOMASS ENERGY - linkedin.com",
-      "summary": "BIOMASS ENERGY - PART 5: APPLICATIONS OF BIOMASS ENERGY linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWjl1dnFWR0RicFpZSTJjWDBjaGVmdG5KcEhHUVlaaGNZZVVYZ1JsVWlEQVhkNHRXd0RCZHNuUGsxUFRzdkFmeWJzYXlNb2FIdlB4dk92RG5WNGdzYThPTS1oN0FwWFJDWUYzaUVsdjRWTC10VmxYMnM2MDBhM0t2NFMydElQSVRWXzJ5azR5b2pNQ3dfdlE?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2024-05-13T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:31.356Z",
       "channel": "linkedin",
       "isNew": false
     }
