@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-15T10:16:35.535Z",
-  "crawlDurationMs": 18966,
+  "updatedAt": "2026-10-15T15:19:17.228Z",
+  "crawlDurationMs": 18108,
   "stats": {
     "total": 500,
     "tenders": 136,
@@ -8,7 +8,7 @@
     "news": 264,
     "portals": 90,
     "linkedin": 366,
-    "newThisCrawl": 31,
+    "newThisCrawl": 32,
     "withCompany": 129
   },
   "sources": [
@@ -48,11 +48,11 @@
       "error": "fetch failed"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Tata Power tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": false,
@@ -69,11 +69,11 @@
       "error": "HTTP 403"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "NTPC live tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "HTTP 404"
     },
     {
       "ok": true,
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 56,
+      "count": 57,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 32,
+      "count": 33,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 69,
+      "count": 67,
       "error": null
     },
     {
