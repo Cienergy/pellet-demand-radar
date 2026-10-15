@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-14T21:36:44.945Z",
-  "crawlDurationMs": 19094,
+  "updatedAt": "2026-10-15T00:29:05.260Z",
+  "crawlDurationMs": 18503,
   "stats": {
     "total": 500,
     "tenders": 136,
@@ -8,7 +8,7 @@
     "news": 264,
     "portals": 90,
     "linkedin": 366,
-    "newThisCrawl": 31,
+    "newThisCrawl": 30,
     "withCompany": 129
   },
   "sources": [
@@ -48,11 +48,11 @@
       "error": "fetch failed"
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Tata Power tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 59,
+      "count": 58,
       "error": null
     },
     {
