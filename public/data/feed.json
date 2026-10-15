@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-15T19:21:57.436Z",
-  "crawlDurationMs": 17192,
+  "updatedAt": "2026-10-15T22:39:53.017Z",
+  "crawlDurationMs": 17541,
   "stats": {
     "total": 500,
-    "tenders": 136,
+    "tenders": 137,
     "purchase": 101,
-    "news": 263,
+    "news": 262,
     "portals": 90,
     "linkedin": 366,
     "newThisCrawl": 33,
-    "withCompany": 129
+    "withCompany": 130
   },
   "sources": [
     {
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 57,
+      "count": 59,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 34,
+      "count": 35,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 67,
+      "count": 70,
       "error": null
     },
     {
@@ -1746,6 +1746,23 @@
       "discoveredAt": "2026-10-09T15:14:24.139Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "6586918f22e",
+      "title": "After nearly 2 years, the biomass industry expected a NTPC tender aligned with the Government's 5% co-firing target. Instead, the tender quantity appears to be only a fraction of the actual requirement, creating serious concern among pellet manufacturers who - LinkedIn",
+      "summary": "After nearly 2 years, the biomass industry expected a NTPC tender aligned with the Government's 5% co-firing target. Instead, the tender quantity appears to be only a fraction of the actual requirement, creating serious concern among pellet manufacturers who LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYjhtbmhnYXVKYlVzcUVlbVdrWDdBTzVrVzdSNmR6WDNFZk1iTUo4cVpGdGxzeEs4c01MOGF0RmxXWV9ubXhUZ0xBdzA0VXV1RXBicllSaHBJQWQ4cXEzMXRlV19fZ3hlRGZyNEVDYmt2RWljYkdjOC1UQm1fNUJ5dkFZQjJYV0E4VHN0eURfWFNVdlUwM0xxNGlkZTI1VWlsbEs1R0x3VXo4MkRzeFRyYnk0WQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 80,
+      "publishedAt": "2026-06-21T07:00:00.000Z",
+      "discoveredAt": "2026-10-15T22:39:37.336Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "0eedce01188",
@@ -5530,21 +5547,6 @@
       "isNew": false
     },
     {
-      "id": "3d388c9c144",
-      "title": "How Biomass Pellet Plant Works?: Explained Process, Benefits & Application - LinkedIn",
-      "summary": "How Biomass Pellet Plant Works?: Explained Process, Benefits & Application LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeVhCaVZhRDh3RmNHLW4wRkIwZ0NPQ0wyZlZEUVJhOGx3SGdWR2NZaGdER1pjR0ZTUDdidnVmdUlMdzhDcUZzVF8ydHJyMlM4WU80c05PSGROTEZOZHVRd2VJMHFuX2w2ZVZxN2lvUVNYYkRGUXFKZi1WUjZiRnItdjFUcUNha1ppSnFsaXRB?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-09-09T07:16:50.000Z",
-      "discoveredAt": "2026-09-19T06:10:28.815Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
       "id": "3470f711148",
       "title": "How Biomass Pellet Plant Works?: Explained Process, Benefits & Application - linkedin.com",
       "summary": "How Biomass Pellet Plant Works?: Explained Process, Benefits & Application linkedin.com",
@@ -5586,6 +5588,21 @@
       "score": 70,
       "publishedAt": "2026-09-09T07:16:49.000Z",
       "discoveredAt": "2026-09-19T15:47:31.356Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "3d388c9c144",
+      "title": "How Biomass Pellet Plant Works?: Explained Process, Benefits & Application - LinkedIn",
+      "summary": "How Biomass Pellet Plant Works?: Explained Process, Benefits & Application LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeVhCaVZhRDh3RmNHLW4wRkIwZ0NPQ0wyZlZEUVJhOGx3SGdWR2NZaGdER1pjR0ZTUDdidnVmdUlMdzhDcUZzVF8ydHJyMlM4WU80c05PSGROTEZOZHVRd2VJMHFuX2w2ZVZxN2lvUVNYYkRGUXFKZi1WUjZiRnItdjFUcUNha1ppSnFsaXRB?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-09T07:00:00.000Z",
+      "discoveredAt": "2026-09-19T06:10:28.815Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -7985,21 +8002,6 @@
       "score": 70,
       "publishedAt": "2024-05-13T08:39:46.000Z",
       "discoveredAt": "2026-09-19T15:47:30.431Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "136b3b7c13c",
-      "title": "BIOMASS ENERGY - PART 5: APPLICATIONS OF BIOMASS ENERGY - LinkedIn",
-      "summary": "BIOMASS ENERGY - PART 5: APPLICATIONS OF BIOMASS ENERGY LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWjl1dnFWR0RicFpZSTJjWDBjaGVmdG5KcEhHUVlaaGNZZVVYZ1JsVWlEQVhkNHRXd0RCZHNuUGsxUFRzdkFmeWJzYXlNb2FIdlB4dk92RG5WNGdzYThPTS1oN0FwWFJDWUYzaUVsdjRWTC10VmxYMnM2MDBhM0t2NFMydElQSVRWXzJ5azR5b2pNQ3dfdlE?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2024-05-13T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:10:28.816Z",
       "channel": "linkedin",
       "isNew": false
     }
