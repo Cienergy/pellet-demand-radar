@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-16T11:52:03.193Z",
-  "crawlDurationMs": 21975,
+  "updatedAt": "2026-10-16T16:33:19.717Z",
+  "crawlDurationMs": 20003,
   "stats": {
     "total": 500,
-    "tenders": 138,
+    "tenders": 139,
     "purchase": 101,
-    "news": 261,
+    "news": 260,
     "portals": 90,
     "linkedin": 366,
-    "newThisCrawl": 35,
-    "withCompany": 130
+    "newThisCrawl": 34,
+    "withCompany": 131
   },
   "sources": [
     {
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 24,
+      "count": 23,
       "error": null
     },
     {
@@ -135,21 +135,21 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 35,
+      "count": 34,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 70,
+      "count": 69,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 9,
+      "count": 7,
       "error": null
     },
     {
@@ -1018,6 +1018,24 @@
       "discoveredAt": "2026-09-19T17:42:30.626Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "2e63069b1c2",
+      "title": "NTPC-SAIL Opens a 17,000 MT Biomass Pellet Tender in Odisha: A Business Opportunity for Manufacturers and Traders - LinkedIn",
+      "summary": "NTPC-SAIL Opens a 17,000 MT Biomass Pellet Tender in Odisha: A Business Opportunity for Manufacturers and Traders LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcHVJaHE3S1pZbmNCcElFNTVaZGUyVlpRd0Rmc1duUzA1WFgtbHdNTTJTN0w4dXdOd1ZxSzdSNEFlSklHdFVpZVNVMjhGZlFWaHY0SDNPUHBaNF9jbEVkcm5oSmV5blJNQTRaT2VPTmVuOTgtNmRiSk1sYzBqal81YWtLMXlkb0QwMjFZczY0SkpFeV91bTdPWWNDdXNQc2RMdk11RWdRd0c2clNRVWhwVV9ESHdYVm81dkIzal83UmVIbVdNcmtuSzRiVHlNYUE?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "tender",
+      "companies": [
+        "NTPC",
+        "SAIL"
+      ],
+      "score": 94,
+      "publishedAt": "2026-10-15T11:04:08.000Z",
+      "discoveredAt": "2026-10-16T16:33:01.792Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "5a0dca0b19b",
@@ -4557,6 +4575,21 @@
       "isNew": false
     },
     {
+      "id": "12cdc1ce225",
+      "title": "From raw material to final product! 🌱 Watch how pellets are made step-by-step from start to finish. It is amazing to see the transformation inside the machine. Be a part of India's green journey and net-zero goal—connect with Rajvanta Energies to set up your o - LinkedIn",
+      "summary": "From raw material to final product! 🌱 Watch how pellets are made step-by-step from start to finish. It is amazing to see the transformation inside the machine. Be a part of India's green journey and net-zero goal—connect with Rajvanta Energies to set up your o LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaHZHbVpnTk5KaUplcmtNQlhkczQxaTJoaENsRFBJYVhxb3ZPd1JGQTduX3psUV9kT1FYN3JnRkllS3VYSG5Dc18zZzkzQmxEUFV2REdfM2wwZ3hvbGdxQ25LOVZaTGNORW1HcWp1V0RZOWd1dnk5ZktfN0xEMFk2SV8yODRQT0ZtMzVYdnQtNVhyR0VTYURfSE1KS1VIaUJES1VFUm15Rl9qQQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-06T07:00:00.000Z",
+      "discoveredAt": "2026-10-16T16:33:02.285Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "00fb67bf229",
       "title": "🌍 THE FUTURE OF BIOMASS IS NOT JUST ABOUT MAKING PELLETS. IT IS ABOUT ENGINEERING THE RIGHT PLANT. At PROVEG ENGINEERING, we believe a world-class biomass pellet plant should deliver more than capacity. It should deliver VERSAT - LinkedIn",
       "summary": "🌍 THE FUTURE OF BIOMASS IS NOT JUST ABOUT MAKING PELLETS. IT IS ABOUT ENGINEERING THE RIGHT PLANT. At PROVEG ENGINEERING, we believe a world-class biomass pellet plant should deliver more than capacity. It should deliver VERSAT LinkedIn",
@@ -7972,36 +8005,6 @@
       "score": 70,
       "publishedAt": "2024-05-13T12:01:20.000Z",
       "discoveredAt": "2026-09-25T10:08:52.060Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "73110dc9182",
-      "title": "Yogesh Masuria - Contact: 9427210484, Director at: Servoday Plants & Equipments Limited, BIOMASS PELLET PLANT, RING DIE PELLET MILL, HAMMER MILL, BOILER FUEL FEEDING SYSTEM, DRUM CHIPPER, HYDRAULIC MOVING FLOOR, CPM REF - in.linkedin.com",
-      "summary": "Yogesh Masuria - Contact: 9427210484, Director at: Servoday Plants & Equipments Limited, BIOMASS PELLET PLANT, RING DIE PELLET MILL, HAMMER MILL, BOILER FUEL FEEDING SYSTEM, DRUM CHIPPER, HYDRAULIC MOVING FLOOR, CPM REF in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAtcjRUV0I3M3U1dXlYQ2xnVzVOUnY2bUdUZVJUSzVYLWVOLXdRbzJjY3ZoODd5YklIM1dvNzFPNEg2N1VBQXdzZTZ3WQ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2024-05-13T12:01:20.000Z",
-      "discoveredAt": "2026-09-26T22:10:50.882Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "75987f3d192",
-      "title": "Sanjay Masuria - CONTACT +919427210483 Director -International Marketing for Servoday Pellet Plants, Biomass Napier Grass Pellet Plants, Torrefaction Plants, Material Handling Equipment, Radio Grab, attachment, Electric Excavator. - in.linkedin.com",
-      "summary": "Sanjay Masuria - CONTACT +919427210483 Director -International Marketing for Servoday Pellet Plants, Biomass Napier Grass Pellet Plants, Torrefaction Plants, Material Handling Equipment, Radio Grab, attachment, Electric Excavator. in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1vZDMySUtlZUNzMndBa1B4ZVR0MFdHRDQwbmYtSjVvOVdRdEVKX3JsTlhhYVlNWk5BcnFLM2ozU0pzRVd5RGU0VVJmc1g5b1E?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2024-05-13T08:39:46.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.217Z",
       "channel": "linkedin",
       "isNew": false
     }
