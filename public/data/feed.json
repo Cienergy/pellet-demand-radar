@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-16T06:19:43.792Z",
-  "crawlDurationMs": 20770,
+  "updatedAt": "2026-10-16T11:52:03.193Z",
+  "crawlDurationMs": 21975,
   "stats": {
     "total": 500,
     "tenders": 138,
@@ -8,7 +8,7 @@
     "news": 261,
     "portals": 90,
     "linkedin": 366,
-    "newThisCrawl": 33,
+    "newThisCrawl": 35,
     "withCompany": 130
   },
   "sources": [
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 58,
+      "count": 59,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 34,
+      "count": 35,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 71,
+      "count": 70,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 9,
+      "count": 8,
       "error": null
     },
     {
@@ -2128,7 +2128,7 @@
       "publishedAt": "2026-07-08T07:00:00.000Z",
       "discoveredAt": "2026-10-16T06:19:25.584Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0350977819e",
@@ -2875,8 +2875,8 @@
       "summary": "As crop stubble burning season begins, NTPC invites biomass pellet bids Livemint",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWklWdkZtMmg2eGRvbU9oT0J6emtaVTZreDdzWF83bjB4cDJFTUNRSnVFRWV5RTZjRGljQ252SlhnNTRmVWZHVVlOZjJXTGRKWV9rTlFuSUw3RVVRZ1EyRzVKTGJkNkpuMGxtY1JEUFFqckVJUXBnNTM2S3RRQXd2RnhsN0JLT2pkNFBGck5xa1hUUzBYMExHR2JGM3NtQldYSURjTndzWVlZRk1ySnUzWVFTZTBuajZOSk5GMnlOcUYtb3hYeDgwUU5BVdIB0AFBVV95cUxQT3ZRWDkxc09IRnZfQTVONmpoeUNsbTljT2pzWnVDSS1FTndiVWxVUHJFVDVFWXN0RGN2QmxZbGhUeVhSV3c3SFRnalJXSEFBZ0JQVzF4a0I1SDVxUDVFX2IxUFM0RUNSc0lJOEdhRnN3aUVES21VZzR4cjBManJtZ1VxRTdRNzlqajFhekN5NlB5bTBvT25nMXZhZF9scVd0OE9FcXBpQVVpZjdad3JwdE9KVlJIU0dzejZ5cWZxT2loVElFbF9paHV6Y2EzNnpk?oc=5",
       "source": "google_news",
-      "sourceLabel": "State utilities",
-      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
+      "sourceLabel": "Pellet NITs IN",
+      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -7017,7 +7017,7 @@
       "summary": "Govil Biomass Pellet Consultant LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9YUGFQajk4WVA1S2dwdVg3Rnk5SVVoQTZMc2VDTExsSVNGOXBJWWJBdW9xY3RXX2lsc3BBbVdTZk9YeGN5WGs2LWxCZkhVS05iM3dHVTdJM0w1MnE5SmMxWDB4UFhiUHRRTzh4VVRXbkFLWFRSOTdJ?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "news",
       "companies": [],
       "score": 70,
