@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-17T17:31:32.420Z",
-  "crawlDurationMs": 17402,
+  "updatedAt": "2026-10-17T19:42:15.259Z",
+  "crawlDurationMs": 20042,
   "stats": {
     "total": 500,
     "tenders": 140,
@@ -8,7 +8,7 @@
     "news": 259,
     "portals": 91,
     "linkedin": 365,
-    "newThisCrawl": 36,
+    "newThisCrawl": 35,
     "withCompany": 133
   },
   "sources": [
@@ -97,11 +97,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 62,
+      "count": 60,
       "error": null
     },
     {
