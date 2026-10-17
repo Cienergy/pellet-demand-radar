@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-16T22:47:10.469Z",
-  "crawlDurationMs": 18015,
+  "updatedAt": "2026-10-17T01:15:51.347Z",
+  "crawlDurationMs": 18030,
   "stats": {
     "total": 500,
     "tenders": 139,
@@ -8,7 +8,7 @@
     "news": 260,
     "portals": 91,
     "linkedin": 365,
-    "newThisCrawl": 36,
+    "newThisCrawl": 34,
     "withCompany": 132
   },
   "sources": [
@@ -86,15 +86,15 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 25,
+      "count": 23,
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -135,14 +135,14 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 35,
+      "count": 34,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 72,
+      "count": 69,
       "error": null
     },
     {
@@ -4425,7 +4425,7 @@
       "publishedAt": "2018-10-22T07:00:00.000Z",
       "discoveredAt": "2026-10-16T22:46:54.018Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "36f3dd57285",
@@ -4619,7 +4619,7 @@
       "publishedAt": "2026-10-06T07:00:00.000Z",
       "discoveredAt": "2026-10-16T22:46:55.076Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "00fb67bf229",
