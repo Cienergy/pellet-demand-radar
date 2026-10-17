@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-17T01:15:51.347Z",
-  "crawlDurationMs": 18030,
+  "updatedAt": "2026-10-17T06:07:26.396Z",
+  "crawlDurationMs": 19744,
   "stats": {
     "total": 500,
-    "tenders": 139,
+    "tenders": 140,
     "purchase": 101,
-    "news": 260,
+    "news": 259,
     "portals": 91,
     "linkedin": 365,
-    "newThisCrawl": 34,
-    "withCompany": 132
+    "newThisCrawl": 35,
+    "withCompany": 133
   },
   "sources": [
     {
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 23,
+      "count": 25,
       "error": null
     },
     {
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 59,
+      "count": 60,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 34,
+      "count": 36,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 69,
+      "count": 72,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 8,
+      "count": 9,
       "error": null
     },
     {
@@ -2096,6 +2096,23 @@
       "score": 77,
       "publishedAt": "2017-01-28T19:05:48.000Z",
       "discoveredAt": "2026-09-26T22:10:51.401Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "14a2e0a716f",
+      "title": "NTPC Issues Major Tender for Agro-Residue Biomass Pellets in Chhattisgarh, Odisha, Maharashtra, Madhya Pradesh & Jharkhand - LinkedIn",
+      "summary": "NTPC Issues Major Tender for Agro-Residue Biomass Pellets in Chhattisgarh, Odisha, Maharashtra, Madhya Pradesh & Jharkhand LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTkRCenN6ZFppQlliRE1Hb3NDUXdfa1dtNmhJcUJ3dEI0YnQ2dHB4Q0JrYjNxck04ckRRSm5KZVlQaXB4ekhqdmJnclo5NzVUd0dJVklnZzBtTjItUE1CRlZoUlYxWmhOc3lmSUUyM0dONGJvN0hEUm5KVXFlRE5fUFZCdjlaQ25DdUE?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 74,
+      "publishedAt": "2026-07-30T07:00:00.000Z",
+      "discoveredAt": "2026-10-17T06:07:07.880Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -7992,21 +8009,6 @@
       "score": 70,
       "publishedAt": "2024-07-28T07:00:00.000Z",
       "discoveredAt": "2026-10-07T20:45:49.615Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "41a51e76259",
-      "title": "Rashmi 6 Paradigm Limited is India's largest manufacturer of Biomass Pellets and Bamboo Charcoal. We practice their own bamboo farming, which is highly beneficial for farmers and the environment. In the coming times, the industry that will grow its own feed - LinkedIn",
-      "summary": "Rashmi 6 Paradigm Limited is India's largest manufacturer of Biomass Pellets and Bamboo Charcoal. We practice their own bamboo farming, which is highly beneficial for farmers and the environment. In the coming times, the industry that will grow its own feed LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSUU5MFlsbmtCRFhuTkZuMzRfRXBEOExnT0xnN3lFSi1SbnVvQTNsLVdSRnJRalVyUHQ1aUxFeFB2N3d5Qk9YVjhpSUo0SUFRZzRGd3VvWG53dm5wZmg3OXk5TUxIdDgxZ1pEb0dmQ3hiVlk4OVNDLW15aW5XclhKa1JJNV9FS3FUUVJjRGxDU0lURTh0QURIR09UeXJ6TGRLYVI4VjRkLWhhLTdvQm92WlJrbklGdjJ1VjFpWnFFN3RNNjhCZDN3UExhODJsaFlLclJXTw?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2024-05-16T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.217Z",
       "channel": "linkedin",
       "isNew": false
     }
