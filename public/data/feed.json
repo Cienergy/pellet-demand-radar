@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-17T11:08:44.213Z",
-  "crawlDurationMs": 18126,
+  "updatedAt": "2026-10-17T14:23:55.410Z",
+  "crawlDurationMs": 18617,
   "stats": {
     "total": 500,
     "tenders": 140,
@@ -83,11 +83,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 0,
-      "error": "socket hang up"
+      "count": 25,
+      "error": null
     },
     {
       "ok": true,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 60,
+      "count": 61,
       "error": null
     },
     {
@@ -255,7 +255,7 @@
       "summary": "NTPC Invites EOI To Produce Torrefied Biomass Pellets From Startups Sarkaritel.com",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV1FlS3lPU2U2OEVLbXBScmJHcE5VcUJwUmZqN1AzZGVxWFBYQkZwWC1VRGp6OThUajVoWnE2enhXOEZqeVlyb1NVUEpiOUh0ZFh0MXBzMUdHWGpWRUFlbkFVc2JRNW1kV0dSckNDaFRUSVhxOVB6VHBWSXpFVzZGWTlKUzdIQld6dktOYVM4VDM3dHVDRUFsX3Byaw?oc=5",
       "source": "google_tender_news",
-      "sourceLabel": "Google · live NITs",
+      "sourceLabel": "Google · utility buys",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -4250,7 +4250,7 @@
       "summary": "NTPC asks Indian startups to produce torrefied biomass pellets Construction World",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWnlCcDh2T3ZsRzhpMF9wbGx0SExVQ2dHZnQ1N0ozNkRfSUtWVkZ4dzR5Q3l0cVp4a2hTeVdPd0V6NVV3UEluMWtIUW5kUkF5ZS1ic2VUVVpQd2I4UWdsVXNIYUtpNGUtUlhOQ01hOUtsZUNTdldmR1hDbS1Sb1lXcTBQU1gyemJVREJVZmI1enJ2STZMTXhDSUNyWkVVNXpXU2draGRJbF9JOTNWSjRnRXdiYXlYUmZ1Y1BQTFY2QmlhbUdrUEF5TlBOVm1aUEVCbzBRVGotZmJIcFQ2N051YTBuUDY?oc=5",
       "source": "google_tender_news",
-      "sourceLabel": "Google · live NITs",
+      "sourceLabel": "Google · utility buys",
       "type": "news",
       "companies": [
         "NTPC"
