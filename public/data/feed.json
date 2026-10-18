@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-18T09:34:41.031Z",
-  "crawlDurationMs": 18195,
+  "updatedAt": "2026-10-18T13:33:06.470Z",
+  "crawlDurationMs": 17220,
   "stats": {
     "total": 500,
     "tenders": 141,
@@ -8,16 +8,16 @@
     "news": 258,
     "portals": 91,
     "linkedin": 365,
-    "newThisCrawl": 38,
+    "newThisCrawl": 36,
     "withCompany": 134
   },
   "sources": [
     {
-      "ok": true,
+      "ok": false,
       "label": "NTPC tender portal",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "HTTP 404"
     },
     {
       "ok": true,
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -135,21 +135,21 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 36,
+      "count": 35,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 72,
+      "count": 73,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 7,
+      "count": 6,
       "error": null
     },
     {
@@ -974,7 +974,7 @@
       "summary": "HPGCL e-Tender: Supply Agro Residue Biomass Pellets LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQT2VRUWxuam9OYTNsSk50WHBiUzcwYWJzZ2FrS3VOTEZvcmlHd2dRUEVYRlg5cDBzN1V2Y2paZm9ReURKLU0xWFpLd2tfY2NtckFtNGZlNXM1WXl1UkUwQ3I1YXNZazRnVDJXNDVYRDJ1WmY5UHc4c3RheUlhMFZtbWRLRzRtQQ?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [
         "HPGCL"
@@ -4593,7 +4593,7 @@
       "publishedAt": "2026-10-16T12:30:23.000Z",
       "discoveredAt": "2026-10-18T09:34:25.660Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "106e4da714f",
@@ -4699,6 +4699,21 @@
       "discoveredAt": "2026-10-13T17:06:51.157Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "32b114b4248",
+      "title": "🌱 Don’t Overlook the Screening Stage in a Biomass Pellet Plant When setting up a biomass pellet plant, pelletizing is only part of the process. Effective screening is also important for separating unwanted fines and oversized particles before the final product is - LinkedIn",
+      "summary": "🌱 Don’t Overlook the Screening Stage in a Biomass Pellet Plant When setting up a biomass pellet plant, pelletizing is only part of the process. Effective screening is also important for separating unwanted fines and oversized particles before the final product is LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORkRuXzQ3ZUZ1SGI5c1dVUWV4V2dnLTFCQnF2M2NkcEtPMGhibC1uYUd2OVdXUkozcEo4NUpPTFZXOVFLYWpMdGMtbDJ6dVdULUFZLVczUjFpX3Uya1VwVW1sZERKN0lUdUZUdG83N1gxVGptZ2FlczZuTDJiMm15eE9UNGd0UEJaamVJUERtcFc1NUxMdnFOWE4tc2xYYjVndTRkLTdBT1NRZklJLVY4SHIycVFBMmpoa1Rua05GbkJiQQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-03T07:00:00.000Z",
+      "discoveredAt": "2026-10-18T13:32:51.528Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "5e35f017223",
@@ -5824,6 +5839,21 @@
       "discoveredAt": "2026-09-20T00:54:13.746Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "67c29db812e",
+      "title": "Lakshay Gupta - Founder & Director @ Lakshay Bio-Fuels | Export | International Trade | Biomass & Green Energy - LinkedIn India",
+      "summary": "Lakshay Gupta - Founder & Director @ Lakshay Bio-Fuels | Export | International Trade | Biomass & Green Energy LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5rN0VXUFRvWkRGWWF3RTJraWhqU2dieVphcGFUZmNwTEp3U1VsSDh2ZDJyam9sUjRVTEJJWmZBYk1RYllZc1pQZ29sX0lEYmYySWRMNEVBcmFMRXdRNXg0?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-05T10:27:09.000Z",
+      "discoveredAt": "2026-10-18T13:32:51.528Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "1ffe899f235",
@@ -7981,36 +8011,6 @@
       "score": 70,
       "publishedAt": "2024-08-29T07:00:00.000Z",
       "discoveredAt": "2026-09-19T15:47:30.427Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "69be07fd16e",
-      "title": "Gyanvi Upadhyay - Managing Business and Strategy @Gangotri Agrifoods (Biomass Pellet Manufacturing)|Co-Founder NutraValue| PGPTBM @Masters’ Union Co’25| Vellore Institute of Technology ’24 - LinkedIn India",
-      "summary": "Gyanvi Upadhyay - Managing Business and Strategy @Gangotri Agrifoods (Biomass Pellet Manufacturing)|Co-Founder NutraValue| PGPTBM @Masters’ Union Co’25| Vellore Institute of Technology ’24 LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA1UDlBVS1hZ001MjV1VGFmQXZQWWhmald6UHVDYlFRb09XcEVqa0g5Rk1WOGt5TTg3Q3RYS2M1R1plTzBkaUcwSDFXV0NjQXdzVkRRLQ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2024-08-21T19:05:42.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.431Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "0795788e16f",
-      "title": "Gyanvi Upadhyay - Managing Business and Strategy @Gangotri Agrifoods (Biomass Pellet Manufacturing)|Co-Founder NutraValue| PGPTBM @Masters’ Union Co’25| Vellore Institute of Technology ’24 - in.linkedin.com",
-      "summary": "Gyanvi Upadhyay - Managing Business and Strategy @Gangotri Agrifoods (Biomass Pellet Manufacturing)|Co-Founder NutraValue| PGPTBM @Masters’ Union Co’25| Vellore Institute of Technology ’24 in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA1UDlBVS1hZ001MjV1VGFmQXZQWWhmald6UHVDYlFRb09XcEVqa0g5Rk1WOGt5TTg3Q3RYS2M1R1plTzBkaUcwSDFXV0NjQXdzVkRRLQ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2024-08-21T19:05:42.000Z",
-      "discoveredAt": "2026-09-26T22:10:50.882Z",
       "channel": "linkedin",
       "isNew": false
     }
