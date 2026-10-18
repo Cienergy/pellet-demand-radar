@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-10-18T13:33:06.470Z",
-  "crawlDurationMs": 17220,
+  "updatedAt": "2026-10-18T16:52:49.871Z",
+  "crawlDurationMs": 17989,
   "stats": {
     "total": 500,
-    "tenders": 141,
+    "tenders": 142,
     "purchase": 101,
-    "news": 258,
+    "news": 257,
     "portals": 91,
     "linkedin": 365,
-    "newThisCrawl": 36,
+    "newThisCrawl": 38,
     "withCompany": 134
   },
   "sources": [
     {
-      "ok": false,
+      "ok": true,
       "label": "NTPC tender portal",
       "query": null,
       "count": 0,
-      "error": "HTTP 404"
+      "error": null
     },
     {
       "ok": true,
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 61,
+      "count": 60,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 35,
+      "count": 34,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 73,
+      "count": 74,
       "error": null
     },
     {
@@ -974,7 +974,7 @@
       "summary": "HPGCL e-Tender: Supply Agro Residue Biomass Pellets LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQT2VRUWxuam9OYTNsSk50WHBiUzcwYWJzZ2FrS3VOTEZvcmlHd2dRUEVYRlg5cDBzN1V2Y2paZm9ReURKLU0xWFpLd2tfY2NtckFtNGZlNXM1WXl1UkUwQ3I1YXNZazRnVDJXNDVYRDJ1WmY5UHc4c3RheUlhMFZtbWRLRzRtQQ?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [
         "HPGCL"
@@ -1712,6 +1712,21 @@
       "discoveredAt": "2026-10-01T07:47:21.658Z",
       "channel": "news",
       "isNew": false
+    },
+    {
+      "id": "11c870db16d",
+      "title": "Harsh Bhardwaj - Founder, Urja Setu & Pond & Pearls | Building Agri-Value Chain Businesses from Bihar | Food Processing, Biomass Supply Chain & Clean Energy | NIT Warangal - LinkedIn India",
+      "summary": "Harsh Bhardwaj - Founder, Urja Setu & Pond & Pearls | Building Agri-Value Chain Businesses from Bihar | Food Processing, Biomass Supply Chain & Clean Energy | NIT Warangal LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5pa3dCUWQ2VW5tQXV1OHVBQ2dLb2ZwejYydlh6T0NxdVpuUGZFOEk1enZUa3JTR25lWG5VcTQ2NTZsLVhHVkEtWXRRMjhyM3BNanJDb3hGdGV0YWUycXNadw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 90,
+      "publishedAt": "2021-12-06T15:28:17.000Z",
+      "discoveredAt": "2026-10-18T16:52:34.415Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "e6b86fe3b7e0b14c",
@@ -4611,6 +4626,21 @@
       "isNew": false
     },
     {
+      "id": "65c68b85151",
+      "title": "Regional Trends Influencing the Biomass Pellets Consumption Market Growth - LinkedIn",
+      "summary": "Regional Trends Influencing the Biomass Pellets Consumption Market Growth LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMF9WNFVZY1F0YW1JamltTUN6UnB0aU9rN2RrX2RhbUxuQ0ZsU2d2a216a2FhV0dBSng5bjdhX2Q1Z2FMQVdhcVYxTlB2S2dwY3RMWHhEQ3hwc19FdW5ZNE5iQXp6U1c0OExnUFRkamdGM1ZiUFRGNTVvcmVLeXZzM3RfbmJsYWxaVGVEN3BRMkRQalFYRUl2aA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-16T02:30:29.000Z",
+      "discoveredAt": "2026-10-18T16:52:34.414Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "11f37eb51a2",
       "title": "Strategic Market Outlook for North America Biomass Pellet Plant: Key Drivers, Growth Trends, and Revenue Forecast through 2033 with 4.4% CAGR - LinkedIn",
       "summary": "Strategic Market Outlook for North America Biomass Pellet Plant: Key Drivers, Growth Trends, and Revenue Forecast through 2033 with 4.4% CAGR LinkedIn",
@@ -4713,7 +4743,7 @@
       "publishedAt": "2026-10-03T07:00:00.000Z",
       "discoveredAt": "2026-10-18T13:32:51.528Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5e35f017223",
@@ -5853,7 +5883,7 @@
       "publishedAt": "2026-09-05T10:27:09.000Z",
       "discoveredAt": "2026-10-18T13:32:51.528Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1ffe899f235",
@@ -6171,6 +6201,21 @@
       "discoveredAt": "2026-10-05T07:39:15.759Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "30b58242254",
+      "title": "Climate-focused agribusiness startup Farm Watt Innovations has raised Rs 32.5 crore ($3.36 million) in a funding round co-led by IAN Alpha Fund and Rainmatter. Founded by Kumar Neelendu, the startup will use the fresh capital to strengthen its biomass sup - LinkedIn",
+      "summary": "Climate-focused agribusiness startup Farm Watt Innovations has raised Rs 32.5 crore ($3.36 million) in a funding round co-led by IAN Alpha Fund and Rainmatter. Founded by Kumar Neelendu, the startup will use the fresh capital to strengthen its biomass sup LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMlZaUS13dzdUdFdtQWcyclg4V2VnZkZYWXhkLTl3bTdyVVp0aWN1ZGllVVhFdUUxcllnck9SN09HY21sZHZFWG1PYUViMmYzRVFNYjhrTTA0UHVJdkRUaE4wRnlPaVNVbGZNT1Zhc3JWVEplT0RHWFFFdFFBOWFYZ3AzVkxsaDlWVWRGdF9iWUVLUGM0ZTFMMXRBMjJDN3NrZHZ4a212ck5YLXA3TXdna1NTU0NReUJ2OTRqSDNXODZXVlE1Mm1FbE9tMExVZnl4c3c?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-07-24T07:00:00.000Z",
+      "discoveredAt": "2026-10-18T16:52:34.414Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "60aaded820d",
@@ -7966,51 +8011,6 @@
       "score": 70,
       "publishedAt": "2024-09-10T19:24:44.000Z",
       "discoveredAt": "2026-09-19T06:10:28.815Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "359bb6e7103",
-      "title": "Gurfateh Singh - Manufacturing biomass pellets | Renewable energy - LinkedIn India",
-      "summary": "Gurfateh Singh - Manufacturing biomass pellets | Renewable energy LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZcGhwaGV1TFRtVGt2RWNTa0dGOHdZa25OMmpCSFZfeXlJb2RZV0M4bGdpdnc5dUZnWUdfQW43TXpCNkVpNTBjU2wzS3I0ZEZueWJZODdvSVNoandzaFV2Xw?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2024-09-10T19:24:44.000Z",
-      "discoveredAt": "2026-09-19T15:47:31.356Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "732fc86a187",
-      "title": "Key Criteria for Setting Up Biomass Pellet & Briquette Plants in India: Insights on Market Trends and Future Prospects - LinkedIn",
-      "summary": "Key Criteria for Setting Up Biomass Pellet & Briquette Plants in India: Insights on Market Trends and Future Prospects LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWFBPYVVFNklvOGRKdUJFaWZKSGhiS2tKb3ZPMk5zZEUzNDAzVEgybWdUREh1LWVjbk0xVkkwRUxLVm81aEY2dk1XZDU0SEduN1hvUXlNYXhiR2ptNFI4ZUYxaWFKcEpjM2I1N3dEMjNuZnZXNTV6YTNzYWxYOU5USzVQNFVfY2F0MERVT1dIQkVqZGNLb3A5X2p4dXc0Mk0?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2024-08-29T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.214Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "78c7adbd18b",
-      "title": "Key Criteria for Setting Up Biomass Pellet & Briquette Plants in India: Insights on Market Trends and Future Prospects - linkedin.com",
-      "summary": "Key Criteria for Setting Up Biomass Pellet & Briquette Plants in India: Insights on Market Trends and Future Prospects linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWFBPYVVFNklvOGRKdUJFaWZKSGhiS2tKb3ZPMk5zZEUzNDAzVEgybWdUREh1LWVjbk0xVkkwRUxLVm81aEY2dk1XZDU0SEduN1hvUXlNYXhiR2ptNFI4ZUYxaWFKcEpjM2I1N3dEMjNuZnZXNTV6YTNzYWxYOU5USzVQNFVfY2F0MERVT1dIQkVqZGNLb3A5X2p4dXc0Mk0?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2024-08-29T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.427Z",
       "channel": "linkedin",
       "isNew": false
     }
