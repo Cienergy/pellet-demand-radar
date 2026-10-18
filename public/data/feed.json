@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-18T05:05:26.655Z",
-  "crawlDurationMs": 17408,
+  "updatedAt": "2026-10-18T09:34:41.031Z",
+  "crawlDurationMs": 18195,
   "stats": {
     "total": 500,
-    "tenders": 140,
+    "tenders": 141,
     "purchase": 101,
-    "news": 259,
+    "news": 258,
     "portals": 91,
     "linkedin": 365,
-    "newThisCrawl": 35,
-    "withCompany": 133
+    "newThisCrawl": 38,
+    "withCompany": 134
   },
   "sources": [
     {
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": false,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 62,
+      "count": 61,
       "error": null
     },
     {
@@ -149,7 +149,7 @@
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
@@ -965,6 +965,23 @@
       "score": 100,
       "publishedAt": "2026-04-07T07:00:00.000Z",
       "discoveredAt": "2026-09-19T15:47:30.430Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "36ead714123",
+      "title": "HPGCL e-Tender: Supply Agro Residue Biomass Pellets - LinkedIn",
+      "summary": "HPGCL e-Tender: Supply Agro Residue Biomass Pellets LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQT2VRUWxuam9OYTNsSk50WHBiUzcwYWJzZ2FrS3VOTEZvcmlHd2dRUEVYRlg5cDBzN1V2Y2paZm9ReURKLU0xWFpLd2tfY2NtckFtNGZlNXM1WXl1UkUwQ3I1YXNZazRnVDJXNDVYRDJ1WmY5UHc4c3RheUlhMFZtbWRLRzRtQQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [
+        "HPGCL"
+      ],
+      "score": 98,
+      "publishedAt": "2025-07-07T07:00:00.000Z",
+      "discoveredAt": "2026-10-18T09:34:25.252Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -4564,6 +4581,21 @@
       "isNew": false
     },
     {
+      "id": "0f32be7d157",
+      "title": "Global Non-Wood Biomass Pellets Market: US, Japan, Korea, Europe 2026-2034 Outlook - LinkedIn",
+      "summary": "Global Non-Wood Biomass Pellets Market: US, Japan, Korea, Europe 2026-2034 Outlook LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaEZ4d0xLTkpScW5nWFl2LU5Nalh3azdmSXpzWDdxblpMNENwaEdVNG9WQnh0dTg5OGtvby11X09ZWTQtS0ZHYXdiNUxlaEl2dzUyU1J4QUUyVnVVUGszQjhJN21GdDdtbDBLMG11dG0zcUFLTDJnVG00REo2NEhuVEtUVUQyUHdlM1VJSTFmSkhReFhDV1E?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-16T12:30:23.000Z",
+      "discoveredAt": "2026-10-18T09:34:25.660Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "106e4da714f",
       "title": "Regional Trends Influencing the Biomass Pellets Consumption Market Growth - LinkedIn",
       "summary": "Regional Trends Influencing the Biomass Pellets Consumption Market Growth LinkedIn",
@@ -7979,36 +8011,6 @@
       "score": 70,
       "publishedAt": "2024-08-21T19:05:42.000Z",
       "discoveredAt": "2026-09-26T22:10:50.882Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "0115a569171",
-      "title": "SAMARTH (National Biomass Mission) | WhatsApp Channel - LinkedIn",
-      "summary": "SAMARTH (National Biomass Mission) | WhatsApp Channel LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaC1kX0VhYi1SZmZEOHpnajBlWXJIdlJFeFc1WHh3NG1DZTNPWTVXdDlxUm9ETEY1VnoxRWNCWENIbUhMcFJXRjZ2MzlTaXVkWjhaUXNDRkIyc2p5eTBVbjNIMDNXNVpfeWxmLW9fVkx0OFV5UlNHOWM3ZTFpYWxOR1BPSk1WSWNxcWE2Y25fZGFwa3hhQUIxMWhUZXY4SjZ3endESkNBbG1ZcDRHUTQ0TDdiYUU2WXZXeHFjd0ZhMA?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2024-07-28T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.215Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "5c9c9e96175",
-      "title": "SAMARTH (National Biomass Mission) | WhatsApp Channel - linkedin.com",
-      "summary": "SAMARTH (National Biomass Mission) | WhatsApp Channel linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaC1kX0VhYi1SZmZEOHpnajBlWXJIdlJFeFc1WHh3NG1DZTNPWTVXdDlxUm9ETEY1VnoxRWNCWENIbUhMcFJXRjZ2MzlTaXVkWjhaUXNDRkIyc2p5eTBVbjNIMDNXNVpfeWxmLW9fVkx0OFV5UlNHOWM3ZTFpYWxOR1BPSk1WSWNxcWE2Y25fZGFwa3hhQUIxMWhUZXY4SjZ3endESkNBbG1ZcDRHUTQ0TDdiYUU2WXZXeHFjd0ZhMA?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2024-07-28T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.429Z",
       "channel": "linkedin",
       "isNew": false
     }
