@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-18T21:49:18.450Z",
-  "crawlDurationMs": 18247,
+  "updatedAt": "2026-10-19T17:44:48.675Z",
+  "crawlDurationMs": 16715,
   "stats": {
     "total": 500,
-    "tenders": 142,
+    "tenders": 144,
     "purchase": 101,
-    "news": 257,
-    "portals": 91,
-    "linkedin": 365,
-    "newThisCrawl": 38,
+    "news": 255,
+    "portals": 92,
+    "linkedin": 364,
+    "newThisCrawl": 39,
     "withCompany": 134
   },
   "sources": [
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 25,
+      "count": 24,
       "error": null
     },
     {
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 61,
+      "count": 59,
       "error": null
     },
     {
@@ -142,14 +142,14 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 73,
+      "count": 74,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 6,
+      "count": 5,
       "error": null
     },
     {
@@ -1783,6 +1783,23 @@
       "isNew": false
     },
     {
+      "id": "743b061c207",
+      "title": "⚡ SCALING INSTITUTIONAL DECARBONIZATION: TRACKING THE NEW 1,00,000 MT BIOMASS PELLET TENDER 🌱📈 India's transition toward sustainable, low-carbon thermal power generation continues to accelerate with major institutional procurement an - LinkedIn",
+      "summary": "⚡ SCALING INSTITUTIONAL DECARBONIZATION: TRACKING THE NEW 1,00,000 MT BIOMASS PELLET TENDER 🌱📈 India's transition toward sustainable, low-carbon thermal power generation continues to accelerate with major institutional procurement an LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeVFJMG5vVFZuUk1rSVpma1NmdUZoYm1WQzhGcUJ2azJUcGZFalNWQWFOaURlclpIRWtIV1ZBZ20yTTZ3d3dSOHBGVE5hSk52TjFscXVyOVMyLTVXWVl6ckl2ZVhTTkVCNDJRV3VKX3VXMXFfUHgweGdZOWJqTzk2YXRQYU1GUndBRWRYQVNYdzNTM0Y4VmNPY1c1enVGY1cyQmpwQlpiNA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [
+        "ACC"
+      ],
+      "score": 84,
+      "publishedAt": "2026-10-14T10:54:35.000Z",
+      "discoveredAt": "2026-10-19T17:44:33.480Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
       "id": "20c9b54b13a",
       "title": "Sameer Bhagat - Biomass Procurement & Supply Chain | Pan-India Sourcing | Pellets & Briquettes | Vendor Development | Renewable Energy - LinkedIn India",
       "summary": "Sameer Bhagat - Biomass Procurement & Supply Chain | Pan-India Sourcing | Pellets & Briquettes | Vendor Development | Renewable Energy LinkedIn India",
@@ -1974,6 +1991,21 @@
       "discoveredAt": "2026-09-19T17:42:30.191Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "5aad032925f",
+      "title": "𝐁𝐢𝐨𝐦𝐚𝐬𝐬 𝐁𝐨𝐢𝐥𝐞𝐫𝐬 𝐌𝐚𝐫𝐤𝐞𝐭 2025–2033: 𝐆𝐥𝐨𝐛𝐚𝐥 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡 𝐑𝐞𝐩𝐨𝐫𝐭. 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐟𝐨𝐫 𝐒𝐚𝐦𝐩𝐥𝐞 𝐂𝐨𝐩𝐲: https://lnkd.in/gvarJW-6 🔥The Biomass Boilers Market was valued at USD 12.85 Billion in 2023, projected to expand significantly to USD 3",
+      "summary": "𝐁𝐢𝐨𝐦𝐚𝐬𝐬 𝐁𝐨𝐢𝐥𝐞𝐫𝐬 𝐌𝐚𝐫𝐤𝐞𝐭 2025–2033: 𝐆𝐥𝐨𝐛𝐚𝐥 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡 𝐑𝐞𝐩𝐨𝐫𝐭. 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐟𝐨𝐫 𝐒𝐚𝐦𝐩𝐥𝐞 𝐂𝐨𝐩𝐲: https://lnkd.in/gvarJW-6 🔥The Biomass Boilers Market was valued at USD 12.85 Billion in 2023, projected to expand significantly to USD 31. LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObkNEbGtTSHFiVk5fbXA3VS11LV9YQ3E5VmlZcHZJQkQ5ajAyTkdRcGNTbVJKNzZIV2VQNmZFeDQwT2VZbTJxdTJHRUFyM041d0NUVUpxM1JZZGVoNFRmQ2xuY0Z1aUZQUmZWNFRiRF9FbmF1QlZjc0pCM21qMk9UOVp3YmlpVFVOdzk3Z2tzbkd2Zmxrcl9VVUxsSzVKUFZYSldWQ3lDbkNERE1LMWlmektLaWs4VS04TVhKZWtCN0RBYXE1REE?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 74,
+      "publishedAt": "2026-10-15T09:01:01.000Z",
+      "discoveredAt": "2026-10-19T17:44:34.543Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "55d36c862d5",
@@ -4594,6 +4626,23 @@
       "discoveredAt": "2026-09-24T12:09:37.831Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "5651895c2d3",
+      "title": "NTPC to use biomass to co-fire coal-based power plants, cut emissions - The New Indian Express",
+      "summary": "NTPC to use biomass to co-fire coal-based power plants, cut emissions The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZU9WUDdnT0k3VmwxN29mNGpXZjMyMmpDa0tOYXhyTEVtTHIyaWlSRHlXeUQ3d0VWbTNOZVNRWEtmTjhFWkpWN2dDMUlCRk8tSjktdFppRk54cHFOMzJucmJEZ2huVnJvTmRSLU1BSjQ4YVU1ZkhELXlZYmQtdUlONVhJME1oNmpwWXA2OEw5b0hYcHRIbDVDSUc2bFMyTkJJVnFBN2dDTFZWXzhncC1GRUxvRHRlSUQtakVfNE55N3VxZ1pGeVJVRW5FR1NGNUFP0gHeAUFVX3lxTE1SQ1AxU2pYMEhzN0I1QXNjQjZ3S1hHdm9ZVkF0VVRiZU1CU1RrRW1nUXoteHVRQWYtSWRQTlplWG5NRXFmVUpRVnlaZEJxRGlKY0dKUExMTURJckdkVWY2bjkxWHJOd0lKVUNLZGEyajVIdmI4Uk1fZFRJRTZQdnBqTUlfclNaVDJIRG5KZmVMUkQxMU5IQklZX3JKN0h2dnVUQkt2SFJhWEgwTWpfT0FoMXNFWVc1RjlEdEg5N1Y5TVpQQ2pHZUM0bTRpLVJoa0tLNkFVLWhQWk9ncmk0dw?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "news",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 70,
+      "publishedAt": "2018-10-21T07:00:00.000Z",
+      "discoveredAt": "2026-10-19T17:44:33.519Z",
+      "channel": "portal",
+      "isNew": true
     },
     {
       "id": "0f32be7d157",
@@ -7962,55 +8011,6 @@
       "score": 70,
       "publishedAt": "2024-11-13T10:39:30.000Z",
       "discoveredAt": "2026-09-19T15:47:30.431Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "5da303b715f",
-      "title": "Komalkant Adlak, Ph.D. - Biomass, Bioenergy, Carbon Sequestration & Removals (Biochar, ERW, & Afforestation) | GHG Accounting, LCA & ESG Enthusiast - in.linkedin.com",
-      "summary": "Komalkant Adlak, Ph.D. - Biomass, Bioenergy, Carbon Sequestration & Removals (Biochar, ERW, & Afforestation) | GHG Accounting, LCA & ESG Enthusiast in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XcjVMR0FidVJUSjNlSjVfbFJCZ2JKX1pGaDJpZmd4cWVsa1JFYy0ydm9BaU5oRnU5WFBRdHAtZF9ya3NaeUNJTWR0VHFFM19qeGRXV05qNEpvRjAtQkc1bnYxa05IUXc?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [
-        "ACC"
-      ],
-      "score": 70,
-      "publishedAt": "2024-09-18T00:39:32.000Z",
-      "discoveredAt": "2026-09-19T06:10:28.814Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "3e31e3ba15e",
-      "title": "Komalkant Adlak, Ph.D. - Biomass, Bioenergy, Carbon Sequestration & Removals (Biochar, ERW, & Afforestation) | GHG Accounting, LCA & ESG Enthusiast - LinkedIn India",
-      "summary": "Komalkant Adlak, Ph.D. - Biomass, Bioenergy, Carbon Sequestration & Removals (Biochar, ERW, & Afforestation) | GHG Accounting, LCA & ESG Enthusiast LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XcjVMR0FidVJUSjNlSjVfbFJCZ2JKX1pGaDJpZmd4cWVsa1JFYy0ydm9BaU5oRnU5WFBRdHAtZF9ya3NaeUNJTWR0VHFFM19qeGRXV05qNEpvRjAtQkc1bnYxa05IUXc?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [
-        "ACC"
-      ],
-      "score": 70,
-      "publishedAt": "2024-09-18T00:39:32.000Z",
-      "discoveredAt": "2026-09-19T15:47:31.354Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "57bd4a38104",
-      "title": "Gurfateh Singh - Manufacturing biomass pellets | Renewable energy - in.linkedin.com",
-      "summary": "Gurfateh Singh - Manufacturing biomass pellets | Renewable energy in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZcGhwaGV1TFRtVGt2RWNTa0dGOHdZa25OMmpCSFZfeXlJb2RZV0M4bGdpdnc5dUZnWUdfQW43TXpCNkVpNTBjU2wzS3I0ZEZueWJZODdvSVNoandzaFV2Xw?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2024-09-10T19:24:44.000Z",
-      "discoveredAt": "2026-09-19T06:10:28.815Z",
       "channel": "linkedin",
       "isNew": false
     }
