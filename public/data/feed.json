@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-19T17:44:48.675Z",
-  "crawlDurationMs": 16715,
+  "updatedAt": "2026-10-19T22:17:49.386Z",
+  "crawlDurationMs": 17128,
   "stats": {
     "total": 500,
-    "tenders": 144,
+    "tenders": 145,
     "purchase": 101,
-    "news": 255,
+    "news": 254,
     "portals": 92,
     "linkedin": 364,
-    "newThisCrawl": 39,
+    "newThisCrawl": 42,
     "withCompany": 134
   },
   "sources": [
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 59,
+      "count": 58,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 34,
+      "count": 35,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 74,
+      "count": 75,
       "error": null
     },
     {
@@ -1907,6 +1907,21 @@
       "isNew": false
     },
     {
+      "id": "0cd7fba716c",
+      "title": "Mark Drisdelle - With extensive expertise in biomass energy systems, I specialize in biomass procurement, supply chain optimization, and advanced biomass conversion technologies. - LinkedIn",
+      "summary": "Mark Drisdelle - With extensive expertise in biomass energy systems, I specialize in biomass procurement, supply chain optimization, and advanced biomass conversion technologies. LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1fdGl5ZFppRm9uZVhDWDJuaXZjdG45Z1ViU0lwTWhtR0hyR2pTcURFSXBOODd3Q3N4d05GeW5mRzljZFhsd0Zncl9ubERpeE5hMEp2T2JEc0lEeS1tWTdB?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "tender",
+      "companies": [],
+      "score": 80,
+      "publishedAt": "2015-11-25T12:29:06.000Z",
+      "discoveredAt": "2026-10-19T22:17:33.639Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "3a264e7dd7cbffa5",
       "title": "NTPC Vidyut invites bids for Setting, Operating 100 TPD Biomass Pellet Plant and Supply of Biomass Pellets for 15 years at GHTP - PSU Connect",
       "summary": "NTPC Vidyut invites bids for Setting, Operating 100 TPD Biomass Pellet Plant and Supply of Biomass Pellets for 15 years at GHTP PSU Connect",
@@ -2005,7 +2020,7 @@
       "publishedAt": "2026-10-15T09:01:01.000Z",
       "discoveredAt": "2026-10-19T17:44:34.543Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "55d36c862d5",
@@ -4642,7 +4657,7 @@
       "publishedAt": "2018-10-21T07:00:00.000Z",
       "discoveredAt": "2026-10-19T17:44:33.519Z",
       "channel": "portal",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0f32be7d157",
@@ -4688,6 +4703,21 @@
       "discoveredAt": "2026-10-18T16:52:34.414Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "74e745cd186",
+      "title": "FABON - Manufacturer of Pellet Machines Feed Machine - LinkedIn",
+      "summary": "FABON - Manufacturer of Pellet Machines Feed Machine LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeWJtaG9fdXY1cGpxeWNFMEl1SGlsRW5aal9Ma0VzVjNCd0dNOGxKMVMzVVhUaUgxZDlBN2tjQ0dHWnMxLVBPZTFKMWVCVGlKMTRuX2JsY0x0QTZaYnpUWUZOejRXQVNXMW1tZHMwUjQ3OUk4VWhIaFVZcnQ1akRmOUtGMFVHSXRtTTVkeTlRWkUxTkw0Wm04V1pPU2Q1VGRDM1NqMG9TbC0ycjhwTmtta3UxR09vODdmdVkybjYtYTRVaFpBVlBXbzhhTmlZbWRZ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-13T06:15:58.000Z",
+      "discoveredAt": "2026-10-19T22:17:34.528Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "11f37eb51a2",
@@ -4898,6 +4928,21 @@
       "discoveredAt": "2026-10-02T06:07:51.639Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "193ea5f624d",
+      "title": "⚙️ Why Do We Crush Biomass Before Briquetting? A briquetting press needs more than just biomass—it needs properly prepared biomass. Agricultural and forestry residues can arrive in different shapes, sizes and structures. Long fibres, oversized pieces an - LinkedIn",
+      "summary": "⚙️ Why Do We Crush Biomass Before Briquetting? A briquetting press needs more than just biomass—it needs properly prepared biomass. Agricultural and forestry residues can arrive in different shapes, sizes and structures. Long fibres, oversized pieces an LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdWh1NzdyVDZxM1JUNVE0R3JaY1VOcGlWOElDMEgweGR1LV9SVm0zRXppTVczenB2d1V4bUpFNmQtVmhNYnVocXFTZWRMUDF5Uy1VT09IQ0VmemFkWThRenZEUmFLRDZ4THRrRTRyZ0MyT01EZEJuLWp4S2JHeWZ1VEd1QTNzTmZQdjFqX3RJTHpIWDJLUHFXZGF1T3NzdllhalN1MjJOajJlYU9aSmhJUmsyQU9sZENySzhQeHNablpfczVTUWRIaXpTQlRQZw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-27T07:00:00.000Z",
+      "discoveredAt": "2026-10-19T22:17:34.528Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "5babb23b240",
@@ -7966,51 +8011,6 @@
       "score": 70,
       "publishedAt": "2024-12-07T08:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:27.217Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "57a60fbc15f",
-      "title": "Advancing Green Energy in India: The Rise of Biomass Pellets for Power Generation - linkedin.com",
-      "summary": "Advancing Green Energy in India: The Rise of Biomass Pellets for Power Generation linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTTc4Vy1xNE5lMzFubUJsS2hOcWs2UlU4ZXpBNGdzZWtZSzdzbW5kcGZ3WmpBVXk5WWx0VXBmRkl4MGxPNVl0VHJlR213WjY2clRrQlBHTVA0SUxvcHNrN3NNSGpxcVFNOWhBU0dGUmNtVkkxeDQ1bnUtcVFCdEJqQ1IzYUdkTmJhbTZXeXdFSVVUbkhRaThfNHFR?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2024-12-07T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.431Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "017534f5121",
-      "title": "Deep Energy Enterprises - Biomass pellet plant Manufacturer& Service provider. - in.linkedin.com",
-      "summary": "Deep Energy Enterprises - Biomass pellet plant Manufacturer& Service provider. in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RSzN6Q3RDMzcwMUlCeUZpdktwT2Zmc3czYVlPM3JnVWdWQkVnU01QLUlKLS12a0xmTm5aWXYxWDdBckQzaEQ3TkhJNmpYTjd4UlpYNGxodnk2WXFscktHcmdmbEw2cGkyQnNqWg?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2024-11-13T10:39:30.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.217Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "512a6d44120",
-      "title": "Deep Energy Enterprises - Biomass pellet plant Manufacturer& Service provider. - LinkedIn India",
-      "summary": "Deep Energy Enterprises - Biomass pellet plant Manufacturer& Service provider. LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RSzN6Q3RDMzcwMUlCeUZpdktwT2Zmc3czYVlPM3JnVWdWQkVnU01QLUlKLS12a0xmTm5aWXYxWDdBckQzaEQ3TkhJNmpYTjd4UlpYNGxodnk2WXFscktHcmdmbEw2cGkyQnNqWg?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2024-11-13T10:39:30.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.431Z",
       "channel": "linkedin",
       "isNew": false
     }
