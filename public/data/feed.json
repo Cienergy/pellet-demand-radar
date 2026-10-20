@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-20T06:33:01.380Z",
-  "crawlDurationMs": 18168,
+  "updatedAt": "2026-10-20T12:08:10.918Z",
+  "crawlDurationMs": 25568,
   "stats": {
     "total": 500,
     "tenders": 145,
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 24,
+      "count": 23,
       "error": null
     },
     {
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 57,
+      "count": 56,
       "error": null
     },
     {
@@ -142,7 +142,7 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 75,
+      "count": 74,
       "error": null
     },
     {
@@ -1805,7 +1805,7 @@
       "summary": "Sameer Bhagat - Biomass Procurement & Supply Chain | Pan-India Sourcing | Pellets & Briquettes | Vendor Development | Renewable Energy LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9nM1dvNV9reHR6Zjhsc3NLcGxCMVlMSnRlalpmLVFSZ0NHblFYS2VucklzUy1ZNC1KSjlxR2FCYU50WWRZaWo0ck5jZGNMOGtxemR1a1R3?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [],
       "score": 84,
