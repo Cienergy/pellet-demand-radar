@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-20T17:29:45.780Z",
-  "crawlDurationMs": 19208,
+  "updatedAt": "2026-10-20T20:50:25.722Z",
+  "crawlDurationMs": 18279,
   "stats": {
     "total": 500,
     "tenders": 146,
@@ -90,11 +90,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -135,7 +135,7 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 36,
+      "count": 35,
       "error": null
     },
     {
@@ -149,7 +149,7 @@
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 5,
+      "count": 6,
       "error": null
     },
     {
@@ -1874,7 +1874,7 @@
       "publishedAt": "2026-10-14T12:54:16.000Z",
       "discoveredAt": "2026-10-20T17:29:29.399Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1053af7c1da",
@@ -4718,6 +4718,21 @@
       "discoveredAt": "2026-10-18T16:52:34.414Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "5e9a129825a",
+      "title": "Biomass Fuel Market: Powering a Sustainable Future Through Renewable Energy | Download PDF Brochure: https://lnkd.in/daV3krV5 The global biomass fuel industry is gaining momentum as industries, utilities, and governments increasingly explore renewa - LinkedIn",
+      "summary": "Biomass Fuel Market: Powering a Sustainable Future Through Renewable Energy | Download PDF Brochure: https://lnkd.in/daV3krV5 The global biomass fuel industry is gaining momentum as industries, utilities, and governments increasingly explore renewa LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQM1dKUDRGbUhwRG5VREVleXlQMzJhN0VIblp0b1k0aFlLSTJCWHZHUmJLVE02ZTRtbzExOUNNYkdpa3ozamlZYWxIWG44TFFPQm9IWFF1cHFMdDFqa1poRE9tUlAzZTY0aU9Fa0NVUnBwNmpKTU5Oa0NBQVIzMjlNZmo4RXI2MDV0QW8zbHdqMzRpZGZlRkF2ZkVYcWYyVjZIcjVKdmxYN1J0NHZFZGo0andmenlFVEJHNXRodlVONG9BVGxWZ3pQNDZFR3lHeUpwcGdqQTF0LXBJUS1t?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-14T10:58:48.000Z",
+      "discoveredAt": "2026-10-20T20:50:10.288Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "74e745cd186",
@@ -7996,21 +8011,6 @@
       "score": 70,
       "publishedAt": "2025-01-06T08:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:27.217Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "1f3e38a2215",
-      "title": "FAQ about Napier Grass Pellet Manufacturing Plant 1. Process to Make Pellet from Napier Grass Process: Farming – Harvesting Napier Grass – Logistics – Auto Feeding - De-watering or Sun Drying – Conveying - Drying – Conveying – Auto Feeding - Hamme - linkedin.com",
-      "summary": "FAQ about Napier Grass Pellet Manufacturing Plant 1. Process to Make Pellet from Napier Grass Process: Farming – Harvesting Napier Grass – Logistics – Auto Feeding - De-watering or Sun Drying – Conveying - Drying – Conveying – Auto Feeding - Hamme linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZE5LZ0UxLXYtOF9Xc2NEV3ZRaE1KUmdjOS1OanlUZWthN0RaajQ1ZUVsblRnZXRIb0RSVEg1M1FJaGdPZk5JU09iSzRPelRSckNlQ3I4dUJCSmhoREVzT1hheldpbnVYeVV0SFYxVF9BQTJ6SnJRVjRaX0pGNG1heVBMZGpUTUtWbUJEcUcyWEwtYjNLRHZDdlF6YnRjMkhrMXFTNktB?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-01-06T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.431Z",
       "channel": "linkedin",
       "isNew": false
     }
