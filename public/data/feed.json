@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-21T09:38:38.931Z",
-  "crawlDurationMs": 19479,
+  "updatedAt": "2026-10-21T19:33:52.928Z",
+  "crawlDurationMs": 18590,
   "stats": {
     "total": 500,
-    "tenders": 146,
-    "purchase": 101,
-    "news": 253,
+    "tenders": 147,
+    "purchase": 102,
+    "news": 251,
     "portals": 92,
     "linkedin": 364,
-    "newThisCrawl": 38,
-    "withCompany": 134
+    "newThisCrawl": 39,
+    "withCompany": 135
   },
   "sources": [
     {
@@ -128,28 +128,28 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 55,
+      "count": 52,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 35,
+      "count": 33,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 75,
+      "count": 74,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
@@ -1385,7 +1385,7 @@
       "summary": "Chhattisgarh: The Next Big Opportunity for the Paddy Straw Baling & Biomass Pellet Industry For the last decade, Punjab and Haryana have emerged as the backbone of India’s paddy straw collection and biomass pellet supply chain. What was once consider LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYmdpeXc3NklNeGZ5d2lPMnBYdE9UTnQ2MmFQSTE2NmZwcllLNml6WVlwU29BQUpGM3R4MlU2b3JxeXdkQ21OdjZyM1VQSTUzY3BjUWoyUTFtNlFWdnIwLVBRWFg1cFlSd3BVRWNhMTN3bDJrc1hzRVRrQ01oSTcwNDhWQllYT3NTLVZEMU9sdld2WlVNa2kzZ2x2bGM1THAxTzBxSzBHZnViZlQ5VXRvV0JaZmEtVzJ5RGNqYzBacXV2RnFN?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -2260,6 +2260,23 @@
       "isNew": false
     },
     {
+      "id": "00642d3b259",
+      "title": "When Realization was engaged on the Jindal Steel Oman - Sohar Pellet Plant, the project was already well into execution. Significant construction had been completed, multiple systems were under erection, and commissioning activities had already begun. Y - LinkedIn",
+      "summary": "When Realization was engaged on the Jindal Steel Oman - Sohar Pellet Plant, the project was already well into execution. Significant construction had been completed, multiple systems were under erection, and commissioning activities had already begun. Y LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQalZOcVNKc18wYTJyYVVnRjAzTTI4Rjg3TWxqV1lwTGE2andwU1ZkcndzeV9xYUV2eVJ3R1JIV1Fza05Bb0NieHpNR2FwX1Z0bHMyRFJuUjVLUGlHU0REUkVvVmtaWjRyVElNN2FwckRsdVV3eThTcHJkU2NMdXB2cFZOMDBfNjRHX21kX01lN0lWc1QzUzlKYVBva250UDJybUxfb3VsT2tYQUtVMmVqU2ZiczJMTTVYMEdMYkw3RW8tYXhWS195UHgtQUVydjJYUjdMZU1PYw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "tender",
+      "companies": [
+        "Jindal"
+      ],
+      "score": 74,
+      "publishedAt": "2026-03-13T07:00:00.000Z",
+      "discoveredAt": "2026-10-21T19:33:36.430Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "0350977819e",
       "title": "Vishal Jadhao - AGM – Bioenergy Projects & O&M @ Jindal Power | IIM Mumbai – Project Management | Thermal Power & Biomass Expert | Project Execution | Plant Commissioning | BOOT Model | Process Optimization | Sustainability - LinkedIn India",
       "summary": "Vishal Jadhao - AGM – Bioenergy Projects & O&M @ Jindal Power | IIM Mumbai – Project Management | Thermal Power & Biomass Expert | Project Execution | Plant Commissioning | BOOT Model | Process Optimization | Sustainability LinkedIn India",
@@ -2282,7 +2299,7 @@
       "summary": "Nabha Power Limited invites Biomass Pellet Tender 2025 LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNDdVNWZLQ0F2RHhHdGtTRExmUnpnRUczS3hPcTdGbFJLcTIxcEdUblFkX3V5X2RfazZkYV9wNFZhWUhieVNJb0MzN3VnNzREZHhwZEplSllfVnlKaFhzODMwZHg2cXRmS3JpdzIxbWJjUHEwR1ZZZGVYRFVWQS1wam5pQldUUQ?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [],
       "score": 74,
@@ -3033,6 +3050,21 @@
       "discoveredAt": "2026-09-25T22:47:12.195Z",
       "channel": "news",
       "isNew": false
+    },
+    {
+      "id": "5c739b4a223",
+      "title": "While most of the conversation around Indian biomass is about domestic co-firing mandates, there's a parallel opportunity building that gets a lot less attention: export. Europe is phasing coal out of its power and industrial boilers, and its Renewable Energy Dir - LinkedIn",
+      "summary": "While most of the conversation around Indian biomass is about domestic co-firing mandates, there's a parallel opportunity building that gets a lot less attention: export. Europe is phasing coal out of its power and industrial boilers, and its Renewable Energy Dir LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQXVxSEdKQzBiTEUybGZrV2F5MENGdThlZEpWTFBTQTdqUkpEZUVzMU9UOTB3V0NrNnAxdFdnX3dHRWdtWjZaa2J0ZE92ajJfaGlfQnh5UFBDTlZKdXVjR1pYYUtFNFdpaGJzeFhoY0NGRnRtXzJKQXU0eUNpTHp0LUZ4QXJlcHZkbkgxYzN5TTJwTmEtTHpUZm92dHJDQzZ1VmVWZ09VOA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "purchase",
+      "companies": [],
+      "score": 93,
+      "publishedAt": "2026-10-01T07:00:00.000Z",
+      "discoveredAt": "2026-10-21T19:33:36.787Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "2ba4e705236",
@@ -4687,7 +4719,7 @@
       "publishedAt": "2026-10-20T05:37:32.000Z",
       "discoveredAt": "2026-10-21T09:38:20.814Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0f32be7d157",
@@ -6497,7 +6529,7 @@
       "summary": "🌱 Madhya Pradesh’s Growing Biomass Pellet Success Story 🏆 Proveg Engineering Successfully Installed 20+ Biomass Pellet Plants Across Madhya Pradesh We are proud to announce that Proveg Engineering & Food Processing Pvt. Ltd. has successfully est LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWkJkQmdwSDNieG10M09QT2Z3ZXd3NktER2ctRGlMM1h0RTZWV2JNMl9GVUhScFU5MVN5TC1FTi1pVlJFamJaUHV2MHR1S2FNd2E4RGlteVR5NC1ONkFWTWEyRmx6eURSYWlNSG9jdHg0ZUNWangyVWxEYVZ3T0hSYm1sUjY3VVlPbDRCMW5ab2VWR3JZWTN5SWZnNjRtcGtLYVZRLUJIeV9EaWhwT1J5UEhWY2diOVVoUHJHdU0wMDdzbzVRaFlpZ3lSVkozWTZoOUdN?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -7360,7 +7392,7 @@
       "summary": "Govil Biomass Pellet Consultant LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9YUGFQajk4WVA1S2dwdVg3Rnk5SVVoQTZMc2VDTExsSVNGOXBJWWJBdW9xY3RXX2lsc3BBbVdTZk9YeGN5WGs2LWxCZkhVS05iM3dHVTdJM0w1MnE5SmMxWDB4UFhiUHRRTzh4VVRXbkFLWFRSOTdJ?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -7981,36 +8013,6 @@
       "score": 70,
       "publishedAt": "2025-03-10T07:00:00.000Z",
       "discoveredAt": "2026-09-19T15:47:31.354Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "40979d43217",
-      "title": "Do you know our #NesaTorr® furnace for waste and biomass to product? NesaTorr®is an innovative Multiple Hearth Furnace (#MHF) patented and developed by John Cockerill for the thermal treatment or #torrefaction of organic #waste, such as vegetal resid - LinkedIn",
-      "summary": "Do you know our #NesaTorr® furnace for waste and biomass to product? NesaTorr®is an innovative Multiple Hearth Furnace (#MHF) patented and developed by John Cockerill for the thermal treatment or #torrefaction of organic #waste, such as vegetal resid LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN3U4Z0U3V1ZwX2JuckhjUVNmbHpqTVFXTnMwTjVmdDJpSWFycjZCVGp3b1ZiWUZ0dFRmd3hzMS1YMWc2X1FabWlhSDlZNG1yY2NTTmFER2xjM1h4T0xrM21kNWk4Q1FyOFVnMTAtQWlFRUp3VF8wcVV0SlRweTNvS1RKX2RpMzRteW5yOFN3RVctd0FuXzQzeEFRVERQcjRTSkxVeHJRMHk?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-02-27T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:10:28.816Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "67b4e69021b",
-      "title": "Do you know our #NesaTorr® furnace for waste and biomass to product? NesaTorr®is an innovative Multiple Hearth Furnace (#MHF) patented and developed by John Cockerill for the thermal treatment or #torrefaction of organic #waste, such as vegetal resid - linkedin.com",
-      "summary": "Do you know our #NesaTorr® furnace for waste and biomass to product? NesaTorr®is an innovative Multiple Hearth Furnace (#MHF) patented and developed by John Cockerill for the thermal treatment or #torrefaction of organic #waste, such as vegetal resid linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN3U4Z0U3V1ZwX2JuckhjUVNmbHpqTVFXTnMwTjVmdDJpSWFycjZCVGp3b1ZiWUZ0dFRmd3hzMS1YMWc2X1FabWlhSDlZNG1yY2NTTmFER2xjM1h4T0xrM21kNWk4Q1FyOFVnMTAtQWlFRUp3VF8wcVV0SlRweTNvS1RKX2RpMzRteW5yOFN3RVctd0FuXzQzeEFRVERQcjRTSkxVeHJRMHk?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-02-27T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:31.356Z",
       "channel": "linkedin",
       "isNew": false
     }
