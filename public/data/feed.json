@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-21T04:35:03.132Z",
-  "crawlDurationMs": 20437,
+  "updatedAt": "2026-10-21T09:38:38.931Z",
+  "crawlDurationMs": 19479,
   "stats": {
     "total": 500,
     "tenders": 146,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 57,
+      "count": 55,
       "error": null
     },
     {
@@ -4675,6 +4675,21 @@
       "isNew": false
     },
     {
+      "id": "3aa6b267145",
+      "title": "The Impact of Regulatory Changes on the Wood Pellet Activated Carbon Market - LinkedIn",
+      "summary": "The Impact of Regulatory Changes on the Wood Pellet Activated Carbon Market LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNkZXczI2VnRtYkZ0aEZSZU5heU5HOFl6dm9JZVA5TDVnV05PLWtQSzNFLVFLZ2V5bjhUWFdVeE13RldMR1FLemJaTTF0T0stWGd4NUJQSVlnWTR2QmpsakV6NGNYbC1TWUtuREt1TUdicGp5cTJscFFxU0ExbFNOLXZhZ0xmM0dleGRWb3F3?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-20T05:37:32.000Z",
+      "discoveredAt": "2026-10-21T09:38:20.814Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "0f32be7d157",
       "title": "Global Non-Wood Biomass Pellets Market: US, Japan, Korea, Europe 2026-2034 Outlook - LinkedIn",
       "summary": "Global Non-Wood Biomass Pellets Market: US, Japan, Korea, Europe 2026-2034 Outlook LinkedIn",
@@ -7996,21 +8011,6 @@
       "score": 70,
       "publishedAt": "2025-02-27T08:00:00.000Z",
       "discoveredAt": "2026-09-19T15:47:31.356Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "6cb1da8b211",
-      "title": "FAQ about Napier Grass Pellet Manufacturing Plant 1. Process to Make Pellet from Napier Grass Process: Farming – Harvesting Napier Grass – Logistics – Auto Feeding - De-watering or Sun Drying – Conveying - Drying – Conveying – Auto Feeding - Hamme - LinkedIn",
-      "summary": "FAQ about Napier Grass Pellet Manufacturing Plant 1. Process to Make Pellet from Napier Grass Process: Farming – Harvesting Napier Grass – Logistics – Auto Feeding - De-watering or Sun Drying – Conveying - Drying – Conveying – Auto Feeding - Hamme LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZE5LZ0UxLXYtOF9Xc2NEV3ZRaE1KUmdjOS1OanlUZWthN0RaajQ1ZUVsblRnZXRIb0RSVEg1M1FJaGdPZk5JU09iSzRPelRSckNlQ3I4dUJCSmhoREVzT1hheldpbnVYeVV0SFYxVF9BQTJ6SnJRVjRaX0pGNG1heVBMZGpUTUtWbUJEcUcyWEwtYjNLRHZDdlF6YnRjMkhrMXFTNktB?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-01-06T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.217Z",
       "channel": "linkedin",
       "isNew": false
     }
