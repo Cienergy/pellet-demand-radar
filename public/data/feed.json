@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-22T06:33:19.150Z",
-  "crawlDurationMs": 18532,
+  "updatedAt": "2026-10-22T12:23:09.039Z",
+  "crawlDurationMs": 17480,
   "stats": {
     "total": 500,
     "tenders": 147,
-    "purchase": 102,
-    "news": 251,
+    "purchase": 103,
+    "news": 250,
     "portals": 92,
     "linkedin": 364,
-    "newThisCrawl": 40,
+    "newThisCrawl": 38,
     "withCompany": 135
   },
   "sources": [
@@ -97,11 +97,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
       "ok": true,
@@ -135,21 +135,21 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 34,
+      "count": 33,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 71,
+      "count": 72,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 9,
+      "count": 7,
       "error": null
     },
     {
@@ -1385,7 +1385,7 @@
       "summary": "Chhattisgarh: The Next Big Opportunity for the Paddy Straw Baling & Biomass Pellet Industry For the last decade, Punjab and Haryana have emerged as the backbone of India’s paddy straw collection and biomass pellet supply chain. What was once consider LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYmdpeXc3NklNeGZ5d2lPMnBYdE9UTnQ2MmFQSTE2NmZwcllLNml6WVlwU29BQUpGM3R4MlU2b3JxeXdkQ21OdjZyM1VQSTUzY3BjUWoyUTFtNlFWdnIwLVBRWFg1cFlSd3BVRWNhMTN3bDJrc1hzRVRrQ01oSTcwNDhWQllYT3NTLVZEMU9sdld2WlVNa2kzZ2x2bGM1THAxTzBxSzBHZnViZlQ5VXRvV0JaZmEtVzJ5RGNqYzBacXV2RnFN?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -3557,6 +3557,21 @@
       "score": 73,
       "publishedAt": "2026-06-04T20:10:00.000Z",
       "discoveredAt": "2026-09-21T07:55:09.388Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "778c9fdc249",
+      "title": "🌱Biomass Pellet Sector in West Bengal (India) – Investment Brief West Bengal represents a high-potential emerging hub for biomass (non-torrefied) pellet development, driven by strong agricultural residue availability and rising institutional demand from easte - LinkedIn",
+      "summary": "🌱Biomass Pellet Sector in West Bengal (India) – Investment Brief West Bengal represents a high-potential emerging hub for biomass (non-torrefied) pellet development, driven by strong agricultural residue availability and rising institutional demand from easte LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUmNPeWFVeWE1ZXFCSVdhM1VfMUUzejNtbEFCdVhhdGxLWlBTYUdsRzgxQ1FYQVA1eXV4ckVNd1FoelF5ZndteUppZ3NVbHppdlJrSFpPcDRJTTdJM3NJeGd5U0taRDRNUjdOVHVtdDR4MHBUcTFDSXplN3dsekNzS0I4Wll0X0hPYnk4UWlpdEhqRG1SMmVZckhZTjNmZmJJUXNXUm5aaXhwbHZWN19hVkpWajdENUtOVXJaajZVWnFta3FaUWc?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2026-04-28T07:00:00.000Z",
+      "discoveredAt": "2026-10-22T12:22:52.982Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -7998,21 +8013,6 @@
       "score": 70,
       "publishedAt": "2025-03-10T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.814Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "3634ec30261",
-      "title": "Successful Commissioning: Gujarat’s Largest Biomass Power Plant – Bardoli Sugar Plant! We are proud to announce the successful commissioning of Gujarat’s biggest and highest-capacity Bardoli Sugar Plant, featuring a 21 MW TG Set and a 125 TPH Baga - linkedin.com",
-      "summary": "Successful Commissioning: Gujarat’s Largest Biomass Power Plant – Bardoli Sugar Plant! We are proud to announce the successful commissioning of Gujarat’s biggest and highest-capacity Bardoli Sugar Plant, featuring a 21 MW TG Set and a 125 TPH Baga linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQbXo1c09NcnQzZThMekxWc1lnRUFMeTlILXpSeWVtSmpjRi1Pa3hiNFBuN1dUMVE0MGtSQ3Q1YVVUaXdxTlhVUXlteW5wQzJwMEVvRlZ0N0V2bjVTT3NsZThWUElWMUthaUdkcFZqdE5IWU4taXhtN3IyZkkydDFPSFlkLUJieHBXRnBWeU9zZDIwLUV5WWVyQURHbUZDeFo3WS03dGJiWkFsQ19rbURrbHE4NlRkQU12NXhfUVkwTG5ZMy01czFMMTJEOURhemZVZS1pdy0yazZRQnpsckhn?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-03-10T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:31.354Z",
       "channel": "linkedin",
       "isNew": false
     }
