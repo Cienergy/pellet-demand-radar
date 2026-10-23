@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-23T15:25:50.718Z",
-  "crawlDurationMs": 17982,
+  "updatedAt": "2026-10-23T19:36:37.978Z",
+  "crawlDurationMs": 18100,
   "stats": {
     "total": 500,
     "tenders": 147,
@@ -8,7 +8,7 @@
     "news": 247,
     "portals": 92,
     "linkedin": 364,
-    "newThisCrawl": 35,
+    "newThisCrawl": 43,
     "withCompany": 136
   },
   "sources": [
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 57,
+      "count": 46,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 29,
+      "count": 35,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 47,
+      "count": 71,
       "error": null
     },
     {
@@ -1060,7 +1060,7 @@
       "summary": "WBPDCL Biomass Pellet Tender 2026: 28,080 MT Supply Opportunity in West Bengal LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQ1ZSeDk3OUM3Z01VREhtR2F2dWhBS3huT1AxUkpneEdjeUROY05MTVNTYW5jSDJLUjlDY2w0TExOeHNzcVQtRU1ja2gyLUJid1owZ3pQZFYwZGN4YXlYYmJMaU1zdUZ0ZnMwdjJzZ3NGSGpjamtpN0pwUWxYSW9mSzVja0N1T1hSRzBjb2kxdGQtSGFHWHZLUE53czFBajhxQUpFZEZXcjR2aFlpM29lVFJlcGRjZEZFaFlIS0VCV1RXRmJiSEpTR2EyOUM?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 94,
@@ -1265,7 +1265,7 @@
       "summary": "India Biomass Market Analysis 2026–2034: Key Growth Drivers, Emerging Opportunities & Outlook LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMVA0REJxamRpQXp5M0Rvbld0YnVGaU1IamFyY2NRMWJfUF9vM2tHLXRZWHpXVnZLSEJjeVFLYlFHT1E1OGMzLW5wLVE1bHEySDdvQjRkTjJXXzY1bGhjdGJ3SkVpdHdKbHRqb1l6blFHUWJ2d1ZPRWdOWllQYXpMREIwc3lFbWFSYlB6ZEFhUDI2Z05wTGJaSTNUQ0dSRFNXNkhF?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -2169,7 +2169,7 @@
       "summary": "Dharmesh Kumar kewat - Energy Transition and Sustainability| Power Utilities | Public & Climate Policy| Biofuels & Biomass Markets |Biomass Cofiring | ESG | Industrial Decarbonization | Stakeholder Engagement | Government Advisory LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5VWVVoMHl5V3I5dkJIN3J0UDZ5SWlxU2ZGTkRIektoS1hRWDNQVkZQNHlkd0xjMHlfLUJIUzhfWFBHSmd4UHRleEpoampuZw?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 77,
@@ -3397,7 +3397,7 @@
       "summary": "Turn Agricultural Waste into Green Fuel! 🌾➡️🔋 With the massive push toward renewable energy, the demand for biomass pellets in industrial boilers and power plants is skyrocketing. However, running a plant profitably requires the right strategy across: • Mac LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX1J6Ympub1VzdzBDTTI5d0k4N2tpTmVhTmlidWlESkQwZG9TeDlqT1ZnazZGREoyU1JBSjJzNk4tdDBIWl9PX0Vxd1NyODE2VWk3eGg3a1VnQTNZZmtGaXhuNWdlV3ByRHpfbWVPOUYzbHg5R285bkRkaEc2X3p4NGhhWURCX2xpZUhHWXlqWkNPOXJwSFR1UmQzclBZSmlqOTJIX1pLMTNfRWp2MXl0bm0tRGNGNl9QbHBKMUpVN3BXc2c?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -4797,6 +4797,21 @@
       "isNew": false
     },
     {
+      "id": "23db951f26c",
+      "title": "Understanding biomass machinery starts with understanding its components. In this video, Trio Renewable Engineering Private Limited takes a closer look at the eccentric shaft and its role in roller adjustment within a biomass pellet machine. For India’s pellet - LinkedIn",
+      "summary": "Understanding biomass machinery starts with understanding its components. In this video, Trio Renewable Engineering Private Limited takes a closer look at the eccentric shaft and its role in roller adjustment within a biomass pellet machine. For India’s pellet LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVlZaa2RqZElkallJTEVVbF9XX1VpQjdxWHNxVVhWXzJJMXc0SHZyaVp2ZzU5Q0hoWmVZM2VIbTlQZk1zNGxKYzRKTUdXZF95dlptMkFwR29FYmVXZnkyN2NtSkR3a2R4aU1zSHdTTzNwMVpxTmZ5QnRnbHJEdVFScV93am9EODZZQ0ZnNmtqeXJDX3c3bDQ5NXJSNWtWbUxjSG9SUVNGOHA0YV9WZnZteVl4UHJWRmpqR01qYzJQZGNLME85VUo0c1FiajAwRkdPa2pGNnJzQnpmWEVkdU5pMg?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-19T12:10:45.000Z",
+      "discoveredAt": "2026-10-23T19:36:20.900Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "62ada39c253",
       "title": "Discover the calorific value, ash content, moisture level, and physical properties of corn cob biomass. Learn how corn cobs can be used as a renewable fuel for biomass pellets, briquettes, and sustainable energy production. Explore biomass fuel solutions with - LinkedIn",
       "summary": "Discover the calorific value, ash content, moisture level, and physical properties of corn cob biomass. Learn how corn cobs can be used as a renewable fuel for biomass pellets, briquettes, and sustainable energy production. Explore biomass fuel solutions with LinkedIn",
@@ -4941,7 +4956,7 @@
       "type": "news",
       "companies": [],
       "score": 70,
-      "publishedAt": "2026-10-06T13:01:34.000Z",
+      "publishedAt": "2026-10-06T07:00:00.000Z",
       "discoveredAt": "2026-10-06T17:09:04.803Z",
       "channel": "linkedin",
       "isNew": false
@@ -6749,6 +6764,21 @@
       "isNew": false
     },
     {
+      "id": "1521855c24d",
+      "title": "India's energy transition is not just about solar and wind. Biomass has the potential to play a major role in reducing coal dependency, utilizing agricultural residue, creating rural employment, and supporting a cleaner future. At AVYAYA INDUSTRIES PVT LTD, - LinkedIn",
+      "summary": "India's energy transition is not just about solar and wind. Biomass has the potential to play a major role in reducing coal dependency, utilizing agricultural residue, creating rural employment, and supporting a cleaner future. At AVYAYA INDUSTRIES PVT LTD, LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORmZSZEFRejZ5bDBJcnF1dEJ4VHl6di1WT3ZGOGtNRGVOX1BTcFF5MHFibklHejBLSENjbGVpVGRuNmx2eXdwS0tPZzRGNVplc3RlODJEcEpBNDdEcllWMHd1X29NX0FEb1ZzMFQ4dTBPRjFFRlVLTmR6R3dqWDlQX2xaSE1Lcnl1c0JVbENkNnF0RXF4Yk5TanhGNGhyVzl0OE1pSUVzRU9BUzAtOEVJMnZ5cXU3bVhvMVFVMlBMRlZzR0U2cnJZMFhnNA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-06-06T07:00:00.000Z",
+      "discoveredAt": "2026-10-23T19:36:21.824Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "3d320853251",
       "title": "🌱 A New Journey Begins Today, we are proud to introduce ECOGRO ENERGIA PVT LTD. India generates millions of tonnes of agricultural biomass every year. Much of it remains underutilized, while industries continue to seek sustainable alternatives to conv - linkedin.com",
       "summary": "🌱 A New Journey Begins Today, we are proud to introduce ECOGRO ENERGIA PVT LTD. India generates millions of tonnes of agricultural biomass every year. Much of it remains underutilized, while industries continue to seek sustainable alternatives to conv linkedin.com",
@@ -6938,7 +6968,7 @@
       "summary": "Top 10 Biomass Pellet Manufacturers in India: 1. Abellon CleanEnergy Ltd. 2. Punjab Renewable Energy Systems Pvt. Ltd. 3. ECOSTAN Biofuel Pvt. Ltd. 4. Rajaram Solvex Ltd. 5. Manikaran Power Ltd. 6. Shubhshree Biofuels Energy Ltd. 7. Dhaneshwar Fire LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdG5FcjZjbFY5ay1sVE5vWFctR2xPcE0yNEx2LWdBNUZFamNNMGJfMjI4ZUhZajlsbnJLTXlxNF9jZFRPMjlNdFRHbE1lLUJRMTVJRnVrZFdGcUY3N1g1LUpSczVGa0pzLVYxQ0lXcHZFUWtXVG1Qd2RRMGdDQTlMSkdla0h4NHoycUxxVjNfQVZNcVVqU3JEaVI3TTBscnl4QnpEdXRka1VZRmxpVFVSV0tqZXMtMFk?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -7985,36 +8015,6 @@
       "score": 70,
       "publishedAt": "2025-05-15T03:52:51.000Z",
       "discoveredAt": "2026-09-19T15:47:30.431Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "5ab1b85f12b",
-      "title": "Project Officer | Agri-Writer & Author | M.Sc. Agronomy | Specializing in Biochar, Biomass & Green Economy - in.linkedin.com",
-      "summary": "Project Officer | Agri-Writer & Author | M.Sc. Agronomy | Specializing in Biochar, Biomass & Green Economy in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBoQ2FuZ0tmUl9lXzJHSVhLWHBHMDY0bENGem5iNEs4SV8tUWZZTGxRNDRrWXJ1X0JiMGZCYTV6dzNTWlpuY0Z5TkZnR0FQWGxCTk10Yk1pcWY1TWZ4Zl9r?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-04-01T21:51:26.000Z",
-      "discoveredAt": "2026-09-19T06:10:28.816Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "1f797a9012a",
-      "title": "Project Officer | Agri-Writer & Author | M.Sc. Agronomy | Specializing in Biochar, Biomass & Green Economy - LinkedIn India",
-      "summary": "Project Officer | Agri-Writer & Author | M.Sc. Agronomy | Specializing in Biochar, Biomass & Green Economy LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBoQ2FuZ0tmUl9lXzJHSVhLWHBHMDY0bENGem5iNEs4SV8tUWZZTGxRNDRrWXJ1X0JiMGZCYTV6dzNTWlpuY0Z5TkZnR0FQWGxCTk10Yk1pcWY1TWZ4Zl9r?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-04-01T21:51:26.000Z",
-      "discoveredAt": "2026-09-19T20:24:36.306Z",
       "channel": "linkedin",
       "isNew": false
     }
