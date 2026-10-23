@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-23T10:29:00.637Z",
-  "crawlDurationMs": 19504,
+  "updatedAt": "2026-10-23T15:25:50.718Z",
+  "crawlDurationMs": 17982,
   "stats": {
     "total": 500,
     "tenders": 147,
@@ -8,7 +8,7 @@
     "news": 247,
     "portals": 92,
     "linkedin": 364,
-    "newThisCrawl": 42,
+    "newThisCrawl": 35,
     "withCompany": 136
   },
   "sources": [
@@ -135,14 +135,14 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 34,
+      "count": 29,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 72,
+      "count": 47,
       "error": null
     },
     {
@@ -1060,7 +1060,7 @@
       "summary": "WBPDCL Biomass Pellet Tender 2026: 28,080 MT Supply Opportunity in West Bengal LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQ1ZSeDk3OUM3Z01VREhtR2F2dWhBS3huT1AxUkpneEdjeUROY05MTVNTYW5jSDJLUjlDY2w0TExOeHNzcVQtRU1ja2gyLUJid1owZ3pQZFYwZGN4YXlYYmJMaU1zdUZ0ZnMwdjJzZ3NGSGpjamtpN0pwUWxYSW9mSzVja0N1T1hSRzBjb2kxdGQtSGFHWHZLUE53czFBajhxQUpFZEZXcjR2aFlpM29lVFJlcGRjZEZFaFlIS0VCV1RXRmJiSEpTR2EyOUM?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [],
       "score": 94,
@@ -1265,7 +1265,7 @@
       "summary": "India Biomass Market Analysis 2026–2034: Key Growth Drivers, Emerging Opportunities & Outlook LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMVA0REJxamRpQXp5M0Rvbld0YnVGaU1IamFyY2NRMWJfUF9vM2tHLXRZWHpXVnZLSEJjeVFLYlFHT1E1OGMzLW5wLVE1bHEySDdvQjRkTjJXXzY1bGhjdGJ3SkVpdHdKbHRqb1l6blFHUWJ2d1ZPRWdOWllQYXpMREIwc3lFbWFSYlB6ZEFhUDI2Z05wTGJaSTNUQ0dSRFNXNkhF?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -2169,7 +2169,7 @@
       "summary": "Dharmesh Kumar kewat - Energy Transition and Sustainability| Power Utilities | Public & Climate Policy| Biofuels & Biomass Markets |Biomass Cofiring | ESG | Industrial Decarbonization | Stakeholder Engagement | Government Advisory LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5VWVVoMHl5V3I5dkJIN3J0UDZ5SWlxU2ZGTkRIektoS1hRWDNQVkZQNHlkd0xjMHlfLUJIUzhfWFBHSmd4UHRleEpoampuZw?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [],
       "score": 77,
@@ -3858,7 +3858,7 @@
       "publishedAt": "2023-03-22T21:35:26.000Z",
       "discoveredAt": "2026-10-23T10:28:43.449Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3820ef08170",
@@ -4809,7 +4809,7 @@
       "publishedAt": "2026-10-19T04:46:36.000Z",
       "discoveredAt": "2026-10-23T10:28:43.450Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0f32be7d157",
@@ -6938,7 +6938,7 @@
       "summary": "Top 10 Biomass Pellet Manufacturers in India: 1. Abellon CleanEnergy Ltd. 2. Punjab Renewable Energy Systems Pvt. Ltd. 3. ECOSTAN Biofuel Pvt. Ltd. 4. Rajaram Solvex Ltd. 5. Manikaran Power Ltd. 6. Shubhshree Biofuels Energy Ltd. 7. Dhaneshwar Fire LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdG5FcjZjbFY5ay1sVE5vWFctR2xPcE0yNEx2LWdBNUZFamNNMGJfMjI4ZUhZajlsbnJLTXlxNF9jZFRPMjlNdFRHbE1lLUJRMTVJRnVrZFdGcUY3N1g1LUpSczVGa0pzLVYxQ0lXcHZFUWtXVG1Qd2RRMGdDQTlMSkdla0h4NHoycUxxVjNfQVZNcVVqU3JEaVI3TTBscnl4QnpEdXRka1VZRmxpVFVSV0tqZXMtMFk?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -7371,7 +7371,7 @@
       "publishedAt": "2026-01-21T08:00:00.000Z",
       "discoveredAt": "2026-10-23T10:28:43.448Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2d07740e134",
@@ -7724,7 +7724,7 @@
       "summary": "Government Subsidy for Biomass Aggregation Machinery – A Big Support for CBG Producers LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTmtTcDg2QXZkamhZd1IyMGRjdlZFdzZTNFZKSkhDUUhoc0cwSjUzNUxQQzgxLVJma2NnRmJhSHZlMXF2Ri13WEt4ZTEzRXNSZTFkakx6LW16XzVBRmpDNGlmTEZ2UnBpa0MyRnlCcW5HYTRfVHA4aXZVbDRoRkxNZUpQcDRFR2FYSmVFSnhB?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "news",
       "companies": [],
       "score": 70,
