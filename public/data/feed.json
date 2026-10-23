@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-22T21:29:47.966Z",
-  "crawlDurationMs": 20639,
+  "updatedAt": "2026-10-23T00:08:31.984Z",
+  "crawlDurationMs": 18085,
   "stats": {
     "total": 500,
     "tenders": 147,
-    "purchase": 103,
-    "news": 250,
+    "purchase": 104,
+    "news": 249,
     "portals": 92,
     "linkedin": 364,
-    "newThisCrawl": 40,
+    "newThisCrawl": 41,
     "withCompany": 135
   },
   "sources": [
@@ -48,11 +48,11 @@
       "error": "fetch failed"
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Tata Power tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 25,
+      "count": 24,
       "error": null
     },
     {
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 53,
+      "count": 57,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 9,
+      "count": 8,
       "error": null
     },
     {
@@ -1852,7 +1852,7 @@
       "summary": "Vikas Patni - Ecoprenure, BioecoFuels Solutions Pvt. Ltd.|18+ Years in Biomass Energy Supply Chain|Specialized in Bulk Agri-Residue Procurement & Logistics|Helping Manufacturing Plants Optimize Co-Firing|Ex-RIL|Ex-OGPL|Ex-M&M LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1EM3VBZ2R2QW1ZRXhTUnQ0cmhmNy1Sb0trclNhNV8zNkg4NU9rWXk5WVVXQ0l6c0RFS0JDV2VFSFY0NnVxYnFjOWl6Yw?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [],
       "score": 83,
@@ -3531,6 +3531,21 @@
       "isNew": false
     },
     {
+      "id": "759e6416167",
+      "title": "Before You Invest in Biomass Pellet Manufacturing: A Practical Guide for Farmers and B2B Buyers - LinkedIn",
+      "summary": "Before You Invest in Biomass Pellet Manufacturing: A Practical Guide for Farmers and B2B Buyers LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWlBHYlU3SmxrYzJSUExTNWI2UVVCWTV4N0I2amthRnpWMzUwNVFHZDRUenowZkZybkJEbXN5c3d1TmJkeHI0Z0RZZTYyNmEtenZSY1pfUURfcTVyQlFCUjFDNUFBMkFNWlBEa3hUUkhOcDg2NDhCTmFhdnVVWi1SVU03Tlp5S0lLRUY2UVhxbFowaTZxNGFSMA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2026-06-26T07:00:00.000Z",
+      "discoveredAt": "2026-10-23T00:08:15.349Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "3ab63744128",
       "title": "Doris Cheng - Wood Processing Machinery | Biomass Recycling Solutions | Production Line Supplier to make paper pulp and wood pellet - LinkedIn",
       "summary": "Doris Cheng - Wood Processing Machinery | Biomass Recycling Solutions | Production Line Supplier to make paper pulp and wood pellet LinkedIn",
@@ -4857,6 +4872,21 @@
       "isNew": false
     },
     {
+      "id": "1096a1e2188",
+      "title": "Leader’s Perspective: Essential reading and key takeaways for the biomass stakeholders - LinkedIn",
+      "summary": "Leader’s Perspective: Essential reading and key takeaways for the biomass stakeholders LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVFpFMUxzZndHSnh5MWZvNWIxZ2pERk13alRUUFZDeUlIRzVOX3o3TjU1UDQwbldIU1haNGtrUkN1Zm5hM0lXMGVTaWljZk5sLXVaajJ4bnc4Sm53NVVESHVmX0V4a05nTW1kNG54bkhTdUxvQzZvNFptcE9sUFZqNWxJNzR3aHpQRHpxbG1RTGhESk04ZGdrOVN1N2hkVHN3elpDdC1fWmlQQmVUcUFOdmh1RXlSSWF5?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-08T13:30:58.000Z",
+      "discoveredAt": "2026-10-23T00:08:15.350Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "5e577c781a3",
       "title": "Japan Biomass Pellets Market - A Global and Regional Analysis: Focus on Region, Country-Level Analysis, and Competitive Landscape - Analysis and Forec - LinkedIn",
       "summary": "Japan Biomass Pellets Market - A Global and Regional Analysis: Focus on Region, Country-Level Analysis, and Competitive Landscape - Analysis and Forec LinkedIn",
@@ -5367,21 +5397,6 @@
       "isNew": false
     },
     {
-      "id": "6c755e46241",
-      "title": "🌱 NAPIER GRASS: FROM FARM TO CLEAN GASEOUS FUEL Efficient CBG production begins with how we prepare the feedstock. At Proveg Engineering, our focus is on connecting farm harvesting with biomass preparation and controlled feeding into the CB - LinkedIn",
-      "summary": "🌱 NAPIER GRASS: FROM FARM TO CLEAN GASEOUS FUEL Efficient CBG production begins with how we prepare the feedstock. At Proveg Engineering, our focus is on connecting farm harvesting with biomass preparation and controlled feeding into the CB LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVFgyZWloZWZ1MFpsTVlrcmotNkxVcVk5dk81UVVMYUw4VTljbnRNaFpYLXA0Z3J2Mk1JLVJ6M3hPa2FCZXdJMUdXanFJNUpWd3E5dk5CWXJhVWxvaGROOERxUVVzX25kQTQybFBRSmRiblBnZExtYktzdWh0OFVfd1VrcFA4ZWxPaVpEOXJqQ1BlOFJFa1dGMnhWQXN5YmxvRG1RVDByUXRGVHE5NnpDcHV0ZFRJRTA0WXNSbVBiREY1aml4RHVGVDlCRmZqdw?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-09-21T03:37:01.000Z",
-      "discoveredAt": "2026-09-21T07:55:09.386Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
       "id": "79ca5ab923c",
       "title": "🌾 From Farm-Stored Paddy Straw Bale to CBG Fuel — The Complete Journey What looks like an agricultural residue in the field can become a valuable renewable gaseous fuel—but paddy straw requires the right preparation before it reaches the anaerobic di - LinkedIn",
       "summary": "🌾 From Farm-Stored Paddy Straw Bale to CBG Fuel — The Complete Journey What looks like an agricultural residue in the field can become a valuable renewable gaseous fuel—but paddy straw requires the right preparation before it reaches the anaerobic di LinkedIn",
@@ -5453,6 +5468,21 @@
       "score": 70,
       "publishedAt": "2026-09-20T09:08:43.000Z",
       "discoveredAt": "2026-09-29T16:28:48.682Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "6c755e46241",
+      "title": "🌱 NAPIER GRASS: FROM FARM TO CLEAN GASEOUS FUEL Efficient CBG production begins with how we prepare the feedstock. At Proveg Engineering, our focus is on connecting farm harvesting with biomass preparation and controlled feeding into the CB - LinkedIn",
+      "summary": "🌱 NAPIER GRASS: FROM FARM TO CLEAN GASEOUS FUEL Efficient CBG production begins with how we prepare the feedstock. At Proveg Engineering, our focus is on connecting farm harvesting with biomass preparation and controlled feeding into the CB LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVFgyZWloZWZ1MFpsTVlrcmotNkxVcVk5dk81UVVMYUw4VTljbnRNaFpYLXA0Z3J2Mk1JLVJ6M3hPa2FCZXdJMUdXanFJNUpWd3E5dk5CWXJhVWxvaGROOERxUVVzX25kQTQybFBRSmRiblBnZExtYktzdWh0OFVfd1VrcFA4ZWxPaVpEOXJqQ1BlOFJFa1dGMnhWQXN5YmxvRG1RVDByUXRGVHE5NnpDcHV0ZFRJRTA0WXNSbVBiREY1aml4RHVGVDlCRmZqdw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-20T07:00:00.000Z",
+      "discoveredAt": "2026-09-21T07:55:09.386Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -7983,36 +8013,6 @@
       "score": 70,
       "publishedAt": "2025-03-24T07:00:00.000Z",
       "discoveredAt": "2026-09-19T15:47:30.428Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "48c741d3112",
-      "title": "syed naveed - IIT Kanpur | Associate at PwC | Co-founder of wood pellet manufacturing - in.linkedin.com",
-      "summary": "syed naveed - IIT Kanpur | Associate at PwC | Co-founder of wood pellet manufacturing in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQcXNlTEs5YTlDbndhUmhJX1dUMU5DdXpIQTRBc2VEM3dxRlNXWm5icUdXcXFkdjk0d3JET2dOVFkwNzROdWlab0tIaTVEbGZIamNSb25BN2VjV3ZE?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-03-23T05:55:47.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.217Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "6a600284111",
-      "title": "syed naveed - IIT Kanpur | Associate at PwC | Co-founder of wood pellet manufacturing - LinkedIn India",
-      "summary": "syed naveed - IIT Kanpur | Associate at PwC | Co-founder of wood pellet manufacturing LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQcXNlTEs5YTlDbndhUmhJX1dUMU5DdXpIQTRBc2VEM3dxRlNXWm5icUdXcXFkdjk0d3JET2dOVFkwNzROdWlab0tIaTVEbGZIamNSb25BN2VjV3ZE?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-03-23T05:55:47.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.430Z",
       "channel": "linkedin",
       "isNew": false
     }
