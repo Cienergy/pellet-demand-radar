@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-23T05:17:48.250Z",
-  "crawlDurationMs": 17545,
+  "updatedAt": "2026-10-23T10:29:00.637Z",
+  "crawlDurationMs": 19504,
   "stats": {
     "total": 500,
     "tenders": 147,
-    "purchase": 105,
-    "news": 248,
+    "purchase": 106,
+    "news": 247,
     "portals": 92,
     "linkedin": 364,
-    "newThisCrawl": 40,
-    "withCompany": 135
+    "newThisCrawl": 42,
+    "withCompany": 136
   },
   "sources": [
     {
@@ -90,11 +90,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -142,7 +142,7 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 71,
+      "count": 72,
       "error": null
     },
     {
@@ -3374,7 +3374,7 @@
       "publishedAt": "2026-10-17T13:38:08.000Z",
       "discoveredAt": "2026-10-23T05:17:33.451Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5c9bf106275",
@@ -3844,6 +3844,21 @@
       "discoveredAt": "2026-09-19T15:47:31.356Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "01219e8c150",
+      "title": "Maqbul Paleja - Founder – MM Overseas | Biomass Briquettes & Pellets | Rice, Sugar, Salt & Minerals | Import & Export | Global Sourcing & Supply - LinkedIn India",
+      "summary": "Maqbul Paleja - Founder – MM Overseas | Biomass Briquettes & Pellets | Rice, Sugar, Salt & Minerals | Import & Export | Global Sourcing & Supply LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9hUkZSaTNvREdabHMyZUxSVHFYV1JrN0tFWTlhczFSUjE0NVdkc1NHRUdkSzZsVDBIWGM4Qi1laHJpQnU4dDdzdUxFLWlXc1RWUU1sOVdUQXh3YlQzczU0?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2023-03-22T21:35:26.000Z",
+      "discoveredAt": "2026-10-23T10:28:43.449Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "3820ef08170",
@@ -4780,6 +4795,21 @@
       "discoveredAt": "2026-10-21T09:38:20.814Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "62ada39c253",
+      "title": "Discover the calorific value, ash content, moisture level, and physical properties of corn cob biomass. Learn how corn cobs can be used as a renewable fuel for biomass pellets, briquettes, and sustainable energy production. Explore biomass fuel solutions with - LinkedIn",
+      "summary": "Discover the calorific value, ash content, moisture level, and physical properties of corn cob biomass. Learn how corn cobs can be used as a renewable fuel for biomass pellets, briquettes, and sustainable energy production. Explore biomass fuel solutions with LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOR1RReUUyQVl5RTJGMGlJSTVBV2o5Mk9oMWJ2MTdwb3NJWWRvYVBJbkpKTFU2cmQ5Y3A0REpRS1Q1WnZienBRYTJsd2ZlWjZVWGhxczhIeFp6R25lb1ZDNGdYYnJPR01BWXRJY2w5dklpSWh4X2lNRllvUW1CMXlWQ3Qtc0FJNmJXZ1k4RGtwQ2NNZjV3TXAxckRQbzh3X08tQkx0OHM5YmVva3hyYzBGbDd2akp6MDg2NW1vOW9TM1BQenNacW16aFh5Z3pBUQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-19T04:46:36.000Z",
+      "discoveredAt": "2026-10-23T10:28:43.450Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "0f32be7d157",
@@ -7327,6 +7357,23 @@
       "isNew": false
     },
     {
+      "id": "15fd287423c",
+      "title": "Torrefied Carbonization Machine｜Upgrading Biomass into High-Value Biochar with Dingli Group 🌱 As the global market accelerates toward renewable energy, biomass pellets, and carbon-reduction solutions, torrefaction technology is becoming a key step in - LinkedIn",
+      "summary": "Torrefied Carbonization Machine｜Upgrading Biomass into High-Value Biochar with Dingli Group 🌱 As the global market accelerates toward renewable energy, biomass pellets, and carbon-reduction solutions, torrefaction technology is becoming a key step in LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQN0dVa1ZjVDdOLTM3cmJla0RFT1o3Y2FPVHZKRlNCeGVrLUd0NGtLVnJzVE5XMXBXNWloeXNMc0RNZlVYQ2dOQTloZjZ0Z0pyVURGR1ZicnVLZWtkdDN6R1loeGNzcUlLTjEySEd6RFBIMWVDVVhaV1AtRG4wNDc0UUdSUzZIeDdGVWZEaEUzQ0Z2LWd6YWZHV1pRS0toTTdRRzg2dDRGYmIzdWhZZDhkV3hsV3NxYU9CUlA2Sk5tOHNKdmM?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [
+        "ACC"
+      ],
+      "score": 70,
+      "publishedAt": "2026-01-21T08:00:00.000Z",
+      "discoveredAt": "2026-10-23T10:28:43.448Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "2d07740e134",
       "title": "Sanjivani Agro Machinery - Biochar | Charcoal | Carbon credits | Biomass Pellets | Agricultural Machinary | Biogas - LinkedIn India",
       "summary": "Sanjivani Agro Machinery - Biochar | Charcoal | Carbon credits | Biomass Pellets | Agricultural Machinary | Biogas LinkedIn India",
@@ -7968,51 +8015,6 @@
       "score": 70,
       "publishedAt": "2025-04-01T21:51:26.000Z",
       "discoveredAt": "2026-09-19T20:24:36.306Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "27474f37141",
-      "title": "Haryana’s Bio-Energy Policy 2018: Key Benefits for Biomass Sector Entrepreneurs - LinkedIn",
-      "summary": "Haryana’s Bio-Energy Policy 2018: Key Benefits for Biomass Sector Entrepreneurs LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU0VUUld4RnRnU2luWmZxcHV5OU5WSUs3NHVvSm1KV3pyZHZjdW5XQmE1MFpNMVVNNnFMNWkwdEliQnNFMXNfLUR2YlFoeVdFQlhPdlZjNVBIajZnYmY2dVZGeFpjOVlBWXhVLW8tRWFrc2tTVTFNc3FqZkhIVDJzWUFuZ1UzSHlp?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-03-25T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.217Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "4b0af9f6145",
-      "title": "Haryana’s Bio-Energy Policy 2018: Key Benefits for Biomass Sector Entrepreneurs - linkedin.com",
-      "summary": "Haryana’s Bio-Energy Policy 2018: Key Benefits for Biomass Sector Entrepreneurs linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU0VUUld4RnRnU2luWmZxcHV5OU5WSUs3NHVvSm1KV3pyZHZjdW5XQmE1MFpNMVVNNnFMNWkwdEliQnNFMXNfLUR2YlFoeVdFQlhPdlZjNVBIajZnYmY2dVZGeFpjOVlBWXhVLW8tRWFrc2tTVTFNc3FqZkhIVDJzWUFuZ1UzSHlp?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-03-25T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.431Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "428cd412225",
-      "title": "Rashmi 6 Paradigm LTD, a venture of Rashmi Group has joined hands with PRODESA Group to establish two 500 TPD biomass pellet plants in Jharkhand. Read More: https://lnkd.in/gzidb69j #Rashmi6Paradigm #RashmiGroup #PRODESAGroup #BiomassP - LinkedIn",
-      "summary": "Rashmi 6 Paradigm LTD, a venture of Rashmi Group has joined hands with PRODESA Group to establish two 500 TPD biomass pellet plants in Jharkhand. Read More: https://lnkd.in/gzidb69j #Rashmi6Paradigm #RashmiGroup #PRODESAGroup #BiomassP LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeHpxOTZuWGxjQ1ZfSHc2NVoyWDFObnk1Q1NtY01kbE9tYW1QRFlobl9SOWFiV09ZOTFoZHgtRVFRTTVqNWJVLTl6SzgzQzNNQ2J5YTZsbkdzdTlCYUhwNld4RVY1M2ZiODgyNm5HVVdfcmp0Qy1oNmR3SzJTZ05UdTY1Z0hQTWxXQ2l6U0xBRzA4WVRIcVY5UkhINnlvNjlYWGhFb2NUdV83djlNd19pSUJoTzdsekJnbWdwWmln?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-03-24T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.215Z",
       "channel": "linkedin",
       "isNew": false
     }
