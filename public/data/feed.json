@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-23T19:36:37.978Z",
-  "crawlDurationMs": 18100,
+  "updatedAt": "2026-10-23T22:36:34.629Z",
+  "crawlDurationMs": 19552,
   "stats": {
     "total": 500,
     "tenders": 147,
@@ -8,7 +8,7 @@
     "news": 247,
     "portals": 92,
     "linkedin": 364,
-    "newThisCrawl": 43,
+    "newThisCrawl": 41,
     "withCompany": 136
   },
   "sources": [
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": false,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 46,
+      "count": 56,
       "error": null
     },
     {
@@ -149,7 +149,7 @@
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 8,
+      "count": 7,
       "error": null
     },
     {
@@ -4809,7 +4809,7 @@
       "publishedAt": "2026-10-19T12:10:45.000Z",
       "discoveredAt": "2026-10-23T19:36:20.900Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "62ada39c253",
@@ -6776,7 +6776,7 @@
       "publishedAt": "2026-06-06T07:00:00.000Z",
       "discoveredAt": "2026-10-23T19:36:21.824Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3d320853251",
