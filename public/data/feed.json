@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-24T01:31:28.986Z",
-  "crawlDurationMs": 17618,
+  "updatedAt": "2026-10-24T06:25:43.485Z",
+  "crawlDurationMs": 17468,
   "stats": {
     "total": 500,
-    "tenders": 149,
+    "tenders": 151,
     "purchase": 106,
-    "news": 245,
+    "news": 243,
     "portals": 92,
     "linkedin": 364,
-    "newThisCrawl": 42,
-    "withCompany": 136
+    "newThisCrawl": 45,
+    "withCompany": 137
   },
   "sources": [
     {
@@ -128,14 +128,14 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 56,
+      "count": 54,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 34,
+      "count": 37,
       "error": null
     },
     {
@@ -149,7 +149,7 @@
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 5,
+      "count": 9,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 8,
+      "count": 9,
       "error": null
     },
     {
@@ -906,7 +906,7 @@
       "summary": "🌾 Biomass demand is creating new opportunities across India. NTPC has invited biomass pellet procurement bids across Chhattisgarh, Odisha, Madhya Pradesh, Maharashtra and Jharkhand supporting cleaner energy generation and greater biomass utilizati LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWXJ3cTVaSmh6TVZVM1BUMkFlMmV0U1JONVdhN0RBb0h5VWJQZHRhUDIxOURQcjZySW9Ub0FhVEw4TDJ5Ymo4MkU4UEM0eWtkQmhsOU1BTUdWYUNQVGdUc0w2OUZfZ2Z4Z18tZlNiZURpYUl6cENrUC1yTXVtdWhteGxXVEZZbkNZRW9CV2VYamt3LXJIR2JBMDBFWk5nbUlYeEUyVmdjemNoWFRDaWVWMDJVdWJpVnhvcFkwdUxPTG9OeVZ3cXE0djBn?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -1795,7 +1795,7 @@
       "publishedAt": "2024-01-17T20:52:45.000Z",
       "discoveredAt": "2026-10-24T01:31:13.656Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "743b061c207",
@@ -2050,7 +2050,7 @@
       "publishedAt": "2026-10-19T04:51:28.000Z",
       "discoveredAt": "2026-10-24T01:31:13.657Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5aad032925f",
@@ -2113,6 +2113,21 @@
       "discoveredAt": "2026-10-08T00:56:32.787Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "79f421e0243",
+      "title": "⚙️ Different biomass materials. Different moisture levels. Different particle sizes. One consistent blend. For biomass pellet manufacturers, achieving a uniform feed mixture can be challenging when working with multiple raw materials. A properly designed Rib - LinkedIn",
+      "summary": "⚙️ Different biomass materials. Different moisture levels. Different particle sizes. One consistent blend. For biomass pellet manufacturers, achieving a uniform feed mixture can be challenging when working with multiple raw materials. A properly designed Rib LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOHdFUEEtVHVEamFyNTVJLW4wZXFWeEpTdHhNWDdqWHJQaEFfNllYdHRod3ViTV9GZ2dVSThucVN4bjhUNFdqa0xJM3U4Qm1rZmJaYmRqUUFzV3pPRDRxWko3U3ZfV2htMTNDX1pSSEtfWHFybU1aOTBwY3FkbzFaWjZBUm5fYzBMWEdyTTE1NXFVTTRLb1YxZ0tTV1RsM05yTGVPSEtZczFBQmh1NnNnaVNlUkd3SHBRaTdwcnhBcHRpWXM?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 74,
+      "publishedAt": "2026-10-01T07:00:00.000Z",
+      "discoveredAt": "2026-10-24T06:25:28.474Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "6a2b088b1aa",
@@ -2380,6 +2395,23 @@
       "score": 74,
       "publishedAt": "2025-06-30T07:00:00.000Z",
       "discoveredAt": "2026-09-19T15:47:30.428Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "74a7d09f138",
+      "title": "GSECL Invites Tenders for Biomass Pellet Supply to Thermal Power Plants - LinkedIn",
+      "summary": "GSECL Invites Tenders for Biomass Pellet Supply to Thermal Power Plants LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQkluUTZfSjlWYWl1UE01dWpVZm1IT0pkWk9Neks1aFF6cURCSHVkLUwyRGJTNkZSTnBkQ2o1MUllV1I4a0I5TEV3M1g1Q0lNOWR2azBCcndORld6Q3Y3SWFJVm42dE1PNFFTVGd6RWxkTHVrSGVPLUtrZ3ZJLTdlMFVMT1ZzUUU?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [
+        "GSECL"
+      ],
+      "score": 74,
+      "publishedAt": "2025-05-01T07:00:00.000Z",
+      "discoveredAt": "2026-10-24T06:25:28.094Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -3132,7 +3164,7 @@
       "summary": "A stronger biomass ecosystem means a stronger energy future 🌱⚡ India’s growing demand for biomass pellets is creating new opportunities for manufacturers and entrepreneurs nationwide. Mission SAMARTH is working to connect pellet manufacturers with l LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRTNZV19nNjEtM1FWbGJ6TVNkbXk3YzcwVURLczVUV2dGTkVOUVFsMERuakE1VjZJOXVHYWYxcUdoUUpTYjlvSGVHdS13SkNMallfMGVOYlF5RU9YRGtLa3Y1TkFQTklCV3dlRzVPQTBFRk5nTW5FZDBkOW1hYjVJMWtmUVZKYTBYSlViT3VTSmg0cjdLRWVRc2VmLWNKZ1Ywc3R6NzJIX0d6R25OSDhNSVU4LW1aTEp4TWI1eDJpdFBTckhXSWZR?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "purchase",
       "companies": [],
       "score": 93,
@@ -4989,7 +5021,7 @@
       "publishedAt": "2026-10-08T07:00:00.000Z",
       "discoveredAt": "2026-10-24T01:31:13.656Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5e577c781a3",
@@ -5001,7 +5033,7 @@
       "type": "news",
       "companies": [],
       "score": 70,
-      "publishedAt": "2026-10-06T13:01:34.000Z",
+      "publishedAt": "2026-10-06T07:00:00.000Z",
       "discoveredAt": "2026-10-06T17:09:04.803Z",
       "channel": "linkedin",
       "isNew": false
@@ -5097,21 +5129,6 @@
       "isNew": false
     },
     {
-      "id": "127c60f715d",
-      "title": "Europe Needs More Wood Pellets. Brazil Is Already Supplying Them - LinkedIn",
-      "summary": "Europe Needs More Wood Pellets. Brazil Is Already Supplying Them LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTEJraE1xQS0wTVBITlBSNDRuNFpsZmo0M1I2TjhpbHRpN1l0RVlLNTA4MWdSeTViU05ncHFwRDJRUk5VbFc5TjNST2FQd0FqcVlJa3FCNGMydFJBV0hmSVZIb3h1aTNyMEFXQUpqc2NHR2tLSV9TeDItNzZhUVR3SGpwLWoxV00xOGs2TVRPMFphaEdZc3Awd1NucnVBMHhOTFBPTjNhQmY?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-09-28T13:19:43.000Z",
-      "discoveredAt": "2026-09-29T21:01:08.637Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
       "id": "0834c836161",
       "title": "Europe Needs More Wood Pellets. Brazil Is Already Supplying Them - linkedin.com",
       "summary": "Europe Needs More Wood Pellets. Brazil Is Already Supplying Them linkedin.com",
@@ -5123,6 +5140,21 @@
       "score": 70,
       "publishedAt": "2026-09-28T13:19:43.000Z",
       "discoveredAt": "2026-10-02T06:07:50.775Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "127c60f715d",
+      "title": "Europe Needs More Wood Pellets. Brazil Is Already Supplying Them - LinkedIn",
+      "summary": "Europe Needs More Wood Pellets. Brazil Is Already Supplying Them LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTEJraE1xQS0wTVBITlBSNDRuNFpsZmo0M1I2TjhpbHRpN1l0RVlLNTA4MWdSeTViU05ncHFwRDJRUk5VbFc5TjNST2FQd0FqcVlJa3FCNGMydFJBV0hmSVZIb3h1aTNyMEFXQUpqc2NHR2tLSV9TeDItNzZhUVR3SGpwLWoxV00xOGs2TVRPMFphaEdZc3Awd1NucnVBMHhOTFBPTjNhQmY?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-28T07:00:00.000Z",
+      "discoveredAt": "2026-09-29T21:01:08.637Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -7985,36 +8017,6 @@
       "score": 70,
       "publishedAt": "2025-06-09T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.816Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "0fbe4a29148",
-      "title": "Biomass Origin Explained: From Classification to Application - linkedin.com",
-      "summary": "Biomass Origin Explained: From Classification to Application linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdjdCV0J1X0trbG9VenFoc3RoVVg5RzZTZXo4S2JBRGlpVjN6OGwwRVdtSHpMQzhkd1dWdXhaSElyQ09XWTlrTmFFYjFNYmhyVmd5VGdwb0czVFdUVE10WjBCdmxZLVZXXzZtYUtCSmlNdEREOGRGOUVBSmFDajRkNGxiUUlhR3dNNTluLVAwZ01WbUd1aDF1RA?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-06-09T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:31.356Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "387c6e28269",
-      "title": "Happy to Announce: New 60 TPD Biomass Pellet Project Started! The journey in biomass energy comes with its own set of challenges, but with persistence, dedication, determination, and hard work, we’ve achieved our next milestone—a 60 TPD biomass pell - LinkedIn",
-      "summary": "Happy to Announce: New 60 TPD Biomass Pellet Project Started! The journey in biomass energy comes with its own set of challenges, but with persistence, dedication, determination, and hard work, we’ve achieved our next milestone—a 60 TPD biomass pell LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTXdtOUg4TUQwSHFRenVLMlpjVGVxdnctOUR0M1NQbDVlZVZmMEdkRFVfQ3AweVR2SDZ0LU5WeUZjdVFjWHBZS2dEVzFuV1BFZnVrYmM5MkNVLXhSSUpNRDZNeXQtODVkMGNZTDlrdWJ2X0s0cE1mMjlxNW44cUNySGFjQ2I1b2ppcEVSWW5WaTdQNkpuVm9NdHV0YVRaOE9Da3ZfMS00LTM5UmNvTUduOEstalRvTmlqa1NZRkNSLW4yNUdmcW4wOVBMSmFFZEYtc3JWSVF1R2QzaHAzT2tkemp2eUZLZw?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-05-18T07:00:00.000Z",
-      "discoveredAt": "2026-09-22T07:39:46.730Z",
       "channel": "linkedin",
       "isNew": false
     }
