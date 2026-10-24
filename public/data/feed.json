@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-24T11:33:36.119Z",
-  "crawlDurationMs": 18322,
+  "updatedAt": "2026-10-24T14:52:51.178Z",
+  "crawlDurationMs": 18948,
   "stats": {
     "total": 500,
     "tenders": 151,
@@ -8,7 +8,7 @@
     "news": 242,
     "portals": 92,
     "linkedin": 364,
-    "newThisCrawl": 42,
+    "newThisCrawl": 38,
     "withCompany": 137
   },
   "sources": [
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 8,
+      "count": 24,
       "error": null
     },
     {
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 55,
+      "count": 54,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 35,
+      "count": 26,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 70,
+      "count": 69,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 9,
+      "count": 10,
       "error": null
     },
     {
@@ -1595,8 +1595,8 @@
       "summary": "NTPC invites bids for procurement of biomass pellets to co-fire thermal power plants PSU Watch",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNemZoLWg1TXB6T0IxTWEzV3NDdlp5eEZQVnpES3BjdmV5bFY2b09oanN1UmlqY1ZJUzc5Z3lqU1lPc0k4WmxRZThGSUpobmtNY3ZzMjRVVFZmaTlYd2FoVXlQWmJlM3VSeU9Db1o3eU12MTlkRm9kSEFzU3ppMlFQa1kwa1NnNUxkekZLOHQ3SHoyUVBaSl94OWtKUDR0MDlQbDZ4MXZqMnFyODA2SHkxYXF3NzVYYmvSAcQBQVVfeXFMTy1HOWVsYmxJSUl1XzFHanVvUkoxY25RVEFCSDIyd2xfQnB6RmY1QUZLSXZfYXRTVEw3LVM4a0M3TWtzMDdjSmxaa0dZTmgtZzJhYVJFUFQ5YUNGaVZYMVFKU1dhMExOTlRxaDROZHJqN2pxb29vSkhfU3BNd0dVRkFrbkJCaDFFUF9Ib1ZCekwzSlVhVE9EU3NyZ1ZZU05tbmFzcHAxV3EwenI0bkUyZ3pkN0ptRDJDZjQwQjNVQ1k2cFExaQ?oc=5",
       "source": "google_news",
-      "sourceLabel": "State tenders",
-      "query": "(Haryana OR Punjab OR Rajasthan OR Gujarat OR Maharashtra OR \"Uttar Pradesh\") (biomass pellet OR \"paddy straw pellet\") (tender OR procurement)",
+      "sourceLabel": "State utilities",
+      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -1604,7 +1604,8 @@
       "score": 91,
       "publishedAt": "2020-09-28T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:42.989Z",
-      "isNew": false
+      "isNew": false,
+      "channel": "news"
     },
     {
       "id": "1c2a5843229c2e6d",
@@ -2404,7 +2405,7 @@
       "summary": "GSECL Invites Tenders for Biomass Pellet Supply to Thermal Power Plants LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQkluUTZfSjlWYWl1UE01dWpVZm1IT0pkWk9Neks1aFF6cURCSHVkLUwyRGJTNkZSTnBkQ2o1MUllV1I4a0I5TEV3M1g1Q0lNOWR2azBCcndORld6Q3Y3SWFJVm42dE1PNFFTVGd6RWxkTHVrSGVPLUtrZ3ZJLTdlMFVMT1ZzUUU?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [
         "GSECL"
@@ -3890,7 +3891,7 @@
       "publishedAt": "2023-04-18T07:00:00.000Z",
       "discoveredAt": "2026-10-24T11:33:19.366Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2f37346e183",
@@ -7060,7 +7061,7 @@
       "summary": "Top 10 Biomass Pellet Manufacturers in India: 1. Abellon CleanEnergy Ltd. 2. Punjab Renewable Energy Systems Pvt. Ltd. 3. ECOSTAN Biofuel Pvt. Ltd. 4. Rajaram Solvex Ltd. 5. Manikaran Power Ltd. 6. Shubhshree Biofuels Energy Ltd. 7. Dhaneshwar Fire LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdG5FcjZjbFY5ay1sVE5vWFctR2xPcE0yNEx2LWdBNUZFamNNMGJfMjI4ZUhZajlsbnJLTXlxNF9jZFRPMjlNdFRHbE1lLUJRMTVJRnVrZFdGcUY3N1g1LUpSczVGa0pzLVYxQ0lXcHZFUWtXVG1Qd2RRMGdDQTlMSkdla0h4NHoycUxxVjNfQVZNcVVqU3JEaVI3TTBscnl4QnpEdXRka1VZRmxpVFVSV0tqZXMtMFk?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "news",
       "companies": [],
       "score": 70,
