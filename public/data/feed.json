@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-24T14:52:51.178Z",
-  "crawlDurationMs": 18948,
+  "updatedAt": "2026-10-24T18:04:49.677Z",
+  "crawlDurationMs": 19423,
   "stats": {
     "total": 500,
     "tenders": 151,
@@ -8,16 +8,16 @@
     "news": 242,
     "portals": 92,
     "linkedin": 364,
-    "newThisCrawl": 38,
+    "newThisCrawl": 41,
     "withCompany": 137
   },
   "sources": [
     {
-      "ok": true,
+      "ok": false,
       "label": "NTPC tender portal",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "HTTP 404"
     },
     {
       "ok": true,
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 54,
+      "count": 53,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 26,
+      "count": 34,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 69,
+      "count": 67,
       "error": null
     },
     {
@@ -906,7 +906,7 @@
       "summary": "🌾 Biomass demand is creating new opportunities across India. NTPC has invited biomass pellet procurement bids across Chhattisgarh, Odisha, Madhya Pradesh, Maharashtra and Jharkhand supporting cleaner energy generation and greater biomass utilizati LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWXJ3cTVaSmh6TVZVM1BUMkFlMmV0U1JONVdhN0RBb0h5VWJQZHRhUDIxOURQcjZySW9Ub0FhVEw4TDJ5Ymo4MkU4UEM0eWtkQmhsOU1BTUdWYUNQVGdUc0w2OUZfZ2Z4Z18tZlNiZURpYUl6cENrUC1yTXVtdWhteGxXVEZZbkNZRW9CV2VYamt3LXJIR2JBMDBFWk5nbUlYeEUyVmdjemNoWFRDaWVWMDJVdWJpVnhvcFkwdUxPTG9OeVZ3cXE0djBn?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -2405,7 +2405,7 @@
       "summary": "GSECL Invites Tenders for Biomass Pellet Supply to Thermal Power Plants LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQkluUTZfSjlWYWl1UE01dWpVZm1IT0pkWk9Neks1aFF6cURCSHVkLUwyRGJTNkZSTnBkQ2o1MUllV1I4a0I5TEV3M1g1Q0lNOWR2azBCcndORld6Q3Y3SWFJVm42dE1PNFFTVGd6RWxkTHVrSGVPLUtrZ3ZJLTdlMFVMT1ZzUUU?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [
         "GSECL"
@@ -7061,7 +7061,7 @@
       "summary": "Top 10 Biomass Pellet Manufacturers in India: 1. Abellon CleanEnergy Ltd. 2. Punjab Renewable Energy Systems Pvt. Ltd. 3. ECOSTAN Biofuel Pvt. Ltd. 4. Rajaram Solvex Ltd. 5. Manikaran Power Ltd. 6. Shubhshree Biofuels Energy Ltd. 7. Dhaneshwar Fire LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdG5FcjZjbFY5ay1sVE5vWFctR2xPcE0yNEx2LWdBNUZFamNNMGJfMjI4ZUhZajlsbnJLTXlxNF9jZFRPMjlNdFRHbE1lLUJRMTVJRnVrZFdGcUY3N1g1LUpSczVGa0pzLVYxQ0lXcHZFUWtXVG1Qd2RRMGdDQTlMSkdla0h4NHoycUxxVjNfQVZNcVVqU3JEaVI3TTBscnl4QnpEdXRka1VZRmxpVFVSV0tqZXMtMFk?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "news",
       "companies": [],
       "score": 70,
