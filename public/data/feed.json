@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-23T22:36:34.629Z",
-  "crawlDurationMs": 19552,
+  "updatedAt": "2026-10-24T01:31:28.986Z",
+  "crawlDurationMs": 17618,
   "stats": {
     "total": 500,
-    "tenders": 147,
+    "tenders": 149,
     "purchase": 106,
-    "news": 247,
+    "news": 245,
     "portals": 92,
     "linkedin": 364,
-    "newThisCrawl": 41,
+    "newThisCrawl": 42,
     "withCompany": 136
   },
   "sources": [
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -135,7 +135,7 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 35,
+      "count": 34,
       "error": null
     },
     {
@@ -149,7 +149,7 @@
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 7,
+      "count": 5,
       "error": null
     },
     {
@@ -1783,6 +1783,21 @@
       "isNew": false
     },
     {
+      "id": "0f2ff4dc1a6",
+      "title": "Vinay Mishra - Bio-Energy || SCM & BD || Procurement || Biomass supply || Briquettes || Pallets|| Paddy bales || Loose Biomass || Team management || Government Relations|| Sales|| Purchase || MIS || Strategy || CBG Material Sources - LinkedIn India",
+      "summary": "Vinay Mishra - Bio-Energy || SCM & BD || Procurement || Biomass supply || Briquettes || Pallets|| Paddy bales || Loose Biomass || Team management || Government Relations|| Sales|| Purchase || MIS || Strategy || CBG Material Sources LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9fVVhDSFJWVGRWMVBZOFZfc1dFaGhIcXpkb1l2NjRYcVlJWjVNWTE2U2NCTTNEaWtKT0Y4WWtUZmZ6c1IydE5lQW1XNnIwNm56c2VER3pQdm1qVDEtMnc?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 87,
+      "publishedAt": "2024-01-17T20:52:45.000Z",
+      "discoveredAt": "2026-10-24T01:31:13.656Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "743b061c207",
       "title": "⚡ SCALING INSTITUTIONAL DECARBONIZATION: TRACKING THE NEW 1,00,000 MT BIOMASS PELLET TENDER 🌱📈 India's transition toward sustainable, low-carbon thermal power generation continues to accelerate with major institutional procurement an - LinkedIn",
       "summary": "⚡ SCALING INSTITUTIONAL DECARBONIZATION: TRACKING THE NEW 1,00,000 MT BIOMASS PELLET TENDER 🌱📈 India's transition toward sustainable, low-carbon thermal power generation continues to accelerate with major institutional procurement an LinkedIn",
@@ -2021,6 +2036,21 @@
       "discoveredAt": "2026-09-19T17:42:30.191Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "2a7a6476268",
+      "title": "𝐖𝐡𝐢𝐭𝐞 𝐂𝐨𝐚𝐥 𝐌𝐚𝐫𝐤𝐞𝐭 – 𝐀 𝐂𝐨𝐦𝐩𝐥𝐞𝐭𝐞 𝐏𝐃𝐅 𝐆𝐮𝐢𝐝𝐞 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐅𝐫𝐞𝐞 𝐏𝐃𝐅 𝐁𝐫𝐨𝐜𝐡𝐮𝐫𝐞: https://lnkd.in/d2_kgEmw White coal, also known as biomass briquettes, is a renewable solid fuel produced from agricultural residues, forestry waste, and ot",
+      "summary": "𝐖𝐡𝐢𝐭𝐞 𝐂𝐨𝐚𝐥 𝐌𝐚𝐫𝐤𝐞𝐭 – 𝐀 𝐂𝐨𝐦𝐩𝐥𝐞𝐭𝐞 𝐏𝐃𝐅 𝐆𝐮𝐢𝐝𝐞 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐅𝐫𝐞𝐞 𝐏𝐃𝐅 𝐁𝐫𝐨𝐜𝐡𝐮𝐫𝐞: https://lnkd.in/d2_kgEmw White coal, also known as biomass briquettes, is a renewable solid fuel produced from agricultural residues, forestry waste, and other LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSm5CVWtEQ2pMdENla1Z3eG9ERjFQV011MzZVeDBMZ2ZFRlpjcExhRmlPVDNQTk1GOHdna0oxSENaWUFac0JodWR4dUc3YW5ONzdya3hWWkFub2lFYzVWdUE2bUZBSzVkMm16WWVhbHBnR1RsLXBGS3B2bkttQ2VvMms1NHI0azVtTVJIM1RyTzRMdVYzc3NvYVFOTjdyOGcwdWY3UmJlMXlsSkFqcEZRMVVPZDdDVUxLQWJ5cHRKanczYUVkeXJZSVF2NDM?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 74,
+      "publishedAt": "2026-10-19T04:51:28.000Z",
+      "discoveredAt": "2026-10-24T01:31:13.657Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "5aad032925f",
@@ -2282,7 +2312,7 @@
       "summary": "Vishal Jadhao - AGM – Bioenergy Projects & O&M @ Jindal Power | IIM Mumbai – Project Management | Thermal Power & Biomass Expert | Project Execution | Plant Commissioning | BOOT Model | Process Optimization | Sustainability LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE96TExRWE5rMmpKMVZYdVpjX1cyZGlTNkFKNE5QbG5ILURpYkF6Qno4TElnRkMxdEZHdF85OFpwSU5sOVFXY0lScG9Oc2s3UjVqTzBjUVpiWXBDbEZERUE?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [
         "Jindal"
@@ -4947,6 +4977,21 @@
       "isNew": false
     },
     {
+      "id": "391412d323d",
+      "title": "Wet biomass is not always a waste problem. Sometimes, it is an energy design problem. When discussing biomass energy projects, I often hear the same question: “Our wood chips contain 40–50% moisture. How can we dry them to 10–15% before gasificatio - LinkedIn",
+      "summary": "Wet biomass is not always a waste problem. Sometimes, it is an energy design problem. When discussing biomass energy projects, I often hear the same question: “Our wood chips contain 40–50% moisture. How can we dry them to 10–15% before gasificatio LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaEJWWlNYMFUzS1NFRGkyMkc2cjFNYW1aV0dwUkdSUzB4aVRqUkVWYWFmTE13ZlpUQXpmTENVSWdZNzhuT1Nrc3gwSnJ1NXpPMlZNV05yUFZDOWlKUEIyZzJ0Z1duMm5XMGRfYnluUGtNTWRxdHFKeHFZUWJTMWdsYUVfYWpnQUxSY3ozY1cxakVwQzQwNEliTXVTT25jVGQ1blEwOFhVTUllYm5CZW5yQkQtcEU5U2FZWmgwQkZSRUNNUzYzVGc?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-08T07:00:00.000Z",
+      "discoveredAt": "2026-10-24T01:31:13.656Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "5e577c781a3",
       "title": "Japan Biomass Pellets Market - A Global and Regional Analysis: Focus on Region, Country-Level Analysis, and Competitive Landscape - Analysis and Forec - LinkedIn",
       "summary": "Japan Biomass Pellets Market - A Global and Regional Analysis: Focus on Region, Country-Level Analysis, and Competitive Landscape - Analysis and Forec LinkedIn",
@@ -4956,7 +5001,7 @@
       "type": "news",
       "companies": [],
       "score": 70,
-      "publishedAt": "2026-10-06T07:00:00.000Z",
+      "publishedAt": "2026-10-06T13:01:34.000Z",
       "discoveredAt": "2026-10-06T17:09:04.803Z",
       "channel": "linkedin",
       "isNew": false
@@ -7970,51 +8015,6 @@
       "score": 70,
       "publishedAt": "2025-05-18T07:00:00.000Z",
       "discoveredAt": "2026-09-22T07:39:46.730Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "7de2efd526d",
-      "title": "Happy to Announce: New 60 TPD Biomass Pellet Project Started! The journey in biomass energy comes with its own set of challenges, but with persistence, dedication, determination, and hard work, we’ve achieved our next milestone—a 60 TPD biomass pell - linkedin.com",
-      "summary": "Happy to Announce: New 60 TPD Biomass Pellet Project Started! The journey in biomass energy comes with its own set of challenges, but with persistence, dedication, determination, and hard work, we’ve achieved our next milestone—a 60 TPD biomass pell linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTXdtOUg4TUQwSHFRenVLMlpjVGVxdnctOUR0M1NQbDVlZVZmMEdkRFVfQ3AweVR2SDZ0LU5WeUZjdVFjWHBZS2dEVzFuV1BFZnVrYmM5MkNVLXhSSUpNRDZNeXQtODVkMGNZTDlrdWJ2X0s0cE1mMjlxNW44cUNySGFjQ2I1b2ppcEVSWW5WaTdQNkpuVm9NdHV0YVRaOE9Da3ZfMS00LTM5UmNvTUduOEstalRvTmlqa1NZRkNSLW4yNUdmcW4wOVBMSmFFZEYtc3JWSVF1R2QzaHAzT2tkemp2eUZLZw?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-05-18T07:00:00.000Z",
-      "discoveredAt": "2026-09-29T16:28:49.651Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "694afd5dd6",
-      "title": "Green Pellets India - in.linkedin.com",
-      "summary": "Green Pellets India in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5NRXlEeGpoNjNCX09fTzJBYkpSaEhxOVRFU1A0akNaY01lNjVXV2xxOEFweW9RXzFHWXZ2eHl1SDlJWGR1aTFMemxHTDJRUzg1b0UySFd2YjI2aWdLWi1WRQ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-05-15T03:52:51.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.217Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "2b51a8b2d5",
-      "title": "Green Pellets India - LinkedIn India",
-      "summary": "Green Pellets India LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5NRXlEeGpoNjNCX09fTzJBYkpSaEhxOVRFU1A0akNaY01lNjVXV2xxOEFweW9RXzFHWXZ2eHl1SDlJWGR1aTFMemxHTDJRUzg1b0UySFd2YjI2aWdLWi1WRQ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-05-15T03:52:51.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.431Z",
       "channel": "linkedin",
       "isNew": false
     }
