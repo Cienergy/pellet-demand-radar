@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-25T01:34:25.013Z",
-  "crawlDurationMs": 17573,
+  "updatedAt": "2026-10-25T06:50:48.157Z",
+  "crawlDurationMs": 18414,
   "stats": {
     "total": 500,
     "tenders": 151,
@@ -13,11 +13,11 @@
   },
   "sources": [
     {
-      "ok": false,
+      "ok": true,
       "label": "NTPC tender portal",
       "query": null,
       "count": 0,
-      "error": "HTTP 404"
+      "error": null
     },
     {
       "ok": true,
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 8,
+      "count": 23,
       "error": null
     },
     {
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 58,
+      "count": 52,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 35,
+      "count": 34,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 46,
+      "count": 66,
       "error": null
     },
     {
@@ -156,7 +156,7 @@
       "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 5,
+      "count": 4,
       "error": null
     },
     {
@@ -1060,7 +1060,7 @@
       "summary": "WBPDCL Biomass Pellet Tender 2026: 28,080 MT Supply Opportunity in West Bengal LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQ1ZSeDk3OUM3Z01VREhtR2F2dWhBS3huT1AxUkpneEdjeUROY05MTVNTYW5jSDJLUjlDY2w0TExOeHNzcVQtRU1ja2gyLUJid1owZ3pQZFYwZGN4YXlYYmJMaU1zdUZ0ZnMwdjJzZ3NGSGpjamtpN0pwUWxYSW9mSzVja0N1T1hSRzBjb2kxdGQtSGFHWHZLUE53czFBajhxQUpFZEZXcjR2aFlpM29lVFJlcGRjZEZFaFlIS0VCV1RXRmJiSEpTR2EyOUM?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 94,
@@ -1265,7 +1265,7 @@
       "summary": "India Biomass Market Analysis 2026–2034: Key Growth Drivers, Emerging Opportunities & Outlook LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMVA0REJxamRpQXp5M0Rvbld0YnVGaU1IamFyY2NRMWJfUF9vM2tHLXRZWHpXVnZLSEJjeVFLYlFHT1E1OGMzLW5wLVE1bHEySDdvQjRkTjJXXzY1bGhjdGJ3SkVpdHdKbHRqb1l6blFHUWJ2d1ZPRWdOWllQYXpMREIwc3lFbWFSYlB6ZEFhUDI2Z05wTGJaSTNUQ0dSRFNXNkhF?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -2215,7 +2215,7 @@
       "summary": "Dharmesh Kumar kewat - Energy Transition and Sustainability| Power Utilities | Public & Climate Policy| Biofuels & Biomass Markets |Biomass Cofiring | ESG | Industrial Decarbonization | Stakeholder Engagement | Government Advisory LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5VWVVoMHl5V3I5dkJIN3J0UDZ5SWlxU2ZGTkRIektoS1hRWDNQVkZQNHlkd0xjMHlfLUJIUzhfWFBHSmd4UHRleEpoampuZw?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 77,
@@ -5052,7 +5052,7 @@
       "publishedAt": "2026-10-07T06:31:02.000Z",
       "discoveredAt": "2026-10-25T01:34:08.693Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5e577c781a3",
@@ -5112,7 +5112,7 @@
       "publishedAt": "2026-10-06T07:00:00.000Z",
       "discoveredAt": "2026-10-25T01:34:08.692Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "00fb67bf229",
@@ -7151,7 +7151,7 @@
       "summary": "Ansh Verma - Executive Director @Trio Renewable Engineering || Specialised in Biomass Pelletizing Solutions LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE54TktRR2pkOXZ4WkJTczIzNUlTOENUa1NIYS0wa0w3cTYxYUVQQTFqR2d3UjNHT2FLME1UUzhjTVFnUU5TWDktc3JvOHk2Rjg?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "news",
       "companies": [],
       "score": 70,
