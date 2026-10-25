@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-24T23:07:48.972Z",
-  "crawlDurationMs": 17225,
+  "updatedAt": "2026-10-25T01:34:25.013Z",
+  "crawlDurationMs": 17573,
   "stats": {
     "total": 500,
     "tenders": 151,
@@ -8,16 +8,16 @@
     "news": 242,
     "portals": 92,
     "linkedin": 364,
-    "newThisCrawl": 41,
+    "newThisCrawl": 42,
     "withCompany": 137
   },
   "sources": [
     {
-      "ok": true,
+      "ok": false,
       "label": "NTPC tender portal",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "HTTP 404"
     },
     {
       "ok": true,
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 25,
+      "count": 8,
       "error": null
     },
     {
@@ -128,14 +128,14 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 56,
+      "count": 58,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 36,
+      "count": 35,
       "error": null
     },
     {
@@ -906,7 +906,7 @@
       "summary": "🌾 Biomass demand is creating new opportunities across India. NTPC has invited biomass pellet procurement bids across Chhattisgarh, Odisha, Madhya Pradesh, Maharashtra and Jharkhand supporting cleaner energy generation and greater biomass utilizati LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWXJ3cTVaSmh6TVZVM1BUMkFlMmV0U1JONVdhN0RBb0h5VWJQZHRhUDIxOURQcjZySW9Ub0FhVEw4TDJ5Ymo4MkU4UEM0eWtkQmhsOU1BTUdWYUNQVGdUc0w2OUZfZ2Z4Z18tZlNiZURpYUl6cENrUC1yTXVtdWhteGxXVEZZbkNZRW9CV2VYamt3LXJIR2JBMDBFWk5nbUlYeEUyVmdjemNoWFRDaWVWMDJVdWJpVnhvcFkwdUxPTG9OeVZ3cXE0djBn?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -5040,6 +5040,21 @@
       "isNew": false
     },
     {
+      "id": "68fdf376259",
+      "title": "🇮🇳 Building Indias Biomass Future — One Step at a Time At Yulong Gattuwala Energy Solutions Pvt. Ltd., our vision goes beyond manufacturing machinery. We aim to contribute to the growth of Indias biomass energy sector by advancing pellet machine techn - LinkedIn",
+      "summary": "🇮🇳 Building Indias Biomass Future — One Step at a Time At Yulong Gattuwala Energy Solutions Pvt. Ltd., our vision goes beyond manufacturing machinery. We aim to contribute to the growth of Indias biomass energy sector by advancing pellet machine techn LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMmUzRThteHgxYmsyT1BMRU1mdjF1VWQtZTFwWHhOT2p2WEdHWGppZWlJUGthdXlMRG01aE5tZjQ4b3VnZWI4WmlHRnQ4bUoyQW5kUGRKUERkNlVrQ2h1ZHdtUUtvRkhHTmZqeGIySVFhOU1QamU0M2RSVmFUMkVIVU1pQUFQVy1nQ0RGZ2lCY0E2ZEZZOXl0REZMRVVNeVBmdFY1UVlZaGNyZ3Q3NFJJUnI1WllyM1kxV0pRQ1ZnT1Ayc3o1bjZqWU8xRmNxNGp6YU9tNDlBdw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-07T06:31:02.000Z",
+      "discoveredAt": "2026-10-25T01:34:08.693Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "5e577c781a3",
       "title": "Japan Biomass Pellets Market - A Global and Regional Analysis: Focus on Region, Country-Level Analysis, and Competitive Landscape - Analysis and Forec - LinkedIn",
       "summary": "Japan Biomass Pellets Market - A Global and Regional Analysis: Focus on Region, Country-Level Analysis, and Competitive Landscape - Analysis and Forec LinkedIn",
@@ -5083,6 +5098,21 @@
       "discoveredAt": "2026-10-16T22:46:55.076Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "73a4fec725d",
+      "title": "Turning Biomass into Value. 🌱 A reliable pellet production process begins with the right technology. At Yulong Gattuwala Energy Solutions Pvt. Ltd., we are focused on advancing biomass pellet machine technology and developing solutions that support efficie - LinkedIn",
+      "summary": "Turning Biomass into Value. 🌱 A reliable pellet production process begins with the right technology. At Yulong Gattuwala Energy Solutions Pvt. Ltd., we are focused on advancing biomass pellet machine technology and developing solutions that support efficie LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbkI1Y29Na0c3Mzd3VXZkQ3p5cnFZQmFkNjJZUXVJZV9BY2NCVXVkTGlidUdreUg3azBSMDNZMWJhZWtNQW5lX2lYWmxKRVZUd3JzS25sc20wcHFsdTNXTFhmbTRvVzJ6TWs3ZU90ZjRaVFBERzA5aXlUbTdzM3F5YmU0bzdNa2pyWGphOW5BbElVbnk3QmF3U0dvdjBHVGd0c3h6RmNHX2d1XzBlTjhxMklYZ2dpeGNFRXRrYlBIUTFKekZxOGRqakdXdW0wLTloTm5SX21kZw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-06T07:00:00.000Z",
+      "discoveredAt": "2026-10-25T01:34:08.692Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "00fb67bf229",
@@ -6892,7 +6922,7 @@
       "summary": "🌱 A New Journey Begins Today, we are proud to introduce ECOGRO ENERGIA PVT LTD. India generates millions of tonnes of agricultural biomass every year. Much of it remains underutilized, while industries continue to seek sustainable alternatives to conv LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVEdpdk9EQVE3SXB6VkN5XzRENE5qaTdxVTBOOXhZOG80bzE1aDZvVlFOUTRpb3ROcllnWDFINjFMZm9uNENZTndEQTVPWTM3TkE4Vkh6eDAyanM4SmtaN0dKQW91dzlIcFNzQXVLQkkwSFBnaVV1TDVlVkJpUG1Wd2lTV19Mby1uMENMMEFDZ3AwT05ndHpVYVdXdmFuOFdoQUNqQ3liSDFYX0dfc3JQdUl1LTJsb09DSGszN0FUNHNSUGhHV21IZTNuOWZ5dDA?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -7988,36 +8018,6 @@
       "score": 70,
       "publishedAt": "2025-07-09T07:00:00.000Z",
       "discoveredAt": "2026-09-29T16:28:49.653Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "5689e27612b",
-      "title": "MNRE Biomass Briquettes and Pellets Subsidy Process - LinkedIn",
-      "summary": "MNRE Biomass Briquettes and Pellets Subsidy Process LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeFp4QVRHUzczaDE3dUhldnVqdU92TGRyNllET1hySWFnUnZfc1EwQWJTTEFDUmdDLXBxNjlQS2JsZGdvOC02N2JkSnpXN1RMN0NIcUJTVlBpa1ZQdWtUREFTTnJ1S3lWd25RY1pyeVpMLXM2X19kYlo5bFlLVFBGN2dNYlVma0M1aXFjWA?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-07-04T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.217Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "34618d2312f",
-      "title": "MNRE Biomass Briquettes and Pellets Subsidy Process - linkedin.com",
-      "summary": "MNRE Biomass Briquettes and Pellets Subsidy Process linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeFp4QVRHUzczaDE3dUhldnVqdU92TGRyNllET1hySWFnUnZfc1EwQWJTTEFDUmdDLXBxNjlQS2JsZGdvOC02N2JkSnpXN1RMN0NIcUJTVlBpa1ZQdWtUREFTTnJ1S3lWd25RY1pyeVpMLXM2X19kYlo5bFlLVFBGN2dNYlVma0M1aXFjWA?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-07-04T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.430Z",
       "channel": "linkedin",
       "isNew": false
     }
