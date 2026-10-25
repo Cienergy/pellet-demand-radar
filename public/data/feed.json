@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-25T19:33:09.570Z",
-  "crawlDurationMs": 17785,
+  "updatedAt": "2026-10-25T22:01:53.134Z",
+  "crawlDurationMs": 18266,
   "stats": {
     "total": 500,
     "tenders": 152,
@@ -13,11 +13,11 @@
   },
   "sources": [
     {
-      "ok": true,
+      "ok": false,
       "label": "NTPC tender portal",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "HTTP 404"
     },
     {
       "ok": true,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 51,
+      "count": 52,
       "error": null
     },
     {
@@ -142,7 +142,7 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 64,
+      "count": 62,
       "error": null
     },
     {
@@ -6850,7 +6850,7 @@
       "summary": "🌾 Chhattisgarh’s Biomass Revolution: 50+ Plants in Just 18 Months 🏆 A Proud Milestone for Proveg Engineering Group We are delighted to announce that Proveg Engineering & Food Processing Pvt. Ltd. has successfully installed 50+ Biomass Pellet Plants a LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZEs5UXhySzJFR0dKdEdPTDdBY2F0cG9faXlhZGlsSl9ITi1pdzJmc1FTb3J1WmFaN0tmRjJBMTZOSDMxdnRjMGNudWxXYk56ZWtEZXhXdTdRLVo3RURPUHM4TGlTVmhtVTJyaGRuUzBJTG80YzhqeDFpT1JjV3hTa2xuSVZ6aUh0WlVtM0NlZjBJaElHWm9WWE1wSFRkclRTcUdNQ1N0azVtSGIydUpUeWlLa3FwcDlrM3FxVWtVMXpHbVdaZWVCY3ZwOXdRUQ?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "news",
       "companies": [],
       "score": 70,
