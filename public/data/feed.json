@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-25T16:47:57.463Z",
-  "crawlDurationMs": 19150,
+  "updatedAt": "2026-10-25T19:33:09.570Z",
+  "crawlDurationMs": 17785,
   "stats": {
     "total": 500,
     "tenders": 152,
@@ -8,7 +8,7 @@
     "news": 239,
     "portals": 92,
     "linkedin": 363,
-    "newThisCrawl": 46,
+    "newThisCrawl": 45,
     "withCompany": 138
   },
   "sources": [
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 52,
+      "count": 51,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 32,
+      "count": 31,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 65,
+      "count": 64,
       "error": null
     },
     {
@@ -849,7 +849,7 @@
       "publishedAt": "2026-09-02T07:00:00.000Z",
       "discoveredAt": "2026-10-25T16:47:40.921Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0966103c23f",
@@ -4104,7 +4104,7 @@
       "publishedAt": "2021-11-03T07:00:00.000Z",
       "discoveredAt": "2026-10-25T16:47:38.808Z",
       "channel": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11dbf811e0ddfe30",
@@ -6850,7 +6850,7 @@
       "summary": "🌾 Chhattisgarh’s Biomass Revolution: 50+ Plants in Just 18 Months 🏆 A Proud Milestone for Proveg Engineering Group We are delighted to announce that Proveg Engineering & Food Processing Pvt. Ltd. has successfully installed 50+ Biomass Pellet Plants a LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZEs5UXhySzJFR0dKdEdPTDdBY2F0cG9faXlhZGlsSl9ITi1pdzJmc1FTb3J1WmFaN0tmRjJBMTZOSDMxdnRjMGNudWxXYk56ZWtEZXhXdTdRLVo3RURPUHM4TGlTVmhtVTJyaGRuUzBJTG80YzhqeDFpT1JjV3hTa2xuSVZ6aUh0WlVtM0NlZjBJaElHWm9WWE1wSFRkclRTcUdNQ1N0azVtSGIydUpUeWlLa3FwcDlrM3FxVWtVMXpHbVdaZWVCY3ZwOXdRUQ?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "news",
       "companies": [],
       "score": 70,
