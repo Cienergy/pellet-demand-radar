@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-25T12:32:15.900Z",
-  "crawlDurationMs": 25054,
+  "updatedAt": "2026-10-25T16:47:57.463Z",
+  "crawlDurationMs": 19150,
   "stats": {
     "total": 500,
-    "tenders": 151,
-    "purchase": 108,
-    "news": 241,
+    "tenders": 152,
+    "purchase": 109,
+    "news": 239,
     "portals": 92,
-    "linkedin": 364,
-    "newThisCrawl": 48,
-    "withCompany": 137
+    "linkedin": 363,
+    "newThisCrawl": 46,
+    "withCompany": 138
   },
   "sources": [
     {
@@ -20,11 +20,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "PSPCL tenders",
       "query": null,
-      "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "count": 3,
+      "error": null
     },
     {
       "ok": true,
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 8,
+      "count": 24,
       "error": null
     },
     {
@@ -128,14 +128,14 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 53,
+      "count": 52,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 35,
+      "count": 32,
       "error": null
     },
     {
@@ -837,6 +837,21 @@
       "isNew": false
     },
     {
+      "id": "63747cde247",
+      "title": "🌱 Biomass Co-Firing: Powering a Greener Energy Future India’s biomass co-firing targets are creating a significant opportunity to convert crop and forest residues into dependable, bankable green energy. With increasing demand for biomass pellets, the secto - LinkedIn",
+      "summary": "🌱 Biomass Co-Firing: Powering a Greener Energy Future India’s biomass co-firing targets are creating a significant opportunity to convert crop and forest residues into dependable, bankable green energy. With increasing demand for biomass pellets, the secto LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRVo2OWd4ckVBbGNZTzk0TXI3aG1ELUtpNlJHUHUxYWtJX2RUdzJQaXMxWXdwWVNPU3dtQ2dGT0E2VXhzbC1fbjBQN25tNGtxQnppYkNhdThDRVBKNFJIRHd1UHF4cnhYTFhSeVU1SlVpdXJUeXByQkYxOG5iR3NaSmxXYWJiNGlDX3FzaDVEMEw3OENZR0ExNU9QeS04UnY1R1BxY0F4TXVCVlhKZ1cyZFI3ZW1PQk5lRFB0dGNZamNEak5RRDVV?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 100,
+      "publishedAt": "2026-09-02T07:00:00.000Z",
+      "discoveredAt": "2026-10-25T16:47:40.921Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "0966103c23f",
       "title": "📢Biomass Pellet Supply Opportunity Rosa Power Supply Company Limited (RPSCL) invites bids for the long-term supply of 3,10,000 MT of agro-residue-based Non-Torrefied Biomass Pellets for co-firing at Rosa Thermal Power Project, Shahjahanpur, Uttar Pr - LinkedIn",
       "summary": "📢Biomass Pellet Supply Opportunity Rosa Power Supply Company Limited (RPSCL) invites bids for the long-term supply of 3,10,000 MT of agro-residue-based Non-Torrefied Biomass Pellets for co-firing at Rosa Thermal Power Project, Shahjahanpur, Uttar Pr LinkedIn",
@@ -872,7 +887,7 @@
       "summary": "Upcoming Big Opportunity for the Biomass Pellet Industry 🌱🔥 The biomass pellet sector in India is entering an important growth phase. Large biomass pellet procurement tenders are expected from NTPC and various State Power Plants, creating significant op LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTEdqc25DeHNYYUVSaHY4eDdSY245bFlUUXdOVjhKamQ5M1V2ZXFia01sTWhQNE9fZU9vcUo3TkF0MS1PRXlaaVdUR1h3OXE4WjVhV1VHOEdGYjZ1OHcwRGZHM0pfRnBJS1ZBY1dfc3JHblgxcUlJOU1hcVpHS0Z1cUlqcVVxY3doaERYMWN3cGUyWFZac0paYzlTZURIbzdVN3RlY1Z0UU90dTVvb1oyMXRmUUxLOVZ2RjBTNXRLTzg?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -1505,7 +1520,7 @@
       "summary": "\"A skill development program was successfully conducted for the workforce driving biomass pallet production at M/S Gill Buildcon Pvt. Ltd., Shamli, UP by Power Sector Skill Council under SAMARTH Mission Biomass Initiative. This training program is funded b LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY3NmT1dRNWJRcGlvQlR4TjVSeUJhejJvWXhnTFQtWjdVTWpfQTBNX1Rzc1NMY3oxUEIyWXViaElBdDdkcU9ibUExckpXSWtFSjF0T0dqM0RlVWo3b3lWTGtFMXdqVXA0M2hJbjBheHcxZEE5WVNMVlhGQzBGZGxnbklzVVB3NXZFMHNGWlh2ZU10NE9fOHQwYWZhLXZnMWc0T2ZfdEgwaE1OSnl5QnZkUmZZcmc4S3d3NTFXREYtV3ZFY1Ay?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -3482,7 +3497,7 @@
       "publishedAt": "2026-10-05T07:00:00.000Z",
       "discoveredAt": "2026-10-25T12:31:53.082Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1940bad211f",
@@ -4072,6 +4087,24 @@
       "discoveredAt": "2026-10-12T19:17:14.972Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "14d0c88828ff2232",
+      "title": "NTPC places order for 9.3 lakh tonne biomass pellets for co-firing in power plants - Construction Week India",
+      "summary": "NTPC places order for 9.3 lakh tonne biomass pellets for co-firing in power plants Construction Week India",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRm5FUnA3TTVOaUFjMzRvMWl6c2RmVUtUMEVWTGNOWHRjSHQ1SF9SdDdjd29EWk9aVkRjTnJxWlNORHQwcElDMEF5SW9YVXpJZ0lwQU9UNjJXWjZNRUtQalBMUGZVZnpYQU83ZlJnS25Rc1R0MnFxeFVobnZfaEJzQ0FDZEIyeExSR284cWtRekZWeXBPM2lsMF9uTGstX2Ffb2h6ZFk3cng2VWtOVGZxcHRHVEw1a0JCUS1RNk0yOWFvSVczMG5MRzZ5UElFZUxYaWNWbTY5U2Y1Zw?oc=5",
+      "source": "google_news",
+      "sourceLabel": "State utilities",
+      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
+      "type": "purchase",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 71,
+      "publishedAt": "2021-11-03T07:00:00.000Z",
+      "discoveredAt": "2026-10-25T16:47:38.808Z",
+      "channel": "news",
+      "isNew": true
     },
     {
       "id": "11dbf811e0ddfe30",
@@ -7988,36 +8021,6 @@
       "score": 70,
       "publishedAt": "2025-08-01T10:54:20.000Z",
       "discoveredAt": "2026-10-03T23:18:43.972Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "05f9486f1b7",
-      "title": "Nandkummar D. Kadu - Associate Vice Precident– Biomass. A bioenergy and agricultural-feedstock specialist with extensive experience building large-scale biomass supply ecosystems connecting farmers, agricultural residues, energy plantations - in.linkedin.com",
-      "summary": "Nandkummar D. Kadu - Associate Vice Precident– Biomass. A bioenergy and agricultural-feedstock specialist with extensive experience building large-scale biomass supply ecosystems connecting farmers, agricultural residues, energy plantations in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1lVmllbkEzTmxhaEtmRVE3MUlVRzNYM3d5NVNjY1Z3REw1U2diWEpOd09RLTNobzk1RE5ZMVJwTmVjeHJvYzVTN005azVCeGdpZDdZWTVlc3IxX20xcTBBRGZENA?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-08-01T10:54:20.000Z",
-      "discoveredAt": "2026-10-04T09:38:23.706Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "11c355bb26e",
-      "title": "“Celebrating a milestone in sustainability! 🌱 Fabcon Design & Engineering’s groundbreaking step-grate, high-efficiency biomass steam boiler at BAT PTC Jhelum fired up with agricultural biomass today, marking Pakistan’s first clean, green energy leap forwar - LinkedIn",
-      "summary": "“Celebrating a milestone in sustainability! 🌱 Fabcon Design & Engineering’s groundbreaking step-grate, high-efficiency biomass steam boiler at BAT PTC Jhelum fired up with agricultural biomass today, marking Pakistan’s first clean, green energy leap forwar LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQaTcybk41LWQ2RERZd2ZjWkNsekd2TUxEVHNBRnoyV2VtR09nS2JwRjltUlI2WUJDT0YwNnVYY2ZuMDFKS2dwZnFCcTUwMlQ1c29ETTlzZ2VjNnNJVkU4ajdhYWtIOEYzb29PZHgtT0M0V2lrVVcyS0lfRTF2ak1yNmVCOTVDOC1wX2NjV2MxeXVaUVBTcWQ3UjMwLUQyUmJEenFFLTU5a3h1YVhDZ0kyYzQ5cXdvUVV3ZHBrSHVXMXY0MDFPd3hvWi03M3hMRXhuc1dxTk9saVFMR05DTVVmVXoyRjI?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-07-09T07:00:00.000Z",
-      "discoveredAt": "2026-09-24T00:51:23.253Z",
       "channel": "linkedin",
       "isNew": false
     }
