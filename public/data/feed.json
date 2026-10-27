@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-27T07:43:17.943Z",
-  "crawlDurationMs": 19132,
+  "updatedAt": "2026-10-27T14:22:40.174Z",
+  "crawlDurationMs": 17036,
   "stats": {
     "total": 500,
     "tenders": 154,
     "purchase": 109,
     "news": 237,
-    "portals": 92,
-    "linkedin": 363,
-    "newThisCrawl": 38,
+    "portals": 93,
+    "linkedin": 362,
+    "newThisCrawl": 48,
     "withCompany": 139
   },
   "sources": [
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 24,
+      "count": 25,
       "error": null
     },
     {
@@ -135,7 +135,7 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 25,
+      "count": 28,
       "error": null
     },
     {
@@ -149,7 +149,7 @@
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 5,
+      "count": 7,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 5,
+      "count": 14,
       "error": null
     },
     {
@@ -955,7 +955,7 @@
       "summary": "Vedanta Power invites Expressions of Interest (EOI) from eligible Indian suppliers for the supply of agro-based, non-torrefied and torrefied biomass pellets to its 1200 MW thermal power plant at Vedanta Limited Chhattisgarh Thermal Power Plant (VLCTPP). Th LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcWU1bTVZTHd5WndSUzBCcThOMGdMc2FIMjJHN3l4aUdMdHVZMDRWbkpxNk90emZhRU5UV0N0TE5vU3Y0ZEIzWE5ZZUhCS3pOSU5kR25DYnpOcy1iUHlMUUY2TUNTcDhDeDdXRFZDOHpKSkNwRmtBNUJ1V3ZpbEliSW13LWd2TnZoSnpqSkZQTUFuLWI2WjNJTlVLRUxNdzNhMXdyajVFVjVIN2JuSHUtNDRnZw?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [
         "Vedanta"
@@ -4363,8 +4363,8 @@
       "summary": "Govt temporarily eases mandate on biomass pellet co-firing in thermal power plants Moneycontrol.com",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPS1NCeUZPb1lFZnRJSUhHZ0VlR0IyeVdVa3NZa19UdEVRSTd0b0cxeHVOZGJVelA1OU1xMlJicVRoUWVQSGVHTjhOcE55WURoeVhBam5jUjBXYWYxbHQ2c0FySm04NnhabjRzWklSVEdOaHRZT1c2cWFnd0lyN1RieEktTzZfdlE4V182SE5SMi1Vdlg2emhJWjB2MEc1NktQbXJXU2dJYlhZaDNzUUpZb1RhMEg1LVk1ckVsUFQ5SGxNVk1YUllhWDhhU19IdU0xWFHSAdcBQVVfeXFMUHhrYTQtVlJRVUFTQkxHU1BpRTAwOHVScmJIbUFpX2Z1OGxkYmstZ3BfUy1jTkZFeXZGU0NnOHAyMWVOWGx6aFIzUy1EMzZxSFo1aDRhNWpvTVc0TDd4YjFXYl9ZWl9uems4VXZCV3NvMjJ1RWUzbWNrbGlaNTNkNGVXMDMtZGxOcngwOEpNNkFCaFh4NXVLQkQzZ3prYkdXekF0VUV3SDdaQmpYMFdXTmdVdmRHRE1CVGRiZC1lU3lzOWlRcnQxOWdBZUtXTVl5V19zY21CdkU?oc=5",
       "source": "google_news",
-      "sourceLabel": "Pellet NITs IN",
-      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
+      "sourceLabel": "State utilities",
+      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
       "type": "purchase",
       "companies": [],
       "score": 53,
@@ -4527,6 +4527,21 @@
       "discoveredAt": "2026-09-20T17:38:50.851Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "4fc25f4b2d5",
+      "title": "Thermal power plants will soon face penalty for failing to co-fire biomass pellets: Power Secretary - PSU Watch",
+      "summary": "Thermal power plants will soon face penalty for failing to co-fire biomass pellets: Power Secretary PSU Watch",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOLWNSSUpBZHNCWnhFY2Y0d2dmaG56YWYtdTQwVE1NRllFZzhHZkkzTVZDaDVRNjF4QnlBLUFuTDVjNlAzZkN1N1MwWmZpRnFTNENTMm1Ob2ZvMFYzNU04TTVXSmd1T0w1YUM5NXBJdkprVTNVVTZkbTVsaUpOYlAxdG45cHRUVDFHRWJQNWU2OW9NT2NRazVEM2lJeXM5MWlwaXBsYzZwRVhCazBFRUdLTWU5TF9KdDN6ekhPRG5WWms4SWJDUUtRNlA1VdIB2AFBVV95cUxPRDZwX0NTUF9aU3IzTkNsTGc4c240eW1BV3lqRC1Jb0lnOUdIcVBkOENYcUl2ZXFXUzYxallTSi14TENfTGwwTUpMWm5aY1FwTnV1YUQwckpOWkJQZGVKVHVKUlR0UVl0X0lpZUhuT2NCOFF6anVUUFhLalpsc3FIU2VZODVYd3dkSGZQU0NMSVBFVVFvLVV0QjNpX1ZfZlFsY2ZIdnVnbHIwbkppVHFsQXNPMGRkOE9Zak5wZGRxbmVSZ1lrUHROa1RzbjRZLWRJNkZFOG9TR00?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2023-03-24T07:00:00.000Z",
+      "discoveredAt": "2026-10-27T14:22:24.667Z",
+      "channel": "portal",
+      "isNew": true
     },
     {
       "id": "0f30d095139",
@@ -4938,6 +4953,21 @@
       "discoveredAt": "2026-10-22T17:35:41.615Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "11c5e0e023c",
+      "title": "🚀 𝗪𝗲 𝗹𝗶𝘁 𝗮 𝗽𝗲𝗹𝗹𝗲𝘁 𝗳𝗶𝗿𝗲 𝗶𝗻𝘀𝗶𝗱𝗲 𝗮 𝗽𝗮𝗿𝗮𝗳𝗳𝗶𝗻 𝗯𝗼𝗶𝗹𝗲𝗿. 𝗢𝘃𝗲𝗿 𝟲𝟬 𝗽𝗲𝗼𝗽𝗹𝗲 𝗰𝗮𝗺𝗲 𝘁𝗼 𝘄𝗮𝘁𝗰𝗵. Big thanks to Coega Biomass Centre and the Nelson Mandela Bay Business Chamber for hosting the Coffee Morning on 14 October, and to everyo -",
+      "summary": "🚀 𝗪𝗲 𝗹𝗶𝘁 𝗮 𝗽𝗲𝗹𝗹𝗲𝘁 𝗳𝗶𝗿𝗲 𝗶𝗻𝘀𝗶𝗱𝗲 𝗮 𝗽𝗮𝗿𝗮𝗳𝗳𝗶𝗻 𝗯𝗼𝗶𝗹𝗲𝗿. 𝗢𝘃𝗲𝗿 𝟲𝟬 𝗽𝗲𝗼𝗽𝗹𝗲 𝗰𝗮𝗺𝗲 𝘁𝗼 𝘄𝗮𝘁𝗰𝗵. Big thanks to Coega Biomass Centre and the Nelson Mandela Bay Business Chamber for hosting the Coffee Morning on 14 October, and to everyo LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONldCRnRzOTlZd1lIMkJTNXByNHBMNEpyTjZmZEdOcGF5RW44M1NfMUpaZ1Fmd1QyWW4zeE1zMm9MeUJmeGpZcHBacUhZZ1h2Tm1Ld3hDZU5KNXZYZGN5cTZPWXBXN0pweVA4dnJ1M284dTNWV3MwS0N2dTZDVXpNY3VrUTA5SjJKcnlvMEpIT0dpbEVUYzhXWkwtcEpOMzZ3RTU4UEVHV0M1WTB4N3c0?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-20T07:06:02.000Z",
+      "discoveredAt": "2026-10-27T14:22:25.427Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "3aa6b267145",
@@ -7171,7 +7201,7 @@
       "summary": "Top 10 Biomass Pellet Manufacturers in India: 1. Abellon CleanEnergy Ltd. 2. Punjab Renewable Energy Systems Pvt. Ltd. 3. ECOSTAN Biofuel Pvt. Ltd. 4. Rajaram Solvex Ltd. 5. Manikaran Power Ltd. 6. Shubhshree Biofuels Energy Ltd. 7. Dhaneshwar Fire LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdG5FcjZjbFY5ay1sVE5vWFctR2xPcE0yNEx2LWdBNUZFamNNMGJfMjI4ZUhZajlsbnJLTXlxNF9jZFRPMjlNdFRHbE1lLUJRMTVJRnVrZFdGcUY3N1g1LUpSczVGa0pzLVYxQ0lXcHZFUWtXVG1Qd2RRMGdDQTlMSkdla0h4NHoycUxxVjNfQVZNcVVqU3JEaVI3TTBscnl4QnpEdXRka1VZRmxpVFVSV0tqZXMtMFk?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -7993,36 +8023,6 @@
       "score": 70,
       "publishedAt": "2025-08-06T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.814Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "108b2b24261",
-      "title": "✅ Torrefied vs Non-Torrefied Biomass Pellets – What’s the Difference? 🌱 Non-Torrefied Pellets 🔸 Made from raw biomass (wood, agri waste) 🔸 Moisture: 10–15% 🔸 Calorific Value: ~17–18 MJ/kg 🔸 Cheaper to produce 🔸 Used in small boilers, residential heati - linkedin.com",
-      "summary": "✅ Torrefied vs Non-Torrefied Biomass Pellets – What’s the Difference? 🌱 Non-Torrefied Pellets 🔸 Made from raw biomass (wood, agri waste) 🔸 Moisture: 10–15% 🔸 Calorific Value: ~17–18 MJ/kg 🔸 Cheaper to produce 🔸 Used in small boilers, residential heati linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQkZvZmhuU0hqcjRLckJUc3NlOEN5RDlIbXZQUmVaWVFDRTlxRTdleE5pa2M3Unh2Vk5YV2xnR3RiVFJLNDY4U0VFU0FZQzlLb2Nka0JOQ3ZGcGtCZTQzd3ZiNWlPWGFvVTRqNDdoTWpJODh2el9vTVhrT1FUNXg2Z2ZNb0RWbkp1SEx5bnRLNUxWdlNkT2NBZmFFNWVET1Y2NmEyeFhvVXpjejdiSDJLVWJScDE4M3dHLU5mQnVqS2pGamZ2WWE1cTlQWDlpbGdvWS1RS1R5UQ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-08-06T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:31.355Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "1eeab9b0111",
-      "title": "Nandkummar D. Kadu - Associate Vice Precident– Biomass Feedstock Operations - LinkedIn India",
-      "summary": "Nandkummar D. Kadu - Associate Vice Precident– Biomass Feedstock Operations LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1lVmllbkEzTmxhaEtmRVE3MUlVRzNYM3d5NVNjY1Z3REw1U2diWEpOd09RLTNobzk1RE5ZMVJwTmVjeHJvYzVTN005azVCeGdpZDdZWTVlc3IxX20xcTBBRGZENA?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-08-01T10:54:20.000Z",
-      "discoveredAt": "2026-09-26T19:21:16.740Z",
       "channel": "linkedin",
       "isNew": false
     }
