@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-27T02:00:40.655Z",
-  "crawlDurationMs": 17997,
+  "updatedAt": "2026-10-27T07:43:17.943Z",
+  "crawlDurationMs": 19132,
   "stats": {
     "total": 500,
     "tenders": 154,
@@ -8,7 +8,7 @@
     "news": 237,
     "portals": 92,
     "linkedin": 363,
-    "newThisCrawl": 41,
+    "newThisCrawl": 38,
     "withCompany": 139
   },
   "sources": [
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": false,
@@ -128,28 +128,28 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 50,
+      "count": 51,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 24,
+      "count": 25,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 67,
+      "count": 64,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 8,
+      "count": 5,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 4,
+      "count": 5,
       "error": null
     },
     {
@@ -1834,7 +1834,7 @@
       "summary": "⚡ SCALING INSTITUTIONAL DECARBONIZATION: TRACKING THE NEW 1,00,000 MT BIOMASS PELLET TENDER 🌱📈 India's transition toward sustainable, low-carbon thermal power generation continues to accelerate with major institutional procurement an LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeVFJMG5vVFZuUk1rSVpma1NmdUZoYm1WQzhGcUJ2azJUcGZFalNWQWFOaURlclpIRWtIV1ZBZ20yTTZ3d3dSOHBGVE5hSk52TjFscXVyOVMyLTVXWVl6ckl2ZVhTTkVCNDJRV3VKX3VXMXFfUHgweGdZOWJqTzk2YXRQYU1GUndBRWRYQVNYdzNTM0Y4VmNPY1c1enVGY1cyQmpwQlpiNA?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [
         "ACC"
