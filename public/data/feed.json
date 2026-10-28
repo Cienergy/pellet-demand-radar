@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-28T11:35:47.508Z",
-  "crawlDurationMs": 18122,
+  "updatedAt": "2026-10-28T18:19:00.120Z",
+  "crawlDurationMs": 17032,
   "stats": {
     "total": 500,
-    "tenders": 156,
+    "tenders": 157,
     "purchase": 111,
-    "news": 233,
+    "news": 232,
     "portals": 94,
     "linkedin": 361,
-    "newThisCrawl": 31,
+    "newThisCrawl": 42,
     "withCompany": 140
   },
   "sources": [
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 25,
+      "count": 8,
       "error": null
     },
     {
@@ -128,28 +128,28 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 45,
+      "count": 49,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 27,
+      "count": 23,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 42,
+      "count": 43,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 5,
+      "count": 14,
       "error": null
     },
     {
@@ -859,7 +859,7 @@
       "summary": "🌱 Biomass Co-Firing: Powering a Greener Energy Future India’s biomass co-firing targets are creating a significant opportunity to convert crop and forest residues into dependable, bankable green energy. With increasing demand for biomass pellets, the secto LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRVo2OWd4ckVBbGNZTzk0TXI3aG1ELUtpNlJHUHUxYWtJX2RUdzJQaXMxWXdwWVNPU3dtQ2dGT0E2VXhzbC1fbjBQN25tNGtxQnppYkNhdThDRVBKNFJIRHd1UHF4cnhYTFhSeVU1SlVpdXJUeXByQkYxOG5iR3NaSmxXYWJiNGlDX3FzaDVEMEw3OENZR0ExNU9QeS04UnY1R1BxY0F4TXVCVlhKZ1cyZFI3ZW1PQk5lRFB0dGNZamNEak5RRDVV?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [],
       "score": 100,
@@ -1202,6 +1202,21 @@
       "isNew": false
     },
     {
+      "id": "17dd4bb5159",
+      "title": "Emerging Opportunities in the Biomass Pellets Market for Renewable Energy Providers - LinkedIn",
+      "summary": "Emerging Opportunities in the Biomass Pellets Market for Renewable Energy Providers LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMmRhcktSLVpVUVY2Si1fVkgwcnU2VHFaa2pGNDUxcE44VUVZdE1UNFhoMmZzQ1FaaXltWG5hNUkwRDhhV0tnZEdKRVlJcWcxSWliNkp1TlE4TlcwQUxweGU5ZXR1MGdIN2hJS0h4QWt6YWhUZndfejljYVlFSzRZNUNRamEtLW5oZjRpeXNnUU9UaklJY2l3?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 90,
+      "publishedAt": "2026-10-26T13:06:08.000Z",
+      "discoveredAt": "2026-10-28T18:18:45.297Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "72d6c3ee187",
       "title": "Germany White Wood Pellet Market Overview: Future Growth Trends and Opportunities with an Expected CAGR of 8.9% from 2026 to 2033 - LinkedIn",
       "summary": "Germany White Wood Pellet Market Overview: Future Growth Trends and Opportunities with an Expected CAGR of 8.9% from 2026 to 2033 LinkedIn",
@@ -1312,7 +1327,7 @@
       "summary": "India Biomass Market Analysis 2026–2034: Key Growth Drivers, Emerging Opportunities & Outlook LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMVA0REJxamRpQXp5M0Rvbld0YnVGaU1IamFyY2NRMWJfUF9vM2tHLXRZWHpXVnZLSEJjeVFLYlFHT1E1OGMzLW5wLVE1bHEySDdvQjRkTjJXXzY1bGhjdGJ3SkVpdHdKbHRqb1l6blFHUWJ2d1ZPRWdOWllQYXpMREIwc3lFbWFSYlB6ZEFhUDI2Z05wTGJaSTNUQ0dSRFNXNkhF?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -4425,8 +4440,8 @@
       "summary": "Govt temporarily eases mandate on biomass pellet co-firing in thermal power plants Moneycontrol.com",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPS1NCeUZPb1lFZnRJSUhHZ0VlR0IyeVdVa3NZa19UdEVRSTd0b0cxeHVOZGJVelA1OU1xMlJicVRoUWVQSGVHTjhOcE55WURoeVhBam5jUjBXYWYxbHQ2c0FySm04NnhabjRzWklSVEdOaHRZT1c2cWFnd0lyN1RieEktTzZfdlE4V182SE5SMi1Vdlg2emhJWjB2MEc1NktQbXJXU2dJYlhZaDNzUUpZb1RhMEg1LVk1ckVsUFQ5SGxNVk1YUllhWDhhU19IdU0xWFHSAdcBQVVfeXFMUHhrYTQtVlJRVUFTQkxHU1BpRTAwOHVScmJIbUFpX2Z1OGxkYmstZ3BfUy1jTkZFeXZGU0NnOHAyMWVOWGx6aFIzUy1EMzZxSFo1aDRhNWpvTVc0TDd4YjFXYl9ZWl9uems4VXZCV3NvMjJ1RWUzbWNrbGlaNTNkNGVXMDMtZGxOcngwOEpNNkFCaFh4NXVLQkQzZ3prYkdXekF0VUV3SDdaQmpYMFdXTmdVdmRHRE1CVGRiZC1lU3lzOWlRcnQxOWdBZUtXTVl5V19zY21CdkU?oc=5",
       "source": "google_news",
-      "sourceLabel": "Pellet NITs IN",
-      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
+      "sourceLabel": "State utilities",
+      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
       "type": "purchase",
       "companies": [],
       "score": 53,
@@ -5450,6 +5465,21 @@
       "discoveredAt": "2026-10-19T22:17:34.528Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "7fb0ca3c261",
+      "title": "Day 3 | Types of Biomass Used for Pellet Production Biomass pellet quality starts with the right feedstock. Woody biomass, agricultural residues and dedicated energy crops each offer different characteristics for pellet production. Feedstock selection matters. 🌱 - LinkedIn",
+      "summary": "Day 3 | Types of Biomass Used for Pellet Production Biomass pellet quality starts with the right feedstock. Woody biomass, agricultural residues and dedicated energy crops each offer different characteristics for pellet production. Feedstock selection matters. 🌱 LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcVVXbXZRRm5QUjZTZXduUnB6dkNnTGhtS1VYY0NVMXFyb3lnbEg1VEZ4alBheFlVclluYVQzSnNmV0xrZ055c1pMX1lGME01S1RMRFNUb0l0S2hNX1VEZndJYl9GZDZUUVV2OGdGc2IwY1BKRUZ0YnRqRjE4cnFiczV6VFh2VHBrczFZZDQtU0FkQWFWaTNha1pvczAzZnN3dHdyWHBaajlHTVhkUmVncEdxVmFieGFVVUs2V1Y2Zm5QOEU2VzhGUDJTZklIMzk2TE5KekNR?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-27T07:00:00.000Z",
+      "discoveredAt": "2026-10-28T18:18:45.296Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "5babb23b240",
@@ -7278,7 +7308,7 @@
       "summary": "Top 10 Biomass Pellet Manufacturers in India: 1. Abellon CleanEnergy Ltd. 2. Punjab Renewable Energy Systems Pvt. Ltd. 3. ECOSTAN Biofuel Pvt. Ltd. 4. Rajaram Solvex Ltd. 5. Manikaran Power Ltd. 6. Shubhshree Biofuels Energy Ltd. 7. Dhaneshwar Fire LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdG5FcjZjbFY5ay1sVE5vWFctR2xPcE0yNEx2LWdBNUZFamNNMGJfMjI4ZUhZajlsbnJLTXlxNF9jZFRPMjlNdFRHbE1lLUJRMTVJRnVrZFdGcUY3N1g1LUpSczVGa0pzLVYxQ0lXcHZFUWtXVG1Qd2RRMGdDQTlMSkdla0h4NHoycUxxVjNfQVZNcVVqU3JEaVI3TTBscnl4QnpEdXRka1VZRmxpVFVSV0tqZXMtMFk?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -7995,36 +8025,6 @@
       "score": 70,
       "publishedAt": "2025-09-16T07:00:00.000Z",
       "discoveredAt": "2026-09-20T17:38:50.841Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "651115c3250",
-      "title": "🌱 New BIS Draft Standards on Biomass Pellet Equipment — Feedback Matters The Bureau of Indian Standards (BIS) has released a coordinated set of draft Indian Standards on equipment used in the production of non-torrefied biomass pellets — and invited - linkedin.com",
-      "summary": "🌱 New BIS Draft Standards on Biomass Pellet Equipment — Feedback Matters The Bureau of Indian Standards (BIS) has released a coordinated set of draft Indian Standards on equipment used in the production of non-torrefied biomass pellets — and invited linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNT3NmZm1WbWZseXJmaEYzb0R2S0dUVDRYUVp5aXEyM0FkdkY2Y2FUMFdSLTBpczdQWm9kcFpaZ1NsOHhYckR3OHBjemRQdHpkeHJwOXBEZGxOZ19PbmtPTFlRVS1zcHJ6OUUyazIyV1BJNkQ4UzJCbGhjc2NGbWlONGtxZXJfYzJObUFUZGdCdjNqLVRtU1Z3WnREZjU3dHpzNlgtQ09qX21mTFlQSWFjNHQwd3E1dWhTTTVBS2F0M3Y1ZFZGMzNMenI3Tmx2MnVH?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-09-16T07:00:00.000Z",
-      "discoveredAt": "2026-09-20T23:11:30.715Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "6ccb6a3b169",
-      "title": "India Biomass Market to Grow at 7.47% CAGR, Driving Clean Energy & Circular Economy - LinkedIn",
-      "summary": "India Biomass Market to Grow at 7.47% CAGR, Driving Clean Energy & Circular Economy LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcVhNM1J1MVFnTHF0Q0ZmSWVRNWZqSWFZN3dPYnJFUkNzTU9YS0ZZWXo1RFZESUdqeUYxaWltR2tkUFB1cHc5Y0tkUElDOW4xMWNuUzJTcHdzSDBEa0VMWm9iclB2VTM5TlU0ZzJqYkV6QXJJYV9KdV9jTWlkeXJ6eW9JWDBvb1poekNUcHFzUFhmalY1TG9UZFQ0VFpCMzhiN3lr?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-08-29T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:10:28.815Z",
       "channel": "linkedin",
       "isNew": false
     }
