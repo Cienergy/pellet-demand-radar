@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-27T23:44:04.187Z",
-  "crawlDurationMs": 18404,
+  "updatedAt": "2026-10-28T05:30:21.828Z",
+  "crawlDurationMs": 18520,
   "stats": {
     "total": 500,
-    "tenders": 155,
+    "tenders": 156,
     "purchase": 111,
-    "news": 234,
-    "portals": 93,
-    "linkedin": 362,
-    "newThisCrawl": 45,
-    "withCompany": 139
+    "news": 233,
+    "portals": 94,
+    "linkedin": 361,
+    "newThisCrawl": 47,
+    "withCompany": 140
   },
   "sources": [
     {
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -79,14 +79,14 @@
       "ok": true,
       "label": "Google · live NITs",
       "query": "(\"biomass pellet\" OR \"agro residue based pellet\" OR \"torrefied biomass\") (NIT OR \"Notice Inviting Tender\" OR \"e-Tender\" OR \"GeM bid\" OR EOI) India -market -forecast -\"market size\"",
-      "count": 1,
+      "count": 2,
       "error": null
     },
     {
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 8,
+      "count": 25,
       "error": null
     },
     {
@@ -128,28 +128,28 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 45,
+      "count": 44,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 29,
+      "count": 23,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 61,
+      "count": 64,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 7,
+      "count": 8,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 5,
+      "count": 14,
       "error": null
     },
     {
@@ -255,7 +255,7 @@
       "summary": "NTPC Invites EOI To Produce Torrefied Biomass Pellets From Startups Sarkaritel.com",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV1FlS3lPU2U2OEVLbXBScmJHcE5VcUJwUmZqN1AzZGVxWFBYQkZwWC1VRGp6OThUajVoWnE2enhXOEZqeVlyb1NVUEpiOUh0ZFh0MXBzMUdHWGpWRUFlbkFVc2JRNW1kV0dSckNDaFRUSVhxOVB6VHBWSXpFVzZGWTlKUzdIQld6dktOYVM4VDM3dHVDRUFsX3Byaw?oc=5",
       "source": "google_tender_news",
-      "sourceLabel": "Google · utility buys",
+      "sourceLabel": "Google · live NITs",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -316,6 +316,23 @@
       "discoveredAt": "2026-09-20T20:45:02.999Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "63bde86f229",
+      "title": "NTPC invites EOIs from Indian startups for torrefied biomass pellets - T&D India",
+      "summary": "NTPC invites EOIs from Indian startups for torrefied biomass pellets T&D India",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbG0yc0hLbXFMLVdmNlpvZ0E0cHRIc3NRcjMxbWs3MDF3LUl3dUQxODN1TkJ2aGVxTEZYd20xVEdacjhta1M2b2hEczNqVkw1UEtfRFVjSWdkN1VwcVdaQjQ5dkF4X2pTVVNFdl9MaFFYOFA4cmNObUVRSVkwZzRVVjdJSlF0cVRZbTZWUTc4MDZMV0Z5RXNoWGhR0gGfAUFVX3lxTE9NQ1h2Y3Y3RV92LTNfSmwzdzNRSDlVSS1faE1venNnVkgwQVdvTUt4NHRhWnpBT1lxUFhiQUFEb0NvNmVMUWJ5ZHNVMHlqZlJzbzlaNk9CU1RpZFZHejZLTDlubWJRM1V6NlpQS0NiclpkZHNNTkItY2xHU2lSRXR0SDVIOWJPQXJET2x5SVFqRlY3V3RrcXV3QWpOU0x0bw?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 94,
+      "publishedAt": "2022-05-01T07:00:00.000Z",
+      "discoveredAt": "2026-10-28T05:30:04.799Z",
+      "channel": "portal",
+      "isNew": true
     },
     {
       "id": "2e04ae86c0",
@@ -1197,7 +1214,7 @@
       "publishedAt": "2026-10-22T07:02:12.000Z",
       "discoveredAt": "2026-10-27T23:43:47.088Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0de7ee4f220",
@@ -3074,8 +3091,8 @@
       "summary": "NTPC Invites EOI To Produce Torrefied Biomass Pellets From Startups Sarkaritel.com",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV1FlS3lPU2U2OEVLbXBScmJHcE5VcUJwUmZqN1AzZGVxWFBYQkZwWC1VRGp6OThUajVoWnE2enhXOEZqeVlyb1NVUEpiOUh0ZFh0MXBzMUdHWGpWRUFlbkFVc2JRNW1kV0dSckNDaFRUSVhxOVB6VHBWSXpFVzZGWTlKUzdIQld6dktOYVM4VDM3dHVDRUFsX3Byaw?oc=5",
       "source": "google_news",
-      "sourceLabel": "Pellet NITs IN",
-      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
+      "sourceLabel": "Cofiring / NTPC",
+      "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -3420,7 +3437,7 @@
       "publishedAt": "2026-10-14T07:00:00.000Z",
       "discoveredAt": "2026-10-27T23:43:47.996Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2ed2524a216",
@@ -3514,7 +3531,7 @@
       "publishedAt": "2026-10-25T13:04:11.000Z",
       "discoveredAt": "2026-10-27T23:43:47.088Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4a1115b3249",
@@ -4408,8 +4425,8 @@
       "summary": "Govt temporarily eases mandate on biomass pellet co-firing in thermal power plants Moneycontrol.com",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPS1NCeUZPb1lFZnRJSUhHZ0VlR0IyeVdVa3NZa19UdEVRSTd0b0cxeHVOZGJVelA1OU1xMlJicVRoUWVQSGVHTjhOcE55WURoeVhBam5jUjBXYWYxbHQ2c0FySm04NnhabjRzWklSVEdOaHRZT1c2cWFnd0lyN1RieEktTzZfdlE4V182SE5SMi1Vdlg2emhJWjB2MEc1NktQbXJXU2dJYlhZaDNzUUpZb1RhMEg1LVk1ckVsUFQ5SGxNVk1YUllhWDhhU19IdU0xWFHSAdcBQVVfeXFMUHhrYTQtVlJRVUFTQkxHU1BpRTAwOHVScmJIbUFpX2Z1OGxkYmstZ3BfUy1jTkZFeXZGU0NnOHAyMWVOWGx6aFIzUy1EMzZxSFo1aDRhNWpvTVc0TDd4YjFXYl9ZWl9uems4VXZCV3NvMjJ1RWUzbWNrbGlaNTNkNGVXMDMtZGxOcngwOEpNNkFCaFh4NXVLQkQzZ3prYkdXekF0VUV3SDdaQmpYMFdXTmdVdmRHRE1CVGRiZC1lU3lzOWlRcnQxOWdBZUtXTVl5V19zY21CdkU?oc=5",
       "source": "google_news",
-      "sourceLabel": "Pellet NITs IN",
-      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
+      "sourceLabel": "State utilities",
+      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
       "type": "purchase",
       "companies": [],
       "score": 53,
@@ -4997,7 +5014,7 @@
       "publishedAt": "2026-10-25T12:07:18.000Z",
       "discoveredAt": "2026-10-27T23:43:47.088Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0c03f361134",
@@ -7261,7 +7278,7 @@
       "summary": "Top 10 Biomass Pellet Manufacturers in India: 1. Abellon CleanEnergy Ltd. 2. Punjab Renewable Energy Systems Pvt. Ltd. 3. ECOSTAN Biofuel Pvt. Ltd. 4. Rajaram Solvex Ltd. 5. Manikaran Power Ltd. 6. Shubhshree Biofuels Energy Ltd. 7. Dhaneshwar Fire LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdG5FcjZjbFY5ay1sVE5vWFctR2xPcE0yNEx2LWdBNUZFamNNMGJfMjI4ZUhZajlsbnJLTXlxNF9jZFRPMjlNdFRHbE1lLUJRMTVJRnVrZFdGcUY3N1g1LUpSczVGa0pzLVYxQ0lXcHZFUWtXVG1Qd2RRMGdDQTlMSkdla0h4NHoycUxxVjNfQVZNcVVqU3JEaVI3TTBscnl4QnpEdXRka1VZRmxpVFVSV0tqZXMtMFk?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -7467,7 +7484,7 @@
       "publishedAt": "2026-03-11T21:57:20.000Z",
       "discoveredAt": "2026-10-27T23:43:47.087Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4bce4f7925f",
@@ -8008,21 +8025,6 @@
       "score": 70,
       "publishedAt": "2025-08-29T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.815Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "152bff0e16d",
-      "title": "India Biomass Market to Grow at 7.47% CAGR, Driving Clean Energy & Circular Economy - linkedin.com",
-      "summary": "India Biomass Market to Grow at 7.47% CAGR, Driving Clean Energy & Circular Economy linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcVhNM1J1MVFnTHF0Q0ZmSWVRNWZqSWFZN3dPYnJFUkNzTU9YS0ZZWXo1RFZESUdqeUYxaWltR2tkUFB1cHc5Y0tkUElDOW4xMWNuUzJTcHdzSDBEa0VMWm9iclB2VTM5TlU0ZzJqYkV6QXJJYV9KdV9jTWlkeXJ6eW9JWDBvb1poekNUcHFzUFhmalY1TG9UZFQ0VFpCMzhiN3lr?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-08-29T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:31.355Z",
       "channel": "linkedin",
       "isNew": false
     }
