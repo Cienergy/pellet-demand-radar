@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-28T18:19:00.120Z",
-  "crawlDurationMs": 17032,
+  "updatedAt": "2026-10-28T22:50:00.887Z",
+  "crawlDurationMs": 17585,
   "stats": {
     "total": 500,
     "tenders": 157,
-    "purchase": 111,
-    "news": 232,
+    "purchase": 112,
+    "news": 231,
     "portals": 94,
     "linkedin": 361,
-    "newThisCrawl": 42,
+    "newThisCrawl": 41,
     "withCompany": 140
   },
   "sources": [
@@ -128,28 +128,28 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 49,
+      "count": 51,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 23,
+      "count": 27,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 43,
+      "count": 65,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 7,
+      "count": 6,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 14,
+      "count": 5,
       "error": null
     },
     {
@@ -859,7 +859,7 @@
       "summary": "🌱 Biomass Co-Firing: Powering a Greener Energy Future India’s biomass co-firing targets are creating a significant opportunity to convert crop and forest residues into dependable, bankable green energy. With increasing demand for biomass pellets, the secto LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRVo2OWd4ckVBbGNZTzk0TXI3aG1ELUtpNlJHUHUxYWtJX2RUdzJQaXMxWXdwWVNPU3dtQ2dGT0E2VXhzbC1fbjBQN25tNGtxQnppYkNhdThDRVBKNFJIRHd1UHF4cnhYTFhSeVU1SlVpdXJUeXByQkYxOG5iR3NaSmxXYWJiNGlDX3FzaDVEMEw3OENZR0ExNU9QeS04UnY1R1BxY0F4TXVCVlhKZ1cyZFI3ZW1PQk5lRFB0dGNZamNEak5RRDVV?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 100,
@@ -1214,7 +1214,7 @@
       "publishedAt": "2026-10-26T13:06:08.000Z",
       "discoveredAt": "2026-10-28T18:18:45.297Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "72d6c3ee187",
@@ -1327,7 +1327,7 @@
       "summary": "India Biomass Market Analysis 2026–2034: Key Growth Drivers, Emerging Opportunities & Outlook LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMVA0REJxamRpQXp5M0Rvbld0YnVGaU1IamFyY2NRMWJfUF9vM2tHLXRZWHpXVnZLSEJjeVFLYlFHT1E1OGMzLW5wLVE1bHEySDdvQjRkTjJXXzY1bGhjdGJ3SkVpdHdKbHRqb1l6blFHUWJ2d1ZPRWdOWllQYXpMREIwc3lFbWFSYlB6ZEFhUDI2Z05wTGJaSTNUQ0dSRFNXNkhF?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -2309,7 +2309,7 @@
       "summary": "Dharmesh Kumar kewat - Energy Transition and Sustainability| Power Utilities | Public & Climate Policy| Biofuels & Biomass Markets |Biomass Cofiring | ESG | Industrial Decarbonization | Stakeholder Engagement | Government Advisory LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5VWVVoMHl5V3I5dkJIN3J0UDZ5SWlxU2ZGTkRIektoS1hRWDNQVkZQNHlkd0xjMHlfLUJIUzhfWFBHSmd4UHRleEpoampuZw?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 77,
@@ -3440,6 +3440,21 @@
       "isNew": false
     },
     {
+      "id": "091f700e247",
+      "title": "⚡ Effective biomass co-firing starts with getting the parameters right. From fuel properties to plant requirements, every factor matters when planning biomass use in coal-based thermal power plants. Know the parameters. Get the process right.🌾 #MissionSAMA - LinkedIn",
+      "summary": "⚡ Effective biomass co-firing starts with getting the parameters right. From fuel properties to plant requirements, every factor matters when planning biomass use in coal-based thermal power plants. Know the parameters. Get the process right.🌾 #MissionSAMA LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNc1FfeXBGZDdteGZuVWs4Q2ozZkY1cnl3LTVBSXVoODlXUjFwcXFqbkY0QUhDc2xWYlNOcUYzcU9tZV9kY1ZaaXJJWlBYby1VTW1NcGxjS0x4SE5yeF8wN3BJSXU2UGhmRHpwN09nY1FkWDlnQW9FaE1ROFZ3Wk41eDYzNV9nQVVPZGhDSm1ZQkVKQjhCNjRLMnpjQmpadzFEcmo2Z3d2ak5BRHRYMG9Wdk9EWDFBbEtkTjFxM3F2dmVvbnQxWHBz?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "purchase",
+      "companies": [],
+      "score": 76,
+      "publishedAt": "2026-10-21T05:42:38.000Z",
+      "discoveredAt": "2026-10-28T22:49:46.097Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "06f81f3e24f",
       "title": "🌱From agricultural fields to thermal power plants, residue can find a new purpose. Biomass pelletisation helps turn agricultural residue into a resource for co-firing, connecting farm resources with power generation.⚡ #MissionSAMARTH #BiomassCoFiring #Th - LinkedIn",
       "summary": "🌱From agricultural fields to thermal power plants, residue can find a new purpose. Biomass pelletisation helps turn agricultural residue into a resource for co-firing, connecting farm resources with power generation.⚡ #MissionSAMARTH #BiomassCoFiring #Th LinkedIn",
@@ -4440,8 +4455,8 @@
       "summary": "Govt temporarily eases mandate on biomass pellet co-firing in thermal power plants Moneycontrol.com",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPS1NCeUZPb1lFZnRJSUhHZ0VlR0IyeVdVa3NZa19UdEVRSTd0b0cxeHVOZGJVelA1OU1xMlJicVRoUWVQSGVHTjhOcE55WURoeVhBam5jUjBXYWYxbHQ2c0FySm04NnhabjRzWklSVEdOaHRZT1c2cWFnd0lyN1RieEktTzZfdlE4V182SE5SMi1Vdlg2emhJWjB2MEc1NktQbXJXU2dJYlhZaDNzUUpZb1RhMEg1LVk1ckVsUFQ5SGxNVk1YUllhWDhhU19IdU0xWFHSAdcBQVVfeXFMUHhrYTQtVlJRVUFTQkxHU1BpRTAwOHVScmJIbUFpX2Z1OGxkYmstZ3BfUy1jTkZFeXZGU0NnOHAyMWVOWGx6aFIzUy1EMzZxSFo1aDRhNWpvTVc0TDd4YjFXYl9ZWl9uems4VXZCV3NvMjJ1RWUzbWNrbGlaNTNkNGVXMDMtZGxOcngwOEpNNkFCaFh4NXVLQkQzZ3prYkdXekF0VUV3SDdaQmpYMFdXTmdVdmRHRE1CVGRiZC1lU3lzOWlRcnQxOWdBZUtXTVl5V19zY21CdkU?oc=5",
       "source": "google_news",
-      "sourceLabel": "State utilities",
-      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
+      "sourceLabel": "Pellet NITs IN",
+      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
       "type": "purchase",
       "companies": [],
       "score": 53,
@@ -5182,6 +5197,21 @@
       "isNew": false
     },
     {
+      "id": "7fa8c010156",
+      "title": "Sagar Agarwal - 𝐂𝐡𝐚𝐢𝐫𝐦𝐚𝐧, Shubhshree Biofuels Energy Ltd. | 𝐂𝐨-𝐅𝐨𝐮𝐧𝐝𝐞𝐫, Trio Renewable Engineering Pvt. Ltd. | Biomass & Renewable Energy - LinkedIn India",
+      "summary": "Sagar Agarwal - 𝐂𝐡𝐚𝐢𝐫𝐦𝐚𝐧, Shubhshree Biofuels Energy Ltd. | 𝐂𝐨-𝐅𝐨𝐮𝐧𝐝𝐞𝐫, Trio Renewable Engineering Pvt. Ltd. | Biomass & Renewable Energy LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1VbFZUZndjRmJtZlRQSEpYMDdQdS0wSm9vWF9sd1R5a0VsOVZlNWJNazM3VnM3YUI3NkprVkZ5TFhfWDA1R0FGZVN1ajJON2tiNGdSejlRaTY0VkJn?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-12T14:01:09.000Z",
+      "discoveredAt": "2026-10-28T22:49:46.098Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "11f37eb51a2",
       "title": "Strategic Market Outlook for North America Biomass Pellet Plant: Key Drivers, Growth Trends, and Revenue Forecast through 2033 with 4.4% CAGR - LinkedIn",
       "summary": "Strategic Market Outlook for North America Biomass Pellet Plant: Key Drivers, Growth Trends, and Revenue Forecast through 2033 with 4.4% CAGR LinkedIn",
@@ -5210,6 +5240,21 @@
       "discoveredAt": "2026-10-10T00:17:46.550Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "5bc2462323b",
+      "title": "A 2021 study estimated that Nigeria loses or wastes about 56.9 million tonnes of edible agrifood every year. What happens to the residues left behind by the food we successfully produce and process? Rice husks. Palm kernel shells. Cassava peels. Maize cob - LinkedIn",
+      "summary": "A 2021 study estimated that Nigeria loses or wastes about 56.9 million tonnes of edible agrifood every year. What happens to the residues left behind by the food we successfully produce and process? Rice husks. Palm kernel shells. Cassava peels. Maize cob LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONHltRVNfb283WWpxMzhMNWh4RkxWX3B4aVlUOE1DZ2M4d2l2VkJWRHRHemkyZ2czWUNSclRSeVBvSVB6akVRWjU1UkpFX2dxUHZUV0RlZXJlYWVVT2NqSmJ5NTY5MEJQUmc2NU5FWDAyS3F5TENsclhDT04xb2NKSFZEWjVuLWt2c1JOTkJ3S2lsc0RIdGd4cm8tVHlISW1nV3FyZEpaUEJpZzAwVW8tMjN0Y2lYa1FYcXZueFBlTQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-09T07:00:00.000Z",
+      "discoveredAt": "2026-10-28T22:49:46.098Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "1096a1e2188",
@@ -5479,7 +5524,7 @@
       "publishedAt": "2026-09-27T07:00:00.000Z",
       "discoveredAt": "2026-10-28T18:18:45.296Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5babb23b240",
@@ -5915,6 +5960,21 @@
       "discoveredAt": "2026-09-28T08:37:59.249Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "76ed8f84251",
+      "title": "PELLETING PROBLEMS? DIAGNOSE BEFORE YOU ADJUST. Pellet quality is influenced by the complete process—not by a single machine setting. This technical infographic highlights 5 common pellet-quality problems: • Loose / low-durability pellets • Fade - LinkedIn",
+      "summary": "PELLETING PROBLEMS? DIAGNOSE BEFORE YOU ADJUST. Pellet quality is influenced by the complete process—not by a single machine setting. This technical infographic highlights 5 common pellet-quality problems: • Loose / low-durability pellets • Fade LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdldSRXBnOTVIaFUtMFl5RHlnV3JJOHlRMllXdHNCVjlCWnZUTWNEQXZNVEEwWkVHbDVrcG5mMzNMOGVyZ1NQSndmWE5zSm5uUURUT1V2bmFoOXpqZi14Y3l1TUFkRmV2Q0JZbVEybXVHT2dGdWtxWFJzUmRzakxoejZWZDdCWWNLOG9wX1pzWGh0cHV0ZVhTQlhtX2ZqQ0NtU2hWSXFlSmpRLWVHQTlTMFM5UUZwYVY3Y1hWUXZaVjZQdUp0MVpQVDY3ZkZpajJjZmZUWWhOTQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-19T07:00:00.000Z",
+      "discoveredAt": "2026-10-28T22:49:46.098Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "4d9f3162241",
@@ -7308,7 +7368,7 @@
       "summary": "Top 10 Biomass Pellet Manufacturers in India: 1. Abellon CleanEnergy Ltd. 2. Punjab Renewable Energy Systems Pvt. Ltd. 3. ECOSTAN Biofuel Pvt. Ltd. 4. Rajaram Solvex Ltd. 5. Manikaran Power Ltd. 6. Shubhshree Biofuels Energy Ltd. 7. Dhaneshwar Fire LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdG5FcjZjbFY5ay1sVE5vWFctR2xPcE0yNEx2LWdBNUZFamNNMGJfMjI4ZUhZajlsbnJLTXlxNF9jZFRPMjlNdFRHbE1lLUJRMTVJRnVrZFdGcUY3N1g1LUpSczVGa0pzLVYxQ0lXcHZFUWtXVG1Qd2RRMGdDQTlMSkdla0h4NHoycUxxVjNfQVZNcVVqU3JEaVI3TTBscnl4QnpEdXRka1VZRmxpVFVSV0tqZXMtMFk?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -7368,7 +7428,7 @@
       "summary": "Ansh Verma - Executive Director @Trio Renewable Engineering || Specialised in Biomass Pelletizing Solutions LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE54TktRR2pkOXZ4WkJTczIzNUlTOENUa1NIYS0wa0w3cTYxYUVQQTFqR2d3UjNHT2FLME1UUzhjTVFnUU5TWDktc3JvOHk2Rjg?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -7965,66 +8025,6 @@
       "score": 70,
       "publishedAt": "2025-10-03T07:00:00.000Z",
       "discoveredAt": "2026-10-03T17:35:35.026Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "130f3173245",
-      "title": "🌱 Biomass Pellet Making Business: A New Idea – A Long Lasting Idea 🌱 At Proveg Engineering, we believe in transforming agricultural waste into wealth. Biomass pellet making is not just a business—it’s a movement towards green energy, carbon reduction, - LinkedIn",
-      "summary": "🌱 Biomass Pellet Making Business: A New Idea – A Long Lasting Idea 🌱 At Proveg Engineering, we believe in transforming agricultural waste into wealth. Biomass pellet making is not just a business—it’s a movement towards green energy, carbon reduction, LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNR2hDcnU0RDNYOV96YldJQlBiMFJwM1pQOXlpMVBTNEtvcFlabG5WQWsxNXJUakhXQ0N0aHVROGhZYVhsR3pUSUY5aXFVY2JiMk9BWWQ3cF9oTFl0RUt3dUxkN0lFUjdIX3VSbnBzbldHS0ZRaHRYOG1xZnlMQ09TNm9ZVkpDMjJ5YXotUkNwVUl6enl5Y1ZtVGZlVmZYWS1ERFpWbFU4NUlMb1ZZbjkwVW9uNXFiTXI3QnlFaXE1RmJSQnc5cVcxcQ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-10-01T07:00:00.000Z",
-      "discoveredAt": "2026-10-09T01:10:33.881Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "6cca87f5179",
-      "title": "Biomass Power Plant Project Report 2025: Business Plan, Capital Investment & Profit Analysis - LinkedIn",
-      "summary": "Biomass Power Plant Project Report 2025: Business Plan, Capital Investment & Profit Analysis LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWmJJeE92NUxxTlFraVpfVHdVUEtaTnl1Y1piZ0laYVF3VGsxN1lyTlIxd2YtbmhNRHF2UW1vQnEtWkVsMzdRZWxJNWlqd0ZPR3QzQzlvaEQxRGlIRk1YbmFZXzFSTUx4dU9JYzRpbktqTHJoTlM5Uk5ja2xVcE9wQV9uOVBiV3BjNkFDb2dLYlJwQjlkZTdhN0FORUlvS1NIVmllWHRrZEE?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-09-25T07:00:00.000Z",
-      "discoveredAt": "2026-09-20T00:54:14.753Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "46c55b2217d",
-      "title": "Biomass Power Plant Project Report 2025: Business Plan, Capital Investment & Profit Analysis - linkedin.com",
-      "summary": "Biomass Power Plant Project Report 2025: Business Plan, Capital Investment & Profit Analysis linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWmJJeE92NUxxTlFraVpfVHdVUEtaTnl1Y1piZ0laYVF3VGsxN1lyTlIxd2YtbmhNRHF2UW1vQnEtWkVsMzdRZWxJNWlqd0ZPR3QzQzlvaEQxRGlIRk1YbmFZXzFSTUx4dU9JYzRpbktqTHJoTlM5Uk5ja2xVcE9wQV9uOVBiV3BjNkFDb2dLYlJwQjlkZTdhN0FORUlvS1NIVmllWHRrZEE?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-09-25T07:00:00.000Z",
-      "discoveredAt": "2026-10-02T06:07:51.641Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "7f6944ea24c",
-      "title": "🌱 New BIS Draft Standards on Biomass Pellet Equipment — Feedback Matters The Bureau of Indian Standards (BIS) has released a coordinated set of draft Indian Standards on equipment used in the production of non-torrefied biomass pellets — and invited - LinkedIn",
-      "summary": "🌱 New BIS Draft Standards on Biomass Pellet Equipment — Feedback Matters The Bureau of Indian Standards (BIS) has released a coordinated set of draft Indian Standards on equipment used in the production of non-torrefied biomass pellets — and invited LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNT3NmZm1WbWZseXJmaEYzb0R2S0dUVDRYUVp5aXEyM0FkdkY2Y2FUMFdSLTBpczdQWm9kcFpaZ1NsOHhYckR3OHBjemRQdHpkeHJwOXBEZGxOZ19PbmtPTFlRVS1zcHJ6OUUyazIyV1BJNkQ4UzJCbGhjc2NGbWlONGtxZXJfYzJObUFUZGdCdjNqLVRtU1Z3WnREZjU3dHpzNlgtQ09qX21mTFlQSWFjNHQwd3E1dWhTTTVBS2F0M3Y1ZFZGMzNMenI3Tmx2MnVH?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-09-16T07:00:00.000Z",
-      "discoveredAt": "2026-09-20T17:38:50.841Z",
       "channel": "linkedin",
       "isNew": false
     }
