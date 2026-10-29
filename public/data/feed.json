@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-29T08:52:42.136Z",
-  "crawlDurationMs": 18099,
+  "updatedAt": "2026-10-29T16:02:05.527Z",
+  "crawlDurationMs": 18196,
   "stats": {
     "total": 500,
-    "tenders": 159,
+    "tenders": 160,
     "purchase": 113,
-    "news": 228,
+    "news": 227,
     "portals": 94,
     "linkedin": 361,
-    "newThisCrawl": 36,
+    "newThisCrawl": 39,
     "withCompany": 142
   },
   "sources": [
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 8,
+      "count": 24,
       "error": null
     },
     {
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 50,
+      "count": 46,
       "error": null
     },
     {
@@ -156,14 +156,14 @@
       "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 3,
+      "count": 4,
       "error": null
     },
     {
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 5,
+      "count": 12,
       "error": null
     },
     {
@@ -1215,6 +1215,21 @@
       "discoveredAt": "2026-10-28T18:18:45.297Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "24ccaa19235",
+      "title": "BIOMASS MAPPING | RAJASTHAN 2025–26 Different regions. Different residues. Different solutions. Rajasthan’s biomass opportunities need a region-specific approach. Mustard stalk, wheat straw, bajra stalk and cotton stalk each bring different collection, st - LinkedIn",
+      "summary": "BIOMASS MAPPING | RAJASTHAN 2025–26 Different regions. Different residues. Different solutions. Rajasthan’s biomass opportunities need a region-specific approach. Mustard stalk, wheat straw, bajra stalk and cotton stalk each bring different collection, st LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYndQanc4WDRWZ2xNVFNUVlZrVFFmenV6dm1ZRTNIX3ZrNHlEUlE2NUJmVGMyc1RxbW00RXVvRXdfMWdVTTdpWGFkdUkzNXpVdUhZMjM1cTJYODlKM25OSGU1Zk92ZENJcFdQeHRFOU5uNEtKbnA1RXUyNFRBNEtWZWRjNExvdFZDVzFuTDliUXZhNGg5Sm42OHFmOHFMUkhYd2Q1ekxtMGx6TXR3MjY2T2FzaWZjRWZOVmdR?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 90,
+      "publishedAt": "2026-10-24T06:10:54.000Z",
+      "discoveredAt": "2026-10-29T16:01:49.197Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "72d6c3ee187",
@@ -4504,8 +4519,8 @@
       "summary": "Govt temporarily eases mandate on biomass pellet co-firing in thermal power plants Moneycontrol.com",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPS1NCeUZPb1lFZnRJSUhHZ0VlR0IyeVdVa3NZa19UdEVRSTd0b0cxeHVOZGJVelA1OU1xMlJicVRoUWVQSGVHTjhOcE55WURoeVhBam5jUjBXYWYxbHQ2c0FySm04NnhabjRzWklSVEdOaHRZT1c2cWFnd0lyN1RieEktTzZfdlE4V182SE5SMi1Vdlg2emhJWjB2MEc1NktQbXJXU2dJYlhZaDNzUUpZb1RhMEg1LVk1ckVsUFQ5SGxNVk1YUllhWDhhU19IdU0xWFHSAdcBQVVfeXFMUHhrYTQtVlJRVUFTQkxHU1BpRTAwOHVScmJIbUFpX2Z1OGxkYmstZ3BfUy1jTkZFeXZGU0NnOHAyMWVOWGx6aFIzUy1EMzZxSFo1aDRhNWpvTVc0TDd4YjFXYl9ZWl9uems4VXZCV3NvMjJ1RWUzbWNrbGlaNTNkNGVXMDMtZGxOcngwOEpNNkFCaFh4NXVLQkQzZ3prYkdXekF0VUV3SDdaQmpYMFdXTmdVdmRHRE1CVGRiZC1lU3lzOWlRcnQxOWdBZUtXTVl5V19zY21CdkU?oc=5",
       "source": "google_news",
-      "sourceLabel": "Pellet NITs IN",
-      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
+      "sourceLabel": "State utilities",
+      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
       "type": "purchase",
       "companies": [],
       "score": 53,
@@ -8014,21 +8029,6 @@
       "score": 70,
       "publishedAt": "2025-11-08T01:02:06.000Z",
       "discoveredAt": "2026-09-19T15:47:30.427Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "3d6417f9120",
-      "title": "Govil Biomass Pellet Consultant - Govil Rohit Bio Energy Pvt Ltd - LinkedIn India",
-      "summary": "Govil Biomass Pellet Consultant - Govil Rohit Bio Energy Pvt Ltd LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9YUGFQajk4WVA1S2dwdVg3Rnk5SVVoQTZMc2VDTExsSVNGOXBJWWJBdW9xY3RXX2lsc3BBbVdTZk9YeGN5WGs2LWxCZkhVS05iM3dHVTdJM0w1MnE5SmMxWDB4UFhiUHRRTzh4VVRXbkFLWFRSOTdJ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-11-08T01:02:06.000Z",
-      "discoveredAt": "2026-09-24T23:51:29.699Z",
       "channel": "linkedin",
       "isNew": false
     }
