@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-28T22:50:00.887Z",
-  "crawlDurationMs": 17585,
+  "updatedAt": "2026-10-29T02:22:14.940Z",
+  "crawlDurationMs": 17014,
   "stats": {
     "total": 500,
-    "tenders": 157,
-    "purchase": 112,
-    "news": 231,
+    "tenders": 159,
+    "purchase": 113,
+    "news": 228,
     "portals": 94,
     "linkedin": 361,
-    "newThisCrawl": 41,
-    "withCompany": 140
+    "newThisCrawl": 48,
+    "withCompany": 142
   },
   "sources": [
     {
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 51,
+      "count": 50,
       "error": null
     },
     {
@@ -142,7 +142,7 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 65,
+      "count": 67,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 5,
+      "count": 14,
       "error": null
     },
     {
@@ -1442,6 +1442,21 @@
       "isNew": false
     },
     {
+      "id": "44507caa248",
+      "title": "\"What if agricultural waste becomes India's next energy asset?\" 🌾🔥♻️ The Business of Biomass Pellets. When most people look at agricultural waste, they see a disposal problem. I see an opportunity. An opportunity to create income for farmers, reduce stubbl - LinkedIn",
+      "summary": "\"What if agricultural waste becomes India's next energy asset?\" 🌾🔥♻️ The Business of Biomass Pellets. When most people look at agricultural waste, they see a disposal problem. I see an opportunity. An opportunity to create income for farmers, reduce stubbl LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeHZFcE0zMDhMRkJPS1VPbXgwbmxmLVc4WG51Q0FJblNqSEh3amI5cmF1RTdwM05DX0c3Q1Q2aTlkZVFoWjl0WEtuRllfblZ6bDc3a0x2TW5LRHpZZ1ZPNXZsV3RjZjdQZnVIRk10Q19yX2tENnlGY05ZQXJBUnNPeWQzLVV4Qy1jMjR2NHpqeHp1bjd4elNxMHpBRHo2YjY5RzhlREpYRHpWU1BnVFVtUnRiQ3E2UHdpYkFXSldBejkwT0FzX0Zn?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 90,
+      "publishedAt": "2026-06-14T07:00:00.000Z",
+      "discoveredAt": "2026-10-29T02:22:00.576Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "137b90c623c",
       "title": "Chhattisgarh: The Next Big Opportunity for the Paddy Straw Baling & Biomass Pellet Industry For the last decade, Punjab and Haryana have emerged as the backbone of India’s paddy straw collection and biomass pellet supply chain. What was once consider - LinkedIn",
       "summary": "Chhattisgarh: The Next Big Opportunity for the Paddy Straw Baling & Biomass Pellet Industry For the last decade, Punjab and Haryana have emerged as the backbone of India’s paddy straw collection and biomass pellet supply chain. What was once consider LinkedIn",
@@ -1859,6 +1874,23 @@
       "discoveredAt": "2026-09-22T07:39:42.466Z",
       "channel": "news",
       "isNew": false
+    },
+    {
+      "id": "1e418112149",
+      "title": "Raavi Dhanunjay - Raw Material Executive @ Reliance Bioenergy | Supply Chain Management (SCM) & Procurement | Biomass Aggregation & Vendor Development. - LinkedIn India",
+      "summary": "Raavi Dhanunjay - Raw Material Executive @ Reliance Bioenergy | Supply Chain Management (SCM) & Procurement | Biomass Aggregation & Vendor Development. LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1CRGVMekVYNGhkYXpzb0NqakpWUDczYUpycjFuMldhaFo2WUpHa3RELTVQaG4yeG4ya1dLZ3BsT0tyV2FWZTNOS01hb1p4Vzc4c2NJXw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [
+        "Reliance"
+      ],
+      "score": 87,
+      "publishedAt": "2026-03-19T20:58:46.000Z",
+      "discoveredAt": "2026-10-29T02:22:00.577Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "0f2ff4dc1a6",
@@ -3440,6 +3472,23 @@
       "isNew": false
     },
     {
+      "id": "003f0a00189",
+      "title": "Vaibhav Baheti - SHUBHAM BIOFUELS || Biocoal- Briquettes and Pellets || Coal supplier - Imported, Indian, Lignite, Petcoke (Nayara and HPCL-HMEL Dealer) || Biomass SCM || WAAREE Solar (Dealer/Contact for Projects) - LinkedIn India",
+      "summary": "Vaibhav Baheti - SHUBHAM BIOFUELS || Biocoal- Briquettes and Pellets || Coal supplier - Imported, Indian, Lignite, Petcoke (Nayara and HPCL-HMEL Dealer) || Biomass SCM || WAAREE Solar (Dealer/Contact for Projects) LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zc3ZPbTFadDZZc1hiZDdPa1ZfQjlCcnhoNHh0Y0VGeUpiVjVJNXhwamsyejl2bXNyZVBZU2o5dzNSaTVKVTdkWEFVY2FkZUVMOXM2NG1R?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "purchase",
+      "companies": [
+        "HPCL"
+      ],
+      "score": 93,
+      "publishedAt": "2019-09-15T04:16:04.000Z",
+      "discoveredAt": "2026-10-29T02:22:00.577Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "091f700e247",
       "title": "⚡ Effective biomass co-firing starts with getting the parameters right. From fuel properties to plant requirements, every factor matters when planning biomass use in coal-based thermal power plants. Know the parameters. Get the process right.🌾 #MissionSAMA - LinkedIn",
       "summary": "⚡ Effective biomass co-firing starts with getting the parameters right. From fuel properties to plant requirements, every factor matters when planning biomass use in coal-based thermal power plants. Know the parameters. Get the process right.🌾 #MissionSAMA LinkedIn",
@@ -3452,7 +3501,7 @@
       "publishedAt": "2026-10-21T05:42:38.000Z",
       "discoveredAt": "2026-10-28T22:49:46.097Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "06f81f3e24f",
@@ -4455,8 +4504,8 @@
       "summary": "Govt temporarily eases mandate on biomass pellet co-firing in thermal power plants Moneycontrol.com",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPS1NCeUZPb1lFZnRJSUhHZ0VlR0IyeVdVa3NZa19UdEVRSTd0b0cxeHVOZGJVelA1OU1xMlJicVRoUWVQSGVHTjhOcE55WURoeVhBam5jUjBXYWYxbHQ2c0FySm04NnhabjRzWklSVEdOaHRZT1c2cWFnd0lyN1RieEktTzZfdlE4V182SE5SMi1Vdlg2emhJWjB2MEc1NktQbXJXU2dJYlhZaDNzUUpZb1RhMEg1LVk1ckVsUFQ5SGxNVk1YUllhWDhhU19IdU0xWFHSAdcBQVVfeXFMUHhrYTQtVlJRVUFTQkxHU1BpRTAwOHVScmJIbUFpX2Z1OGxkYmstZ3BfUy1jTkZFeXZGU0NnOHAyMWVOWGx6aFIzUy1EMzZxSFo1aDRhNWpvTVc0TDd4YjFXYl9ZWl9uems4VXZCV3NvMjJ1RWUzbWNrbGlaNTNkNGVXMDMtZGxOcngwOEpNNkFCaFh4NXVLQkQzZ3prYkdXekF0VUV3SDdaQmpYMFdXTmdVdmRHRE1CVGRiZC1lU3lzOWlRcnQxOWdBZUtXTVl5V19zY21CdkU?oc=5",
       "source": "google_news",
-      "sourceLabel": "Pellet NITs IN",
-      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
+      "sourceLabel": "State utilities",
+      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
       "type": "purchase",
       "companies": [],
       "score": 53,
@@ -5209,7 +5258,7 @@
       "publishedAt": "2026-10-12T14:01:09.000Z",
       "discoveredAt": "2026-10-28T22:49:46.098Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "11f37eb51a2",
@@ -5254,7 +5303,7 @@
       "publishedAt": "2026-10-09T07:00:00.000Z",
       "discoveredAt": "2026-10-28T22:49:46.098Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1096a1e2188",
@@ -5974,7 +6023,7 @@
       "publishedAt": "2026-09-19T07:00:00.000Z",
       "discoveredAt": "2026-10-28T22:49:46.098Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4d9f3162241",
@@ -7980,51 +8029,6 @@
       "score": 70,
       "publishedAt": "2025-11-08T01:02:06.000Z",
       "discoveredAt": "2026-09-24T23:51:29.699Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "44b75758121",
-      "title": "Govil Biomass Pellet Consultant - Govil Rohit Bio Energy Pvt Ltd - in.linkedin.com",
-      "summary": "Govil Biomass Pellet Consultant - Govil Rohit Bio Energy Pvt Ltd in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9YUGFQajk4WVA1S2dwdVg3Rnk5SVVoQTZMc2VDTExsSVNGOXBJWWJBdW9xY3RXX2lsc3BBbVdTZk9YeGN5WGs2LWxCZkhVS05iM3dHVTdJM0w1MnE5SmMxWDB4UFhiUHRRTzh4VVRXbkFLWFRSOTdJ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-11-08T01:02:06.000Z",
-      "discoveredAt": "2026-09-26T22:10:50.878Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "499fbe06ef",
-      "title": "Kapil Agarwal - Director at Green Pellets India - LinkedIn India",
-      "summary": "Kapil Agarwal - Director at Green Pellets India LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NQnJjVlUzQzI3ZUhTalVodEJKUml2VzVBWWp2ZDVtaGlvM0FTUE9SRnFYYlc0WmxMcXFOakh6UkJIZ0t6WnVzX1lad1Y5dDk5dVNUZ1l4R2tncmx5UnhZ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-11-07T04:44:48.000Z",
-      "discoveredAt": "2026-10-13T17:06:51.160Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "448b0f6d215",
-      "title": "The ICVCM has approved six engineered carbon removal methods (like direct air capture and biomass storage) along with updated forestry protocols. Together, these could generate over 12 million high-quality credits annually. This matters because engineer - LinkedIn",
-      "summary": "The ICVCM has approved six engineered carbon removal methods (like direct air capture and biomass storage) along with updated forestry protocols. Together, these could generate over 12 million high-quality credits annually. This matters because engineer LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMXJlUndyek5KWW1jaFhfeHl6NDRVb29sOW1TdEZxLWR1LUg4RFRZeER2Y1pjLXdvUk5DOVlmUDJoR3FCNXRfd184dzFjLVdZVlFHckNsZGMzaUJrdVVtWnZOM2ZoSl81a1ltTHRGRVFyYXk0d2k2OEpyMV95QmQxd2x1emJMTmxiMElkd0xrZGZWVkx6MEhZNzNFX05xXzVrQzloVw?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-10-03T07:00:00.000Z",
-      "discoveredAt": "2026-10-03T17:35:35.026Z",
       "channel": "linkedin",
       "isNew": false
     }
