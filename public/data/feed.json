@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-30T07:01:44.192Z",
-  "crawlDurationMs": 19158,
+  "updatedAt": "2026-10-30T14:03:43.740Z",
+  "crawlDurationMs": 17239,
   "stats": {
     "total": 500,
     "tenders": 162,
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 7,
+      "count": 24,
       "error": null
     },
     {
@@ -135,7 +135,7 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 26,
+      "count": 31,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 11,
+      "count": 10,
       "error": null
     },
     {
@@ -5153,7 +5153,7 @@
       "publishedAt": "2026-10-23T09:56:16.000Z",
       "discoveredAt": "2026-10-30T07:01:26.652Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0c03f361134",
@@ -6616,7 +6616,7 @@
       "summary": "Everyone racing toward India's Green Hydrogen Mission assumes electrolysis. There's a biomass gasification route sitting in plain sight that gets cheaper as it scales and it starts with a straw problem, not a power problem. Electrolyzer-based green hydrogen is LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOc2JBU0pKRUM4X0VIODQxb3FTdndGYmpDN3otZmE1T29rcDc5T2NYM2hDdktoNWNKZG5UTEN5dHZrUlAzZWh2c204d1M3X1NTQmlLQVNNREhidHU4R2czZFpGdmZKMTBXeFNRdXJTSUd0UGxEOEx4SldSc0dOSl9aaUlEbGNubGZlQ2s4bmJGUFR4TWJpTUFZVVkwMXp5cHVIb2hDRjVneGpGdDJkYkVwTHNRbU42b3VyaldVNXpyc2FjbFNOcWc?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -7492,7 +7492,7 @@
       "summary": "Top 10 Biomass Pellet Manufacturers in India: 1. Abellon CleanEnergy Ltd. 2. Punjab Renewable Energy Systems Pvt. Ltd. 3. ECOSTAN Biofuel Pvt. Ltd. 4. Rajaram Solvex Ltd. 5. Manikaran Power Ltd. 6. Shubhshree Biofuels Energy Ltd. 7. Dhaneshwar Fire LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdG5FcjZjbFY5ay1sVE5vWFctR2xPcE0yNEx2LWdBNUZFamNNMGJfMjI4ZUhZajlsbnJLTXlxNF9jZFRPMjlNdFRHbE1lLUJRMTVJRnVrZFdGcUY3N1g1LUpSczVGa0pzLVYxQ0lXcHZFUWtXVG1Qd2RRMGdDQTlMSkdla0h4NHoycUxxVjNfQVZNcVVqU3JEaVI3TTBscnl4QnpEdXRka1VZRmxpVFVSV0tqZXMtMFk?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -7552,7 +7552,7 @@
       "summary": "Ansh Verma - Executive Director @Trio Renewable Engineering || Specialised in Biomass Pelletizing Solutions LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE54TktRR2pkOXZ4WkJTczIzNUlTOENUa1NIYS0wa0w3cTYxYUVQQTFqR2d3UjNHT2FLME1UUzhjTVFnUU5TWDktc3JvOHk2Rjg?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "news",
       "companies": [],
       "score": 70,
