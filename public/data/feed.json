@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-29T21:03:41.938Z",
-  "crawlDurationMs": 18736,
+  "updatedAt": "2026-10-30T00:55:27.176Z",
+  "crawlDurationMs": 18749,
   "stats": {
     "total": 500,
-    "tenders": 161,
+    "tenders": 162,
     "purchase": 113,
-    "news": 226,
+    "news": 225,
     "portals": 94,
     "linkedin": 361,
-    "newThisCrawl": 35,
+    "newThisCrawl": 45,
     "withCompany": 142
   },
   "sources": [
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 46,
+      "count": 54,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 29,
+      "count": 28,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 45,
+      "count": 68,
       "error": null
     },
     {
@@ -156,7 +156,7 @@
       "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 3,
+      "count": 4,
       "error": null
     },
     {
@@ -859,7 +859,7 @@
       "summary": "🌱 Biomass Co-Firing: Powering a Greener Energy Future India’s biomass co-firing targets are creating a significant opportunity to convert crop and forest residues into dependable, bankable green energy. With increasing demand for biomass pellets, the secto LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRVo2OWd4ckVBbGNZTzk0TXI3aG1ELUtpNlJHUHUxYWtJX2RUdzJQaXMxWXdwWVNPU3dtQ2dGT0E2VXhzbC1fbjBQN25tNGtxQnppYkNhdThDRVBKNFJIRHd1UHF4cnhYTFhSeVU1SlVpdXJUeXByQkYxOG5iR3NaSmxXYWJiNGlDX3FzaDVEMEw3OENZR0ExNU9QeS04UnY1R1BxY0F4TXVCVlhKZ1cyZFI3ZW1PQk5lRFB0dGNZamNEak5RRDVV?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 100,
@@ -1342,7 +1342,7 @@
       "summary": "India Biomass Market Analysis 2026–2034: Key Growth Drivers, Emerging Opportunities & Outlook LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMVA0REJxamRpQXp5M0Rvbld0YnVGaU1IamFyY2NRMWJfUF9vM2tHLXRZWHpXVnZLSEJjeVFLYlFHT1E1OGMzLW5wLVE1bHEySDdvQjRkTjJXXzY1bGhjdGJ3SkVpdHdKbHRqb1l6blFHUWJ2d1ZPRWdOWllQYXpMREIwc3lFbWFSYlB6ZEFhUDI2Z05wTGJaSTNUQ0dSRFNXNkhF?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -2019,6 +2019,21 @@
       "isNew": false
     },
     {
+      "id": "48fa29bd18f",
+      "title": "Yash Srivastava - Sr. Executive at Biofuel Circle |ITC Limited (ABD)Ex-Intern. | Bioenergy |Briquette & Pellet |Quality Assurance & Control |Supply Operation| |Procurement| |MBA-ABM |ICAR| CSAU&T, Kanpur - LinkedIn India",
+      "summary": "Yash Srivastava - Sr. Executive at Biofuel Circle |ITC Limited (ABD)Ex-Intern. | Bioenergy |Briquette & Pellet |Quality Assurance & Control |Supply Operation| |Procurement| |MBA-ABM |ICAR| CSAU&T, Kanpur LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE41T1ktN2kyY2ZQMjc4VW9KZ2Fld2RWdDZvcV9Xa094Yk9VZm1wVjM2MFFuWDU2ZFNiVGpPTzJTV2lFRjJKVmk4TktrdTdHa0xDZ3YyTElqTjB5UmpOZ3hpOVlR?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "tender",
+      "companies": [],
+      "score": 80,
+      "publishedAt": "2023-05-29T09:53:26.000Z",
+      "discoveredAt": "2026-10-30T00:55:09.709Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "3589a0e6264",
       "title": "Efficient Crop Residue Management Begins in the Field. 🌾 Agricultural residues hold significant potential for biomass utilisation, but efficient collection and handling remain essential. Introducing the TRIO AGRO X 1900 Square Baler by Trio Renewable Engine - LinkedIn",
       "summary": "Efficient Crop Residue Management Begins in the Field. 🌾 Agricultural residues hold significant potential for biomass utilisation, but efficient collection and handling remain essential. Introducing the TRIO AGRO X 1900 Square Baler by Trio Renewable Engine LinkedIn",
@@ -2356,7 +2371,7 @@
       "summary": "Dharmesh Kumar kewat - Energy Transition and Sustainability| Power Utilities | Public & Climate Policy| Biofuels & Biomass Markets |Biomass Cofiring | ESG | Industrial Decarbonization | Stakeholder Engagement | Government Advisory LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5VWVVoMHl5V3I5dkJIN3J0UDZ5SWlxU2ZGTkRIektoS1hRWDNQVkZQNHlkd0xjMHlfLUJIUzhfWFBHSmd4UHRleEpoampuZw?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 77,
@@ -2606,7 +2621,7 @@
       "publishedAt": "2023-04-24T07:00:00.000Z",
       "discoveredAt": "2026-10-29T21:03:25.114Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3dba4e7f2af",
@@ -5501,6 +5516,21 @@
       "isNew": false
     },
     {
+      "id": "19d48bee22f",
+      "title": "Small refinery exemptions can undercut headline biofuel blending numbers with much of the burden falling on biomass-based diesel. Read more in ASA Chief Economist Dr. Scott Gerlt's latest 'Economist's Angle' -> https://ow.ly/6YwA50ZTEqu #AgEcon #AgPo - LinkedIn",
+      "summary": "Small refinery exemptions can undercut headline biofuel blending numbers with much of the burden falling on biomass-based diesel. Read more in ASA Chief Economist Dr. Scott Gerlt's latest 'Economist's Angle' -> https://ow.ly/6YwA50ZTEqu #AgEcon #AgPo LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeHkyZUs2ZkwtajJVNW9iVW9jQVpqUzYtV21FMWRZYkRuN1BFcVE0elFqdU1uN3BlZkpKb0xhNGZRbzYtVkNVSGd3aUktVTVIY0l1Ny1tY2x6UlNmNTJoQTFIUVA5bmpWWnJKZVBuaHJzTXU3S0NheGpzTjJxV1oza2ZSYTJ4UFhiaklfVENNWDJBT3Z6TUpVRnE2UEJ1Y3NyaFBZblpsR3gzNGlOdm1VbEdVeUkyVE13V0E?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-01T07:00:00.000Z",
+      "discoveredAt": "2026-10-30T00:55:10.624Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "0834c836161",
       "title": "Europe Needs More Wood Pellets. Brazil Is Already Supplying Them - linkedin.com",
       "summary": "Europe Needs More Wood Pellets. Brazil Is Already Supplying Them linkedin.com",
@@ -7507,7 +7537,7 @@
       "summary": "Ansh Verma - Executive Director @Trio Renewable Engineering || Specialised in Biomass Pelletizing Solutions LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE54TktRR2pkOXZ4WkJTczIzNUlTOENUa1NIYS0wa0w3cTYxYUVQQTFqR2d3UjNHT2FLME1UUzhjTVFnUU5TWDktc3JvOHk2Rjg?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -7999,36 +8029,6 @@
       "score": 70,
       "publishedAt": "2025-11-22T08:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:27.217Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "2f66fa8d26b",
-      "title": "Beyond Drilling and Exploration Private Limited — Kaljharani, Bathinda Factory — Torrefied Biomass Pellets (Large-Scale Production) Beyond Drilling and Exploration Private Limited’s Kaljharani (Bathinda) factory is a state-of-the-art, large-scale facility dedic - linkedin.com",
-      "summary": "Beyond Drilling and Exploration Private Limited — Kaljharani, Bathinda Factory — Torrefied Biomass Pellets (Large-Scale Production) Beyond Drilling and Exploration Private Limited’s Kaljharani (Bathinda) factory is a state-of-the-art, large-scale facility dedic linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOOUNPY3oyOG1sZmRTeFA4NzNpV2hfOGdUNl9IRDdORVFZZFk5VFhtU2w2eHN5MEdaN0VIRTNqbzc4SGplb0pvSUkxaXBIRGhWN0Mwd0RGZ1o4TlRBQmhxNEFzWHBKZ0w0MllDd2R0amhNVDJPWTRHS2NrU2JaNl9TQnZxQl85d0J4QXo4Q09iM05vYkFLM3FOU294akhUX3ViOVlaTk1ma1dxVmUyU2hXX0lFaFpWT21wQ0F2OEFMaV82MmhXaGRxamhEQm9rT2ZmVzBYek14eXlyc2NY?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-11-22T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.431Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "6587b81c100",
-      "title": "Govil Biomass Pellet Consultant - in.linkedin.com",
-      "summary": "Govil Biomass Pellet Consultant in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9YUGFQajk4WVA1S2dwdVg3Rnk5SVVoQTZMc2VDTExsSVNGOXBJWWJBdW9xY3RXX2lsc3BBbVdTZk9YeGN5WGs2LWxCZkhVS05iM3dHVTdJM0w1MnE5SmMxWDB4UFhiUHRRTzh4VVRXbkFLWFRSOTdJ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-11-08T01:02:06.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.214Z",
       "channel": "linkedin",
       "isNew": false
     }
