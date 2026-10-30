@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-30T19:17:55.750Z",
-  "crawlDurationMs": 18763,
+  "updatedAt": "2026-10-30T23:10:44.136Z",
+  "crawlDurationMs": 17668,
   "stats": {
     "total": 500,
     "tenders": 162,
@@ -8,7 +8,7 @@
     "news": 225,
     "portals": 94,
     "linkedin": 361,
-    "newThisCrawl": 42,
+    "newThisCrawl": 37,
     "withCompany": 142
   },
   "sources": [
@@ -86,22 +86,22 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 25,
+      "count": 8,
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 52,
+      "count": 45,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 25,
+      "count": 30,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 68,
+      "count": 46,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 5,
+      "count": 9,
       "error": null
     },
     {
@@ -2371,7 +2371,7 @@
       "summary": "Dharmesh Kumar kewat - Energy Transition and Sustainability| Power Utilities | Public & Climate Policy| Biofuels & Biomass Markets |Biomass Cofiring | ESG | Industrial Decarbonization | Stakeholder Engagement | Government Advisory LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5VWVVoMHl5V3I5dkJIN3J0UDZ5SWlxU2ZGTkRIektoS1hRWDNQVkZQNHlkd0xjMHlfLUJIUzhfWFBHSmd4UHRleEpoampuZw?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [],
       "score": 77,
@@ -2614,7 +2614,7 @@
       "summary": "In-situ & Ex-situ Crop residue Management LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNc1F2ZndOak1JS3VVbURjclYtb3g3MGtLWjQwT2h4M1hZdkdLLVpFVTJkVkl1bWNfaC1fdElXelZ5UlJSYy0wM0lnelJNZk5DbnM1SWpHMWU4bEJRYTl6cFJ3UmNlZWFXWWU2eElaY1BEX0txRFJLQThla0FBQmYxZkMzU3Z1X0hydEFRVUE2dGlfdFpwUUE?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [],
       "score": 74,
@@ -4549,8 +4549,8 @@
       "summary": "Govt temporarily eases mandate on biomass pellet co-firing in thermal power plants Moneycontrol.com",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPS1NCeUZPb1lFZnRJSUhHZ0VlR0IyeVdVa3NZa19UdEVRSTd0b0cxeHVOZGJVelA1OU1xMlJicVRoUWVQSGVHTjhOcE55WURoeVhBam5jUjBXYWYxbHQ2c0FySm04NnhabjRzWklSVEdOaHRZT1c2cWFnd0lyN1RieEktTzZfdlE4V182SE5SMi1Vdlg2emhJWjB2MEc1NktQbXJXU2dJYlhZaDNzUUpZb1RhMEg1LVk1ckVsUFQ5SGxNVk1YUllhWDhhU19IdU0xWFHSAdcBQVVfeXFMUHhrYTQtVlJRVUFTQkxHU1BpRTAwOHVScmJIbUFpX2Z1OGxkYmstZ3BfUy1jTkZFeXZGU0NnOHAyMWVOWGx6aFIzUy1EMzZxSFo1aDRhNWpvTVc0TDd4YjFXYl9ZWl9uems4VXZCV3NvMjJ1RWUzbWNrbGlaNTNkNGVXMDMtZGxOcngwOEpNNkFCaFh4NXVLQkQzZ3prYkdXekF0VUV3SDdaQmpYMFdXTmdVdmRHRE1CVGRiZC1lU3lzOWlRcnQxOWdBZUtXTVl5V19zY21CdkU?oc=5",
       "source": "google_news",
-      "sourceLabel": "Pellet NITs IN",
-      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
+      "sourceLabel": "State utilities",
+      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
       "type": "purchase",
       "companies": [],
       "score": 53,
@@ -5783,7 +5783,7 @@
       "publishedAt": "2026-09-24T07:00:00.000Z",
       "discoveredAt": "2026-10-30T19:17:39.331Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4827d619232",
@@ -7507,7 +7507,7 @@
       "summary": "Top 10 Biomass Pellet Manufacturers in India: 1. Abellon CleanEnergy Ltd. 2. Punjab Renewable Energy Systems Pvt. Ltd. 3. ECOSTAN Biofuel Pvt. Ltd. 4. Rajaram Solvex Ltd. 5. Manikaran Power Ltd. 6. Shubhshree Biofuels Energy Ltd. 7. Dhaneshwar Fire LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdG5FcjZjbFY5ay1sVE5vWFctR2xPcE0yNEx2LWdBNUZFamNNMGJfMjI4ZUhZajlsbnJLTXlxNF9jZFRPMjlNdFRHbE1lLUJRMTVJRnVrZFdGcUY3N1g1LUpSczVGa0pzLVYxQ0lXcHZFUWtXVG1Qd2RRMGdDQTlMSkdla0h4NHoycUxxVjNfQVZNcVVqU3JEaVI3TTBscnl4QnpEdXRka1VZRmxpVFVSV0tqZXMtMFk?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -7567,7 +7567,7 @@
       "summary": "Ansh Verma - Executive Director @Trio Renewable Engineering || Specialised in Biomass Pelletizing Solutions LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE54TktRR2pkOXZ4WkJTczIzNUlTOENUa1NIYS0wa0w3cTYxYUVQQTFqR2d3UjNHT2FLME1UUzhjTVFnUU5TWDktc3JvOHk2Rjg?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "news",
       "companies": [],
       "score": 70,
