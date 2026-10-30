@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-30T00:55:27.176Z",
-  "crawlDurationMs": 18749,
+  "updatedAt": "2026-10-30T07:01:44.192Z",
+  "crawlDurationMs": 19158,
   "stats": {
     "total": 500,
     "tenders": 162,
@@ -8,7 +8,7 @@
     "news": 225,
     "portals": 94,
     "linkedin": 361,
-    "newThisCrawl": 45,
+    "newThisCrawl": 39,
     "withCompany": 142
   },
   "sources": [
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 24,
+      "count": 7,
       "error": null
     },
     {
@@ -128,28 +128,28 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 54,
+      "count": 46,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 28,
+      "count": 26,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 68,
+      "count": 45,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 5,
+      "count": 11,
       "error": null
     },
     {
@@ -2031,7 +2031,7 @@
       "publishedAt": "2023-05-29T09:53:26.000Z",
       "discoveredAt": "2026-10-30T00:55:09.709Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3589a0e6264",
@@ -2371,7 +2371,7 @@
       "summary": "Dharmesh Kumar kewat - Energy Transition and Sustainability| Power Utilities | Public & Climate Policy| Biofuels & Biomass Markets |Biomass Cofiring | ESG | Industrial Decarbonization | Stakeholder Engagement | Government Advisory LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5VWVVoMHl5V3I5dkJIN3J0UDZ5SWlxU2ZGTkRIektoS1hRWDNQVkZQNHlkd0xjMHlfLUJIUzhfWFBHSmd4UHRleEpoampuZw?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [],
       "score": 77,
@@ -4549,8 +4549,8 @@
       "summary": "Govt temporarily eases mandate on biomass pellet co-firing in thermal power plants Moneycontrol.com",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPS1NCeUZPb1lFZnRJSUhHZ0VlR0IyeVdVa3NZa19UdEVRSTd0b0cxeHVOZGJVelA1OU1xMlJicVRoUWVQSGVHTjhOcE55WURoeVhBam5jUjBXYWYxbHQ2c0FySm04NnhabjRzWklSVEdOaHRZT1c2cWFnd0lyN1RieEktTzZfdlE4V182SE5SMi1Vdlg2emhJWjB2MEc1NktQbXJXU2dJYlhZaDNzUUpZb1RhMEg1LVk1ckVsUFQ5SGxNVk1YUllhWDhhU19IdU0xWFHSAdcBQVVfeXFMUHhrYTQtVlJRVUFTQkxHU1BpRTAwOHVScmJIbUFpX2Z1OGxkYmstZ3BfUy1jTkZFeXZGU0NnOHAyMWVOWGx6aFIzUy1EMzZxSFo1aDRhNWpvTVc0TDd4YjFXYl9ZWl9uems4VXZCV3NvMjJ1RWUzbWNrbGlaNTNkNGVXMDMtZGxOcngwOEpNNkFCaFh4NXVLQkQzZ3prYkdXekF0VUV3SDdaQmpYMFdXTmdVdmRHRE1CVGRiZC1lU3lzOWlRcnQxOWdBZUtXTVl5V19zY21CdkU?oc=5",
       "source": "google_news",
-      "sourceLabel": "Pellet NITs IN",
-      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
+      "sourceLabel": "State utilities",
+      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
       "type": "purchase",
       "companies": [],
       "score": 53,
@@ -5141,6 +5141,21 @@
       "isNew": false
     },
     {
+      "id": "321dc4a91a7",
+      "title": "Inside Rashmi Group’s Fully Automatic Pellet Plant in Kolkata, | Biomass Plant Visit | Part 1 - LinkedIn",
+      "summary": "Inside Rashmi Group’s Fully Automatic Pellet Plant in Kolkata, | Biomass Plant Visit | Part 1 LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTkViRG5mT3hocllrR2JtZ1h3eU9PX19SdnE3NkZTcHNvd1I0cXo3aFRRM0o2aWprOVE3ZmVXYjZ0S0RPMk9LUnZQSjJnYkZVVEp1d0lEcGliQTBhWGZ4eWpJRUxiTmlHdmtuM2Q3cDk4WEc5bWdLMkFMaEFZSVB0REw3SGtTd193LU1FMXRqVjhOejB3TmIzNWxlcHBzT0dQYllnZHVWZmdQQlNVejZJRjFzTG14cDBBd1lKSm1NX2xGbWpHdTlYTnZB?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-23T09:56:16.000Z",
+      "discoveredAt": "2026-10-30T07:01:26.652Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "0c03f361134",
       "title": "Founder at Renewa Pellets | Driving Sustainable Energy Solutions | Innovating Biomass Pellet Manufacturing - LinkedIn India",
       "summary": "Founder at Renewa Pellets | Driving Sustainable Energy Solutions | Innovating Biomass Pellet Manufacturing LinkedIn India",
@@ -5528,7 +5543,7 @@
       "publishedAt": "2026-10-01T07:00:00.000Z",
       "discoveredAt": "2026-10-30T00:55:10.624Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0834c836161",
@@ -7477,7 +7492,7 @@
       "summary": "Top 10 Biomass Pellet Manufacturers in India: 1. Abellon CleanEnergy Ltd. 2. Punjab Renewable Energy Systems Pvt. Ltd. 3. ECOSTAN Biofuel Pvt. Ltd. 4. Rajaram Solvex Ltd. 5. Manikaran Power Ltd. 6. Shubhshree Biofuels Energy Ltd. 7. Dhaneshwar Fire LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdG5FcjZjbFY5ay1sVE5vWFctR2xPcE0yNEx2LWdBNUZFamNNMGJfMjI4ZUhZajlsbnJLTXlxNF9jZFRPMjlNdFRHbE1lLUJRMTVJRnVrZFdGcUY3N1g1LUpSczVGa0pzLVYxQ0lXcHZFUWtXVG1Qd2RRMGdDQTlMSkdla0h4NHoycUxxVjNfQVZNcVVqU3JEaVI3TTBscnl4QnpEdXRka1VZRmxpVFVSV0tqZXMtMFk?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -8014,21 +8029,6 @@
       "score": 70,
       "publishedAt": "2025-11-28T15:51:23.000Z",
       "discoveredAt": "2026-09-19T20:24:35.269Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "549d6b20267",
-      "title": "Beyond Drilling and Exploration Private Limited — Kaljharani, Bathinda Factory — Torrefied Biomass Pellets (Large-Scale Production) Beyond Drilling and Exploration Private Limited’s Kaljharani (Bathinda) factory is a state-of-the-art, large-scale facility dedic - LinkedIn",
-      "summary": "Beyond Drilling and Exploration Private Limited — Kaljharani, Bathinda Factory — Torrefied Biomass Pellets (Large-Scale Production) Beyond Drilling and Exploration Private Limited’s Kaljharani (Bathinda) factory is a state-of-the-art, large-scale facility dedic LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOOUNPY3oyOG1sZmRTeFA4NzNpV2hfOGdUNl9IRDdORVFZZFk5VFhtU2w2eHN5MEdaN0VIRTNqbzc4SGplb0pvSUkxaXBIRGhWN0Mwd0RGZ1o4TlRBQmhxNEFzWHBKZ0w0MllDd2R0amhNVDJPWTRHS2NrU2JaNl9TQnZxQl85d0J4QXo4Q09iM05vYkFLM3FOU294akhUX3ViOVlaTk1ma1dxVmUyU2hXX0lFaFpWT21wQ0F2OEFMaV82MmhXaGRxamhEQm9rT2ZmVzBYek14eXlyc2NY?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2025-11-22T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.217Z",
       "channel": "linkedin",
       "isNew": false
     }
