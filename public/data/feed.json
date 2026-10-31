@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-31T02:41:42.796Z",
-  "crawlDurationMs": 18841,
+  "updatedAt": "2026-10-31T09:31:40.766Z",
+  "crawlDurationMs": 18384,
   "stats": {
     "total": 500,
-    "tenders": 162,
+    "tenders": 163,
     "purchase": 113,
-    "news": 225,
+    "news": 224,
     "portals": 94,
     "linkedin": 361,
     "newThisCrawl": 40,
-    "withCompany": 142
+    "withCompany": 143
   },
   "sources": [
     {
@@ -86,22 +86,22 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 25,
+      "count": 8,
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
       "ok": false,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": "Feed not recognized as RSS 1 or 2."
     },
     {
       "ok": true,
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 54,
+      "count": 55,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 25,
+      "count": 26,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 45,
+      "count": 47,
       "error": null
     },
     {
@@ -895,6 +895,23 @@
       "score": 100,
       "publishedAt": "2026-08-04T07:00:00.000Z",
       "discoveredAt": "2026-09-29T16:28:49.175Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "48389dec23c",
+      "title": "🚨 Major Opportunity for India’s Biomass Pellet Industry NTPC has invited large-scale tenders for the procurement of Agro Residue-Based Non-Torrefied Biomass Pellets for multiple thermal power stations, including Sipat, Korba, Lara, Gadarwara, Mouda, Nort - LinkedIn",
+      "summary": "🚨 Major Opportunity for India’s Biomass Pellet Industry NTPC has invited large-scale tenders for the procurement of Agro Residue-Based Non-Torrefied Biomass Pellets for multiple thermal power stations, including Sipat, Korba, Lara, Gadarwara, Mouda, Nort LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeU1DendCeWV3YXBzQVB1dkFCc2lzbWttTDhBMXk5Y2p6WWpfSVhCb095YVZrSVBVZnFRSHRGM0h0OVRHRE5WTUpsUHN4SGFaWE5LSlJuSTJsblNFeTFvS1ZHYTVlbXpjWkVSUGZPN1UzZUVIcVhfQ3J2a1ZRUUdlVHhISjlraVZJbnJySmhVZ1pIaXd2MEZkM2x6YVN6aEI3Z2VSbFhGQklyUDl1Zl9qTENfQVdDSFJPTEctNjREbTQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 100,
+      "publishedAt": "2026-07-18T07:00:00.000Z",
+      "discoveredAt": "2026-10-31T09:31:24.282Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -3099,7 +3116,7 @@
       "summary": "Satish Upadhyay - Director General, Centre of Sustainability for Pure Earth | Chairperson, Biomass Global Associates Forum IFGE | Hydro Energy | Thermal Power | Bioenergy | Fuel management | Quality Assurance & Audits |Project Management LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE94NzJQNlVhNTROOG1EUmplUld1c3JTZHk2aC12cDAtYm5NVEZHQ0JnRjZVckVDb1JQUG5pMXZVNmFLNUxPaTNvMVRycjdpMnc?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 74,
@@ -8014,21 +8031,6 @@
       "score": 70,
       "publishedAt": "2026-01-09T08:00:00.000Z",
       "discoveredAt": "2026-09-25T04:48:33.075Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "0b580c49269",
-      "title": "𝐊𝐨𝐧𝐬𝐚𝐫𝐢 𝐡𝐨𝐮𝐬𝐞𝐬 𝐈𝐧𝐝𝐢𝐚’𝐬 𝐥𝐚𝐫𝐠𝐞𝐬𝐭 𝐬𝐢𝐧𝐠𝐥𝐞-𝐜𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧 𝐩𝐞𝐥𝐥𝐞𝐭 𝐩𝐥𝐚𝐧𝐭 𝐚 𝟒.𝟎 𝐌𝐓𝐏𝐀 𝐟𝐚𝐜𝐢𝐥𝐢𝐭𝐲 designed for scale, consistency, and integration. Located in 𝐆𝐚𝐝𝐜𝐡𝐢𝐫𝐨𝐥𝐢, 𝐌𝐚𝐡𝐚𝐫𝐚𝐬𝐡𝐭𝐫𝐚, the Konsari pelle",
-      "summary": "𝐊𝐨𝐧𝐬𝐚𝐫𝐢 𝐡𝐨𝐮𝐬𝐞𝐬 𝐈𝐧𝐝𝐢𝐚’𝐬 𝐥𝐚𝐫𝐠𝐞𝐬𝐭 𝐬𝐢𝐧𝐠𝐥𝐞-𝐜𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧 𝐩𝐞𝐥𝐥𝐞𝐭 𝐩𝐥𝐚𝐧𝐭 𝐚 𝟒.𝟎 𝐌𝐓𝐏𝐀 𝐟𝐚𝐜𝐢𝐥𝐢𝐭𝐲 designed for scale, consistency, and integration. Located in 𝐆𝐚𝐝𝐜𝐡𝐢𝐫𝐨𝐥𝐢, 𝐌𝐚𝐡𝐚𝐫𝐚𝐬𝐡𝐭𝐫𝐚, the Konsari pellet plant operates as linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMi1ESGJmYmRXQVpwVDdSTUVubXNMODZaMlpnQzRlOFVrWEh0akZHUl9YWGg4Z3FOZDRDdkY3ZWlaRElfdGJ2b0ZrV3FUaW1GT0ZjM3dlbVhuQTVnZXBOMkwwMWZncmxia1B3clU0UXhrWDFnSlNjLTF0dmxVUThTT1Y0LWpqNjFfdXhkMVZlNm5RVDdYUGhhTDlEX1drd2Nyb0V5aVlka1dVZGpPLVA4S01BYXl5Rm51ekRkakNn?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-01-09T08:00:00.000Z",
-      "discoveredAt": "2026-09-29T16:28:49.175Z",
       "channel": "linkedin",
       "isNew": false
     }
