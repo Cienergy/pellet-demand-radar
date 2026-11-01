@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-11-01T16:47:21.756Z",
-  "crawlDurationMs": 23339,
+  "updatedAt": "2026-11-01T21:08:22.757Z",
+  "crawlDurationMs": 18105,
   "stats": {
     "total": 500,
-    "tenders": 165,
+    "tenders": 166,
     "purchase": 113,
-    "news": 222,
+    "news": 221,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 47,
-    "withCompany": 143
+    "newThisCrawl": 41,
+    "withCompany": 142
   },
   "sources": [
     {
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 8,
+      "count": 25,
       "error": null
     },
     {
@@ -128,28 +128,28 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 46,
+      "count": 54,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 24,
+      "count": 25,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 66,
+      "count": 65,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 7,
+      "count": 6,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 9,
+      "count": 5,
       "error": null
     },
     {
@@ -1264,6 +1264,21 @@
       "isNew": false
     },
     {
+      "id": "5144a02f245",
+      "title": "🌱 Biomass Briquettes & Pellets vs. Coal: Powering a Greener India 🇮🇳 Why should industries consider biomass? - 🌾 Farmer Empowerment – Creates additional income opportunities from agricultural residues. - 🌍 Lower Carbon Footprint – Can reduce lifecycl - LinkedIn",
+      "summary": "🌱 Biomass Briquettes & Pellets vs. Coal: Powering a Greener India 🇮🇳 Why should industries consider biomass? - 🌾 Farmer Empowerment – Creates additional income opportunities from agricultural residues. - 🌍 Lower Carbon Footprint – Can reduce lifecycl LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNXzZlalZ5MC1TSXE5YVB4eGFKbkVoa1h2QjhJX2tFS0RrVUZNa0o0WXlLS2FPbE1YYlVHeUJodG1qVkF6c0hWVEZDOWEtOEV6SkNiTGswYUV1am9LWFVndUFVQlJrVm1zWUF4aVpZb29KanNfYlJuczJQc2x4dHdyMUdmbHY0UXFsY0dhcThMVTBKMVR0aVA3Z0tUbXlMZkpUZzBEaU53WnlkZ0ZkTUJJcEQzZUgtSVlJU19mX0Fkb0wwVUpOS1M4?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 90,
+      "publishedAt": "2026-10-19T07:00:00.000Z",
+      "discoveredAt": "2026-11-01T21:08:06.631Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "0de7ee4f220",
       "title": "🇨🇳 🤝 🇮🇳 🤝 🇮🇩 GLOBAL TECHNOLOGY. STRONG PARTNERSHIPS. GROWING BIOMASS OPPORTUNITIES. Proud to see our technology partner Shandong Yulong Machine Co., Ltd. representing biomass processing and pelletization solutions at IFMAC W - LinkedIn",
       "summary": "🇨🇳 🤝 🇮🇳 🤝 🇮🇩 GLOBAL TECHNOLOGY. STRONG PARTNERSHIPS. GROWING BIOMASS OPPORTUNITIES. Proud to see our technology partner Shandong Yulong Machine Co., Ltd. representing biomass processing and pelletization solutions at IFMAC W LinkedIn",
@@ -1711,7 +1726,7 @@
       "publishedAt": "2024-03-29T07:00:00.000Z",
       "discoveredAt": "2026-11-01T16:46:59.571Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "889dd23a17b84493",
@@ -4597,8 +4612,8 @@
       "summary": "Govt temporarily eases mandate on biomass pellet co-firing in thermal power plants Moneycontrol.com",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPS1NCeUZPb1lFZnRJSUhHZ0VlR0IyeVdVa3NZa19UdEVRSTd0b0cxeHVOZGJVelA1OU1xMlJicVRoUWVQSGVHTjhOcE55WURoeVhBam5jUjBXYWYxbHQ2c0FySm04NnhabjRzWklSVEdOaHRZT1c2cWFnd0lyN1RieEktTzZfdlE4V182SE5SMi1Vdlg2emhJWjB2MEc1NktQbXJXU2dJYlhZaDNzUUpZb1RhMEg1LVk1ckVsUFQ5SGxNVk1YUllhWDhhU19IdU0xWFHSAdcBQVVfeXFMUHhrYTQtVlJRVUFTQkxHU1BpRTAwOHVScmJIbUFpX2Z1OGxkYmstZ3BfUy1jTkZFeXZGU0NnOHAyMWVOWGx6aFIzUy1EMzZxSFo1aDRhNWpvTVc0TDd4YjFXYl9ZWl9uems4VXZCV3NvMjJ1RWUzbWNrbGlaNTNkNGVXMDMtZGxOcngwOEpNNkFCaFh4NXVLQkQzZ3prYkdXekF0VUV3SDdaQmpYMFdXTmdVdmRHRE1CVGRiZC1lU3lzOWlRcnQxOWdBZUtXTVl5V19zY21CdkU?oc=5",
       "source": "google_news",
-      "sourceLabel": "State utilities",
-      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
+      "sourceLabel": "Pellet NITs IN",
+      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
       "type": "purchase",
       "companies": [],
       "score": 53,
@@ -5186,7 +5201,7 @@
       "publishedAt": "2026-10-26T02:21:27.000Z",
       "discoveredAt": "2026-11-01T16:47:00.286Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "33f579a1191",
@@ -8015,23 +8030,6 @@
       "score": 70,
       "publishedAt": "2026-01-27T08:00:00.000Z",
       "discoveredAt": "2026-09-19T15:47:30.427Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "15fd287423c",
-      "title": "Torrefied Carbonization Machine｜Upgrading Biomass into High-Value Biochar with Dingli Group 🌱 As the global market accelerates toward renewable energy, biomass pellets, and carbon-reduction solutions, torrefaction technology is becoming a key step in - LinkedIn",
-      "summary": "Torrefied Carbonization Machine｜Upgrading Biomass into High-Value Biochar with Dingli Group 🌱 As the global market accelerates toward renewable energy, biomass pellets, and carbon-reduction solutions, torrefaction technology is becoming a key step in LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQN0dVa1ZjVDdOLTM3cmJla0RFT1o3Y2FPVHZKRlNCeGVrLUd0NGtLVnJzVE5XMXBXNWloeXNMc0RNZlVYQ2dOQTloZjZ0Z0pyVURGR1ZicnVLZWtkdDN6R1loeGNzcUlLTjEySEd6RFBIMWVDVVhaV1AtRG4wNDc0UUdSUzZIeDdGVWZEaEUzQ0Z2LWd6YWZHV1pRS0toTTdRRzg2dDRGYmIzdWhZZDhkV3hsV3NxYU9CUlA2Sk5tOHNKdmM?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [
-        "ACC"
-      ],
-      "score": 70,
-      "publishedAt": "2026-01-21T08:00:00.000Z",
-      "discoveredAt": "2026-10-23T10:28:43.448Z",
       "channel": "linkedin",
       "isNew": false
     }
