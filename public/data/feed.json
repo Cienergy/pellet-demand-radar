@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-01T02:08:32.112Z",
-  "crawlDurationMs": 18988,
+  "updatedAt": "2026-11-01T09:40:44.852Z",
+  "crawlDurationMs": 17721,
   "stats": {
     "total": 500,
     "tenders": 164,
@@ -8,7 +8,7 @@
     "news": 223,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 36,
+    "newThisCrawl": 39,
     "withCompany": 143
   },
   "sources": [
@@ -69,11 +69,11 @@
       "error": "HTTP 403"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "NTPC live tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "HTTP 404"
     },
     {
       "ok": true,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 45,
+      "count": 53,
       "error": null
     },
     {
@@ -142,7 +142,7 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 46,
+      "count": 47,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 9,
+      "count": 8,
       "error": null
     },
     {
@@ -1359,7 +1359,7 @@
       "summary": "India Biomass Market Analysis 2026–2034: Key Growth Drivers, Emerging Opportunities & Outlook LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMVA0REJxamRpQXp5M0Rvbld0YnVGaU1IamFyY2NRMWJfUF9vM2tHLXRZWHpXVnZLSEJjeVFLYlFHT1E1OGMzLW5wLVE1bHEySDdvQjRkTjJXXzY1bGhjdGJ3SkVpdHdKbHRqb1l6blFHUWJ2d1ZPRWdOWllQYXpMREIwc3lFbWFSYlB6ZEFhUDI2Z05wTGJaSTNUQ0dSRFNXNkhF?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -3154,7 +3154,7 @@
       "publishedAt": "2025-04-19T07:00:00.000Z",
       "discoveredAt": "2026-11-01T02:08:13.519Z",
       "channel": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4450a56d0a72db0b",
@@ -7351,6 +7351,21 @@
       "isNew": false
     },
     {
+      "id": "75af6c2d178",
+      "title": "Akshay Trivedi - Agribusiness & Bioenergy Professional | Biomass Aggregation | Supply Chain | Business Development | M.Sc. Agronomy | BiofuelCircle | UPL | ITC Agribusiness - LinkedIn India",
+      "summary": "Akshay Trivedi - Agribusiness & Bioenergy Professional | Biomass Aggregation | Supply Chain | Business Development | M.Sc. Agronomy | BiofuelCircle | UPL | ITC Agribusiness LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB6V1dpa0UzYjdLR09yQ19TOW81S3hOSkZrUVIyd0IweUZ5NXlOZmJBLTBMcWIyN1BOU1lVbzhGMDd4REM2aHJYaF80VmlPQzBMWUdval92TElXbHVEWGlCck5PSE82YWJK?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-06-05T07:40:35.000Z",
+      "discoveredAt": "2026-11-01T09:40:28.830Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "3d320853251",
       "title": "🌱 A New Journey Begins Today, we are proud to introduce ECOGRO ENERGIA PVT LTD. India generates millions of tonnes of agricultural biomass every year. Much of it remains underutilized, while industries continue to seek sustainable alternatives to conv - linkedin.com",
       "summary": "🌱 A New Journey Begins Today, we are proud to introduce ECOGRO ENERGIA PVT LTD. India generates millions of tonnes of agricultural biomass every year. Much of it remains underutilized, while industries continue to seek sustainable alternatives to conv linkedin.com",
@@ -8017,21 +8032,6 @@
       "score": 70,
       "publishedAt": "2026-01-12T08:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.814Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "038a65c4174",
-      "title": "Biomass Pellets Market in Share in 2026: Energizing Renewable Energy With High-Efficiency Biofuel Solutions - linkedin.com",
-      "summary": "Biomass Pellets Market in Share in 2026: Energizing Renewable Energy With High-Efficiency Biofuel Solutions linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVTRlSDgxclVrSkpNOEFYOE9VUXItMWNRLUtlWmlPWFQzWmRHdkNlUHFjV3REVGhPZ3RpZDhWRFFBMFlCQy1MNUpxX3pBb1pwcmk2UU9WNldQUUVGTi05aXAxaWYzd3E5bGFXRTVfUmd4d3BXX2dlLVdRcjhwX3AwMExxRlBvdzJiTm1zMXRadjRiTjhIbWc?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-01-12T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:31.354Z",
       "channel": "linkedin",
       "isNew": false
     }
