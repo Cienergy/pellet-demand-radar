@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-01T09:40:44.852Z",
-  "crawlDurationMs": 17721,
+  "updatedAt": "2026-11-01T16:47:21.756Z",
+  "crawlDurationMs": 23339,
   "stats": {
     "total": 500,
-    "tenders": 164,
+    "tenders": 165,
     "purchase": 113,
-    "news": 223,
+    "news": 222,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 39,
+    "newThisCrawl": 47,
     "withCompany": 143
   },
   "sources": [
@@ -69,11 +69,11 @@
       "error": "HTTP 403"
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "NTPC live tenders",
       "query": null,
       "count": 0,
-      "error": "HTTP 404"
+      "error": null
     },
     {
       "ok": true,
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 26,
+      "count": 8,
       "error": null
     },
     {
@@ -128,28 +128,28 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 53,
+      "count": 46,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 25,
+      "count": 24,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 47,
+      "count": 66,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 5,
+      "count": 7,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 8,
+      "count": 9,
       "error": null
     },
     {
@@ -1359,7 +1359,7 @@
       "summary": "India Biomass Market Analysis 2026–2034: Key Growth Drivers, Emerging Opportunities & Outlook LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMVA0REJxamRpQXp5M0Rvbld0YnVGaU1IamFyY2NRMWJfUF9vM2tHLXRZWHpXVnZLSEJjeVFLYlFHT1E1OGMzLW5wLVE1bHEySDdvQjRkTjJXXzY1bGhjdGJ3SkVpdHdKbHRqb1l6blFHUWJ2d1ZPRWdOWllQYXpMREIwc3lFbWFSYlB6ZEFhUDI2Z05wTGJaSTNUQ0dSRFNXNkhF?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -1697,6 +1697,21 @@
       "discoveredAt": "2026-09-20T23:11:31.366Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "6950ab9713a",
+      "title": "Unveiling Asia's Top 10 Wood Pellet Producing Nations: Trends, Insights, and Opportunities - LinkedIn",
+      "summary": "Unveiling Asia's Top 10 Wood Pellet Producing Nations: Trends, Insights, and Opportunities LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBNcGt1N3lZeUJleV9SZ0dQeUdJTnhqUmNQTFRoRExxc3hpa1QwcTgxQ01rUmRwVHlMYV8tdXprTlYxRDJqMXEzV3QyakpaZEdVZWtHbGZEUDE4ODFVVHpVLW94NGdZS0pUUHhRVUlNVkR6ZEtNalV6YlRiaw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "tender",
+      "companies": [],
+      "score": 90,
+      "publishedAt": "2024-03-29T07:00:00.000Z",
+      "discoveredAt": "2026-11-01T16:46:59.571Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "889dd23a17b84493",
@@ -2388,7 +2403,7 @@
       "summary": "Dharmesh Kumar kewat - Energy Transition and Sustainability| Power Utilities | Public & Climate Policy| Biofuels & Biomass Markets |Biomass Cofiring | ESG | Industrial Decarbonization | Stakeholder Engagement | Government Advisory LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5VWVVoMHl5V3I5dkJIN3J0UDZ5SWlxU2ZGTkRIektoS1hRWDNQVkZQNHlkd0xjMHlfLUJIUzhfWFBHSmd4UHRleEpoampuZw?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 77,
@@ -5159,6 +5174,21 @@
       "isNew": false
     },
     {
+      "id": "66a299bd25c",
+      "title": "📝 Xinli Boiler Knowledge Tips- Comparison between High-Temperature Gasifier and Conventional Biomass Boiler Both high‑temperature gasifiers and conventional biomass boilers can burn agricultural and forestry residues for clean heating projects. Howev - LinkedIn",
+      "summary": "📝 Xinli Boiler Knowledge Tips- Comparison between High-Temperature Gasifier and Conventional Biomass Boiler Both high‑temperature gasifiers and conventional biomass boilers can burn agricultural and forestry residues for clean heating projects. Howev LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQWW5KWEhwZHZpOGF1U0VaaEF1YkE2T21SQjVQWnRnV0pQQUJIdk1qYnZIbXdMOG9uSFY2eWk2TGhtbkR5UmJsWU5TMHFxak1xQWJwTTdqSmdUOUFiSzhCX1c2OVVYN2xMQ3NKOTZBTnZrWTNfeV9rN0lhRHRIT2loOUxUclpUNkFqcl85ZDhsLTYwRFhRUWoyYVRNb1pCTlJyRHl5V2VVNVFBZTNCNTBCT01LRzN4VWdDZWRiVWNUbktGNVlFWVZ6RjlYcm5iR1ZQeG5uME9uOC1pamM?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-26T02:21:27.000Z",
+      "discoveredAt": "2026-11-01T16:47:00.286Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "33f579a1191",
       "title": "Comprehensive Overview of Taiwan White Wood Pellet Market: Insights on Growth Drivers and Projected CAGR 4.1% from 2026-2033 - LinkedIn",
       "summary": "Comprehensive Overview of Taiwan White Wood Pellet Market: Insights on Growth Drivers and Projected CAGR 4.1% from 2026-2033 LinkedIn",
@@ -7363,7 +7393,7 @@
       "publishedAt": "2026-06-05T07:40:35.000Z",
       "discoveredAt": "2026-11-01T09:40:28.830Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3d320853251",
@@ -8002,36 +8032,6 @@
       "score": 70,
       "publishedAt": "2026-01-21T08:00:00.000Z",
       "discoveredAt": "2026-10-23T10:28:43.448Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "2d07740e134",
-      "title": "Sanjivani Agro Machinery - Biochar | Charcoal | Carbon credits | Biomass Pellets | Agricultural Machinary | Biogas - LinkedIn India",
-      "summary": "Sanjivani Agro Machinery - Biochar | Charcoal | Carbon credits | Biomass Pellets | Agricultural Machinary | Biogas LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1vWlRCR1ZNZlRrVTU5Z0pfdThBRzZFX0lXM3ZBOFdsLVRUUWVUQTRSdmkxeXE5LTEyOGE3YnV6aDUySzRUaGhpM0VjOWhJNU9oTFUtWVBHVkVjU0xHN29oLQ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-01-18T21:24:02.000Z",
-      "discoveredAt": "2026-09-20T17:38:51.803Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "645a640f170",
-      "title": "Biomass Pellets Market in Share in 2026: Energizing Renewable Energy With High-Efficiency Biofuel Solutions - LinkedIn",
-      "summary": "Biomass Pellets Market in Share in 2026: Energizing Renewable Energy With High-Efficiency Biofuel Solutions LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVTRlSDgxclVrSkpNOEFYOE9VUXItMWNRLUtlWmlPWFQzWmRHdkNlUHFjV3REVGhPZ3RpZDhWRFFBMFlCQy1MNUpxX3pBb1pwcmk2UU9WNldQUUVGTi05aXAxaWYzd3E5bGFXRTVfUmd4d3BXX2dlLVdRcjhwX3AwMExxRlBvdzJiTm1zMXRadjRiTjhIbWc?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-01-12T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:10:28.814Z",
       "channel": "linkedin",
       "isNew": false
     }
