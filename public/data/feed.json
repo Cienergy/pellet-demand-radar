@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-31T22:48:04.174Z",
-  "crawlDurationMs": 18697,
+  "updatedAt": "2026-11-01T02:08:32.112Z",
+  "crawlDurationMs": 18988,
   "stats": {
     "total": 500,
-    "tenders": 163,
+    "tenders": 164,
     "purchase": 113,
-    "news": 224,
+    "news": 223,
     "portals": 94,
-    "linkedin": 361,
-    "newThisCrawl": 44,
+    "linkedin": 360,
+    "newThisCrawl": 36,
     "withCompany": 143
   },
   "sources": [
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 8,
+      "count": 26,
       "error": null
     },
     {
@@ -97,11 +97,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -128,28 +128,28 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 55,
+      "count": 45,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 26,
+      "count": 25,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 67,
+      "count": 46,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 7,
+      "count": 5,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 8,
+      "count": 9,
       "error": null
     },
     {
@@ -2388,7 +2388,7 @@
       "summary": "Dharmesh Kumar kewat - Energy Transition and Sustainability| Power Utilities | Public & Climate Policy| Biofuels & Biomass Markets |Biomass Cofiring | ESG | Industrial Decarbonization | Stakeholder Engagement | Government Advisory LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5VWVVoMHl5V3I5dkJIN3J0UDZ5SWlxU2ZGTkRIektoS1hRWDNQVkZQNHlkd0xjMHlfLUJIUzhfWFBHSmd4UHRleEpoampuZw?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [],
       "score": 77,
@@ -3139,6 +3139,22 @@
       "publishedAt": "2025-09-20T07:00:00.000Z",
       "discoveredAt": "2026-09-19T05:08:43.019Z",
       "isNew": false
+    },
+    {
+      "id": "7ebc84afc89c6b2b",
+      "title": "Restricting Tender Participation To NCR-Based Pellet Manufacturers To Curb Stubble Burning, Pollution Not ... - Live Law",
+      "summary": "Restricting Tender Participation To NCR-Based Pellet Manufacturers To Curb Stubble Burning, Pollution Not ... Live Law",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNZjVyRUFPN0tUNUVueXpFRjAwY3g4SjdvVWk1bUJmczJ1WFpMeVJrdmotM0hVVkxQa24zQVFaNkJXMEk2UmpQa1NVU0RvWFZuZWRlaHdpZnE0TVdybnZKLTdfY3EwVGJ0NC1fY1ZmUF9mSjdMcXRHOEk4dHFrbnljcTBCTW1ERW92VVQxRE12ZW8xaUlkcmpUS1ItbTFJQ0QwQkotS24tdF9IOHlpdWQ2ZVVuRUdKaEdOUzRJMENyeHF2M3ZFN2ppTF8wb0IxaW41VFRPbDRNLUE4Qlo0cDdaS291anRURnZZUWNrcnpDU3jSAfYBQVVfeXFMTkR4NlFFTlJhdzlzem1Qa0RMMHZacVV2YWRnUFBHVlkzR2c2TlplUTlESWZPdVlsYlpDX2lRSE9KWFN0bmlFamp6bE9kcWtLdHFuLWhlQVFkUGxPVFFLSWNtRjdsRm5hMUdxdUZiY1M1aVdBdndVaU5jNGhoU1prSElURGVrd2tiNVVUSHRrMEdnam9RNmtYU3NScEx2OGdMbS1Rc0NFbnU5cHZKOVpMWmdZWE5HSGUtWG5zODF0QzFFbnI3V2hpOWdBZ01MNDFmS1J6TjZoSVJicThxdjlZUE5USmZRTUNrWkJ6bEFOVkxSMUdiMi1R?oc=5",
+      "source": "google_news",
+      "sourceLabel": "State utilities",
+      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
+      "type": "tender",
+      "companies": [],
+      "score": 65,
+      "publishedAt": "2025-04-19T07:00:00.000Z",
+      "discoveredAt": "2026-11-01T02:08:13.519Z",
+      "channel": "news",
+      "isNew": true
     },
     {
       "id": "4450a56d0a72db0b",
@@ -8016,21 +8032,6 @@
       "score": 70,
       "publishedAt": "2026-01-12T08:00:00.000Z",
       "discoveredAt": "2026-09-19T15:47:31.354Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "18c61b64265",
-      "title": "𝐊𝐨𝐧𝐬𝐚𝐫𝐢 𝐡𝐨𝐮𝐬𝐞𝐬 𝐈𝐧𝐝𝐢𝐚’𝐬 𝐥𝐚𝐫𝐠𝐞𝐬𝐭 𝐬𝐢𝐧𝐠𝐥𝐞-𝐜𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧 𝐩𝐞𝐥𝐥𝐞𝐭 𝐩𝐥𝐚𝐧𝐭 𝐚 𝟒.𝟎 𝐌𝐓𝐏𝐀 𝐟𝐚𝐜𝐢𝐥𝐢𝐭𝐲 designed for scale, consistency, and integration. Located in 𝐆𝐚𝐝𝐜𝐡𝐢𝐫𝐨𝐥𝐢, 𝐌𝐚𝐡𝐚𝐫𝐚𝐬𝐡𝐭𝐫𝐚, the Konsari pelle",
-      "summary": "𝐊𝐨𝐧𝐬𝐚𝐫𝐢 𝐡𝐨𝐮𝐬𝐞𝐬 𝐈𝐧𝐝𝐢𝐚’𝐬 𝐥𝐚𝐫𝐠𝐞𝐬𝐭 𝐬𝐢𝐧𝐠𝐥𝐞-𝐜𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧 𝐩𝐞𝐥𝐥𝐞𝐭 𝐩𝐥𝐚𝐧𝐭 𝐚 𝟒.𝟎 𝐌𝐓𝐏𝐀 𝐟𝐚𝐜𝐢𝐥𝐢𝐭𝐲 designed for scale, consistency, and integration. Located in 𝐆𝐚𝐝𝐜𝐡𝐢𝐫𝐨𝐥𝐢, 𝐌𝐚𝐡𝐚𝐫𝐚𝐬𝐡𝐭𝐫𝐚, the Konsari pellet plant operates as LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMi1ESGJmYmRXQVpwVDdSTUVubXNMODZaMlpnQzRlOFVrWEh0akZHUl9YWGg4Z3FOZDRDdkY3ZWlaRElfdGJ2b0ZrV3FUaW1GT0ZjM3dlbVhuQTVnZXBOMkwwMWZncmxia1B3clU0UXhrWDFnSlNjLTF0dmxVUThTT1Y0LWpqNjFfdXhkMVZlNm5RVDdYUGhhTDlEX1drd2Nyb0V5aVlka1dVZGpPLVA4S01BYXl5Rm51ekRkakNn?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-01-09T08:00:00.000Z",
-      "discoveredAt": "2026-09-25T04:48:33.075Z",
       "channel": "linkedin",
       "isNew": false
     }
