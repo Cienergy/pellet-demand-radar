@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-11-01T21:08:22.757Z",
-  "crawlDurationMs": 18105,
+  "updatedAt": "2026-11-02T01:00:26.042Z",
+  "crawlDurationMs": 17605,
   "stats": {
     "total": 500,
-    "tenders": 166,
+    "tenders": 167,
     "purchase": 113,
-    "news": 221,
+    "news": 220,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 41,
-    "withCompany": 142
+    "newThisCrawl": 43,
+    "withCompany": 143
   },
   "sources": [
     {
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 25,
+      "count": 8,
       "error": null
     },
     {
@@ -128,14 +128,14 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 54,
+      "count": 46,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 25,
+      "count": 30,
       "error": null
     },
     {
@@ -149,7 +149,7 @@
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
@@ -1276,7 +1276,7 @@
       "publishedAt": "2026-10-19T07:00:00.000Z",
       "discoveredAt": "2026-11-01T21:08:06.631Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0de7ee4f220",
@@ -2661,7 +2661,7 @@
       "summary": "In-situ & Ex-situ Crop residue Management LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNc1F2ZndOak1JS3VVbURjclYtb3g3MGtLWjQwT2h4M1hZdkdLLVpFVTJkVkl1bWNfaC1fdElXelZ5UlJSYy0wM0lnelJNZk5DbnM1SWpHMWU4bEJRYTl6cFJ3UmNlZWFXWWU2eElaY1BEX0txRFJLQThla0FBQmYxZkMzU3Z1X0hydEFRVUE2dGlfdFpwUUE?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [],
       "score": 74,
@@ -3124,6 +3124,23 @@
       "discoveredAt": "2026-09-19T15:47:30.438Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "2ba680b71b1",
+      "title": "Pravesh Kumar Jhamb - Executive Engineer at NTPC Limited | Ex- ISGEC | Ex- Jaiprakash Power Ventures Ltd | Engineering BOP Packages | Biomass Infra | Solar Project | Project Management | Project Execution | B.tech (Mechanical Engg) - LinkedIn India",
+      "summary": "Pravesh Kumar Jhamb - Executive Engineer at NTPC Limited | Ex- ISGEC | Ex- Jaiprakash Power Ventures Ltd | Engineering BOP Packages | Biomass Infra | Solar Project | Project Management | Project Execution | B.tech (Mechanical Engg) LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1DWGFWVnpkbWNmdEZJVDFfREppSV9qWFBhNUlfTUdBdTNFdkNJZ0hRME9RSzU3ak5ZclhUSlU1NnVKZjZCal94cWIwVTRfNUhTTjBGQjJhTUNicXQySy1KV2tOaFJJUQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 74,
+      "publishedAt": "2015-11-20T15:05:10.000Z",
+      "discoveredAt": "2026-11-02T01:00:10.131Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "79fe675e199",
@@ -5187,6 +5204,21 @@
       "discoveredAt": "2026-10-19T17:44:33.519Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "40f91764255",
+      "title": "📝 Xinli Boiler Knowledge Tips- Comparison between High-Temperature Gasifier and Conventional Biomass Boiler Both high‑temperature gasifiers and conventional biomass boilers can burn agricultural and forestry residues for clean heating projects. Howev - LinkedIn",
+      "summary": "📝 Xinli Boiler Knowledge Tips- Comparison between High-Temperature Gasifier and Conventional Biomass Boiler Both high‑temperature gasifiers and conventional biomass boilers can burn agricultural and forestry residues for clean heating projects. Howev LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPb3ZHbXBRcmxmU2VibFpTbmZrRlh2RHpMVERuTmpVWUNDbWEyV3NQYl9KUy1aX0tGTzlmYzN4OTQxZmtoSlpuNjd6aEdEdFhBSll1N3hWTTgyVGp5V2EwWmJmcTJWal9VU2R1ZjlZNGx5am5RWElLSnFodHdPUXF6MnlyRUFjak51T1VFRHpUTnE2anBESXpxWERPYUdZMTRIRWNDT1pXTkotdHZPN3NEd0oxMDhncW5XSDF0WlFzUmhtVFVLb081UEpvXzJkZjdtdHJRazBn?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-26T02:21:45.000Z",
+      "discoveredAt": "2026-11-02T01:00:10.552Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "66a299bd25c",
@@ -7600,7 +7632,7 @@
       "summary": "Top 10 Biomass Pellet Manufacturers in India: 1. Abellon CleanEnergy Ltd. 2. Punjab Renewable Energy Systems Pvt. Ltd. 3. ECOSTAN Biofuel Pvt. Ltd. 4. Rajaram Solvex Ltd. 5. Manikaran Power Ltd. 6. Shubhshree Biofuels Energy Ltd. 7. Dhaneshwar Fire LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdG5FcjZjbFY5ay1sVE5vWFctR2xPcE0yNEx2LWdBNUZFamNNMGJfMjI4ZUhZajlsbnJLTXlxNF9jZFRPMjlNdFRHbE1lLUJRMTVJRnVrZFdGcUY3N1g1LUpSczVGa0pzLVYxQ0lXcHZFUWtXVG1Qd2RRMGdDQTlMSkdla0h4NHoycUxxVjNfQVZNcVVqU3JEaVI3TTBscnl4QnpEdXRka1VZRmxpVFVSV0tqZXMtMFk?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -8000,36 +8032,6 @@
       "score": 70,
       "publishedAt": "2026-01-31T17:10:37.000Z",
       "discoveredAt": "2026-09-19T15:47:30.429Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "4f300a3e18a",
-      "title": "Why Biomass Pellet Manufacturers in India Are Shutting Down – Ground Reality & Policy Gaps - LinkedIn",
-      "summary": "Why Biomass Pellet Manufacturers in India Are Shutting Down – Ground Reality & Policy Gaps LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNR1c0ai0wc3dicEFhdGR5T3ZHTlFKZEp3b0ZZSlhhX0JEWWJ6VGNGZGExNGNuOEY3NjVMbFRJNnBEdW91NVBhN3ZzUl9Ib2NoY1o4S2RMbTdqZmJvOFhTcDF5RGVVUzR0cW9wYmtrMG16RDdtNmRwM3ZHNHdzZlM1V1k5UWR3ZU1GY24xWnBGRVpNbzM5V3ItUFNtNURBNzBtbkdpcGhlQTJQNWo2Z0Q2MXI3X3kwQQ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-01-27T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.213Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "65616f1518e",
-      "title": "Why Biomass Pellet Manufacturers in India Are Shutting Down – Ground Reality & Policy Gaps - linkedin.com",
-      "summary": "Why Biomass Pellet Manufacturers in India Are Shutting Down – Ground Reality & Policy Gaps linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNR1c0ai0wc3dicEFhdGR5T3ZHTlFKZEp3b0ZZSlhhX0JEWWJ6VGNGZGExNGNuOEY3NjVMbFRJNnBEdW91NVBhN3ZzUl9Ib2NoY1o4S2RMbTdqZmJvOFhTcDF5RGVVUzR0cW9wYmtrMG16RDdtNmRwM3ZHNHdzZlM1V1k5UWR3ZU1GY24xWnBGRVpNbzM5V3ItUFNtNURBNzBtbkdpcGhlQTJQNWo2Z0Q2MXI3X3kwQQ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-01-27T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.427Z",
       "channel": "linkedin",
       "isNew": false
     }
