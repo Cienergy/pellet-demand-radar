@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-03T16:29:59.018Z",
-  "crawlDurationMs": 20441,
+  "updatedAt": "2026-11-03T21:57:24.496Z",
+  "crawlDurationMs": 18330,
   "stats": {
     "total": 500,
-    "tenders": 169,
-    "purchase": 115,
-    "news": 216,
+    "tenders": 170,
+    "purchase": 116,
+    "news": 214,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 41,
+    "newThisCrawl": 38,
     "withCompany": 144
   },
   "sources": [
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": false,
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 23,
+      "count": 24,
       "error": null
     },
     {
@@ -128,28 +128,28 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 57,
+      "count": 59,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 26,
+      "count": 27,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 47,
+      "count": 46,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 9,
+      "count": 7,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 7,
+      "count": 5,
       "error": null
     },
     {
@@ -1381,7 +1381,7 @@
       "publishedAt": "2026-08-24T07:00:00.000Z",
       "discoveredAt": "2026-11-03T16:29:39.914Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "20f5eff3173",
@@ -1951,6 +1951,21 @@
       "discoveredAt": "2026-09-22T07:39:42.466Z",
       "channel": "news",
       "isNew": false
+    },
+    {
+      "id": "777e1d4218e",
+      "title": "Aphisit Saetang - CEO @ Tetiwat Woodwork (TTW) | Manufacturer of FSC/SBP/PEFC/GGL certified wood pellets, Gurjan veneer & rosewood furniture | Building Thailand’s largest sustainable wood pellet operation - LinkedIn ไทย",
+      "summary": "Aphisit Saetang - CEO @ Tetiwat Woodwork (TTW) | Manufacturer of FSC/SBP/PEFC/GGL certified wood pellets, Gurjan veneer & rosewood furniture | Building Thailand’s largest sustainable wood pellet operation LinkedIn ไทย",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9YWGc2aHp2bi1VN1N1TGd2QUJZZEVFeXN1MXdOTU9PSEE4MG92bGhnMHNvSllzakxmakdKU3JVZXVndWJzRnc3ZTNmYW56Q2NnT1lDZnJMVl8zeHNudHVzX01B?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "tender",
+      "companies": [],
+      "score": 90,
+      "publishedAt": "2018-03-23T08:13:31.000Z",
+      "discoveredAt": "2026-11-03T21:57:07.704Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "1e418112149",
@@ -4029,6 +4044,21 @@
       "isNew": false
     },
     {
+      "id": "7510917b228",
+      "title": "Today, I want to highlight another concern ⏰ The Green Energy & Biofuel sector is attracting many new investors. Many are setting up pellet plants based on subsidies, consultant advice, and market projections. However, the actual market demand is still limite - LinkedIn",
+      "summary": "Today, I want to highlight another concern ⏰ The Green Energy & Biofuel sector is attracting many new investors. Many are setting up pellet plants based on subsidies, consultant advice, and market projections. However, the actual market demand is still limite LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcDg0Q0NWUjVFMmtfVUMyOVNQSlBza1FoeDVVNEVkcGlwUnJYZHY2WVNGVWxhMjdBa2RqRXluT0t3UnZmMlY5UmlUWDljNmg2MDFRRzBwMlVtRlo3UGREellOdGhqcVNaTTdtNUczT0RNQThBRHhreXczd3J5WEFvbTh4ODBRWjZwTVVlUDRqdG91bV9qdl9KWWpJSGw3NUZSSG5ScVljYnJCazhYMlE?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2026-05-30T07:00:00.000Z",
+      "discoveredAt": "2026-11-03T21:57:07.703Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "778c9fdc249",
       "title": "🌱Biomass Pellet Sector in West Bengal (India) – Investment Brief West Bengal represents a high-potential emerging hub for biomass (non-torrefied) pellet development, driven by strong agricultural residue availability and rising institutional demand from easte - LinkedIn",
       "summary": "🌱Biomass Pellet Sector in West Bengal (India) – Investment Brief West Bengal represents a high-potential emerging hub for biomass (non-torrefied) pellet development, driven by strong agricultural residue availability and rising institutional demand from easte LinkedIn",
@@ -5268,6 +5298,21 @@
       "isNew": false
     },
     {
+      "id": "4160483c215",
+      "title": "Jivanta Global on Instagram: \"Jivanta Global Pvt Ltd at Boilers India Expo 2026, CIDCO Exhibition Centre, Navi Mumbai. It was a memorable one. 🙏✨🌎🇮🇳 #boilersindia2026 #biomasspellets #viralreels #expo #exhibition\" - LinkedIn",
+      "summary": "Jivanta Global on Instagram: \"Jivanta Global Pvt Ltd at Boilers India Expo 2026, CIDCO Exhibition Centre, Navi Mumbai. It was a memorable one. 🙏✨🌎🇮🇳 #boilersindia2026 #biomasspellets #viralreels #expo #exhibition\" LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRGdiUU9XZkZBOUR4aElCRmoxZFA3QjA5WDIycnVVSndheHpEa2tLZ0NGMXdOMUloMnRTRVYxRE0tek9DWS15TTl2QnRYU1dxaW4yZHZjS3ZDZTBxZWh6bG5xdms3Z2NVcG9XQXpIaVI4ZzR0SXNWYWRaUGFwUDVlZUpEZWt3SWJaZGoybmV3LUpGZkZraXZCT0dhTk5TZnFZNUlEbk8tSnppM3hUZkVweGNhRWF3c0QzQ2NzRHhodw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-27T06:00:07.000Z",
+      "discoveredAt": "2026-11-03T21:57:07.703Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "40f91764255",
       "title": "📝 Xinli Boiler Knowledge Tips- Comparison between High-Temperature Gasifier and Conventional Biomass Boiler Both high‑temperature gasifiers and conventional biomass boilers can burn agricultural and forestry residues for clean heating projects. Howev - LinkedIn",
       "summary": "📝 Xinli Boiler Knowledge Tips- Comparison between High-Temperature Gasifier and Conventional Biomass Boiler Both high‑temperature gasifiers and conventional biomass boilers can burn agricultural and forestry residues for clean heating projects. Howev LinkedIn",
@@ -5415,7 +5460,7 @@
       "publishedAt": "2026-10-18T07:00:00.000Z",
       "discoveredAt": "2026-11-03T16:29:40.628Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0f32be7d157",
@@ -7989,51 +8034,6 @@
       "score": 70,
       "publishedAt": "2026-03-08T08:00:00.000Z",
       "discoveredAt": "2026-09-19T15:47:31.355Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "2ca30b2b263",
-      "title": "🚀 120 TPD Biomass Pellet Project – Progress Update 🌱 At BioSteam, we remain strongly committed to supporting India’s Net Zero goals by transforming agricultural residues into clean, sustainable energy. Our vision goes beyond energy production. We are e - LinkedIn",
-      "summary": "🚀 120 TPD Biomass Pellet Project – Progress Update 🌱 At BioSteam, we remain strongly committed to supporting India’s Net Zero goals by transforming agricultural residues into clean, sustainable energy. Our vision goes beyond energy production. We are e LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWXQzeU1SUjh6VnNoRTE2c0QzX2lSbVZqbzd5cVcwZ2E4dGtsS2lJajhpTWJUand2X0FYSXdMMlI5MF9ublFlcG0yeUFDVkxUdXR2ZTNteDIyaUlTQUtJX19mYlRkUXFkRlM4NldLdEFicWNTRHZlMTZFbVJvRzRveUJhX2EtMF9HdDdRNnI5RUFzcUlaenpRbHNIUHF3U0JJN0RILUFkQWtUUXBQZVl1dTBiU0w3VllNUEJoMkY5MW9WNTlmel9WUUhRdEgwelV6VEFDaTFsYmk4UTFqWHc?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-03-08T08:00:00.000Z",
-      "discoveredAt": "2026-09-25T22:47:13.272Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "6c62aca8267",
-      "title": "🚀 120 TPD Biomass Pellet Project – Progress Update 🌱 At BioSteam, we remain strongly committed to supporting India’s Net Zero goals by transforming agricultural residues into clean, sustainable energy. Our vision goes beyond energy production. We are e - linkedin.com",
-      "summary": "🚀 120 TPD Biomass Pellet Project – Progress Update 🌱 At BioSteam, we remain strongly committed to supporting India’s Net Zero goals by transforming agricultural residues into clean, sustainable energy. Our vision goes beyond energy production. We are e linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWXQzeU1SUjh6VnNoRTE2c0QzX2lSbVZqbzd5cVcwZ2E4dGtsS2lJajhpTWJUand2X0FYSXdMMlI5MF9ublFlcG0yeUFDVkxUdXR2ZTNteDIyaUlTQUtJX19mYlRkUXFkRlM4NldLdEFicWNTRHZlMTZFbVJvRzRveUJhX2EtMF9HdDdRNnI5RUFzcUlaenpRbHNIUHF3U0JJN0RILUFkQWtUUXBQZVl1dTBiU0w3VllNUEJoMkY5MW9WNTlmel9WUUhRdEgwelV6VEFDaTFsYmk4UTFqWHc?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-03-08T08:00:00.000Z",
-      "discoveredAt": "2026-09-29T16:28:48.681Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "44d9c7f21b9",
-      "title": "US biomass facilities in line for technology-neutral tax credits under IRA - Bioenergy Insight Magazine - LinkedIn",
-      "summary": "US biomass facilities in line for technology-neutral tax credits under IRA - Bioenergy Insight Magazine LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWldPLVZaR041ZlRkeHRIMHVrcm1jQVpQdHpTdGQ0elRnV0RxazJuMTJZZ256VHVYbjlBZG8wdUpmYVZQNEJ5X1p4YXBKcUloVmhQZ2FMejRvV1BXdnBBZVFoNGJxOWdrV1V4X1plUUhwdTc3X3NhVVdjTm8wQWxhMDFDZ1lnS1ZBYkw5UzFGZGowRWVsVVd4bEZBVHhyMXVoQzlNOHczemRCU3NyVm9wZmFhYWdZd2p0ZWxKejljN2x4aUxKV0hTeGp0aklFYmp2?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-03-04T08:00:00.000Z",
-      "discoveredAt": "2026-10-03T23:18:43.973Z",
       "channel": "linkedin",
       "isNew": false
     }
