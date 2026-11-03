@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-02T18:13:50.626Z",
-  "crawlDurationMs": 21437,
+  "updatedAt": "2026-11-03T01:13:27.096Z",
+  "crawlDurationMs": 18468,
   "stats": {
     "total": 500,
     "tenders": 167,
-    "purchase": 113,
-    "news": 220,
+    "purchase": 114,
+    "news": 219,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 33,
+    "newThisCrawl": 42,
     "withCompany": 143
   },
   "sources": [
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": false,
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 8,
+      "count": 7,
       "error": null
     },
     {
@@ -135,14 +135,14 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 25,
+      "count": 26,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 44,
+      "count": 64,
       "error": null
     },
     {
@@ -163,7 +163,7 @@
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 7,
+      "count": 5,
       "error": null
     },
     {
@@ -989,7 +989,7 @@
       "summary": "Vedanta Power invites Expressions of Interest (EOI) from eligible Indian suppliers for the supply of agro-based, non-torrefied and torrefied biomass pellets to its 1200 MW thermal power plant at Vedanta Limited Chhattisgarh Thermal Power Plant (VLCTPP). Th LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcWU1bTVZTHd5WndSUzBCcThOMGdMc2FIMjJHN3l4aUdMdHVZMDRWbkpxNk90emZhRU5UV0N0TE5vU3Y0ZEIzWE5ZZUhCS3pOSU5kR25DYnpOcy1iUHlMUUY2TUNTcDhDeDdXRFZDOHpKSkNwRmtBNUJ1V3ZpbEliSW13LWd2TnZoSnpqSkZQTUFuLWI2WjNJTlVLRUxNdzNhMXdyajVFVjVIN2JuSHUtNDRnZw?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [
         "Vedanta"
@@ -2418,7 +2418,7 @@
       "summary": "Dharmesh Kumar kewat - Energy Transition and Sustainability| Power Utilities | Public & Climate Policy| Biofuels & Biomass Markets |Biomass Cofiring | ESG | Industrial Decarbonization | Stakeholder Engagement | Government Advisory LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5VWVVoMHl5V3I5dkJIN3J0UDZ5SWlxU2ZGTkRIektoS1hRWDNQVkZQNHlkd0xjMHlfLUJIUzhfWFBHSmd4UHRleEpoampuZw?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 77,
@@ -3841,6 +3841,21 @@
       "discoveredAt": "2026-10-07T15:30:41.678Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "0a3dca3d255",
+      "title": "Tata Steel and Lloyds are now exploring iron ore, pellets, slurry pipelines, and a proposed 6 MTPA steel plant together. In 2016, Tata Steel agreed to buy 100% of Brahmani River Pellets Limited at an enterprise value of ₹900 crore. The deal fell through in 201 - LinkedIn",
+      "summary": "Tata Steel and Lloyds are now exploring iron ore, pellets, slurry pipelines, and a proposed 6 MTPA steel plant together. In 2016, Tata Steel agreed to buy 100% of Brahmani River Pellets Limited at an enterprise value of ₹900 crore. The deal fell through in 201 LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQd01XMmpWSThRaXhhLVlNT1N2UGpkeUUzajAybl90Q1FPTExESHpYQldBTE1KWVNnMkNmT1hvWlpsdWVrZ0JNdVoySjAtaU9wZU82UzBZMWEzQ2ZpVndGZDg4X09sYlhtMEFsYnUtM0xRWk9KaVZMOEdSX2hSZzNVRkVKYUx3Q252Qld2TUU4TWVMajJERmNHRTVsSTZKbF94bFhKclJDaHl1QkN6N2U4MmZNV0xtT3A5QWpZTVVXNnh6cE80N0NzTzloWi1GNFk?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2026-09-18T07:00:00.000Z",
+      "discoveredAt": "2026-11-03T01:13:09.965Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "15d1bf72214",
@@ -7578,6 +7593,21 @@
       "isNew": false
     },
     {
+      "id": "40a1dae5107",
+      "title": "Pranav Mahapatra - Founder, Biomass Pellet Manufacturing Company (Srishti Biofuels) - LinkedIn India",
+      "summary": "Pranav Mahapatra - Founder, Biomass Pellet Manufacturing Company (Srishti Biofuels) LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1LZDZzVVh2NjBaVmo1RjhUbHFGcjVGVHhESk13YjhpOTFvT2J3cUVCMkpNZEY5bW9Fa3k4XzVxdFN4M1B3MFlNYTJ2TzRVOXl4dU5Eb1ln?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-05-31T06:50:22.000Z",
+      "discoveredAt": "2026-11-03T01:13:09.634Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "725fbd76261",
       "title": "NTPC targets 60 GW of renewable energy by 2032, making up nearly 45% of its total generation mix. To achieve this, it is actively retrofitting its coal assets with solar and biomass hybrids while rapidly scaling mega solar and green hydrogen projects across In - LinkedIn",
       "summary": "NTPC targets 60 GW of renewable energy by 2032, making up nearly 45% of its total generation mix. To achieve this, it is actively retrofitting its coal assets with solar and biomass hybrids while rapidly scaling mega solar and green hydrogen projects across In LinkedIn",
@@ -8002,36 +8032,6 @@
       "score": 70,
       "publishedAt": "2026-02-25T08:00:00.000Z",
       "discoveredAt": "2026-09-19T15:47:30.431Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "1b29ffaa251",
-      "title": "🌱𝐑𝐚𝐤𝐡𝐨𝐡 𝐁𝐨𝐢𝐥𝐞𝐫𝐬 𝐏𝐯𝐭. 𝐋𝐭𝐝. is an Indian Industrial 𝐁𝐨𝐢𝐥𝐞𝐫 𝐌𝐚𝐧𝐮𝐟𝐚𝐜𝐭𝐮𝐫𝐞𝐫 with over Four decades of experience in supplying Biomass and Multi-fuel steam Boilers across various industries. Their Boiler technology and Product portfolio are desi - L",
-      "summary": "🌱𝐑𝐚𝐤𝐡𝐨𝐡 𝐁𝐨𝐢𝐥𝐞𝐫𝐬 𝐏𝐯𝐭. 𝐋𝐭𝐝. is an Indian Industrial 𝐁𝐨𝐢𝐥𝐞𝐫 𝐌𝐚𝐧𝐮𝐟𝐚𝐜𝐭𝐮𝐫𝐞𝐫 with over Four decades of experience in supplying Biomass and Multi-fuel steam Boilers across various industries. Their Boiler technology and Product portfolio are desi LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNlFNdUtINjU2c05nM1JTRnhIYjlNNjRabFhkUjRPVC04MXMzRDc0X1JmQmdBNmpRZUpkb2Jjb2NVTHpTSGR1bzMzbVYzczAyclk0QTRyQ2hVdDkzR3dyZUFQaWFyem9pREV6cmxySmRFUENiNWNRYTJvVjhCVkxsMDNKVWF6cWo5eFhpMDNqbWFyMG5palprRDlxeThDZENVQi1zb19ZY19HbWpUOXdkeWUwWTdCNW92d3NhZUNZcmk?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-02-25T08:00:00.000Z",
-      "discoveredAt": "2026-10-14T06:39:50.955Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "348469dd160",
-      "title": "Rinwa Bio Energy hiring Biomass Pellet Plant Opreator in Fazilka, Punjab, India - in.linkedin.com",
-      "summary": "Rinwa Bio Energy hiring Biomass Pellet Plant Opreator in Fazilka, Punjab, India in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZ2k5YVF5WDY2aE1pY0NiSFdpQ1I2S19vYlNsTVFBaVlTMVJiTmRYQWZwMjFMRzcxQzBKRVhNTEVNbzBzdEg5dE1lVVdUbUFKNXRVM3VWZTFnWkR5dlNZZEgxYUhjckthX0ZRVFZNak5GbGRHMDRYd2p2OXV5MWtrXzFRZ1poVFo1dnpSTm5YYWkxQmg4UjFYT1d3?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-01-31T17:10:37.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.215Z",
       "channel": "linkedin",
       "isNew": false
     }
