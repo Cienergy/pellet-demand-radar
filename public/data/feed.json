@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-11-03T01:13:27.096Z",
-  "crawlDurationMs": 18468,
+  "updatedAt": "2026-11-03T08:32:00.235Z",
+  "crawlDurationMs": 19051,
   "stats": {
     "total": 500,
-    "tenders": 167,
+    "tenders": 168,
     "purchase": 114,
-    "news": 219,
+    "news": 218,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 42,
-    "withCompany": 143
+    "newThisCrawl": 36,
+    "withCompany": 144
   },
   "sources": [
     {
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -79,14 +79,14 @@
       "ok": true,
       "label": "Google · live NITs",
       "query": "(\"biomass pellet\" OR \"agro residue based pellet\" OR \"torrefied biomass\") (NIT OR \"Notice Inviting Tender\" OR \"e-Tender\" OR \"GeM bid\" OR EOI) India -market -forecast -\"market size\"",
-      "count": 1,
+      "count": 2,
       "error": null
     },
     {
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 7,
+      "count": 24,
       "error": null
     },
     {
@@ -142,21 +142,21 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 64,
+      "count": 46,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 6,
+      "count": 9,
       "error": null
     },
     {
       "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 4,
+      "count": 5,
       "error": null
     },
     {
@@ -255,7 +255,7 @@
       "summary": "NTPC Invites EOI To Produce Torrefied Biomass Pellets From Startups Sarkaritel.com",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV1FlS3lPU2U2OEVLbXBScmJHcE5VcUJwUmZqN1AzZGVxWFBYQkZwWC1VRGp6OThUajVoWnE2enhXOEZqeVlyb1NVUEpiOUh0ZFh0MXBzMUdHWGpWRUFlbkFVc2JRNW1kV0dSckNDaFRUSVhxOVB6VHBWSXpFVzZGWTlKUzdIQld6dktOYVM4VDM3dHVDRUFsX3Byaw?oc=5",
       "source": "google_tender_news",
-      "sourceLabel": "Google · live NITs",
+      "sourceLabel": "Google · utility buys",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -2141,6 +2141,23 @@
       "isNew": false
     },
     {
+      "id": "6f210c2423d",
+      "title": "🚨 NEW BIOMASS PELLET SUPPLY TENDERS OPEN – APPLY FAST! 🚨 🌱 The Indian Biomass Pellet Industry is entering its biggest growth phase ever. With rising demand from NTPC, State Thermal Power Plants, Cement Industries, Steel Plants, Food Proce - LinkedIn",
+      "summary": "🚨 NEW BIOMASS PELLET SUPPLY TENDERS OPEN – APPLY FAST! 🚨 🌱 The Indian Biomass Pellet Industry is entering its biggest growth phase ever. With rising demand from NTPC, State Thermal Power Plants, Cement Industries, Steel Plants, Food Proce LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNN3Nla1c0TzNTQnVDczdsUnJFbk5YWS1HMTR4d29tT25QeTdMMFhnWTRxeWYwdjZfUUc5ZWdzelZnc0h5ZDN6R0Ewb2JCdDV6ekpVZ1hTNktuOXREcjRZZzFEaFoyVXNyOUZHcHFsLVRnNllPaXlOVVltd2ZOR09yY2JTbDdickF0dE9BREM2S1hTYzhneTZZZE1wa2o0MllxZ09XUl9SdlZuN3BXbmUyVlBvZGtEekJSRzBFREhheWw3ZjlqSmloZTE3MA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 77,
+      "publishedAt": "2026-06-21T07:00:00.000Z",
+      "discoveredAt": "2026-11-03T08:31:42.563Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
       "id": "0cd7fba716c",
       "title": "Mark Drisdelle - With extensive expertise in biomass energy systems, I specialize in biomass procurement, supply chain optimization, and advanced biomass conversion technologies. - LinkedIn",
       "summary": "Mark Drisdelle - With extensive expertise in biomass energy systems, I specialize in biomass procurement, supply chain optimization, and advanced biomass conversion technologies. LinkedIn",
@@ -2418,7 +2435,7 @@
       "summary": "Dharmesh Kumar kewat - Energy Transition and Sustainability| Power Utilities | Public & Climate Policy| Biofuels & Biomass Markets |Biomass Cofiring | ESG | Industrial Decarbonization | Stakeholder Engagement | Government Advisory LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5VWVVoMHl5V3I5dkJIN3J0UDZ5SWlxU2ZGTkRIektoS1hRWDNQVkZQNHlkd0xjMHlfLUJIUzhfWFBHSmd4UHRleEpoampuZw?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [],
       "score": 77,
@@ -3855,7 +3872,7 @@
       "publishedAt": "2026-09-18T07:00:00.000Z",
       "discoveredAt": "2026-11-03T01:13:09.965Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "15d1bf72214",
@@ -7533,6 +7550,21 @@
       "isNew": false
     },
     {
+      "id": "107d842e14d",
+      "title": "Looking for the Best Biomass Pellet Plant Company in India? 🌱🔥 - LinkedIn",
+      "summary": "Looking for the Best Biomass Pellet Plant Company in India? 🌱🔥 LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNS2RKRlk0c003c3p1NjhaU1FneXJBU1laRk1lTXdOOWhfT1djZHNqc3pWUkxPa0lyWklYcXNNR19wQ1FYbE9QNjh3TUNjTUVvY19iZXRmaDBvNDRhT0EyZ1NQUFJHZTFhZURwVVN0UDFydjhwUTRfUEtmWHZBSjg4U1phcnFjVnd5MC1zbDFPX01ETnF4TmMtak8ydlc?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-06-03T07:00:00.000Z",
+      "discoveredAt": "2026-11-03T08:31:42.563Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "6092eb3e254",
       "title": "The future of biomass needs strong networks and strong entrepreneurs 🌱 Every tonne of biomass begins with efficient collection, aggregation, and supply. Biomass aggregators are helping bridge the gap between agricultural residue and clean energy product - LinkedIn",
       "summary": "The future of biomass needs strong networks and strong entrepreneurs 🌱 Every tonne of biomass begins with efficient collection, aggregation, and supply. Biomass aggregators are helping bridge the gap between agricultural residue and clean energy product LinkedIn",
@@ -7598,14 +7630,14 @@
       "summary": "Pranav Mahapatra - Founder, Biomass Pellet Manufacturing Company (Srishti Biofuels) LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1LZDZzVVh2NjBaVmo1RjhUbHFGcjVGVHhESk13YjhpOTFvT2J3cUVCMkpNZEY5bW9Fa3k4XzVxdFN4M1B3MFlNYTJ2TzRVOXl4dU5Eb1ln?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "news",
       "companies": [],
       "score": 70,
       "publishedAt": "2026-05-31T06:50:22.000Z",
       "discoveredAt": "2026-11-03T01:13:09.634Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "725fbd76261",
@@ -8002,36 +8034,6 @@
       "score": 70,
       "publishedAt": "2026-03-03T08:00:00.000Z",
       "discoveredAt": "2026-09-20T23:11:31.804Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "6abfef58231",
-      "title": "Sustainability isn't just a value we speak about. It's something we build, operate, and deliver. We are proud to announce the inauguration of our Biomass Pellet Manufacturing Plant in Nagpur, a facility born from a simple yet powerful conviction: that industrial gr - LinkedIn",
-      "summary": "Sustainability isn't just a value we speak about. It's something we build, operate, and deliver. We are proud to announce the inauguration of our Biomass Pellet Manufacturing Plant in Nagpur, a facility born from a simple yet powerful conviction: that industrial gr LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWmlaYlhzNHhtWHNxSXBGYnpXMHBzeDU1OUhWTnFCQUNueFBTQzhKR3BIaDBBaXozNkxUMS05a0tkMUVYcmhDaTVpN0NzVW1aV1lLYW5idXN2dDVrZ0RrLXpUeC1jUlF2a3BfYmR6TVhxVy1Da3FNVVBnQmhxLUU3SVpkSTVCbC1odThvSy05bi1Ec2x3alpYdjZ6bGs4azlJbkQ0d2FMTnA4WGUtSExpQw?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-02-25T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.217Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "0cdda6fb235",
-      "title": "Sustainability isn't just a value we speak about. It's something we build, operate, and deliver. We are proud to announce the inauguration of our Biomass Pellet Manufacturing Plant in Nagpur, a facility born from a simple yet powerful conviction: that industrial gr - linkedin.com",
-      "summary": "Sustainability isn't just a value we speak about. It's something we build, operate, and deliver. We are proud to announce the inauguration of our Biomass Pellet Manufacturing Plant in Nagpur, a facility born from a simple yet powerful conviction: that industrial gr linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWmlaYlhzNHhtWHNxSXBGYnpXMHBzeDU1OUhWTnFCQUNueFBTQzhKR3BIaDBBaXozNkxUMS05a0tkMUVYcmhDaTVpN0NzVW1aV1lLYW5idXN2dDVrZ0RrLXpUeC1jUlF2a3BfYmR6TVhxVy1Da3FNVVBnQmhxLUU3SVpkSTVCbC1odThvSy05bi1Ec2x3alpYdjZ6bGs4azlJbkQ0d2FMTnA4WGUtSExpQw?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-02-25T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.431Z",
       "channel": "linkedin",
       "isNew": false
     }
