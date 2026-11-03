@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-03T08:32:00.235Z",
-  "crawlDurationMs": 19051,
+  "updatedAt": "2026-11-03T16:29:59.018Z",
+  "crawlDurationMs": 20441,
   "stats": {
     "total": 500,
-    "tenders": 168,
-    "purchase": 114,
-    "news": 218,
+    "tenders": 169,
+    "purchase": 115,
+    "news": 216,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 36,
+    "newThisCrawl": 41,
     "withCompany": 144
   },
   "sources": [
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 24,
+      "count": 23,
       "error": null
     },
     {
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 45,
+      "count": 57,
       "error": null
     },
     {
@@ -142,7 +142,7 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 46,
+      "count": 47,
       "error": null
     },
     {
@@ -156,14 +156,14 @@
       "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 5,
+      "count": 4,
       "error": null
     },
     {
       "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 5,
+      "count": 7,
       "error": null
     },
     {
@@ -1369,12 +1369,27 @@
       "isNew": false
     },
     {
+      "id": "28bfbd9716c",
+      "title": "Global Wood Pellet Activated Carbon Market Investment Potential - Germany | United Kingdom | United States - LinkedIn",
+      "summary": "Global Wood Pellet Activated Carbon Market Investment Potential - Germany | United Kingdom | United States LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZmdHUDF2ci1uOVc3VnloTzl6blFqeDlPZmN4MG9MNTY1RFhyOEJELU9xT0xyN0xSa2xOMEFULVF6TXpZaExNQ1Y2WWE3S0M1VGJVb0M4SHJkY2Nna2tzbWhvZVNzMW9Mckphbkg2OHE5WHpEalY5UEcwV254dG9NelVLdEpEMTRCRGRJRDFENXRkU0t0?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "tender",
+      "companies": [],
+      "score": 90,
+      "publishedAt": "2026-08-24T07:00:00.000Z",
+      "discoveredAt": "2026-11-03T16:29:39.914Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "20f5eff3173",
       "title": "India Biomass Market Analysis 2026–2034: Key Growth Drivers, Emerging Opportunities & Outlook - LinkedIn",
       "summary": "India Biomass Market Analysis 2026–2034: Key Growth Drivers, Emerging Opportunities & Outlook LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMVA0REJxamRpQXp5M0Rvbld0YnVGaU1IamFyY2NRMWJfUF9vM2tHLXRZWHpXVnZLSEJjeVFLYlFHT1E1OGMzLW5wLVE1bHEySDdvQjRkTjJXXzY1bGhjdGJ3SkVpdHdKbHRqb1l6blFHUWJ2d1ZPRWdOWllQYXpMREIwc3lFbWFSYlB6ZEFhUDI2Z05wTGJaSTNUQ0dSRFNXNkhF?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -2678,7 +2693,7 @@
       "summary": "In-situ & Ex-situ Crop residue Management LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNc1F2ZndOak1JS3VVbURjclYtb3g3MGtLWjQwT2h4M1hZdkdLLVpFVTJkVkl1bWNfaC1fdElXelZ5UlJSYy0wM0lnelJNZk5DbnM1SWpHMWU4bEJRYTl6cFJ3UmNlZWFXWWU2eElaY1BEX0txRFJLQThla0FBQmYxZkMzU3Z1X0hydEFRVUE2dGlfdFpwUUE?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [],
       "score": 74,
@@ -4404,6 +4419,21 @@
       "isNew": false
     },
     {
+      "id": "2e79d010113",
+      "title": "Ajay Kumar - Kalpataru Projects International Ltd-Biomass Sourcing & Business Development - LinkedIn India",
+      "summary": "Ajay Kumar - Kalpataru Projects International Ltd-Biomass Sourcing & Business Development LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0YVV5NzFsRl9pVU5Bc0tmcjVqNEpYOFRZd3drTFB0OUh3dG0yOEVGajlUaTI5NGIxWDRVMGVqUlNaUUtVNnh2M1ZBT2g4enJWX0FOdERtOG1Pdw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2015-11-18T19:02:06.000Z",
+      "discoveredAt": "2026-11-03T16:29:39.915Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
       "id": "4ea2698b109",
       "title": "Dundappa Pattanshetti - Manager Biomass Fuel Sourcing - India - LinkedIn India",
       "summary": "Dundappa Pattanshetti - Manager Biomass Fuel Sourcing - India LinkedIn India",
@@ -5371,6 +5401,21 @@
       "discoveredAt": "2026-10-23T10:28:43.450Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "3d9aca53188",
+      "title": "“ FABON BIOMASS BURNERS MAKE CLEAN HEATING EASY” - FABON - LinkedIn",
+      "summary": "“ FABON BIOMASS BURNERS MAKE CLEAN HEATING EASY” - FABON LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQ3lKV3o3cXQ5b0kxYWp3MEJzLWV6QnBhdzY3UWstbkpFQV9YM2Zaak53SV9UamVFTG5mT1l5RTg2d1liaGd5Qkxhemg0al9KUVJ4WUxJeXNicUF0c3d6M0hYYzh3QXNjbFFOTkZpN28zU1pGTmxvaTdlLU9UNXVmVFZkTGUtd1V4VndSSlpfRWpvYjZpY2ctdkJoZEdpX2p2cmV6LUJFOVBzLVA1NW9pTk5sYUdlbVNQckJ0VVN6OUU1N0wtemFfRTdzZzd3Zw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-18T07:00:00.000Z",
+      "discoveredAt": "2026-11-03T16:29:40.628Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "0f32be7d157",
@@ -7562,7 +7607,7 @@
       "publishedAt": "2026-06-03T07:00:00.000Z",
       "discoveredAt": "2026-11-03T08:31:42.563Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6092eb3e254",
@@ -7989,51 +8034,6 @@
       "score": 70,
       "publishedAt": "2026-03-04T08:00:00.000Z",
       "discoveredAt": "2026-10-03T23:18:43.973Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "050a549f1bd",
-      "title": "US biomass facilities in line for technology-neutral tax credits under IRA - Bioenergy Insight Magazine - linkedin.com",
-      "summary": "US biomass facilities in line for technology-neutral tax credits under IRA - Bioenergy Insight Magazine linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWldPLVZaR041ZlRkeHRIMHVrcm1jQVpQdHpTdGQ0elRnV0RxazJuMTJZZ256VHVYbjlBZG8wdUpmYVZQNEJ5X1p4YXBKcUloVmhQZ2FMejRvV1BXdnBBZVFoNGJxOWdrV1V4X1plUUhwdTc3X3NhVVdjTm8wQWxhMDFDZ1lnS1ZBYkw5UzFGZGowRWVsVVd4bEZBVHhyMXVoQzlNOHczemRCU3NyVm9wZmFhYWdZd2p0ZWxKejljN2x4aUxKV0hTeGp0aklFYmp2?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-03-04T08:00:00.000Z",
-      "discoveredAt": "2026-10-05T07:39:15.759Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "0bcbf50e1eb",
-      "title": "Wildfire fuel-reduction biomass for remote energy: Small-scale combined heat and power feasibility and strategic implications for British Columbia's bioeconomy - LinkedIn",
-      "summary": "Wildfire fuel-reduction biomass for remote energy: Small-scale combined heat and power feasibility and strategic implications for British Columbia's bioeconomy LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVmJESzJLd1ViZWYyQkg0T041MVVMWklNM0hOLU1DYXJmVGJUakJJOXp5LVFhMDFMUWZRaWo3QktCTDh6ZnZud3FHMFJKNU5tOUVmU0dhc240UkRITnNEa0ZYSWNUcGNIU2VVLWRkVmVobDFOS0xfZXVGQ1g5WWFBOEU3Q1FGU2s4VWx2SmZUZ1RuMWpiOHRVX1R5b2JkUC1MZDd3QVgwM2tTdm5NdWNpSWdSV0d0N1RLSWJxdmhWWmpjekZjY1dWcHBVcw?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-03-03T08:00:00.000Z",
-      "discoveredAt": "2026-09-20T00:54:14.753Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "278b179f1ef",
-      "title": "Wildfire fuel-reduction biomass for remote energy: Small-scale combined heat and power feasibility and strategic implications for British Columbia's bioeconomy - linkedin.com",
-      "summary": "Wildfire fuel-reduction biomass for remote energy: Small-scale combined heat and power feasibility and strategic implications for British Columbia's bioeconomy linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVmJESzJLd1ViZWYyQkg0T041MVVMWklNM0hOLU1DYXJmVGJUakJJOXp5LVFhMDFMUWZRaWo3QktCTDh6ZnZud3FHMFJKNU5tOUVmU0dhc240UkRITnNEa0ZYSWNUcGNIU2VVLWRkVmVobDFOS0xfZXVGQ1g5WWFBOEU3Q1FGU2s4VWx2SmZUZ1RuMWpiOHRVX1R5b2JkUC1MZDd3QVgwM2tTdm5NdWNpSWdSV0d0N1RLSWJxdmhWWmpjekZjY1dWcHBVcw?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-03-03T08:00:00.000Z",
-      "discoveredAt": "2026-09-20T23:11:31.804Z",
       "channel": "linkedin",
       "isNew": false
     }
