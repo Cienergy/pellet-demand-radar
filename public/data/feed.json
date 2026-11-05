@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-05T06:34:15.382Z",
-  "crawlDurationMs": 19953,
+  "updatedAt": "2026-11-05T14:57:47.122Z",
+  "crawlDurationMs": 25044,
   "stats": {
     "total": 500,
     "tenders": 170,
@@ -8,8 +8,8 @@
     "news": 213,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 36,
-    "withCompany": 144
+    "newThisCrawl": 34,
+    "withCompany": 142
   },
   "sources": [
     {
@@ -20,11 +20,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "PSPCL tenders",
       "query": null,
-      "count": 3,
-      "error": null
+      "count": 0,
+      "error": "The operation was aborted due to timeout"
     },
     {
       "ok": true,
@@ -97,11 +97,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -4296,7 +4296,7 @@
       "publishedAt": "2024-06-29T02:34:37.000Z",
       "discoveredAt": "2026-11-05T06:33:57.276Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "61b8200210d",
@@ -5388,6 +5388,21 @@
       "isNew": false
     },
     {
+      "id": "27b35978153",
+      "title": "Biomass Pellet Burners for Lead Acid Battery Recycling - LinkedIn",
+      "summary": "Biomass Pellet Burners for Lead Acid Battery Recycling LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQelUySEVQb3VMSnJ2OXJEWVNuX1I0bFVaMGtnOGZjX3V2Q2ttbUNWcFhtUzVrRDhCV0VGcGNUSDNSNS1uZVpZZUgtNWNCOGpuRGU4ZFBYQkZaWjNzMjBBVXJrZDJjLTVyWFZvUWtCT0pjU0lPamU1LUJGS2JPYnZwR2hVZW9tVEQxQmNKVENoTjRINFRCY2FRVjgtbXFwQkxKSm1Ta09XaDQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-23T07:00:00.000Z",
+      "discoveredAt": "2026-11-05T14:57:23.676Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "0c03f361134",
       "title": "Founder at Renewa Pellets | Driving Sustainable Energy Solutions | Innovating Biomass Pellet Manufacturing - LinkedIn India",
       "summary": "Founder at Renewa Pellets | Driving Sustainable Energy Solutions | Innovating Biomass Pellet Manufacturing LinkedIn India",
@@ -5414,6 +5429,21 @@
       "score": 70,
       "publishedAt": "2026-10-22T07:00:00.000Z",
       "discoveredAt": "2026-11-05T06:33:57.277Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "4687741714d",
+      "title": "Biomass Pellet Burner Backfire: Causes, Risks and Prevention - LinkedIn",
+      "summary": "Biomass Pellet Burner Backfire: Causes, Risks and Prevention LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYlNtWkY2bV9xMWh2d0lZbmZqWTFEVVgxekdOT1NMWWNod3RKOXdTRVdzOWpmaVhZUkc0UFcwZWVKQlhYazNkZnRQcXgybEhyZVN1VFRNUTh1Ulc4QnhQTFh2NkhBajAxVksxQU41V3p4bFVRUThVa3ZOcmQ0c1pxSWR2OUJDQUpQUkQzQU9BRHRMTW8yaVAxYmJZeXcwaG8?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-21T07:00:00.000Z",
+      "discoveredAt": "2026-11-05T14:57:23.676Z",
       "channel": "linkedin",
       "isNew": true
     },
@@ -8000,40 +8030,6 @@
       "score": 70,
       "publishedAt": "2026-03-13T07:00:00.000Z",
       "discoveredAt": "2026-09-19T15:47:30.430Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "68ccac98fa",
-      "title": "Ashish Pareek - Head Logistics Agro-Residue and Bio-Mass at Reliance Industries Ltd - LinkedIn India",
-      "summary": "Ashish Pareek - Head Logistics Agro-Residue and Bio-Mass at Reliance Industries Ltd LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB5cjI2akNiYTcyeko2cjFqeFlDaVJlYXFYOFlkNlNXMXhXclBYd1FXcXJMZmpWZzlXR29BSzIxYVRiR19mZmRpSEg5YVY?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
-      "type": "news",
-      "companies": [
-        "Reliance"
-      ],
-      "score": 70,
-      "publishedAt": "2026-03-12T20:37:20.000Z",
-      "discoveredAt": "2026-09-26T06:35:13.253Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "24cf89c9fb",
-      "title": "Ashish Pareek - Head Logistics Agro-Residue and Bio-Mass at Reliance Industries Ltd - in.linkedin.com",
-      "summary": "Ashish Pareek - Head Logistics Agro-Residue and Bio-Mass at Reliance Industries Ltd in.linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB5cjI2akNiYTcyeko2cjFqeFlDaVJlYXFYOFlkNlNXMXhXclBYd1FXcXJMZmpWZzlXR29BSzIxYVRiR19mZmRpSEg5YVY?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
-      "type": "news",
-      "companies": [
-        "Reliance"
-      ],
-      "score": 70,
-      "publishedAt": "2026-03-12T20:37:20.000Z",
-      "discoveredAt": "2026-09-26T22:10:51.401Z",
       "channel": "linkedin",
       "isNew": false
     }
