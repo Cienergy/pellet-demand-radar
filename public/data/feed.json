@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-04T23:36:10.895Z",
-  "crawlDurationMs": 19086,
+  "updatedAt": "2026-11-05T06:34:15.382Z",
+  "crawlDurationMs": 19953,
   "stats": {
     "total": 500,
     "tenders": 170,
-    "purchase": 116,
-    "news": 214,
+    "purchase": 117,
+    "news": 213,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 35,
+    "newThisCrawl": 36,
     "withCompany": 144
   },
   "sources": [
@@ -97,11 +97,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · NTPC / GeM",
       "query": "(NTPC OR GeM OR eprocure OR PSPCL OR Mahagenco) (\"biomass pellet\" OR \"agro residue pellet\" OR torrefied) (tender OR bid OR EOI)",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
       "ok": true,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 45,
+      "count": 43,
       "error": null
     },
     {
@@ -4284,6 +4284,21 @@
       "isNew": false
     },
     {
+      "id": "177c1636108",
+      "title": "Prashant Shukla - General Manager - Biomass Sourcing, Sales Ops & BD - LinkedIn India",
+      "summary": "Prashant Shukla - General Manager - Biomass Sourcing, Sales Ops & BD LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5aajdXNXIzXzZrd0E2LUJyVWtHekE0a3lhbUxFQk5GVmVzWjdYQUdZcWVid1NRd0RTZlgwV0x5X0FkQV9hb3VmOWkxSlViU2R5SE93MXIwQmQ2TkRIbVdjUDV3?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2024-06-29T02:34:37.000Z",
+      "discoveredAt": "2026-11-05T06:33:57.276Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "61b8200210d",
       "title": "Biomass Cofiring in Coal based thermal Power Plants - LinkedIn",
       "summary": "Biomass Cofiring in Coal based thermal Power Plants LinkedIn",
@@ -5386,6 +5401,21 @@
       "discoveredAt": "2026-10-22T17:35:41.615Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "76bec50523b",
+      "title": "🌱 FROM CROP WASTE TO CLEAN ENERGY: IT’S TIME TO RETHINK STUBBLE BURNING! 🔥 Crop residue burning is more than a seasonal practice — it is an environmental challenge that impacts air quality, soil health, public health, and climate sustainabilit - LinkedIn",
+      "summary": "🌱 FROM CROP WASTE TO CLEAN ENERGY: IT’S TIME TO RETHINK STUBBLE BURNING! 🔥 Crop residue burning is more than a seasonal practice — it is an environmental challenge that impacts air quality, soil health, public health, and climate sustainabilit LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMzRoUENja20wUEpDZFVDSDdLSndoR09BOFFFVjhIM295RzlEaDM2WWNRSTlXb0ItOUI0VW1KRk5XVnFwcWM2M0l2MlVHVWpDTmxWd1BvUEh6NTdLVncyejJnZW1mMFloWmhZUkh2TG9Qc3lUVVg3OTRLcXNZT0tvVjhrblZ5S1hTaUFMVDVEVVdrcnZTRGJZTzBWWEJsRm4zeHM4YnlWLXZGVUVPVW9vdHRITHpOWHRhUDFScERnb0NnYzBHREFv?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-22T07:00:00.000Z",
+      "discoveredAt": "2026-11-05T06:33:57.277Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "11c5e0e023c",
@@ -8004,36 +8034,6 @@
       "score": 70,
       "publishedAt": "2026-03-12T20:37:20.000Z",
       "discoveredAt": "2026-09-26T22:10:51.401Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "60ec2844137",
-      "title": "Founder & Director at Om Chandi Biofuels | Biomass Pellet Manufacturer | Renewable Energy | Entrepreneur - LinkedIn India",
-      "summary": "Founder & Director at Om Chandi Biofuels | Biomass Pellet Manufacturer | Renewable Energy | Entrepreneur LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yUmozaGR0blZmMkkzX1hPUU9Ja0VJb2p4WXd4X0RsSWpGdjlrODdiVXN0M0d3NlJiY1Q2Y1VQYnJlVmRoWGthWGdpaTI0UnYtcEZ2R3pDaWo1TE9aN3hHX2JndEIwN2U0b2c?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-03-11T21:57:20.000Z",
-      "discoveredAt": "2026-10-27T23:43:47.087Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "4bce4f7925f",
-      "title": "Advancing India’s Biomass Energy Ecosystem We are pleased to share that Mr. Vikas Kikan, CEO of Beyond Drilling and Exploration Private Limited, will be speaking at the One-Day Technical Workshop on “Complete Biomass Utilisation Ecosystem with Speci - LinkedIn",
-      "summary": "Advancing India’s Biomass Energy Ecosystem We are pleased to share that Mr. Vikas Kikan, CEO of Beyond Drilling and Exploration Private Limited, will be speaking at the One-Day Technical Workshop on “Complete Biomass Utilisation Ecosystem with Speci LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbEZNb2t5aWQwMmFfZHA1S2tvWmdGZFR4d2xFU3ZMaXdYUlRvMFFFMzBKMmZJbkhSejhqSkdZZUY3S19SSm5HMnJpVmYtNEF6ZlFlaHFQRUVxMkpKOTczQTE1NXIwdlB4cXlSYW9XNkhqbExUcldua0pCSnpfaXBjZUI3dmR3MGVldWFDMWVGNDFlUEtmOUR2enNTbGFFNkZHUHBBUk43cF8wUHpHTEZsLTJ2RzNZa3B4V2dVVEVmUTd3eWljamNOZUJ6QTBYalhYdGVPN3dEeDFfckVWY1lz?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-03-08T08:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:10:28.815Z",
       "channel": "linkedin",
       "isNew": false
     }
