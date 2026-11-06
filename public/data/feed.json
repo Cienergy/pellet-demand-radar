@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-06T09:17:48.598Z",
-  "crawlDurationMs": 23112,
+  "updatedAt": "2026-11-06T16:55:32.528Z",
+  "crawlDurationMs": 21694,
   "stats": {
     "total": 500,
-    "tenders": 170,
+    "tenders": 171,
     "purchase": 117,
-    "news": 213,
+    "news": 212,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 35,
+    "newThisCrawl": 36,
     "withCompany": 142
   },
   "sources": [
@@ -142,7 +142,7 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 45,
+      "count": 44,
       "error": null
     },
     {
@@ -156,7 +156,7 @@
       "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 4,
+      "count": 5,
       "error": null
     },
     {
@@ -1442,6 +1442,21 @@
       "discoveredAt": "2026-10-04T09:38:22.914Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "31235c0f14e",
+      "title": "Biomass Pellets: From Opportunity to Execution for MSMEs - LinkedIn",
+      "summary": "Biomass Pellets: From Opportunity to Execution for MSMEs LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTG1fcGJvTUktOU1XWEU3a2lWN0dSeUdNbVFjOElUWVlFQ3JhZjZDQVBlZ1I4aUhsajVnV0lCeEdyaEZ3T3FGVW1OamtTWFpKejJlUGtHUzVDdjVsc2djLWh3UWpDaVYtR2syRnV0dGotRVJrYUt2cWtmMXpyazEtWkh6SC1uZE5hY3ltNDd1R25pbDNIZlNkUDgtSEJmSGNzeklF?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "tender",
+      "companies": [],
+      "score": 90,
+      "publishedAt": "2026-07-13T07:00:00.000Z",
+      "discoveredAt": "2026-11-06T16:55:12.880Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "4ce2aa4824f",
@@ -8015,21 +8030,6 @@
       "score": 70,
       "publishedAt": "2026-03-13T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:27.216Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "376ccb19259",
-      "title": "Rocket Chulha – Innovation Brief 🔥 Rocket Chulha is an eco-friendly cooking stove that uses biomass pellet fuel instead of LPG cylinders. It applies the rocket stove combustion principle, which improves airflow and burns fuel more efficiently to produce strong - linkedin.com",
-      "summary": "Rocket Chulha – Innovation Brief 🔥 Rocket Chulha is an eco-friendly cooking stove that uses biomass pellet fuel instead of LPG cylinders. It applies the rocket stove combustion principle, which improves airflow and burns fuel more efficiently to produce strong linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNlVvam5Xd2hrT3dTcW1NMmRjVHJzZDVZMmprNUx1RVVpTVB4YXFMR2pZVFplbUp0V1FZXzRFMG83MFJOdEZvWVZJNXpWU1Byc2dtSlNFaG5ETWtBWHFSRXdiMkxjOTNCQ1ZuZzVYMmIwczdaMXJ5S1FFZEstakdWWTQyS25nQVM2S2ZVRWxycXIxZUhRZTIyQmZzTm5qSDdMLVppSlhPMEUxZ2otX1M4M21YRVZjWTV3RExlMmhxMlB2N01VVnZ5Y211TnBvUQ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-03-13T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.430Z",
       "channel": "linkedin",
       "isNew": false
     }
