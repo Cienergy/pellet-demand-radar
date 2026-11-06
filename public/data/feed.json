@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-06T16:55:32.528Z",
-  "crawlDurationMs": 21694,
+  "updatedAt": "2026-11-06T22:02:24.539Z",
+  "crawlDurationMs": 18663,
   "stats": {
     "total": 500,
     "tenders": 171,
@@ -8,7 +8,7 @@
     "news": 212,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 36,
+    "newThisCrawl": 35,
     "withCompany": 142
   },
   "sources": [
@@ -135,7 +135,7 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 28,
+      "count": 27,
       "error": null
     },
     {
@@ -1449,14 +1449,14 @@
       "summary": "Biomass Pellets: From Opportunity to Execution for MSMEs LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTG1fcGJvTUktOU1XWEU3a2lWN0dSeUdNbVFjOElUWVlFQ3JhZjZDQVBlZ1I4aUhsajVnV0lCeEdyaEZ3T3FGVW1OamtTWFpKejJlUGtHUzVDdjVsc2djLWh3UWpDaVYtR2syRnV0dGotRVJrYUt2cWtmMXpyazEtWkh6SC1uZE5hY3ltNDd1R25pbDNIZlNkUDgtSEJmSGNzeklF?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 90,
       "publishedAt": "2026-07-13T07:00:00.000Z",
       "discoveredAt": "2026-11-06T16:55:12.880Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4ce2aa4824f",
