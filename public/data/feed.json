@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-11-07T01:52:08.939Z",
-  "crawlDurationMs": 25035,
+  "updatedAt": "2026-11-07T08:41:24.261Z",
+  "crawlDurationMs": 25055,
   "stats": {
     "total": 500,
-    "tenders": 171,
+    "tenders": 172,
     "purchase": 117,
-    "news": 212,
+    "news": 211,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 35,
-    "withCompany": 142
+    "newThisCrawl": 34,
+    "withCompany": 143
   },
   "sources": [
     {
@@ -135,14 +135,14 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 28,
+      "count": 29,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 43,
+      "count": 42,
       "error": null
     },
     {
@@ -1185,6 +1185,23 @@
       "isNew": false
     },
     {
+      "id": "22edb0d823d",
+      "title": "The Future of Thermal Power is Green. 🌍🔋 Seeing this EOI from Vedanta Limited for their Chhattisgarh plant is a milestone for the biomass pellet industry. When a 1200 MW plant looks for agro-based biomass partners, it proves that biomass is no longer just a - LinkedIn",
+      "summary": "The Future of Thermal Power is Green. 🌍🔋 Seeing this EOI from Vedanta Limited for their Chhattisgarh plant is a milestone for the biomass pellet industry. When a 1200 MW plant looks for agro-based biomass partners, it proves that biomass is no longer just a LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVGdnNXlGNWxRS2ZWV2I5akZ0NVRqZVVqYmdncFlsZnJkcWxxVWVqaEVid3RUY2toLXlzeVl4RzNZN25rSWlXQmxlS25RQ2RsYTE0bXJ3aUktT0tlcUtpaDZBLTVCOG93d3pUZFppc2hDQkE0d29icHRjYlRKZUFYNnN0MjVDTHFIdHctN3V2allJaldweXp5S2lDcVc2WUlnMHBxRy15cG1nWW9CMDdrdllJTGJYV01MaTNPQ2lB?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [
+        "Vedanta"
+      ],
+      "score": 94,
+      "publishedAt": "2026-04-08T07:00:00.000Z",
+      "discoveredAt": "2026-11-07T08:41:00.887Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
       "id": "476c7dce22c",
       "title": "🔔 Tender Notification – NTPC Dadri 🔔 🌿 Procurement of Non-Torrefied Biomass Pellets (V2) NTPC Limited, under the aegis of the Ministry of Power, invites online bids through GeM for the supply, loading, transport, and delivery of Agro-Residue-Based Bioma - LinkedIn",
       "summary": "🔔 Tender Notification – NTPC Dadri 🔔 🌿 Procurement of Non-Torrefied Biomass Pellets (V2) NTPC Limited, under the aegis of the Ministry of Power, invites online bids through GeM for the supply, loading, transport, and delivery of Agro-Residue-Based Bioma LinkedIn",
@@ -1449,7 +1466,7 @@
       "summary": "Biomass Pellets: From Opportunity to Execution for MSMEs LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTG1fcGJvTUktOU1XWEU3a2lWN0dSeUdNbVFjOElUWVlFQ3JhZjZDQVBlZ1I4aUhsajVnV0lCeEdyaEZ3T3FGVW1OamtTWFpKejJlUGtHUzVDdjVsc2djLWh3UWpDaVYtR2syRnV0dGotRVJrYUt2cWtmMXpyazEtWkh6SC1uZE5hY3ltNDd1R25pbDNIZlNkUDgtSEJmSGNzeklF?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -4997,7 +5014,7 @@
       "summary": "NTPC asks Indian startups to produce torrefied biomass pellets Construction World",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWnlCcDh2T3ZsRzhpMF9wbGx0SExVQ2dHZnQ1N0ozNkRfSUtWVkZ4dzR5Q3l0cVp4a2hTeVdPd0V6NVV3UEluMWtIUW5kUkF5ZS1ic2VUVVpQd2I4UWdsVXNIYUtpNGUtUlhOQ01hOUtsZUNTdldmR1hDbS1Sb1lXcTBQU1gyemJVREJVZmI1enJ2STZMTXhDSUNyWkVVNXpXU2draGRJbF9JOTNWSjRnRXdiYXlYUmZ1Y1BQTFY2QmlhbUdrUEF5TlBOVm1aUEVCbzBRVGotZmJIcFQ2N051YTBuUDY?oc=5",
       "source": "google_tender_news",
-      "sourceLabel": "Google · live NITs",
+      "sourceLabel": "Google · utility buys",
       "type": "news",
       "companies": [
         "NTPC"
@@ -5340,7 +5357,7 @@
       "publishedAt": "2026-11-06T08:10:40.000Z",
       "discoveredAt": "2026-11-07T01:51:45.264Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4160483c215",
@@ -8015,21 +8032,6 @@
       "score": 70,
       "publishedAt": "2026-03-21T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:27.217Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "3d12ec6c254",
-      "title": "Building a Sustainable Biomass Pellet & Bio-CNG Business in India The biomass sector in India holds immense potential—not just as a business, but as a mission to create cleaner energy, reduce stubble burning, and strengthen the rural economy. Based on - linkedin.com",
-      "summary": "Building a Sustainable Biomass Pellet & Bio-CNG Business in India The biomass sector in India holds immense potential—not just as a business, but as a mission to create cleaner energy, reduce stubble burning, and strengthen the rural economy. Based on linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPck01RTM5SHZGUDVNa0tSaDV5TkhENGM0S2Q2T2E3ZkxxWnB4Rmd5Ym8xenlvaVZKUUQxSFdlWV9veDAzM0hlT0MxQ3ZOejhIeW12R2pZQTJoMTVEcjFvRzhKNlljMmVRTHVJVHlfNWowaFhqVFc2V0VYOTlNaG96bk1YM0l3SjlsZ0xjUlp6TExCOU5xN1lNUGlvNW5PazN5QmFKSU1PN3U3czlXeWRzc0lVcVJ4WHBnajc4QTRyZ2hDbVhJa2pEaWpqRUFIdS1JUVE?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-03-21T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.430Z",
       "channel": "linkedin",
       "isNew": false
     }
