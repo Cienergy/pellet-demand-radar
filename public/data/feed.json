@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-07T08:41:24.261Z",
-  "crawlDurationMs": 25055,
+  "updatedAt": "2026-11-07T15:37:40.243Z",
+  "crawlDurationMs": 25057,
   "stats": {
     "total": 500,
     "tenders": 172,
@@ -8,7 +8,7 @@
     "news": 211,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 34,
+    "newThisCrawl": 32,
     "withCompany": 143
   },
   "sources": [
@@ -142,7 +142,7 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 42,
+      "count": 43,
       "error": null
     },
     {
