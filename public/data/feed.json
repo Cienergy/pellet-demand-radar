@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-06T22:02:24.539Z",
-  "crawlDurationMs": 18663,
+  "updatedAt": "2026-11-07T01:52:08.939Z",
+  "crawlDurationMs": 25035,
   "stats": {
     "total": 500,
     "tenders": 171,
@@ -20,11 +20,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "PSPCL tenders",
       "query": null,
-      "count": 3,
-      "error": null
+      "count": 0,
+      "error": "The operation was aborted due to timeout"
     },
     {
       "ok": true,
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 44,
+      "count": 45,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 27,
+      "count": 28,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 44,
+      "count": 43,
       "error": null
     },
     {
@@ -1449,7 +1449,7 @@
       "summary": "Biomass Pellets: From Opportunity to Execution for MSMEs LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTG1fcGJvTUktOU1XWEU3a2lWN0dSeUdNbVFjOElUWVlFQ3JhZjZDQVBlZ1I4aUhsajVnV0lCeEdyaEZ3T3FGVW1OamtTWFpKejJlUGtHUzVDdjVsc2djLWh3UWpDaVYtR2syRnV0dGotRVJrYUt2cWtmMXpyazEtWkh6SC1uZE5hY3ltNDd1R25pbDNIZlNkUDgtSEJmSGNzeklF?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -4997,7 +4997,7 @@
       "summary": "NTPC asks Indian startups to produce torrefied biomass pellets Construction World",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWnlCcDh2T3ZsRzhpMF9wbGx0SExVQ2dHZnQ1N0ozNkRfSUtWVkZ4dzR5Q3l0cVp4a2hTeVdPd0V6NVV3UEluMWtIUW5kUkF5ZS1ic2VUVVpQd2I4UWdsVXNIYUtpNGUtUlhOQ01hOUtsZUNTdldmR1hDbS1Sb1lXcTBQU1gyemJVREJVZmI1enJ2STZMTXhDSUNyWkVVNXpXU2draGRJbF9JOTNWSjRnRXdiYXlYUmZ1Y1BQTFY2QmlhbUdrUEF5TlBOVm1aUEVCbzBRVGotZmJIcFQ2N051YTBuUDY?oc=5",
       "source": "google_tender_news",
-      "sourceLabel": "Google · utility buys",
+      "sourceLabel": "Google · live NITs",
       "type": "news",
       "companies": [
         "NTPC"
@@ -5326,6 +5326,21 @@
       "discoveredAt": "2026-10-19T17:44:33.519Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "13341a3a197",
+      "title": "A Detailed Report on the Biomass Pellet Hot Blast Stove Market: Types, Applications, and Regional Analysis with a Growth Rate of 13.4% CAGR from 2026 - LinkedIn",
+      "summary": "A Detailed Report on the Biomass Pellet Hot Blast Stove Market: Types, Applications, and Regional Analysis with a Growth Rate of 13.4% CAGR from 2026 LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQUVSaC1oakhxVm9tNERfZ2RzNGV1Y3FsOXF0QzlxNUx5cEk1M2ZkXy1DUkJERWVsV3FaWWN1cjNzWkVfLWlsNU85WDhoYjVRWF9QWDI5UkpmcTY4YzR0eXVaQkYwSWR5dHFiMUJLUDdfeE13VVNrRzRVN2NfX0dMYWo2NTNkM19fWUp1ZlRrd1VQV1Fs?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-11-06T08:10:40.000Z",
+      "discoveredAt": "2026-11-07T01:51:45.264Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "4160483c215",
@@ -8015,21 +8030,6 @@
       "score": 70,
       "publishedAt": "2026-03-21T07:00:00.000Z",
       "discoveredAt": "2026-09-19T15:47:30.430Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "102e0c3a255",
-      "title": "Rocket Chulha – Innovation Brief 🔥 Rocket Chulha is an eco-friendly cooking stove that uses biomass pellet fuel instead of LPG cylinders. It applies the rocket stove combustion principle, which improves airflow and burns fuel more efficiently to produce strong - LinkedIn",
-      "summary": "Rocket Chulha – Innovation Brief 🔥 Rocket Chulha is an eco-friendly cooking stove that uses biomass pellet fuel instead of LPG cylinders. It applies the rocket stove combustion principle, which improves airflow and burns fuel more efficiently to produce strong LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNlVvam5Xd2hrT3dTcW1NMmRjVHJzZDVZMmprNUx1RVVpTVB4YXFMR2pZVFplbUp0V1FZXzRFMG83MFJOdEZvWVZJNXpWU1Byc2dtSlNFaG5ETWtBWHFSRXdiMkxjOTNCQ1ZuZzVYMmIwczdaMXJ5S1FFZEstakdWWTQyS25nQVM2S2ZVRWxycXIxZUhRZTIyQmZzTm5qSDdMLVppSlhPMEUxZ2otX1M4M21YRVZjWTV3RExlMmhxMlB2N01VVnZ5Y211TnBvUQ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-03-13T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.216Z",
       "channel": "linkedin",
       "isNew": false
     }
