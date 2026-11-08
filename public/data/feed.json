@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-08T13:14:42.942Z",
-  "crawlDurationMs": 25043,
+  "updatedAt": "2026-11-08T18:29:04.112Z",
+  "crawlDurationMs": 25037,
   "stats": {
     "total": 500,
-    "tenders": 172,
+    "tenders": 173,
     "purchase": 117,
-    "news": 211,
+    "news": 210,
     "portals": 94,
     "linkedin": 360,
     "newThisCrawl": 34,
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": false,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 46,
+      "count": 47,
       "error": null
     },
     {
@@ -1264,6 +1264,21 @@
       "discoveredAt": "2026-10-29T16:01:49.197Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "73a9e9e125b",
+      "title": "🌱 FROM WASTE TO WEALTH: The Power of Biomass Pellets! Did you know that suitable agricultural and forestry residues can be converted into biomass pellets and used as fuel in compatible industrial applications? Biomass pellets offer an opportunity to tur - LinkedIn",
+      "summary": "🌱 FROM WASTE TO WEALTH: The Power of Biomass Pellets! Did you know that suitable agricultural and forestry residues can be converted into biomass pellets and used as fuel in compatible industrial applications? Biomass pellets offer an opportunity to tur LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUEtiUFctU01Tc0FwcTZmdlQtTWtMSDVLQTNyTEg3M1Z6enRZZndnQlBiV3FkOTBBeXBLZUMxbXlTMW1yY19hRXVGUlVIUFNlSmx2N3NBbXA3bW14OGlicWJBZjlsOGJOcFY0QXp6OXNpZkJfSTNHUHZFamwtcXlNSFVaNEtNVTAyU3FMTTdETnE3akxSV1p6c1JxUEJfUmYteWtZMmtoYU9VTzdqN1FlaUVpdXVqLTBFVVlsYUJmV1FKWUczZEx5TW5QOGxYUVprWHFOSHRaSFM?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 90,
+      "publishedAt": "2026-10-23T07:00:00.000Z",
+      "discoveredAt": "2026-11-08T18:28:41.290Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "72d6c3ee187",
@@ -8017,21 +8032,6 @@
       "score": 70,
       "publishedAt": "2026-03-24T07:00:00.000Z",
       "discoveredAt": "2026-10-12T09:05:31.696Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "78a7b1c1250",
-      "title": "Building a Sustainable Biomass Pellet & Bio-CNG Business in India The biomass sector in India holds immense potential—not just as a business, but as a mission to create cleaner energy, reduce stubble burning, and strengthen the rural economy. Based on - LinkedIn",
-      "summary": "Building a Sustainable Biomass Pellet & Bio-CNG Business in India The biomass sector in India holds immense potential—not just as a business, but as a mission to create cleaner energy, reduce stubble burning, and strengthen the rural economy. Based on LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPck01RTM5SHZGUDVNa0tSaDV5TkhENGM0S2Q2T2E3ZkxxWnB4Rmd5Ym8xenlvaVZKUUQxSFdlWV9veDAzM0hlT0MxQ3ZOejhIeW12R2pZQTJoMTVEcjFvRzhKNlljMmVRTHVJVHlfNWowaFhqVFc2V0VYOTlNaG96bk1YM0l3SjlsZ0xjUlp6TExCOU5xN1lNUGlvNW5PazN5QmFKSU1PN3U3czlXeWRzc0lVcVJ4WHBnajc4QTRyZ2hDbVhJa2pEaWpqRUFIdS1JUVE?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-03-21T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.217Z",
       "channel": "linkedin",
       "isNew": false
     }
