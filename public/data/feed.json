@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-11-08T18:29:04.112Z",
-  "crawlDurationMs": 25037,
+  "updatedAt": "2026-11-08T22:27:10.683Z",
+  "crawlDurationMs": 25058,
   "stats": {
     "total": 500,
-    "tenders": 173,
+    "tenders": 174,
     "purchase": 117,
-    "news": 210,
+    "news": 209,
     "portals": 94,
     "linkedin": 360,
     "newThisCrawl": 34,
-    "withCompany": 143
+    "withCompany": 144
   },
   "sources": [
     {
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -48,11 +48,11 @@
       "error": "fetch failed"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Tata Power tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": false,
@@ -135,7 +135,7 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 30,
+      "count": 32,
       "error": null
     },
     {
@@ -1278,7 +1278,7 @@
       "publishedAt": "2026-10-23T07:00:00.000Z",
       "discoveredAt": "2026-11-08T18:28:41.290Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "72d6c3ee187",
@@ -2171,6 +2171,23 @@
       "discoveredAt": "2026-10-20T17:29:29.399Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "38ece34a22b",
+      "title": "The New NTPC Biomass Tenders: A Welcome Volume, but a Serious Roadblock for MSMEs and Startups? 📑🚫🌾 ​NTPC Limited has recently floated its latest batch of GeM tenders for Non-Torrefied Agro Residue Based Biomass Pellets, as seen in image Whil - LinkedIn",
+      "summary": "The New NTPC Biomass Tenders: A Welcome Volume, but a Serious Roadblock for MSMEs and Startups? 📑🚫🌾 ​NTPC Limited has recently floated its latest batch of GeM tenders for Non-Torrefied Agro Residue Based Biomass Pellets, as seen in image Whil LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaEVmMlZCQ1RHMENYWVBDdjFCMk84ZmZ6X1owTFpZUWl2dEVKTjV6UVhIci1XSWZyMGRxSUwzNzVvUHFOelkyZHpVSzZ3ZFUxa3VSSnpBM2syVkxQUTk1cW9uT0RGdVh3Wm5Wa1lrZVNQNzNFV0JOemh6TFdtcFRDVWp3ZFowTVVhcVRuWENkQm94aVNSUk1uVnZWSC1RRjJFYW9Danl2UENjbGJyTnVZdVBsYkxUY3VPMlp3?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 78,
+      "publishedAt": "2026-06-17T07:00:00.000Z",
+      "discoveredAt": "2026-11-08T22:26:47.294Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "1053af7c1da",
@@ -8017,21 +8034,6 @@
       "score": 70,
       "publishedAt": "2026-03-26T11:23:47.000Z",
       "discoveredAt": "2026-09-26T22:10:51.816Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "76754a2c172",
-      "title": "Cost of Setting Up a Biomass Pellets Manufacturing Plant 2026: CapEx/OpEx, ROI and Raw Materials - LinkedIn",
-      "summary": "Cost of Setting Up a Biomass Pellets Manufacturing Plant 2026: CapEx/OpEx, ROI and Raw Materials LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYlBzTFhGeEdoRFp2ekptUkFRcGw0MjVzeUliOWlucGpHX1dVWnpjWWs5Z04xcGdOV1VXcEtoa25lcGFGWWpiOWNndW16VTdVRlZxZTdnY3FEM2NIYjBaOGFReXFRdTJVc1Nyeno1V01SYWE4dDc5YjhONDIxQXZmX2trUzVIeEEzOU9LN2JCT3c4ZGhQa0Y5ZGsyanlRWG1P?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-03-24T07:00:00.000Z",
-      "discoveredAt": "2026-10-12T09:05:31.696Z",
       "channel": "linkedin",
       "isNew": false
     }
