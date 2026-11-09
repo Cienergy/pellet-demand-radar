@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-08T22:27:10.683Z",
-  "crawlDurationMs": 25058,
+  "updatedAt": "2026-11-09T01:56:22.033Z",
+  "crawlDurationMs": 25055,
   "stats": {
     "total": 500,
     "tenders": 174,
@@ -8,7 +8,7 @@
     "news": 209,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 34,
+    "newThisCrawl": 33,
     "withCompany": 144
   },
   "sources": [
@@ -48,11 +48,11 @@
       "error": "fetch failed"
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Tata Power tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -2187,7 +2187,7 @@
       "publishedAt": "2026-06-17T07:00:00.000Z",
       "discoveredAt": "2026-11-08T22:26:47.294Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1053af7c1da",
