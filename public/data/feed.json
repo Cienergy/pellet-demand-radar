@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-10T11:42:58.776Z",
-  "crawlDurationMs": 17557,
+  "updatedAt": "2026-11-10T19:39:22.660Z",
+  "crawlDurationMs": 17191,
   "stats": {
     "total": 500,
     "tenders": 175,
@@ -8,7 +8,7 @@
     "news": 208,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 32,
+    "newThisCrawl": 31,
     "withCompany": 144
   },
   "sources": [
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": false,
@@ -1451,7 +1451,7 @@
       "summary": "Nitish Jain - Owner @ Vishesh Industries | Manufacturer of Biomass Pellet LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBnR1JJZ05ublV4VW9GOTB3dEtYbFZ3enNkV0pidnBLWExWZkZVcjhsd0V1LWFuaEEzQnMwY0ktdmdrd18zUEtIQXBZMTdGdTFPX0xoYVFtSWxFYWU4?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 90,
