@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-10T19:39:22.660Z",
-  "crawlDurationMs": 17191,
+  "updatedAt": "2026-11-11T00:36:31.781Z",
+  "crawlDurationMs": 18489,
   "stats": {
     "total": 500,
     "tenders": 175,
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -48,11 +48,11 @@
       "error": "fetch failed"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Tata Power tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": false,
