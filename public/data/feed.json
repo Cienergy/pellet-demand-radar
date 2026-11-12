@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-11T22:40:34.662Z",
-  "crawlDurationMs": 25041,
+  "updatedAt": "2026-11-12T03:46:47.790Z",
+  "crawlDurationMs": 25044,
   "stats": {
     "total": 500,
     "tenders": 175,
@@ -8,7 +8,7 @@
     "news": 208,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 34,
+    "newThisCrawl": 33,
     "withCompany": 144
   },
   "sources": [
@@ -5404,7 +5404,7 @@
       "publishedAt": "2026-11-11T15:15:45.000Z",
       "discoveredAt": "2026-11-11T22:40:11.645Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "13341a3a197",
