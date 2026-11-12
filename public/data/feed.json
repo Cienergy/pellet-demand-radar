@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-12T03:46:47.790Z",
-  "crawlDurationMs": 25044,
+  "updatedAt": "2026-11-12T12:34:29.439Z",
+  "crawlDurationMs": 25056,
   "stats": {
     "total": 500,
     "tenders": 175,
@@ -8,7 +8,7 @@
     "news": 208,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 33,
+    "newThisCrawl": 34,
     "withCompany": 144
   },
   "sources": [
@@ -45,7 +45,7 @@
       "label": "GSECL tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": "The operation was aborted due to timeout"
     },
     {
       "ok": true,
