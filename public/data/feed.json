@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-13T08:43:18.876Z",
-  "crawlDurationMs": 25057,
+  "updatedAt": "2026-11-13T17:08:39.342Z",
+  "crawlDurationMs": 25070,
   "stats": {
     "total": 500,
     "tenders": 176,
@@ -8,7 +8,7 @@
     "news": 207,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 37,
+    "newThisCrawl": 39,
     "withCompany": 144
   },
   "sources": [
@@ -45,7 +45,7 @@
       "label": "GSECL tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": "The operation was aborted due to timeout"
     },
     {
       "ok": true,
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 8,
+      "count": 7,
       "error": null
     },
     {
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 43,
+      "count": 42,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 28,
+      "count": 29,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 42,
+      "count": 43,
       "error": null
     },
     {
@@ -1023,7 +1023,7 @@
       "summary": "HPGCL e-Tender: Supply Agro Residue Biomass Pellets LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQT2VRUWxuam9OYTNsSk50WHBiUzcwYWJzZ2FrS3VOTEZvcmlHd2dRUEVYRlg5cDBzN1V2Y2paZm9ReURKLU0xWFpLd2tfY2NtckFtNGZlNXM1WXl1UkUwQ3I1YXNZazRnVDJXNDVYRDJ1WmY5UHc4c3RheUlhMFZtbWRLRzRtQQ?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [
         "HPGCL"
@@ -2140,7 +2140,7 @@
       "publishedAt": "2016-07-16T00:25:08.000Z",
       "discoveredAt": "2026-11-13T08:42:55.598Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0eedce01188",
