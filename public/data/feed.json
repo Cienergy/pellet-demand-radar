@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-13T01:27:29.774Z",
-  "crawlDurationMs": 25061,
+  "updatedAt": "2026-11-13T08:43:18.876Z",
+  "crawlDurationMs": 25057,
   "stats": {
     "total": 500,
-    "tenders": 175,
+    "tenders": 176,
     "purchase": 117,
-    "news": 208,
+    "news": 207,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 36,
+    "newThisCrawl": 37,
     "withCompany": 144
   },
   "sources": [
@@ -45,7 +45,7 @@
       "label": "GSECL tenders",
       "query": null,
       "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "error": "fetch failed"
     },
     {
       "ok": true,
@@ -90,11 +90,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -135,14 +135,14 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 29,
+      "count": 28,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 41,
+      "count": 42,
       "error": null
     },
     {
@@ -2126,6 +2126,21 @@
       "discoveredAt": "2026-10-15T22:39:37.336Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "1e9f8cb216a",
+      "title": "VINAY MISHRA - Procurement || Biomass Briquettes /Pallets || Sourcing || Loose Biomass || Supply Chain || Paddy Bales || Logistics Managment || O&M Team || Bioler Streem Work - LinkedIn India",
+      "summary": "VINAY MISHRA - Procurement || Biomass Briquettes /Pallets || Sourcing || Loose Biomass || Supply Chain || Paddy Bales || Logistics Managment || O&M Team || Bioler Streem Work LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9OVm5pdzU3ZGhMMlVYeGZwX3J5UUpiYmRaWS0xTnZaV2NUdTFIbzVnVlhMeFFRWl9sYnJkSDRZQ0RjWC1paUwxV1gzNWVFTnU4a3Fva0JKUS1wbk1C?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [],
+      "score": 83,
+      "publishedAt": "2016-07-16T00:25:08.000Z",
+      "discoveredAt": "2026-11-13T08:42:55.598Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "0eedce01188",
@@ -8019,21 +8034,6 @@
       "score": 70,
       "publishedAt": "2026-04-02T07:00:00.000Z",
       "discoveredAt": "2026-10-03T17:35:34.028Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "5f40e6c5182",
-      "title": "PSERC revises Malwa Power biomass tariff, extends operations - linkedin.com",
-      "summary": "PSERC revises Malwa Power biomass tariff, extends operations linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcmFXZ2RVMTk4b19LdUtEWjNxcFZmVHNYUkFjNllvUF9PaG1zbGtDU0ZScFNpa0NoM3BMRGQ4MnV1V2NULTB3MHN4NTFWNjV5M3VoYS1GOExEbFhiakdVa1hNc1czNThLaFNvQ0NMRjBXV1dWVEpKYkJOSl9NMUxuUjNaVWJrN1o5QnNrUExxN1dBWFk3TVpYZzRHNlVUQUxjM0NuZnM0SHQ2WWlEanByQVNzc0xhNC02a2NxZERhVkFObXpQ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-04-02T07:00:00.000Z",
-      "discoveredAt": "2026-10-05T07:39:14.949Z",
       "channel": "linkedin",
       "isNew": false
     }
