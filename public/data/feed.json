@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-12T20:26:41.556Z",
-  "crawlDurationMs": 25046,
+  "updatedAt": "2026-11-13T01:27:29.774Z",
+  "crawlDurationMs": 25061,
   "stats": {
     "total": 500,
     "tenders": 175,
@@ -8,7 +8,7 @@
     "news": 208,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 33,
+    "newThisCrawl": 36,
     "withCompany": 144
   },
   "sources": [
@@ -90,11 +90,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
       "ok": true,
@@ -1796,8 +1796,8 @@
       "summary": "NTPC invites bids for procurement of biomass pellets to co-fire thermal power plants PSU Watch",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNemZoLWg1TXB6T0IxTWEzV3NDdlp5eEZQVnpES3BjdmV5bFY2b09oanN1UmlqY1ZJUzc5Z3lqU1lPc0k4WmxRZThGSUpobmtNY3ZzMjRVVFZmaTlYd2FoVXlQWmJlM3VSeU9Db1o3eU12MTlkRm9kSEFzU3ppMlFQa1kwa1NnNUxkekZLOHQ3SHoyUVBaSl94OWtKUDR0MDlQbDZ4MXZqMnFyODA2SHkxYXF3NzVYYmvSAcQBQVVfeXFMTy1HOWVsYmxJSUl1XzFHanVvUkoxY25RVEFCSDIyd2xfQnB6RmY1QUZLSXZfYXRTVEw3LVM4a0M3TWtzMDdjSmxaa0dZTmgtZzJhYVJFUFQ5YUNGaVZYMVFKU1dhMExOTlRxaDROZHJqN2pxb29vSkhfU3BNd0dVRkFrbkJCaDFFUF9Ib1ZCekwzSlVhVE9EU3NyZ1ZZU05tbmFzcHAxV3EwenI0bkUyZ3pkN0ptRDJDZjQwQjNVQ1k2cFExaQ?oc=5",
       "source": "google_news",
-      "sourceLabel": "State utilities",
-      "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
+      "sourceLabel": "Cofiring / NTPC",
+      "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
       "type": "tender",
       "companies": [
         "NTPC"
