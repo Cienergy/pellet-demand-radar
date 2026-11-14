@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-13T22:50:53.316Z",
-  "crawlDurationMs": 59884,
+  "updatedAt": "2026-11-14T03:07:00.704Z",
+  "crawlDurationMs": 25057,
   "stats": {
     "total": 500,
     "tenders": 176,
@@ -8,7 +8,7 @@
     "news": 206,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 42,
+    "newThisCrawl": 41,
     "withCompany": 144
   },
   "sources": [
@@ -135,14 +135,14 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 28,
+      "count": 29,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 42,
+      "count": 44,
       "error": null
     },
     {
@@ -1023,7 +1023,7 @@
       "summary": "HPGCL e-Tender: Supply Agro Residue Biomass Pellets LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQT2VRUWxuam9OYTNsSk50WHBiUzcwYWJzZ2FrS3VOTEZvcmlHd2dRUEVYRlg5cDBzN1V2Y2paZm9ReURKLU0xWFpLd2tfY2NtckFtNGZlNXM1WXl1UkUwQ3I1YXNZazRnVDJXNDVYRDJ1WmY5UHc4c3RheUlhMFZtbWRLRzRtQQ?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [
         "HPGCL"
@@ -1556,7 +1556,7 @@
       "summary": "\"What if agricultural waste becomes India's next energy asset?\" 🌾🔥♻️ The Business of Biomass Pellets. When most people look at agricultural waste, they see a disposal problem. I see an opportunity. An opportunity to create income for farmers, reduce stubbl LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeHZFcE0zMDhMRkJPS1VPbXgwbmxmLVc4WG51Q0FJblNqSEh3amI5cmF1RTdwM05DX0c3Q1Q2aTlkZVFoWjl0WEtuRllfblZ6bDc3a0x2TW5LRHpZZ1ZPNXZsV3RjZjdQZnVIRk10Q19yX2tENnlGY05ZQXJBUnNPeWQzLVV4Qy1jMjR2NHpqeHp1bjd4elNxMHpBRHo2YjY5RzhlREpYRHpWU1BnVFVtUnRiQ3E2UHdpYkFXSldBejkwT0FzX0Zn?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -3876,7 +3876,7 @@
       "publishedAt": "2026-11-06T14:08:50.000Z",
       "discoveredAt": "2026-11-13T22:49:55.608Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "030727ad147",
