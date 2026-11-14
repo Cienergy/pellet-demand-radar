@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-14T03:07:00.704Z",
-  "crawlDurationMs": 25057,
+  "updatedAt": "2026-11-14T10:52:51.327Z",
+  "crawlDurationMs": 25039,
   "stats": {
     "total": 500,
     "tenders": 176,
@@ -20,11 +20,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "PSPCL tenders",
       "query": null,
-      "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "count": 3,
+      "error": null
     },
     {
       "ok": true,
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 42,
+      "count": 44,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 29,
+      "count": 28,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 44,
+      "count": 42,
       "error": null
     },
     {
@@ -1556,7 +1556,7 @@
       "summary": "\"What if agricultural waste becomes India's next energy asset?\" 🌾🔥♻️ The Business of Biomass Pellets. When most people look at agricultural waste, they see a disposal problem. I see an opportunity. An opportunity to create income for farmers, reduce stubbl LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeHZFcE0zMDhMRkJPS1VPbXgwbmxmLVc4WG51Q0FJblNqSEh3amI5cmF1RTdwM05DX0c3Q1Q2aTlkZVFoWjl0WEtuRllfblZ6bDc3a0x2TW5LRHpZZ1ZPNXZsV3RjZjdQZnVIRk10Q19yX2tENnlGY05ZQXJBUnNPeWQzLVV4Qy1jMjR2NHpqeHp1bjd4elNxMHpBRHo2YjY5RzhlREpYRHpWU1BnVFVtUnRiQ3E2UHdpYkFXSldBejkwT0FzX0Zn?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -5452,6 +5452,21 @@
       "isNew": false
     },
     {
+      "id": "39b1b14e12e",
+      "title": "Torrefied Biomass Pellet Market: Industry Dynamics - LinkedIn",
+      "summary": "Torrefied Biomass Pellet Market: Industry Dynamics LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYkp2SWxOSVlwSTc5SXNRc2t5am1YV3JMN3hHbWtLdHNTRVVRaVhfRWlfUGhzZWJRUGE5YzJwbXVYU0p6eGVxQk9EMEdDNmtzMVNlMUgwTndiYzY2YVg1OWFqaXU5SURReGJmNmlhNkNDZ3kxX3VQdzNoNXpkcFJTUVNVYWxJTzZieTN1Mnc4UQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-11-04T08:00:00.000Z",
+      "discoveredAt": "2026-11-14T10:52:27.288Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
       "id": "4160483c215",
       "title": "Jivanta Global on Instagram: \"Jivanta Global Pvt Ltd at Boilers India Expo 2026, CIDCO Exhibition Centre, Navi Mumbai. It was a memorable one. 🙏✨🌎🇮🇳 #boilersindia2026 #biomasspellets #viralreels #expo #exhibition\" - LinkedIn",
       "summary": "Jivanta Global on Instagram: \"Jivanta Global Pvt Ltd at Boilers India Expo 2026, CIDCO Exhibition Centre, Navi Mumbai. It was a memorable one. 🙏✨🌎🇮🇳 #boilersindia2026 #biomasspellets #viralreels #expo #exhibition\" LinkedIn",
@@ -8019,21 +8034,6 @@
       "score": 70,
       "publishedAt": "2026-04-07T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:27.213Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "6bba95f922d",
-      "title": "Top 10 Biomass Pellet Manufacturers in India: 1. Abellon CleanEnergy Ltd. 2. Punjab Renewable Energy Systems Pvt. Ltd. 3. ECOSTAN Biofuel Pvt. Ltd. 4. Rajaram Solvex Ltd. 5. Manikaran Power Ltd. 6. Shubhshree Biofuels Energy Ltd. 7. Dhaneshwar Fire - linkedin.com",
-      "summary": "Top 10 Biomass Pellet Manufacturers in India: 1. Abellon CleanEnergy Ltd. 2. Punjab Renewable Energy Systems Pvt. Ltd. 3. ECOSTAN Biofuel Pvt. Ltd. 4. Rajaram Solvex Ltd. 5. Manikaran Power Ltd. 6. Shubhshree Biofuels Energy Ltd. 7. Dhaneshwar Fire linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdG5FcjZjbFY5ay1sVE5vWFctR2xPcE0yNEx2LWdBNUZFamNNMGJfMjI4ZUhZajlsbnJLTXlxNF9jZFRPMjlNdFRHbE1lLUJRMTVJRnVrZFdGcUY3N1g1LUpSczVGa0pzLVYxQ0lXcHZFUWtXVG1Qd2RRMGdDQTlMSkdla0h4NHoycUxxVjNfQVZNcVVqU3JEaVI3TTBscnl4QnpEdXRka1VZRmxpVFVSV0tqZXMtMFk?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-04-07T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.427Z",
       "channel": "linkedin",
       "isNew": false
     }
