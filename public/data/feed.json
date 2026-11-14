@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-14T10:52:51.327Z",
-  "crawlDurationMs": 25039,
+  "updatedAt": "2026-11-14T17:00:31.052Z",
+  "crawlDurationMs": 25056,
   "stats": {
     "total": 500,
     "tenders": 176,
@@ -20,11 +20,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "PSPCL tenders",
       "query": null,
-      "count": 3,
-      "error": null
+      "count": 0,
+      "error": "The operation was aborted due to timeout"
     },
     {
       "ok": true,
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 44,
+      "count": 43,
       "error": null
     },
     {
@@ -3304,7 +3304,7 @@
       "summary": "Satish Upadhyay - Director General, Centre of Sustainability for Pure Earth | Chairperson, Biomass Global Associates Forum IFGE | Hydro Energy | Thermal Power | Bioenergy | Fuel management | Quality Assurance & Audits |Project Management LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE94NzJQNlVhNTROOG1EUmplUld1c3JTZHk2aC12cDAtYm5NVEZHQ0JnRjZVckVDb1JQUG5pMXZVNmFLNUxPaTNvMVRycjdpMnc?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [],
       "score": 74,
