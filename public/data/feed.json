@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-15T08:24:52.330Z",
-  "crawlDurationMs": 25058,
+  "updatedAt": "2026-11-15T15:51:24.409Z",
+  "crawlDurationMs": 25057,
   "stats": {
     "total": 500,
-    "tenders": 176,
-    "purchase": 118,
-    "news": 206,
+    "tenders": 177,
+    "purchase": 119,
+    "news": 204,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 40,
+    "newThisCrawl": 39,
     "withCompany": 144
   },
   "sources": [
@@ -20,11 +20,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "PSPCL tenders",
       "query": null,
-      "count": 3,
-      "error": null
+      "count": 0,
+      "error": "The operation was aborted due to timeout"
     },
     {
       "ok": true,
@@ -135,14 +135,14 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 29,
+      "count": 28,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 41,
+      "count": 42,
       "error": null
     },
     {
@@ -2111,6 +2111,21 @@
       "isNew": false
     },
     {
+      "id": "16132d15212",
+      "title": "🔥 DEAL DONE! Punjab State Power Corporation Ltd has awarded a Rs 205.06 Crore contract for agro residue-based biomass non-torrefied pellets to supply GHTP, Lehra Mohabbat - won among 20 bidders - award split across 13 biofuel suppliers led by L1 W - LinkedIn",
+      "summary": "🔥 DEAL DONE! Punjab State Power Corporation Ltd has awarded a Rs 205.06 Crore contract for agro residue-based biomass non-torrefied pellets to supply GHTP, Lehra Mohabbat - won among 20 bidders - award split across 13 biofuel suppliers led by L1 W LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZUZKcHNNSVZsVTEtZ21SRUhvZmJDa1k4ay1QUXpQZm1kcjdRZzVzQkNvcDBwY3ZLRURSaDlHYXAwWG56SXdjUlF6dE5CU3lNd0hKNnVTU2RzeFB5ZHVYc1lqOXhPbmxkYWpJLVhjS0RQc19BSHZ5aktjRXN4R0JHY1JuVDlrS0ZfYWFpYlhWYlRhOU9YQWR5YnlfUzlVaHNUaldwaVp3?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "tender",
+      "companies": [],
+      "score": 80,
+      "publishedAt": "2026-11-14T18:49:00.000Z",
+      "discoveredAt": "2026-11-15T15:51:00.372Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "6586918f22e",
       "title": "After nearly 2 years, the biomass industry expected a NTPC tender aligned with the Government's 5% co-firing target. Instead, the tender quantity appears to be only a fraction of the actual requirement, creating serious concern among pellet manufacturers who - LinkedIn",
       "summary": "After nearly 2 years, the biomass industry expected a NTPC tender aligned with the Government's 5% co-firing target. Instead, the tender quantity appears to be only a fraction of the actual requirement, creating serious concern among pellet manufacturers who LinkedIn",
@@ -3894,6 +3909,21 @@
       "isNew": false
     },
     {
+      "id": "35541e91246",
+      "title": "🌱 Powering India’s Clean Energy Transition: Why Biomass Pellets are the Future of Industrial Fuel Post Body: As industries across India scale up production, the demand for sustainable and eco-friendly fuel solutions has never been greater. The shift from tradi - LinkedIn",
+      "summary": "🌱 Powering India’s Clean Energy Transition: Why Biomass Pellets are the Future of Industrial Fuel Post Body: As industries across India scale up production, the demand for sustainable and eco-friendly fuel solutions has never been greater. The shift from tradi LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTFB3c1JsdTViQ3BFdG1JZVMwQVVYX0F6cGVMTk9Wb1J5MWFSWWRORE1oQXVyMUdlWFc5Z2ZFRmZoQ3dVRTVTQVU2UTFDVnVSUzJVMi1NWGdCUGJnZnVaS2lxUUpySGppWkZLbnhFQ0diTktMYlNoUWJfdm1Od1A4QVM3clYzM1JoNy00R3RsdVdoOGRKd2NzSUczUEdMcThXdWp4cXVVQ3kwbTlzSmp6X3h1OWpJTkxyTmxBTDJQWFpyS00?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2026-10-20T07:00:00.000Z",
+      "discoveredAt": "2026-11-15T15:51:01.050Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "4a1115b3249",
       "title": "Biomass is available. The demand is real. So, what’s missing? The right connection. 🌱 Biofuel networks bridge the gap between farmers and industries, bringing biomass supply and demand together to build a stronger bioenergy ecosystem. One connection. T - LinkedIn",
       "summary": "Biomass is available. The demand is real. So, what’s missing? The right connection. 🌱 Biofuel networks bridge the gap between farmers and industries, bringing biomass supply and demand together to build a stronger bioenergy ecosystem. One connection. T LinkedIn",
@@ -4248,7 +4278,7 @@
       "summary": "Want to Start a Biomass Pellet Plant in India? Here's What You Need to Know. The government just issued ₹61.85 crore in penalties to power plants for missing co-firing targets. With mandatory 7% co-firing and a 12+ million tonne supply gap, biomass pellet m LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTXdfbU8yMnhZYmV1U21md1hycXFSbWtidEhrVVk3NVREMU4weFRGOUl0YXh4dnpGLXVrdEJ6T2JaVlVvSF9kT213Z0hBSUxxVFFMWFNYMGJ2aHZra21tVlFvcW40Tk9Da1JzeFE3YjlVR2lxV0p1c1VsWnJKTHlJNkNGZ1BkS1JRUjNCa1ptNGNZZG9zUFFOaXdhQ0I0bTJHSTZwLXZpN2ZHTnMxbXlleWY2dUlLQWpjNkdzOXJicw?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -8004,36 +8034,6 @@
       "score": 70,
       "publishedAt": "2026-04-13T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:27.217Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "34839c25149",
-      "title": "Biomass Pellets Import in India: Strategic Growth and Future Outlook - linkedin.com",
-      "summary": "Biomass Pellets Import in India: Strategic Growth and Future Outlook linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcmFUSGIwZVMxdGU1b3JTNmdROVdqWnZlNEhQakhtaE9wU1JPdUt0RkVyU25nT2xobjhsTEl6d2l6R2staXExd3NQUG5MTDgtQ1N5dXA3ZVl2SXpzN3BVM2U5VkJiZnZwN1JFd2hhQkl6WTJCNHI4SWc5Uk81MnFISjNOdml4akhGVEpOUHVPQ3dXSzg?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-04-13T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.431Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "7044c64c229",
-      "title": "Top 10 Biomass Pellet Manufacturers in India: 1. Abellon CleanEnergy Ltd. 2. Punjab Renewable Energy Systems Pvt. Ltd. 3. ECOSTAN Biofuel Pvt. Ltd. 4. Rajaram Solvex Ltd. 5. Manikaran Power Ltd. 6. Shubhshree Biofuels Energy Ltd. 7. Dhaneshwar Fire - LinkedIn",
-      "summary": "Top 10 Biomass Pellet Manufacturers in India: 1. Abellon CleanEnergy Ltd. 2. Punjab Renewable Energy Systems Pvt. Ltd. 3. ECOSTAN Biofuel Pvt. Ltd. 4. Rajaram Solvex Ltd. 5. Manikaran Power Ltd. 6. Shubhshree Biofuels Energy Ltd. 7. Dhaneshwar Fire LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdG5FcjZjbFY5ay1sVE5vWFctR2xPcE0yNEx2LWdBNUZFamNNMGJfMjI4ZUhZajlsbnJLTXlxNF9jZFRPMjlNdFRHbE1lLUJRMTVJRnVrZFdGcUY3N1g1LUpSczVGa0pzLVYxQ0lXcHZFUWtXVG1Qd2RRMGdDQTlMSkdla0h4NHoycUxxVjNfQVZNcVVqU3JEaVI3TTBscnl4QnpEdXRka1VZRmxpVFVSV0tqZXMtMFk?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-04-07T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.213Z",
       "channel": "linkedin",
       "isNew": false
     }
