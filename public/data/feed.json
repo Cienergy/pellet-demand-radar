@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-14T21:24:10.118Z",
-  "crawlDurationMs": 25037,
+  "updatedAt": "2026-11-15T01:17:24.497Z",
+  "crawlDurationMs": 25048,
   "stats": {
     "total": 500,
     "tenders": 176,
@@ -8,7 +8,7 @@
     "news": 206,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 40,
+    "newThisCrawl": 41,
     "withCompany": 144
   },
   "sources": [
