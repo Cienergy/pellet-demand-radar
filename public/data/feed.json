@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-15T01:17:24.497Z",
-  "crawlDurationMs": 25048,
+  "updatedAt": "2026-11-15T08:24:52.330Z",
+  "crawlDurationMs": 25058,
   "stats": {
     "total": 500,
     "tenders": 176,
@@ -8,7 +8,7 @@
     "news": 206,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 41,
+    "newThisCrawl": 40,
     "withCompany": 144
   },
   "sources": [
@@ -20,11 +20,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "PSPCL tenders",
       "query": null,
-      "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "count": 3,
+      "error": null
     },
     {
       "ok": true,
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 43,
+      "count": 44,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 28,
+      "count": 29,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 42,
+      "count": 41,
       "error": null
     },
     {
@@ -4248,7 +4248,7 @@
       "summary": "Want to Start a Biomass Pellet Plant in India? Here's What You Need to Know. The government just issued ₹61.85 crore in penalties to power plants for missing co-firing targets. With mandatory 7% co-firing and a 12+ million tonne supply gap, biomass pellet m LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTXdfbU8yMnhZYmV1U21md1hycXFSbWtidEhrVVk3NVREMU4weFRGOUl0YXh4dnpGLXVrdEJ6T2JaVlVvSF9kT213Z0hBSUxxVFFMWFNYMGJ2aHZra21tVlFvcW40Tk9Da1JzeFE3YjlVR2lxV0p1c1VsWnJKTHlJNkNGZ1BkS1JRUjNCa1ptNGNZZG9zUFFOaXdhQ0I0bTJHSTZwLXZpN2ZHTnMxbXlleWY2dUlLQWpjNkdzOXJicw?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -7949,7 +7949,7 @@
       "summary": "Pranav Mahapatra - Founder, Biomass Pellet Manufacturing Company (Srishti Biofuels) LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1LZDZzVVh2NjBaVmo1RjhUbHFGcjVGVHhESk13YjhpOTFvT2J3cUVCMkpNZEY5bW9Fa3k4XzVxdFN4M1B3MFlNYTJ2TzRVOXl4dU5Eb1ln?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "news",
       "companies": [],
       "score": 70,
