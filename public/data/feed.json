@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-16T07:54:15.852Z",
-  "crawlDurationMs": 25039,
+  "updatedAt": "2026-11-16T18:23:16.213Z",
+  "crawlDurationMs": 25055,
   "stats": {
     "total": 500,
     "tenders": 177,
@@ -8,7 +8,7 @@
     "news": 204,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 38,
+    "newThisCrawl": 39,
     "withCompany": 144
   },
   "sources": [
@@ -48,11 +48,11 @@
       "error": "The operation was aborted due to timeout"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Tata Power tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": false,
@@ -135,7 +135,7 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 29,
+      "count": 28,
       "error": null
     },
     {
