@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-16T00:57:29.637Z",
-  "crawlDurationMs": 25038,
+  "updatedAt": "2026-11-16T07:54:15.852Z",
+  "crawlDurationMs": 25039,
   "stats": {
     "total": 500,
     "tenders": 177,
@@ -8,7 +8,7 @@
     "news": 204,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 39,
+    "newThisCrawl": 38,
     "withCompany": 144
   },
   "sources": [
@@ -48,11 +48,11 @@
       "error": "The operation was aborted due to timeout"
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Tata Power tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -149,7 +149,7 @@
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 6,
+      "count": 5,
       "error": null
     },
     {
