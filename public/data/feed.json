@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-16T18:23:16.213Z",
-  "crawlDurationMs": 25055,
+  "updatedAt": "2026-11-17T02:02:49.901Z",
+  "crawlDurationMs": 25044,
   "stats": {
     "total": 500,
     "tenders": 177,
@@ -8,7 +8,7 @@
     "news": 204,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 39,
+    "newThisCrawl": 36,
     "withCompany": 144
   },
   "sources": [
@@ -24,7 +24,7 @@
       "label": "PSPCL tenders",
       "query": null,
       "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "error": "HTTP 500"
     },
     {
       "ok": true,
@@ -48,11 +48,11 @@
       "error": "The operation was aborted due to timeout"
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Tata Power tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -132,11 +132,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 28,
-      "error": null
+      "count": 0,
+      "error": "Status code 429"
     },
     {
       "ok": true,
@@ -149,7 +149,7 @@
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 5,
+      "count": 6,
       "error": null
     },
     {
@@ -167,11 +167,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Cement / power buyers",
       "query": "(\"Tata Power\" OR \"Adani Power\" OR \"JSW Energy\" OR UltraTech OR Dalmia) (pellet OR biomass) (tender OR purchase OR procure OR requirement)",
       "count": 0,
-      "error": null
+      "error": "Status code 429"
     },
     {
       "ok": true,
@@ -955,7 +955,7 @@
       "summary": "🌾 Biomass demand is creating new opportunities across India. NTPC has invited biomass pellet procurement bids across Chhattisgarh, Odisha, Madhya Pradesh, Maharashtra and Jharkhand supporting cleaner energy generation and greater biomass utilizati LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWXJ3cTVaSmh6TVZVM1BUMkFlMmV0U1JONVdhN0RBb0h5VWJQZHRhUDIxOURQcjZySW9Ub0FhVEw4TDJ5Ymo4MkU4UEM0eWtkQmhsOU1BTUdWYUNQVGdUc0w2OUZfZ2Z4Z18tZlNiZURpYUl6cENrUC1yTXVtdWhteGxXVEZZbkNZRW9CV2VYamt3LXJIR2JBMDBFWk5nbUlYeEUyVmdjemNoWFRDaWVWMDJVdWJpVnhvcFkwdUxPTG9OeVZ3cXE0djBn?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -3419,8 +3419,8 @@
       "summary": "NTPC Invites EOI To Produce Torrefied Biomass Pellets From Startups Sarkaritel.com",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV1FlS3lPU2U2OEVLbXBScmJHcE5VcUJwUmZqN1AzZGVxWFBYQkZwWC1VRGp6OThUajVoWnE2enhXOEZqeVlyb1NVUEpiOUh0ZFh0MXBzMUdHWGpWRUFlbkFVc2JRNW1kV0dSckNDaFRUSVhxOVB6VHBWSXpFVzZGWTlKUzdIQld6dktOYVM4VDM3dHVDRUFsX3Byaw?oc=5",
       "source": "google_news",
-      "sourceLabel": "Cofiring / NTPC",
-      "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
+      "sourceLabel": "Pellet NITs IN",
+      "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -5480,6 +5480,21 @@
       "discoveredAt": "2026-11-07T01:51:45.264Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "3fc1e3c2198",
+      "title": "The Reactor Outside the Fence: Insights into Paddy Straw CBG Plant - LinkedIn",
+      "summary": "The Reactor Outside the Fence: Insights into Paddy Straw CBG Plant LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZHA5SGNTaVlhUENGbmN2XzhZWXVaSklwbjgtYmpmbU5XM1dYZV9SeVFuY05uUko3azQzTDNpQXVrZlpxNk5VVUEzcGdUNHdIQzRmVDk0eHltck5lNkpQeHdtV1R1QnhPeWhod2xpS2N4UHB1Y2RwZ0hlTWdEclFKbEFUdzFUNUVjWlc0R0RsZk16ZWFBazRXeFZ1NHU4TUUwVm5LY2ZhUVppNk82TVh2ejdMdU5nN1J0NEVmVXR1cENkRWcydjUyUlBBS21yaG40c2h3?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-11-06T08:00:00.000Z",
+      "discoveredAt": "2026-11-17T02:02:26.858Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "39b1b14e12e",
@@ -8019,21 +8034,6 @@
       "score": 70,
       "publishedAt": "2026-05-18T07:00:00.000Z",
       "discoveredAt": "2026-09-19T15:47:30.955Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "424cd52e145",
-      "title": "Biomass Pellets Import in India: Strategic Growth and Future Outlook - LinkedIn",
-      "summary": "Biomass Pellets Import in India: Strategic Growth and Future Outlook LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcmFUSGIwZVMxdGU1b3JTNmdROVdqWnZlNEhQakhtaE9wU1JPdUt0RkVyU25nT2xobjhsTEl6d2l6R2staXExd3NQUG5MTDgtQ1N5dXA3ZVl2SXpzN3BVM2U5VkJiZnZwN1JFd2hhQkl6WTJCNHI4SWc5Uk81MnFISjNOdml4akhGVEpOUHVPQ3dXSzg?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-04-13T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.217Z",
       "channel": "linkedin",
       "isNew": false
     }
