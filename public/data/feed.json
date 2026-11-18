@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-17T19:47:16.172Z",
-  "crawlDurationMs": 25046,
+  "updatedAt": "2026-11-18T02:22:08.604Z",
+  "crawlDurationMs": 25056,
   "stats": {
     "total": 500,
-    "tenders": 177,
+    "tenders": 178,
     "purchase": 119,
-    "news": 204,
+    "news": 203,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 0,
+    "newThisCrawl": 40,
     "withCompany": 144
   },
   "sources": [
@@ -41,11 +41,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "GSECL tenders",
       "query": null,
       "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "error": null
     },
     {
       "ok": true,
@@ -76,18 +76,18 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Google · live NITs",
       "query": "(\"biomass pellet\" OR \"agro residue based pellet\" OR \"torrefied biomass\") (NIT OR \"Notice Inviting Tender\" OR \"e-Tender\" OR \"GeM bid\" OR EOI) India -market -forecast -\"market size\"",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 2,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 7,
+      "error": null
     },
     {
       "ok": true,
@@ -125,60 +125,60 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 45,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 27,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 41,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 6,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 5,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "State utilities",
       "query": "(PSPCL OR Mahagenco OR HPGCL OR GSECL OR KPCL OR Haryana OR Punjab) (biomass pellet OR \"paddy straw pellet\") (tender OR enquiry OR procurement)",
-      "count": 0,
-      "error": "Status code 503"
+      "count": 5,
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Cement / power buyers",
       "query": "(\"Tata Power\" OR \"Adani Power\" OR \"JSW Energy\" OR UltraTech OR Dalmia) (pellet OR biomass) (tender OR purchase OR procure OR requirement)",
       "count": 0,
-      "error": "Status code 503"
+      "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "GeM / eProcure mentions",
       "query": "(GeM OR eprocure OR \"Central Public Procurement\") (\"biomass pellet\" OR \"agro residue\") (bid OR tender)",
       "count": 0,
-      "error": "Status code 503"
+      "error": null
     }
   ],
   "watchCompanies": [
@@ -2248,6 +2248,23 @@
       "discoveredAt": "2026-10-13T21:56:52.228Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "62f2605421a",
+      "title": "🏆 MAJOR AWARD! Punjab State Power Corporation Limited has awarded a ₹205.06 Cr biomass pellet supply contract for GHTP Lehra Mohabbat - split across 13 accepted bidders. 📋 Agro residue-based non-torrefied pellets - 📍 Lehra Mohabbat, Punjab 🏢 Le - LinkedIn",
+      "summary": "🏆 MAJOR AWARD! Punjab State Power Corporation Limited has awarded a ₹205.06 Cr biomass pellet supply contract for GHTP Lehra Mohabbat - split across 13 accepted bidders. 📋 Agro residue-based non-torrefied pellets - 📍 Lehra Mohabbat, Punjab 🏢 Le LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeEQ3cTR4XzBVNE0xRzhmN3JUa1BrclR3UFFLYnFGdWZPUzVYWVFhWXpWR0o4LWJ5WDNZcmI1d1FDejh0RVMybG9ISjJGQTVYcjhyVjlsSWVLQmJsQmJnNjNYdmFST3BPVG5VMFR4YTlhTFBOSzA2QVVOa1h3LUlJcXlVeUt4cU1LanJWbVVUR2RSRXVsZVo5ckZCcmFzS25rc3Npd29uOEZXc2Rr?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "tender",
+      "companies": [
+        "ACC"
+      ],
+      "score": 77,
+      "publishedAt": "2026-11-16T06:48:50.000Z",
+      "discoveredAt": "2026-11-18T02:21:44.794Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "76af83fa23d",
@@ -8017,23 +8034,6 @@
       "score": 70,
       "publishedAt": "2026-05-18T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.263Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "3a61c337265",
-      "title": "NTPC targets 60 GW of renewable energy by 2032, making up nearly 45% of its total generation mix. To achieve this, it is actively retrofitting its coal assets with solar and biomass hybrids while rapidly scaling mega solar and green hydrogen projects across In - linkedin.com",
-      "summary": "NTPC targets 60 GW of renewable energy by 2032, making up nearly 45% of its total generation mix. To achieve this, it is actively retrofitting its coal assets with solar and biomass hybrids while rapidly scaling mega solar and green hydrogen projects across In linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNaHZneUlHWG56ME5EX1lObElId0dWVmZwYUU0MU84LW41ajd6MGZtOVdIdFhkaG5PdFJGYzRfMEZPQTBQbkJKc3dSbXBUSUtjcmhGUTl6YUg2NUJjeEJ3NEdTbTFvNV96R1ltazNjakZNb0EyeGV6UnJnTHYzaWFtaGw2VHNyVndQRTQ4bEhjMUNyVHVhVzg4eWQtcXVaZkdZZEZJMzFHR1ZLSDJDU0dyWWZ3NmVTakd1dkNiazNlcldLRW1SU1JueWNickZPME42SmpTRk85Vmo?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
-      "type": "news",
-      "companies": [
-        "NTPC"
-      ],
-      "score": 70,
-      "publishedAt": "2026-05-18T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.955Z",
       "channel": "linkedin",
       "isNew": false
     }
