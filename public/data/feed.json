@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-18T10:39:52.797Z",
-  "crawlDurationMs": 25060,
+  "updatedAt": "2026-11-18T19:23:03.483Z",
+  "crawlDurationMs": 25058,
   "stats": {
     "total": 500,
     "tenders": 178,
@@ -8,7 +8,7 @@
     "news": 203,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 39,
+    "newThisCrawl": 40,
     "withCompany": 144
   },
   "sources": [
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": false,
