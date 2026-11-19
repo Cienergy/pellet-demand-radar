@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-19T01:27:28.621Z",
-  "crawlDurationMs": 25058,
+  "updatedAt": "2026-11-19T09:28:09.013Z",
+  "crawlDurationMs": 25055,
   "stats": {
     "total": 500,
     "tenders": 178,
@@ -8,7 +8,7 @@
     "news": 203,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 41,
+    "newThisCrawl": 42,
     "withCompany": 144
   },
   "sources": [
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 7,
+      "count": 8,
       "error": null
     },
     {
@@ -128,14 +128,14 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 55,
+      "count": 45,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 27,
+      "count": 28,
       "error": null
     },
     {
@@ -904,7 +904,7 @@
       "summary": "🚨 Major Opportunity for India’s Biomass Pellet Industry NTPC has invited large-scale tenders for the procurement of Agro Residue-Based Non-Torrefied Biomass Pellets for multiple thermal power stations, including Sipat, Korba, Lara, Gadarwara, Mouda, Nort LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeU1DendCeWV3YXBzQVB1dkFCc2lzbWttTDhBMXk5Y2p6WWpfSVhCb095YVZrSVBVZnFRSHRGM0h0OVRHRE5WTUpsUHN4SGFaWE5LSlJuSTJsblNFeTFvS1ZHYTVlbXpjWkVSUGZPN1UzZUVIcVhfQ3J2a1ZRUUdlVHhISjlraVZJbnJySmhVZ1pIaXd2MEZkM2x6YVN6aEI3Z2VSbFhGQklyUDl1Zl9qTENfQVdDSFJPTEctNjREbTQ?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [
         "NTPC"
