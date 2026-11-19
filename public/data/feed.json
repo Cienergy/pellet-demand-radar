@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-19T09:28:09.013Z",
-  "crawlDurationMs": 25055,
+  "updatedAt": "2026-11-19T18:38:13.844Z",
+  "crawlDurationMs": 25061,
   "stats": {
     "total": 500,
     "tenders": 178,
@@ -9,7 +9,7 @@
     "portals": 94,
     "linkedin": 360,
     "newThisCrawl": 42,
-    "withCompany": 144
+    "withCompany": 143
   },
   "sources": [
     {
@@ -142,7 +142,7 @@
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 40,
+      "count": 41,
       "error": null
     },
     {
@@ -904,7 +904,7 @@
       "summary": "🚨 Major Opportunity for India’s Biomass Pellet Industry NTPC has invited large-scale tenders for the procurement of Agro Residue-Based Non-Torrefied Biomass Pellets for multiple thermal power stations, including Sipat, Korba, Lara, Gadarwara, Mouda, Nort LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeU1DendCeWV3YXBzQVB1dkFCc2lzbWttTDhBMXk5Y2p6WWpfSVhCb095YVZrSVBVZnFRSHRGM0h0OVRHRE5WTUpsUHN4SGFaWE5LSlJuSTJsblNFeTFvS1ZHYTVlbXpjWkVSUGZPN1UzZUVIcVhfQ3J2a1ZRUUdlVHhISjlraVZJbnJySmhVZ1pIaXd2MEZkM2x6YVN6aEI3Z2VSbFhGQklyUDl1Zl9qTENfQVdDSFJPTEctNjREbTQ?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -5739,6 +5739,21 @@
       "isNew": false
     },
     {
+      "id": "57f60401233",
+      "title": "Renewi and Torrgreen BV test new route from waste wood to renewable fuels and chemicals “One important potential application is gasification. In this process, these high-quality biomass pellets are converted into chemical building blocks that can serve as a - LinkedIn",
+      "summary": "Renewi and Torrgreen BV test new route from waste wood to renewable fuels and chemicals “One important potential application is gasification. In this process, these high-quality biomass pellets are converted into chemical building blocks that can serve as a LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMlJCQlU0UHlGWDhiVTdSVGt1NTNTeS1vdGx6Snk4SWpzWV9GU29haFFDX3llNFZlRWR1RnpPT0ZCZlhrd01pUEJpbmtTRkRPeEczYTdXd3FKTjRYZXFrU2FtWE9pbklFZkZlM0FCUTNxYU9tcDB4YU40RGJZS2NwbUEyNkx5SS16R1ZFOS0yUUtlWVhTRXlkYXluLTZOYUpUQkNWNlg3bTBHejFncnZUVVg5ZExJMTZD?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-10-17T07:00:00.000Z",
+      "discoveredAt": "2026-11-19T18:37:50.636Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "0f32be7d157",
       "title": "Global Non-Wood Biomass Pellets Market: US, Japan, Korea, Europe 2026-2034 Outlook - LinkedIn",
       "summary": "Global Non-Wood Biomass Pellets Market: US, Japan, Korea, Europe 2026-2034 Outlook LinkedIn",
@@ -8017,23 +8032,6 @@
       "score": 70,
       "publishedAt": "2026-05-31T06:50:22.000Z",
       "discoveredAt": "2026-11-03T01:13:09.634Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "725fbd76261",
-      "title": "NTPC targets 60 GW of renewable energy by 2032, making up nearly 45% of its total generation mix. To achieve this, it is actively retrofitting its coal assets with solar and biomass hybrids while rapidly scaling mega solar and green hydrogen projects across In - LinkedIn",
-      "summary": "NTPC targets 60 GW of renewable energy by 2032, making up nearly 45% of its total generation mix. To achieve this, it is actively retrofitting its coal assets with solar and biomass hybrids while rapidly scaling mega solar and green hydrogen projects across In LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNaHZneUlHWG56ME5EX1lObElId0dWVmZwYUU0MU84LW41ajd6MGZtOVdIdFhkaG5PdFJGYzRfMEZPQTBQbkJKc3dSbXBUSUtjcmhGUTl6YUg2NUJjeEJ3NEdTbTFvNV96R1ltazNjakZNb0EyeGV6UnJnTHYzaWFtaGw2VHNyVndQRTQ4bEhjMUNyVHVhVzg4eWQtcXVaZkdZZEZJMzFHR1ZLSDJDU0dyWWZ3NmVTakd1dkNiazNlcldLRW1SU1JueWNickZPME42SmpTRk85Vmo?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
-      "type": "news",
-      "companies": [
-        "NTPC"
-      ],
-      "score": 70,
-      "publishedAt": "2026-05-18T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:10:28.263Z",
       "channel": "linkedin",
       "isNew": false
     }
