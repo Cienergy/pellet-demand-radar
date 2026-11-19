@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T19:23:03.483Z",
+  "updatedAt": "2026-11-19T01:27:28.621Z",
   "crawlDurationMs": 25058,
   "stats": {
     "total": 500,
@@ -8,7 +8,7 @@
     "news": 203,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 40,
+    "newThisCrawl": 41,
     "withCompany": 144
   },
   "sources": [
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 8,
+      "count": 7,
       "error": null
     },
     {
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 44,
+      "count": 55,
       "error": null
     },
     {
@@ -1421,7 +1421,7 @@
       "summary": "India Biomass Market Analysis 2026–2034: Key Growth Drivers, Emerging Opportunities & Outlook LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMVA0REJxamRpQXp5M0Rvbld0YnVGaU1IamFyY2NRMWJfUF9vM2tHLXRZWHpXVnZLSEJjeVFLYlFHT1E1OGMzLW5wLVE1bHEySDdvQjRkTjJXXzY1bGhjdGJ3SkVpdHdKbHRqb1l6blFHUWJ2d1ZPRWdOWllQYXpMREIwc3lFbWFSYlB6ZEFhUDI2Z05wTGJaSTNUQ0dSRFNXNkhF?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -4445,7 +4445,7 @@
       "summary": "Prashant Shukla - General Manager - Biomass Sourcing, Sales Ops & BD LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5aajdXNXIzXzZrd0E2LUJyVWtHekE0a3lhbUxFQk5GVmVzWjdYQUdZcWVid1NRd0RTZlgwV0x5X0FkQV9hb3VmOWkxSlViU2R5SE93MXIwQmQ2TkRIbVdjUDV3?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -7531,7 +7531,7 @@
       "summary": "Smart Napier Grass Dewatering Machine: Cut Dryer Fuel Cost, Increase Pellet Output and Power the Bio-CNG Revolution LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTUhGYjhDMVpFTkZPS3Y0am1zN0IzZGNPR2RFRVB1c2lDUGhNbkFNQmQyNUJyM19MaHVYdjRGME14QVNsUktadjFXZlpUYXprZG54QjdrWXd6cGlUckgzVEFmVkx6eHhMQm1PMWIyRXREWnh0UVp5djlpby1wOHUyTDJtLWZoT0lESzFRTUNSaWFLWHJaN3E0QnJJVWhVbG9IOHc?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "news",
       "companies": [],
       "score": 70,
