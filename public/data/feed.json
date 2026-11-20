@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-19T18:38:13.844Z",
-  "crawlDurationMs": 25061,
+  "updatedAt": "2026-11-20T01:12:55.343Z",
+  "crawlDurationMs": 25058,
   "stats": {
     "total": 500,
     "tenders": 178,
@@ -8,7 +8,7 @@
     "news": 203,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 42,
+    "newThisCrawl": 41,
     "withCompany": 143
   },
   "sources": [
@@ -128,7 +128,7 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 45,
+      "count": 46,
       "error": null
     },
     {
@@ -156,7 +156,7 @@
       "ok": true,
       "label": "Cofiring / NTPC",
       "query": "NTPC (\"biomass pellet\" OR torrefied OR \"agro residue\") (tender OR NIT OR EOI OR procurement OR GeM)",
-      "count": 5,
+      "count": 6,
       "error": null
     },
     {
@@ -1556,7 +1556,7 @@
       "summary": "\"What if agricultural waste becomes India's next energy asset?\" 🌾🔥♻️ The Business of Biomass Pellets. When most people look at agricultural waste, they see a disposal problem. I see an opportunity. An opportunity to create income for farmers, reduce stubbl LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeHZFcE0zMDhMRkJPS1VPbXgwbmxmLVc4WG51Q0FJblNqSEh3amI5cmF1RTdwM05DX0c3Q1Q2aTlkZVFoWjl0WEtuRllfblZ6bDc3a0x2TW5LRHpZZ1ZPNXZsV3RjZjdQZnVIRk10Q19yX2tENnlGY05ZQXJBUnNPeWQzLVV4Qy1jMjR2NHpqeHp1bjd4elNxMHpBRHo2YjY5RzhlREpYRHpWU1BnVFVtUnRiQ3E2UHdpYkFXSldBejkwT0FzX0Zn?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -5751,7 +5751,7 @@
       "publishedAt": "2026-10-17T07:00:00.000Z",
       "discoveredAt": "2026-11-19T18:37:50.636Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0f32be7d157",
@@ -7406,6 +7406,21 @@
       "isNew": false
     },
     {
+      "id": "5e5a2c1e12d",
+      "title": "CEO - Stellaris Metmin Pvt Ltd | Founder | RISM Solutions — Consultancy for Solid Fuel, Biomass & Pellet Plant Projects - LinkedIn India",
+      "summary": "CEO - Stellaris Metmin Pvt Ltd | Founder | RISM Solutions — Consultancy for Solid Fuel, Biomass & Pellet Plant Projects LinkedIn India",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9LUHItdmFJX2k0c1VwS28yQTNsWjc5LUtjdWk3MDRadDVrREZoT0ZfWjVjMkMydUpIZFBEcTctNURFcGNpTUpQejg2aUVWUHB6WkgxbDZZYw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-08-25T02:03:37.000Z",
+      "discoveredAt": "2026-11-20T01:12:32.015Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "7c6eb35822e",
       "title": "Most people think the hardest part of clean energy is making a better fuel. These four 21-year-old COEP students discovered the real challenge comes after the fuel is made. Across India, thousands of industries are switching to biomass pellets and briquettes - LinkedIn",
       "summary": "Most people think the hardest part of clean energy is making a better fuel. These four 21-year-old COEP students discovered the real challenge comes after the fuel is made. Across India, thousands of industries are switching to biomass pellets and briquettes LinkedIn",
@@ -8017,21 +8032,6 @@
       "score": 70,
       "publishedAt": "2026-06-01T00:22:24.000Z",
       "discoveredAt": "2026-09-19T15:47:31.355Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "40a1dae5107",
-      "title": "Pranav Mahapatra - Founder, Biomass Pellet Manufacturing Company (Srishti Biofuels) - LinkedIn India",
-      "summary": "Pranav Mahapatra - Founder, Biomass Pellet Manufacturing Company (Srishti Biofuels) LinkedIn India",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1LZDZzVVh2NjBaVmo1RjhUbHFGcjVGVHhESk13YjhpOTFvT2J3cUVCMkpNZEY5bW9Fa3k4XzVxdFN4M1B3MFlNYTJ2TzRVOXl4dU5Eb1ln?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-05-31T06:50:22.000Z",
-      "discoveredAt": "2026-11-03T01:13:09.634Z",
       "channel": "linkedin",
       "isNew": false
     }
