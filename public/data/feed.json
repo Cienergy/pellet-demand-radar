@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-20T17:59:22.849Z",
-  "crawlDurationMs": 24614,
+  "updatedAt": "2026-11-20T23:57:12.939Z",
+  "crawlDurationMs": 25077,
   "stats": {
     "total": 500,
     "tenders": 180,
-    "purchase": 119,
-    "news": 201,
+    "purchase": 120,
+    "news": 200,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 47,
+    "newThisCrawl": 54,
     "withCompany": 143
   },
   "sources": [
@@ -20,11 +20,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "PSPCL tenders",
       "query": null,
-      "count": 3,
-      "error": null
+      "count": 0,
+      "error": "The operation was aborted due to timeout"
     },
     {
       "ok": true,
@@ -45,7 +45,7 @@
       "label": "GSECL tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": "The operation was aborted due to timeout"
     },
     {
       "ok": true,
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 47,
+      "count": 49,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 31,
+      "count": 29,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 42,
+      "count": 62,
       "error": null
     },
     {
@@ -1586,7 +1586,7 @@
       "summary": "\"What if agricultural waste becomes India's next energy asset?\" 🌾🔥♻️ The Business of Biomass Pellets. When most people look at agricultural waste, they see a disposal problem. I see an opportunity. An opportunity to create income for farmers, reduce stubbl LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeHZFcE0zMDhMRkJPS1VPbXgwbmxmLVc4WG51Q0FJblNqSEh3amI5cmF1RTdwM05DX0c3Q1Q2aTlkZVFoWjl0WEtuRllfblZ6bDc3a0x2TW5LRHpZZ1ZPNXZsV3RjZjdQZnVIRk10Q19yX2tENnlGY05ZQXJBUnNPeWQzLVV4Qy1jMjR2NHpqeHp1bjd4elNxMHpBRHo2YjY5RzhlREpYRHpWU1BnVFVtUnRiQ3E2UHdpYkFXSldBejkwT0FzX0Zn?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -2621,7 +2621,7 @@
       "summary": "Dharmesh Kumar kewat - Energy Transition and Sustainability| Power Utilities | Public & Climate Policy| Biofuels & Biomass Markets |Biomass Cofiring | ESG | Industrial Decarbonization | Stakeholder Engagement | Government Advisory LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5VWVVoMHl5V3I5dkJIN3J0UDZ5SWlxU2ZGTkRIektoS1hRWDNQVkZQNHlkd0xjMHlfLUJIUzhfWFBHSmd4UHRleEpoampuZw?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 77,
@@ -2734,7 +2734,7 @@
       "summary": "Vishal Jadhao - AGM – Bioenergy Projects & O&M @ Jindal Power | IIM Mumbai – Project Management | Thermal Power & Biomass Expert | Project Execution | Plant Commissioning | BOOT Model | Process Optimization | Sustainability LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE96TExRWE5rMmpKMVZYdVpjX1cyZGlTNkFKNE5QbG5ILURpYkF6Qno4TElnRkMxdEZHdF85OFpwSU5sOVFXY0lScG9Oc2s3UjVqTzBjUVpiWXBDbEZERUE?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [
         "Jindal"
@@ -3924,6 +3924,21 @@
       "discoveredAt": "2026-10-10T13:00:18.600Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "5ab4fb14144",
+      "title": "Straw Pellets Market Overview: Technology, Applications and Demand - LinkedIn",
+      "summary": "Straw Pellets Market Overview: Technology, Applications and Demand LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNX0hJTEhucm1xY2VjUjJ5WnF5enhITkh1UWVNaHRaeUtGWlJLS05JcGtQQTNDa29xT0dlUWttenM1Tloyc3dQOUdNSW9WQTVOeFctd3B6MkNBdW9TWURxYlBGZmxLN05taE9zeE1SMkdoODZnQUl4RWlCZlJKdTE5bjNxYVkzWjRzaV9QdWkwNzR3SUVW?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2026-11-19T10:15:28.000Z",
+      "discoveredAt": "2026-11-20T23:56:48.997Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "6a788541236",
@@ -5497,6 +5512,36 @@
       "discoveredAt": "2026-10-19T17:44:33.519Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "1014084b177",
+      "title": "Biomass Power System Market Growth Projections at 8.3% CAGR from 2026 to 2033: Challenges, Sales Volume, and Trend Insights - LinkedIn",
+      "summary": "Biomass Power System Market Growth Projections at 8.3% CAGR from 2026 to 2033: Challenges, Sales Volume, and Trend Insights LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORWt3Qzc1b0swdlVWb2dKeXBDWUdQZGE3NWZ1YW1WS2I3WnY3ZFVkRERrVUpqd0RVdVFnVE9UTU5XRi1KRGJIT3laUlpiNGw3QThlRXF1WlE1b1VISmtJaHJrd0V5V29VOE9ubnc3djRtVmg5RUtleGtteHV2T3NDdWQwcDQ2OTVFUUFvUThLdw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-11-20T14:04:21.000Z",
+      "discoveredAt": "2026-11-20T23:56:48.997Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
+      "id": "1722fd7018e",
+      "title": "Asia-Pacific Wood Pellet Machine Market: Driving Forces, Capabilities, and Growth Outlook for Investors, Manufacturers, and Stakeholders: Japan, South - LinkedIn",
+      "summary": "Asia-Pacific Wood Pellet Machine Market: Driving Forces, Capabilities, and Growth Outlook for Investors, Manufacturers, and Stakeholders: Japan, South LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSkZabVAwSW8yb01EQjJBQlhsdzdJaFZZeW1rMjE0QS1MbzZtWk5aY25fRjdMLUtFT19PRVFjejFQTjNsVmQ5b3RzWjUwaVlzVlphR0FBRW9WUk1kNXVPbU1PcDVCUDZ4UEhGQ2VfR2J2SDRVQUJiYXI2enhJNkc4VWJ5RGxIV2tfUGNweA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-11-18T12:36:18.000Z",
+      "discoveredAt": "2026-11-20T23:56:48.997Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "17e772b5230",
@@ -7986,51 +8031,6 @@
       "companies": [],
       "score": 70,
       "publishedAt": "2026-06-03T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:31.354Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "107d842e14d",
-      "title": "Looking for the Best Biomass Pellet Plant Company in India? 🌱🔥 - LinkedIn",
-      "summary": "Looking for the Best Biomass Pellet Plant Company in India? 🌱🔥 LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNS2RKRlk0c003c3p1NjhaU1FneXJBU1laRk1lTXdOOWhfT1djZHNqc3pWUkxPa0lyWklYcXNNR19wQ1FYbE9QNjh3TUNjTUVvY19iZXRmaDBvNDRhT0EyZ1NQUFJHZTFhZURwVVN0UDFydjhwUTRfUEtmWHZBSjg4U1phcnFjVnd5MC1zbDFPX01ETnF4TmMtak8ydlc?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-06-03T07:00:00.000Z",
-      "discoveredAt": "2026-11-03T08:31:42.563Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "6092eb3e254",
-      "title": "The future of biomass needs strong networks and strong entrepreneurs 🌱 Every tonne of biomass begins with efficient collection, aggregation, and supply. Biomass aggregators are helping bridge the gap between agricultural residue and clean energy product - LinkedIn",
-      "summary": "The future of biomass needs strong networks and strong entrepreneurs 🌱 Every tonne of biomass begins with efficient collection, aggregation, and supply. Biomass aggregators are helping bridge the gap between agricultural residue and clean energy product LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNV2dBVWtzYWVUUzJDeDRnMTRJMFEzbnExbEd4ekw0SkF5b2dselpINmR0azdqbnFEcUo3ZDVnN29CS3N3VjZfczVaSnFEZHJPdzFBREJadlJIR0U4UDdkQjdCVEJUQS02M1VvN2dIYXdTMEdDanNyVG9FTTBScmVHZlhzcGcteVI2eGZJU2x1S01yTEo5a3doX3llQmZfNGNQTzRmWVhURHBCRDFnZVVjWFVwUlh5TWJxMWVqTU5jSlpCRG9TV1k3SHA2SE0xdFZvT1U4?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-06-01T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:10:28.813Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "72570e15258",
-      "title": "The future of biomass needs strong networks and strong entrepreneurs 🌱 Every tonne of biomass begins with efficient collection, aggregation, and supply. Biomass aggregators are helping bridge the gap between agricultural residue and clean energy product - linkedin.com",
-      "summary": "The future of biomass needs strong networks and strong entrepreneurs 🌱 Every tonne of biomass begins with efficient collection, aggregation, and supply. Biomass aggregators are helping bridge the gap between agricultural residue and clean energy product linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNV2dBVWtzYWVUUzJDeDRnMTRJMFEzbnExbEd4ekw0SkF5b2dselpINmR0azdqbnFEcUo3ZDVnN29CS3N3VjZfczVaSnFEZHJPdzFBREJadlJIR0U4UDdkQjdCVEJUQS02M1VvN2dIYXdTMEdDanNyVG9FTTBScmVHZlhzcGcteVI2eGZJU2x1S01yTEo5a3doX3llQmZfNGNQTzRmWVhURHBCRDFnZVVjWFVwUlh5TWJxMWVqTU5jSlpCRG9TV1k3SHA2SE0xdFZvT1U4?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-06-01T07:00:00.000Z",
       "discoveredAt": "2026-09-19T15:47:31.354Z",
       "channel": "linkedin",
       "isNew": false
