@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-21T06:56:54.848Z",
-  "crawlDurationMs": 25056,
+  "updatedAt": "2026-11-21T15:16:45.898Z",
+  "crawlDurationMs": 25076,
   "stats": {
     "total": 500,
     "tenders": 180,
@@ -8,7 +8,7 @@
     "news": 200,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 50,
+    "newThisCrawl": 47,
     "withCompany": 143
   },
   "sources": [
@@ -24,7 +24,7 @@
       "label": "PSPCL tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": "The operation was aborted due to timeout"
     },
     {
       "ok": true,
@@ -48,11 +48,11 @@
       "error": "The operation was aborted due to timeout"
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Tata Power tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -128,28 +128,28 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 48,
+      "count": 50,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 29,
+      "count": 31,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 60,
+      "count": 45,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 7,
+      "count": 8,
       "error": null
     },
     {
@@ -255,7 +255,7 @@
       "summary": "NTPC Invites EOI To Produce Torrefied Biomass Pellets From Startups Sarkaritel.com",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV1FlS3lPU2U2OEVLbXBScmJHcE5VcUJwUmZqN1AzZGVxWFBYQkZwWC1VRGp6OThUajVoWnE2enhXOEZqeVlyb1NVUEpiOUh0ZFh0MXBzMUdHWGpWRUFlbkFVc2JRNW1kV0dSckNDaFRUSVhxOVB6VHBWSXpFVzZGWTlKUzdIQld6dktOYVM4VDM3dHVDRUFsX3Byaw?oc=5",
       "source": "google_tender_news",
-      "sourceLabel": "Google · utility buys",
+      "sourceLabel": "Google · live NITs",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -1586,7 +1586,7 @@
       "summary": "\"What if agricultural waste becomes India's next energy asset?\" 🌾🔥♻️ The Business of Biomass Pellets. When most people look at agricultural waste, they see a disposal problem. I see an opportunity. An opportunity to create income for farmers, reduce stubbl LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeHZFcE0zMDhMRkJPS1VPbXgwbmxmLVc4WG51Q0FJblNqSEh3amI5cmF1RTdwM05DX0c3Q1Q2aTlkZVFoWjl0WEtuRllfblZ6bDc3a0x2TW5LRHpZZ1ZPNXZsV3RjZjdQZnVIRk10Q19yX2tENnlGY05ZQXJBUnNPeWQzLVV4Qy1jMjR2NHpqeHp1bjd4elNxMHpBRHo2YjY5RzhlREpYRHpWU1BnVFVtUnRiQ3E2UHdpYkFXSldBejkwT0FzX0Zn?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -2621,7 +2621,7 @@
       "summary": "Dharmesh Kumar kewat - Energy Transition and Sustainability| Power Utilities | Public & Climate Policy| Biofuels & Biomass Markets |Biomass Cofiring | ESG | Industrial Decarbonization | Stakeholder Engagement | Government Advisory LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5VWVVoMHl5V3I5dkJIN3J0UDZ5SWlxU2ZGTkRIektoS1hRWDNQVkZQNHlkd0xjMHlfLUJIUzhfWFBHSmd4UHRleEpoampuZw?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [],
       "score": 77,
@@ -4580,7 +4580,7 @@
       "summary": "Vaibhav Gill - Biomass Pellet Manufacturer & Supplier | Continuously Supplying to Thermal Power Plants since 2023 | Director – Gill Buildcon Pvt. Ltd. | Scaling to 1,000 MT/Day LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XdDd1TXE2WTdmYy1LQVJMMnZPQTU4YnZpTHVrRjZ0Y2xMaHpRaEVubEI4RTVEREhiS29lZE16U05wc2ttdUR5QkFtdW1lOWFkeG1qUE01NFRvcmEwR0E?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "purchase",
       "companies": [],
       "score": 73,
