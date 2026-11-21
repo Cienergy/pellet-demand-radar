@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-21T15:16:45.898Z",
-  "crawlDurationMs": 25076,
+  "updatedAt": "2026-11-21T21:05:33.830Z",
+  "crawlDurationMs": 25055,
   "stats": {
     "total": 500,
     "tenders": 180,
@@ -8,7 +8,7 @@
     "news": 200,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 47,
+    "newThisCrawl": 46,
     "withCompany": 143
   },
   "sources": [
@@ -79,7 +79,7 @@
       "ok": true,
       "label": "Google · live NITs",
       "query": "(\"biomass pellet\" OR \"agro residue based pellet\" OR \"torrefied biomass\") (NIT OR \"Notice Inviting Tender\" OR \"e-Tender\" OR \"GeM bid\" OR EOI) India -market -forecast -\"market size\"",
-      "count": 2,
+      "count": 1,
       "error": null
     },
     {
@@ -128,14 +128,14 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 50,
+      "count": 47,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 31,
+      "count": 30,
       "error": null
     },
     {
@@ -149,7 +149,7 @@
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 8,
+      "count": 7,
       "error": null
     },
     {
