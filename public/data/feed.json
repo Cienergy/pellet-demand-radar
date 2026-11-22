@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-22T01:15:39.584Z",
-  "crawlDurationMs": 25042,
+  "updatedAt": "2026-11-22T08:46:13.302Z",
+  "crawlDurationMs": 25045,
   "stats": {
     "total": 500,
     "tenders": 180,
@@ -8,7 +8,7 @@
     "news": 199,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 51,
+    "newThisCrawl": 46,
     "withCompany": 143
   },
   "sources": [
@@ -128,14 +128,14 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 47,
+      "count": 46,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 36,
+      "count": 31,
       "error": null
     },
     {
@@ -2734,7 +2734,7 @@
       "summary": "Vishal Jadhao - AGM – Bioenergy Projects & O&M @ Jindal Power | IIM Mumbai – Project Management | Thermal Power & Biomass Expert | Project Execution | Plant Commissioning | BOOT Model | Process Optimization | Sustainability LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE96TExRWE5rMmpKMVZYdVpjX1cyZGlTNkFKNE5QbG5ILURpYkF6Qno4TElnRkMxdEZHdF85OFpwSU5sOVFXY0lScG9Oc2s3UjVqTzBjUVpiWXBDbEZERUE?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [
         "Jindal"
@@ -4212,7 +4212,7 @@
       "publishedAt": "2026-07-16T07:00:00.000Z",
       "discoveredAt": "2026-11-22T01:15:15.877Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "759e6416167",
@@ -4220,7 +4220,7 @@
       "summary": "Before You Invest in Biomass Pellet Manufacturing: A Practical Guide for Farmers and B2B Buyers LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWlBHYlU3SmxrYzJSUExTNWI2UVVCWTV4N0I2amthRnpWMzUwNVFHZDRUenowZkZybkJEbXN5c3d1TmJkeHI0Z0RZZTYyNmEtenZSY1pfUURfcTVyQlFCUjFDNUFBMkFNWlBEa3hUUkhOcDg2NDhCTmFhdnVVWi1SVU03Tlp5S0lLRUY2UVhxbFowaTZxNGFSMA?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "purchase",
       "companies": [],
       "score": 73,
