@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-11-22T17:04:25.074Z",
+  "updatedAt": "2026-11-22T22:27:07.188Z",
   "crawlDurationMs": 25058,
   "stats": {
     "total": 500,
-    "tenders": 180,
+    "tenders": 181,
     "purchase": 121,
-    "news": 199,
+    "news": 198,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 50,
-    "withCompany": 143
+    "newThisCrawl": 46,
+    "withCompany": 144
   },
   "sources": [
     {
@@ -69,11 +69,11 @@
       "error": "HTTP 403"
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "NTPC live tenders",
       "query": null,
       "count": 0,
-      "error": "HTTP 404"
+      "error": null
     },
     {
       "ok": true,
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 7,
+      "count": 8,
       "error": null
     },
     {
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 45,
+      "count": 47,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 35,
+      "count": 30,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 44,
+      "count": 45,
       "error": null
     },
     {
@@ -904,7 +904,7 @@
       "summary": "🚨 Major Opportunity for India’s Biomass Pellet Industry NTPC has invited large-scale tenders for the procurement of Agro Residue-Based Non-Torrefied Biomass Pellets for multiple thermal power stations, including Sipat, Korba, Lara, Gadarwara, Mouda, Nort LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeU1DendCeWV3YXBzQVB1dkFCc2lzbWttTDhBMXk5Y2p6WWpfSVhCb095YVZrSVBVZnFRSHRGM0h0OVRHRE5WTUpsUHN4SGFaWE5LSlJuSTJsblNFeTFvS1ZHYTVlbXpjWkVSUGZPN1UzZUVIcVhfQ3J2a1ZRUUdlVHhISjlraVZJbnJySmhVZ1pIaXd2MEZkM2x6YVN6aEI3Z2VSbFhGQklyUDl1Zl9qTENfQVdDSFJPTEctNjREbTQ?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -2445,6 +2445,23 @@
       "isNew": false
     },
     {
+      "id": "41439d3119d",
+      "title": "Biomass Pellet Plant Business 2026 LIVE | खेती के Waste से Pellet बनाएं | NTPC Tender Apply - LinkedIn",
+      "summary": "Biomass Pellet Plant Business 2026 LIVE | खेती के Waste से Pellet बनाएं | NTPC Tender Apply LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNG02eEJUQVU4cE9ldnhIQnBwZnQzSDhTZG5LLUxuY0gyaTdLNWJ1MHdqeVMxR1Q4d0hQYUhVZG9zQUhVNnlyRE11UkhiN0cyTi1wbVVyY0NxZnRpbHQ0a1pYZlRKODB0amN2bTg4M2pzSXM2OFpqbWtMamMzSm4xWWt1SHJ5VFhsX0VwZHhLUUgtWmtxWTVBdWs1R2lobmotNndiY1RCRnZyT29OYVdWTE5hcVJZRlFnbTlyUlVuZTFVT1hO?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "tender",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 74,
+      "publishedAt": "2026-10-28T07:00:00.000Z",
+      "discoveredAt": "2026-11-22T22:26:43.362Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
       "id": "2a7a6476268",
       "title": "𝐖𝐡𝐢𝐭𝐞 𝐂𝐨𝐚𝐥 𝐌𝐚𝐫𝐤𝐞𝐭 – 𝐀 𝐂𝐨𝐦𝐩𝐥𝐞𝐭𝐞 𝐏𝐃𝐅 𝐆𝐮𝐢𝐝𝐞 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐅𝐫𝐞𝐞 𝐏𝐃𝐅 𝐁𝐫𝐨𝐜𝐡𝐮𝐫𝐞: https://lnkd.in/d2_kgEmw White coal, also known as biomass briquettes, is a renewable solid fuel produced from agricultural residues, forestry waste, and ot",
       "summary": "𝐖𝐡𝐢𝐭𝐞 𝐂𝐨𝐚𝐥 𝐌𝐚𝐫𝐤𝐞𝐭 – 𝐀 𝐂𝐨𝐦𝐩𝐥𝐞𝐭𝐞 𝐏𝐃𝐅 𝐆𝐮𝐢𝐝𝐞 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐅𝐫𝐞𝐞 𝐏𝐃𝐅 𝐁𝐫𝐨𝐜𝐡𝐮𝐫𝐞: https://lnkd.in/d2_kgEmw White coal, also known as biomass briquettes, is a renewable solid fuel produced from agricultural residues, forestry waste, and other LinkedIn",
@@ -2734,7 +2751,7 @@
       "summary": "Vishal Jadhao - AGM – Bioenergy Projects & O&M @ Jindal Power | IIM Mumbai – Project Management | Thermal Power & Biomass Expert | Project Execution | Plant Commissioning | BOOT Model | Process Optimization | Sustainability LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE96TExRWE5rMmpKMVZYdVpjX1cyZGlTNkFKNE5QbG5ILURpYkF6Qno4TElnRkMxdEZHdF85OFpwSU5sOVFXY0lScG9Oc2s3UjVqTzBjUVpiWXBDbEZERUE?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [
         "Jindal"
@@ -8017,21 +8034,6 @@
       "score": 70,
       "publishedAt": "2026-06-04T07:00:00.000Z",
       "discoveredAt": "2026-10-05T17:05:46.558Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "2ae891a1264",
-      "title": "Meet Dr. Vikas Kikan – “The Pellet Man of India” at Biofuel Expo 2026 I am delighted to share that Dr. Vikas Kikan, CEO of Beyond Drilling & Exploration Pvt. Ltd., will be available at the TRIO Renewable Energy Stall No. 31 during Biofuel Expo 2026 at India Ex - LinkedIn",
-      "summary": "Meet Dr. Vikas Kikan – “The Pellet Man of India” at Biofuel Expo 2026 I am delighted to share that Dr. Vikas Kikan, CEO of Beyond Drilling & Exploration Pvt. Ltd., will be available at the TRIO Renewable Energy Stall No. 31 during Biofuel Expo 2026 at India Ex LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWWN1R2xtLXFvUF9TSWt1Zlg2dzN2d2dKZ3F2WnYwU1VVd0VnM2ltd3ZmTmtfdUNHWVBXOXIxVS1LT0lkTFJZVG1MOVBFZVJnTG1xSXQ5NGFTZEVkeWpWQmptU3hMQS0xUGF3WUNHQ3YzQTV1Tm9ERnZ5bjI4TnZOSnRfeUNCUkk5cW5iWXV5NTY4YjhhUktyaWE2U0dwcFd0dEc3dG5KMDNiNHVwTzRvOXBjaW1ZdWlpd2tqYXpfekJhMEpaaEFPUlNyNFFpaVNXV2xKMlZSWXRjZw?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-06-03T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:10:28.814Z",
       "channel": "linkedin",
       "isNew": false
     }
