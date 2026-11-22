@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-21T21:05:33.830Z",
-  "crawlDurationMs": 25055,
+  "updatedAt": "2026-11-22T01:15:39.584Z",
+  "crawlDurationMs": 25042,
   "stats": {
     "total": 500,
     "tenders": 180,
-    "purchase": 120,
-    "news": 200,
+    "purchase": 121,
+    "news": 199,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 46,
+    "newThisCrawl": 51,
     "withCompany": 143
   },
   "sources": [
@@ -135,7 +135,7 @@
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 30,
+      "count": 36,
       "error": null
     },
     {
@@ -2734,7 +2734,7 @@
       "summary": "Vishal Jadhao - AGM – Bioenergy Projects & O&M @ Jindal Power | IIM Mumbai – Project Management | Thermal Power & Biomass Expert | Project Execution | Plant Commissioning | BOOT Model | Process Optimization | Sustainability LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE96TExRWE5rMmpKMVZYdVpjX1cyZGlTNkFKNE5QbG5ILURpYkF6Qno4TElnRkMxdEZHdF85OFpwSU5sOVFXY0lScG9Oc2s3UjVqTzBjUVpiWXBDbEZERUE?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [
         "Jindal"
@@ -4198,6 +4198,21 @@
       "discoveredAt": "2026-10-02T06:07:50.775Z",
       "channel": "linkedin",
       "isNew": false
+    },
+    {
+      "id": "3a0e29ac22b",
+      "title": "A ₹6.68 Crore Wake-Up Call: Why Biomass Co-Firing is No Longer Optional for India’s Thermal Power Plants 🛑⚡🌾 ​For years, the Indian power sector treated biomass co-firing as a \"gradual transition goal.\" But a massive, recent enforcement action by the Co - LinkedIn",
+      "summary": "A ₹6.68 Crore Wake-Up Call: Why Biomass Co-Firing is No Longer Optional for India’s Thermal Power Plants 🛑⚡🌾 ​For years, the Indian power sector treated biomass co-firing as a \"gradual transition goal.\" But a massive, recent enforcement action by the Co LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPemU4Smp0dU1HdEZfSWwzWEM4RFkyNnUxR3VzbUloRndoSVNkMDA3SnZLVjZuSnFzNklheV9KNy1GSF9wWjBlSjFxRmtpWmk2WWFkXzZDd295UzA1VnNXYzA4MlNqZ200TjJlOFJxVlBSek9Jb3VDS1JIYmR3WTN0S1VlZXdVLUZNUTRKUzlVRU9oOTRtd3psV0RFd19jbUZxN1FaNzJwYzlBbjZPS2tta2FNYw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · utilities",
+      "type": "purchase",
+      "companies": [],
+      "score": 73,
+      "publishedAt": "2026-07-16T07:00:00.000Z",
+      "discoveredAt": "2026-11-22T01:15:15.877Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "759e6416167",
@@ -8017,21 +8032,6 @@
       "score": 70,
       "publishedAt": "2026-06-03T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:28.814Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "5804fc8c268",
-      "title": "Meet Dr. Vikas Kikan – “The Pellet Man of India” at Biofuel Expo 2026 I am delighted to share that Dr. Vikas Kikan, CEO of Beyond Drilling & Exploration Pvt. Ltd., will be available at the TRIO Renewable Energy Stall No. 31 during Biofuel Expo 2026 at India Ex - linkedin.com",
-      "summary": "Meet Dr. Vikas Kikan – “The Pellet Man of India” at Biofuel Expo 2026 I am delighted to share that Dr. Vikas Kikan, CEO of Beyond Drilling & Exploration Pvt. Ltd., will be available at the TRIO Renewable Energy Stall No. 31 during Biofuel Expo 2026 at India Ex linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWWN1R2xtLXFvUF9TSWt1Zlg2dzN2d2dKZ3F2WnYwU1VVd0VnM2ltd3ZmTmtfdUNHWVBXOXIxVS1LT0lkTFJZVG1MOVBFZVJnTG1xSXQ5NGFTZEVkeWpWQmptU3hMQS0xUGF3WUNHQ3YzQTV1Tm9ERnZ5bjI4TnZOSnRfeUNCUkk5cW5iWXV5NTY4YjhhUktyaWE2U0dwcFd0dEc3dG5KMDNiNHVwTzRvOXBjaW1ZdWlpd2tqYXpfekJhMEpaaEFPUlNyNFFpaVNXV2xKMlZSWXRjZw?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-06-03T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:31.354Z",
       "channel": "linkedin",
       "isNew": false
     }
