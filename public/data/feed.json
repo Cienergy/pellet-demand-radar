@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-22T22:27:07.188Z",
-  "crawlDurationMs": 25058,
+  "updatedAt": "2026-11-23T03:04:00.844Z",
+  "crawlDurationMs": 25059,
   "stats": {
     "total": 500,
     "tenders": 181,
@@ -8,7 +8,7 @@
     "news": 198,
     "portals": 94,
     "linkedin": 360,
-    "newThisCrawl": 46,
+    "newThisCrawl": 44,
     "withCompany": 144
   },
   "sources": [
@@ -24,7 +24,7 @@
       "label": "PSPCL tenders",
       "query": null,
       "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "error": "HTTP 500"
     },
     {
       "ok": true,
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 8,
+      "count": 7,
       "error": null
     },
     {
@@ -128,14 +128,14 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 47,
+      "count": 46,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 30,
+      "count": 31,
       "error": null
     },
     {
@@ -149,7 +149,7 @@
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 7,
+      "count": 6,
       "error": null
     },
     {
@@ -904,7 +904,7 @@
       "summary": "🚨 Major Opportunity for India’s Biomass Pellet Industry NTPC has invited large-scale tenders for the procurement of Agro Residue-Based Non-Torrefied Biomass Pellets for multiple thermal power stations, including Sipat, Korba, Lara, Gadarwara, Mouda, Nort LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeU1DendCeWV3YXBzQVB1dkFCc2lzbWttTDhBMXk5Y2p6WWpfSVhCb095YVZrSVBVZnFRSHRGM0h0OVRHRE5WTUpsUHN4SGFaWE5LSlJuSTJsblNFeTFvS1ZHYTVlbXpjWkVSUGZPN1UzZUVIcVhfQ3J2a1ZRUUdlVHhISjlraVZJbnJySmhVZ1pIaXd2MEZkM2x6YVN6aEI3Z2VSbFhGQklyUDl1Zl9qTENfQVdDSFJPTEctNjREbTQ?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [
         "NTPC"
