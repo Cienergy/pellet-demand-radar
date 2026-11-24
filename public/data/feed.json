@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-11-23T12:23:13.956Z",
-  "crawlDurationMs": 25067,
+  "updatedAt": "2026-11-24T00:18:18.735Z",
+  "crawlDurationMs": 25042,
   "stats": {
     "total": 500,
     "tenders": 181,
-    "purchase": 121,
-    "news": 198,
-    "portals": 94,
-    "linkedin": 360,
-    "newThisCrawl": 44,
-    "withCompany": 144
+    "purchase": 122,
+    "news": 197,
+    "portals": 95,
+    "linkedin": 359,
+    "newThisCrawl": 48,
+    "withCompany": 145
   },
   "sources": [
     {
@@ -45,7 +45,7 @@
       "label": "GSECL tenders",
       "query": null,
       "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "error": "fetch failed"
     },
     {
       "ok": true,
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 7,
+      "count": 24,
       "error": null
     },
     {
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 47,
+      "count": 54,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 29,
+      "count": 36,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 43,
+      "count": 44,
       "error": null
     },
     {
@@ -1436,7 +1436,7 @@
       "summary": "India Biomass Market Analysis 2026–2034: Key Growth Drivers, Emerging Opportunities & Outlook LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMVA0REJxamRpQXp5M0Rvbld0YnVGaU1IamFyY2NRMWJfUF9vM2tHLXRZWHpXVnZLSEJjeVFLYlFHT1E1OGMzLW5wLVE1bHEySDdvQjRkTjJXXzY1bGhjdGJ3SkVpdHdKbHRqb1l6blFHUWJ2d1ZPRWdOWllQYXpMREIwc3lFbWFSYlB6ZEFhUDI2Z05wTGJaSTNUQ0dSRFNXNkhF?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -2529,7 +2529,7 @@
       "summary": "1 Lakh MT Biomass Pellet Tender in Chhattisgarh — Are You Eligible to Participate? LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNzNJZXRUN3lYYU9QNFNfVzREZjN6bmpBMlpwR0dNSDZTWXdOa2hoZUZTWmdIaUZZX1k3cEJRMGlUbDN2Z2NnUW1rUmVpLXNpeEVZS3B1MzdZOFUySU1XM0tFWTdjR2hDMXVObDRmeGJQLXFQbERweFNDTExtWkFoSjJLQi1SbzlW?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 74,
@@ -2751,7 +2751,7 @@
       "summary": "Vishal Jadhao - AGM – Bioenergy Projects & O&M @ Jindal Power | IIM Mumbai – Project Management | Thermal Power & Biomass Expert | Project Execution | Plant Commissioning | BOOT Model | Process Optimization | Sustainability LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE96TExRWE5rMmpKMVZYdVpjX1cyZGlTNkFKNE5QbG5ILURpYkF6Qno4TElnRkMxdEZHdF85OFpwSU5sOVFXY0lScG9Oc2s3UjVqTzBjUVpiWXBDbEZERUE?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [
         "Jindal"
@@ -2985,6 +2985,23 @@
       "discoveredAt": "2026-09-19T15:47:29.127Z",
       "channel": "news",
       "isNew": false
+    },
+    {
+      "id": "44147707125",
+      "title": "NTPC's Solapur project will purchase bamboo biomass to mix with coal for power generation - www.pib.gov.in",
+      "summary": "NTPC's Solapur project will purchase bamboo biomass to mix with coal for power generation www.pib.gov.in",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1PYjJlQTZyTG00ZEkzTGRkWFB4ZzJJYkwxZVBQZlhHa1liU25ac0NYRmhoQVZJamFyeWVJbjcxZjRKcmFfVFdGTjBBNDZ2dURzc3RXLV9EWEcyTlc0RTdPcWc0bXpLcDMt?oc=5",
+      "source": "google_tender_news",
+      "sourceLabel": "Google · utility buys",
+      "type": "purchase",
+      "companies": [
+        "NTPC"
+      ],
+      "score": 73,
+      "publishedAt": "2025-01-06T08:00:00.000Z",
+      "discoveredAt": "2026-11-24T00:17:54.631Z",
+      "channel": "portal",
+      "isNew": true
     },
     {
       "id": "2daf859217a",
@@ -4582,7 +4599,7 @@
       "summary": "Maqbul Paleja - Founder – MM Overseas | Biomass Briquettes & Pellets | Rice, Sugar, Salt & Minerals | Import & Export | Global Sourcing & Supply LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9hUkZSaTNvREdabHMyZUxSVHFYV1JrN0tFWTlhczFSUjE0NVdkc1NHRUdkSzZsVDBIWGM4Qi1laHJpQnU4dDdzdUxFLWlXc1RWUU1sOVdUQXh3YlQzczU0?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -5544,6 +5561,21 @@
       "discoveredAt": "2026-10-19T17:44:33.519Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "43b028e5121",
+      "title": "Why Indian Industries Are Switching from Coal to Biomass Fuel - LinkedIn",
+      "summary": "Why Indian Industries Are Switching from Coal to Biomass Fuel LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBpaTN3b1ZUR1F1aks2NzE0OC1aamRUSUJsNGJRdGdEMGxEQnpjY2tuWk9zeXFlWUZyWjhIZC1lRXBjRVJKN2drNXhYUTZuNUoyZHU5RTU3czQteGl6dG1PX0ZoUVF2NkZDNkFxTWpqVlRNUFg5TVVqZHFhel9xUQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-11-21T11:00:22.000Z",
+      "discoveredAt": "2026-11-24T00:17:55.357Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "1014084b177",
@@ -7668,7 +7700,7 @@
       "summary": "Smart Napier Grass Dewatering Machine: Cut Dryer Fuel Cost, Increase Pellet Output and Power the Bio-CNG Revolution LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTUhGYjhDMVpFTkZPS3Y0am1zN0IzZGNPR2RFRVB1c2lDUGhNbkFNQmQyNUJyM19MaHVYdjRGME14QVNsUktadjFXZlpUYXprZG54QjdrWXd6cGlUckgzVEFmVkx6eHhMQm1PMWIyRXREWnh0UVp5djlpby1wOHUyTDJtLWZoT0lESzFRTUNSaWFLWHJaN3E0QnJJVWhVbG9IOHc?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -8004,36 +8036,6 @@
       "score": 70,
       "publishedAt": "2026-06-05T07:40:35.000Z",
       "discoveredAt": "2026-11-01T09:40:28.830Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "3d320853251",
-      "title": "🌱 A New Journey Begins Today, we are proud to introduce ECOGRO ENERGIA PVT LTD. India generates millions of tonnes of agricultural biomass every year. Much of it remains underutilized, while industries continue to seek sustainable alternatives to conv - linkedin.com",
-      "summary": "🌱 A New Journey Begins Today, we are proud to introduce ECOGRO ENERGIA PVT LTD. India generates millions of tonnes of agricultural biomass every year. Much of it remains underutilized, while industries continue to seek sustainable alternatives to conv linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVEdpdk9EQVE3SXB6VkN5XzRENE5qaTdxVTBOOXhZOG80bzE1aDZvVlFOUTRpb3ROcllnWDFINjFMZm9uNENZTndEQTVPWTM3TkE4Vkh6eDAyanM4SmtaN0dKQW91dzlIcFNzQXVLQkkwSFBnaVV1TDVlVkJpUG1Wd2lTV19Mby1uMENMMEFDZ3AwT05ndHpVYVdXdmFuOFdoQUNqQ3liSDFYX0dfc3JQdUl1LTJsb09DSGszN0FUNHNSUGhHV21IZTNuOWZ5dDA?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-06-04T07:00:00.000Z",
-      "discoveredAt": "2026-10-05T07:39:14.946Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "5c488a5a24d",
-      "title": "🌱 A New Journey Begins Today, we are proud to introduce ECOGRO ENERGIA PVT LTD. India generates millions of tonnes of agricultural biomass every year. Much of it remains underutilized, while industries continue to seek sustainable alternatives to conv - LinkedIn",
-      "summary": "🌱 A New Journey Begins Today, we are proud to introduce ECOGRO ENERGIA PVT LTD. India generates millions of tonnes of agricultural biomass every year. Much of it remains underutilized, while industries continue to seek sustainable alternatives to conv LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVEdpdk9EQVE3SXB6VkN5XzRENE5qaTdxVTBOOXhZOG80bzE1aDZvVlFOUTRpb3ROcllnWDFINjFMZm9uNENZTndEQTVPWTM3TkE4Vkh6eDAyanM4SmtaN0dKQW91dzlIcFNzQXVLQkkwSFBnaVV1TDVlVkJpUG1Wd2lTV19Mby1uMENMMEFDZ3AwT05ndHpVYVdXdmFuOFdoQUNqQ3liSDFYX0dfc3JQdUl1LTJsb09DSGszN0FUNHNSUGhHV21IZTNuOWZ5dDA?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-06-04T07:00:00.000Z",
-      "discoveredAt": "2026-10-05T17:05:46.558Z",
       "channel": "linkedin",
       "isNew": false
     }
