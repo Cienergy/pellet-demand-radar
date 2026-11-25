@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-24T20:51:22.950Z",
-  "crawlDurationMs": 25057,
+  "updatedAt": "2026-11-25T04:06:33.208Z",
+  "crawlDurationMs": 25065,
   "stats": {
     "total": 500,
     "tenders": 182,
@@ -8,7 +8,7 @@
     "news": 196,
     "portals": 95,
     "linkedin": 359,
-    "newThisCrawl": 49,
+    "newThisCrawl": 55,
     "withCompany": 145
   },
   "sources": [
@@ -20,11 +20,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "PSPCL tenders",
       "query": null,
-      "count": 3,
-      "error": null
+      "count": 0,
+      "error": "The operation was aborted due to timeout"
     },
     {
       "ok": true,
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 45,
+      "count": 48,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 37,
+      "count": 29,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 43,
+      "count": 60,
       "error": null
     },
     {
@@ -1586,7 +1586,7 @@
       "summary": "\"What if agricultural waste becomes India's next energy asset?\" 🌾🔥♻️ The Business of Biomass Pellets. When most people look at agricultural waste, they see a disposal problem. I see an opportunity. An opportunity to create income for farmers, reduce stubbl LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeHZFcE0zMDhMRkJPS1VPbXgwbmxmLVc4WG51Q0FJblNqSEh3amI5cmF1RTdwM05DX0c3Q1Q2aTlkZVFoWjl0WEtuRllfblZ6bDc3a0x2TW5LRHpZZ1ZPNXZsV3RjZjdQZnVIRk10Q19yX2tENnlGY05ZQXJBUnNPeWQzLVV4Qy1jMjR2NHpqeHp1bjd4elNxMHpBRHo2YjY5RzhlREpYRHpWU1BnVFVtUnRiQ3E2UHdpYkFXSldBejkwT0FzX0Zn?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -2653,7 +2653,7 @@
       "summary": "Dharmesh Kumar kewat - Energy Transition and Sustainability| Power Utilities | Public & Climate Policy| Biofuels & Biomass Markets |Biomass Cofiring | ESG | Industrial Decarbonization | Stakeholder Engagement | Government Advisory LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5VWVVoMHl5V3I5dkJIN3J0UDZ5SWlxU2ZGTkRIektoS1hRWDNQVkZQNHlkd0xjMHlfLUJIUzhfWFBHSmd4UHRleEpoampuZw?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 77,
@@ -2766,7 +2766,7 @@
       "summary": "Vishal Jadhao - AGM – Bioenergy Projects & O&M @ Jindal Power | IIM Mumbai – Project Management | Thermal Power & Biomass Expert | Project Execution | Plant Commissioning | BOOT Model | Process Optimization | Sustainability LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE96TExRWE5rMmpKMVZYdVpjX1cyZGlTNkFKNE5QbG5ILURpYkF6Qno4TElnRkMxdEZHdF85OFpwSU5sOVFXY0lScG9Oc2s3UjVqTzBjUVpiWXBDbEZERUE?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [
         "Jindal"
@@ -4269,7 +4269,7 @@
       "summary": "Before You Invest in Biomass Pellet Manufacturing: A Practical Guide for Farmers and B2B Buyers LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWlBHYlU3SmxrYzJSUExTNWI2UVVCWTV4N0I2amthRnpWMzUwNVFHZDRUenowZkZybkJEbXN5c3d1TmJkeHI0Z0RZZTYyNmEtenZSY1pfUURfcTVyQlFCUjFDNUFBMkFNWlBEa3hUUkhOcDg2NDhCTmFhdnVVWi1SVU03Tlp5S0lLRUY2UVhxbFowaTZxNGFSMA?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -5576,6 +5576,36 @@
       "discoveredAt": "2026-10-19T17:44:33.519Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "1c921f6012d",
+      "title": "Biomass Pellet Mill Machine Market Share by Company - LinkedIn",
+      "summary": "Biomass Pellet Mill Machine Market Share by Company LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMjJNRmdHLVFZc2FkTEhMQmJKXzNzNDJiX0NSRlFyUU5kYjNrdXk2ZlNGTlRqbGNuUk1RWG1jcHU4RXdNQlpHV2hzeGJkRzZkdXhwNjFmNFUxTzJsbFNab0dhejg0dWVINk0yT3FqM2s5OXhnWF8zT245d0phNlkzTzlkT2hhVXk0N1laVDdB?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-11-23T14:02:48.000Z",
+      "discoveredAt": "2026-11-25T04:06:09.118Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
+      "id": "087fb4dc166",
+      "title": "Biomass Power Generation Automation System Market: Global Size, Growth, and Competitive Analysis 2026-2034 - LinkedIn",
+      "summary": "Biomass Power Generation Automation System Market: Global Size, Growth, and Competitive Analysis 2026-2034 LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcDdoMTRkVGZ4TnNxcmR5NGRzYkhwbzhnbEd1TFM5Mlp5VWREM2VqamU1aWlTZVpYMkhJS2stR1VZSldwNXlGZEdFRHR0aWU1OXlqN2QwSFNwU3JmVkJMMjRoVHVxWmZvTDVkeHFBNGhNREh3SEdQNFZ6cDVXUVBPUjRZc3g0X3A3cGt6ZVhzNA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-11-23T12:37:58.000Z",
+      "discoveredAt": "2026-11-25T04:06:09.118Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "43b028e5121",
@@ -8006,36 +8036,6 @@
       "score": 70,
       "publishedAt": "2026-06-06T07:00:00.000Z",
       "discoveredAt": "2026-09-27T06:33:12.437Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "7ee8b8b2192",
-      "title": "Biomass Wood Pellets, Briquettes & Pellet Burners | Rohit Exergy India - linkedin.com",
-      "summary": "Biomass Wood Pellets, Briquettes & Pellet Burners | Rohit Exergy India linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQR1Y0c3RJX2FZQjF6QzRTaTJlYlFmejN3TFNWdkRSdUszZHlaMVhtVXc0eEpKWm9KRjBNT0o1YlZwN2JFcWVOc2JvRGxrY3NSZi1GeldEaHZ4XzdoNDBrWlk4eVRKZndOZHMxa3hma2F2ekdCdFJ3bk56SnJjVWRfUnl6cjdwLWRIVVhYV0Z4V0RwSHZETC1VVzJWblN5QmU2SUdGa3NNSDB5ZFhabTYtOUhJMEJFSTJHX1ZNUE1iY2VGZjdlUHVEdA?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-06-06T07:00:00.000Z",
-      "discoveredAt": "2026-09-29T16:28:49.654Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "1521855c24d",
-      "title": "India's energy transition is not just about solar and wind. Biomass has the potential to play a major role in reducing coal dependency, utilizing agricultural residue, creating rural employment, and supporting a cleaner future. At AVYAYA INDUSTRIES PVT LTD, - LinkedIn",
-      "summary": "India's energy transition is not just about solar and wind. Biomass has the potential to play a major role in reducing coal dependency, utilizing agricultural residue, creating rural employment, and supporting a cleaner future. At AVYAYA INDUSTRIES PVT LTD, LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORmZSZEFRejZ5bDBJcnF1dEJ4VHl6di1WT3ZGOGtNRGVOX1BTcFF5MHFibklHejBLSENjbGVpVGRuNmx2eXdwS0tPZzRGNVplc3RlODJEcEpBNDdEcllWMHd1X29NX0FEb1ZzMFQ4dTBPRjFFRlVLTmR6R3dqWDlQX2xaSE1Lcnl1c0JVbENkNnF0RXF4Yk5TanhGNGhyVzl0OE1pSUVzRU9BUzAtOEVJMnZ5cXU3bVhvMVFVMlBMRlZzR0U2cnJZMFhnNA?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-06-06T07:00:00.000Z",
-      "discoveredAt": "2026-10-23T19:36:21.824Z",
       "channel": "linkedin",
       "isNew": false
     }
