@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-25T04:06:33.208Z",
-  "crawlDurationMs": 25065,
+  "updatedAt": "2026-11-25T14:53:22.320Z",
+  "crawlDurationMs": 25056,
   "stats": {
     "total": 500,
     "tenders": 182,
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "ok": false,
@@ -86,15 +86,15 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 24,
+      "count": 8,
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": null
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
       "ok": true,
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 48,
+      "count": 46,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 29,
+      "count": 26,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 60,
+      "count": 62,
       "error": null
     },
     {
@@ -5590,7 +5590,7 @@
       "publishedAt": "2026-11-23T14:02:48.000Z",
       "discoveredAt": "2026-11-25T04:06:09.118Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "087fb4dc166",
@@ -5605,7 +5605,7 @@
       "publishedAt": "2026-11-23T12:37:58.000Z",
       "discoveredAt": "2026-11-25T04:06:09.118Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "43b028e5121",
