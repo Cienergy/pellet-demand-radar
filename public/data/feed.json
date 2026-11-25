@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-25T14:53:22.320Z",
-  "crawlDurationMs": 25056,
+  "updatedAt": "2026-11-25T23:35:17.085Z",
+  "crawlDurationMs": 25043,
   "stats": {
     "total": 500,
     "tenders": 182,
@@ -8,7 +8,7 @@
     "news": 196,
     "portals": 95,
     "linkedin": 359,
-    "newThisCrawl": 55,
+    "newThisCrawl": 48,
     "withCompany": 145
   },
   "sources": [
@@ -34,11 +34,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "HPGCL tenders",
       "query": null,
       "count": 0,
-      "error": "fetch failed"
+      "error": null
     },
     {
       "ok": false,
@@ -90,11 +90,11 @@
       "error": null
     },
     {
-      "ok": false,
+      "ok": true,
       "label": "Bing · pellet tenders",
       "query": "\"biomass pellet\" (tender OR NIT OR \"notice inviting\" OR e-tender OR procurement) India",
       "count": 0,
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+      "error": null
     },
     {
       "ok": true,
@@ -128,28 +128,28 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 46,
+      "count": 52,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 26,
+      "count": 37,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 62,
+      "count": 44,
       "error": null
     },
     {
       "ok": true,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 6,
+      "count": 7,
       "error": null
     },
     {
@@ -1436,7 +1436,7 @@
       "summary": "India Biomass Market Analysis 2026–2034: Key Growth Drivers, Emerging Opportunities & Outlook LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMVA0REJxamRpQXp5M0Rvbld0YnVGaU1IamFyY2NRMWJfUF9vM2tHLXRZWHpXVnZLSEJjeVFLYlFHT1E1OGMzLW5wLVE1bHEySDdvQjRkTjJXXzY1bGhjdGJ3SkVpdHdKbHRqb1l6blFHUWJ2d1ZPRWdOWllQYXpMREIwc3lFbWFSYlB6ZEFhUDI2Z05wTGJaSTNUQ0dSRFNXNkhF?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -2653,7 +2653,7 @@
       "summary": "Dharmesh Kumar kewat - Energy Transition and Sustainability| Power Utilities | Public & Climate Policy| Biofuels & Biomass Markets |Biomass Cofiring | ESG | Industrial Decarbonization | Stakeholder Engagement | Government Advisory LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5VWVVoMHl5V3I5dkJIN3J0UDZ5SWlxU2ZGTkRIektoS1hRWDNQVkZQNHlkd0xjMHlfLUJIUzhfWFBHSmd4UHRleEpoampuZw?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [],
       "score": 77,
@@ -3415,7 +3415,7 @@
       "summary": "Satish Upadhyay - Director General, Centre of Sustainability for Pure Earth | Chairperson, Biomass Global Associates Forum IFGE | Hydro Energy | Thermal Power | Bioenergy | Fuel management | Quality Assurance & Audits |Project Management LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE94NzJQNlVhNTROOG1EUmplUld1c3JTZHk2aC12cDAtYm5NVEZHQ0JnRjZVckVDb1JQUG5pMXZVNmFLNUxPaTNvMVRycjdpMnc?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 74,
@@ -4269,7 +4269,7 @@
       "summary": "Before You Invest in Biomass Pellet Manufacturing: A Practical Guide for Farmers and B2B Buyers LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWlBHYlU3SmxrYzJSUExTNWI2UVVCWTV4N0I2amthRnpWMzUwNVFHZDRUenowZkZybkJEbXN5c3d1TmJkeHI0Z0RZZTYyNmEtenZSY1pfUURfcTVyQlFCUjFDNUFBMkFNWlBEa3hUUkhOcDg2NDhCTmFhdnVVWi1SVU03Tlp5S0lLRUY2UVhxbFowaTZxNGFSMA?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -4614,7 +4614,7 @@
       "summary": "Maqbul Paleja - Founder – MM Overseas | Biomass Briquettes & Pellets | Rice, Sugar, Salt & Minerals | Import & Export | Global Sourcing & Supply LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9hUkZSaTNvREdabHMyZUxSVHFYV1JrN0tFWTlhczFSUjE0NVdkc1NHRUdkSzZsVDBIWGM4Qi1laHJpQnU4dDdzdUxFLWlXc1RWUU1sOVdUQXh3YlQzczU0?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -5576,6 +5576,21 @@
       "discoveredAt": "2026-10-19T17:44:33.519Z",
       "channel": "portal",
       "isNew": false
+    },
+    {
+      "id": "1619c414149",
+      "title": "Ring Die Pellet Machine Market: Business Expansion and Competitive Strategies - LinkedIn",
+      "summary": "Ring Die Pellet Machine Market: Business Expansion and Competitive Strategies LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNam1YUGhMVnpqbXZzUk8tZ096N2p3bllXMDJWS1FkbWE5MlBuN05WNTBfUy13Q0lKVTVkZDVnX1pqRmRsNmo1US1Uc1pjS2ZMSmxxSUtzN0xuME5SNUhiWGY3Z0ZMTFgzN0lPZU85dFVzUXJzeURXSzBaTE5mVlU5UlZfTUZXV3JKdnpoZjlUOA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-11-24T17:30:31.000Z",
+      "discoveredAt": "2026-11-25T23:34:54.720Z",
+      "channel": "linkedin",
+      "isNew": true
     },
     {
       "id": "1c921f6012d",
@@ -8021,21 +8036,6 @@
       "score": 70,
       "publishedAt": "2026-06-08T07:00:00.000Z",
       "discoveredAt": "2026-10-06T10:44:54.320Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "7024d27b18e",
-      "title": "Biomass Wood Pellets, Briquettes & Pellet Burners | Rohit Exergy India - LinkedIn",
-      "summary": "Biomass Wood Pellets, Briquettes & Pellet Burners | Rohit Exergy India LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQR1Y0c3RJX2FZQjF6QzRTaTJlYlFmejN3TFNWdkRSdUszZHlaMVhtVXc0eEpKWm9KRjBNT0o1YlZwN2JFcWVOc2JvRGxrY3NSZi1GeldEaHZ4XzdoNDBrWlk4eVRKZndOZHMxa3hma2F2ekdCdFJ3bk56SnJjVWRfUnl6cjdwLWRIVVhYV0Z4V0RwSHZETC1VVzJWblN5QmU2SUdGa3NNSDB5ZFhabTYtOUhJMEJFSTJHX1ZNUE1iY2VGZjdlUHVEdA?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-06-06T07:00:00.000Z",
-      "discoveredAt": "2026-09-27T06:33:12.437Z",
       "channel": "linkedin",
       "isNew": false
     }
