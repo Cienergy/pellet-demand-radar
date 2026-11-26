@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-26T05:28:42.129Z",
-  "crawlDurationMs": 25091,
+  "updatedAt": "2026-11-26T15:43:41.469Z",
+  "crawlDurationMs": 25049,
   "stats": {
     "total": 500,
     "tenders": 182,
@@ -8,7 +8,7 @@
     "news": 196,
     "portals": 95,
     "linkedin": 359,
-    "newThisCrawl": 51,
+    "newThisCrawl": 48,
     "withCompany": 145
   },
   "sources": [
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 8,
+      "count": 7,
       "error": null
     },
     {
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 44,
+      "count": 46,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 37,
+      "count": 31,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 45,
+      "count": 44,
       "error": null
     },
     {
@@ -6493,6 +6493,21 @@
       "isNew": false
     },
     {
+      "id": "2a5a7150278",
+      "title": "𝗙𝗿𝗼𝗺 𝗜𝗻𝗮𝘂𝗴𝘂𝗿𝗮𝘁𝗶𝗼𝗻 𝘁𝗼 𝗢𝗽𝗲𝗿𝗮𝘁𝗶𝗼𝗻: 𝗔 𝗖𝗹𝗼𝘀𝗲𝗿 𝗟𝗼𝗼𝗸 𝗮𝘁 𝗢𝘂𝗿 𝟴𝟬 𝗧𝗣𝗗 𝗣𝗲𝗹𝗹𝗲𝘁 𝗣𝗹𝗮𝗻𝘁 𝗶𝗻 𝗥𝗲𝘄𝗮𝗿𝗶, 𝗛𝗮𝗿𝘆𝗮𝗻𝗮 We recently shared the inauguration of this 80 TPD biomass pellet plant in Rewari, Haryana. Now, here’s a closer l",
+      "summary": "𝗙𝗿𝗼𝗺 𝗜𝗻𝗮𝘂𝗴𝘂𝗿𝗮𝘁𝗶𝗼𝗻 𝘁𝗼 𝗢𝗽𝗲𝗿𝗮𝘁𝗶𝗼𝗻: 𝗔 𝗖𝗹𝗼𝘀𝗲𝗿 𝗟𝗼𝗼𝗸 𝗮𝘁 𝗢𝘂𝗿 𝟴𝟬 𝗧𝗣𝗗 𝗣𝗲𝗹𝗹𝗲𝘁 𝗣𝗹𝗮𝗻𝘁 𝗶𝗻 𝗥𝗲𝘄𝗮𝗿𝗶, 𝗛𝗮𝗿𝘆𝗮𝗻𝗮 We recently shared the inauguration of this 80 TPD biomass pellet plant in Rewari, Haryana. Now, here’s a closer look at wha LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTUZmcm1kb3BLNWN3eERieTNxOFU2VjhsYXIxZVBndmF5OFhoMlJhYnlxem9Nc3J2RG93V1BLSzRqdGxoa2pCaWJuMWNBdUZQaHVVVUprcE15RXJkS285U2FKMzBkUnJkZ0dvSWljNG9sR0hfSGxxdWxOTktQYm8zMjIwRlhTUk5lV3pSckZRMzh6eEp5V0dhQUlJd3BEb1dmenBRbkxDdVlOS1lmZmNUc2E5ZkREaXV5X1hWdXJLMVoxMUNBamVmUFdZMVVRLWxYdTNj?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-25T07:00:00.000Z",
+      "discoveredAt": "2026-11-26T15:43:17.654Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "678faa12235",
       "title": "🌍 PROVEG MULTIPURPOSE BIOMASS ROTARY DRYER Engineered in India | Designed for Global Biomass Processing Proveg Engineering Group presents its Multipurpose Biomass Rotary Dryer Series — a heavy-duty industrial drying solution designed fo - LinkedIn",
       "summary": "🌍 PROVEG MULTIPURPOSE BIOMASS ROTARY DRYER Engineered in India | Designed for Global Biomass Processing Proveg Engineering Group presents its Multipurpose Biomass Rotary Dryer Series — a heavy-duty industrial drying solution designed fo LinkedIn",
@@ -8021,21 +8036,6 @@
       "score": 70,
       "publishedAt": "2026-06-08T07:00:00.000Z",
       "discoveredAt": "2026-09-20T00:54:13.747Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "37edcd68107",
-      "title": "Biomass Feedstock Reality - linkedin.com",
-      "summary": "Biomass Feedstock Reality linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOURwcGJhbjlNWEJ6SGl2eFp3SVBManNHY21sZHN4cVBJVzFsVEZkQWVZV2ZtX0hZRE9ld01hTklUcnU2SVZyMDMteWdyRm5mcUFwcFU4b2VCYkVLNHIxXzFLQzFkaGNIdlVHaFhKaXFIRGdhRTMwWlhHWlZ5SE9hak1n?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-06-08T07:00:00.000Z",
-      "discoveredAt": "2026-10-06T10:44:54.320Z",
       "channel": "linkedin",
       "isNew": false
     }
