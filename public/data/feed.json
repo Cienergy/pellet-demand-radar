@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-27T00:32:07.188Z",
-  "crawlDurationMs": 25050,
+  "updatedAt": "2026-11-27T09:02:15.553Z",
+  "crawlDurationMs": 25044,
   "stats": {
     "total": 500,
     "tenders": 182,
@@ -8,7 +8,7 @@
     "news": 196,
     "portals": 95,
     "linkedin": 359,
-    "newThisCrawl": 62,
+    "newThisCrawl": 52,
     "withCompany": 145
   },
   "sources": [
@@ -45,7 +45,7 @@
       "label": "GSECL tenders",
       "query": null,
       "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "error": "fetch failed"
     },
     {
       "ok": true,
@@ -76,11 +76,11 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Google · live NITs",
       "query": "(\"biomass pellet\" OR \"agro residue based pellet\" OR \"torrefied biomass\") (NIT OR \"Notice Inviting Tender\" OR \"e-Tender\" OR \"GeM bid\" OR EOI) India -market -forecast -\"market size\"",
-      "count": 1,
-      "error": null
+      "count": 0,
+      "error": "Status code 429"
     },
     {
       "ok": true,
@@ -128,29 +128,29 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 52,
+      "count": 56,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 36,
+      "count": 37,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 64,
+      "count": 46,
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Pellet NITs IN",
       "query": "(\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\") (tender OR NIT OR \"e-tender\" OR EOI OR procurement) India -forecast -\"market size\"",
-      "count": 6,
-      "error": null
+      "count": 0,
+      "error": "Status code 429"
     },
     {
       "ok": true,
@@ -167,18 +167,18 @@
       "error": null
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "Cement / power buyers",
       "query": "(\"Tata Power\" OR \"Adani Power\" OR \"JSW Energy\" OR UltraTech OR Dalmia) (pellet OR biomass) (tender OR purchase OR procure OR requirement)",
       "count": 0,
-      "error": null
+      "error": "Status code 429"
     },
     {
-      "ok": true,
+      "ok": false,
       "label": "GeM / eProcure mentions",
       "query": "(GeM OR eprocure OR \"Central Public Procurement\") (\"biomass pellet\" OR \"agro residue\") (bid OR tender)",
       "count": 0,
-      "error": null
+      "error": "Status code 429"
     }
   ],
   "watchCompanies": [
@@ -1436,7 +1436,7 @@
       "summary": "India Biomass Market Analysis 2026–2034: Key Growth Drivers, Emerging Opportunities & Outlook LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMVA0REJxamRpQXp5M0Rvbld0YnVGaU1IamFyY2NRMWJfUF9vM2tHLXRZWHpXVnZLSEJjeVFLYlFHT1E1OGMzLW5wLVE1bHEySDdvQjRkTjJXXzY1bGhjdGJ3SkVpdHdKbHRqb1l6blFHUWJ2d1ZPRWdOWllQYXpMREIwc3lFbWFSYlB6ZEFhUDI2Z05wTGJaSTNUQ0dSRFNXNkhF?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -2465,7 +2465,7 @@
       "summary": "Biomass Pellet Plant Business 2026 LIVE | खेती के Waste से Pellet बनाएं | NTPC Tender Apply LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNG02eEJUQVU4cE9ldnhIQnBwZnQzSDhTZG5LLUxuY0gyaTdLNWJ1MHdqeVMxR1Q4d0hQYUhVZG9zQUhVNnlyRE11UkhiN0cyTi1wbVVyY0NxZnRpbHQ0a1pYZlRKODB0amN2bTg4M2pzSXM2OFpqbWtMamMzSm4xWWt1SHJ5VFhsX0VwZHhLUUgtWmtxWTVBdWs1R2lobmotNndiY1RCRnZyT29OYVdWTE5hcVJZRlFnbTlyUlVuZTFVT1hO?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "tender",
       "companies": [
         "NTPC"
@@ -2653,7 +2653,7 @@
       "summary": "Dharmesh Kumar kewat - Energy Transition and Sustainability| Power Utilities | Public & Climate Policy| Biofuels & Biomass Markets |Biomass Cofiring | ESG | Industrial Decarbonization | Stakeholder Engagement | Government Advisory LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5VWVVoMHl5V3I5dkJIN3J0UDZ5SWlxU2ZGTkRIektoS1hRWDNQVkZQNHlkd0xjMHlfLUJIUzhfWFBHSmd4UHRleEpoampuZw?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "tender",
       "companies": [],
       "score": 77,
@@ -3698,7 +3698,7 @@
       "summary": "Yesterday, 9th January, I had the opportunity to attend a seminar organized by the Samarth Mission and the Ministry of Power, where I was invited as a guest speaker to share insights on co-firing of torrefied biomass and torrefied charcoal derived from MSW. T LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOa2RlalZuaHRkcEJOUnhNbnRlWTRhSzU0REhUNXpidmM1dUtkTXJ4ZjQ0SmZKeWtqb2hIczlpY2R5eGd3d1plU01uRm05clJGcGVKY1VkcUgza1lHYlVDRVk5VnlVa1FDUGpSaGJDeDZJYmFxeUlLQjM5MTBBNTdmc1dKUmxSbUdGUEUwbWpscEdrU2lOSUhxeHdIOEJmMUpWZW1WdHdJMERwZ1oycWlSWmNQRUhXd05UZnNFc3J5TGI2UUFTZk1Cb20yOGlGbzg?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · utilities",
       "type": "purchase",
       "companies": [],
       "score": 93,
@@ -4269,7 +4269,7 @@
       "summary": "Before You Invest in Biomass Pellet Manufacturing: A Practical Guide for Farmers and B2B Buyers LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWlBHYlU3SmxrYzJSUExTNWI2UVVCWTV4N0I2amthRnpWMzUwNVFHZDRUenowZkZybkJEbXN5c3d1TmJkeHI0Z0RZZTYyNmEtenZSY1pfUURfcTVyQlFCUjFDNUFBMkFNWlBEa3hUUkhOcDg2NDhCTmFhdnVVWi1SVU03Tlp5S0lLRUY2UVhxbFowaTZxNGFSMA?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "sourceLabel": "LinkedIn news · pellet demand",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -5590,7 +5590,7 @@
       "publishedAt": "2026-11-25T08:52:41.000Z",
       "discoveredAt": "2026-11-27T00:31:44.147Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1619c414149",
@@ -6298,6 +6298,21 @@
       "isNew": false
     },
     {
+      "id": "2c9be82926e",
+      "title": "𝐀 𝐩𝐥𝐚𝐧𝐭 𝐢𝐬 𝐛𝐮𝐢𝐥𝐭 𝐰𝐢𝐭𝐡 𝐦𝐚𝐜𝐡𝐢𝐧𝐞𝐫𝐲. 𝐀 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 𝐩𝐥𝐚𝐧𝐭 𝐢𝐬 𝐛𝐮𝐢𝐥𝐭 𝐰𝐢𝐭𝐡 𝐭𝐡𝐞 𝐫𝐢𝐠𝐡𝐭 𝐠𝐮𝐢𝐝𝐚𝐧𝐜𝐞. We first shared the inauguration of the 80 TPD Biomass Pellet Plant in Rewari, Haryana. Then, we showed you the plant in oper",
+      "summary": "𝐀 𝐩𝐥𝐚𝐧𝐭 𝐢𝐬 𝐛𝐮𝐢𝐥𝐭 𝐰𝐢𝐭𝐡 𝐦𝐚𝐜𝐡𝐢𝐧𝐞𝐫𝐲. 𝐀 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 𝐩𝐥𝐚𝐧𝐭 𝐢𝐬 𝐛𝐮𝐢𝐥𝐭 𝐰𝐢𝐭𝐡 𝐭𝐡𝐞 𝐫𝐢𝐠𝐡𝐭 𝐠𝐮𝐢𝐝𝐚𝐧𝐜𝐞. We first shared the inauguration of the 80 TPD Biomass Pellet Plant in Rewari, Haryana. Then, we showed you the plant in operation. LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOERUUDFjcUNMSzF4SXRZNnRfbU9vbE9fcC1EcUFkRVBOQmxDVFVCOWFLNUxFUGktQlVjaDM4VmV3b2laV3VhSEQ5N0hZNkI5N0ZvRVBzaWVyam90bkVkZjZPVGg1YmN4ZW01S25URDRCTVpxYklfelNUMGtxd3pyaFdGWFJuRFp3enk4dkY1dVd5aWFxNjV1LTlzaDZ0bXBOSEJTSjNnOEdPSlZMUGl0bklTd2lPeXRKUV9xQm5CZkpaXy1pWHU4a1hJeGlMdw?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-29T07:00:00.000Z",
+      "discoveredAt": "2026-11-27T09:01:51.977Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "0834c836161",
       "title": "Europe Needs More Wood Pellets. Brazil Is Already Supplying Them - linkedin.com",
       "summary": "Europe Needs More Wood Pellets. Brazil Is Already Supplying Them linkedin.com",
@@ -6513,7 +6528,7 @@
       "summary": "𝗙𝗿𝗼𝗺 𝗜𝗻𝗮𝘂𝗴𝘂𝗿𝗮𝘁𝗶𝗼𝗻 𝘁𝗼 𝗢𝗽𝗲𝗿𝗮𝘁𝗶𝗼𝗻: 𝗔 𝗖𝗹𝗼𝘀𝗲𝗿 𝗟𝗼𝗼𝗸 𝗮𝘁 𝗢𝘂𝗿 𝟴𝟬 𝗧𝗣𝗗 𝗣𝗲𝗹𝗹𝗲𝘁 𝗣𝗹𝗮𝗻𝘁 𝗶𝗻 𝗥𝗲𝘄𝗮𝗿𝗶, 𝗛𝗮𝗿𝘆𝗮𝗻𝗮 We recently shared the inauguration of this 80 TPD biomass pellet plant in Rewari, Haryana. Now, here’s a closer look at wha LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTUZmcm1kb3BLNWN3eERieTNxOFU2VjhsYXIxZVBndmF5OFhoMlJhYnlxem9Nc3J2RG93V1BLSzRqdGxoa2pCaWJuMWNBdUZQaHVVVUprcE15RXJkS285U2FKMzBkUnJkZ0dvSWljNG9sR0hfSGxxdWxOTktQYm8zMjIwRlhTUk5lV3pSckZRMzh6eEp5V0dhQUlJd3BEb1dmenBRbkxDdVlOS1lmZmNUc2E5ZkREaXV5X1hWdXJLMVoxMUNBamVmUFdZMVVRLWxYdTNj?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "news",
       "companies": [],
       "score": 70,
@@ -6879,6 +6894,21 @@
       "score": 70,
       "publishedAt": "2026-09-19T07:00:00.000Z",
       "discoveredAt": "2026-10-28T22:49:46.098Z",
+      "channel": "linkedin",
+      "isNew": false
+    },
+    {
+      "id": "14f9dfd624d",
+      "title": "A pellet plant is not just a collection of machines. It is an idea that has to become a working production system. And that journey comes together on a day like this. We are proud to share the inauguration of an 80 TPD Biomass Pellet Plant in Rewari, Haryana, d - LinkedIn",
+      "summary": "A pellet plant is not just a collection of machines. It is an idea that has to become a working production system. And that journey comes together on a day like this. We are proud to share the inauguration of an 80 TPD Biomass Pellet Plant in Rewari, Haryana, d LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNnF4WU5DcHZXNmlGYy1OcEhVOE5IVURuZ2dsRF9lNEh3eng1VlRpNGt2bUhneXF2OGtBRzVDTjVhcDZDNzRSWUlsSnNsNU4zNF8ySGNOWVpRQl94cW5TeUJkNmVLV0RYM19WRGZxZUROSFBDcVkxNUhHZ1RQbW1SRmo4MURkVFlmVFRGSmtBZU1GMjBmVk8yV1NCNmV3d3hjbXYxSTVnM3JBZFBJVkk5LXl2Z0Z6UnBzNjNTSnlTdV9WeTZrMFFVUA?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-09-19T07:00:00.000Z",
+      "discoveredAt": "2026-11-27T09:01:51.976Z",
       "channel": "linkedin",
       "isNew": false
     },
@@ -7992,7 +8022,7 @@
       "publishedAt": "2026-06-19T07:00:00.000Z",
       "discoveredAt": "2026-11-27T00:31:43.173Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "13adfe3024d",
@@ -8006,36 +8036,6 @@
       "score": 70,
       "publishedAt": "2026-06-11T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:27.215Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "463d3bdd251",
-      "title": "🌱 Madhya Pradesh’s Growing Biomass Pellet Success Story 🏆 Proveg Engineering Successfully Installed 20+ Biomass Pellet Plants Across Madhya Pradesh We are proud to announce that Proveg Engineering & Food Processing Pvt. Ltd. has successfully est - linkedin.com",
-      "summary": "🌱 Madhya Pradesh’s Growing Biomass Pellet Success Story 🏆 Proveg Engineering Successfully Installed 20+ Biomass Pellet Plants Across Madhya Pradesh We are proud to announce that Proveg Engineering & Food Processing Pvt. Ltd. has successfully est linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWkJkQmdwSDNieG10M09QT2Z3ZXd3NktER2ctRGlMM1h0RTZWV2JNMl9GVUhScFU5MVN5TC1FTi1pVlJFamJaUHV2MHR1S2FNd2E4RGlteVR5NC1ONkFWTWEyRmx6eURSYWlNSG9jdHg0ZUNWangyVWxEYVZ3T0hSYm1sUjY3VVlPbDRCMW5ab2VWR3JZWTN5SWZnNjRtcGtLYVZRLUJIeV9EaWhwT1J5UEhWY2diOVVoUHJHdU0wMDdzbzVRaFlpZ3lSVkozWTZoOUdN?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-06-11T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.428Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "57cee61124c",
-      "title": "🌾 Chhattisgarh’s Biomass Revolution: 50+ Plants in Just 18 Months 🏆 A Proud Milestone for Proveg Engineering Group We are delighted to announce that Proveg Engineering & Food Processing Pvt. Ltd. has successfully installed 50+ Biomass Pellet Plants a - LinkedIn",
-      "summary": "🌾 Chhattisgarh’s Biomass Revolution: 50+ Plants in Just 18 Months 🏆 A Proud Milestone for Proveg Engineering Group We are delighted to announce that Proveg Engineering & Food Processing Pvt. Ltd. has successfully installed 50+ Biomass Pellet Plants a LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZEs5UXhySzJFR0dKdEdPTDdBY2F0cG9faXlhZGlsSl9ITi1pdzJmc1FTb3J1WmFaN0tmRjJBMTZOSDMxdnRjMGNudWxXYk56ZWtEZXhXdTdRLVo3RURPUHM4TGlTVmhtVTJyaGRuUzBJTG80YzhqeDFpT1JjV3hTa2xuSVZ6aUh0WlVtM0NlZjBJaElHWm9WWE1wSFRkclRTcUdNQ1N0azVtSGIydUpUeWlLa3FwcDlrM3FxVWtVMXpHbVdaZWVCY3ZwOXdRUQ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-06-10T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T06:10:27.214Z",
       "channel": "linkedin",
       "isNew": false
     }
