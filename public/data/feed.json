@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-26T15:43:41.469Z",
-  "crawlDurationMs": 25049,
+  "updatedAt": "2026-11-27T00:32:07.188Z",
+  "crawlDurationMs": 25050,
   "stats": {
     "total": 500,
     "tenders": 182,
@@ -8,7 +8,7 @@
     "news": 196,
     "portals": 95,
     "linkedin": 359,
-    "newThisCrawl": 48,
+    "newThisCrawl": 62,
     "withCompany": 145
   },
   "sources": [
@@ -86,7 +86,7 @@
       "ok": true,
       "label": "Google · utility buys",
       "query": "(NTPC OR PSPCL OR Mahagenco OR HPGCL OR GSECL OR \"Tata Power\" OR \"Adani Power\") (pellet) (tender OR procurement OR \"invite bids\" OR EOI)",
-      "count": 7,
+      "count": 8,
       "error": null
     },
     {
@@ -128,21 +128,21 @@
       "ok": true,
       "label": "LinkedIn news · pellet demand",
       "query": "site:linkedin.com (\"biomass pellet\" OR \"agro residue pellet\" OR \"torrefied pellet\" OR \"wood pellet\") (tender OR procurement OR purchase OR requirement OR offtake OR \"looking for\" OR supplier) India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 46,
+      "count": 52,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · utilities",
       "query": "site:linkedin.com (NTPC OR PSPCL OR Mahagenco OR \"Tata Power\" OR \"Adani Power\" OR UltraTech OR Dalmia) (pellet OR \"biomass co-firing\" OR \"agro residue\") (tender OR buy OR procure OR requirement) OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 31,
+      "count": 36,
       "error": null
     },
     {
       "ok": true,
       "label": "LinkedIn news · sellers seeking buyers",
       "query": "site:linkedin.com (\"biomass pellets\" OR \"paddy straw pellets\") (available OR supply OR \"can supply\" OR \"seeking buyers\" OR \"invite enquiry\") India OR (linkedin.com (\"biomass pellet\" OR \"agro residue pellet\"))",
-      "count": 44,
+      "count": 64,
       "error": null
     },
     {
@@ -1436,7 +1436,7 @@
       "summary": "India Biomass Market Analysis 2026–2034: Key Growth Drivers, Emerging Opportunities & Outlook LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMVA0REJxamRpQXp5M0Rvbld0YnVGaU1IamFyY2NRMWJfUF9vM2tHLXRZWHpXVnZLSEJjeVFLYlFHT1E1OGMzLW5wLVE1bHEySDdvQjRkTjJXXzY1bGhjdGJ3SkVpdHdKbHRqb1l6blFHUWJ2d1ZPRWdOWllQYXpMREIwc3lFbWFSYlB6ZEFhUDI2Z05wTGJaSTNUQ0dSRFNXNkhF?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 90,
@@ -2653,7 +2653,7 @@
       "summary": "Dharmesh Kumar kewat - Energy Transition and Sustainability| Power Utilities | Public & Climate Policy| Biofuels & Biomass Markets |Biomass Cofiring | ESG | Industrial Decarbonization | Stakeholder Engagement | Government Advisory LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5VWVVoMHl5V3I5dkJIN3J0UDZ5SWlxU2ZGTkRIektoS1hRWDNQVkZQNHlkd0xjMHlfLUJIUzhfWFBHSmd4UHRleEpoampuZw?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · utilities",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "tender",
       "companies": [],
       "score": 77,
@@ -4269,7 +4269,7 @@
       "summary": "Before You Invest in Biomass Pellet Manufacturing: A Practical Guide for Farmers and B2B Buyers LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWlBHYlU3SmxrYzJSUExTNWI2UVVCWTV4N0I2amthRnpWMzUwNVFHZDRUenowZkZybkJEbXN5c3d1TmJkeHI0Z0RZZTYyNmEtenZSY1pfUURfcTVyQlFCUjFDNUFBMkFNWlBEa3hUUkhOcDg2NDhCTmFhdnVVWi1SVU03Tlp5S0lLRUY2UVhxbFowaTZxNGFSMA?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -4614,7 +4614,7 @@
       "summary": "Maqbul Paleja - Founder – MM Overseas | Biomass Briquettes & Pellets | Rice, Sugar, Salt & Minerals | Import & Export | Global Sourcing & Supply LinkedIn India",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9hUkZSaTNvREdabHMyZUxSVHFYV1JrN0tFWTlhczFSUjE0NVdkc1NHRUdkSzZsVDBIWGM4Qi1laHJpQnU4dDdzdUxFLWlXc1RWUU1sOVdUQXh3YlQzczU0?oc=5",
       "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
       "type": "purchase",
       "companies": [],
       "score": 73,
@@ -5578,6 +5578,21 @@
       "isNew": false
     },
     {
+      "id": "1c1a1ac0277",
+      "title": "𝗛𝗶𝗴𝗵𝗹𝗶𝗴𝗵𝘁𝘀 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗕𝗶𝗼𝗺𝗮𝘀𝘀 𝗗𝗲𝗻𝘀𝗶𝗳𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝗪𝗼𝗿𝗸𝘀𝗵𝗼𝗽 - 𝗣𝗮𝗿𝘁 𝟮𝟯 𝗖𝗮𝗻 𝗮𝗴𝗿𝗶𝗰𝘂𝗹𝘁𝘂𝗿𝗮𝗹 𝗿𝗲𝘀𝗶𝗱𝘂𝗲 𝗽𝗹𝗮𝘆 𝗮 𝗯𝗶𝗴𝗴𝗲𝗿 𝗿𝗼𝗹𝗲 𝗶𝗻 𝗽𝗼𝘄𝗲𝗿𝗶𝗻𝗴 𝗜𝗻𝗱𝗶𝗮? In Part 23 of our Biomass Densification Workshop seri",
+      "summary": "𝗛𝗶𝗴𝗵𝗹𝗶𝗴𝗵𝘁𝘀 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗕𝗶𝗼𝗺𝗮𝘀𝘀 𝗗𝗲𝗻𝘀𝗶𝗳𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝗪𝗼𝗿𝗸𝘀𝗵𝗼𝗽 - 𝗣𝗮𝗿𝘁 𝟮𝟯 𝗖𝗮𝗻 𝗮𝗴𝗿𝗶𝗰𝘂𝗹𝘁𝘂𝗿𝗮𝗹 𝗿𝗲𝘀𝗶𝗱𝘂𝗲 𝗽𝗹𝗮𝘆 𝗮 𝗯𝗶𝗴𝗴𝗲𝗿 𝗿𝗼𝗹𝗲 𝗶𝗻 𝗽𝗼𝘄𝗲𝗿𝗶𝗻𝗴 𝗜𝗻𝗱𝗶𝗮? In Part 23 of our Biomass Densification Workshop series, we explore the pr LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVE1CaUs0QUFkb2tWdTFlWmZicjduSUhQWEZDaTlZanFEdjJEejhIUTFyTi0zQWMzWm12a0t3WGhEV2ZTb2ZsNV9DS1dBSVNRU0pfRVg0SDhSVDM5V1Fha19wT3lyaXJHZ3ZtLWVJOXc3UW8xMklOQndDLWVsM0FpNWtnbkZDblRCVHNDWkpCZ1ktdEhfeGxNS01mUnlIeE1wc2pUQTdoTnNLRS1lN1pNNkw3LVpEVnRkUWRjNk03WE5VS1U0YmU2Yk1n?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · sellers seeking buyers",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-11-25T08:52:41.000Z",
+      "discoveredAt": "2026-11-27T00:31:44.147Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "1619c414149",
       "title": "Ring Die Pellet Machine Market: Business Expansion and Competitive Strategies - LinkedIn",
       "summary": "Ring Die Pellet Machine Market: Business Expansion and Competitive Strategies LinkedIn",
@@ -6505,7 +6520,7 @@
       "publishedAt": "2026-09-25T07:00:00.000Z",
       "discoveredAt": "2026-11-26T15:43:17.654Z",
       "channel": "linkedin",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "678faa12235",
@@ -7965,6 +7980,21 @@
       "isNew": false
     },
     {
+      "id": "2d780986150",
+      "title": "Why Cattle Feed Pellets Are Better Than Traditional Feed - LinkedIn",
+      "summary": "Why Cattle Feed Pellets Are Better Than Traditional Feed LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeVFZQ0tIMnR3bU5QTVl6dUliZWNZWFB1NnhrTXdCYWJwdkh1QzIzajJzemJOU21DMVhUVDRYeHRCSTRlSFA5NEMtM2hHU29IZmZyUGlZeENQM3BuVG9RcVl5dlZwUlM3M1JYbi1hWk43ZmZmYjdXS2s0RHdlOHhMMXA4emRSZ3JyLW5pTTJLVnZyelFoNGdrR0UwTnUtbWpNZHlRbQ?oc=5",
+      "source": "linkedin",
+      "sourceLabel": "LinkedIn news · pellet demand",
+      "type": "news",
+      "companies": [],
+      "score": 70,
+      "publishedAt": "2026-06-19T07:00:00.000Z",
+      "discoveredAt": "2026-11-27T00:31:43.173Z",
+      "channel": "linkedin",
+      "isNew": true
+    },
+    {
       "id": "13adfe3024d",
       "title": "🌱 Madhya Pradesh’s Growing Biomass Pellet Success Story 🏆 Proveg Engineering Successfully Installed 20+ Biomass Pellet Plants Across Madhya Pradesh We are proud to announce that Proveg Engineering & Food Processing Pvt. Ltd. has successfully est - LinkedIn",
       "summary": "🌱 Madhya Pradesh’s Growing Biomass Pellet Success Story 🏆 Proveg Engineering Successfully Installed 20+ Biomass Pellet Plants Across Madhya Pradesh We are proud to announce that Proveg Engineering & Food Processing Pvt. Ltd. has successfully est LinkedIn",
@@ -8006,36 +8036,6 @@
       "score": 70,
       "publishedAt": "2026-06-10T07:00:00.000Z",
       "discoveredAt": "2026-09-19T06:10:27.214Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "3df54b3e250",
-      "title": "🌾 Chhattisgarh’s Biomass Revolution: 50+ Plants in Just 18 Months 🏆 A Proud Milestone for Proveg Engineering Group We are delighted to announce that Proveg Engineering & Food Processing Pvt. Ltd. has successfully installed 50+ Biomass Pellet Plants a - linkedin.com",
-      "summary": "🌾 Chhattisgarh’s Biomass Revolution: 50+ Plants in Just 18 Months 🏆 A Proud Milestone for Proveg Engineering Group We are delighted to announce that Proveg Engineering & Food Processing Pvt. Ltd. has successfully installed 50+ Biomass Pellet Plants a linkedin.com",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZEs5UXhySzJFR0dKdEdPTDdBY2F0cG9faXlhZGlsSl9ITi1pdzJmc1FTb3J1WmFaN0tmRjJBMTZOSDMxdnRjMGNudWxXYk56ZWtEZXhXdTdRLVo3RURPUHM4TGlTVmhtVTJyaGRuUzBJTG80YzhqeDFpT1JjV3hTa2xuSVZ6aUh0WlVtM0NlZjBJaElHWm9WWE1wSFRkclRTcUdNQ1N0azVtSGIydUpUeWlLa3FwcDlrM3FxVWtVMXpHbVdaZWVCY3ZwOXdRUQ?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · sellers seeking buyers",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-06-10T07:00:00.000Z",
-      "discoveredAt": "2026-09-19T15:47:30.427Z",
-      "channel": "linkedin",
-      "isNew": false
-    },
-    {
-      "id": "53e30d3b103",
-      "title": "Biomass Feedstock Reality - LinkedIn",
-      "summary": "Biomass Feedstock Reality LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOURwcGJhbjlNWEJ6SGl2eFp3SVBManNHY21sZHN4cVBJVzFsVEZkQWVZV2ZtX0hZRE9ld01hTklUcnU2SVZyMDMteWdyRm5mcUFwcFU4b2VCYkVLNHIxXzFLQzFkaGNIdlVHaFhKaXFIRGdhRTMwWlhHWlZ5SE9hak1n?oc=5",
-      "source": "linkedin",
-      "sourceLabel": "LinkedIn news · pellet demand",
-      "type": "news",
-      "companies": [],
-      "score": 70,
-      "publishedAt": "2026-06-08T07:00:00.000Z",
-      "discoveredAt": "2026-09-20T00:54:13.747Z",
       "channel": "linkedin",
       "isNew": false
     }
